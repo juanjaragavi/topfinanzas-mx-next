@@ -1,11 +1,33 @@
 import Link from "next/link";
 import Image from "next/image";
-import { BackToTop } from "@/components/ui/back-to-top"; // Import the new component
+import { BackToTop } from "@/components/ui/back-to-top";
+import {
+  FaFacebookF,
+  FaYoutube,
+  FaInstagram,
+  FaTiktok
+} from "react-icons/fa6";
+import { Mail, MapPin } from "lucide-react";
 
 // Import content from lib directory
 import { logos } from "@/lib/images/logos";
 import { footerNavigation } from "@/lib/navigation/footerNavigation";
 import { footerContent } from "@/lib/texts/footer/content";
+
+const SocialIcon = ({ platform }: { platform: string }) => {
+  switch (platform) {
+    case "Facebook":
+      return <FaFacebookF className="h-6 w-6" />;
+    case "YouTube":
+      return <FaYoutube className="h-6 w-6" />;
+    case "Instagram":
+      return <FaInstagram className="h-6 w-6" />;
+    case "TikTok":
+      return <FaTiktok className="h-6 w-6" />;
+    default:
+      return null;
+  }
+};
 
 export function Footer() {
   return (
@@ -80,14 +102,7 @@ export function Footer() {
                     className="text-white hover:text-[#55B9FF] transition-colors"
                     aria-label={social.ariaLabel}
                   >
-                    <svg
-                      xmlns="http://www.w3.org/2000/svg"
-                      className="h-6 w-6" // Kept h-6, could be h-5 based on screenshot but h-6 is safer touch target
-                      fill="currentColor"
-                      viewBox="0 0 24 24"
-                    >
-                      <path d={social.svgPath} />
-                    </svg>
+                    <SocialIcon platform={social.platform} />
                   </a>
                 ))}
               </div>
@@ -103,30 +118,14 @@ export function Footer() {
               {footerNavigation.contactInfo.map((contact, index) => (
                 <li
                   key={index}
-                  className={`flex ${
-                    contact.type === "address" ? "items-start" : "items-center"
-                  }`}
+                  className={`flex ${contact.type === "address" ? "items-start" : "items-center"
+                    }`}
                 >
-                  <svg
-                    className={`w-5 h-5 mr-3 ${
-                      contact.type === "address" ? "mt-1 flex-shrink-0" : ""
-                    } text-white`}
-                    fill="none"
-                    stroke="currentColor"
-                    viewBox="0 0 24 24"
-                    xmlns="http://www.w3.org/2000/svg"
-                  >
-                    {/* Note: Original had #55B9FF text color for icons, MX design implies white or matching theme */}
-                    {contact.svgPath.split("|").map((path, idx) => (
-                      <path
-                        key={idx}
-                        strokeLinecap="round"
-                        strokeLinejoin="round"
-                        strokeWidth={2}
-                        d={path}
-                      />
-                    ))}
-                  </svg>
+                  {contact.type === "email" ? (
+                    <Mail className="w-5 h-5 mr-3 text-white" />
+                  ) : (
+                    <MapPin className="w-5 h-5 mr-3 mt-1 flex-shrink-0 text-white" />
+                  )}
                   {contact.type === "email" ? (
                     <a
                       href={contact.href}
