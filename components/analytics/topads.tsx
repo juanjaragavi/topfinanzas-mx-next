@@ -41,7 +41,7 @@ export default function TopAds() {
                         '/privacy-policy',
                         '/cookie-policy',
                         '/about-us',
-                        '/contact-us',
+                        '/contactanos',
                         '/quiz'
                     ]
                 },

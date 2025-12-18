@@ -57,7 +57,7 @@ export const headerNavigation = {
     },
     {
       text: "CONTACT US",
-      href: "/contact-us",
+      href: "/contactanos",
     },
   ],
 

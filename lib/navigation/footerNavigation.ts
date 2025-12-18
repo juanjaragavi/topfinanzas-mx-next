@@ -32,7 +32,7 @@ export const footerNavigation = {
     },
     {
       text: "Contáctanos",
-      href: "/contact-us",
+      href: "/contactanos",
     },
     {
       text: "Nosotros",

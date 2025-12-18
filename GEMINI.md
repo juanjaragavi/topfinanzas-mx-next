@@ -148,6 +148,12 @@ import { CustomComponent } from "./custom-component";
 - **Date Format**: DD/MM/YYYY (Common in Mexico).
 - **Address Format**: Mexican postal system (Colonia, Alcaldía/Municipio, CP).
 
+### 2. Localization Strategy (MANDATORY)
+
+- **Route Localization**: All migrating directories and URL routes must be translated from English to Spanish (e.g., `app/contact-us` → `app/contactanos`).
+- **File Naming**: Apply this localization naming convention to all file names and folders for page migrations.
+- **Refactoring Scope**: Any renaming operation must include a site-wide search-and-replace to update all associated imports, internal links, and routing references to ensure no broken links remain.
+
 ### 2. Financial Compliance
 
 - **APR Display**: CAT (Costo Anual Total) must be prominently displayed as per Mexican regulations.
