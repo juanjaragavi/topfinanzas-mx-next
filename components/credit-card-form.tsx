@@ -14,6 +14,7 @@ import {
   BRAND_STATIC_FIELDS_LOWER,
   UTM_PARAM_KEYS,
   formStrings,
+  commonStrings,
 } from "@/lib/constants";
 import { step1Strings, step2Strings } from "@/lib/strings";
 import { pushGTMConversion } from "@/components/analytics/gtm";
@@ -73,6 +74,8 @@ export default function CreditCardForm() {
     incomeText: "", // Add a new field to store the text value
     email: "",
     firstName: "",
+    lastName: "",
+    phone: "",
     receiveMessages: false,
   });
 
@@ -270,7 +273,7 @@ export default function CreditCardForm() {
           newsletter: null,
           pais: BRAND_STATIC_FIELDS_LOWER.pais,
           marca: BRAND_STATIC_FIELDS_LOWER.marca,
-          phone_number: null,
+          phone_number: formData.phone || null,
           preferencia_1_cupo_de_credito_alto: null,
           preferencia_2_sin_buro: null,
           preferencia_3_millas_y_puntos: null,
@@ -358,7 +361,7 @@ export default function CreditCardForm() {
         if (!sheetsResponse.ok) {
           throw new Error(
             (sheetsResult as { error?: string })?.error ||
-              "Failed to add registration to sheet",
+            "Failed to add registration to sheet",
           );
         }
 
@@ -452,30 +455,32 @@ export default function CreditCardForm() {
   ]);
 
   return (
-    <div className="bg-white flex flex-col h-[100dvh]">
-      <div className="bg-[#2E74B5] py-3 px-4 flex justify-center -mb-8 flex-none">
+    <div className="bg-white flex flex-col min-h-screen">
+      {/* Header with Logo */}
+      <header className="bg-[#2E74B5] py-3 px-4 flex justify-center items-center flex-none shadow-md">
         <Logo />
-      </div>
+      </header>
 
-      <div className="relative flex-1 overflow-y-auto">
-        <AnimatePresence mode="wait">
-          <motion.div
-            key={step}
-            initial={{ opacity: 0, x: 100 }}
-            animate={{ opacity: 1, x: 0 }}
-            exit={{ opacity: 0, x: -100 }}
-            transition={{ type: "spring", stiffness: 300, damping: 30 }}
-            className="px-4 pt-10 pb-20"
-          >
-            <form onSubmit={(e) => step === totalSteps && handleSubmit(e)}>
-              {step === 1 && (
-                <Step1 formData={formData} updateFormData={updateFormData} />
-              )}
-              {step === 2 && (
-                <Step2 formData={formData} updateFormData={updateFormData} />
-              )}
-              {step === 3 && (
-                <>
+      {/* Main Content Area */}
+      <main className="flex-1 flex flex-col relative overflow-hidden">
+        <div className="px-4 pt-2 sm:pt-6 pb-2 sm:pb-12 max-w-md mx-auto w-full">
+          <AnimatePresence mode="wait">
+            <motion.div
+              key={step}
+              initial={{ opacity: 0, x: 20 }}
+              animate={{ opacity: 1, x: 0 }}
+              exit={{ opacity: 0, x: -20 }}
+              transition={{ duration: 0.3 }}
+              className="space-y-4 sm:space-y-6"
+            >
+              <form onSubmit={(e) => step === totalSteps && handleSubmit(e)}>
+                {step === 1 && (
+                  <Step1 formData={formData} updateFormData={updateFormData} />
+                )}
+                {step === 2 && (
+                  <Step2 formData={formData} updateFormData={updateFormData} />
+                )}
+                {step === 3 && (
                   <Step3
                     formData={formData}
                     updateFormData={updateFormData}
@@ -484,39 +489,17 @@ export default function CreditCardForm() {
                     submissionStatus={submissionStatus}
                     submissionMessage={submissionMessage}
                   />
-                </>
-              )}
-            </form>
-          </motion.div>
-        </AnimatePresence>
-      </div>
-
-      <div className="p-4 flex-none bg-white border-t shadow-lg">
-        <div className="w-full space-y-3 mt-2">
-          <div className="space-y-2">
-            <div className="h-2 bg-gray-200 rounded-full overflow-hidden">
-              <motion.div
-                className="h-full bg-gradient-to-r from-[#8DC63F] to-[#2E74B5]"
-                initial={{ width: 0 }}
-                animate={{ width: `${progress}%` }}
-                transition={{ duration: 0.8, ease: "easeOut" }}
-              />
-            </div>
-            <div className="text-left text-sm text-gray-600">
-              {progress}
-              {formStrings.progressBar.complete}
-              {progress < 100
-                ? formStrings.progressBar.keepItUp
-                : formStrings.progressBar.completed}
-              {isRegisteredUser && step === 2 && (
-                <div className="text-xs text-[#2E74B5] mt-1">
-                  Welcome back! We'll use your saved information.
-                </div>
-              )}
-            </div>
-          </div>
+                )}
+              </form>
+            </motion.div>
+          </AnimatePresence>
         </div>
-      </div>
+      </main>
+
+      {/* Footer */}
+      <footer className="py-4 px-4 bg-[#2E74B5] text-white text-center flex-none">
+        <p className="text-xs">{commonStrings.copyright}</p>
+      </footer>
     </div>
   );
 }

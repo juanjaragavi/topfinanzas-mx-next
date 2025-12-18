@@ -6,9 +6,9 @@ import { motion } from "framer-motion";
 export default function Logo() {
   return (
     <motion.div
-      className="relative h-16 w-16 bg-white rounded-full p-2 border-2 border-[#8DC63F] flex items-center justify-center"
-      initial={{ scale: 0, rotate: -180 }}
-      animate={{ scale: 1, rotate: 0 }}
+      className="relative h-14 w-auto flex items-center justify-center p-1"
+      initial={{ scale: 0 }}
+      animate={{ scale: 1 }}
       transition={{
         type: "spring",
         stiffness: 260,
@@ -17,11 +17,11 @@ export default function Logo() {
       }}
     >
       <Image
-        src="https://media.topfinanzas.com/images/favicon.webp"
-        alt="Top Finance Logo"
-        width={48}
-        height={48}
-        className="object-contain"
+        src="https://media.topfinanzas.com/images/TopFinanzas-favicon-color.png"
+        alt="Top Finanzas Logo"
+        width={140}
+        height={56}
+        className="object-contain h-12 w-auto"
       />
     </motion.div>
   );

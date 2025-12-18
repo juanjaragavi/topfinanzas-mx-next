@@ -6,15 +6,23 @@ export default function VisitorCounter() {
   const [count, setCount] = useState(283);
 
   useEffect(() => {
-    setCount((prevCount) => prevCount + 1);
-  }, []);
+    // Small increment logic if needed
+    const timer = setTimeout(() => {
+      setCount((prev) => prev + 1);
+    }, 5000);
+    return () => clearTimeout(timer);
+  }, [count]);
 
   return (
-    <span className="text-xs text-gray-900">
-      <span className="font-bold text-[rgb(46_116_181/var(--tw-bg-opacity,1))]">
-        {count}
-      </span>{" "}
-      successful requests today
-    </span>
+    <div className="flex items-center space-x-2">
+      <div className="border border-[#2E74B5] rounded px-3 py-1 bg-white shadow-sm ring-1 ring-[#2E74B5]/10">
+        <span className="text-xl font-bold text-[#2E74B5] tracking-widest font-mono">
+          {count}
+        </span>
+      </div>
+      <span className="text-sm text-gray-600 bg-gray-100 px-3 py-1 rounded border border-gray-300 font-medium">
+        solicitudes exitosas hoy
+      </span>
+    </div>
   );
 }

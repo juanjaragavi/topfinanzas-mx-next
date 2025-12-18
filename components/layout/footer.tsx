@@ -1,12 +1,7 @@
 import Link from "next/link";
 import Image from "next/image";
 import { BackToTop } from "@/components/ui/back-to-top";
-import {
-  FaFacebookF,
-  FaYoutube,
-  FaInstagram,
-  FaTiktok
-} from "react-icons/fa6";
+import { FaFacebookF, FaYoutube, FaInstagram, FaTiktok } from "react-icons/fa6";
 import { Mail, MapPin } from "lucide-react";
 
 // Import content from lib directory
@@ -118,8 +113,9 @@ export function Footer() {
               {footerNavigation.contactInfo.map((contact, index) => (
                 <li
                   key={index}
-                  className={`flex ${contact.type === "address" ? "items-start" : "items-center"
-                    }`}
+                  className={`flex ${
+                    contact.type === "address" ? "items-start" : "items-center"
+                  }`}
                 >
                   {contact.type === "email" ? (
                     <Mail className="w-5 h-5 mr-3 text-white" />

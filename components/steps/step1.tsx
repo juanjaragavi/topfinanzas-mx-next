@@ -26,28 +26,33 @@ export default function Step1({ formData, updateFormData }: Step1Props) {
   };
 
   return (
-    <div className="space-y-4">
+    <div className="space-y-4 sm:space-y-6">
       <ProgressIndicator step={1} />
-      <div className="text-left">
-        <h2 className="text-md font-bold text-left text-gray-950">
+
+      <div className="text-center space-y-2 sm:space-y-4">
+        <h1 className="text-xl sm:text-3xl font-bold text-[#2E74B5] leading-tight">
           {step1Strings.title}
+        </h1>
+        <p className="text-gray-700 font-bold text-sm sm:text-lg leading-tight">
+          Responde para que nuestra tecnología escoja{" "}
+          <span className="text-[#2E74B5]">
+            la mejor tarjeta de crédito para ti
+          </span>
+        </p>
+      </div>
+
+      <div className="text-center">
+        <h2 className="text-base sm:text-2xl font-bold text-gray-800 leading-tight">
+          ¿Qué es <span className="text-[#2E74B5]">lo más importante</span> en
+          una tarjeta de crédito para ti?
         </h2>
       </div>
 
-      <motion.h1
-        className="text-xl leading-tight font-bold text-left text-[#2E74B5]"
-        initial={{ opacity: 0, y: 20 }}
-        animate={{ opacity: 1, y: 0 }}
-        transition={{ delay: 0.2 }}
-      >
-        {step1Strings.question}
-      </motion.h1>
-
       <motion.div
-        className="space-y-2 mt-4"
+        className="grid grid-cols-1 sm:grid-cols-2 gap-2 sm:gap-4 mt-2 sm:mt-6"
         initial={{ opacity: 0 }}
         animate={{ opacity: 1 }}
-        transition={{ delay: 0.4, staggerChildren: 0.1 }}
+        transition={{ delay: 0.3, staggerChildren: 0.1 }}
       >
         {options.map((option, index) => (
           <OptionButton
@@ -57,20 +62,12 @@ export default function Step1({ formData, updateFormData }: Step1Props) {
             selected={selected === option.id}
             onClick={() => handleSelect(option.id)}
             delay={0.1 * index}
-            className="pregunta_1"
           />
         ))}
       </motion.div>
 
-      <div className="mt-10">
-        <div className="flex justify-center mb-4">
-          <div className="rounded-full px-6 py-2">
-            <VisitorCounter />
-          </div>
-        </div>
-        <p className="text-left text-xs text-gray-500">
-          {commonStrings.copyright}
-        </p>
+      <div className="mt-4 sm:mt-12 flex justify-center scale-75 sm:scale-100 origin-center">
+        <VisitorCounter />
       </div>
     </div>
   );

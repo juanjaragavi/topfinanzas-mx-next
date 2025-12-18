@@ -26,28 +26,20 @@ export default function Step2({ formData, updateFormData }: Step2Props) {
   };
 
   return (
-    <div className="space-y-4">
+    <div className="space-y-6 sm:space-y-8">
       <ProgressIndicator step={2} />
-      <div className="text-left">
-        <h2 className="text-md font-bold text-left text-gray-950">
-          {step2Strings.title}
-        </h2>
+
+      <div className="text-center mt-2 sm:mt-8">
+        <h1 className="text-xl sm:text-3xl font-bold text-gray-800 leading-tight">
+          ¿Cuál es tu <span className="text-[#2E74B5]">ingreso mensual?</span>
+        </h1>
       </div>
 
-      <motion.h1
-        className="text-xl leading-tight font-bold text-left text-[#2E74B5]"
-        initial={{ opacity: 0, y: 20 }}
-        animate={{ opacity: 1, y: 0 }}
-        transition={{ delay: 0.2 }}
-      >
-        {step2Strings.question}
-      </motion.h1>
-
       <motion.div
-        className="space-y-2 mt-4"
+        className="grid grid-cols-1 sm:grid-cols-2 gap-2 sm:gap-4 mt-4 sm:mt-8"
         initial={{ opacity: 0 }}
         animate={{ opacity: 1 }}
-        transition={{ delay: 0.4, staggerChildren: 0.1 }}
+        transition={{ delay: 0.3, staggerChildren: 0.1 }}
       >
         {options.map((option, index) => (
           <OptionButton
@@ -57,20 +49,12 @@ export default function Step2({ formData, updateFormData }: Step2Props) {
             selected={selected === option.id}
             onClick={() => handleSelect(option.id)}
             delay={0.1 * index}
-            className="pregunta_2"
           />
         ))}
       </motion.div>
 
-      <div className="mt-10">
-        <div className="flex justify-center mb-4">
-          <div className="rounded-full px-6 py-2">
-            <VisitorCounter />
-          </div>
-        </div>
-        <p className="text-left text-xs text-gray-500">
-          {commonStrings.copyright}
-        </p>
+      <div className="mt-6 sm:mt-16 flex justify-center scale-75 sm:scale-100 origin-center">
+        <VisitorCounter />
       </div>
     </div>
   );

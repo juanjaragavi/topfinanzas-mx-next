@@ -14,7 +14,7 @@ export const UTM_PARAM_KEYS = [
 ] as const;
 
 export const BRAND_STATIC_FIELDS = {
-  Pais: "Reino Unido",
+  Pais: "México",
   Marca: "Top Finanzas",
 } as const;
 
@@ -24,48 +24,48 @@ export const BRAND_STATIC_FIELDS_LOWER = {
 } as const;
 
 export const commonStrings = {
-  copyright: "© Top Networks Inc. 2025",
+  copyright: "© Top Networks Inc. 2024",
   important: {
-    prefix: "Important:",
+    prefix: "Importante:",
     emailVerification:
-      "please check that your email is correct so we can send you the information you need",
+      "por favor verifica que tu correo sea el correcto para poder enviarte la información que necesitas",
   },
 };
 
 export const formStrings = {
   progressBar: {
-    complete: "% complete",
-    keepItUp: ", keep going!",
+    complete: "% completado",
+    keepItUp: ", ¡sigue así!",
     completed: "!",
   },
   footer: {
     termsText:
-      "By signing up, I agree to receive text messages at the phone number and email provided and I agree that I can unsubscribe from the SMS and Email list at any time. SMS message rates may apply. I also confirm that I am over 18 years old and accept the terms set out in the",
-    termsLink: "Terms of Use",
-    and: "and",
-    privacyLink: "Privacy Policy",
+      "Al registrarme, acepto recibir mensajes de texto al número de teléfono y correo electrónico proporcionados y acepto que puedo darme de baja de la lista de SMS y correo electrónico en cualquier momento. Pueden aplicarse cargos por mensajes SMS. También confirmo que tengo más de 18 años y acepto los términos establecidos en los",
+    termsLink: "Términos de uso",
+    and: "y",
+    privacyLink: "Política de privacidad",
     disclaimer:
-      ". Important: please check that your email is correct so we can send you the information you need",
+      ". Importante: por favor verifica que tu correo sea el correcto para poder enviarte la información que necesitas",
   },
   submission: {
-    success: "Form submitted successfully!",
+    success: "¡Formulario enviado con éxito!",
   },
 };
 
 export const step3Strings = {
-  title: "Excellent!",
+  title: "¡Excelente!",
   fields: {
     email: "Email",
-    name: "First Name",
-    lastName: "Last Name",
-    phone: "Mobile",
+    name: "Nombre",
+    lastName: "Apellido",
+    phone: "Número de teléfono",
   },
-  checkbox: "I accept the data policy and terms & conditions",
-  button: "VIEW MY OPTIONS",
+  checkbox: "Acepto políticas de datos y términos y condiciones acá",
+  button: "VER OPCIONES DE TARJETA",
   placeholders: {
-    email: "example@email.com",
-    name: "Your first name",
-    lastName: "Your last name",
-    phone: "11 digits (e.g. 07123456789)",
+    email: "Email",
+    name: "Nombre",
+    lastName: "Apellido",
+    phone: "Número de teléfono",
   },
 };

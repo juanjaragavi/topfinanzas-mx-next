@@ -10,17 +10,22 @@ import { Label } from "../ui/label";
 import { step3Strings, commonStrings } from "@/lib/constants";
 import { step3Texts } from "@/lib/strings";
 import VisitorCounter from "../VisitorCounter";
+import ProgressIndicator from "../ProgressIndicator";
 
 interface Step3Props {
   formData: {
     email: string;
     firstName: string;
+    lastName: string;
+    phone: string;
     receiveMessages: boolean;
   };
   updateFormData: (
     data: Partial<{
       email: string;
       firstName: string;
+      lastName: string;
+      phone: string;
       receiveMessages: boolean;
     }>,
   ) => void;
@@ -40,16 +45,22 @@ export default function Step3({
 }: Step3Props) {
   const [email, setEmail] = useState(formData.email);
   const [firstName, setFirstName] = useState(formData.firstName);
+  const [lastName, setLastName] = useState(formData.lastName || "");
+  const [phone, setPhone] = useState(formData.phone || "");
   const [receiveMessages, setReceiveMessages] = useState(
     formData.receiveMessages,
   );
   const [errors, setErrors] = useState<{
     email: string | null;
     firstName: string | null;
+    lastName: string | null;
+    phone: string | null;
     general: string | null;
   }>({
     email: null,
     firstName: null,
+    lastName: null,
+    phone: null,
     general: null,
   });
 
@@ -61,8 +72,6 @@ export default function Step3({
       }));
       return false;
     }
-
-    // Basic email format validation regex
     const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
     if (!emailRegex.test(email)) {
       setErrors((prev) => ({
@@ -71,20 +80,6 @@ export default function Step3({
       }));
       return false;
     }
-
-    // Check for incomplete domains
-    const domainPart = email.split("@")[1]?.toLowerCase();
-    if (domainPart) {
-      // Check for domains that appear incomplete or invalid
-      if (domainPart.split(".").length < 2 || domainPart.endsWith(".")) {
-        setErrors((prev) => ({
-          ...prev,
-          email: step3Texts.validationErrors.emailDomainIncomplete,
-        }));
-        return false;
-      }
-    }
-
     setErrors((prev) => ({ ...prev, email: null }));
     return true;
   };
@@ -93,21 +88,43 @@ export default function Step3({
     if (!name.trim()) {
       setErrors((prev) => ({
         ...prev,
-        firstName: step3Texts.validationErrors.nameRequired, // Assuming you'll update strings
+        firstName: step3Texts.validationErrors.nameRequired,
       }));
       return false;
     }
+    setErrors((prev) => ({ ...prev, firstName: null }));
+    return true;
+  };
 
-    if (name.trim().length < 2) {
+  const validateLastName = (name: string): boolean => {
+    if (!name.trim()) {
       setErrors((prev) => ({
         ...prev,
-        firstName: step3Texts.validationErrors.nameLength, // Assuming you'll update strings
+        lastName: step3Texts.validationErrors.lastNameRequired,
       }));
       return false;
     }
-    // Add more specific validation if needed, e.g., no numbers, special characters
+    setErrors((prev) => ({ ...prev, lastName: null }));
+    return true;
+  };
 
-    setErrors((prev) => ({ ...prev, firstName: null }));
+  const validatePhone = (phone: string): boolean => {
+    if (!phone.trim()) {
+      setErrors((prev) => ({
+        ...prev,
+        phone: step3Texts.validationErrors.phoneRequired,
+      }));
+      return false;
+    }
+    const phoneRegex = /^[0-9]{10}$/;
+    if (!phoneRegex.test(phone.replace(/\D/g, ""))) {
+      setErrors((prev) => ({
+        ...prev,
+        phone: step3Texts.validationErrors.phoneFormat,
+      }));
+      return false;
+    }
+    setErrors((prev) => ({ ...prev, phone: null }));
     return true;
   };
 
@@ -115,18 +132,24 @@ export default function Step3({
     const value = e.target.value;
     setEmail(value);
     updateFormData({ email: value });
-    if (value.length > 5) {
-      validateEmail(value);
-    }
   };
 
   const handleFirstNameChange = (e: React.ChangeEvent<HTMLInputElement>) => {
     const value = e.target.value;
     setFirstName(value);
     updateFormData({ firstName: value });
-    if (value.length > 0) {
-      validateFirstName(value);
-    }
+  };
+
+  const handleLastNameChange = (e: React.ChangeEvent<HTMLInputElement>) => {
+    const value = e.target.value;
+    setLastName(value);
+    updateFormData({ lastName: value });
+  };
+
+  const handlePhoneChange = (e: React.ChangeEvent<HTMLInputElement>) => {
+    const value = e.target.value;
+    setPhone(value);
+    updateFormData({ phone: value });
   };
 
   const handleCheckboxChange = (checked: boolean) => {
@@ -135,55 +158,99 @@ export default function Step3({
   };
 
   const validateForm = (): boolean => {
-    // Validate all fields
     const isEmailValid = validateEmail(email);
     const isFirstNameValid = validateFirstName(firstName);
+    const isLastNameValid = validateLastName(lastName);
+    const isPhoneValid = validatePhone(phone);
 
-    // Check terms checkbox
     if (!receiveMessages) {
       setErrors((prev) => ({
         ...prev,
         general: step3Texts.validationErrors.acceptTerms,
       }));
       return false;
-    } else {
-      setErrors((prev) => ({ ...prev, general: null }));
     }
 
-    return isEmailValid && isFirstNameValid && receiveMessages;
+    return (
+      isEmailValid &&
+      isFirstNameValid &&
+      isLastNameValid &&
+      isPhoneValid &&
+      receiveMessages
+    );
   };
 
   const handleFormSubmit = (e: React.FormEvent) => {
     e.preventDefault();
-
-    // Validate the entire form
     if (validateForm()) {
       onSubmit();
     }
   };
 
   return (
-    <div className="space-y-4">
-      <div className="text-left mb-4">
-        <h2 className="text-xl font-bold text-left text-gray-950">
+    <div className="space-y-3 sm:space-y-6">
+      <ProgressIndicator step={2} />
+
+      <div className="text-center space-y-1 sm:space-y-4">
+        <h1 className="text-2xl sm:text-4xl font-bold text-[#2E74B5] leading-tight">
           {step3Strings.title}
-        </h2>
-        <p className="text-xl leading-tight font-bold text-left text-[#2E74B5]">
+        </h1>
+        <p className="text-gray-800 font-bold text-sm sm:text-xl leading-tight px-4">
           {step3Texts.subtitle.firstPart}{" "}
-          <span className="text-[#4A8BC5]">
+          <span className="text-[#2E74B5]">
             {step3Texts.subtitle.highlight}
           </span>
         </p>
       </div>
 
       <motion.div
-        className="space-y-3"
-        initial={{ opacity: 0, y: 20 }}
+        className="space-y-2 sm:space-y-4 max-w-sm mx-auto"
+        initial={{ opacity: 0, y: 10 }}
         animate={{ opacity: 1, y: 0 }}
         transition={{ delay: 0.2 }}
       >
-        <div className="space-y-1.5">
-          <Label htmlFor="email" className="text-sm">
+        <div className="space-y-0.5">
+          <Label htmlFor="firstName" className="text-xs font-bold text-gray-700 ml-1">
+            {step3Strings.fields.name}
+          </Label>
+          <Input
+            id="firstName"
+            type="text"
+            value={firstName}
+            onChange={handleFirstNameChange}
+            onBlur={() => validateFirstName(firstName)}
+            required
+            className={`h-11 sm:h-12 text-base sm:text-lg border-2 ${errors.firstName
+              ? "border-red-500"
+              : "border-gray-300 focus:border-[#2E74B5]"
+              }`}
+            placeholder={step3Strings.placeholders.name}
+            aria-label={step3Strings.fields.name}
+          />
+        </div>
+
+        <div className="space-y-0.5">
+          <Label htmlFor="lastName" className="text-xs font-bold text-gray-700 ml-1">
+            {step3Strings.fields.lastName}
+          </Label>
+          <Input
+            id="lastName"
+            type="text"
+            value={lastName}
+            onChange={handleLastNameChange}
+            onBlur={() => validateLastName(lastName)}
+            required
+            className={`h-11 sm:h-12 text-base sm:text-lg border-2 ${errors.lastName
+              ? "border-red-500"
+              : "border-gray-300 focus:border-[#2E74B5]"
+              }`}
+            placeholder={step3Strings.placeholders.lastName}
+            aria-label={step3Strings.fields.lastName}
+          />
+        </div>
+
+        <div className="space-y-0.5">
+          <Label htmlFor="email" className="text-xs font-bold text-gray-700 ml-1">
             {step3Strings.fields.email}
           </Label>
           <Input
@@ -193,121 +260,77 @@ export default function Step3({
             onChange={handleEmailChange}
             onBlur={() => validateEmail(email)}
             required
-            className={`h-9 text-base ${
-              errors.email
-                ? "border-red-500 focus-visible:ring-red-500"
-                : "border-[#2E74B5] focus-visible:ring-[#8DC63F]"
-            }`}
+            className={`h-11 sm:h-12 text-base sm:text-lg border-2 ${errors.email
+              ? "border-red-500"
+              : "border-gray-300 focus:border-[#2E74B5]"
+              }`}
             placeholder={step3Strings.placeholders.email}
-            aria-describedby="email-error"
+            aria-label={step3Strings.fields.email}
           />
-          {errors.email && (
-            <p id="email-error" className="text-xs text-red-500 mt-1">
-              {errors.email}
-            </p>
-          )}
         </div>
 
-        <div className="space-y-1.5">
-          <Label htmlFor="firstName" className="text-sm">
-            {(step3Strings.fields as { firstName?: string })?.firstName ||
-              "First Name"}
+        <div className="space-y-0.5">
+          <Label htmlFor="phone" className="text-xs font-bold text-gray-700 ml-1">
+            {step3Strings.fields.phone}
           </Label>
           <Input
-            id="firstName"
-            type="text"
-            value={firstName}
-            onChange={handleFirstNameChange}
-            onBlur={() => validateFirstName(firstName)}
+            id="phone"
+            type="tel"
+            value={phone}
+            onChange={handlePhoneChange}
+            onBlur={() => validatePhone(phone)}
             required
-            className={`h-9 text-base ${
-              errors.firstName
-                ? "border-red-500 focus-visible:ring-red-500"
-                : "border-[#2E74B5] focus-visible:ring-[#8DC63F]"
-            }`}
-            placeholder={
-              (step3Strings.placeholders as { firstName?: string })
-                ?.firstName || "Enter your first name"
-            }
-            aria-describedby="firstName-error"
+            className={`h-11 sm:h-12 text-base sm:text-lg border-2 ${errors.phone
+              ? "border-red-500"
+              : "border-gray-300 focus:border-[#2E74B5]"
+              }`}
+            placeholder={step3Strings.placeholders.phone}
+            aria-label={step3Strings.fields.phone}
           />
-          {errors.firstName && (
-            <p id="firstName-error" className="text-xs text-red-500 mt-1">
-              {errors.firstName}
-            </p>
-          )}
         </div>
 
-        <div className="flex items-start space-x-2">
+        <div className="flex items-start space-x-2 py-1">
           <Checkbox
             id="receiveMessages"
             checked={receiveMessages}
             onCheckedChange={handleCheckboxChange}
-            className="mt-0.5 data-[state=checked]:bg-[#8DC63F] data-[state=checked]:border-[#8DC63F]"
+            className="mt-0.5 border-[#2E74B5] data-[state=checked]:bg-[#2E74B5]"
           />
-          <Label htmlFor="receiveMessages" className="text-xs">
-            {step3Strings.checkbox}{" "}
-            <a href="/terms" className="underline">
-              here
+          <Label
+            htmlFor="receiveMessages"
+            className="text-[10px] sm:text-sm text-gray-700 leading-tight"
+          >
+            {step3Strings.checkbox.split(" acá")[0]}{" "}
+            <a href="/politica-de-privacidad" className="font-bold">
+              acá
             </a>
           </Label>
         </div>
-      </motion.div>
 
-      <motion.div
-        initial={{ opacity: 0 }}
-        animate={{ opacity: 1 }}
-        transition={{ delay: 0.4 }}
-        className="mt-6"
-      >
-        {errors.general && (
-          <p className="text-xs text-red-500 mt-2 text-left">
-            {errors.general}
-          </p>
-        )}
+        <div className="pt-2 sm:pt-4">
+          <button
+            type="submit"
+            disabled={isSubmitting}
+            className={`w-full py-3 sm:py-4 text-lg sm:text-xl font-black rounded-full transition-all shadow-lg ${isSubmitting
+              ? "bg-gray-400 text-white cursor-not-allowed"
+              : "bg-[#457cb3] hover:bg-[#2E74B5] text-white active:scale-95"
+              }`}
+          >
+            {isSubmitting ? "ENVIANDO..." : step3Strings.button}
+          </button>
+        </div>
 
-        <button
-          type="button"
-          onClick={handleFormSubmit}
-          disabled={!receiveMessages || isSubmitting}
-          aria-busy={isSubmitting}
-          className={`w-full py-3 text-sm font-medium rounded-full transition-colors shadow-md ${
-            receiveMessages && !isSubmitting
-              ? "bg-[#8DC63F] hover:bg-[#6BA828] text-white"
-              : "bg-gray-300 text-gray-500 cursor-not-allowed"
-          }`}
-        >
-          {isSubmitting ? "Sending..." : step3Strings.button}
-        </button>
-        {submissionStatus !== "idle" && submissionMessage && (
+        {submissionMessage && (
           <p
-            className={`mt-3 text-xs text-left ${
-              submissionStatus === "error"
-                ? "text-red-500"
-                : submissionStatus === "duplicate"
-                  ? "text-[#2E74B5]"
-                  : "text-[#8DC63F]"
-            }`}
-            role={submissionStatus === "error" ? "alert" : undefined}
+            className={`text-center text-xs sm:text-sm font-bold ${submissionStatus === "error" ? "text-red-500" : "text-[#2E74B5]"}`}
           >
             {submissionMessage}
           </p>
         )}
       </motion.div>
 
-      <div className="mt-8">
-        <div className="flex justify-center mb-4">
-          <div className="rounded-full px-6 py-2">
-            <VisitorCounter />
-          </div>
-        </div>
-        <p className="text-left text-sm">
-          <span className="font-bold text-[#FF8C00]">
-            {commonStrings.important.prefix}
-          </span>{" "}
-          {commonStrings.important.emailVerification}
-        </p>
-        <p className="text-left text-xs mt-2">{commonStrings.copyright}</p>
+      <div className="mt-2 sm:mt-8 flex justify-center opacity-0 pointer-events-none h-0">
+        <VisitorCounter />
       </div>
     </div>
   );

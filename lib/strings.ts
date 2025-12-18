@@ -1,45 +1,48 @@
 export const step1Strings = {
-  title: "Find Your Ideal Credit Card",
-  question: "What's most important to you in a credit card?",
+  title: "Descubre la tarjeta de crédito ideal para ti",
+  question: "¿Qué es lo más importante en una tarjeta de crédito para ti?",
   options: [
-    { id: "A", label: "High credit limit" },
-    { id: "B", label: "Immediate approval" },
-    { id: "C", label: "No credit check" },
-    { id: "D", label: "No annual fee" },
-    { id: "E", label: "Air miles and reward points" },
+    { id: "A", label: "Cupo de crédito alto" },
+    { id: "B", label: "Crédito inmediato" },
+    { id: "C", label: "Sin revisión de buró" },
+    { id: "D", label: "Sin anualidad" },
+    { id: "E", label: "Millas aéreas y puntos" },
     { id: "F", label: "Cashback" },
   ],
 };
 
 export const step2Strings = {
-  title: "Find Your Ideal Credit Card",
-  question: "What is your monthly income?",
+  title: "Descubre la tarjeta de crédito ideal para ti",
+  question: "¿Cuál es tu ingreso mensual?",
   options: [
-    { id: "A", label: "Between £0 and £1,500" },
-    { id: "B", label: "Between £1,500 and £3,000" },
-    { id: "C", label: "Between £3,000 and £6,000" },
-    { id: "D", label: "Between £6,000 and £9,000" },
-    { id: "E", label: "Between £9,000 and £12,000" },
-    { id: "F", label: "Over £12,000" },
+    { id: "A", label: "Entre $0 MXN y $7,500 MXN" },
+    { id: "B", label: "Entre $7,500 MXN y $15,000 MXN" },
+    { id: "C", label: "Entre $15,000 MXN y $30,000 MXN" },
+    { id: "D", label: "Entre $30,000 MXN y $45,000 MXN" },
+    { id: "E", label: "Entre $45,000 MXN y $60,000 MXN" },
+    { id: "F", label: "Más de $60,000 MXN" },
   ],
 };
 
 export const step3Texts = {
   subtitle: {
-    firstPart: "Enter your details and instantly access the credit card that's",
-    highlight: "perfect for you",
+    firstPart:
+      "Ingresa tus datos y en un instante accederás a la tarjeta de crédito",
+    highlight: "más adecuada para ti",
   },
   validationErrors: {
-    emailRequired: "Email address is required",
-    emailInvalid: "Please enter a valid email address",
-    emailDomainIncomplete: "The email domain appears incomplete",
-    nameRequired: "First name is required",
-    nameLength: "First name must be at least 2 characters",
-    lastNameRequired: "Last name is required",
-    lastNameLength: "Last name must be at least 2 characters",
-    phoneRequired: "Phone number is required",
-    phoneFormat: "Please enter a valid UK mobile number (11 digits)",
-    phonePrefix: "The number must start with '07' (UK mobile prefix)",
-    acceptTerms: "You must agree to receive information to continue",
+    emailRequired: "El correo electrónico es obligatorio",
+    emailInvalid: "Por favor, introduce un correo electrónico válido",
+    emailDomainIncomplete:
+      "El dominio del correo electrónico parece estar incompleto",
+    nameRequired: "El nombre es obligatorio",
+    nameLength: "El nombre debe tener al menos 2 caracteres",
+    lastNameRequired: "El apellido es obligatorio",
+    lastNameLength: "El apellido debe tener al menos 2 caracteres",
+    phoneRequired: "El número de teléfono es obligatorio",
+    phoneFormat:
+      "Por favor, introduce un número de teléfono válido (10 dígitos)",
+    phonePrefix: "El número debe ser un formato válido de México",
+    acceptTerms: "Debes aceptar recibir información para continuar",
   },
 };
