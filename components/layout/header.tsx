@@ -413,7 +413,7 @@ export function Header() {
               {/* Desktop Search Button (Restored) */}
               <button
                 type="button"
-                onClick={() => setIsSearchOpen(true)}
+                onClick={() => setIsSearchOpen((prev) => !prev)}
                 className="p-2 text-black hover:text-primary"
                 aria-label="Search"
               >
@@ -425,7 +425,7 @@ export function Header() {
             <div className="flex md:hidden flex-none items-center justify-end z-20 ml-auto"> {/* Added ml-auto */}
               <button
                 type="button"
-                onClick={() => setIsSearchOpen(true)} // Toggle search
+                onClick={() => setIsSearchOpen((prev) => !prev)} // Toggle search
                 className="p-2 text-black hover:text-primary" // Removed negative margins to clean up alignment
                 aria-label="Search"
               >
@@ -434,7 +434,8 @@ export function Header() {
             </div>
           </div>
 
-          {/* Removed Search Bar and Results Section */}
+          {/* Search Bar Overlay - Moved back inside Header to position relative to it */}
+          <SearchBar isOpen={isSearchOpen} onClose={() => setIsSearchOpen(false)} />
         </div>
       </header>
 
@@ -555,9 +556,6 @@ export function Header() {
           </div>
         </div>
       </div>
-
-      {/* Search Bar Overlay */}
-      <SearchBar isOpen={isSearchOpen} onClose={() => setIsSearchOpen(false)} />
     </>
   );
 }
