@@ -8,7 +8,7 @@
 
 ## Overview
 
-This document details the implementation of three critical fixes to resolve intermittent AdZep ad delivery failures in the `/personal-finance` and `/financial-solutions` blog routes.
+This document details the implementation of three critical fixes to resolve intermittent AdZep ad delivery failures in the `/finanzas-personales` and `/soluciones-financieras` blog routes.
 
 ## Problems Addressed
 
@@ -207,7 +207,7 @@ if (!containersPresent && !firstLoadRef.current) {
 
 #### Scenario 1: First Blog Post Visit
 
-1. Navigate to `/personal-finance/inflation-proof-your-life`
+1. Navigate to `/finanzas-personales/inflation-proof-your-life`
 2. ✅ Page loads completely
 3. ✅ Ad containers (`uk_topfinanzas_3`, `uk_topfinanzas_4`) present in DOM
 4. ✅ `window.AdZepActivateAds()` called AFTER containers loaded
@@ -215,7 +215,7 @@ if (!containersPresent && !firstLoadRef.current) {
 
 #### Scenario 2: Second Blog Post Visit (Same Session)
 
-1. From first blog post, navigate to `/personal-finance/cashback-credit-cards`
+1. From first blog post, navigate to `/finanzas-personales/cashback-credit-cards`
 2. ✅ State reset detected (check dev console: "Resetting activation state")
 3. ✅ Ad containers present in DOM
 4. ✅ `window.AdZepActivateAds()` called successfully
@@ -230,7 +230,7 @@ if (!containersPresent && !firstLoadRef.current) {
 
 #### Scenario 4: Listing Pages
 
-1. Navigate to `/personal-finance` (listing page)
+1. Navigate to `/finanzas-personales` (listing page)
 2. ✅ No activation attempted (no containers)
 3. ✅ Console shows "Skipping activation - no containers"
 4. ✅ No errors in console
@@ -252,7 +252,7 @@ if (!containersPresent && !firstLoadRef.current) {
   containersPresent: true,
   activationTimeout: 8000,
   firstLoad: false,
-  pathname: "/personal-finance/..."
+  pathname: "/finanzas-personales/..."
 }
 [AdZep] Calling window.AdZepActivateAds()
 [AdZep] Activation successful

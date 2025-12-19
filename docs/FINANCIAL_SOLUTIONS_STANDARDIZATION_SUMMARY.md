@@ -23,8 +23,8 @@
 
 **Template Reference Pages**:
 
-- `/app/financial-solutions/barclaycard-avios-plus/page.tsx` (Benefits)
-- `/app/financial-solutions/barclaycard-avios-plus-requirements/page.tsx` (Requirements)
+- `/app/soluciones-financieras/barclaycard-avios-plus/page.tsx` (Benefits)
+- `/app/soluciones-financieras/barclaycard-avios-plus-requirements/page.tsx` (Requirements)
 
 ---
 
@@ -65,7 +65,7 @@
 
 ## 3. Non-Compliant Page Refactored
 
-### `/app/financial-solutions/nationwide-building-society-credit-card/page.tsx`
+### `/app/soluciones-financieras/nationwide-building-society-credit-card/page.tsx`
 
 **Issues Identified**:
 
@@ -99,13 +99,13 @@
 
 ### Pages with `bg-gray-50 border-l-4` boxes
 
-1. `/app/financial-solutions/hsbc-rewards-credit-card-requirements/page.tsx`
-2. `/app/financial-solutions/118-118-money-credit-card/page.tsx`
-3. `/app/financial-solutions/ocean-credit-card/page.tsx`
-4. `/app/financial-solutions/tesco-bank-clubcard-credit-cards-requirements/page.tsx`
-5. `/app/financial-solutions/american-express-preferred-rewards-gold-credit-card/page.tsx`
-6. `/app/financial-solutions/tesco-bank-clubcard-credit-cards/page.tsx`
-7. `/app/financial-solutions/ocean-credit-card-requirements/page.tsx`
+1. `/app/soluciones-financieras/hsbc-rewards-credit-card-requirements/page.tsx`
+2. `/app/soluciones-financieras/118-118-money-credit-card/page.tsx`
+3. `/app/soluciones-financieras/ocean-credit-card/page.tsx`
+4. `/app/soluciones-financieras/tesco-bank-clubcard-credit-cards-requirements/page.tsx`
+5. `/app/soluciones-financieras/american-express-preferred-rewards-gold-credit-card/page.tsx`
+6. `/app/soluciones-financieras/tesco-bank-clubcard-credit-cards/page.tsx`
+7. `/app/soluciones-financieras/ocean-credit-card-requirements/page.tsx`
 
 **Status**: Identified but not yet refactored. Each requires similar treatment as Nationwide page.
 
@@ -309,7 +309,7 @@ Before publishing any Financial Solutions page, verify:
 ### When Creating New Financial Solutions Pages
 
 1. Read `.github/instructions/FINANCIAL_SOLUTIONS_LAYOUT_STANDARD.instructions.md`
-2. Review template: `/app/financial-solutions/barclaycard-avios-plus/`
+2. Review template: `/app/soluciones-financieras/barclaycard-avios-plus/`
 3. Follow exact element ordering
 4. Use only approved components
 5. Avoid all forbidden elements

@@ -2,7 +2,7 @@
 
 ## Overview
 
-Successfully refactored `/app/financial-solutions/nationwide-building-society-credit-card-requirements/page.tsx` to comply with the **FINANCIAL_SOLUTIONS_LAYOUT_STANDARD**.
+Successfully refactored `/app/soluciones-financieras/nationwide-building-society-credit-card-requirements/page.tsx` to comply with the **FINANCIAL_SOLUTIONS_LAYOUT_STANDARD**.
 
 ## Date
 
@@ -12,7 +12,7 @@ January 2025
 
 ### File Modified
 
-- **Path**: `/app/financial-solutions/nationwide-building-society-credit-card-requirements/page.tsx`
+- **Path**: `/app/soluciones-financieras/nationwide-building-society-credit-card-requirements/page.tsx`
 - **Original Line Count**: 788 lines (with duplicates and non-compliant elements)
 - **Final Line Count**: 493 lines (clean, compliant structure)
 
@@ -205,11 +205,11 @@ className = "text-gray-800 mb-4 text-sm leading-5 font-light text-left";
 
 ## Internal Links Added
 
-1. `/personal-finance/top-credit-cards-0-intro-apr/` - Best 0% Intro APR Credit Cards
-2. `/personal-finance/understanding-credit-card-interest-rates/` - Understanding Credit Card Interest Rates
-3. `/personal-finance/credit-card-types-benefits/` - Understanding Credit Card Types and Benefits
-4. `/personal-finance/credit-card-types-benefits/` - Learn More About Credit Cards (promo image)
-5. `/personal-finance/getting-out-of-debt/` - Debt Management Strategies (promo image)
+1. `/finanzas-personales/top-credit-cards-0-intro-apr/` - Best 0% Intro APR Credit Cards
+2. `/finanzas-personales/understanding-credit-card-interest-rates/` - Understanding Credit Card Interest Rates
+3. `/finanzas-personales/credit-card-types-benefits/` - Understanding Credit Card Types and Benefits
+4. `/finanzas-personales/credit-card-types-benefits/` - Learn More About Credit Cards (promo image)
+5. `/finanzas-personales/getting-out-of-debt/` - Debt Management Strategies (promo image)
 
 ---
 
@@ -363,13 +363,13 @@ className = "text-gray-800 mb-4 text-sm leading-5 font-light text-left";
 
 ### Remaining Pages to Refactor:
 
-1. `/app/financial-solutions/hsbc-rewards-credit-card-requirements/page.tsx`
-2. `/app/financial-solutions/118-118-money-credit-card/page.tsx`
-3. `/app/financial-solutions/ocean-credit-card/page.tsx`
-4. `/app/financial-solutions/tesco-bank-clubcard-credit-cards-requirements/page.tsx`
-5. `/app/financial-solutions/american-express-preferred-rewards-gold-credit-card/page.tsx`
-6. `/app/financial-solutions/tesco-bank-clubcard-credit-cards/page.tsx`
-7. `/app/financial-solutions/ocean-credit-card-requirements/page.tsx`
+1. `/app/soluciones-financieras/hsbc-rewards-credit-card-requirements/page.tsx`
+2. `/app/soluciones-financieras/118-118-money-credit-card/page.tsx`
+3. `/app/soluciones-financieras/ocean-credit-card/page.tsx`
+4. `/app/soluciones-financieras/tesco-bank-clubcard-credit-cards-requirements/page.tsx`
+5. `/app/soluciones-financieras/american-express-preferred-rewards-gold-credit-card/page.tsx`
+6. `/app/soluciones-financieras/tesco-bank-clubcard-credit-cards/page.tsx`
+7. `/app/soluciones-financieras/ocean-credit-card-requirements/page.tsx`
 
 ---
 
@@ -379,8 +379,8 @@ This refactoring demonstrates the effectiveness of the **FINANCIAL_SOLUTIONS_LAY
 
 **Template Reference**:
 
-- Benefits: `/app/financial-solutions/barclaycard-avios-plus/page.tsx`
-- Requirements: `/app/financial-solutions/barclaycard-avios-plus-requirements/page.tsx`
+- Benefits: `/app/soluciones-financieras/barclaycard-avios-plus/page.tsx`
+- Requirements: `/app/soluciones-financieras/barclaycard-avios-plus-requirements/page.tsx`
 - Also compliant: Nationwide Benefits and Requirements pages
 
 ---

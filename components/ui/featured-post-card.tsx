@@ -119,8 +119,8 @@ export function FeaturedPostCard({
               {/* Note: positioning might need tweaking for poster */}
               <Badge
                 className={`
-                ${category === "Personal Finance" ? "bg-blue-600" : ""}
-                ${category === "Financial Solutions" ? "bg-green-600" : ""}
+                ${category === "Finanzas Personales" || category === "Personal Finance" ? "bg-blue-600" : ""}
+                ${category === "Soluciones Financieras" || category === "Financial Solutions" ? "bg-green-600" : ""}
               `}
               >
                 {category}

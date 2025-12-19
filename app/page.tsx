@@ -47,7 +47,7 @@ const cleanTitle = (title: string): string => {
 // Using a subset of posts for the homepage, sorted by date descending
 const allPosts: PostData[] = [
   {
-    slug: "tarjeta-credito-viajes-premium", // Example slug
+    slug: "barclaycard-avios-plus",
     frontmatter: {
       title: "Tarjeta de Crédito Premium: Recompensas de Viaje Exclusivas",
       description:
@@ -56,14 +56,14 @@ const allPosts: PostData[] = [
       featuredImage:
         "https://media.topfinanzas.com/images/barclaycard-avios-plus.webp", // Keep image for layout
       categories: [
-        { name: "Soluciones Financieras", slug: "financial-solutions" },
+        { name: "Soluciones Financieras", slug: "soluciones-financieras" },
       ],
     },
     category: "Soluciones Financieras",
-    categoryPath: "/financial-solutions",
+    categoryPath: "/soluciones-financieras",
   },
   {
-    slug: "hsbc-prestamo-personal",
+    slug: "hsbc-personal-loan",
     frontmatter: {
       title: "Préstamo Personal HSBC: Financiamiento Flexible (MX)",
       description:
@@ -72,14 +72,14 @@ const allPosts: PostData[] = [
       featuredImage:
         "https://media.topfinanzas.com/images/uk/loans/718135900-fotosprestamo1hsbc-uk.webp",
       categories: [
-        { name: "Soluciones Financieras", slug: "financial-solutions" },
+        { name: "Soluciones Financieras", slug: "soluciones-financieras" },
       ],
     },
     category: "Soluciones Financieras",
-    categoryPath: "/financial-solutions",
+    categoryPath: "/soluciones-financieras",
   },
   {
-    slug: "prestamo-negocio-funding-circle",
+    slug: "funding-circle-personal-loan",
     frontmatter: {
       title: "Préstamo para Negocios Funding Circle",
       description:
@@ -88,14 +88,14 @@ const allPosts: PostData[] = [
       featuredImage:
         "https://media.topfinanzas.com/images/uk/loans/718136824-fotosprestamo-fundingcircle1uk.webp",
       categories: [
-        { name: "Soluciones Financieras", slug: "financial-solutions" },
+        { name: "Soluciones Financieras", slug: "soluciones-financieras" },
       ],
     },
     category: "Soluciones Financieras",
-    categoryPath: "/financial-solutions",
+    categoryPath: "/soluciones-financieras",
   },
   {
-    slug: "mejores-tarjetas-recompensas",
+    slug: "best-rewards-credit-cards",
     frontmatter: {
       title:
         "Las Mejores Tarjetas de Crédito con Recompensas | Top Finanzas MX",
@@ -104,13 +104,15 @@ const allPosts: PostData[] = [
       date: "2025-04-03T00:00:00Z",
       featuredImage:
         "https://media.topfinanzas.com/images/uk/Top_Finance_uk_credit_cards.webp",
-      categories: [{ name: "Finanzas Personales", slug: "personal-finance" }],
+      categories: [
+        { name: "Finanzas Personales", slug: "finanzas-personales" },
+      ],
     },
     category: "Finanzas Personales",
-    categoryPath: "/personal-finance",
+    categoryPath: "/finanzas-personales",
   },
   {
-    slug: "salir-de-deudas",
+    slug: "getting-out-of-debt",
     frontmatter: {
       title: "Guía Práctica para Salir de Deudas | Top Finanzas MX",
       description:
@@ -118,13 +120,15 @@ const allPosts: PostData[] = [
       date: "2025-04-03T00:00:00Z",
       featuredImage:
         "https://media.topfinanzas.com/images/uk/Top_Finance_how_to_get_out_of_debt.webp",
-      categories: [{ name: "Finanzas Personales", slug: "personal-finance" }],
+      categories: [
+        { name: "Finanzas Personales", slug: "finanzas-personales" },
+      ],
     },
     category: "Finanzas Personales",
-    categoryPath: "/personal-finance",
+    categoryPath: "/finanzas-personales",
   },
   {
-    slug: "tarjetas-meses-sin-intereses",
+    slug: "top-credit-cards-0-intro-apr",
     frontmatter: {
       title:
         "Mejores Tarjetas de Crédito con Meses Sin Intereses | Top Finanzas MX",
@@ -132,13 +136,15 @@ const allPosts: PostData[] = [
         "Compara las mejores tarjetas de crédito que ofrecen meses sin intereses...",
       date: "2025-04-03T00:00:00Z",
       featuredImage: "https://media.topfinanzas.com/images/uk/APR.webp",
-      categories: [{ name: "Finanzas Personales", slug: "personal-finance" }],
+      categories: [
+        { name: "Finanzas Personales", slug: "finanzas-personales" },
+      ],
     },
     category: "Finanzas Personales",
-    categoryPath: "/personal-finance",
+    categoryPath: "/finanzas-personales",
   },
   {
-    slug: "mejores-prestamos-personales",
+    slug: "best-personal-loans",
     frontmatter: {
       title: "Mejores Préstamos Personales en México: Tu Guía Completa",
       description:
@@ -146,13 +152,15 @@ const allPosts: PostData[] = [
       date: "2025-03-30T00:00:00Z",
       featuredImage:
         "https://media.topfinanzas.com/images/best-personal-loans.webp",
-      categories: [{ name: "Finanzas Personales", slug: "personal-finance" }],
+      categories: [
+        { name: "Finanzas Personales", slug: "finanzas-personales" },
+      ],
     },
     category: "Finanzas Personales",
-    categoryPath: "/personal-finance",
+    categoryPath: "/finanzas-personales",
   },
   {
-    slug: "tips-elegir-prestamo-en-linea",
+    slug: "tips-for-choosing-an-online-loan",
     frontmatter: {
       title:
         "5 Consejos Esenciales para Elegir un Préstamo en Línea | Top Finanzas MX",
@@ -160,10 +168,12 @@ const allPosts: PostData[] = [
       date: "2025-03-30T00:00:00Z",
       featuredImage:
         "https://media.topfinanzas.com/images/uk/choosing-online-loan-uk.webp",
-      categories: [{ name: "Finanzas Personales", slug: "personal-finance" }],
+      categories: [
+        { name: "Finanzas Personales", slug: "finanzas-personales" },
+      ],
     },
     category: "Finanzas Personales",
-    categoryPath: "/personal-finance",
+    categoryPath: "/finanzas-personales",
   },
 ];
 

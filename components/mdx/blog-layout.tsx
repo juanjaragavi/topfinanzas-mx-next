@@ -27,8 +27,8 @@ interface BlogLayoutProps {
 
 export function BlogLayout({ children, metadata }: BlogLayoutProps) {
   const {
-    title = "Blog - TopFinance",
-    description = "Stay informed with the latest financial tips, strategies and information from TopFinance experts.",
+    title = "Blog - TopFinanzas",
+    description = "Mantente informado con los mejores consejos, estrategias e información financiera de los expertos de TopFinanzas.",
   } = metadata || {};
 
   const handleNewsletterSubmit = (e: React.FormEvent) => {
@@ -79,10 +79,11 @@ export function BlogLayout({ children, metadata }: BlogLayoutProps) {
                       />
                       <div>
                         <Link
-                          href="/personal-finance/the-psychology-of-spending-how-to-stop-impulse-buys-and-start-mindful-saving"
+                          href="/finanzas-personales/the-psychology-of-spending-how-to-stop-impulse-buys-and-start-mindful-saving"
                           className="text-sm font-medium hover:underline line-clamp-2"
                         >
-                          The Psychology of Spending: How to Stop Impulse Buys
+                          La Psicología del Gasto: Cómo Detener las Compras
+                          Impulsivas
                         </Link>
                       </div>
                     </div>
@@ -103,11 +104,11 @@ export function BlogLayout({ children, metadata }: BlogLayoutProps) {
                       />
                       <div>
                         <Link
-                          href="/personal-finance/automate-your-wealth"
+                          href="/finanzas-personales/automate-your-wealth"
                           className="text-sm font-medium hover:underline line-clamp-2"
                         >
-                          Automate Your Wealth: Setting Up the "Set It and
-                          Forget It" Finance System
+                          Automatiza tu Riqueza: Sistema de Finanzas
+                          "Configúralo y Olvídalo"
                         </Link>
                       </div>
                     </div>
@@ -128,17 +129,18 @@ export function BlogLayout({ children, metadata }: BlogLayoutProps) {
                       />
                       <div>
                         <Link
-                          href="/personal-finance/inflation-proof-your-life"
+                          href="/finanzas-personales/inflation-proof-your-life"
                           className="text-sm font-medium hover:underline line-clamp-2"
                         >
-                          Inflation-Proof Your Life: 7 Smart Money Moves
+                          Protege tu Vida de la Inflación: 7 Movimientos
+                          Inteligentes
                         </Link>
                       </div>
                     </div>
                     {/* Lifestyle Creep Article */}
                     <div className="flex items-center gap-3">
                       <Image
-                        src="https://media.topfinanzas.com/images/lifestyle-creep-personal-finance.webp"
+                        src="https://media.topfinanzas.com/images/lifestyle-creep-finanzas-personales.webp"
                         alt="What Is Lifestyle Creep and How Is It Silently Draining Your Wallet"
                         width={50}
                         height={50}
@@ -152,10 +154,10 @@ export function BlogLayout({ children, metadata }: BlogLayoutProps) {
                       />
                       <div>
                         <Link
-                          href="/personal-finance/what-is-lifestyle-creep"
+                          href="/finanzas-personales/what-is-lifestyle-creep"
                           className="text-sm font-medium hover:underline line-clamp-2"
                         >
-                          What Is Lifestyle Creep?
+                          ¿Qué es la "Inflación del Estilo de Vida"?
                         </Link>
                       </div>
                     </div>
@@ -176,10 +178,10 @@ export function BlogLayout({ children, metadata }: BlogLayoutProps) {
                       />
                       <div>
                         <Link
-                          href="/personal-finance/creating-a-budget-youll-actually-stick-to"
+                          href="/finanzas-personales/creating-a-budget-youll-actually-stick-to"
                           className="text-sm font-medium hover:underline line-clamp-2"
                         >
-                          Create a Budget You'll Actually Stick To
+                          Crea un Presupuesto que Realmente Funcione
                         </Link>
                       </div>
                     </div>
@@ -200,10 +202,10 @@ export function BlogLayout({ children, metadata }: BlogLayoutProps) {
                       />
                       <div>
                         <Link
-                          href="/personal-finance/best-personal-loans"
+                          href="/finanzas-personales/best-personal-loans"
                           className="text-sm font-medium hover:underline line-clamp-2"
                         >
-                          Best Personal Loans in the UK
+                          Los Mejores Préstamos Personales
                         </Link>
                       </div>
                     </div>
@@ -213,19 +215,19 @@ export function BlogLayout({ children, metadata }: BlogLayoutProps) {
                   <SidebarCategories>
                     <div className="flex items-center justify-between">
                       <Link
-                        href="/personal-finance"
+                        href="/finanzas-personales"
                         className="text-sm hover:underline font-medium" // Made font medium
                       >
-                        Personal Finance
+                        Finanzas Personales
                       </Link>
                       {/* Removed count */}
                     </div>
                     <div className="flex items-center justify-between">
                       <Link
-                        href="/financial-solutions"
+                        href="/soluciones-financieras"
                         className="text-sm hover:underline font-medium" // Made font medium
                       >
-                        Financial Solutions
+                        Soluciones Financieras
                       </Link>
                       {/* Removed count */}
                     </div>

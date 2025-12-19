@@ -288,7 +288,7 @@ const SidebarTrigger = React.forwardRef<
       {...props}
     >
       <PanelLeft />
-      <span className="sr-only">Toggle Sidebar</span>
+      <span className="sr-only">Alternar barra lateral</span>
     </Button>
   );
 });
@@ -304,10 +304,10 @@ const SidebarRail = React.forwardRef<
     <button
       ref={ref}
       data-sidebar="rail"
-      aria-label="Toggle Sidebar"
+      aria-label="Alternar barra lateral"
       tabIndex={-1}
       onClick={toggleSidebar}
-      title="Toggle Sidebar"
+      title="Alternar barra lateral"
       className={cn(
         "absolute inset-y-0 z-20 hidden w-4 -translate-x-1/2 transition-all ease-linear after:absolute after:inset-y-0 after:left-1/2 after:w-[2px] hover:after:bg-sidebar-border group-data-[side=left]:-right-4 group-data-[side=right]:left-0 sm:flex",
         "[[data-side=left]_&]:cursor-w-resize [[data-side=right]_&]:cursor-e-resize",
@@ -753,7 +753,7 @@ const SidebarAd = React.forwardRef<HTMLDivElement, React.ComponentProps<"div">>(
         className={cn("px-2 my-4", className)}
         {...props}
       >
-        <Link href="/personal-finance/credit-card-types-benefits/">
+        <Link href="/finanzas-personales/credit-card-types-benefits/">
           <div className="overflow-hidden rounded-xl border shadow hover:shadow-md transition-shadow">
             <Image
               src="https://media.topfinanzas.com/images/ads/Top-Blog-Credit-Cards.webp"
@@ -785,7 +785,7 @@ const SidebarRecentArticles = React.forwardRef<
       className={cn("px-2 my-4", className)}
       {...props}
     >
-      <h3 className="font-semibold text-lg mb-4">Recent Articles</h3>
+      <h3 className="font-semibold text-lg mb-4">Artículos Recientes</h3>
       {/* The content will be passed as children */}
       <div className="space-y-4">{props.children}</div>
     </div>
@@ -805,7 +805,7 @@ const SidebarCategories = React.forwardRef<
       className={cn("px-2 my-4", className)}
       {...props}
     >
-      <h3 className="font-semibold text-lg mb-4">Categories</h3>
+      <h3 className="font-semibold text-lg mb-4">Categorías</h3>
       {/* The content will be passed as children */}
       <div className="space-y-2">{props.children}</div>
     </div>
@@ -828,16 +828,17 @@ const SidebarNewsletter = React.forwardRef<
       {...props}
     >
       <h3 className="font-semibold text-lg mb-2">
-        Subscribe to our newsletter
+        Suscríbete a nuestro boletín
       </h3>
       <p className="text-sm mb-4">
-        Get the latest financial tips and insights directly to your inbox.
+        Recibe los mejores consejos financieros directamente en tu bandeja de
+        entrada.
       </p>
 
       <form onSubmit={onSubmit} className="space-y-2">
         <input
           type="email"
-          placeholder="Your email address"
+          placeholder="Tu dirección de correo electrónico"
           className="w-full px-3 py-2 border rounded-xl text-sm"
           required
         />
@@ -845,7 +846,7 @@ const SidebarNewsletter = React.forwardRef<
           type="submit"
           className="w-full bg-blue-600 hover:bg-blue-700 text-white font-medium py-2 px-4 rounded-full"
         >
-          Subscribe
+          Suscribirme
         </button>
       </form>
     </div>

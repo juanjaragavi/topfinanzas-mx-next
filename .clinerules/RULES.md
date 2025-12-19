@@ -266,7 +266,7 @@ import { CustomComponent } from "./custom-component";
   - Also consult `lib/documents/topfinanzas-us-topic-outline.csv` to determine article type (pillar vs cluster), tentative title, content focus, and related cluster/pillar context.
   - Use the UK sitemap at `https://uk.topfinanzas.com/sitemap.xml` to avoid duplicating already published content and to build correct internal links.
   - Produce content in UK English conventions (en-GB) and ensure internal links point to the `uk.topfinanzas.com` domain.
-  - If the funnel stage is TOFU, create the new blog post under `app/personal-finance`, matching the structure and layout used by existing articles in that directory, but write entirely new, original content.
+  - If the funnel stage is TOFU, create the new blog post under `app/finanzas-personales`, matching the structure and layout used by existing articles in that directory, but write entirely new, original content.
 
 ## Git Workflow
 

@@ -97,8 +97,8 @@ if (isLocalhost && !hasSlots) {
   const pathname = window.location.pathname;
   const shouldHaveAds =
     pathname.startsWith("/blog/") ||
-    pathname.startsWith("/financial-solutions/") ||
-    pathname.startsWith("/personal-finance/");
+    pathname.startsWith("/soluciones-financieras/") ||
+    pathname.startsWith("/finanzas-personales/");
 
   if (!shouldHaveAds) {
     return {
@@ -192,7 +192,7 @@ http://localhost:3030/?utm_source=test&utm_medium=cpc&utm_campaign=test_campaign
 
 ```bash
 http://localhost:3030/blog/some-article
-http://localhost:3030/financial-solutions/some-product
+http://localhost:3030/soluciones-financieras/some-product
 ```
 
 - ✅ GAM validation should expect ad slots
@@ -251,7 +251,7 @@ The panel now shows:
 
 The interstitial blocker is working as designed:
 
-- ✅ Only active on article/blog/financial-solutions pages
+- ✅ Only active on article/blog/soluciones-financieras pages
 - ✅ Inactive on homepage and other pages (expected)
 - ✅ Removes blocking overlays when they appear
 - ✅ No interference with normal page navigation

@@ -214,7 +214,7 @@ Incorrect Implementation (Do Not Use):
 ```typescript
 // ❌ INCORRECT - Internal navigation (old pattern)
 <div className="text-left my-8">
-  <Link href="/financial-solutions/product-name">
+  <Link href="/soluciones-financieras/product-name">
     <Button className="bg-[#BrandColor] hover:bg-[#HoverColor] text-white font-medium text-md py-2 px-8 rounded-full w-full">
       View Card Benefits
     </Button>
@@ -247,7 +247,7 @@ Incorrect Implementation (Do Not Use):
 ### UK TopFinanzas Project
 
 - **Instructions:** `/lib/CREDIT_CARD_PRODUCT_GENERATION.instructions.md`
-- **Requirements Pages:** `/app/financial-solutions/*-requirements/page.tsx` (20 files)
+- **Requirements Pages:** `/app/soluciones-financieras/*-requirements/page.tsx` (20 files)
 - **CSV Data Source:** Contains bank names and official URLs
 
 ### Kardtrust Project

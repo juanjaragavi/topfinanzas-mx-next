@@ -104,10 +104,10 @@ export default function SidebarExample() {
             <SidebarCategories>
               <div className="flex items-center justify-between">
                 <Link
-                  href="/personal-finance"
+                  href="/finanzas-personales"
                   className="text-sm hover:underline"
                 >
-                  Personal Finance
+                  Finanzas Personales
                 </Link>
                 <span className="text-xs bg-gray-100 rounded-full px-2 py-0.5">
                   12
@@ -115,8 +115,8 @@ export default function SidebarExample() {
               </div>
 
               <div className="flex items-center justify-between">
-                <Link href="/credit-cards" className="text-sm hover:underline">
-                  Credit Cards
+                <Link href="/tarjetas" className="text-sm hover:underline">
+                  Tarjetas
                 </Link>
                 <span className="text-xs bg-gray-100 rounded-full px-2 py-0.5">
                   8
@@ -159,7 +159,7 @@ export default function SidebarExample() {
 
           <SidebarFooter>
             <small className="text-xs text-left block text-gray-500">
-              © 2025 TopFinance UK
+              © 2025 TopFinanzas MX
             </small>
           </SidebarFooter>
         </Sidebar>

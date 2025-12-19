@@ -5,7 +5,7 @@
 **Date:** October 29, 2025  
 **Auditor:** CodeCraft Pro AI  
 **Project:** Top Finance UK Portal  
-**Affected Routes:** `/personal-finance/*` and `/financial-solutions/*`
+**Affected Routes:** `/finanzas-personales/*` and `/soluciones-financieras/*`
 
 ---
 
@@ -157,7 +157,7 @@ excludedPaths: ["/quiz", "/quiz-2"];
 
 // But article path detection has complex logic
 export function isArticlePath(pathname: string | null | undefined): boolean {
-  // Excludes listing pages like /blog, /personal-finance (exact match)
+  // Excludes listing pages like /blog, /finanzas-personales (exact match)
   // Includes sub-paths like /blog/article-slug
   const isListingPage = adZepConfig.articlePathPrefixes.some(
     (p) => pathname === p,
@@ -340,8 +340,8 @@ async function waitForAdZepFunction(
 
 **Sample Pages Audited:**
 
-- `/app/personal-finance/inflation-proof-your-life/page.tsx`
-- `/app/financial-solutions/barclaycard-avios-plus/page.tsx`
+- `/app/finanzas-personales/inflation-proof-your-life/page.tsx`
+- `/app/soluciones-financieras/barclaycard-avios-plus/page.tsx`
 
 **Ad Container Pattern:**
 
@@ -619,8 +619,8 @@ excludedPaths: [
   "/quiz",
   "/quiz-2",
   "/blog", // Listing page
-  "/personal-finance", // Listing page
-  "/financial-solutions", // Listing page
+  "/finanzas-personales", // Listing page
+  "/soluciones-financieras", // Listing page
   "/credit-cards", // Listing page
 ];
 ```
@@ -913,15 +913,15 @@ export const adZepConfig = {
   paths: {
     articles: [
       "/blog",
-      "/financial-solutions",
-      "/personal-finance",
+      "/soluciones-financieras",
+      "/finanzas-personales",
       "/credit-cards",
     ],
     excluded: ["/quiz", "/quiz-2"],
     listings: [
       "/blog",
-      "/personal-finance",
-      "/financial-solutions",
+      "/finanzas-personales",
+      "/soluciones-financieras",
       "/credit-cards",
     ], // New
   },

@@ -111,7 +111,7 @@ return () => {
 3. **Test Article Pages**
 
    ```bash
-   https://uk.topfinanzas.com/financial-solutions/santander-uk-credit-card?utm_source=adwords&utm_medium=cpc&utm_campaign=22524445886&utm_term=open&utm_content=banner
+   https://uk.topfinanzas.com/soluciones-financieras/santander-uk-credit-card?utm_source=adwords&utm_medium=cpc&utm_campaign=22524445886&utm_term=open&utm_content=banner
    ```
 
    - Click on CTA buttons in the article
