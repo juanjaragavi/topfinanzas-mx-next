@@ -1,22 +1,22 @@
-# Top Finanzas - Next.js Project
+# Top Finanzas MX - Proyecto Next.js
 
-This is a Next.js project for Top Finanzas, a financial services website. It includes a blog, credit card comparison tools, and other financial services.
+Este es un proyecto Next.js para Top Finanzas México, un sitio web de servicios financieros. Incluye un blog, herramientas de comparación de tarjetas de crédito y otros servicios financieros.
 
-## Environment Setup
+## Configuración del Entorno
 
-1. Copy .env.example to .env.production
-2. Populate with actual values
-3. Never commit sensitive files
-4. On the server, environment files are stored in /opt/app with strict permissions
+1. Copia `.env.example` a `.env.production`
+2. Completa los valores correspondientes
+3. Nunca subas archivos con información sensible al repositorio
+4. En el servidor, los archivos de entorno se almacenan en `/opt/app` con permisos restringidos
 
-## Deployment
+## Despliegue
 
-To deploy the application:
+Para desplegar la aplicación:
 
 ```bash
 pm2 start ecosystem.config.js --env production
 ```
 
-## API Key Management
+## Gestión de Claves API
 
-All API keys and sensitive information are managed through environment variables and should never be hardcoded in the application code.
+Todas las claves API e información sensible se gestionan a través de variables de entorno y nunca deben incluirse directamente en el código de la aplicación.
