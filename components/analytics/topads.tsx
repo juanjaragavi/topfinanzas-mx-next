@@ -32,45 +32,48 @@ export default function TopAds() {
             window.topAds = window.topAds || {};
 
             topAds.config = {
-                domain: 'TOPFIN_MX',
-                networkCode: '23062212598',
-                lazyLoad: 'soft',
-                pageSetting: {
-                    exclude: [
-                    '/terminos-y-condiciones-de-uso',
-                    '/politica-privacidad',
-                        '/politica-de-cookies',
-                        '/nosotros',
-                        '/contactanos',
-                        '/quiz'
-                    ]
+              domain: "TOPFIN_MX",
+              networkCode: "23062212598",
+              lazyLoad: "soft",
+              pageSetting: {
+                exclude: [
+                  "/terminos-y-condiciones-de-uso",
+                  "/politica-privacidad",
+                  "/politica-de-cookies",
+                  "/nosotros",
+                  "/contactanos",
+                  "/quiz",
+                ],
+              },
+              formats: {
+                interstitial: {
+                  status: "active",
+                  exclude: ["/recomendador-de-tarjetas-de-credito-p3"],
                 },
-                formats: {
-                    interstitial: {
-                        status: 'active',
-                        exclude: [],
-                    },
-                    offerwall: {
-                        status: 'active',
-                        logoUrl: 'https://media.topfinanzas.com/images/logo-white.webp',
-                        websiteName: 'TopFinanzas MX',
-                        cooldown: '12',
-                        exclude: [
-                            '/invit-credit-card-rec-uk'
-                        ],
-                    },
-                }
+                offerwall: {
+                  status: "active",
+                  logoUrl: "https://media.topfinanzas.com/images/logo200px.png",
+                  websiteName: "TopFinanzas MX",
+                  cooldown: "12",
+                  exclude: [
+                    "/recomendador-de-tarjetas-de-credito-p2",
+                    "/recomendador-de-tarjetas-de-credito-p3",
+                  ],
+                },
+              },
             };
 
             (function () {
-                var w = window.top, d = w.document, h = d.head || d.getElementsByTagName("head")[0];
-                var s = d.createElement("script");
-                s.src = "https://topads.topnetworks.co/topAds.min.js";
-                s.type = "text/javascript";
-                s.defer = true;
-                s.async = true;
-                s.setAttribute("data-cfasync", "false");
-                h.appendChild(s);
+              var w = window.top,
+                d = w.document,
+                h = d.head || d.getElementsByTagName("head")[0];
+              var s = d.createElement("script");
+              s.src = "https://topads.topnetworks.co/topAds.min.js";
+              s.type = "text/javascript";
+              s.defer = true;
+              s.async = true;
+              s.setAttribute("data-cfasync", "false");
+              h.appendChild(s);
             })();
           `,
         }}
