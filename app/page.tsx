@@ -4,6 +4,7 @@ import { Header } from "@/components/layout/header";
 import { Footer } from "@/components/layout/footer";
 import { FeaturedPostCard } from "@/components/ui/featured-post-card";
 import { CategorySection } from "@/components/ui/category-section"; // Import new component
+import { Hero } from "@/components/ui/hero";
 import { useState, useMemo } from "react";
 import { Button } from "@/components/ui/button";
 import dynamic from "next/dynamic";
@@ -203,18 +204,7 @@ export default function Home() {
     <main className="bg-white min-h-screen flex flex-col">
       <Header />
 
-      {/* Hero Section - Solid Brand Blue */}
-      <section className="bg-[#015ECC] text-white px-6 py-24 md:py-32 lg:py-40">
-        <div className="container mx-auto px-4 text-left">
-          <h1 className="text-white text-4xl md:text-5xl lg:text-6xl font-bold mb-6 md:mb-8 drop-shadow-sm leading-tight">
-            Bienvenidos a Top Finanzas
-          </h1>
-          <p className="text-white text-2xl md:text-xl lg:text-2xl max-w-3xl mb-8 md:mb-12 drop-shadow-sm leading-relaxed font-medium">
-            Donde cada decisión financiera amplía tu mundo. <br />
-            Decide sabiamente, vive plenamente.
-          </p>
-        </div>
-      </section>
+      <Hero />
 
       {/* Blog Section */}
       <section className="py-12 md:py-16 lg:py-20 bg-white">
@@ -255,9 +245,9 @@ export default function Home() {
                 categorySlug: post.categoryPath,
                 date: post.frontmatter.date
                   ? new Date(post.frontmatter.date).toLocaleDateString(
-                      "es-MX",
-                      { year: "numeric", month: "long", day: "numeric" },
-                    )
+                    "es-MX",
+                    { year: "numeric", month: "long", day: "numeric" },
+                  )
                   : undefined,
                 type:
                   post.category === "Soluciones Financieras"
@@ -309,10 +299,10 @@ export default function Home() {
               categorySlug: p.categoryPath,
               date: p.frontmatter.date
                 ? new Date(p.frontmatter.date).toLocaleDateString("es-MX", {
-                    year: "numeric",
-                    month: "long",
-                    day: "numeric",
-                  })
+                  year: "numeric",
+                  month: "long",
+                  day: "numeric",
+                })
                 : undefined,
               type: "financial",
             }))}
@@ -332,10 +322,10 @@ export default function Home() {
               categorySlug: p.categoryPath,
               date: p.frontmatter.date
                 ? new Date(p.frontmatter.date).toLocaleDateString("es-MX", {
-                    year: "numeric",
-                    month: "long",
-                    day: "numeric",
-                  })
+                  year: "numeric",
+                  month: "long",
+                  day: "numeric",
+                })
                 : undefined,
               type: "personal",
             }))}
@@ -355,10 +345,10 @@ export default function Home() {
               categorySlug: p.categoryPath,
               date: p.frontmatter.date
                 ? new Date(p.frontmatter.date).toLocaleDateString("es-MX", {
-                    year: "numeric",
-                    month: "long",
-                    day: "numeric",
-                  })
+                  year: "numeric",
+                  month: "long",
+                  day: "numeric",
+                })
                 : undefined,
               type: "financial",
             }))}
