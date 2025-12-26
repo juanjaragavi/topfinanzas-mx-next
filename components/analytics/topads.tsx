@@ -42,6 +42,7 @@ export default function TopAds() {
                   "/politica-de-cookies",
                   "/nosotros",
                   "/contactanos",
+                  "/campana-quiz",
                   "/quiz",
                 ],
               },
