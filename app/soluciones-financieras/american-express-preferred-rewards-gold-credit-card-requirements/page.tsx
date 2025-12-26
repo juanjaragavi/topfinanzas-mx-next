@@ -38,7 +38,7 @@ export default function AmexGoldRequirementsPage() {
                 increases your chances of approval for this premium credit card.
               </p>
 
-              <div id="square02" data-topads data-topads-size="square"></div>
+              <div id="square03" data-topads data-topads-size="square"></div>
 
               <div className="my-8 text-left sm:text-left">
                 <Image
@@ -161,7 +161,7 @@ export default function AmexGoldRequirementsPage() {
                 </div>
               </div>
 
-              <div id="square02" data-topads data-topads-size="square"></div>
+              <div id="square04" data-topads data-topads-size="square"></div>
 
               <h2 className="text-2xl font-bold text-gray-800 mb-6 mt-12 text-left">
                 Required Documentation for Your Application

@@ -37,7 +37,7 @@ export default function VirginMoneyPersonalLoanPage() {
                 borrowing.
               </p>
 
-              <div id="square01" data-topads data-topads-size="square"></div>
+              <div id="square02" data-topads data-topads-size="square"></div>
 
               <hr className="my-8" />
 

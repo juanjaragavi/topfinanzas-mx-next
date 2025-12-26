@@ -28,7 +28,7 @@ export default function HSBCPersonalLoanRequirementsPage() {
               Requirements for HSBC Personal Loans
             </h1>
 
-            <div id="square01" data-topads data-topads-size="square"></div>
+            <div id="square03" data-topads data-topads-size="square"></div>
 
             <div className="my-8 text-left sm:text-left">
               <p className="text-lg text-gray-800 mb-8 leading-5 text-left">
@@ -131,7 +131,7 @@ export default function HSBCPersonalLoanRequirementsPage() {
                   Required Documentation:
                 </h2>
 
-                <div id="square02" data-topads data-topads-size="square"></div>
+                <div id="square04" data-topads data-topads-size="square"></div>
 
                 <div className="space-y-6 my-8">
                   <div className="flex items-start">

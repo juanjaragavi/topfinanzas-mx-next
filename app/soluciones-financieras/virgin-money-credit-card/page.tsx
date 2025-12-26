@@ -36,7 +36,7 @@ export default function VirginMoneyCreditCardPage() {
                 style that defines the Virgin brand.
               </p>
 
-              <div id="square01" data-topads data-topads-size="square"></div>
+              <div id="square02" data-topads data-topads-size="square"></div>
 
               <hr className="my-8" />
 

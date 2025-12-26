@@ -39,7 +39,7 @@ export default function ZopaCreditCardPage() {
                 British Bank Awards 2024 & 2025.
               </p>
 
-              <div id="square01" data-topads data-topads-size="square"></div>
+              <div id="square02" data-topads data-topads-size="square"></div>
 
               <hr className="my-8" />
 

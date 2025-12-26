@@ -36,7 +36,7 @@ export default function StarlingBankPersonalLoanPage() {
                 exceptional digital experience via the Starling app.
               </p>
 
-              <div id="square01" data-topads data-topads-size="square"></div>
+              <div id="square02" data-topads data-topads-size="square"></div>
 
               <hr className="my-8" />
 

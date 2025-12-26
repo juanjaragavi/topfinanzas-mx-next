@@ -40,7 +40,7 @@ export default function FirstDirectCreditCardPage() {
                 rates for existing customers.
               </p>
 
-              <div id="square01" data-topads data-topads-size="square"></div>
+              <div id="square02" data-topads data-topads-size="square"></div>
 
               <hr className="my-8" />
 

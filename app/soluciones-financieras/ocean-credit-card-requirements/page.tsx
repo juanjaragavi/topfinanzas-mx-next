@@ -31,7 +31,7 @@ export default function OceanCreditCardRequirementsPage() {
               Requirements for the Ocean Credit Card
             </h1>
 
-            <div id="square02" data-topads data-topads-size="square"></div>
+            <div id="square03" data-topads data-topads-size="square"></div>
 
             <div className="my-8 text-left sm:text-left">
               <p className="text-left text-lg text-gray-800 font-medium mb-8 leading-5">
@@ -155,7 +155,7 @@ export default function OceanCreditCardRequirementsPage() {
               </p>
             </section>
 
-            <div id="square02" data-topads data-topads-size="square"></div>
+            <div id="square04" data-topads data-topads-size="square"></div>
 
             <section className="my-12">
               <h2 className="text-2xl md:text-3xl font-bold text-gray-800 mb-6 text-left">
