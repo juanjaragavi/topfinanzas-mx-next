@@ -11,7 +11,7 @@ import { useMobileMenu } from "@/components/providers/mobile-menu-context";
 // Import content from lib directory
 import { logos } from "@/lib/images/logos";
 import { headerNavigation } from "@/lib/navigation/headerNavigation";
-import { headerContent } from "@/lib/texts/header/content";
+
 // Removed AdZepCentralizedHandler - activation now handled by AdZepSPABridge
 // Removed searchIndex, SearchItem
 
@@ -150,9 +150,8 @@ export function Header() {
     <>
       {/* AdZep activation now handled exclusively by AdZepSPABridge */}
       <header
-        className={`sticky top-0 z-50 bg-white border-b border-gray-100 shadow-sm transition-transform duration-300 ease-in-out ${
-          isVisible ? "translate-y-0" : "-translate-y-full"
-        }`}
+        className={`sticky top-0 z-50 bg-white border-b border-gray-100 shadow-sm transition-transform duration-300 ease-in-out ${isVisible ? "translate-y-0" : "-translate-y-full"
+          }`}
       >
         <div className="container mx-auto px-4">
           <div className="flex items-center h-16 relative">
@@ -193,20 +192,26 @@ export function Header() {
             </div>
 
             {/* Desktop Navigation */}
-            <nav className="hidden md:flex items-center space-x-6 ml-6 flex-1 justify-end">
-              {/* Categories Dropdown */}
-              <div className="relative">
+            <nav className="hidden md:flex items-center space-x-8 ml-8 flex-1 justify-end">
+              {/* Categories Mega Menu */}
+              <div className="relative group">
                 <button
                   ref={(el) => {
                     setMenuButtonRef(el, "categories");
                   }}
-                  className="text-link hover:text-primary flex items-center space-x-1 text-sm"
+                  className="text-[#015ECC] font-bold text-xs lg:text-sm tracking-wider uppercase flex items-center space-x-1 py-4 hover:opacity-80 transition-opacity" // Brand Blue + Font Styles
                   onClick={(e) => {
-                    // Prevent default browser action but DON'T stop propagation
                     e.preventDefault();
                     toggleMegaMenu("categories");
                   }}
-                  // Keep onKeyDown for accessibility
+                  onMouseEnter={() => {
+                    // Adding hover trigger for desktop parity with WP usually
+                    if (!activeMegaMenu) setActiveMegaMenu("categories");
+                  }}
+                  // Actually, if we use onClick toggle, we might not want hover. 
+                  // But "Mega Menu triggered on hover/click" was in requirements.
+                  // Let's implement Click for robustness, or Hover if requested. 
+                  // Requirement: "triggered on hover/click". I'll add onMouseEnter.
                   onKeyDown={(e) => {
                     if (e.key === "Enter" || e.key === " ") {
                       e.preventDefault();
@@ -218,30 +223,66 @@ export function Header() {
                   role="button"
                   tabIndex={0}
                 >
-                  <span>{headerNavigation.categoryDropdown.text}</span>
+                  <span>{headerNavigation.categoriesMegaMenu.text}</span>
                   <ChevronDown
-                    className={`size-4 transition-transform ${
-                      activeMegaMenu === "categories" ? "rotate-180" : ""
-                    }`}
+                    className={`size-4 transition-transform ${activeMegaMenu === "categories" ? "rotate-180" : ""
+                      }`}
                   />
                 </button>
 
+                {/* Mega Menu Container */}
                 {activeMegaMenu === "categories" && (
                   <div
                     ref={(el) => {
                       setMegaMenuRef(el, "categories");
                     }}
-                    className="absolute left-0 mt-2 w-48 rounded-md shadow-lg bg-white ring-1 ring-black ring-opacity-5 z-10"
+                    onMouseLeave={() => setActiveMegaMenu(null)}
+                    className="absolute top-full right-0 w-[900px] bg-white shadow-xl border-t-4 border-[#015ECC] z-50 flex" // Solid blue top border
                   >
-                    <div className="py-1">
-                      {headerNavigation.categoryDropdown.items.map((item) => (
+                    {/* Left Sidebar (Categories List) */}
+                    <div className="w-1/4 bg-gray-50 p-6 border-r border-gray-100">
+                      <ul className="space-y-3">
+                        {headerNavigation.categoriesMegaMenu.sidebarItems.map((item, idx) => (
+                          <li key={idx}>
+                            <Link
+                              href={item.href}
+                              className="text-gray-600 hover:text-[#015ECC] hover:translate-x-1 transition-all flex items-center justify-between text-sm font-medium"
+                              onClick={() => setActiveMegaMenu(null)}
+                            >
+                              {item.text}
+                              <ChevronRight className="w-4 h-4 opacity-0 hover:opacity-100 group-hover:opacity-100" />
+                            </Link>
+                          </li>
+                        ))}
+                      </ul>
+                    </div>
+
+                    {/* Right Content (Featured Grid) */}
+                    <div className="w-3/4 p-8 grid grid-cols-4 gap-6 bg-white">
+                      {headerNavigation.categoriesMegaMenu.featuredPosts.map((post, idx) => (
                         <Link
-                          key={item.href}
-                          href={item.href}
-                          className="block px-2 text-body hover:bg-gray-100"
+                          key={idx}
+                          href={post.href}
+                          className="group block"
                           onClick={() => setActiveMegaMenu(null)}
                         >
-                          {item.text}
+                          <div className="relative w-full aspect-[4/3] mb-3 overflow-hidden rounded shadow-sm">
+                            <Image
+                              src={post.image}
+                              alt={post.title}
+                              fill
+                              className="object-cover transition-transform duration-500 group-hover:scale-110"
+                              sizes="(max-width: 768px) 100vw, 200px"
+                              priority={idx < 2} // Prioritize first two images
+                            />
+                            {/* Category Label Overlay */}
+                            <div className="absolute bottom-0 left-0 bg-[#015ECC] text-white text-[10px] uppercase font-bold px-2 py-1">
+                              {post.category}
+                            </div>
+                          </div>
+                          <h4 className="text-gray-800 font-bold text-sm leading-tight group-hover:text-[#015ECC] transition-colors">
+                            {post.title}
+                          </h4>
                         </Link>
                       ))}
                     </div>
@@ -249,185 +290,22 @@ export function Header() {
                 )}
               </div>
 
-              {/* Blog Menu Item with Mega Menu */}
-              <div className="relative">
-                <button
-                  ref={(el) => {
-                    setMenuButtonRef(el, "blog");
-                  }}
-                  className="text-link hover:text-primary flex items-center space-x-1 text-sm"
-                  onClick={(e) => {
-                    // Prevent default browser action but DON'T stop propagation
-                    e.preventDefault();
-                    toggleMegaMenu("blog");
-                  }}
-                  // Keep onKeyDown for accessibility
-                  onKeyDown={(e) => {
-                    if (e.key === "Enter" || e.key === " ") {
-                      e.preventDefault();
-                      toggleMegaMenu("blog");
-                    }
-                  }}
-                  aria-expanded={activeMegaMenu === "blog"}
-                  aria-haspopup="true"
-                  role="button"
-                  tabIndex={0}
+              {/* Standard Links (Prestamos, Tarjetas) */}
+              {headerNavigation.mainNavItems.map((item) => (
+                <Link
+                  key={item.href}
+                  href={item.href}
+                  className="text-[#015ECC] font-bold text-xs lg:text-sm tracking-wider uppercase hover:opacity-80 transition-opacity"
                 >
-                  <span>{headerNavigation.blogMegaMenu.title}</span>
-                  <ChevronDown
-                    className={`size-4 transition-transform ${
-                      activeMegaMenu === "blog" ? "rotate-180" : ""
-                    }`}
-                  />
-                </button>
+                  {item.text}
+                </Link>
+              ))}
 
-                {activeMegaMenu === "blog" && (
-                  <div
-                    ref={(el) => {
-                      setMegaMenuRef(el, "blog");
-                    }}
-                    className="absolute left-1/2 transform -translate-x-1/2 mt-2 w-auto max-w-4xl rounded-md shadow-lg bg-white ring-1 ring-black ring-opacity-5 z-10" // Centered
-                    style={{
-                      width: "calc(min(90vw, 900px))", // Kept width constraint
-                      maxHeight: "calc(100vh - 100px)",
-                      overflowY: "auto",
-                    }}
-                  >
-                    {/* Refactored grid to 4 columns: 3 for links, 1 for featured */}
-                    <div className="p-4 grid grid-cols-4 gap-4">
-                      {" "}
-                      {/* Changed to grid-cols-4 */}
-                      {/* Map link columns directly into the grid */}
-                      {headerNavigation.blogMegaMenu.columns.map(
-                        (column, idx) => (
-                          // Each link column gets its own grid space (col-span-1 implicitly)
-                          <div key={idx} className="col-span-1">
-                            {" "}
-                            {/* Explicitly col-span-1 */}
-                            <h3 className="text-h3 uppercase tracking-wide mb-3">
-                              {column.title}
-                            </h3>
-                            <ul className="space-y-1">
-                              {" "}
-                              {/* Reduced space-y */}
-                              {column.items.map((item, itemIdx) => (
-                                <li key={itemIdx}>
-                                  <Link
-                                    href={item.href}
-                                    className={
-                                      item.isEmphasis
-                                        ? "inline-block bg-gray-100 hover:bg-gray-200 text-blue-700 underline underline-offset-2 font-medium text-sm py-1 px-3 rounded-full transition-colors" // Button-like style
-                                        : "text-body hover:text-primary block py-1" // Original style
-                                    }
-                                    onClick={() => setActiveMegaMenu(null)}
-                                  >
-                                    {item.text}
-                                  </Link>
-                                </li>
-                              ))}
-                            </ul>
-                          </div>
-                        ),
-                      )}
-                      {/* Featured Posts Column */}
-                      {headerNavigation.blogMegaMenu.featuredPosts && (
-                        // Ensure this is also col-span-1 in the 4-col grid
-                        <div className="col-span-1">
-                          <h3 className="text-h3 uppercase tracking-wide mb-3">
-                            {headerNavigation.blogMegaMenu.featuredPosts.title}
-                          </h3>
-                          {/* Changed internal grid to single column */}
-                          <div className="grid grid-cols-1 gapx-2 relative">
-                            {" "}
-                            {/* Reduced gap */}
-                            {headerNavigation.blogMegaMenu.featuredPosts.posts.map(
-                              (post, idx) => (
-                                <Link
-                                  key={idx}
-                                  href={post.href}
-                                  className="group flex space-x-4 items-center" // Use flexbox for row layout
-                                  onClick={() => setActiveMegaMenu(null)}
-                                >
-                                  {/* Text Content Div */}
-                                  <div className="flex-grow">
-                                    <span className="inline-block bg-blue-600 text-white px-2 py-0.5 rounded text-meta mb-1">
-                                      {post.category}
-                                    </span>
-                                    <h4 className="text-h3 group-hover:text-primary transition-colors line-clampx-2">
-                                      {" "}
-                                      {/* Limit title lines */}
-                                      {post.title}
-                                    </h4>
-                                  </div>
-                                  {/* Image Content Div */}
-                                  <div className="flex-shrink-0 w-24 h-16 relative text-blue-700 underline underline-offset-2 rounded-md overflow-hidden">
-                                    {" "}
-                                    {/* Fixed size image container */}
-                                    <Image
-                                      src={post.image}
-                                      alt={post.title}
-                                      fill
-                                      className="object-cover transition-transform duration-300 group-hover:scale-105"
-                                      sizes="96px" // Match width
-                                      priority={false}
-                                      loading="lazy"
-                                      quality={75}
-                                      placeholder="blur"
-                                      blurDataURL="data:image/webp;base64,UklGRlIAAABXRUJQVlA4WAoAAAAQAAAACQAAAwAAQUxQSBcAAAABD9D/ERFCyDa37d+ICPgXqjgjoqA+qgAAVlA4IDYAAACQAQCdASoKAAQAAkA4JZwAAPrHQAD++5AK1AA="
-                                    />
-                                  </div>
-                                </Link>
-                              ),
-                            )}
-                          </div>
-                          <div className="mt-4 text-right">
-                            <Link
-                              href="/blog"
-                              className="text-link font-medium inline-flex items-center text-blue-700 underline underline-offset-2"
-                              onClick={() => setActiveMegaMenu(null)}
-                            >
-                              {headerContent.blogMegaMenu.viewAllText}
-                              <svg
-                                xmlns="http://www.w3.org/2000/svg"
-                                className="h-4 w-4 ml-1"
-                                fill="none"
-                                viewBox="0 0 24 24"
-                                stroke="currentColor"
-                              >
-                                <path
-                                  strokeLinecap="round"
-                                  strokeLinejoin="round"
-                                  strokeWidth={2}
-                                  d="M9 5l7 7-7 7"
-                                />
-                              </svg>
-                            </Link>
-                          </div>
-                        </div>
-                      )}
-                    </div>
-                  </div>
-                )}
-              </div>
-
-              {/* Other Nav Items */}
-              {headerNavigation.mainNavItems
-                .filter((item) => item.text !== "BLOG")
-                .map((item) => (
-                  <Link
-                    key={item.href}
-                    href={item.href}
-                    className="text-link hover:text-primary text-sm" // text-sm already applied here, confirming
-                  >
-                    {item.text}
-                  </Link>
-                ))}
-
-              {/* Desktop Search Button (Restored) */}
+              {/* Desktop Search Button */}
               <button
                 type="button"
                 onClick={() => setIsSearchOpen((prev) => !prev)}
-                className="p-2 text-black hover:text-primary"
+                className="p-2 text-black hover:text-[#015ECC]"
                 aria-label="Search"
               >
                 <Search className="w-5 h-5" />
