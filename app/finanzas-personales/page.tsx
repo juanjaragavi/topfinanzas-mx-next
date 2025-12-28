@@ -1,8 +1,7 @@
 "use client";
 
 import { BlogLayout } from "@/components/mdx/blog-layout";
-import Link from "next/link";
-import Image from "next/image";
+import { LatestPosts } from "@/components/blog/latest-posts";
 import { useState, useEffect } from "react";
 
 // Define the structure for each post item
@@ -373,11 +372,10 @@ export default function PersonalFinanceArchivePage() {
           <button
             key={key}
             onClick={() => setActiveCategory(key)}
-            className={`px-4 py-2 text-sm font-medium rounded-full transition-colors ${
-              activeCategory === key
-                ? "bg-blue-600 text-white"
-                : "bg-gray-100 text-gray-700 hover:bg-gray-200"
-            }`}
+            className={`px-4 py-2 text-sm font-medium rounded-full transition-colors ${activeCategory === key
+              ? "bg-blue-600 text-white"
+              : "bg-gray-100 text-gray-700 hover:bg-gray-200"
+              }`}
           >
             {value}
           </button>
@@ -385,65 +383,14 @@ export default function PersonalFinanceArchivePage() {
       </div>
 
       {/* Grid of filtered posts */}
-      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
-        {filteredPosts.length > 0 ? (
-          filteredPosts.map((post, index) => (
-            <div
-              key={index}
-              className="bg-white rounded-xl shadow-md overflow-hidden flex flex-col relative"
-            >
-              <div
-                className="relative h-48 w-full"
-                style={{ position: "relative" }}
-              >
-                <Image
-                  src={post.image}
-                  alt={post.title.split("|")[0].trim()} // Cleaner alt text
-                  fill
-                  style={{ objectFit: "cover" }}
-                  sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw" // Basic responsive sizes
-                  onError={(e) => {
-                    e.currentTarget.src =
-                      "https://media.topfinanzas.com/images/placeholder-image.webp";
-                  }} // Fallback image
-                  priority={false}
-                  fetchPriority="high"
-                  quality={85}
-                  loading="eager"
-                />
-              </div>
-              <div className="p-6 flex flex-col flex-grow">
-                {post.date && (
-                  <p className="text-sm text-gray-500 mb-2">{post.date}</p>
-                )}
-                <Link
-                  href={`/finanzas-personales/${post.slug}`}
-                  className="text-lg font-semibold text-gray-900 hover:text-blue-600 transition-colors mb-2"
-                >
-                  {post.title.split("|")[0].trim()} {/* Show cleaner title */}
-                </Link>
-                <p className="text-sm text-gray-600 mb-4 flex-grow">
-                  {post.description}
-                </p>
-                <div className="mt-auto">
-                  <Link
-                    href={`/finanzas-personales/${post.slug}`}
-                    className="text-blue-600 hover:text-blue-800 font-medium text-sm"
-                  >
-                    Leer más →
-                  </Link>
-                </div>
-              </div>
-            </div>
-          ))
-        ) : (
-          <div className="col-span-full text-left py-12">
-            <p className="text-gray-500">
-              No se encontraron artículos en esta categoría.
-            </p>
-          </div>
-        )}
-      </div>
+      <LatestPosts
+        posts={filteredPosts.map(post => ({
+          ...post,
+          excerpt: post.description,
+          category: categories[post.category as keyof typeof categories] || post.category
+        }))}
+        title=""
+      />
     </div>
   );
 
