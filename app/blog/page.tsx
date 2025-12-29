@@ -153,6 +153,136 @@ export default function BlogArchivePage() {
       categoryPath: "/soluciones-financieras",
       date: "29 December 2025",
     },
+    {
+      title: "Beneficios de la tarjeta de crédito BBVA Oro",
+      slug: "analisis-tarjeta-de-credito-bbva-oro",
+      description:
+        "La tarjeta de crédito BBVA Oro es una opción de alto nivel que ofrece múltiples beneficios a los usuarios que buscan maximizar sus compras y disfrutar de ventajas exclusivas.",
+      image: "https://media.topfinanzas.com/images/bbva-oro.jpg",
+      category: "Soluciones Financieras",
+      categoryPath: "/soluciones-financieras",
+      date: "29 December 2025",
+    },
+    {
+      title: "Beneficios de la Tarjeta de Crédito Banregio Platinum",
+      slug: "banregio-platinum-analisis",
+      description:
+        "Conoce en esta guía un análisis de la tarjeta de crédito Banregio Platinum y aprende si es la ideal para tu estilo de vida.",
+      image: "https://media.topfinanzas.com/images/download-1-1024x536.jpg",
+      category: "Soluciones Financieras",
+      categoryPath: "/soluciones-financieras",
+      date: "29 December 2025",
+    },
+    {
+      title: "Beneficios de la Gold Card American Express® Aeroméxico",
+      slug: "gold-card-american-express-aeromexico",
+      description:
+        "Descubre los beneficios de la Gold Card American Express Aeroméxico: acumula Puntos Premier, acceso a Salas Premier y seguros de viaje exclusivos.",
+      image: "https://media.topfinanzas.com/images/download-4-1.webp",
+      category: "Soluciones Financieras",
+      categoryPath: "/soluciones-financieras",
+      date: "29 December 2025",
+    },
+    {
+      title: "Beneficios de la RappiCard",
+      slug: "rappicard",
+      description:
+        "Descubre los beneficios de la RappiCard: sin anualidad, cashback en todas tus compras y gestión 100% digital. ¡Solicítala hoy mismo!",
+      image: "https://media.topfinanzas.com/images/rappicard-1.jpg",
+      category: "Soluciones Financieras",
+      categoryPath: "/soluciones-financieras",
+      date: "29 December 2025",
+    },
+    {
+      title: "Beneficios de la tarjeta Aeroméxico Santander",
+      slug: "tarjeta-de-credito-aeromexico-santander",
+      description:
+        "Las tarjetas de crédito Aeroméxico Santander son una excelente opción para los viajeros frecuentes. Conoce sus beneficios, requisitos y características.",
+      image: "https://media.topfinanzas.com/images/Aeromexico-Santander-Blanca.jpg",
+      category: "Soluciones Financieras",
+      categoryPath: "/soluciones-financieras",
+      date: "29 December 2025",
+    },
+    {
+      title: "Beneficios de la tarjeta de crédito Crecy",
+      slug: "tarjeta-de-credito-crecy",
+      description:
+        "Descubre los beneficios de la tarjeta Crecy: crédito con criptomonedas, sin buró y liquidez sin vender tus activos.",
+      image: "https://media.topfinanzas.com/images/crecy-1-1.jpg",
+      category: "Soluciones Financieras",
+      categoryPath: "/soluciones-financieras",
+      date: "29 December 2025",
+    },
+    {
+      title: "LikeU de Santander: innovación en tus manos",
+      slug: "tarjeta-de-credito-likeu-de-santander",
+      description:
+        "Descubre la tarjeta de crédito LikeU de Santander: personalizable, sin anualidad, con cashback y seguridad avanzada. ¡Solicítala hoy!",
+      image: "https://media.topfinanzas.com/images/download-1-3.webp",
+      category: "Soluciones Financieras",
+      categoryPath: "/soluciones-financieras",
+      date: "29 December 2025",
+    },
+    {
+      title: "Beneficios de la tarjeta de Crédito Platinum American Express",
+      slug: "tarjeta-de-credito-platinum-american-express",
+      description:
+        "La Tarjeta Platinum American Express ofrece acceso a salones VIP, concierge 24/7, puntos Membership Rewards y seguros de viaje completos.",
+      image: "https://media.topfinanzas.com/images/download-7-min.webp",
+      category: "Soluciones Financieras",
+      categoryPath: "/soluciones-financieras",
+      date: "29 December 2025",
+    },
+    {
+      title: "Beneficios de la Tarjeta de Crédito Tigres Afirme",
+      slug: "tarjeta-de-credito-tigres-afirme",
+      description:
+        "Descubre los beneficios, requisitos y costos de la Tarjeta de Crédito Tigres Afirme: puntos Bonus, meses sin intereses, anualidad y tasa de interés.",
+      image: "https://media.topfinanzas.com/images/download-6-1.webp",
+      category: "Soluciones Financieras",
+      categoryPath: "/soluciones-financieras",
+      date: "29 December 2025",
+    },
+    {
+      title: "Beneficios y características de la Tarjeta HSBC Air",
+      slug: "tarjeta-hsbc-air",
+      description:
+        "Descubre los beneficios de la Tarjeta HSBC Air: tasa de interés baja, meses sin intereses automáticos y transferencia de saldos.",
+      image: "https://media.topfinanzas.com/images/HSBC-Air-1.jpg",
+      category: "Soluciones Financieras",
+      categoryPath: "/soluciones-financieras",
+      date: "29 December 2025",
+    },
+    {
+      title: "HSBC Zero: Ahorra en comisiones y maximiza tus recompensas",
+      slug: "tarjeta-hsbc-zero",
+      description:
+        "La Tarjeta HSBC Zero ofrece libertad financiera con cero comisiones anuales, programa de recompensas y promociones exclusivas. Conoce sus beneficios.",
+      image: "https://media.topfinanzas.com/images/download-4-2.webp",
+      category: "Soluciones Financieras",
+      categoryPath: "/soluciones-financieras",
+      date: "29 December 2025",
+    },
+    {
+      title: "Tarjeta Plata Card: maximiza cada compra",
+      slug: "tarjeta-plata-card",
+      description:
+        "La Tarjeta de Crédito Plata ofrece hasta 15% de cashback, límite de crédito de hasta $200,000 y meses sin intereses. Conoce sus beneficios.",
+      image: "https://media.topfinanzas.com/images/download-1-2.webp",
+      category: "Soluciones Financieras",
+      categoryPath: "/soluciones-financieras",
+      date: "29 December 2025",
+    },
+    {
+      title: "Tarjeta de Crédito Stori: Ideal para estudiantes",
+      slug: "tarjeta-stori-ventajas-desventajas",
+      description:
+        "Conoce las ventajas de la tarjeta Stori para estudiantes: sin anualidad, 100% digital, internacional y con detalles financieros como CAT y tasa anual fija.",
+      image: "https://media.topfinanzas.com/images/download-15.webp",
+      category: "Soluciones Financieras",
+      categoryPath: "/soluciones-financieras",
+      date: "29 December 2025",
+    },
     // Personal Finance Posts
     {
       title:
