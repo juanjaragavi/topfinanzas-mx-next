@@ -1,0 +1,6 @@
+feat: add HSBC Zero requirements page
+
+- Create app/soluciones-financieras/requisitos-tarjeta-hsbc-zero/page.tsx
+- Implement Red theme for HSBC branding
+- Add specific ad placements (square03, square04)
+- Map images and internal links
