@@ -37,6 +37,9 @@ export function FeaturedPostCard({
   showBadge = true,
   variant = "default", // Default to standard card
 }: FeaturedPostCardProps) {
+  // Normalize image URL to handle combining marks (NFD) commonly used in CDN assets
+  const normalizedImage = image ? image.normalize("NFD") : image;
+
   // Determine the actual URL path
   const postUrl = `${categorySlug}/${slug}`;
 
@@ -84,7 +87,7 @@ export function FeaturedPostCard({
       <div className={imageContainerClasses} style={{ position: "relative" }}>
         <Link href={postUrl} className="block h-full relative">
           <Image
-            src={image}
+            src={normalizedImage}
             alt={title}
             fill
             priority={priority}

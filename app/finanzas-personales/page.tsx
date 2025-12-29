@@ -36,6 +36,17 @@ export default function PersonalFinanceArchivePage() {
   const allPosts: PostItem[] = [
     {
       title:
+        "Cashback vs. Puntos: ¿Qué programa de recompensas te conviene más para el Black Friday? | Top Finanzas MX",
+      slug: "cashback-vs-puntos-que-programa-de-recompensas-te-conviene-mas-para-el-black-friday",
+      description:
+        "En esta guía, desglosamos cada opción: Cashback vs. Puntos para que tomes la mejor decisión para tu bolsillo en Black Friday.",
+      image:
+        "https://media.topfinanzas.com/images/las-mejores-tarjetas-de-credito-para-viajar-guia-para-principiantes.png",
+      date: "29 December 2025",
+      category: "guide",
+    },
+    {
+      title:
         "Cómo Rasterar tus Gastos por 30 Días y Saber a Dónde Va tu Dinero | Top Finanzas MX",
       slug: "how-to-track-your-spending-for-30-days",
       description:
@@ -111,109 +122,7 @@ export default function PersonalFinanceArchivePage() {
       date: "15 October 2025",
       category: "guide",
     },
-    {
-      title:
-        "Los Mejores Préstamos Personales: Tu Guía Completa | Top Finanzas MX",
-      slug: "best-personal-loans",
-      description:
-        "Guía completa sobre los mejores préstamos personales, incluyendo tasas, plazos y requisitos de solicitud de los principales prestamistas.",
-      image: "https://media.topfinanzas.com/images/best-personal-loans.webp",
-      date: "30 March 2025",
-      category: "loans",
-    },
-    {
-      title: "Mejores Tarjetas de Crédito con Recompensas | Top Finanzas MX",
-      slug: "best-rewards-credit-cards",
-      description:
-        "Descubra las mejores tarjetas de crédito con recompensas que convierten sus gastos diarios en valiosos beneficios, desde cashback hasta puntos.",
-      image:
-        "https://media.topfinanzas.com/images/uk/Top_Finance_uk_credit_cards.webp",
-      date: "3 April 2025",
-      category: "creditCards",
-    },
-    {
-      title:
-        "Mejores Tarjetas con Cashback para Maximizar tus Recompensas | Top Finanzas MX",
-      slug: "cashback-credit-cards",
-      description:
-        "¡Descubra las mejores tarjetas de crédito con cashback! Compare beneficios como recompensas ilimitadas y opciones de canje flexibles.",
-      image: "https://media.topfinanzas.com/images/uk/download-8-1.webp",
-      date: "3 April 2025",
-      category: "creditCards",
-    },
-    {
-      title:
-        "Tarjetas de Crédito: Tipos, Beneficios y Claves para la Salud Financiera | Top Finanzas MX",
-      slug: "credit-card-types-benefits",
-      description:
-        "Descubra todo lo que necesita saber sobre las tarjetas de crédito, desde tipos y beneficios hasta consejos para un uso responsable.",
-      image:
-        "https://media.topfinanzas.com/images/uk/Top_Finanzas_Top_tarjeta_de_credito-1.webp",
-      date: "3 April 2025",
-      category: "creditCards",
-    },
-    {
-      title: "Guía Práctica para Salir de Deudas | Top Finanzas MX",
-      slug: "getting-out-of-debt",
-      description:
-        "¿Te sientes abrumado por las deudas? Obtén estrategias prácticas para salir de deudas, crear un fondo de emergencia y tomar el control de tus finanzas.",
-      image:
-        "https://media.topfinanzas.com/images/uk/Top_Finance_how_to_get_out_of_debt.webp",
-      date: "3 April 2025",
-      category: "debt",
-    },
-    {
-      title: "Mejores Tarjetas de Crédito Sin Anualidad | Top Finanzas MX",
-      slug: "no-annual-fee-credit-cards",
-      description:
-        "Encuentra las mejores tarjetas de crédito sin anualidad con grandes recompensas y beneficios flexibles. Ideal para gestionar gastos ahorrando en comisiones.",
-      image:
-        "https://media.topfinanzas.com/images/uk/Top_Finance_credit_cards_without_annual_fee.webp",
-      date: "3 April 2025",
-      category: "creditCards",
-    },
-    {
-      title:
-        "Préstamos Personales: Estrategia para Gestionar Deudas | Top Finanzas MX",
-      slug: "personal-loans-debt-strategy",
-      description:
-        "Descubre cómo los préstamos personales pueden ayudarte a consolidar deuda y gestionar tus finanzas de manera eficiente. Aprende a elegir el préstamo adecuado.",
-      image:
-        "https://media.topfinanzas.com/images/uk/Top-Finances_personal_loans.webp",
-      date: "3 April 2025",
-      category: "loans",
-    },
-    {
-      title:
-        "5 Consejos Esenciales para Elegir un Préstamo en Línea | Top Finanzas MX",
-      slug: "tips-for-choosing-an-online-loan",
-      description:
-        "Navega por el mundo de los préstamos en línea con confianza usando estos consejos esenciales para encontrar las mejores tasas y plazos.",
-      image:
-        "https://media.topfinanzas.com/images/uk/choosing-online-loan-uk.webp",
-      date: "30 March 2025",
-      category: "loans",
-    },
-    {
-      title:
-        "Mejores Tarjetas con 0% de Interés Introductorio | Top Finanzas MX",
-      slug: "top-credit-cards-0-intro-apr",
-      description:
-        "Compara las mejores tarjetas de crédito que ofrecen 0% de interés introductorio en compras y transferencias de saldo. Ahorra en intereses hoy.",
-      image: "https://media.topfinanzas.com/images/uk/APR.webp",
-      date: "3 April 2025",
-      category: "creditCards",
-    },
-    {
-      title:
-        "Entendiendo las Tasas de Interés de Tarjetas de Crédito | Top Finanzas MX",
-      slug: "understanding-credit-card-interest-rates",
-      description:
-        "Aprende cómo funcionan las tasas de interés de las tarjetas de crédito, incluyendo cálculos de CAT, y descubre formas de gestionar tu deuda.",
-      image: "https://media.topfinanzas.com/images/uk/download-5-2.webp",
-      date: "3 April 2025",
-      category: "creditCards",
-    },
+
     {
       title: "¿Qué es la Salud Financiera? Una Guía Rápida | Top Finanzas MX",
       slug: "what-is-financial-health",
@@ -388,9 +297,7 @@ export default function PersonalFinanceArchivePage() {
         posts={filteredPosts.map((post) => ({
           ...post,
           excerpt: post.description,
-          category:
-            categories[post.category as keyof typeof categories] ||
-            post.category,
+          category: "finanzas-personales",
         }))}
         title=""
       />

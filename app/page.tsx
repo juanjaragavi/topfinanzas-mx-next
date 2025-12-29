@@ -48,6 +48,23 @@ const cleanTitle = (title: string): string => {
 // Using a subset of posts for the homepage, sorted by date descending
 const allPosts: PostData[] = [
   {
+    slug: "cashback-vs-puntos-que-programa-de-recompensas-te-conviene-mas-para-el-black-friday",
+    frontmatter: {
+      title:
+        "Cashback vs. Puntos: ¿Qué programa de recompensas te conviene más para el Black Friday?",
+      description:
+        "En esta guía, desglosamos cada opción: Cashback vs. Puntos para que tomes la mejor decisión para tu bolsillo en Black Friday.",
+      date: "2025-12-29T00:00:00Z",
+      featuredImage:
+        "https://media.topfinanzas.com/images/las-mejores-tarjetas-de-credito-para-viajar-guia-para-principiantes.png",
+      categories: [
+        { name: "Finanzas Personales", slug: "finanzas-personales" },
+      ],
+    },
+    category: "Finanzas Personales",
+    categoryPath: "/finanzas-personales",
+  },
+  {
     slug: "barclaycard-avios-plus",
     frontmatter: {
       title: "Tarjeta de Crédito Premium: Recompensas de Viaje Exclusivas",
@@ -96,15 +113,15 @@ const allPosts: PostData[] = [
     categoryPath: "/soluciones-financieras",
   },
   {
-    slug: "best-rewards-credit-cards",
+    slug: "how-to-track-your-spending-for-30-days",
     frontmatter: {
       title:
-        "Las Mejores Tarjetas de Crédito con Recompensas | Top Finanzas MX",
+        "Cómo Rasterar tus Gastos por 30 Días y Saber a Dónde Va tu Dinero | Top Finanzas MX",
       description:
-        "Descubre las mejores tarjetas de crédito con recompensas para maximizar tus gastos...",
-      date: "2025-04-03T00:00:00Z",
+        "Deja de adivinar sobre tus finanzas. Aprende un método sencillo de seguimiento de gastos de 30 días para descubrir a dónde va realmente tu dinero y crear hábitos duraderos.",
+      date: "2025-12-02T00:00:00Z",
       featuredImage:
-        "https://media.topfinanzas.com/images/uk/Top_Finance_uk_credit_cards.webp",
+        "https://media.topfinanzas.com/images/uk/how-to-track-your-spending-for-30-days.webp",
       categories: [
         { name: "Finanzas Personales", slug: "finanzas-personales" },
       ],
@@ -113,46 +130,15 @@ const allPosts: PostData[] = [
     categoryPath: "/finanzas-personales",
   },
   {
-    slug: "getting-out-of-debt",
-    frontmatter: {
-      title: "Guía Práctica para Salir de Deudas | Top Finanzas MX",
-      description:
-        "¿Te sientes abrumado por las deudas? Obtén estrategias prácticas...",
-      date: "2025-04-03T00:00:00Z",
-      featuredImage:
-        "https://media.topfinanzas.com/images/uk/Top_Finance_how_to_get_out_of_debt.webp",
-      categories: [
-        { name: "Finanzas Personales", slug: "finanzas-personales" },
-      ],
-    },
-    category: "Finanzas Personales",
-    categoryPath: "/finanzas-personales",
-  },
-  {
-    slug: "top-credit-cards-0-intro-apr",
+    slug: "the-psychology-of-spending-how-to-stop-impulse-buys-and-start-mindful-saving",
     frontmatter: {
       title:
-        "Mejores Tarjetas de Crédito con Meses Sin Intereses | Top Finanzas MX",
+        "La Psicología del Gasto: Cómo Detener las Compras Impulsivas | Top Finanzas MX",
       description:
-        "Compara las mejores tarjetas de crédito que ofrecen meses sin intereses...",
-      date: "2025-04-03T00:00:00Z",
-      featuredImage: "https://media.topfinanzas.com/images/uk/APR.webp",
-      categories: [
-        { name: "Finanzas Personales", slug: "finanzas-personales" },
-      ],
-    },
-    category: "Finanzas Personales",
-    categoryPath: "/finanzas-personales",
-  },
-  {
-    slug: "best-personal-loans",
-    frontmatter: {
-      title: "Mejores Préstamos Personales en México: Tu Guía Completa",
-      description:
-        "Guía completa de los mejores préstamos personales en México...",
-      date: "2025-03-30T00:00:00Z",
+        "Descubra por qué compramos por impulso y aprenda estrategias prácticas para dominar su mentalidad de dinero. Empiece a ahorrar de forma consciente hoy mismo.",
+      date: "2025-11-25T00:00:00Z",
       featuredImage:
-        "https://media.topfinanzas.com/images/best-personal-loans.webp",
+        "https://media.topfinanzas.com/images/uk/the-psychology-of-spending-how-to-stop-impulse-buys-and-start-mindful-saving.webp",
       categories: [
         { name: "Finanzas Personales", slug: "finanzas-personales" },
       ],
@@ -161,14 +147,66 @@ const allPosts: PostData[] = [
     categoryPath: "/finanzas-personales",
   },
   {
-    slug: "tips-for-choosing-an-online-loan",
+    slug: "automate-your-wealth",
     frontmatter: {
       title:
-        "5 Consejos Esenciales para Elegir un Préstamo en Línea | Top Finanzas MX",
-      description: "Navega el mundo de los préstamos en línea con confianza...",
-      date: "2025-03-30T00:00:00Z",
+        'Automatiza tu Riqueza: Sistema de Finanzas "Configúralo y Olvídalo" | Top Finanzas MX',
+      description:
+        'Aprenda cómo automatizar sus finanzas con nuestro sistema "Configúralo y olvídalo". Ahorre tiempo, reduzca el estrés y genere riqueza sin esfuerzo.',
+      date: "2025-11-19T00:00:00Z",
       featuredImage:
-        "https://media.topfinanzas.com/images/uk/choosing-online-loan-uk.webp",
+        "https://media.topfinanzas.com/images/uk/automate-your-wealth.webp",
+      categories: [
+        { name: "Finanzas Personales", slug: "finanzas-personales" },
+      ],
+    },
+    category: "Finanzas Personales",
+    categoryPath: "/finanzas-personales",
+  },
+  {
+    slug: "stop-living-paycheck-to-paycheck",
+    frontmatter: {
+      title:
+        "Deja de Vivir de Quincena en Quincena: 3 Cambios para Romper el Ciclo | Top Finanzas MX",
+      description:
+        "Escapa del ciclo de vivir al día con tres cambios prácticos en el flujo de caja. Aprende cómo las familias están construyendo un respiro sin sacrificios dramáticos.",
+      date: "2025-11-13T00:00:00Z",
+      featuredImage:
+        "https://media.topfinanzas.com/images/budgetbee/stop-living-paycheck-to-paycheck.webp",
+      categories: [
+        { name: "Finanzas Personales", slug: "finanzas-personales" },
+      ],
+    },
+    category: "Finanzas Personales",
+    categoryPath: "/finanzas-personales",
+  },
+  {
+    slug: "financial-health-check-where-does-your-money-go",
+    frontmatter: {
+      title:
+        "Chequeo de Salud Financiera: ¿A Dónde se Va tu Dinero? | Top Finanzas MX",
+      description:
+        "Descubra a dónde va realmente su dinero con nuestro rápido chequeo de salud financiera. Aprenda métodos sencillos de seguimiento que revelan patrones de gasto.",
+      date: "2025-11-05T00:00:00Z",
+      featuredImage:
+        "https://media.topfinanzas.com/images/uk/financial-health-check-money-tracking.webp",
+      categories: [
+        { name: "Finanzas Personales", slug: "finanzas-personales" },
+      ],
+    },
+    category: "Finanzas Personales",
+    categoryPath: "/finanzas-personales",
+  },
+  {
+    slug: "hidden-costs-of-homeownership",
+    frontmatter: {
+      title:
+        "Los Costos Ocultos de Ser Propietario de una Casa | Top Finanzas MX",
+      description:
+        "Descubra los gastos inesperados que sorprenden a los propietarios de viviendas. Desde el mantenimiento hasta los seguros, aprenda a presupuestar los costos ocultos.",
+      date: "2025-10-28T00:00:00Z",
+      featuredImage:
+        "https://media.topfinanzas.com/images/uk/hidden-costs-homeownership.webp",
       categories: [
         { name: "Finanzas Personales", slug: "finanzas-personales" },
       ],

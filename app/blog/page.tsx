@@ -42,6 +42,18 @@ export default function BlogArchivePage() {
     // Personal Finance - Latest Articles
     {
       title:
+        "Cashback vs. Puntos: ¿Qué programa de recompensas te conviene más para el Black Friday? | Top Finanzas MX",
+      slug: "cashback-vs-puntos-que-programa-de-recompensas-te-conviene-mas-para-el-black-friday",
+      description:
+        "En esta guía, desglosamos cada opción: Cashback vs. Puntos para que tomes la mejor decisión para tu bolsillo en Black Friday.",
+      image:
+        "https://media.topfinanzas.com/images/las-mejores-tarjetas-de-credito-para-viajar-guia-para-principiantes.png",
+      category: "Finanzas Personales",
+      categoryPath: "/finanzas-personales",
+      date: "29 December 2025",
+    },
+    {
+      title:
         "Cómo Rasterar tus Gastos por 30 Días y Saber a Dónde Va tu Dinero | Top Finanzas MX",
       slug: "how-to-track-your-spending-for-30-days",
       description:
@@ -198,7 +210,8 @@ export default function BlogArchivePage() {
       slug: "tarjeta-de-credito-aeromexico-santander",
       description:
         "Las tarjetas de crédito Aeroméxico Santander son una excelente opción para los viajeros frecuentes. Conoce sus beneficios, requisitos y características.",
-      image: "https://media.topfinanzas.com/images/Aeromexico-Santander-Blanca.jpg",
+      image:
+        "https://media.topfinanzas.com/images/Aeromexico-Santander-Blanca.jpg",
       category: "Soluciones Financieras",
       categoryPath: "/soluciones-financieras",
       date: "29 December 2025",
@@ -296,117 +309,7 @@ export default function BlogArchivePage() {
       categoryPath: "/finanzas-personales",
       date: "15 October 2025",
     },
-    {
-      title:
-        "Los Mejores Préstamos Personales: Tu Guía Completa | Top Finanzas MX",
-      slug: "best-personal-loans",
-      description: "Guía completa sobre los mejores préstamos personales...",
-      image: "https://media.topfinanzas.com/images/best-personal-loans.webp",
-      category: "Finanzas Personales",
-      categoryPath: "/finanzas-personales",
-      date: "30 March 2025",
-    },
-    {
-      title:
-        "Mejores Tarjetas de Crédito con Recompensas para Maximizar tus Gastos | Top Finanzas MX",
-      slug: "best-rewards-credit-cards",
-      description:
-        "Descubra las mejores tarjetas de crédito con recompensas...",
-      image:
-        "https://media.topfinanzas.com/images/uk/Top_Finance_uk_credit_cards.webp", // Placeholder
-      category: "Finanzas Personales",
-      categoryPath: "/finanzas-personales",
-      date: "3 April 2025",
-    },
-    {
-      title:
-        "Mejores Tarjetas de Crédito con Cashback para Maximizar tus Recompensas | Top Finanzas MX",
-      slug: "cashback-credit-cards",
-      description: "¡Descubra las mejores tarjetas de crédito con cashback!...",
-      image: "https://media.topfinanzas.com/images/uk/download-8-1.webp", // Placeholder
-      category: "Finanzas Personales",
-      categoryPath: "/finanzas-personales",
-      date: "3 April 2025",
-    },
-    {
-      title:
-        "Tarjetas de Crédito: Tipos, Beneficios y Claves para la Salud Financiera | Top Finanzas MX",
-      slug: "credit-card-types-benefits",
-      description:
-        "Descubra todo lo que necesita saber sobre las tarjetas de crédito...",
-      image:
-        "https://media.topfinanzas.com/images/uk/Top_Finanzas_Top_tarjeta_de_credito-1.webp", // Placeholder
-      category: "Finanzas Personales",
-      categoryPath: "/finanzas-personales",
-      date: "3 April 2025",
-    },
-    {
-      title: "Guía Práctica para Salir de Deudas | Top Finanzas MX",
-      slug: "getting-out-of-debt",
-      description:
-        "¿Te sientes abrumado por las deudas? Obtén estrategias prácticas...",
-      image:
-        "https://media.topfinanzas.com/images/uk/Top_Finance_how_to_get_out_of_debt.webp",
-      category: "Finanzas Personales",
-      categoryPath: "/finanzas-personales",
-      date: "3 April 2025",
-    },
-    {
-      title: "Mejores Tarjetas de Crédito sin Comisión Anual | Top Finanzas MX",
-      slug: "no-annual-fee-credit-cards",
-      description: "Encuentra las mejores tarjetas de crédito sin anualidad...",
-      image:
-        "https://media.topfinanzas.com/images/uk/Top_Finance_credit_cards_without_annual_fee.webp", // Placeholder
-      category: "Finanzas Personales",
-      categoryPath: "/finanzas-personales",
-      date: "3 April 2025",
-    },
-    {
-      title:
-        "Préstamos Personales: Una Estrategia para Gestionar Deudas | Top Finanzas MX",
-      slug: "personal-loans-debt-strategy",
-      description:
-        "Descubra cómo los préstamos personales pueden ayudarle a consolidar deudas...",
-      image:
-        "https://media.topfinanzas.com/images/uk/Top-Finances_personal_loans.webp", // Placeholder
-      category: "Finanzas Personales",
-      categoryPath: "/finanzas-personales",
-      date: "3 April 2025",
-    },
-    {
-      title:
-        "5 Consejos Esenciales para Elegir un Préstamo en Línea: Guía Rápida | Top Finanzas MX",
-      slug: "tips-for-choosing-an-online-loan",
-      description:
-        "Navega por el mundo de los préstamos en línea con confianza...",
-      image:
-        "https://media.topfinanzas.com/images/uk/choosing-online-loan-uk.webp",
-      category: "Finanzas Personales",
-      categoryPath: "/finanzas-personales",
-      date: "30 March 2025",
-    },
-    {
-      title:
-        "Mejores Tarjetas de Crédito con Ofertas de 0% de Introducción en el CAT | Top Finanzas MX",
-      slug: "top-credit-cards-0-intro-apr",
-      description:
-        "Compara las mejores tarjetas de crédito que ofrecen tasas del 0%...",
-      image: "https://media.topfinanzas.com/images/uk/APR.webp", // Placeholder
-      category: "Finanzas Personales",
-      categoryPath: "/finanzas-personales",
-      date: "3 April 2025",
-    },
-    {
-      title:
-        "Entendiendo las Tasas de Interés de las Tarjetas de Crédito: Guía del Consumidor | Top Finanzas MX",
-      slug: "understanding-credit-card-interest-rates",
-      description:
-        "Aprenda cómo funcionan las tasas de interés de las tarjetas...",
-      image: "https://media.topfinanzas.com/images/uk/download-5-2.webp", // Placeholder
-      category: "Finanzas Personales",
-      categoryPath: "/finanzas-personales",
-      date: "3 April 2025",
-    },
+
     {
       title:
         "¿Side Hustle o Segundo Trabajo? Cómo Elegir el Impulsor de Ingresos Adecuado",

@@ -85,8 +85,7 @@ export default function FinancialSolutionsPage() {
       slug: "tarjeta-de-credito-hsbc-viva",
       description:
         "Conoce la Tarjeta de Crédito HSBC Viva: sin anualidad, cashback en compras, meses sin intereses y acceso a promociones exclusivas.",
-      image:
-        "https://media.topfinanzas.com/images/TC_HSBC_VIVA_requisitos.jpg",
+      image: "https://media.topfinanzas.com/images/TC_HSBC_VIVA_requisitos.jpg",
       date: "29 December 2025",
       type: "traditional",
     },
@@ -158,7 +157,8 @@ export default function FinancialSolutionsPage() {
       slug: "tarjeta-de-credito-aeromexico-santander",
       description:
         "Las tarjetas de crédito Aeroméxico Santander son una excelente opción para los viajeros frecuentes. Conoce sus beneficios, requisitos y características.",
-      image: "https://media.topfinanzas.com/images/Aeromexico-Santander-Blanca.jpg",
+      image:
+        "https://media.topfinanzas.com/images/Aeromexico-Santander-Blanca.jpg",
       date: "29 December 2025",
       type: "traditional",
     },

@@ -62,6 +62,31 @@ export function BlogLayout({ children, metadata }: BlogLayoutProps) {
                   <SidebarSeparator />
                   {/* Recent Articles - Updated */}
                   <SidebarRecentArticles>
+                    {/* Cashback vs Puntos Article - NEW */}
+                    <div className="flex items-center gap-3">
+                      <Image
+                        src="https://media.topfinanzas.com/images/las-mejores-tarjetas-de-credito-para-viajar-guia-para-principiantes.png"
+                        alt="Cashback vs. Puntos: ¿Qué programa de recompensas te conviene más para el Black Friday?"
+                        width={50}
+                        height={50}
+                        loading="lazy"
+                        priority={false}
+                        className="rounded-md object-cover"
+                        onError={(e) => {
+                          e.currentTarget.src =
+                            "https://media.topfinanzas.com/images/placeholder-image.webp";
+                        }}
+                      />
+                      <div>
+                        <Link
+                          href="/finanzas-personales/cashback-vs-puntos-que-programa-de-recompensas-te-conviene-mas-para-el-black-friday"
+                          className="text-sm font-medium hover:underline line-clamp-2"
+                        >
+                          Cashback vs. Puntos: ¿Qué programa de recompensas te
+                          conviene más para el Black Friday?
+                        </Link>
+                      </div>
+                    </div>
                     {/* Psychology of Spending Article - NEW */}
                     <div className="flex items-center gap-3">
                       <Image
