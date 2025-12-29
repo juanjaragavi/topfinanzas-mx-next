@@ -1,7 +1,6 @@
 import Image from "next/image";
 import Link from "next/link";
 import { Button } from "@/components/ui/button";
-import { Card, CardContent } from "@/components/ui/card";
 import {
   CheckCircle2,
   ArrowRight,
@@ -9,7 +8,6 @@ import {
   PieChart,
   Wallet,
   Target,
-  Smartphone,
 } from "lucide-react";
 
 export const metadata = {

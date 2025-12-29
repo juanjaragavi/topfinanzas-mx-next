@@ -14,6 +14,90 @@ export const ALL_POSTS: PostItem[] = [
   // New Post
   {
     title:
+      "Finanzas Personales en Quincena: Qué Hacer y Qué Evitar con tu Sueldo | Top Finanzas MX",
+    slug: "finanzas-personales-en-quincena-que-hacer-y-que-evitar-con-tu-sueldo",
+    description:
+      "Recibir tu pago es una gran sensación, pero lo que haces después con ese dinero puede impactar significativamente tus finanzas personales. Tomar decisiones inteligentes cuando tu ingreso llega a tu cuenta es crucial para construir un futuro financiero sólido.",
+    image:
+      "https://media.topfinanzas.com/images/finanzas-personales-en-quincena-que-hacer-y-que-evitar-con-tu-sueldo.webp",
+    category: "Finanzas Personales",
+    categoryPath: "/finanzas-personales",
+    date: "29 May 2025",
+  },
+  {
+    title:
+      "Finanzas Personales en México: 10 Reglas de Oro Para Una Vida Sin Estrés Financiero | Top Finanzas MX",
+    slug: "finanzas-personales-en-mexico-10-reglas-de-oro-para-una-vida-sin-estres-financiero",
+    description:
+      "Llevar una vida financiera saludable es clave para nuestro bienestar general. En México, como en cualquier parte del mundo, entender y aplicar principios básicos de finanzas personales puede marcar la diferencia entre la tranquilidad y el estrés constante.",
+    image:
+      "https://media.topfinanzas.com/images/finanzas-personales-en-mexico-10-reglas-de-oro-para-una-vida-sin-estres-financiero.png",
+    category: "Finanzas Personales",
+    categoryPath: "/finanzas-personales",
+    date: "06 June 2025",
+  },
+  {
+    title:
+      "Finanzas Personales para Recién Casados: Construyendo Su Futuro Financiero Juntos | Top Finanzas MX",
+    slug: "finanzas-personales-para-recien-casados-construyendo-su-futuro-financiero-juntos",
+    description:
+      "Iniciar una vida juntos trae innumerables alegrías y desafíos, pero pocos temas son tan cruciales—o potencialmente estresantes—como manejar las finanzas personales como pareja recién casada o familia nueva.",
+    image:
+      "https://media.topfinanzas.com/images/finanzas-personales-para-recien-casados-construyendo-su-futuro-financiero-juntos.webp",
+    category: "Finanzas Personales",
+    categoryPath: "/finanzas-personales",
+    date: "11 June 2025",
+  },
+  {
+    title:
+      "Aumento de Sueldo: La Guía Definitiva de Finanzas Personales para No Malgastar tu Dinero | Top Finanzas MX",
+    slug: "aumento-de-sueldo-la-guia-definitiva-de-finanzas-personales-para-no-malgastar-tu-dinero",
+    description:
+      "¡Felicidades! Has trabajado duro y finalmente llegó la noticia que esperabas: un aumento de sueldo. Esta guía te ayudará a tomar las mejores decisiones para que tu aumento se traduzca en verdadero bienestar financiero a largo plazo.",
+    image:
+      "https://media.topfinanzas.com/images/aumento-de-sueldo-la-guia-definitiva-de-finanzas-personales-para-no-malgastar-tu-dinero.webp",
+    category: "Finanzas Personales",
+    categoryPath: "/finanzas-personales",
+    date: "18 June 2025",
+  },
+  {
+    title:
+      "Finanzas Personales para Recién Casados y Parejas Nuevas: Qué Hacer y Qué Evitar | Top Finanzas MX",
+    slug: "finanzas-personales-para-recien-casados-y-parejas-nuevas-que-hacer-y-que-evitar",
+    description:
+      "Casarse o empezar una vida juntos como pareja es una etapa emocionante. Están construyendo un futuro compartido, y ese futuro definitivamente incluye las finanzas. Esta guía les mostrará los «qué hacer» y «qué evitar» esenciales en finanzas personales para recién casados y parejas nuevas.",
+    image:
+      "https://media.topfinanzas.com/images/finanzas-personales-para-recien-casados-y-parejas-nuevas-que-hacer-y-que-evitar.jpg",
+    category: "Finanzas Personales",
+    categoryPath: "/finanzas-personales",
+    date: "25 June 2025",
+  },
+  {
+    title:
+      "Inversión Inteligente en México: Cómo Hacer Crecer tu Dinero | Top Finanzas MX",
+    slug: "inversion-inteligente-en-mexico-como-hacer-crecer-tu-dinero",
+    description:
+      "En el mundo de las finanzas personales, hacer que tu dinero trabaje para ti es tan importante como ganarlo. Descubre cómo invertir de manera inteligente en México.",
+    image:
+      "https://media.topfinanzas.com/images/inversion-inteligente-en-mexico-como-hacer-crecer-tu-dinero.jpg",
+    category: "Finanzas Personales",
+    categoryPath: "/finanzas-personales",
+    date: "02 July 2025",
+  },
+  {
+    title:
+      "Ahorro Inteligente: Estrategias de Finanzas Personales para Impulsar tu Dinero | Top Finanzas MX",
+    slug: "ahorro-inteligente-estrategias-de-finanzas-personales-para-impulsar-tu-dinero",
+    description:
+      "En el panorama financiero actual, simplemente ganar dinero no es suficiente para asegurar tu futuro. Aprender a ahorrar de manera inteligente es una habilidad crucial que fortalece tus finanzas personales.",
+    image:
+      "https://media.topfinanzas.com/images/ahorro-inteligente-estrategias-de-finanzas-personales-para-impulsar-tu-dinero.webp",
+    category: "Finanzas Personales",
+    categoryPath: "/finanzas-personales",
+    date: "17 July 2025",
+  },
+  {
+    title:
       "Finanzas Personales: Tu Guía Esencial para la Salud Financiera en México | Top Finanzas MX",
     slug: "finanzas-personales-tu-guia-esencial-para-la-salud-financiera-en-mexico",
     description:

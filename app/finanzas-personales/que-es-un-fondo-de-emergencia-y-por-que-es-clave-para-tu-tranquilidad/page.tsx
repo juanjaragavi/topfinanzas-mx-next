@@ -1,15 +1,8 @@
 import React from "react";
 import Image from "next/image";
 import Link from "next/link";
-import { Button } from "@/components/ui/button";
 import { Card, CardContent } from "@/components/ui/card";
-import {
-  ArrowRight,
-  CheckCircle2,
-  AlertCircle,
-  PiggyBank,
-  ShieldCheck,
-} from "lucide-react";
+import { CheckCircle2, AlertCircle } from "lucide-react";
 import { Metadata } from "next";
 
 export const metadata: Metadata = {
