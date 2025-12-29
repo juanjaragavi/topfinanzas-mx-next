@@ -32,5 +32,5 @@ The following pages seem to be duplicates or alternative versions of existing pr
 
 ## Recommendations
 
-1.  **Create Missing Pages**: Generate the missing Requirements page for BBVA Azul and the missing Benefits page for HSBC Viva to complete the funnel.
-2.  **Consolidate Duplicates**: Review the content of potential duplicates and redirect or merge them into the main product pages to avoid SEO cannibalization and user confusion.
+1. **Create Missing Pages**: Generate the missing Requirements page for BBVA Azul and the missing Benefits page for HSBC Viva to complete the funnel.
+2. **Consolidate Duplicates**: Review the content of potential duplicates and redirect or merge them into the main product pages to avoid SEO cannibalization and user confusion.

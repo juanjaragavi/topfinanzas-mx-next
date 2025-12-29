@@ -114,237 +114,44 @@ export default function BlogArchivePage() {
     },
     // Financial Solutions - Credit Cards
     {
-      title:
-        "Tarjeta RBS Purchase & Balance Transfer: Ahorra en Intereses con Ofertas al 0% | Top Finanzas MX",
-      slug: "rbs-purchase-balance-transfer-card",
+      title: "Beneficios de la tarjeta de crédito HSBC Viva",
+      slug: "tarjeta-de-credito-hsbc-viva",
       description:
-        "La tarjeta RBS Purchase & Balance Transfer ofrece 0% de interés en compras hasta por 20 meses y 0% en transferencias de saldo por hasta 18 meses. Sin anualidad.",
-      image:
-        "https://media.topfinanzas.com/images/uk/rbs-purchase-balance-transfer-card.webp",
+        "Conoce la Tarjeta de Crédito HSBC Viva: sin anualidad, cashback en compras, meses sin intereses y acceso a promociones exclusivas.",
+      image: "https://media.topfinanzas.com/images/TC_HSBC_VIVA_requisitos.jpg",
       category: "Soluciones Financieras",
       categoryPath: "/soluciones-financieras",
-      date: "24 October 2025",
+      date: "29 December 2025",
     },
     {
-      title:
-        "Tarjetas de Crédito Bank of Scotland: Opciones Flexibles para cada Necesidad | Top Finanzas MX",
-      slug: "bank-of-scotland-credit-cards",
+      title: "Beneficios de la Tarjeta de Crédito Joy Banamex",
+      slug: "tarjeta-simplicity-citibanamex",
       description:
-        "Descubre las tarjetas de crédito de Bank of Scotland con opciones para gastos diarios, transferencias de saldo, compras grandes y construcción de crédito.",
-      image:
-        "https://media.topfinanzas.com/images/uk/bank-of-scotland-credit-cards.webp",
+        "Conoce todo sobre la tarjeta Joy Banamex (antes Simplicity): sin anualidad, seguridad sin números impresos y gestión total desde la app.",
+      image: "https://media.topfinanzas.com/images/foto2-1024x536.jpg",
       category: "Soluciones Financieras",
       categoryPath: "/soluciones-financieras",
-      date: "24 October 2025",
+      date: "29 December 2025",
     },
     {
-      title:
-        "Tarjeta de Crédito First Direct: Banca Sencilla con Tasas Competitivas | Top Finanzas MX",
-      slug: "first-direct-credit-card",
+      title: "Tarjeta de crédito Azul de BBVA: Tu aliado en cada transacción",
+      slug: "tarjeta-de-credito-azul-bbva",
       description:
-        "Descubre la tarjeta First Direct 1st con 0% de interés en compras por 12 meses, tasas competitivas, sin comisión anual y servicio al cliente 24/7.",
-      image:
-        "https://media.topfinanzas.com/images/uk/first-direct-credit-card.webp",
+        "La Tarjeta de Crédito Azul de BBVA es perfecta tanto para nuevos usuarios del crédito como para compradores y viajeros frecuentes.",
+      image: "https://media.topfinanzas.com/images/download-5-2.webp",
       category: "Soluciones Financieras",
       categoryPath: "/soluciones-financieras",
-      date: "24 October 2025",
+      date: "29 December 2025",
     },
     {
-      title:
-        "Tarjeta de Crédito The Co-operative Bank: Banca Ética con Recompensas de Cashback | Top Finanzas MX",
-      slug: "the-co-operative-bank-credit-card",
+      title: "NuBank: La tarjeta de crédito ideal para ti",
+      slug: "guia-tarjeta-de-credito-nu-bank",
       description:
-        "Descubre la tarjeta Members de The Co-operative que ofrece 0.5% de cashback en tiendas Co-op y 0.3% en todos los demás lugares, sin anualidad.",
-      image:
-        "https://media.topfinanzas.com/images/uk/the-co-operative-bank-credit-card.webp",
+        "La Tarjeta de Crédito NuBank, conocida por su accesibilidad y transparencia, se adapta a cualquier estilo de vida.",
+      image: "https://media.topfinanzas.com/images/download-9-1.webp",
       category: "Soluciones Financieras",
       categoryPath: "/soluciones-financieras",
-      date: "24 October 2025",
-    },
-    {
-      title:
-        "Tarjeta de Crédito M&S Rewards: Gana Puntos en cada Compra | Top Finanzas MX",
-      slug: "ms-rewards-credit-card",
-      description:
-        "Descubre la tarjeta M&S Rewards que ofrece puntos de recompensa en todos tus gastos en M&S y más allá, con beneficios exclusivos para miembros.",
-      image:
-        "https://media.topfinanzas.com/images/uk/ms-rewards-credit-card.webp",
-      category: "Soluciones Financieras",
-      categoryPath: "/soluciones-financieras",
-      date: "24 October 2025",
-    },
-    {
-      title:
-        "Tarjetas de Crédito Tesco Bank Clubcard: Gana Puntos en cada Compra | Top Finanzas MX",
-      slug: "tesco-bank-clubcard-credit-cards",
-      description:
-        "Descubre las tarjetas Tesco Bank Clubcard con tasas de introducción al 0%, opciones de CAT bajo y puntos Clubcard en tus gastos diarios.",
-      image:
-        "https://media.topfinanzas.com/images/uk/tesco-bank-clubcard-credit-cards.webp",
-      category: "Soluciones Financieras",
-      categoryPath: "/soluciones-financieras",
-      date: "24 October 2025",
-    },
-    {
-      title:
-        "American Express Preferred Rewards Gold: Beneficios Exclusivos de Viaje y Estilo de Vida | Top Finanzas MX",
-      slug: "american-express-preferred-rewards-gold-credit-card",
-      description:
-        "La tarjeta American Express Gold ofrece puntos Membership Rewards premium, seguro de viaje integral y beneficios exclusivos de estilo de vida.",
-      image:
-        "https://media.topfinanzas.com/images/uk/american-express-preferred-rewards-gold-credit-card.webp",
-      category: "Soluciones Financieras",
-      categoryPath: "/soluciones-financieras",
-      date: "24 October 2025",
-    },
-    {
-      title:
-        "Tarjeta de Crédito Nationwide Building Society: Beneficios para Miembros y Ofertas al 0% | Top Finanzas MX",
-      slug: "nationwide-building-society-credit-card",
-      description:
-        "La tarjeta Member de Nationwide ofrece dos opciones iniciales al 0%: hasta 24 meses en transferencias de saldo o 15 meses en compras.",
-      image:
-        "https://media.topfinanzas.com/images/uk/nationwide-building-society-credit-card.webp",
-      category: "Soluciones Financieras",
-      categoryPath: "/soluciones-financieras",
-      date: "24 October 2025",
-    },
-    {
-      title:
-        "Tarjeta de Crédito HSBC Rewards: Gana Puntos en cada Compra | Top Finanzas MX",
-      slug: "hsbc-rewards-credit-card",
-      description:
-        "La tarjeta HSBC Rewards ofrece puntos en tus gastos diarios, 0% de interés en compras por 6 meses y un bono de bienvenida de £25.",
-      image:
-        "https://media.topfinanzas.com/images/uk/hsbc-rewards-credit-card.webp",
-      category: "Soluciones Financieras",
-      categoryPath: "/soluciones-financieras",
-      date: "24 October 2025",
-    },
-    {
-      title:
-        "Tarjeta de Crédito Ocean: Verifica tu Elegibilidad en 60 Segundos | Top Finanzas MX",
-      slug: "ocean-credit-card",
-      description:
-        "La tarjeta Ocean ofrece límites de crédito desde £200 hasta £8,000 sin anualidad. Verifica tu elegibilidad con QuickCheck sin afectar tu historial.",
-      image: "https://media.topfinanzas.com/images/uk/ocean-credit-card.webp",
-      category: "Soluciones Financieras",
-      categoryPath: "/soluciones-financieras",
-      date: "23 October 2025",
-    },
-    {
-      title:
-        "Tarjeta de Crédito Fluid: Reduce tus Costos con Transferencias de Saldo | Top Finanzas MX",
-      slug: "fluid-credit-card",
-      description:
-        "La tarjeta Fluid ofrece 0% de interés en transferencias de saldo por 9 meses, ayudándote a ahorrar y liquidar tus deudas más rápido.",
-      image: "https://media.topfinanzas.com/images/uk/fluid-credit-card.webp",
-      category: "Soluciones Financieras",
-      categoryPath: "/soluciones-financieras",
-      date: "23 October 2025",
-    },
-    {
-      title:
-        "Tarjeta John Lewis Partnership: Gana Recompensas en tus Compras Diarias | Top Finanzas MX",
-      slug: "john-lewis-partnership-card",
-      description:
-        "La tarjeta John Lewis Partnership te permite ganar valiosos puntos en tus compras diarias en John Lewis, Waitrose y más allá.",
-      image:
-        "https://media.topfinanzas.com/images/uk/john-lewis-partnership-card.webp",
-      category: "Soluciones Financieras",
-      categoryPath: "/soluciones-financieras",
-      date: "23 October 2025",
-    },
-    {
-      title:
-        "Tarjeta de Crédito 118 118 Money: Construye tu Crédito con Confianza | Top Finanzas MX",
-      slug: "118-118-money-credit-card",
-      description:
-        "La tarjeta 118 118 Money ofrece límites de crédito personalizados garantizados y términos transparentes para ayudarte a mejorar tu historial.",
-      image:
-        "https://media.topfinanzas.com/images/uk/118-118-money-credit-card.webp",
-      category: "Soluciones Financieras",
-      categoryPath: "/soluciones-financieras",
-      date: "23 October 2025",
-    },
-    {
-      title:
-        "Tarjeta de Crédito Vanquis: Soluciones Galardonadas para Construir Crédito | Top Finanzas MX",
-      slug: "vanquis-credit-card",
-      description:
-        "Descubre las tarjetas Vanquis con límites personalizados y funciones galardonadas para construir crédito, además de transferencias de saldo al 0%.",
-      image: "https://media.topfinanzas.com/images/uk/vanquis-credit-card.webp",
-      category: "Soluciones Financieras",
-      categoryPath: "/soluciones-financieras",
-      date: "23 October 2025",
-    },
-    {
-      title:
-        "Tarjeta Capital One UK Classic: Construye tu Historial Crediticio | Top Finanzas MX",
-      slug: "capital-one-uk-credit-card",
-      description:
-        "La tarjeta Capital One Classic te ayuda a mejorar tu crédito con un límite inicial de £200-£1,500, pagos flexibles y sin anualidad.",
-      image:
-        "https://media.topfinanzas.com/images/uk/capital-one-uk-credit-card.webp",
-      category: "Soluciones Financieras",
-      categoryPath: "/soluciones-financieras",
-      date: "23 October 2025",
-    },
-    {
-      title:
-        "Tarjeta de Crédito Aqua: Mejora tu Crédito con Funciones Inteligentes | Top Finanzas MX",
-      slug: "aqua-credit-card",
-      description:
-        "La tarjeta Aqua ofrece límites personalizados, herramientas de apoyo experto y protección contra fraude 24/7 para construir crédito con seguridad.",
-      image: "https://media.topfinanzas.com/images/uk/aqua-credit-card.webp",
-      category: "Soluciones Financieras",
-      categoryPath: "/soluciones-financieras",
-      date: "23 October 2025",
-    },
-    {
-      title:
-        "Tarjeta de Crédito Bip: Crédito Digital bajo tu Control | Top Finanzas MX",
-      slug: "bip-credit-card",
-      description:
-        "Descubre Bip: una solución de crédito sin tarjeta física, sin comisiones ocultas y con actualizaciones de saldo al instante.",
-      image: "https://media.topfinanzas.com/images/uk/bip-credit-card.webp",
-      category: "Soluciones Financieras",
-      categoryPath: "/soluciones-financieras",
-      date: "23 October 2025",
-    },
-    {
-      title:
-        "Tarjeta de Crédito Yonder: Recompensas Épicas sin Comisiones en el Extranjero | Top Finanzas MX",
-      slug: "yonder-credit-card",
-      description:
-        "La tarjeta gratuita Yonder otorga 1 punto por cada £1 gastada sin comisiones en el extranjero, además de ofertas de bienvenida exclusivas.",
-      image:
-        "https://cdn.prod.website-files.com/6209512878b45f39119ebfb5/6839943447d06a3292522ecd_head-p-800.webp",
-      category: "Soluciones Financieras",
-      categoryPath: "/soluciones-financieras",
-      date: "23 October 2025",
-    },
-    {
-      title:
-        "Tarjeta de Crédito Zopa: Gestión de Tarjeta Galardonada | Top Finanzas MX",
-      slug: "zopa-credit-card",
-      description:
-        "Descubre la tarjeta Zopa con gestión sencilla desde la app, función Credit Cushion, sin comisiones en el extranjero y servicio galardonado.",
-      image: "https://media.topfinanzas.com/images/uk/zopa-credit-card.webp",
-      category: "Soluciones Financieras",
-      categoryPath: "/soluciones-financieras",
-      date: "23 October 2025",
-    },
-    {
-      title:
-        "Tarjeta de Crédito Marbles: Mantén el Control de tus Finanzas | Top Finanzas MX",
-      slug: "marbles-credit-card",
-      description:
-        "La tarjeta Marbles te ayuda a gestionar tus finanzas con un límite manejable, verificador de elegibilidad rápido y sin anualidad.",
-      image: "https://media.topfinanzas.com/images/uk/marbles-credit-card.webp",
-      category: "Soluciones Financieras",
-      categoryPath: "/soluciones-financieras",
-      date: "23 October 2025",
+      date: "29 December 2025",
     },
     // Personal Finance Posts
     {
@@ -531,48 +338,44 @@ export default function BlogArchivePage() {
     // Financial Solutions Posts (Add relevant ones)
     // Example: Add a few key ones, more can be added later
     {
-      title: "Tarjeta Barclaycard Avios Plus: Recompensas de Viaje Premium",
-      slug: "barclaycard-avios-plus",
+      title: "Beneficios de la tarjeta de crédito HSBC Viva",
+      slug: "tarjeta-de-credito-hsbc-viva",
       description:
-        "La tarjeta Barclaycard Avios Plus ofrece beneficios de viaje premium...",
-      image: "https://media.topfinanzas.com/images/barclaycard-avios-plus.webp",
+        "Conoce la Tarjeta de Crédito HSBC Viva: sin anualidad, cashback en compras, meses sin intereses y acceso a promociones exclusivas.",
+      image: "https://media.topfinanzas.com/images/TC_HSBC_VIVA_requisitos.jpg",
       category: "Soluciones Financieras",
       categoryPath: "/soluciones-financieras",
-      date: "4 April 2025", // Example date
+      date: "29 December 2025",
     },
     {
-      title:
-        "Préstamo Personal HSBC: Financiamiento Flexible de un Líder Bancario Global",
-      slug: "hsbc-personal-loan",
+      title: "Beneficios de la Tarjeta de Crédito Joy Banamex",
+      slug: "tarjeta-simplicity-citibanamex",
       description:
-        "Descubre los préstamos personales de HSBC con tasas competitivas...",
-      image:
-        "https://media.topfinanzas.com/images/uk/loans/718135900-fotosprestamo1hsbc-uk.webp",
+        "Conoce todo sobre la tarjeta Joy Banamex (antes Simplicity): sin anualidad, seguridad sin números impresos y gestión total desde la app.",
+      image: "https://media.topfinanzas.com/images/foto2-1024x536.jpg",
       category: "Soluciones Financieras",
       categoryPath: "/soluciones-financieras",
-      date: "4 April 2025",
+      date: "29 December 2025",
     },
     {
-      title: "Tarjeta de Crédito Curve",
-      slug: "curve-credit-card",
+      title: "Tarjeta de crédito Azul de BBVA: Tu aliado en cada transacción",
+      slug: "tarjeta-de-credito-azul-bbva",
       description:
-        "Conoce la innovadora tarjeta Curve que consolida todas tus tarjetas actuales...",
-      image:
-        "https://media.topfinanzas.com/images/uk/credit-cards/719907701-top_prestamos-y-tarjetas-uk_v1-22.webp",
+        "La Tarjeta de Crédito Azul de BBVA es perfecta tanto para nuevos usuarios del crédito como para compradores y viajeros frecuentes.",
+      image: "https://media.topfinanzas.com/images/download-5-2.webp",
       category: "Soluciones Financieras",
       categoryPath: "/soluciones-financieras",
-      date: "2 April 2025",
+      date: "29 December 2025",
     },
     {
-      title: "Préstamo para Negocios Funding Circle",
-      slug: "funding-circle-personal-loan",
+      title: "NuBank: La tarjeta de crédito ideal para ti",
+      slug: "guia-tarjeta-de-credito-nu-bank",
       description:
-        "Explora los préstamos para negocios de Funding Circle que ofrecen financiamiento rápido...",
-      image:
-        "https://media.topfinanzas.com/images/uk/loans/718136824-fotosprestamo-fundingcircle1uk.webp",
+        "La Tarjeta de Crédito NuBank, conocida por su accesibilidad y transparencia, se adapta a cualquier estilo de vida.",
+      image: "https://media.topfinanzas.com/images/download-9-1.webp",
       category: "Soluciones Financieras",
       categoryPath: "/soluciones-financieras",
-      date: "4 April 2025",
+      date: "29 December 2025",
     },
     // ... Add more posts from soluciones-financieras as needed
   ];
