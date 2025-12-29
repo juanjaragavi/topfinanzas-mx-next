@@ -14,6 +14,102 @@ export const ALL_POSTS: PostItem[] = [
   // New Post
   {
     title:
+      "Finanzas Personales: Tu Guía Esencial para la Salud Financiera en México | Top Finanzas MX",
+    slug: "finanzas-personales-tu-guia-esencial-para-la-salud-financiera-en-mexico",
+    description:
+      "¿Alguna vez sientes que tu dinero tiene vida propia? Descubre cómo tomar el control de tus finanzas personales con esta guía esencial para México.",
+    image:
+      "https://media.topfinanzas.com/images/finanzas-personales-tu-guia-esencial-para-la-salud-financiera-en-mexico.webp",
+    category: "Finanzas Personales",
+    categoryPath: "/finanzas-personales",
+    date: "23 July 2025",
+  },
+  {
+    title:
+      "Guía para Principiantes: Cómo Crear un Presupuesto que Sí Funciona | Top Finanzas MX",
+    slug: "guia-para-principiantes-como-crear-un-presupuesto-que-si-funciona",
+    description:
+      "Aprende a crear tu primer presupuesto paso a paso con esta guía para principiantes. Toma el control de tu dinero y construye un futuro financiero sólido.",
+    image:
+      "https://media.topfinanzas.com/images/guia-para-principiantes-como-crear-un-presupuesto-que-si-funciona.jpeg",
+    category: "Finanzas Personales",
+    categoryPath: "/finanzas-personales",
+    date: "13 August 2025",
+  },
+  {
+    title:
+      "Los 5 Errores Financieros Más Comunes que Debes Evitar a tus 20s | Top Finanzas MX",
+    slug: "los-5-errores-financieros-mas-comunes-que-debes-evitar-a-tus-20s",
+    description:
+      "Descubre los errores financieros más comunes en los 20s y aprende cómo evitarlos para construir un futuro financiero sólido desde joven.",
+    image:
+      "https://media.topfinanzas.com/images/los-5-errores-financieros-mas-comunes-que-debes-evitar-a-tus-20s.jpeg",
+    category: "Finanzas Personales",
+    categoryPath: "/finanzas-personales",
+    date: "15 August 2025",
+  },
+  {
+    title:
+      "¿Recibiste un Aumento? Movimientos Inteligentes para tus Finanzas Personales | Top Finanzas MX",
+    slug: "recibiste-un-aumento-movimientos-inteligentes-para-tus-finanzas-personales",
+    description:
+      "Recibir un aumento es un gran logro. Descubre cómo evitar la inflación del estilo de vida y hacer que tu dinero extra trabaje para ti a largo plazo.",
+    image:
+      "https://media.topfinanzas.com/images/recibiste-un-aumento-movimientos-inteligentes-para-tus-finanzas-personales.jpeg",
+    category: "Finanzas Personales",
+    categoryPath: "/finanzas-personales",
+    date: "22 August 2025",
+  },
+  {
+    title:
+      "La Forma Inteligente de Salir de Deudas (y no Volver a Caer) | Top Finanzas MX",
+    slug: "la-forma-inteligente-de-salir-de-deudas-y-no-volver-a-caer",
+    description:
+      "Salir de deudas no se trata de trucos mágicos, sino de tener un plan claro. Descubre cómo tomar el control de tu dinero y construir un futuro libre de deudas.",
+    image:
+      "https://media.topfinanzas.com/images/la-forma-inteligente-de-salir-de-deudas-y-no-volver-a-caer.jpeg",
+    category: "Finanzas Personales",
+    categoryPath: "/finanzas-personales",
+    date: "27 August 2025",
+  },
+  {
+    title:
+      "¿Qué es el score crediticio y por qué es tan importante? | Top Finanzas MX",
+    slug: "que-es-el-score-crediticio-y-por-que-es-tan-importante",
+    description:
+      "Escucharás hablar mucho sobre un número clave de tres dígitos: tu score crediticio. Entenderlo es uno de los pilares más importantes de tus finanzas personales.",
+    image:
+      "https://media.topfinanzas.com/images/que-es-el-score-crediticio-y-por-que-es-tan-importante.png",
+    category: "Finanzas Personales",
+    categoryPath: "/finanzas-personales",
+    date: "29 August 2025",
+  },
+  {
+    title:
+      "¿Qué es un Fondo de Emergencia y Por Qué es Clave para tu Tranquilidad? | Top Finanzas MX",
+    slug: "que-es-un-fondo-de-emergencia-y-por-que-es-clave-para-tu-tranquilidad",
+    description:
+      "El Fondo de Emergencia es una de las primeras y más importantes lecciones de finanzas. Descubre qué es, por qué es importante y cómo construirlo.",
+    image:
+      "https://media.topfinanzas.com/images/que-es-un-fondo-de-emergencia-y-por-que-es-clave-para-tu-tranquilidad.png",
+    category: "Finanzas Personales",
+    categoryPath: "/finanzas-personales",
+    date: "03 September 2025",
+  },
+  {
+    title:
+      "La magia del interés compuesto: Cómo hacer que tu dinero crezca solo | Top Finanzas MX",
+    slug: "la-magia-del-interes-compuesto-como-hacer-que-tu-dinero-crezca-solo",
+    description:
+      "Esta guía está pensada para ti, que estás dando tus primeros pasos en el mundo laboral, para que entiendas los conceptos básicos de las finanzas personales y uses esta «magia» a tu favor desde el primer día.",
+    image:
+      "https://media.topfinanzas.com/images/la-magia-del-interes-compuesto-como-hacer-que-tu-dinero-crezca-solo.png",
+    category: "Finanzas Personales",
+    categoryPath: "/finanzas-personales",
+    date: "29 December 2025",
+  },
+  {
+    title:
       "5 tipos de apps que te ayudarán a administrar mejor tu dinero | Top Finanzas MX",
     slug: "5-tipos-de-apps-que-te-ayudaran-a-administrar-mejor-tu-dinero",
     description:
