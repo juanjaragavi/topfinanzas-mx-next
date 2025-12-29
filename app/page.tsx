@@ -245,9 +245,9 @@ export default function Home() {
                 categorySlug: post.categoryPath,
                 date: post.frontmatter.date
                   ? new Date(post.frontmatter.date).toLocaleDateString(
-                    "es-MX",
-                    { year: "numeric", month: "long", day: "numeric" },
-                  )
+                      "es-MX",
+                      { year: "numeric", month: "long", day: "numeric" },
+                    )
                   : undefined,
                 type:
                   post.category === "Soluciones Financieras"
@@ -299,10 +299,10 @@ export default function Home() {
               categorySlug: p.categoryPath,
               date: p.frontmatter.date
                 ? new Date(p.frontmatter.date).toLocaleDateString("es-MX", {
-                  year: "numeric",
-                  month: "long",
-                  day: "numeric",
-                })
+                    year: "numeric",
+                    month: "long",
+                    day: "numeric",
+                  })
                 : undefined,
               type: "financial",
             }))}
@@ -322,10 +322,10 @@ export default function Home() {
               categorySlug: p.categoryPath,
               date: p.frontmatter.date
                 ? new Date(p.frontmatter.date).toLocaleDateString("es-MX", {
-                  year: "numeric",
-                  month: "long",
-                  day: "numeric",
-                })
+                    year: "numeric",
+                    month: "long",
+                    day: "numeric",
+                  })
                 : undefined,
               type: "personal",
             }))}
@@ -345,10 +345,10 @@ export default function Home() {
               categorySlug: p.categoryPath,
               date: p.frontmatter.date
                 ? new Date(p.frontmatter.date).toLocaleDateString("es-MX", {
-                  year: "numeric",
-                  month: "long",
-                  day: "numeric",
-                })
+                    year: "numeric",
+                    month: "long",
+                    day: "numeric",
+                  })
                 : undefined,
               type: "financial",
             }))}

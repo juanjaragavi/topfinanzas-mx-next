@@ -23,7 +23,6 @@ function CreditCardRecommenderContent() {
 
       <div className="flex-grow bg-white py-8 md:py-12">
         <div className="container mx-auto px-4 max-w-6xl">
-
           {/* Header Section */}
           <div className="text-center mb-10">
             <h1 className="text-2xl md:text-3xl lg:text-4xl font-bold text-[#1a8fa3] mb-4 leading-tight">
@@ -36,13 +35,16 @@ function CreditCardRecommenderContent() {
           </div>
 
           <div className="grid grid-cols-1 lg:grid-cols-3 gap-8 items-start">
-
             {/* Left Column (Main Content) */}
             <div className="lg:col-span-2 space-y-8">
-
               {/* Option Buttons */}
               <div className="flex flex-col gap-3 max-w-md mx-auto lg:mx-0 lg:max-w-full">
-                {["Tarjeta con cupo de $5,000 MXN", "Tarjeta con cupo de $10,000 MXN", "Tarjeta con cupo de $15,000 MXN", "Otras opciones disponibles"].map((text, i) => (
+                {[
+                  "Tarjeta con cupo de $5,000 MXN",
+                  "Tarjeta con cupo de $10,000 MXN",
+                  "Tarjeta con cupo de $15,000 MXN",
+                  "Otras opciones disponibles",
+                ].map((text, i) => (
                   <Button
                     key={i}
                     className="bg-[#1EA091] hover:bg-[#168579] text-white font-bold text-lg py-3 rounded-xl shadow-sm w-full"
@@ -54,27 +56,33 @@ function CreditCardRecommenderContent() {
 
               {/* Success Box */}
               <div className="bg-[#F8FBFD] p-6 md:p-8 rounded-sm shadow-sm border border-gray-100">
-                <h2 className="text-[#2E74B5] text-2xl font-bold mb-4">¡Bien hecho!</h2>
+                <h2 className="text-[#2E74B5] text-2xl font-bold mb-4">
+                  ¡Bien hecho!
+                </h2>
                 <p className="text-gray-800 mb-6 font-medium">
-                  Tu tarjeta ya está lista. Solo debes elegir el monto ideal para ti y comenzar a disfrutar de beneficios como:
+                  Tu tarjeta ya está lista. Solo debes elegir el monto ideal
+                  para ti y comenzar a disfrutar de beneficios como:
                 </p>
                 <div className="space-y-3 mb-6">
                   {[
                     "Tasa de interés del 0%",
                     "Reembolso en efectivo (cashback)",
                     "Puntos por consumo",
-                    "Y mucho más"
+                    "Y mucho más",
                   ].map((item, i) => (
                     <div key={i} className="flex items-center gap-3">
                       <div className="bg-[#28C74D] rounded-sm p-0.5">
                         <Check className="text-white w-4 h-4" strokeWidth={4} />
                       </div>
-                      <span className="text-gray-800 text-sm md:text-base">{item}</span>
+                      <span className="text-gray-800 text-sm md:text-base">
+                        {item}
+                      </span>
                     </div>
                   ))}
                 </div>
                 <p className="text-gray-800 text-sm">
-                  Si estas opciones no se ajustan a lo que buscas, también tenemos otras alternativas para ti.
+                  Si estas opciones no se ajustan a lo que buscas, también
+                  tenemos otras alternativas para ti.
                 </p>
               </div>
 
@@ -88,19 +96,24 @@ function CreditCardRecommenderContent() {
                   {[
                     {
                       id: "cashback",
-                      question: "¿Qué es un reembolso en el estado de cuenta (cashback)?",
-                      answer: "Es un beneficio que te devuelve dinero como crédito en tu estado de cuenta, reduciendo tu saldo total."
+                      question:
+                        "¿Qué es un reembolso en el estado de cuenta (cashback)?",
+                      answer:
+                        "Es un beneficio que te devuelve dinero como crédito en tu estado de cuenta, reduciendo tu saldo total.",
                     },
                     {
                       id: "travel",
                       question: "¿Cómo elegir la tarjeta ideal para viajes?",
-                      answer: "Considera tarjetas sin comisiones por transacciones en el extranjero, con seguro de viaje y recompensas por compras en aerolíneas u hoteles."
+                      answer:
+                        "Considera tarjetas sin comisiones por transacciones en el extranjero, con seguro de viaje y recompensas por compras en aerolíneas u hoteles.",
                     },
                     {
                       id: "transfer",
-                      question: "¿Puedo transferir el saldo de mi tarjeta a otra persona?",
-                      answer: "Las transferencias de saldo normalmente solo están permitidas entre tarjetas del mismo titular de cuenta."
-                    }
+                      question:
+                        "¿Puedo transferir el saldo de mi tarjeta a otra persona?",
+                      answer:
+                        "Las transferencias de saldo normalmente solo están permitidas entre tarjetas del mismo titular de cuenta.",
+                    },
                   ].map((item) => (
                     <div key={item.id} className="border-b pb-4">
                       <button
@@ -119,7 +132,9 @@ function CreditCardRecommenderContent() {
                         </span>
                       </button>
 
-                      <div className={`grid transition-all duration-300 ease-in-out ${openFaq === item.id ? "grid-rows-[1fr] opacity-100 mt-2" : "grid-rows-[0fr] opacity-0"}`}>
+                      <div
+                        className={`grid transition-all duration-300 ease-in-out ${openFaq === item.id ? "grid-rows-[1fr] opacity-100 mt-2" : "grid-rows-[0fr] opacity-0"}`}
+                      >
                         <div className="overflow-hidden">
                           <div className="pl-6 text-gray-700 text-sm">
                             <p>{item.answer}</p>
@@ -158,13 +173,15 @@ function CreditCardRecommenderContent() {
                   La más solicitada por nuestros lectores. ¡Conócela hoy mismo!
                 </p>
 
-                <Link href="/soluciones-financieras/barclaycard-avios-plus" className="block w-full max-w-md mx-auto">
+                <Link
+                  href="/soluciones-financieras/barclaycard-avios-plus"
+                  className="block w-full max-w-md mx-auto"
+                >
                   <Button className="w-full bg-[#DB2A2A] hover:bg-[#B71C1C] text-white font-bold text-xl py-6 rounded-md shadow-md uppercase tracking-wide">
                     VER COMO SOLICITARLA
                   </Button>
                 </Link>
               </div>
-
             </div>
 
             {/* Right Column (Sidebar) */}
@@ -177,13 +194,15 @@ function CreditCardRecommenderContent() {
                   <li className="flex gap-2 items-start text-sm text-gray-800">
                     <div className="min-w-[4px] h-[4px] bg-black rounded-full mt-2 flex-shrink-0"></div>
                     <span>
-                      Si buscas mejorar tu historial crediticio o usar tu tarjeta de manera más inteligente sin que los bancos se aprovechen, revisa también esta información adicional. Tenemos recursos valiosos hechos a la medida para ti.
+                      Si buscas mejorar tu historial crediticio o usar tu
+                      tarjeta de manera más inteligente sin que los bancos se
+                      aprovechen, revisa también esta información adicional.
+                      Tenemos recursos valiosos hechos a la medida para ti.
                     </span>
                   </li>
                 </ul>
               </div>
             </div>
-
           </div>
         </div>
       </div>

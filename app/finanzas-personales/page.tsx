@@ -372,10 +372,11 @@ export default function PersonalFinanceArchivePage() {
           <button
             key={key}
             onClick={() => setActiveCategory(key)}
-            className={`px-4 py-2 text-sm font-medium rounded-full transition-colors ${activeCategory === key
-              ? "bg-blue-600 text-white"
-              : "bg-gray-100 text-gray-700 hover:bg-gray-200"
-              }`}
+            className={`px-4 py-2 text-sm font-medium rounded-full transition-colors ${
+              activeCategory === key
+                ? "bg-blue-600 text-white"
+                : "bg-gray-100 text-gray-700 hover:bg-gray-200"
+            }`}
           >
             {value}
           </button>
@@ -384,10 +385,12 @@ export default function PersonalFinanceArchivePage() {
 
       {/* Grid of filtered posts */}
       <LatestPosts
-        posts={filteredPosts.map(post => ({
+        posts={filteredPosts.map((post) => ({
           ...post,
           excerpt: post.description,
-          category: categories[post.category as keyof typeof categories] || post.category
+          category:
+            categories[post.category as keyof typeof categories] ||
+            post.category,
         }))}
         title=""
       />

@@ -150,8 +150,9 @@ export function Header() {
     <>
       {/* AdZep activation now handled exclusively by AdZepSPABridge */}
       <header
-        className={`sticky top-0 z-50 bg-white border-b border-gray-100 shadow-sm transition-transform duration-300 ease-in-out ${isVisible ? "translate-y-0" : "-translate-y-full"
-          }`}
+        className={`sticky top-0 z-50 bg-white border-b border-gray-100 shadow-sm transition-transform duration-300 ease-in-out ${
+          isVisible ? "translate-y-0" : "-translate-y-full"
+        }`}
       >
         <div className="container mx-auto px-4">
           <div className="flex items-center h-16 relative">
@@ -208,9 +209,9 @@ export function Header() {
                     // Adding hover trigger for desktop parity with WP usually
                     if (!activeMegaMenu) setActiveMegaMenu("categories");
                   }}
-                  // Actually, if we use onClick toggle, we might not want hover. 
+                  // Actually, if we use onClick toggle, we might not want hover.
                   // But "Mega Menu triggered on hover/click" was in requirements.
-                  // Let's implement Click for robustness, or Hover if requested. 
+                  // Let's implement Click for robustness, or Hover if requested.
                   // Requirement: "triggered on hover/click". I'll add onMouseEnter.
                   onKeyDown={(e) => {
                     if (e.key === "Enter" || e.key === " ") {
@@ -225,8 +226,9 @@ export function Header() {
                 >
                   <span>{headerNavigation.categoriesMegaMenu.text}</span>
                   <ChevronDown
-                    className={`size-4 transition-transform ${activeMegaMenu === "categories" ? "rotate-180" : ""
-                      }`}
+                    className={`size-4 transition-transform ${
+                      activeMegaMenu === "categories" ? "rotate-180" : ""
+                    }`}
                   />
                 </button>
 
@@ -242,49 +244,53 @@ export function Header() {
                     {/* Left Sidebar (Categories List) */}
                     <div className="w-1/4 bg-gray-50 p-6 border-r border-gray-100">
                       <ul className="space-y-3">
-                        {headerNavigation.categoriesMegaMenu.sidebarItems.map((item, idx) => (
-                          <li key={idx}>
-                            <Link
-                              href={item.href}
-                              className="text-gray-600 hover:text-[#015ECC] hover:translate-x-1 transition-all flex items-center justify-between text-sm font-medium"
-                              onClick={() => setActiveMegaMenu(null)}
-                            >
-                              {item.text}
-                              <ChevronRight className="w-4 h-4 opacity-0 hover:opacity-100 group-hover:opacity-100" />
-                            </Link>
-                          </li>
-                        ))}
+                        {headerNavigation.categoriesMegaMenu.sidebarItems.map(
+                          (item, idx) => (
+                            <li key={idx}>
+                              <Link
+                                href={item.href}
+                                className="text-gray-600 hover:text-[#015ECC] hover:translate-x-1 transition-all flex items-center justify-between text-sm font-medium"
+                                onClick={() => setActiveMegaMenu(null)}
+                              >
+                                {item.text}
+                                <ChevronRight className="w-4 h-4 opacity-0 hover:opacity-100 group-hover:opacity-100" />
+                              </Link>
+                            </li>
+                          ),
+                        )}
                       </ul>
                     </div>
 
                     {/* Right Content (Featured Grid) */}
                     <div className="w-3/4 p-8 grid grid-cols-4 gap-6 bg-white">
-                      {headerNavigation.categoriesMegaMenu.featuredPosts.map((post, idx) => (
-                        <Link
-                          key={idx}
-                          href={post.href}
-                          className="group block"
-                          onClick={() => setActiveMegaMenu(null)}
-                        >
-                          <div className="relative w-full aspect-[4/3] mb-3 overflow-hidden rounded shadow-sm">
-                            <Image
-                              src={post.image}
-                              alt={post.title}
-                              fill
-                              className="object-cover transition-transform duration-500 group-hover:scale-110"
-                              sizes="(max-width: 768px) 100vw, 200px"
-                              priority={idx < 2} // Prioritize first two images
-                            />
-                            {/* Category Label Overlay */}
-                            <div className="absolute bottom-0 left-0 bg-[#015ECC] text-white text-[10px] uppercase font-bold px-2 py-1">
-                              {post.category}
+                      {headerNavigation.categoriesMegaMenu.featuredPosts.map(
+                        (post, idx) => (
+                          <Link
+                            key={idx}
+                            href={post.href}
+                            className="group block"
+                            onClick={() => setActiveMegaMenu(null)}
+                          >
+                            <div className="relative w-full aspect-[4/3] mb-3 overflow-hidden rounded shadow-sm">
+                              <Image
+                                src={post.image}
+                                alt={post.title}
+                                fill
+                                className="object-cover transition-transform duration-500 group-hover:scale-110"
+                                sizes="(max-width: 768px) 100vw, 200px"
+                                priority={idx < 2} // Prioritize first two images
+                              />
+                              {/* Category Label Overlay */}
+                              <div className="absolute bottom-0 left-0 bg-[#015ECC] text-white text-[10px] uppercase font-bold px-2 py-1">
+                                {post.category}
+                              </div>
                             </div>
-                          </div>
-                          <h4 className="text-gray-800 font-bold text-sm leading-tight group-hover:text-[#015ECC] transition-colors">
-                            {post.title}
-                          </h4>
-                        </Link>
-                      ))}
+                            <h4 className="text-gray-800 font-bold text-sm leading-tight group-hover:text-[#015ECC] transition-colors">
+                              {post.title}
+                            </h4>
+                          </Link>
+                        ),
+                      )}
                     </div>
                   </div>
                 )}
