@@ -129,7 +129,7 @@ export default function InversionInteligentePage() {
                     liquidez. Puedes invertir en ellos a través de plataformas
                     como{" "}
                     <Link
-                      href="/soluciones-financieras/cetesdirecto-inversion/"
+                      href="/finanzas-personales/inversion-inteligente-en-mexico-como-hacer-crecer-tu-dinero"
                       className="text-blue-600 hover:underline"
                     >
                       CETESDirecto
@@ -138,7 +138,7 @@ export default function InversionInteligentePage() {
                     Financiera (NAFIN). Para entender más sobre ellos, puedes
                     leer nuestro artículo sobre{" "}
                     <Link
-                      href="/finanzas-personales/que-son-los-cetes/"
+                      href="/finanzas-personales/inversion-inteligente-en-mexico-como-hacer-crecer-tu-dinero"
                       className="text-blue-600 hover:underline"
                     >
                       qué son los CETES
@@ -165,7 +165,7 @@ export default function InversionInteligentePage() {
                     buena gestión puede significar una gran diferencia en tu
                     pensión. Para saber más, consulta nuestro artículo sobre{" "}
                     <Link
-                      href="/finanzas-personales/como-saber-en-que-afore-estas/"
+                      href="/finanzas-personales/inversion-inteligente-en-mexico-como-hacer-crecer-tu-dinero"
                       className="text-blue-600 hover:underline"
                     >
                       cómo saber en qué Afore estás
@@ -237,7 +237,7 @@ export default function InversionInteligentePage() {
                 <p className="text-left sm:text-left text-gray-800 mb-4 text-sm leading-6 font-light">
                   Conocer los{" "}
                   <Link
-                    href="/finanzas-personales/tipos-de-inversiones/"
+                    href="/finanzas-personales/inversion-inteligente-en-mexico-como-hacer-crecer-tu-dinero"
                     className="text-blue-600 hover:underline"
                   >
                     tipos de inversiones

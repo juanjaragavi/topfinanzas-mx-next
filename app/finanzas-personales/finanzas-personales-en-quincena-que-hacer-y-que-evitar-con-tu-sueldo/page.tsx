@@ -87,7 +87,7 @@ export default function FinanzasPersonalesEnQuincenaPage() {
                     este hábito es una piedra angular de las buenas finanzas
                     personales. Considera explorar opciones como{" "}
                     <Link
-                      href="/soluciones-financieras/invertir-en-cetes/"
+                      href="/finanzas-personales/inversion-inteligente-en-mexico-como-hacer-crecer-tu-dinero"
                       className="text-blue-600 hover:underline"
                     >
                       invertir en CETES
@@ -111,7 +111,7 @@ export default function FinanzasPersonalesEnQuincenaPage() {
                     bienestar financiero general. Si estás buscando opciones
                     para consolidar deudas, podrías informarte sobre los{" "}
                     <Link
-                      href="/soluciones-financieras/prestamos-personales/"
+                      href="/prestamos"
                       className="text-blue-600 hover:underline"
                     >
                       préstamos personales
@@ -175,7 +175,7 @@ export default function FinanzasPersonalesEnQuincenaPage() {
                     sorpresa desagradable cuando llegue la declaración anual
                     ante el SAT. Puedes aprender más sobre{" "}
                     <Link
-                      href="/finanzas-personales/que-es-el-isr/"
+                      href="/finanzas-personales"
                       className="text-blue-600 hover:underline"
                     >
                       qué es el ISR

@@ -102,7 +102,7 @@ export default function TarjetaPlataCardPage() {
             {/* CTA Button 1 */}
             <div className="flex justify-center mb-8">
               <Link
-                href="/soluciones-financieras/tarjeta-plata-card-requirements"
+                href="/soluciones-financieras/requisitos-tarjeta-plata-card"
                 className="w-full md:w-auto"
               >
                 <Button className="w-full md:w-auto bg-orange-500 hover:bg-orange-600 text-white font-bold py-3 px-8 rounded-full text-lg">
@@ -281,7 +281,7 @@ export default function TarjetaPlataCardPage() {
               </p>
               <p className="mb-6">
                 <Link
-                  href="/soluciones-financieras/tarjeta-plata-card-requirements"
+                  href="/soluciones-financieras/requisitos-tarjeta-plata-card"
                   className="text-blue-600 hover:underline"
                 >
                   Si deseas conocer más sobre los costos, tasas de interés y
@@ -296,7 +296,7 @@ export default function TarjetaPlataCardPage() {
             {/* CTA Button 2 */}
             <div className="flex justify-center mt-8 mb-8">
               <Link
-                href="/soluciones-financieras/tarjeta-plata-card-requirements"
+                href="/soluciones-financieras/requisitos-tarjeta-plata-card"
                 className="w-full md:w-auto"
               >
                 <Button className="w-full md:w-auto bg-orange-500 hover:bg-orange-600 text-white font-bold py-3 px-8 rounded-full text-lg">

@@ -242,7 +242,7 @@ export default function FinanzasPersonalesRecienCasadosPage() {
                   adicionales sobre el manejo de finanzas durante transiciones
                   importantes de vida, consulten{" "}
                   <Link
-                    href="/finanzas-personales/finanzas-personales-para-tu-primer-empleo-guia-completa-para-jovenes-profesionistas-en-mexico/"
+                    href="/finanzas-personales/los-5-errores-financieros-mas-comunes-que-debes-evitar-a-tus-20s"
                     className="text-blue-600 hover:underline"
                   >
                     Finanzas Personales para Tu Primer Empleo: Guía Completa

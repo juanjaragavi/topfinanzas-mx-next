@@ -74,7 +74,7 @@ export default function BeneficiosAeromexicoSantanderPage() {
             <p className="text-lg text-gray-700 mb-6 font-normal">
               <strong>Conoce más:</strong>{" "}
               <Link
-                href="/finanzas-personales/tarjetas-de-credito-de-neobancos/"
+                href="/finanzas-personales/3-tarjetas-de-credito-sin-anualidad-populares-en-mexico"
                 className="text-blue-600 hover:underline"
               >
                 Top tarjetas de neobancos
@@ -226,7 +226,7 @@ export default function BeneficiosAeromexicoSantanderPage() {
             <p className="text-lg text-gray-700 mb-6 font-normal">
               <strong>Conoce más:</strong>{" "}
               <Link
-                href="/finanzas-personales/como-saber-si-estas-en-buro-de-credito/"
+                href="/finanzas-personales/que-es-el-score-crediticio-y-por-que-es-tan-importante"
                 className="text-blue-600 hover:underline"
               >
                 ¿Cómo saber si estás en buró de crédito?

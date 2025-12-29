@@ -162,7 +162,7 @@ export default function RequisitosTarjetaHSBCAirPage() {
               <p className="text-gray-700">
                 <strong>Conoce más:</strong>{" "}
                 <Link
-                  href="/mx/finanzas-personales/tarjetas-de-credito-para-estudiantes/"
+                  href="/finanzas-personales/3-tarjetas-de-credito-sin-anualidad-populares-en-mexico"
                   className="text-blue-600 hover:underline"
                 >
                   Tarjetas de crédito para estudiantes
@@ -212,7 +212,7 @@ export default function RequisitosTarjetaHSBCAirPage() {
               <p className="text-gray-700">
                 <strong>Conoce más:</strong>{" "}
                 <Link
-                  href="/mx/finanzas-personales/como-saber-si-estas-en-buro-de-credito/"
+                  href="/finanzas-personales/que-es-el-score-crediticio-y-por-que-es-tan-importante"
                   className="text-blue-600 hover:underline"
                 >
                   ¿Cómo saber si estás en buró de crédito y qué significa?
@@ -266,7 +266,7 @@ export default function RequisitosTarjetaHSBCAirPage() {
               <p className="text-gray-700">
                 <strong>Conoce más:</strong>{" "}
                 <Link
-                  href="/mx/finanzas-personales/cat-en-tarjetas-de-credito/"
+                  href="/finanzas-personales/que-es-el-score-crediticio-y-por-que-es-tan-importante"
                   className="text-blue-600 hover:underline"
                 >
                   Entiende el CAT en Tarjetas de Crédito
@@ -287,7 +287,7 @@ export default function RequisitosTarjetaHSBCAirPage() {
               <p className="text-gray-700">
                 <strong>Conoce más:</strong>{" "}
                 <Link
-                  href="/mx/finanzas-personales/tarjetas-de-credito-de-neobancos/"
+                  href="/finanzas-personales/3-tarjetas-de-credito-sin-anualidad-populares-en-mexico"
                   className="text-blue-600 hover:underline"
                 >
                   Top tarjetas de neobancos
@@ -351,7 +351,7 @@ export default function RequisitosTarjetaHSBCAirPage() {
               <p className="text-gray-700">
                 <strong>Conoce más:</strong>{" "}
                 <Link
-                  href="/mx/soluciones-financieras/tarjetas-de-credito-sin-anualidad/"
+                  href="/finanzas-personales/3-tarjetas-de-credito-sin-anualidad-populares-en-mexico"
                   className="text-blue-600 hover:underline"
                 >
                   Top tarjetas de crédito sin anualidad
@@ -395,7 +395,7 @@ export default function RequisitosTarjetaHSBCAirPage() {
               <p className="text-gray-700">
                 <strong>Conoce más:</strong>{" "}
                 <Link
-                  href="/mx/finanzas-personales/ideas-de-negocio-para-emprendedores/"
+                  href="/finanzas-personales"
                   className="text-blue-600 hover:underline"
                 >
                   5 ideas de negocio para emprendedores jóvenes
@@ -417,7 +417,7 @@ export default function RequisitosTarjetaHSBCAirPage() {
               <p className="text-gray-700">
                 <strong>Conoce más:</strong>{" "}
                 <Link
-                  href="/mx/soluciones-financieras/cual-es-el-mejor-prestamo-personal/"
+                  href="/prestamos"
                   className="text-blue-600 hover:underline"
                 >
                   ¿Cuál es el mejor préstamo personal?

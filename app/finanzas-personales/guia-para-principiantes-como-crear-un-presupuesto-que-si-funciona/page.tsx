@@ -230,7 +230,7 @@ export default function PresupuestoPrincipiantesPage() {
                     «gastos hormiga».
                   </p>
                   <Link
-                    href="/blog/que-son-los-gastos-hormiga-y-como-evitarlos"
+                    href="/finanzas-personales/finanzas-personales-en-quincena-que-hacer-y-que-evitar-con-tu-sueldo"
                     className="text-purple-600 font-semibold hover:text-purple-800 flex items-center text-sm"
                   >
                     Aprende más sobre los gastos hormiga{" "}
@@ -381,7 +381,7 @@ export default function PresupuestoPrincipiantesPage() {
                       para asegurarte de que sigue funcionando para ti.
                     </span>
                     <Link
-                      href="/blog/metodos-de-ahorro-para-jovenes"
+                      href="/finanzas-personales/ahorro-inteligente-estrategias-de-finanzas-personales-para-impulsar-tu-dinero"
                       className="text-indigo-600 font-semibold hover:text-indigo-800 text-sm flex items-center"
                     >
                       Explora métodos de ahorro para jóvenes{" "}

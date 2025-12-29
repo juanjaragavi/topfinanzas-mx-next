@@ -79,7 +79,7 @@ export default function FinanzasPersonales10ReglasOroPage() {
                   cálculo. Lo importante es que tengas una visión clara de tus
                   flujos de efectivo para tomar decisiones informadas. Conocer{" "}
                   <Link
-                    href="/finanzas-personales/pasos-para-un-presupuesto-familiar/"
+                    href="/finanzas-personales/guia-para-principiantes-como-crear-un-presupuesto-que-si-funciona"
                     className="text-blue-600 hover:underline"
                   >
                     pasos para un presupuesto familiar
@@ -119,7 +119,7 @@ export default function FinanzasPersonales10ReglasOroPage() {
                   fija a una cuenta de ahorro separada cada quincena o mes.
                   Explorar diferentes{" "}
                   <Link
-                    href="/finanzas-personales/metodos-de-ahorro/"
+                    href="/finanzas-personales/ahorro-inteligente-estrategias-de-finanzas-personales-para-impulsar-tu-dinero"
                     className="text-blue-600 hover:underline"
                   >
                     métodos de ahorro
@@ -141,7 +141,7 @@ export default function FinanzasPersonales10ReglasOroPage() {
                   (como las tarjetas de crédito). Considera la consolidación de
                   deudas si tienes varios créditos. Entender el{" "}
                   <Link
-                    href="/finanzas-personales/cat-en-tarjetas-de-credito/"
+                    href="/finanzas-personales/que-es-el-score-crediticio-y-por-que-es-tan-importante"
                     className="text-blue-600 hover:underline"
                   >
                     CAT en tarjetas de crédito

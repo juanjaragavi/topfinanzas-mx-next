@@ -101,7 +101,7 @@ export default function TarjetaHSBCZeroPage() {
             {/* CTA Button 1 */}
             <div className="flex justify-center mb-8">
               <Link
-                href="/soluciones-financieras/tarjeta-hsbc-zero-requirements"
+                href="/soluciones-financieras/requisitos-tarjeta-hsbc-zero"
                 className="w-full md:w-auto"
               >
                 <Button className="w-full md:w-auto bg-red-600 hover:bg-red-700 text-white font-bold py-3 px-8 rounded-full text-lg">

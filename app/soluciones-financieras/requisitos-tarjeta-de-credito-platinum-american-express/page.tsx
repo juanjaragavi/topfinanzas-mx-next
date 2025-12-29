@@ -88,7 +88,7 @@ export default function RequisitosTarjetaPlatinumAmexPage() {
             <div className="mb-8">
               <span className="font-bold text-black">Conoce más: </span>
               <Link
-                href="/finanzas-personales/tarjetas-de-credito-de-neobancos/"
+                href="/finanzas-personales/3-tarjetas-de-credito-sin-anualidad-populares-en-mexico"
                 className="text-blue-600 hover:underline"
               >
                 Top tarjetas de neobancos
@@ -106,7 +106,7 @@ export default function RequisitosTarjetaPlatinumAmexPage() {
             </div>
             <div className="flex justify-center mb-8">
               <Link
-                href="/finanzas-personales/tarjetas-de-credito-para-estudiantes/"
+                href="/finanzas-personales/3-tarjetas-de-credito-sin-anualidad-populares-en-mexico"
                 className="bg-orange-500 hover:bg-orange-600 text-white font-bold py-3 px-12 rounded-full transition-colors text-lg"
               >
                 Conoce más
@@ -181,7 +181,7 @@ export default function RequisitosTarjetaPlatinumAmexPage() {
             <div className="mb-8">
               <span className="font-bold text-black">Conoce más: </span>
               <Link
-                href="/finanzas-personales/como-saber-si-estas-en-buro-de-credito/"
+                href="/finanzas-personales/que-es-el-score-crediticio-y-por-que-es-tan-importante"
                 className="text-blue-600 hover:underline"
               >
                 ¿Cómo saber si estás en buró de crédito y qué significa?
@@ -209,7 +209,7 @@ export default function RequisitosTarjetaPlatinumAmexPage() {
             </div>
             <div className="flex justify-center mb-8">
               <Link
-                href="/finanzas-personales/cat-en-tarjetas-de-credito/"
+                href="/finanzas-personales/que-es-el-score-crediticio-y-por-que-es-tan-importante"
                 className="bg-orange-500 hover:bg-orange-600 text-white font-bold py-3 px-12 rounded-full transition-colors text-lg"
               >
                 Ver ahora
@@ -305,7 +305,7 @@ export default function RequisitosTarjetaPlatinumAmexPage() {
             </div>
             <div className="flex justify-center mb-8">
               <Link
-                href="/soluciones-financieras/tarjetas-de-credito-sin-anualidad/"
+                href="/finanzas-personales/3-tarjetas-de-credito-sin-anualidad-populares-en-mexico"
                 className="bg-orange-500 hover:bg-orange-600 text-white font-bold py-3 px-12 rounded-full transition-colors text-lg"
               >
                 Ver ahora
@@ -316,7 +316,7 @@ export default function RequisitosTarjetaPlatinumAmexPage() {
             <div className="mb-8">
               <span className="font-bold text-black">Conoce más: </span>
               <Link
-                href="/finanzas-personales/comprar-boletos-de-avion-mas-economicos/"
+                href="/finanzas-personales/las-mejores-tarjetas-de-credito-para-viajar-guia-para-principiantes"
                 className="text-blue-600 hover:underline"
               >
                 Trucos para comprar boletos de avión más económicos
@@ -348,7 +348,7 @@ export default function RequisitosTarjetaPlatinumAmexPage() {
             </div>
             <div className="flex justify-center mb-8">
               <Link
-                href="/soluciones-financieras/cual-es-el-mejor-prestamo-personal/"
+                href="/prestamos"
                 className="bg-orange-500 hover:bg-orange-600 text-white font-bold py-3 px-12 rounded-full transition-colors text-lg"
               >
                 Descubre más

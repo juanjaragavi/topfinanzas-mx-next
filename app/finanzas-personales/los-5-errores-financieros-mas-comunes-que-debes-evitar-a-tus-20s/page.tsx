@@ -201,7 +201,7 @@ export default function ErroresFinancieros20sPage() {
                 </ul>
                 <div className="mt-6">
                   <Link
-                    href="/blog/como-hacer-un-presupuesto-personal-guia-paso-a-paso"
+                    href="/finanzas-personales/guia-para-principiantes-como-crear-un-presupuesto-que-si-funciona"
                     className="text-blue-600 font-semibold hover:text-blue-800 flex items-center"
                   >
                     Aprende a crear un presupuesto personal desde cero{" "}
@@ -291,7 +291,7 @@ export default function ErroresFinancieros20sPage() {
                   dinero y no te sentirás tentado a gastarlo.
                 </p>
                 <Link
-                  href="/blog/metodos-de-ahorro-efectivos"
+                  href="/finanzas-personales/ahorro-inteligente-estrategias-de-finanzas-personales-para-impulsar-tu-dinero"
                   className="text-green-700 font-semibold hover:text-green-900 flex items-center"
                 >
                   Explora métodos de ahorro efectivos{" "}

@@ -296,7 +296,7 @@ export default function RequisitosTarjetaAzulBBVAPage() {
             <p className="text-lg text-gray-700 mb-6 font-normal">
               Conoce más:{" "}
               <Link
-                href="/finanzas-personales/tarjetas-de-credito-de-neobancos/"
+                href="/finanzas-personales/3-tarjetas-de-credito-sin-anualidad-populares-en-mexico"
                 className="text-blue-600 hover:underline"
               >
                 Top tarjetas de neobancos
@@ -315,7 +315,7 @@ export default function RequisitosTarjetaAzulBBVAPage() {
             <p className="text-lg text-gray-700 mb-6 font-normal">
               Conoce más:{" "}
               <Link
-                href="/finanzas-personales/pasos-para-un-presupuesto-familiar/"
+                href="/finanzas-personales/guia-para-principiantes-como-crear-un-presupuesto-que-si-funciona"
                 className="text-blue-600 hover:underline"
               >
                 5 pasos para un presupuesto familiar exitoso
@@ -336,7 +336,7 @@ export default function RequisitosTarjetaAzulBBVAPage() {
             <p className="text-lg text-gray-700 mb-6 font-normal">
               Conoce más:{" "}
               <Link
-                href="/finanzas-personales/comprar-boletos-de-avion-mas-economicos/"
+                href="/finanzas-personales/las-mejores-tarjetas-de-credito-para-viajar-guia-para-principiantes"
                 className="text-blue-600 hover:underline"
               >
                 Trucos para comprar boletos de avión más económicos

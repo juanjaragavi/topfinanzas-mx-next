@@ -88,7 +88,7 @@ export default function RequisitosTarjetaLikeUSantanderPage() {
             <p className="text-gray-700 mb-6 font-normal">
               Conoce más:{" "}
               <Link
-                href="/soluciones-financieras/tarjetas-de-credito-sin-anualidad"
+                href="/finanzas-personales/3-tarjetas-de-credito-sin-anualidad-populares-en-mexico"
                 className="text-blue-600 hover:underline"
               >
                 Tarjetas de crédito sin anualidad
@@ -150,7 +150,7 @@ export default function RequisitosTarjetaLikeUSantanderPage() {
             <p className="text-gray-700 mb-6 font-normal">
               Conoce más:{" "}
               <Link
-                href="/finanzas-personales/tarjetas-de-credito-para-estudiantes"
+                href="/finanzas-personales/3-tarjetas-de-credito-sin-anualidad-populares-en-mexico"
                 className="text-blue-600 hover:underline"
               >
                 Tarjetas de crédito para estudiantes
@@ -220,7 +220,7 @@ export default function RequisitosTarjetaLikeUSantanderPage() {
             <p className="text-gray-700 mb-6 font-normal">
               Conoce más:{" "}
               <Link
-                href="/finanzas-personales/cat-en-tarjetas-de-credito"
+                href="/finanzas-personales/que-es-el-score-crediticio-y-por-que-es-tan-importante"
                 className="text-blue-600 hover:underline"
               >
                 ¿Qué es el CAT en tarjetas de crédito?
@@ -258,7 +258,7 @@ export default function RequisitosTarjetaLikeUSantanderPage() {
             <p className="text-gray-700 mb-6 font-normal">
               Conoce más:{" "}
               <Link
-                href="/finanzas-personales/tarjetas-de-credito-de-neobancos"
+                href="/finanzas-personales/3-tarjetas-de-credito-sin-anualidad-populares-en-mexico"
                 className="text-blue-600 hover:underline"
               >
                 Top tarjetas de neobancos
@@ -288,7 +288,7 @@ export default function RequisitosTarjetaLikeUSantanderPage() {
             <p className="text-gray-700 mb-6 font-normal">
               Conoce más:{" "}
               <Link
-                href="/finanzas-personales/que-es-un-credito-hipotecario"
+                href="/finanzas-personales"
                 className="text-blue-600 hover:underline"
               >
                 ¿Qué es un crédito hipotecario?
@@ -308,7 +308,7 @@ export default function RequisitosTarjetaLikeUSantanderPage() {
             <p className="text-gray-700 mb-6 font-normal">
               Conoce más:{" "}
               <Link
-                href="/soluciones-financieras/cual-es-el-mejor-prestamo-personal"
+                href="/prestamos"
                 className="text-blue-600 hover:underline"
               >
                 ¿Cuál es el mejor préstamo personal?

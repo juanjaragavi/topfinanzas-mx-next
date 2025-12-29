@@ -105,7 +105,7 @@ export default function TarjetaHSBCVivaPage() {
             {/* CTA Button 1 */}
             <div className="mb-8">
               <Link
-                href="/soluciones-financieras/tarjeta-de-credito-hsbc-viva-requisitos"
+                href="/soluciones-financieras/requisitos-tarjeta-de-credito-hsbc-viva"
                 className="block w-full bg-red-600 text-white text-center font-bold py-3 px-4 rounded-full hover:bg-red-700 transition-colors"
               >
                 Quiero conocer los requisitos
@@ -297,7 +297,7 @@ export default function TarjetaHSBCVivaPage() {
             {/* CTA Button 2 */}
             <div className="mt-8">
               <Link
-                href="/soluciones-financieras/tarjeta-de-credito-hsbc-viva-requisitos"
+                href="/soluciones-financieras/requisitos-tarjeta-de-credito-hsbc-viva"
                 className="block w-full bg-red-600 text-white text-center font-bold py-3 px-4 rounded-full hover:bg-red-700 transition-colors"
               >
                 Quiero conocer los requisitos

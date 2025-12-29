@@ -110,7 +110,7 @@ export default function TarjetaPlatinumAmexPage() {
             {/* CTA Button 1 */}
             <div className="flex justify-center mb-8">
               <Link
-                href="/soluciones-financieras/tarjeta-de-credito-platinum-american-express-requirements"
+                href="/soluciones-financieras/requisitos-tarjeta-de-credito-platinum-american-express"
                 className="w-full md:w-auto"
               >
                 <Button className="w-full md:w-auto bg-blue-700 hover:bg-blue-800 text-white font-bold py-3 px-8 rounded-full text-lg">

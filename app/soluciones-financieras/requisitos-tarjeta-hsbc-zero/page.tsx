@@ -197,7 +197,7 @@ export default function RequisitosHSBCZeroPage() {
               <p className="text-gray-700">
                 <strong>Conoce más:</strong>{" "}
                 <Link
-                  href="/mx/finanzas-personales/ideas-de-negocio-para-emprendedores/"
+                  href="/finanzas-personales"
                   className="text-blue-600 hover:underline"
                 >
                   5 ideas de negocio para emprendedores jóvenes
@@ -289,7 +289,7 @@ export default function RequisitosHSBCZeroPage() {
               <p className="text-gray-700">
                 <strong>Conoce más:</strong>{" "}
                 <Link
-                  href="/mx/finanzas-personales/ideas-de-negocio-para-emprendedores/"
+                  href="/finanzas-personales"
                   className="text-blue-600 hover:underline"
                 >
                   5 ideas de negocio para emprendedores jóvenes
@@ -311,7 +311,7 @@ export default function RequisitosHSBCZeroPage() {
               <p className="text-gray-700">
                 <strong>Conoce más:</strong>{" "}
                 <Link
-                  href="/mx/finanzas-personales/pasos-para-un-presupuesto-familiar/"
+                  href="/finanzas-personales/guia-para-principiantes-como-crear-un-presupuesto-que-si-funciona"
                   className="text-blue-600 hover:underline"
                 >
                   5 pasos para un presupuesto familiar exitoso
@@ -333,7 +333,7 @@ export default function RequisitosHSBCZeroPage() {
               <p className="text-gray-700">
                 <strong>Conoce más:</strong>{" "}
                 <Link
-                  href="/mx/finanzas-personales/tarjetas-de-credito-de-neobancos/"
+                  href="/finanzas-personales/3-tarjetas-de-credito-sin-anualidad-populares-en-mexico"
                   className="text-blue-600 hover:underline"
                 >
                   Top tarjetas de neobancos

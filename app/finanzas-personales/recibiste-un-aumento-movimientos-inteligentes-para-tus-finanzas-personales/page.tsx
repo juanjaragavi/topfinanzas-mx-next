@@ -162,7 +162,7 @@ export default function AumentoSueldoPage() {
                           muchos métodos sencillos para comenzar. Para una guía
                           detallada, puede ser muy útil aprender{" "}
                           <Link
-                            href="/finanzas-personales/como-hacer-un-presupuesto-personal-paso-a-paso"
+                            href="/finanzas-personales/guia-para-principiantes-como-crear-un-presupuesto-que-si-funciona"
                             className="text-blue-600 hover:underline font-medium"
                           >
                             cómo hacer un presupuesto personal
@@ -251,7 +251,7 @@ export default function AumentoSueldoPage() {
                       ayuda a encontrar un equilibrio saludable, algo esencial
                       para construir hábitos sostenibles. Aprender a{" "}
                       <Link
-                        href="/finanzas-personales/como-evitar-deudas-y-vivir-tranquilo"
+                        href="/finanzas-personales/la-forma-inteligente-de-salir-de-deudas-y-no-volver-a-caer"
                         className="text-blue-600 hover:underline font-medium"
                       >
                         cómo evitar deudas y vivir tranquilo
@@ -308,7 +308,7 @@ export default function AumentoSueldoPage() {
                   <ul className="space-y-4">
                     <li>
                       <Link
-                        href="/finanzas-personales/como-hacer-un-presupuesto-personal-paso-a-paso"
+                        href="/finanzas-personales/guia-para-principiantes-como-crear-un-presupuesto-que-si-funciona"
                         className="group flex gap-3 items-start"
                       >
                         <div className="w-2 h-2 mt-2 rounded-full bg-blue-500 group-hover:bg-green-500 transition-colors"></div>
@@ -319,7 +319,7 @@ export default function AumentoSueldoPage() {
                     </li>
                     <li>
                       <Link
-                        href="/finanzas-personales/como-evitar-deudas-y-vivir-tranquilo"
+                        href="/finanzas-personales/la-forma-inteligente-de-salir-de-deudas-y-no-volver-a-caer"
                         className="group flex gap-3 items-start"
                       >
                         <div className="w-2 h-2 mt-2 rounded-full bg-blue-500 group-hover:bg-green-500 transition-colors"></div>

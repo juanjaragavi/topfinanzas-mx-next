@@ -135,7 +135,7 @@ export default function AhorroInteligentePage() {
                     elaborar un presupuesto te parece abrumador, consulta
                     nuestra guía sobre los{" "}
                     <Link
-                      href="/finanzas-personales/pasos-para-un-presupuesto-familiar/"
+                      href="/finanzas-personales/guia-para-principiantes-como-crear-un-presupuesto-que-si-funciona"
                       className="text-blue-600 hover:underline"
                     >
                       Pasos para un Presupuesto Familiar
@@ -220,7 +220,7 @@ export default function AhorroInteligentePage() {
                     sin esfuerzo. Para conocer más sobre cómo implementar esto,
                     puedes explorar los{" "}
                     <Link
-                      href="/finanzas-personales/metodos-de-ahorro/"
+                      href="/finanzas-personales/ahorro-inteligente-estrategias-de-finanzas-personales-para-impulsar-tu-dinero"
                       className="text-blue-600 hover:underline"
                     >
                       Métodos de Ahorro

@@ -175,7 +175,7 @@ export default function RequisitosTarjetaPlatinumBanregioPage() {
             <p className="text-gray-700 mb-6 font-normal">
               Conoce más:{" "}
               <Link
-                href="/finanzas-personales/como-saber-si-estas-en-buro-de-credito"
+                href="/finanzas-personales/que-es-el-score-crediticio-y-por-que-es-tan-importante"
                 className="text-blue-600 hover:underline"
               >
                 ¿Cómo saber si estás en buró de crédito y qué significa?
@@ -227,7 +227,7 @@ export default function RequisitosTarjetaPlatinumBanregioPage() {
             <p className="text-gray-700 mb-6 font-normal">
               Conoce más:{" "}
               <Link
-                href="/finanzas-personales/comprar-boletos-de-avion-mas-economicos"
+                href="/finanzas-personales/las-mejores-tarjetas-de-credito-para-viajar-guia-para-principiantes"
                 className="text-blue-600 hover:underline"
               >
                 Trucos para comprar boletos de avión más económicos
@@ -278,7 +278,7 @@ export default function RequisitosTarjetaPlatinumBanregioPage() {
             <p className="text-gray-700 mb-6 font-normal">
               Conoce más:{" "}
               <Link
-                href="/finanzas-personales/tarjetas-de-credito-de-neobancos"
+                href="/finanzas-personales/3-tarjetas-de-credito-sin-anualidad-populares-en-mexico"
                 className="text-blue-600 hover:underline"
               >
                 Top tarjetas de neobancos
@@ -386,7 +386,7 @@ export default function RequisitosTarjetaPlatinumBanregioPage() {
             <p className="text-gray-700 mb-6 font-normal">
               Conoce más:{" "}
               <Link
-                href="/finanzas-personales/ideas-de-negocio-para-emprendedores"
+                href="/finanzas-personales"
                 className="text-blue-600 hover:underline"
               >
                 5 ideas de negocio para emprendedores jóvenes

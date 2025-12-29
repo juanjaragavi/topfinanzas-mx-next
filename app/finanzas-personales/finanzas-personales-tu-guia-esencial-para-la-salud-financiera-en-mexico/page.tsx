@@ -510,7 +510,7 @@ export default function FinanzasPersonalesGuiaPage() {
                 </h3>
                 <div className="space-y-4">
                   <Link
-                    href="/finanzas-personales/que-es-un-fondo-de-emergencia-y-por-que-lo-necesitas"
+                    href="/finanzas-personales/que-es-un-fondo-de-emergencia-y-por-que-es-clave-para-tu-tranquilidad"
                     className="group flex gap-3"
                   >
                     <div className="w-20 h-20 relative rounded-lg overflow-hidden flex-shrink-0">
@@ -532,7 +532,7 @@ export default function FinanzasPersonalesGuiaPage() {
                   </Link>
 
                   <Link
-                    href="/finanzas-personales/que-es-el-score-crediticio-y-como-mejorarlo"
+                    href="/finanzas-personales/que-es-el-score-crediticio-y-por-que-es-tan-importante"
                     className="group flex gap-3"
                   >
                     <div className="w-20 h-20 relative rounded-lg overflow-hidden flex-shrink-0">
@@ -554,7 +554,7 @@ export default function FinanzasPersonalesGuiaPage() {
                   </Link>
 
                   <Link
-                    href="/finanzas-personales/la-forma-inteligente-de-salir-de-deudas-metodos-bola-de-nieve-y-avalancha"
+                    href="/finanzas-personales/la-forma-inteligente-de-salir-de-deudas-y-no-volver-a-caer"
                     className="group flex gap-3"
                   >
                     <div className="w-20 h-20 relative rounded-lg overflow-hidden flex-shrink-0">

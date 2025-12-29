@@ -104,7 +104,7 @@ export default function TarjetaHSBCAirPage() {
             {/* CTA Button 1 */}
             <div className="mb-10">
               <Link
-                href="/mx/soluciones-financieras/requisitos-tarjeta-hsbc-air/"
+                href="/soluciones-financieras/requisitos-tarjeta-hsbc-air"
                 className="block w-full bg-red-600 text-white text-center font-bold py-4 px-6 rounded-full hover:bg-red-700 transition-colors text-lg"
               >
                 Quiero conocer los requisitos

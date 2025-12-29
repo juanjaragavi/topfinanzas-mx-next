@@ -230,7 +230,7 @@ export default function SalirDeDeudasPage() {
                       herramienta para decirle a tu dinero a dónde ir. Si no
                       tienes uno, es el momento ideal de aprender{" "}
                       <Link
-                        href="/finanzas-personales/como-hacer-un-presupuesto-personal-paso-a-paso"
+                        href="/finanzas-personales/guia-para-principiantes-como-crear-un-presupuesto-que-si-funciona"
                         className="text-blue-600 hover:underline font-medium"
                       >
                         cómo hacer un presupuesto personal
@@ -243,7 +243,7 @@ export default function SalirDeDeudasPage() {
                       Esto casi siempre implica tomar decisiones conscientes y
                       diferenciar claramente entre{" "}
                       <Link
-                        href="/finanzas-personales/necesidades-vs-deseos-como-tomar-mejores-decisiones"
+                        href="/finanzas-personales/finanzas-personales-en-mexico-10-reglas-de-oro-para-una-vida-sin-estres-financiero"
                         className="text-blue-600 hover:underline font-medium"
                       >
                         tus necesidades y tus deseos
@@ -334,7 +334,7 @@ export default function SalirDeDeudasPage() {
                   <ul className="space-y-4">
                     <li>
                       <Link
-                        href="/finanzas-personales/como-hacer-un-presupuesto-personal-paso-a-paso"
+                        href="/finanzas-personales/guia-para-principiantes-como-crear-un-presupuesto-que-si-funciona"
                         className="group flex gap-3 items-start"
                       >
                         <div className="w-2 h-2 mt-2 rounded-full bg-blue-500 group-hover:bg-green-500 transition-colors"></div>
@@ -345,7 +345,7 @@ export default function SalirDeDeudasPage() {
                     </li>
                     <li>
                       <Link
-                        href="/finanzas-personales/necesidades-vs-deseos-como-tomar-mejores-decisiones"
+                        href="/finanzas-personales/finanzas-personales-en-mexico-10-reglas-de-oro-para-una-vida-sin-estres-financiero"
                         className="group flex gap-3 items-start"
                       >
                         <div className="w-2 h-2 mt-2 rounded-full bg-blue-500 group-hover:bg-green-500 transition-colors"></div>
@@ -356,7 +356,7 @@ export default function SalirDeDeudasPage() {
                     </li>
                     <li>
                       <Link
-                        href="/finanzas-personales/que-es-un-fondo-de-emergencia-y-como-construirlo"
+                        href="/finanzas-personales/que-es-un-fondo-de-emergencia-y-por-que-es-clave-para-tu-tranquilidad"
                         className="group flex gap-3 items-start"
                       >
                         <div className="w-2 h-2 mt-2 rounded-full bg-blue-500 group-hover:bg-green-500 transition-colors"></div>

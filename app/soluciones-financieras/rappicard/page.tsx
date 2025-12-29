@@ -104,7 +104,7 @@ export default function RappiCardPage() {
             {/* CTA Button */}
             <div className="mb-10">
               <Link
-                href="/mx/soluciones-financieras/requisitos-rappicard/"
+                href="/soluciones-financieras/requisitos-rappicard"
                 className="block w-full bg-black text-white text-center font-bold py-4 px-6 rounded-full hover:bg-gray-800 transition-colors text-lg"
               >
                 Quiero conocer los requisitos
