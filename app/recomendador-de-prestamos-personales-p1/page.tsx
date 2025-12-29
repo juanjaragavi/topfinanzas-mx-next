@@ -124,7 +124,7 @@ function PersonalLoanRecommenderPageContent() {
               </Link>
             </p>
 
-            <div className="mt-8 mb-6 border rounded-lg overflow-hidden">
+            <div className="mt-8 mb-6 border rounded-sm overflow-hidden">
               {/* FAQ Item 1: Advantages */}
               <button
                 type="button"
@@ -293,7 +293,7 @@ function PersonalLoanRecommenderPageContent() {
 
             <div className="my-10">
               <Link href="/soluciones-financieras/kueski-prestamos-personales">
-                <div className="relative w-full h-auto rounded-xl overflow-hidden shadow-xl hover:shadow-2xl transition-shadow">
+                <div className="relative w-full h-auto rounded-sm overflow-hidden shadow-xl hover:shadow-2xl transition-shadow">
                   <Image
                     src="https://media.topfinanzas.com/images/Tobanner-04-2.webp"
                     alt="Kueski Préstamos Personales"

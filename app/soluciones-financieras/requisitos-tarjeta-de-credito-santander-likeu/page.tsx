@@ -65,7 +65,7 @@ export default function RequisitosTarjetaLikeUSantanderPage() {
             </p>
 
             {/* Image 1 */}
-            <div className="relative w-full h-64 md:h-[400px] my-8 rounded-xl overflow-hidden shadow-lg">
+            <div className="relative w-full h-64 md:h-[400px] my-8 rounded-sm overflow-hidden shadow-lg">
               <Image
                 src="https://media.topfinanzas.com/images/download-3-1.webp"
                 alt="LikeU de Santander"
@@ -158,7 +158,7 @@ export default function RequisitosTarjetaLikeUSantanderPage() {
             </p>
 
             {/* Image 2 */}
-            <div className="relative w-full h-64 md:h-[400px] my-8 rounded-xl overflow-hidden shadow-lg">
+            <div className="relative w-full h-64 md:h-[400px] my-8 rounded-sm overflow-hidden shadow-lg">
               <Image
                 src="https://media.topfinanzas.com/images/call-to-ACTION-1.jpg"
                 alt="Solicitar Tarjeta LikeU"
@@ -228,7 +228,7 @@ export default function RequisitosTarjetaLikeUSantanderPage() {
             </p>
 
             {/* Image 3 */}
-            <div className="relative w-full h-64 md:h-[400px] my-8 rounded-xl overflow-hidden shadow-lg">
+            <div className="relative w-full h-64 md:h-[400px] my-8 rounded-sm overflow-hidden shadow-lg">
               <Image
                 src="https://media.topfinanzas.com/images/call-to-ACTION-3.jpg"
                 alt="Costos y tasas Tarjeta LikeU"
@@ -266,7 +266,7 @@ export default function RequisitosTarjetaLikeUSantanderPage() {
             </p>
 
             {/* Image 4 */}
-            <div className="relative w-full h-64 md:h-[400px] my-8 rounded-xl overflow-hidden shadow-lg">
+            <div className="relative w-full h-64 md:h-[400px] my-8 rounded-sm overflow-hidden shadow-lg">
               <Image
                 src="https://media.topfinanzas.com/images/call-to-ACTION-2.jpg"
                 alt="Para quién es la Tarjeta LikeU"
@@ -316,7 +316,7 @@ export default function RequisitosTarjetaLikeUSantanderPage() {
             </p>
 
             {/* Image 5 */}
-            <div className="relative w-full h-64 md:h-[400px] my-8 rounded-xl overflow-hidden shadow-lg">
+            <div className="relative w-full h-64 md:h-[400px] my-8 rounded-sm overflow-hidden shadow-lg">
               <Image
                 src="https://media.topfinanzas.com/images/call-to-ACTION-4.jpg"
                 alt="Usuarios frecuentes de tarjetas"

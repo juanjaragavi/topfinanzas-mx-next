@@ -71,7 +71,7 @@ export function BlogLayout({ children, metadata }: BlogLayoutProps) {
                         height={50}
                         loading="lazy"
                         priority={false}
-                        className="rounded-md object-cover"
+                        className="rounded-sm object-cover"
                         onError={(e) => {
                           e.currentTarget.src =
                             "https://media.topfinanzas.com/images/placeholder-image.webp";
@@ -96,7 +96,7 @@ export function BlogLayout({ children, metadata }: BlogLayoutProps) {
                         height={50}
                         loading="lazy"
                         priority={false}
-                        className="rounded-md object-cover"
+                        className="rounded-sm object-cover"
                         onError={(e) => {
                           e.currentTarget.src =
                             "https://media.topfinanzas.com/images/placeholder-image.webp";
@@ -121,7 +121,7 @@ export function BlogLayout({ children, metadata }: BlogLayoutProps) {
                         height={50}
                         loading="lazy"
                         priority={false}
-                        className="rounded-md object-cover"
+                        className="rounded-sm object-cover"
                         onError={(e) => {
                           e.currentTarget.src =
                             "https://media.topfinanzas.com/images/placeholder-image.webp";
@@ -146,7 +146,7 @@ export function BlogLayout({ children, metadata }: BlogLayoutProps) {
                         height={50}
                         loading="lazy"
                         priority={false}
-                        className="rounded-md object-cover"
+                        className="rounded-sm object-cover"
                         onError={(e) => {
                           e.currentTarget.src =
                             "https://media.topfinanzas.com/images/placeholder-image.webp";
@@ -171,7 +171,7 @@ export function BlogLayout({ children, metadata }: BlogLayoutProps) {
                         height={50}
                         loading="lazy"
                         priority={false}
-                        className="rounded-md object-cover"
+                        className="rounded-sm object-cover"
                         onError={(e) => {
                           e.currentTarget.src =
                             "https://media.topfinanzas.com/images/placeholder-image.webp";
@@ -195,7 +195,7 @@ export function BlogLayout({ children, metadata }: BlogLayoutProps) {
                         height={50}
                         loading="lazy"
                         priority={false}
-                        className="rounded-md object-cover"
+                        className="rounded-sm object-cover"
                         onError={(e) => {
                           e.currentTarget.src =
                             "https://media.topfinanzas.com/images/placeholder-image.webp";
@@ -219,7 +219,7 @@ export function BlogLayout({ children, metadata }: BlogLayoutProps) {
                         height={50}
                         loading="lazy"
                         priority={false}
-                        className="rounded-md object-cover"
+                        className="rounded-sm object-cover"
                         onError={(e) => {
                           e.currentTarget.src =
                             "https://media.topfinanzas.com/images/placeholder-image.webp";

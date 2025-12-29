@@ -81,7 +81,7 @@ export function SearchResults({
 
   if (error) {
     return (
-      <div className="p-4 flex items-center text-red-600 bg-red-50 border border-red-200 rounded-md">
+      <div className="p-4 flex items-center text-red-600 bg-red-50 border border-red-200 rounded-sm">
         <AlertCircle className="w-5 h-5 mr-2 flex-shrink-0" />
         <span>Error: {error}</span>
       </div>

@@ -1,5 +1,7 @@
 # Push and Commit Guidelines
 
+**CRITICAL**: Do not push changes to HEAD unless explicitly requested by the user. There are no exceptions to this rule.
+
 ## Trigger
 
 This procedure is initiated when the user issues the prompt "Push and commit our latest changes." following a successful development cycle.
@@ -14,7 +16,7 @@ This procedure is initiated when the user issues the prompt "Push and commit our
 
    ```json
    {
-     "repo_path": "/Users/macbookpro/GitHub/uk-topfinanzas-com"
+     "repo_path": "/Users/macbookpro/GitHub/topfinanzas-mx-next"
    }
    ```
 

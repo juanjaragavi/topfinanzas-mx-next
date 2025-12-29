@@ -116,7 +116,7 @@ export default function TarjetaPlataCardPage() {
               <ResponsiveImage
                 src="https://media.topfinanzas.com/images/download-1-2.webp"
                 alt="Tarjeta de crédito Plata Card"
-                className="rounded-lg shadow-md aspect-video w-full object-cover"
+                className="rounded-sm shadow-md aspect-video w-full object-cover"
               />
             </div>
 

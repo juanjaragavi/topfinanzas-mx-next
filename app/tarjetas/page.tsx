@@ -378,7 +378,7 @@ export default function TarjetasArchivePage() {
     return (
       <div className="min-h-screen flex items-center justify-center">
         {/* Basic loading skeleton */}
-        <div className="animate-pulse bg-gray-200 rounded-xl p-8 w-full max-w-4xl">
+        <div className="animate-pulse bg-gray-200 rounded-sm p-8 w-full max-w-4xl">
           <div className="h-8 bg-gray-300 rounded w-3/4 mb-4"></div>
           <div className="h-4 bg-gray-300 rounded w-1/2 mb-6"></div>
           <div className="grid grid-cols-1 md:grid-cols-2 gap-6">

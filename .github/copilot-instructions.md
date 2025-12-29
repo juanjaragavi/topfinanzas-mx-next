@@ -1,5 +1,7 @@
 # UK TopFinanzas Copilot Instructions
 
+**CRITICAL**: Do not push changes to HEAD unless explicitly requested by the user. There are no exceptions to this rule.
+
 ## Project Architecture
 
 This is a **Next.js 15+ App Router** financial comparison site for the UK market, built with TypeScript and Tailwind CSS. The architecture centers around credit card/loan comparison tools with multi-step forms and comprehensive analytics tracking.

@@ -46,7 +46,7 @@ export default function SidebarExample() {
                   alt="Article about personal finance"
                   width={50}
                   height={50}
-                  className="rounded-md"
+                  className="rounded-sm"
                 />
                 <div>
                   <Link
@@ -65,7 +65,7 @@ export default function SidebarExample() {
                   alt="Article about mortgages"
                   width={50}
                   height={50}
-                  className="rounded-md"
+                  className="rounded-sm"
                 />
                 <div>
                   <Link
@@ -84,7 +84,7 @@ export default function SidebarExample() {
                   alt="Article about loans"
                   width={50}
                   height={50}
-                  className="rounded-md"
+                  className="rounded-sm"
                 />
                 <div>
                   <Link

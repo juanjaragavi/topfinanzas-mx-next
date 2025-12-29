@@ -107,7 +107,7 @@ export default function TarjetaLikeUSantanderPage() {
             </Link>
 
             {/* Featured Image */}
-            <div className="relative w-full h-64 md:h-[400px] my-8 rounded-xl overflow-hidden shadow-lg">
+            <div className="relative w-full h-64 md:h-[400px] my-8 rounded-sm overflow-hidden shadow-lg">
               <Image
                 src="https://media.topfinanzas.com/images/download-1-3.webp"
                 alt="Tarjeta de crédito Like U Santander"

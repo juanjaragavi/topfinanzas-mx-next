@@ -155,7 +155,7 @@ body {
 
   /* Default background for text overlay sections */
   .bg-text-overlay {
-    @apply bg-white/90 p-3 rounded-md;
+    @apply bg-white/90 p-3 rounded-sm;
   }
 
   /* Container for article content with appropriate spacing */

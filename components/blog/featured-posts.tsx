@@ -30,7 +30,7 @@ export function FeaturedPosts({
       <h2 className="text-2xl font-bold mb-6 text-gray-900">{title}</h2>
       <div className="grid grid-cols-1 lg:grid-cols-3 gap-8">
         {/* Main Feature */}
-        <div className="lg:col-span-2 group cursor-pointer relative rounded-xl overflow-hidden shadow-sm hover:shadow-md transition-shadow">
+        <div className="lg:col-span-2 group cursor-pointer relative rounded-sm overflow-hidden shadow-sm hover:shadow-md transition-shadow">
           <Link href={`/${mainPost.category}/${mainPost.slug}`}>
             <div className="relative h-96 w-full">
               {mainPost.image ? (
@@ -69,7 +69,7 @@ export function FeaturedPosts({
           {sidePosts.map((post) => (
             <article
               key={post.slug}
-              className="flex-1 group cursor-pointer bg-white rounded-xl overflow-hidden shadow-sm hover:shadow-md transition-shadow flex flex-row lg:flex-col"
+              className="flex-1 group cursor-pointer bg-white rounded-sm overflow-hidden shadow-sm hover:shadow-md transition-shadow flex flex-row lg:flex-col"
             >
               <Link
                 href={`/${post.category}/${post.slug}`}

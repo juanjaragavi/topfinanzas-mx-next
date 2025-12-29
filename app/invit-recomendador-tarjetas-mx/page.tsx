@@ -49,22 +49,22 @@ export default function InvitRecomendadorTarjetasMXPage() {
             {/* Opciones de límite centradas (botones verdes) */}
             <div className="grid grid-cols-1 gap-3 my-4">
               <Link href="/soluciones-financieras/barclaycard-avios-plus">
-                <Button className="bg-[#1A9C8F] hover:bg-[#168B7F] text-white font-semibold py-4 my-1 w-full mx-auto rounded-xl">
+                <Button className="bg-[#1A9C8F] hover:bg-[#168B7F] text-white font-semibold py-4 my-1 w-full mx-auto rounded-sm">
                   TARJETA HASTA $10,000 MXN
                 </Button>
               </Link>
               <Link href="/soluciones-financieras/barclaycard-avios-plus">
-                <Button className="bg-[#1A9C8F] hover:bg-[#168B7F] text-white font-semibold py-4 my-1 w-full mx-auto rounded-xl">
+                <Button className="bg-[#1A9C8F] hover:bg-[#168B7F] text-white font-semibold py-4 my-1 w-full mx-auto rounded-sm">
                   TARJETA HASTA $25,000 MXN
                 </Button>
               </Link>
               <Link href="/soluciones-financieras/barclaycard-avios-plus">
-                <Button className="bg-[#1A9C8F] hover:bg-[#168B7F] text-white font-semibold py-4 my-1 w-full mx-auto rounded-xl">
+                <Button className="bg-[#1A9C8F] hover:bg-[#168B7F] text-white font-semibold py-4 my-1 w-full mx-auto rounded-sm">
                   TARJETA HASTA $50,000 MXN
                 </Button>
               </Link>
               <Link href="/soluciones-financieras/barclaycard-avios-plus">
-                <Button className="bg-[#1A9C8F] hover:bg-[#168B7F] text-white font-semibold py-4 my-1 w-full mx-auto rounded-xl">
+                <Button className="bg-[#1A9C8F] hover:bg-[#168B7F] text-white font-semibold py-4 my-1 w-full mx-auto rounded-sm">
                   MÁS OPCIONES
                 </Button>
               </Link>
@@ -72,7 +72,7 @@ export default function InvitRecomendadorTarjetasMXPage() {
 
             {/* Panel de información + CTA de aceptación */}
             <section className="text-left mb-6">
-              <div className="bg-gray-50 border border-gray-200 rounded-md px-4 py-6 relative">
+              <div className="bg-gray-50 border border-gray-200 rounded-sm px-4 py-6 relative">
                 <div
                   className="absolute left-0 top-0 h-full w-1 bg-[#1A9C8F] rounded-l-md"
                   aria-hidden="true"
@@ -91,7 +91,7 @@ export default function InvitRecomendadorTarjetasMXPage() {
               </div>
               <div className="mt-6">
                 <Link href="/soluciones-financieras/barclaycard-avios-plus">
-                  <Button className="bg-[#1A9C8F] hover:bg-[#168B7F] text-white font-semibold py-4 my-1 w-full mx-auto rounded-xl">
+                  <Button className="bg-[#1A9C8F] hover:bg-[#168B7F] text-white font-semibold py-4 my-1 w-full mx-auto rounded-sm">
                     ACEPTAR RECOMENDACIÓN
                   </Button>
                 </Link>
@@ -241,7 +241,7 @@ export default function InvitRecomendadorTarjetasMXPage() {
 
             {/* Panel de Mantente Informado */}
             <section className="text-left mb-6">
-              <div className="bg-gray-50 border border-gray-200 rounded-md p-4 relative">
+              <div className="bg-gray-50 border border-gray-200 rounded-sm p-4 relative">
                 <div
                   className="absolute left-0 top-0 h-full w-1 bg-[#1A9C8F] rounded-l-md"
                   aria-hidden="true"
@@ -260,14 +260,14 @@ export default function InvitRecomendadorTarjetasMXPage() {
 
             {/* Banner promocional inferior */}
             <div className="my-8 text-left sm:text-left">
-              <div className="mx-auto w-full md:w-8/12 border rounded-xl p-4 bg-white">
+              <div className="mx-auto w-full md:w-8/12 border rounded-sm p-4 bg-white">
                 <div className="flex flex-col items-center text-center space-y-3">
                   <Image
                     src="https://media.topfinanzas.com/images/Tobanner-02-1.webp"
                     alt="Tarjetas de Crédito México"
                     width={640}
                     height={360}
-                    className="w-56 h-auto rounded-lg"
+                    className="w-56 h-auto rounded-sm"
                   />
                   <p className="text-[#B45309] text-sm font-semibold">
                     🔔 ¡Oferta por tiempo limitado!
@@ -282,7 +282,7 @@ export default function InvitRecomendadorTarjetasMXPage() {
                     href="/soluciones-financieras/barclaycard-avios-plus-requisitos"
                     className="w-full"
                   >
-                    <Button className="bg-[#E11D48] hover:bg-[#BE123C] text-white font-semibold py-2 w-full rounded-md">
+                    <Button className="bg-[#E11D48] hover:bg-[#BE123C] text-white font-semibold py-2 w-full rounded-sm">
                       VER CÓMO SOLICITARLA
                     </Button>
                   </Link>

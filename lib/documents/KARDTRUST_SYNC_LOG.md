@@ -145,8 +145,8 @@ The following UK-specific elements were adapted for the US market:
 
 ### TopFinanzas UK (Source)
 
-- `/Users/macbookpro/GitHub/uk-topfinanzas-com/lib/TOFU_BLOG_POST_GENERATION.instructions.md`
-- `/Users/macbookpro/GitHub/uk-topfinanzas-com/.github/instructions/BLOG_POST_INTEGRATION.instructions.md`
+- `/Users/macbookpro/GitHub/topfinanzas-mx-next/lib/TOFU_BLOG_POST_GENERATION.instructions.md`
+- `/Users/macbookpro/GitHub/topfinanzas-mx-next/.github/instructions/BLOG_POST_INTEGRATION.instructions.md`
 
 ### KardTrust (Target)
 

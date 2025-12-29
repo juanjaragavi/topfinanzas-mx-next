@@ -81,7 +81,7 @@ Components that display financial information should use:
 
 ### Image Components
 
-All image components should include the `rounded-xl` class for consistent styling. When creating or modifying image containers, ensure they also have this class.
+All image components should include the `rounded-sm` class for consistent styling. When creating or modifying image containers, ensure they also have this class.
 
 ## Adding New Components
 

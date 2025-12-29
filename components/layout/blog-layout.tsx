@@ -100,7 +100,7 @@ export function BlogLayout({ children, metadata }: BlogLayoutProps) {
               alt={author}
               width={48}
               height={48}
-              className="rounded-xl mr-4"
+              className="rounded-sm mr-4"
             />
             <div>
               <div className="font-medium text-gray-900">{author}</div>
@@ -268,14 +268,14 @@ export function BlogLayout({ children, metadata }: BlogLayoutProps) {
               </div>
 
               {/* Author box */}
-              <div className="mt-6 bg-gray-50 p-4 rounded-xl">
+              <div className="mt-6 bg-gray-50 p-4 rounded-sm">
                 <div className="flex flex-col sm:flex-row items-center sm:items-start">
                   <Image
                     src={authorImage}
                     alt={author}
                     width={60}
                     height={60}
-                    className="rounded-xl mb-4 sm:mb-0 sm:mr-4"
+                    className="rounded-sm mb-4 sm:mb-0 sm:mr-4"
                   />
                   <div className="text-left sm:text-left">
                     <h3 className="text-h3 mb-1">{author}</h3>
@@ -320,7 +320,7 @@ export function BlogLayout({ children, metadata }: BlogLayoutProps) {
               {/* Comments section */}
               <div className="mt-8 pt-4 border-t border-gray-200">
                 <h3 className="text-h3 mb-4">Comments</h3>
-                <div className="bg-gray-50 p-4 rounded-xl text-left">
+                <div className="bg-gray-50 p-4 rounded-sm text-left">
                   <p className="text-body mb-3">
                     Be the first to share your thoughts on this article.
                   </p>
@@ -343,7 +343,7 @@ export function BlogLayout({ children, metadata }: BlogLayoutProps) {
                     href="/finanzas-personales/best-personal-loans" // Updated Recent Article Link 1
                     className="block"
                   >
-                    <div className="relative h-32 rounded-xl overflow-hidden">
+                    <div className="relative h-32 rounded-sm overflow-hidden">
                       <Image
                         src="https://media.topfinanzas.com/images/best-personal-loans.webp" // Updated Image
                         alt="Best Personal Loans in the UK" // Updated Alt
@@ -364,7 +364,7 @@ export function BlogLayout({ children, metadata }: BlogLayoutProps) {
                     href="/finanzas-personales/getting-out-of-debt" // Updated Recent Article Link 2
                     className="block"
                   >
-                    <div className="relative h-32 rounded-xl overflow-hidden">
+                    <div className="relative h-32 rounded-sm overflow-hidden">
                       <Image
                         src="https://us.topfinanzas.com/wp-content/uploads/2023/11/Top_Finanzas_como_salir_de_deudas.webp" // Updated Image
                         alt="Practical Guide to Getting Out of Debt" // Updated Alt
@@ -386,7 +386,7 @@ export function BlogLayout({ children, metadata }: BlogLayoutProps) {
                     href="/finanzas-personales/tips-for-choosing-an-online-loan" // Updated Recent Article Link 3
                     className="block"
                   >
-                    <div className="relative h-32 rounded-xl overflow-hidden">
+                    <div className="relative h-32 rounded-sm overflow-hidden">
                       <Image
                         src="https://media.topfinanzas.com/images/uk/choosing-online-loan-uk.webp" // Updated Image
                         alt="5 Tips for Choosing an Online Loan: Quick Guide" // Updated Alt
@@ -447,7 +447,7 @@ export function BlogLayout({ children, metadata }: BlogLayoutProps) {
                   <input
                     type="email"
                     placeholder="Your email address"
-                    className="w-full px-3 py-1.5 text-[10px] border border-gray-300 rounded-xl focus:outline-none focus:ring-1 focus:ring-blue-500"
+                    className="w-full px-3 py-1.5 text-[10px] border border-gray-300 rounded-sm focus:outline-none focus:ring-1 focus:ring-blue-500"
                   />
                   <Button className="w-full text-[10px] py-1.5 rounded-full">
                     Subscribe

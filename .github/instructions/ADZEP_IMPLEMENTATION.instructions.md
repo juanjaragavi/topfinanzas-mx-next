@@ -4,6 +4,8 @@ applyTo: "**"
 
 # AdZep Integration Guide
 
+**CRITICAL**: Do not push changes to HEAD unless explicitly requested by the user. There are no exceptions to this rule.
+
 ## Overview
 
 The AdZep tag has been successfully integrated into this Next.js project with a comprehensive implementation that handles both script loading and function invocation requirements.

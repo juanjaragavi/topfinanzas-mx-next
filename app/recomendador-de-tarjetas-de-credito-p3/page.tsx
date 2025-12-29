@@ -123,7 +123,7 @@ function CreditCardRecommenderPageContent() {
               </Link>
             </p>
 
-            <div className="mt-8 mb-6 border rounded-lg overflow-hidden">
+            <div className="mt-8 mb-6 border rounded-sm overflow-hidden">
               {/* FAQ Item 1: Benefits */}
               <button
                 type="button"
@@ -258,7 +258,7 @@ function CreditCardRecommenderPageContent() {
 
             <div className="my-10">
               <Link href="/soluciones-financieras/barclaycard-avios-plus">
-                <div className="relative w-full h-auto rounded-xl overflow-hidden shadow-xl hover:shadow-2xl transition-shadow">
+                <div className="relative w-full h-auto rounded-sm overflow-hidden shadow-xl hover:shadow-2xl transition-shadow">
                   <Image
                     src="https://media.topfinanzas.com/images/Tobanner-02-1.webp"
                     alt="BBVA Tarjeta de Crédito Azul"

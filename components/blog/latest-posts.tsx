@@ -33,13 +33,13 @@ export function LatestPosts({
       <h2 className="text-2xl font-bold mb-6 text-gray-900">{title}</h2>
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
         {posts.map((post) => {
-          // Normalize image URL to handle combining marks (NFD)
-          const normalizedImage = post.image ? post.image.normalize("NFD") : "";
+          // Use the image URL directly without normalization
+          const normalizedImage = post.image || "";
 
           return (
             <article
               key={post.slug}
-              className="group cursor-pointer flex flex-col h-full bg-white rounded-lg overflow-hidden shadow-sm hover:shadow-md transition-shadow duration-300"
+              className="group cursor-pointer flex flex-col h-full bg-white rounded-sm overflow-hidden shadow-sm hover:shadow-md transition-shadow duration-300"
             >
               <Link
                 href={`/${post.category}/${post.slug}`}

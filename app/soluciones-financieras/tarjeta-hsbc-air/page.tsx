@@ -118,7 +118,7 @@ export default function TarjetaHSBCAirPage() {
                 alt="Tarjeta HSBC Air"
                 width={800}
                 height={450}
-                className="w-full h-auto rounded-lg shadow-lg"
+                className="w-full h-auto rounded-sm shadow-lg"
                 priority
               />
             </div>

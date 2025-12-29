@@ -2,7 +2,6 @@ import { Header } from "@/components/layout/header";
 import { CompactFooter } from "@/components/layout/compact-footer";
 import { AIContentDisclaimer } from "@/components/ui/ai-content-disclaimer";
 import Image from "next/image";
-import Link from "next/link";
 import { Metadata } from "next";
 
 export const metadata: Metadata = {
@@ -55,7 +54,7 @@ export default function CashbackVsPuntosBlackFridayPage() {
                   alt="Cashback vs. Puntos para Black Friday"
                   width={800}
                   height={450}
-                  className="w-full h-auto rounded-xl"
+                  className="w-full h-auto rounded-sm"
                   priority={true}
                   fetchPriority="high"
                   quality={85}

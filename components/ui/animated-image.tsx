@@ -39,7 +39,7 @@ export const AnimatedImage: React.FC<AnimatedImageProps> = ({
         alt={alt}
         width={width}
         height={height}
-        className="rounded-xl shadow-lg m-0 p-0 overflow-hidden"
+        className="rounded-sm shadow-lg m-0 p-0 overflow-hidden"
         style={{ maxWidth: "100%", width: "auto", height: "auto" }}
         priority
       />

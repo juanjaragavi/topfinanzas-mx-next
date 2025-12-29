@@ -60,7 +60,7 @@ export function AIContentDisclaimer() {
 
   return (
     <div className="mt-10 pt-6 border-t border-gray-200">
-      <div className="bg-blue-50 rounded-xl p-6">
+      <div className="bg-blue-50 rounded-sm p-6">
         <div className="flex items-start">
           <div className="flex-shrink-0 mr-4">
             <div className="relative w-16 h-16 rounded-full overflow-hidden border-2 border-white">
@@ -138,7 +138,7 @@ export function AIContentDisclaimerStatic() {
 
   return (
     <div className="mt-10 pt-6 border-t border-gray-200">
-      <div className="bg-blue-50 rounded-xl p-6">
+      <div className="bg-blue-50 rounded-sm p-6">
         <div className="flex items-start">
           <div className="flex-shrink-0 mr-4">
             <div className="relative w-16 h-16 rounded-full overflow-hidden border-2 border-white">

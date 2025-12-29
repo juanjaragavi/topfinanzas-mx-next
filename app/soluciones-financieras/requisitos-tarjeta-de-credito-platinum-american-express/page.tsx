@@ -66,7 +66,7 @@ export default function RequisitosTarjetaPlatinumAmexPage() {
             </p>
 
             {/* Image 1 */}
-            <div className="relative w-full h-64 md:h-[400px] my-8 rounded-xl overflow-hidden shadow-lg">
+            <div className="relative w-full h-64 md:h-[400px] my-8 rounded-sm overflow-hidden shadow-lg">
               <Image
                 src="https://media.topfinanzas.com/images/download-7-min.webp"
                 alt="Tarjeta de Crédito Platinum American Express"
@@ -96,7 +96,7 @@ export default function RequisitosTarjetaPlatinumAmexPage() {
             </div>
 
             {/* CTA Banner 1 */}
-            <div className="relative w-full h-32 md:h-48 my-8 rounded-xl overflow-hidden shadow-lg">
+            <div className="relative w-full h-32 md:h-48 my-8 rounded-sm overflow-hidden shadow-lg">
               <Image
                 src="https://media.topfinanzas.com/images/call-to-ACTION-1.jpg"
                 alt="¿Eres estudiante?"
@@ -199,7 +199,7 @@ export default function RequisitosTarjetaPlatinumAmexPage() {
             </p>
 
             {/* CTA Banner 2 */}
-            <div className="relative w-full h-32 md:h-48 my-8 rounded-xl overflow-hidden shadow-lg">
+            <div className="relative w-full h-32 md:h-48 my-8 rounded-sm overflow-hidden shadow-lg">
               <Image
                 src="https://media.topfinanzas.com/images/call-to-ACTION-3.jpg"
                 alt="Entiende el CAT en Tarjetas de Crédito"
@@ -295,7 +295,7 @@ export default function RequisitosTarjetaPlatinumAmexPage() {
             </ul>
 
             {/* CTA Banner 3 */}
-            <div className="relative w-full h-32 md:h-48 my-8 rounded-xl overflow-hidden shadow-lg">
+            <div className="relative w-full h-32 md:h-48 my-8 rounded-sm overflow-hidden shadow-lg">
               <Image
                 src="https://media.topfinanzas.com/images/call-to-ACTION-2.jpg"
                 alt="Top tarjetas de crédito sin anualidad"
@@ -338,7 +338,7 @@ export default function RequisitosTarjetaPlatinumAmexPage() {
             </p>
 
             {/* CTA Banner 4 */}
-            <div className="relative w-full h-32 md:h-48 my-8 rounded-xl overflow-hidden shadow-lg">
+            <div className="relative w-full h-32 md:h-48 my-8 rounded-sm overflow-hidden shadow-lg">
               <Image
                 src="https://media.topfinanzas.com/images/call-to-ACTION-4.jpg"
                 alt="Buscando el mejor préstamo personal"

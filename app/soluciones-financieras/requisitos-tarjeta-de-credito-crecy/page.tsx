@@ -65,7 +65,7 @@ export default function RequisitosTarjetaCrecyPage() {
             </p>
 
             {/* Image 1 */}
-            <div className="relative w-full h-64 md:h-[400px] my-8 rounded-xl overflow-hidden shadow-lg">
+            <div className="relative w-full h-64 md:h-[400px] my-8 rounded-sm overflow-hidden shadow-lg">
               <Image
                 src="https://media.topfinanzas.com/images/download.webp"
                 alt="Tarjeta de Crédito Crecy"
@@ -201,7 +201,7 @@ export default function RequisitosTarjetaCrecyPage() {
             </div>
 
             {/* CTA Banner 1 */}
-            <div className="relative w-full h-32 md:h-48 my-8 rounded-xl overflow-hidden shadow-lg">
+            <div className="relative w-full h-32 md:h-48 my-8 rounded-sm overflow-hidden shadow-lg">
               <Image
                 src="https://media.topfinanzas.com/images/call-to-ACTION-1.jpg"
                 alt="¿Eres estudiante?"
@@ -280,7 +280,7 @@ export default function RequisitosTarjetaCrecyPage() {
             </ul>
 
             {/* CTA Banner 2 */}
-            <div className="relative w-full h-32 md:h-48 my-8 rounded-xl overflow-hidden shadow-lg">
+            <div className="relative w-full h-32 md:h-48 my-8 rounded-sm overflow-hidden shadow-lg">
               <Image
                 src="https://media.topfinanzas.com/images/call-to-ACTION-3.jpg"
                 alt="Entiende el CAT en Tarjetas de Crédito"
@@ -361,7 +361,7 @@ export default function RequisitosTarjetaCrecyPage() {
             </ul>
 
             {/* CTA Banner 3 */}
-            <div className="relative w-full h-32 md:h-48 my-8 rounded-xl overflow-hidden shadow-lg">
+            <div className="relative w-full h-32 md:h-48 my-8 rounded-sm overflow-hidden shadow-lg">
               <Image
                 src="https://media.topfinanzas.com/images/call-to-ACTION-2.jpg"
                 alt="Top tarjetas de crédito sin anualidad"
@@ -422,7 +422,7 @@ export default function RequisitosTarjetaCrecyPage() {
             </div>
 
             {/* CTA Banner 4 */}
-            <div className="relative w-full h-32 md:h-48 my-8 rounded-xl overflow-hidden shadow-lg">
+            <div className="relative w-full h-32 md:h-48 my-8 rounded-sm overflow-hidden shadow-lg">
               <Image
                 src="https://media.topfinanzas.com/images/call-to-ACTION-4.jpg"
                 alt="Buscando el mejor préstamo personal"

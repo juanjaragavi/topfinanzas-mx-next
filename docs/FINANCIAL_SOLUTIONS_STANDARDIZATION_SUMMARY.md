@@ -165,7 +165,7 @@
 
 ### Correct Alternatives
 
-- ✅ Simple boxed list: `bg-gray-50 rounded-xl border border-gray-200`
+- ✅ Simple boxed list: `bg-gray-50 rounded-sm border border-gray-200`
 - ✅ Circular badges with arrows for all bullet points
 - ✅ Standard button styling with brand colors
 - ✅ Regular paragraph format for representative examples
@@ -191,7 +191,7 @@
 
 - **Hero Image**: MUST use `ResponsiveImage` from `@/components/ui/responsive-image`
 - **Width**: 900, **Height**: 507
-- **className**: `w-full rounded-xl`
+- **className**: `w-full rounded-sm`
 - **containerClassName**: `w-full`
 - **quality**: 85
 - **sizes**: `(max-width: 768px) 100vw, 900px`
@@ -200,7 +200,7 @@
 
 - **Hero Image**: MUST use `Image` from `next/image`
 - **Width**: 900, **Height**: 507
-- **className**: `w-full h-auto rounded-xl`
+- **className**: `w-full h-auto rounded-sm`
 - **quality**: 85
 - **loading**: `eager`
 - **fetchPriority**: `high`

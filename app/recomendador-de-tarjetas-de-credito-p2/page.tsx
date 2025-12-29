@@ -47,7 +47,7 @@ function CreditCardRecommenderContent() {
                 ].map((text, i) => (
                   <Button
                     key={i}
-                    className="bg-[#1EA091] hover:bg-[#168579] text-white font-bold text-lg py-3 rounded-xl shadow-sm w-full"
+                    className="bg-[#1EA091] hover:bg-[#168579] text-white font-bold text-lg py-3 rounded-sm shadow-sm w-full"
                   >
                     {text}
                   </Button>
@@ -147,7 +147,7 @@ function CreditCardRecommenderContent() {
               </div>
 
               {/* Offer Card */}
-              <div className="bg-white rounded-xl shadow-[0_4px_20px_rgba(0,0,0,0.1)] p-6 md:p-8 border border-gray-100 relative text-center">
+              <div className="bg-white rounded-sm shadow-[0_4px_20px_rgba(0,0,0,0.1)] p-6 md:p-8 border border-gray-100 relative text-center">
                 <div className="relative w-64 md:w-80 h-40 md:h-48 mx-auto -mt-4 mb-4">
                   <Image
                     src="https://media.topfinanzas.com/images/credit-card-varity.png"
@@ -177,7 +177,7 @@ function CreditCardRecommenderContent() {
                   href="/soluciones-financieras/barclaycard-avios-plus"
                   className="block w-full max-w-md mx-auto"
                 >
-                  <Button className="w-full bg-[#DB2A2A] hover:bg-[#B71C1C] text-white font-bold text-xl py-6 rounded-md shadow-md uppercase tracking-wide">
+                  <Button className="w-full bg-[#DB2A2A] hover:bg-[#B71C1C] text-white font-bold text-xl py-6 rounded-sm shadow-md uppercase tracking-wide">
                     VER COMO SOLICITARLA
                   </Button>
                 </Link>

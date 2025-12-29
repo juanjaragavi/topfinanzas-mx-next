@@ -70,7 +70,7 @@ export default function RequisitosTarjetaStoriPage() {
                 alt="Tarjeta Stori"
                 width={800}
                 height={450}
-                className="w-full h-auto rounded-lg shadow-lg"
+                className="w-full h-auto rounded-sm shadow-lg"
                 priority
               />
             </div>
@@ -139,7 +139,7 @@ export default function RequisitosTarjetaStoriPage() {
                 alt="¿Eres estudiante?"
                 width={800}
                 height={400}
-                className="w-full h-auto rounded-lg shadow-md"
+                className="w-full h-auto rounded-sm shadow-md"
               />
             </div>
             <div className="mb-10">
@@ -203,7 +203,7 @@ export default function RequisitosTarjetaStoriPage() {
                 alt="¿Buscando el mejor préstamo personal?"
                 width={800}
                 height={400}
-                className="w-full h-auto rounded-lg shadow-md"
+                className="w-full h-auto rounded-sm shadow-md"
               />
             </div>
             <div className="mb-10">
@@ -305,7 +305,7 @@ export default function RequisitosTarjetaStoriPage() {
                 alt="Top tarjetas de crédito sin anualidad"
                 width={800}
                 height={400}
-                className="w-full h-auto rounded-lg shadow-md"
+                className="w-full h-auto rounded-sm shadow-md"
               />
             </div>
             <div className="mb-10">
@@ -360,7 +360,7 @@ export default function RequisitosTarjetaStoriPage() {
                 alt="Entiende el CAT en Tarjetas de Crédito"
                 width={800}
                 height={400}
-                className="w-full h-auto rounded-lg shadow-md"
+                className="w-full h-auto rounded-sm shadow-md"
               />
             </div>
             <div className="mb-10">

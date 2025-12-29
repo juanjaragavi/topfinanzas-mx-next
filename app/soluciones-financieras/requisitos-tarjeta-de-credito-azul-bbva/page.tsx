@@ -107,7 +107,7 @@ export default function RequisitosTarjetaAzulBBVAPage() {
             ></div>
 
             {/* CTA Image 1 */}
-            <div className="relative w-full h-auto my-8 rounded-xl overflow-hidden shadow-lg">
+            <div className="relative w-full h-auto my-8 rounded-sm overflow-hidden shadow-lg">
               <Image
                 src="https://media.topfinanzas.com/images/call-to-ACTION-1.jpg"
                 alt="Solicitar Tarjeta"
@@ -165,7 +165,7 @@ export default function RequisitosTarjetaAzulBBVAPage() {
             </ul>
 
             {/* CTA Image 2 */}
-            <div className="relative w-full h-auto my-8 rounded-xl overflow-hidden shadow-lg">
+            <div className="relative w-full h-auto my-8 rounded-sm overflow-hidden shadow-lg">
               <Image
                 src="https://media.topfinanzas.com/images/call-to-ACTION-3.jpg"
                 alt="Solicitar Tarjeta"
@@ -216,7 +216,7 @@ export default function RequisitosTarjetaAzulBBVAPage() {
             </ul>
 
             {/* CTA Image 3 */}
-            <div className="relative w-full h-auto my-8 rounded-xl overflow-hidden shadow-lg">
+            <div className="relative w-full h-auto my-8 rounded-sm overflow-hidden shadow-lg">
               <Image
                 src="https://media.topfinanzas.com/images/call-to-ACTION-2.jpg"
                 alt="Solicitar Tarjeta"
@@ -261,7 +261,7 @@ export default function RequisitosTarjetaAzulBBVAPage() {
             </ul>
 
             {/* CTA Image 4 */}
-            <div className="relative w-full h-auto my-8 rounded-xl overflow-hidden shadow-lg">
+            <div className="relative w-full h-auto my-8 rounded-sm overflow-hidden shadow-lg">
               <Image
                 src="https://media.topfinanzas.com/images/call-to-ACTION-4.jpg"
                 alt="Solicitar Tarjeta"

@@ -50,7 +50,7 @@ January 2025
 4. **Special Representative APR Box** (Lines 290-311):
 
    ```tsx
-   <div className="bg-blue-50 border border-blue-200 rounded-lg p-6">
+   <div className="bg-blue-50 border border-blue-200 rounded-sm p-6">
    ```
 
    - **Replaced with**: Regular paragraph with circular badge
@@ -58,7 +58,7 @@ January 2025
 5. **Multiple Cost Explanation Boxes** (Lines 313-361):
 
    ```tsx
-   <div className="bg-gray-50 p-4 rounded-lg border border-gray-200">
+   <div className="bg-gray-50 p-4 rounded-sm border border-gray-200">
    ```
 
    - **Replaced with**: Circular badge bullet points
@@ -243,7 +243,7 @@ className = "text-gray-800 mb-4 text-sm leading-5 font-light text-left";
   alt="Nationwide Building Society credit card application requirements and eligibility criteria"
   width={900}
   height={507}
-  className="w-full h-auto rounded-xl"
+  className="w-full h-auto rounded-sm"
   priority={false}
   fetchPriority="high"
   quality={85}
@@ -261,7 +261,7 @@ className = "text-gray-800 mb-4 text-sm leading-5 font-light text-left";
   alt="{description}"
   width={1000}
   height={563}
-  className="mx-auto w-full md:w-8/12 h-auto rounded-xl"
+  className="mx-auto w-full md:w-8/12 h-auto rounded-sm"
   loading="lazy"
   quality={80}
 />

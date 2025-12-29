@@ -1,5 +1,7 @@
 # AdZep Implementation Summary
 
+**CRITICAL**: Do not push changes to HEAD unless explicitly requested by the user. There are no exceptions to this rule.
+
 ## ✅ Implementation Complete
 
 The AdZep tag has been successfully implemented in your Next.js project with the following features:

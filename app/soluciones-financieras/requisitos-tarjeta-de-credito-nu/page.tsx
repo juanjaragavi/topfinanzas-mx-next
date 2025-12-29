@@ -66,7 +66,7 @@ export default function RequisitosTarjetaCreditoNuPage() {
               ¿Qué necesitas para solicitar tu Tarjeta NuBank?
             </h2>
 
-            <div className="relative w-full h-64 md:h-[400px] my-8 rounded-xl overflow-hidden shadow-lg">
+            <div className="relative w-full h-64 md:h-[400px] my-8 rounded-sm overflow-hidden shadow-lg">
               <Image
                 src="https://media.topfinanzas.com/images/download-2-1.webp"
                 alt="Tarjeta de crédito Nu"
@@ -89,7 +89,7 @@ export default function RequisitosTarjetaCreditoNuPage() {
                 alt="Tarjetas de crédito para estudiantes"
                 width={900}
                 height={300}
-                className="rounded-xl shadow-lg"
+                className="rounded-sm shadow-lg"
               />
             </div>
 
@@ -227,7 +227,7 @@ export default function RequisitosTarjetaCreditoNuPage() {
               </Link>
             </p>
 
-            <div className="relative w-full h-64 md:h-[400px] my-8 rounded-xl overflow-hidden shadow-lg">
+            <div className="relative w-full h-64 md:h-[400px] my-8 rounded-sm overflow-hidden shadow-lg">
               <Image
                 src="https://media.topfinanzas.com/images/call-to-ACTION-2.jpg"
                 alt="Entiende el CAT en Tarjetas de Crédito"
@@ -302,7 +302,7 @@ export default function RequisitosTarjetaCreditoNuPage() {
                 alt="Top tarjetas de crédito sin anualidad"
                 width={900}
                 height={300}
-                className="rounded-xl shadow-lg"
+                className="rounded-sm shadow-lg"
               />
             </div>
 
@@ -343,7 +343,7 @@ export default function RequisitosTarjetaCreditoNuPage() {
                 alt="Opciones de préstamo personal"
                 width={900}
                 height={300}
-                className="rounded-xl shadow-lg"
+                className="rounded-sm shadow-lg"
               />
             </div>
 

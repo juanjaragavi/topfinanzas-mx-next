@@ -112,7 +112,7 @@ export default function TarjetaAeromexicoSantanderPage() {
             </div>
 
             {/* Main Image */}
-            <div className="relative w-full h-64 md:h-[400px] my-8 rounded-xl overflow-hidden shadow-lg">
+            <div className="relative w-full h-64 md:h-[400px] my-8 rounded-sm overflow-hidden shadow-lg">
               <Image
                 src="https://media.topfinanzas.com/images/Aeromexico-Santander-Blanca.jpg"
                 alt="Tarjeta de Crédito Aeroméxico Santander"

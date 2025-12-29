@@ -65,7 +65,7 @@ export default function RequisitosGoldCardAmexAeromexicoPage() {
             </p>
 
             {/* Image 1 */}
-            <div className="relative w-full h-64 md:h-[400px] my-8 rounded-xl overflow-hidden shadow-lg">
+            <div className="relative w-full h-64 md:h-[400px] my-8 rounded-sm overflow-hidden shadow-lg">
               <Image
                 src="https://media.topfinanzas.com/images/download-4-1.webp"
                 alt="Gold Card American Express® Aeroméxico"
@@ -178,7 +178,7 @@ export default function RequisitosGoldCardAmexAeromexicoPage() {
             </p>
 
             {/* Image 2 */}
-            <div className="relative w-full h-64 md:h-[400px] my-8 rounded-xl overflow-hidden shadow-lg">
+            <div className="relative w-full h-64 md:h-[400px] my-8 rounded-sm overflow-hidden shadow-lg">
               <Image
                 src="https://media.topfinanzas.com/images/call-to-ACTION-1.jpg"
                 alt="Solicitar Gold Card American Express Aeroméxico"
@@ -274,7 +274,7 @@ export default function RequisitosGoldCardAmexAeromexicoPage() {
             </p>
 
             {/* Image 3 */}
-            <div className="relative w-full h-64 md:h-[400px] my-8 rounded-xl overflow-hidden shadow-lg">
+            <div className="relative w-full h-64 md:h-[400px] my-8 rounded-sm overflow-hidden shadow-lg">
               <Image
                 src="https://media.topfinanzas.com/images/call-to-ACTION-3.jpg"
                 alt="Beneficios Gold Card American Express Aeroméxico"
@@ -332,7 +332,7 @@ export default function RequisitosGoldCardAmexAeromexicoPage() {
             </p>
 
             {/* Image 4 */}
-            <div className="relative w-full h-64 md:h-[400px] my-8 rounded-xl overflow-hidden shadow-lg">
+            <div className="relative w-full h-64 md:h-[400px] my-8 rounded-sm overflow-hidden shadow-lg">
               <Image
                 src="https://media.topfinanzas.com/images/call-to-ACTION-2.jpg"
                 alt="Ventajas Gold Card American Express Aeroméxico"
@@ -444,7 +444,7 @@ export default function RequisitosGoldCardAmexAeromexicoPage() {
             </ul>
 
             {/* Image 5 */}
-            <div className="relative w-full h-64 md:h-[400px] my-8 rounded-xl overflow-hidden shadow-lg">
+            <div className="relative w-full h-64 md:h-[400px] my-8 rounded-sm overflow-hidden shadow-lg">
               <Image
                 src="https://media.topfinanzas.com/images/call-to-ACTION-4.jpg"
                 alt="Preguntas Frecuentes Gold Card American Express Aeroméxico"

@@ -356,7 +356,7 @@ export default function Contactanos() {
                 <motion.div
                   initial={{ opacity: 0, scale: 0.9 }}
                   animate={{ opacity: 1, scale: 1 }}
-                  className="bg-green-50 p-8 rounded-xl border border-green-200 text-center"
+                  className="bg-green-50 p-8 rounded-sm border border-green-200 text-center"
                 >
                   <h3 className="text-2xl font-bold text-green-700 mb-2">
                     ¡Mensaje Enviado!
@@ -502,7 +502,7 @@ export default function Contactanos() {
                   href="https://www.facebook.com/topfinanzas"
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="w-12 h-12 flex items-center justify-center bg-[#3b5998] text-white rounded-lg hover:opacity-90 transition-opacity"
+                  className="w-12 h-12 flex items-center justify-center bg-[#3b5998] text-white rounded-sm hover:opacity-90 transition-opacity"
                   aria-label="Facebook"
                 >
                   <FaFacebook size={24} />
@@ -511,7 +511,7 @@ export default function Contactanos() {
                   href="https://www.youtube.com/@topfinanzas"
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="w-12 h-12 flex items-center justify-center bg-[#FF0000] text-white rounded-lg hover:opacity-90 transition-opacity"
+                  className="w-12 h-12 flex items-center justify-center bg-[#FF0000] text-white rounded-sm hover:opacity-90 transition-opacity"
                   aria-label="YouTube"
                 >
                   <FaYoutube size={24} />
@@ -520,7 +520,7 @@ export default function Contactanos() {
                   href="https://www.tiktok.com/@topfinanzas"
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="w-12 h-12 flex items-center justify-center bg-[#69C9D0] text-white rounded-lg hover:opacity-90 transition-opacity"
+                  className="w-12 h-12 flex items-center justify-center bg-[#69C9D0] text-white rounded-sm hover:opacity-90 transition-opacity"
                   aria-label="TikTok"
                 >
                   <FaTiktok size={24} />
@@ -529,7 +529,7 @@ export default function Contactanos() {
                   href="https://www.instagram.com/topfinanzas/"
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="w-12 h-12 flex items-center justify-center bg-[#3f729b] text-white rounded-lg hover:opacity-90 transition-opacity"
+                  className="w-12 h-12 flex items-center justify-center bg-[#3f729b] text-white rounded-sm hover:opacity-90 transition-opacity"
                   aria-label="Instagram"
                 >
                   <FaInstagram size={24} />

@@ -72,7 +72,7 @@ export default function RequisitosTarjetaBBVAOroPage() {
             </p>
 
             {/* Main Image */}
-            <div className="relative w-full h-64 md:h-[400px] my-8 rounded-xl overflow-hidden shadow-lg">
+            <div className="relative w-full h-64 md:h-[400px] my-8 rounded-sm overflow-hidden shadow-lg">
               <Image
                 src="https://media.topfinanzas.com/images/bbva-oro.jpg"
                 alt="Tarjeta de Crédito BBVA Oro"
@@ -87,7 +87,7 @@ export default function RequisitosTarjetaBBVAOroPage() {
               Puntos clave
             </h2>
 
-            <div className="relative w-full h-64 md:h-[400px] my-8 rounded-xl overflow-hidden shadow-lg">
+            <div className="relative w-full h-64 md:h-[400px] my-8 rounded-sm overflow-hidden shadow-lg">
               <Image
                 src="https://media.topfinanzas.com/images/call-to-ACTION-1.jpg"
                 alt="Puntos clave"
@@ -214,7 +214,7 @@ export default function RequisitosTarjetaBBVAOroPage() {
               seguro de protección, el cual incluye:
             </p>
 
-            <div className="relative w-full h-64 md:h-[400px] my-8 rounded-xl overflow-hidden shadow-lg">
+            <div className="relative w-full h-64 md:h-[400px] my-8 rounded-sm overflow-hidden shadow-lg">
               <Image
                 src="https://media.topfinanzas.com/images/call-to-ACTION-3.jpg"
                 alt="Seguro de protección"
@@ -274,7 +274,7 @@ export default function RequisitosTarjetaBBVAOroPage() {
               entretenimiento, moda y viajes.
             </p>
 
-            <div className="relative w-full h-64 md:h-[400px] my-8 rounded-xl overflow-hidden shadow-lg">
+            <div className="relative w-full h-64 md:h-[400px] my-8 rounded-sm overflow-hidden shadow-lg">
               <Image
                 src="https://media.topfinanzas.com/images/call-to-ACTION-2.jpg"
                 alt="Promociones exclusivas"
@@ -428,7 +428,7 @@ export default function RequisitosTarjetaBBVAOroPage() {
               </li>
             </ul>
 
-            <div className="relative w-full h-64 md:h-[400px] my-8 rounded-xl overflow-hidden shadow-lg">
+            <div className="relative w-full h-64 md:h-[400px] my-8 rounded-sm overflow-hidden shadow-lg">
               <Image
                 src="https://media.topfinanzas.com/images/call-to-ACTION-4.jpg"
                 alt="Proceso de solicitud"

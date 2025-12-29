@@ -118,7 +118,7 @@ export default function RappiCardPage() {
                 alt="Tarjeta de Crédito RappiCard"
                 width={800}
                 height={450}
-                className="w-full h-auto rounded-lg shadow-lg"
+                className="w-full h-auto rounded-sm shadow-lg"
                 priority
               />
             </div>

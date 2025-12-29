@@ -124,7 +124,7 @@ export default function TarjetaPlatinumAmexPage() {
               <ResponsiveImage
                 src="https://media.topfinanzas.com/images/download-7-min.webp"
                 alt="Tarjeta de crédito Platinum American Express"
-                className="rounded-lg shadow-md aspect-video w-full object-cover"
+                className="rounded-sm shadow-md aspect-video w-full object-cover"
               />
             </div>
 

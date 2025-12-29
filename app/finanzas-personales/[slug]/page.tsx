@@ -50,7 +50,7 @@ export default async function PersonalFinanceDynamicPage({
               </p>
 
               <div className="my-8 text-left sm:text-left">
-                <div className="bg-gray-200 w-full h-64 rounded-xl flex items-center justify-center text-gray-500">
+                <div className="bg-gray-200 w-full h-64 rounded-sm flex items-center justify-center text-gray-500">
                   Featured Image Placeholder
                 </div>
               </div>
@@ -64,7 +64,7 @@ export default async function PersonalFinanceDynamicPage({
 
               <div id="square02" data-topads data-topads-size="square"></div>
 
-              <div className="mt-8 p-6 bg-gray-50 rounded-lg border border-gray-100">
+              <div className="mt-8 p-6 bg-gray-50 rounded-sm border border-gray-100">
                 <h3 className="text-lg font-bold text-gray-900 mb-2">
                   ¿Listo para mejorar tus finanzas?
                 </h3>

@@ -109,7 +109,7 @@ export default function TarjetaSimplicityPage() {
             </Link>
 
             {/* Featured Image */}
-            <div className="relative w-full h-64 md:h-[400px] my-8 rounded-xl overflow-hidden shadow-lg">
+            <div className="relative w-full h-64 md:h-[400px] my-8 rounded-sm overflow-hidden shadow-lg">
               <Image
                 src="https://media.topfinanzas.com/images/foto2-1024x536.jpg"
                 alt="Tarjeta de Crédito Joy Banamex"

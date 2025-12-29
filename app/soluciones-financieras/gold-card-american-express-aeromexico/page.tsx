@@ -106,7 +106,7 @@ export default function GoldCardAmexAeromexicoPage() {
             </ul>
 
             {/* Featured Image */}
-            <div className="relative w-full h-64 md:h-[400px] my-8 rounded-xl overflow-hidden shadow-lg">
+            <div className="relative w-full h-64 md:h-[400px] my-8 rounded-sm overflow-hidden shadow-lg">
               <Image
                 src="https://media.topfinanzas.com/images/download-4-1.webp"
                 alt="Gold Card American Express® Aeroméxico"

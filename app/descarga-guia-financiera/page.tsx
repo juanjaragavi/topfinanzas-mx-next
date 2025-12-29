@@ -90,7 +90,7 @@ function DownloadGuidePageContent() {
             </div>
 
             {/* Download Section */}
-            <div className="bg-gray-50 rounded-xl p-6 md:p-8 mb-8">
+            <div className="bg-gray-50 rounded-sm p-6 md:p-8 mb-8">
               <p className="text-center text-gray-800 font-medium mb-2">
                 Para comenzar...
               </p>

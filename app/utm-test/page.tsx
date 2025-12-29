@@ -95,7 +95,7 @@ function UtmTestContent() {
       {/* TopAds Test Placement 2 */}
       <TopAdsSquare id="square02" />
 
-      <div className="mt-8 p-4 bg-blue-50 rounded-lg">
+      <div className="mt-8 p-4 bg-blue-50 rounded-sm">
         <h2 className="text-xl font-semibold mb-2">TopAds Test</h2>
         <p className="text-sm text-gray-700">
           This page also includes TopAds placements (square01 and square02) for

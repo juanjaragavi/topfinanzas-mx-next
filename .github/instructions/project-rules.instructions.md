@@ -4,6 +4,8 @@ applyTo: "**"
 
 # Next.js Project Configuration Rules for TopFinance UK
 
+**CRITICAL**: Do not push changes to HEAD unless explicitly requested by the user. There are no exceptions to this rule.
+
 ## Project Overview
 
 This Next.js project (uk-topfinanzas-com) is a UK-focused financial comparison website built with modern web technologies. The project specializes in credit cards, personal loans, and financial guidance tailored for the UK market.

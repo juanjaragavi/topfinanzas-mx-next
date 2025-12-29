@@ -94,7 +94,7 @@ export function SearchBar({ isOpen, onClose }: SearchBarProps) {
                         key={idx}
                         href={result.url}
                         onClick={onClose}
-                        className="group block p-4 rounded-lg hover:bg-gray-50 transition-colors border border-gray-100 hover:border-blue-100"
+                        className="group block p-4 rounded-sm hover:bg-gray-50 transition-colors border border-gray-100 hover:border-blue-100"
                       >
                         <span className="text-xs font-semibold text-blue-600 mb-1 block">
                           {result.category}

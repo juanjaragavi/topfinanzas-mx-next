@@ -56,7 +56,7 @@ export const CreditCardApplicationForm = () => {
       <motion.div
         initial={{ opacity: 0 }}
         animate={{ opacity: 1 }}
-        className="bg-white p-8 rounded-xl shadow-md"
+        className="bg-white p-8 rounded-sm shadow-md"
       >
         <div className="text-left">
           <div className="inline-flex items-center justify-center w-16 h-16 bg-green-100 rounded-full mb-6">
@@ -100,7 +100,7 @@ export const CreditCardApplicationForm = () => {
   }
 
   return (
-    <div className="bg-white p-6 md:p-8 rounded-xl shadow-md">
+    <div className="bg-white p-6 md:p-8 rounded-sm shadow-md">
       <div className="mb-8">
         <div className="flex items-center justify-between mb-4">
           {[1, 2, 3].map((step) => (
@@ -188,7 +188,7 @@ export const CreditCardApplicationForm = () => {
                   value={formData.firstName}
                   onChange={handleInputChange}
                   required
-                  className="w-full px-3 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-primary"
+                  className="w-full px-3 py-2 border border-gray-300 rounded-sm focus:outline-none focus:ring-2 focus:ring-primary"
                 />
               </div>
 
@@ -206,7 +206,7 @@ export const CreditCardApplicationForm = () => {
                   value={formData.lastName}
                   onChange={handleInputChange}
                   required
-                  className="w-full px-3 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-primary"
+                  className="w-full px-3 py-2 border border-gray-300 rounded-sm focus:outline-none focus:ring-2 focus:ring-primary"
                 />
               </div>
             </div>
@@ -226,7 +226,7 @@ export const CreditCardApplicationForm = () => {
                   value={formData.email}
                   onChange={handleInputChange}
                   required
-                  className="w-full px-3 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-primary"
+                  className="w-full px-3 py-2 border border-gray-300 rounded-sm focus:outline-none focus:ring-2 focus:ring-primary"
                 />
               </div>
 
@@ -244,7 +244,7 @@ export const CreditCardApplicationForm = () => {
                   value={formData.phone}
                   onChange={handleInputChange}
                   required
-                  className="w-full px-3 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-primary"
+                  className="w-full px-3 py-2 border border-gray-300 rounded-sm focus:outline-none focus:ring-2 focus:ring-primary"
                 />
               </div>
             </div>
@@ -263,7 +263,7 @@ export const CreditCardApplicationForm = () => {
                 value={formData.address}
                 onChange={handleInputChange}
                 required
-                className="w-full px-3 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-primary"
+                className="w-full px-3 py-2 border border-gray-300 rounded-sm focus:outline-none focus:ring-2 focus:ring-primary"
               />
             </div>
 
@@ -282,7 +282,7 @@ export const CreditCardApplicationForm = () => {
                   value={formData.city}
                   onChange={handleInputChange}
                   required
-                  className="w-full px-3 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-primary"
+                  className="w-full px-3 py-2 border border-gray-300 rounded-sm focus:outline-none focus:ring-2 focus:ring-primary"
                 />
               </div>
 
@@ -300,7 +300,7 @@ export const CreditCardApplicationForm = () => {
                   value={formData.state}
                   onChange={handleInputChange}
                   required
-                  className="w-full px-3 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-primary"
+                  className="w-full px-3 py-2 border border-gray-300 rounded-sm focus:outline-none focus:ring-2 focus:ring-primary"
                 />
               </div>
 
@@ -318,7 +318,7 @@ export const CreditCardApplicationForm = () => {
                   value={formData.zipCode}
                   onChange={handleInputChange}
                   required
-                  className="w-full px-3 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-primary"
+                  className="w-full px-3 py-2 border border-gray-300 rounded-sm focus:outline-none focus:ring-2 focus:ring-primary"
                 />
               </div>
             </div>
@@ -338,7 +338,7 @@ export const CreditCardApplicationForm = () => {
                   value={formData.dateOfBirth}
                   onChange={handleInputChange}
                   required
-                  className="w-full px-3 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-primary"
+                  className="w-full px-3 py-2 border border-gray-300 rounded-sm focus:outline-none focus:ring-2 focus:ring-primary"
                 />
               </div>
 
@@ -357,7 +357,7 @@ export const CreditCardApplicationForm = () => {
                   onChange={handleInputChange}
                   required
                   placeholder="XXX-XX-XXXX"
-                  className="w-full px-3 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-primary"
+                  className="w-full px-3 py-2 border border-gray-300 rounded-sm focus:outline-none focus:ring-2 focus:ring-primary"
                 />
               </div>
             </div>
@@ -394,7 +394,7 @@ export const CreditCardApplicationForm = () => {
                 value={formData.employmentStatus}
                 onChange={handleInputChange}
                 required
-                className="w-full px-3 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-primary"
+                className="w-full px-3 py-2 border border-gray-300 rounded-sm focus:outline-none focus:ring-2 focus:ring-primary"
               >
                 <option value="">Select an option</option>
                 <option value="employed">Employed</option>
@@ -420,7 +420,7 @@ export const CreditCardApplicationForm = () => {
                 onChange={handleInputChange}
                 required
                 min="0"
-                className="w-full px-3 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-primary"
+                className="w-full px-3 py-2 border border-gray-300 rounded-sm focus:outline-none focus:ring-2 focus:ring-primary"
               />
             </div>
 
@@ -437,7 +437,7 @@ export const CreditCardApplicationForm = () => {
                 value={formData.cardType}
                 onChange={handleInputChange}
                 required
-                className="w-full px-3 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-primary"
+                className="w-full px-3 py-2 border border-gray-300 rounded-sm focus:outline-none focus:ring-2 focus:ring-primary"
               >
                 <option value="citi-double-cash">Citi Double Cash</option>
                 <option value="chase-freedom">Chase Freedom</option>
@@ -450,7 +450,7 @@ export const CreditCardApplicationForm = () => {
               <button
                 type="button"
                 onClick={prevStep}
-                className="bg-white hover:bg-gray-100 text-gray-800 font-medium py-2 px-6 border border-gray-300 rounded-md transition-colors duration-300"
+                className="bg-white hover:bg-gray-100 text-gray-800 font-medium py-2 px-6 border border-gray-300 rounded-sm transition-colors duration-300"
               >
                 Back
               </button>
@@ -473,7 +473,7 @@ export const CreditCardApplicationForm = () => {
               Review Your Application
             </h2>
 
-            <div className="bg-gray-50 p-6 rounded-xl mb-6">
+            <div className="bg-gray-50 p-6 rounded-sm mb-6">
               <h3 className="text-lg font-medium mb-4 text-secondary">
                 Personal Information
               </h3>
@@ -511,7 +511,7 @@ export const CreditCardApplicationForm = () => {
               </div>
             </div>
 
-            <div className="bg-gray-50 p-6 rounded-xl mb-6">
+            <div className="bg-gray-50 p-6 rounded-sm mb-6">
               <h3 className="text-lg font-medium mb-4 text-secondary">
                 Financial Information
               </h3>
@@ -566,7 +566,7 @@ export const CreditCardApplicationForm = () => {
               <button
                 type="button"
                 onClick={prevStep}
-                className="bg-white hover:bg-gray-100 text-gray-800 font-medium py-2 px-6 border border-gray-300 rounded-md transition-colors duration-300"
+                className="bg-white hover:bg-gray-100 text-gray-800 font-medium py-2 px-6 border border-gray-300 rounded-sm transition-colors duration-300"
               >
                 Back
               </button>

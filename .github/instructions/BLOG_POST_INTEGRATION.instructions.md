@@ -1,5 +1,7 @@
 # Blog Post Integration Instructions
 
+**CRITICAL**: Do not push changes to HEAD unless explicitly requested by the user. There are no exceptions to this rule.
+
 ## Overview
 
 When creating new blog articles, they must be added to multiple locations across the site to ensure proper visibility and discoverability. This document outlines all the places where blog posts are displayed and need to be updated.
@@ -134,7 +136,7 @@ This layout standard is **mandatory and non-negotiable**. It has been validated 
     height={50}
     loading="lazy"
     priority={false}
-    className="rounded-md object-cover"
+    className="rounded-sm object-cover"
     onError={(e) => {
       e.currentTarget.src =
         "https://media.topfinanzas.com/images/placeholder-image.webp";

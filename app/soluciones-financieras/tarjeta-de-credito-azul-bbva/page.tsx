@@ -102,7 +102,7 @@ export default function TarjetaDeCreditoAzulBBVAPage() {
               </button>
             </Link>
 
-            <div className="relative w-full h-64 md:h-[400px] my-8 rounded-xl overflow-hidden shadow-lg">
+            <div className="relative w-full h-64 md:h-[400px] my-8 rounded-sm overflow-hidden shadow-lg">
               <Image
                 src="https://media.topfinanzas.com/images/download-5-2.webp"
                 alt="tarjeta de crédito BBVA"

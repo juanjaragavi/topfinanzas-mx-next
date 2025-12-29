@@ -61,7 +61,7 @@ export default async function FinancialSolutionsDynamicPage({
 
               <div className="my-8 text-left sm:text-left">
                 {/* Placeholder Image - In real implementation, this would be dynamic */}
-                <div className="bg-gray-200 w-full h-64 rounded-xl flex items-center justify-center text-gray-500">
+                <div className="bg-gray-200 w-full h-64 rounded-sm flex items-center justify-center text-gray-500">
                   Featured Image Placeholder
                 </div>
               </div>

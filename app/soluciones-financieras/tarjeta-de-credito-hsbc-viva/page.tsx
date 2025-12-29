@@ -119,7 +119,7 @@ export default function TarjetaHSBCVivaPage() {
                 alt="Tarjeta de Crédito HSBC Viva"
                 width={800}
                 height={450}
-                className="rounded-lg w-full h-auto"
+                className="rounded-sm w-full h-auto"
               />
             </div>
 

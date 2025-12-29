@@ -115,7 +115,7 @@ export default function TarjetaHSBCZeroPage() {
               <ResponsiveImage
                 src="https://media.topfinanzas.com/images/download-4-2.webp"
                 alt="Tarjeta de crédito HSBC Zero"
-                className="rounded-lg shadow-md aspect-video w-full object-cover"
+                className="rounded-sm shadow-md aspect-video w-full object-cover"
               />
             </div>
 

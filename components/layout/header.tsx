@@ -167,7 +167,7 @@ export function Header() {
                 <button
                   type="button"
                   onClick={toggleMobileMenu}
-                  className="p-2 -ml-2 rounded-md hover:bg-gray-100 focus:outline-none text-black"
+                  className="p-2 -ml-2 rounded-sm hover:bg-gray-100 focus:outline-none text-black"
                   aria-label="Open main menu"
                 >
                   <Menu className="w-6 h-6" />

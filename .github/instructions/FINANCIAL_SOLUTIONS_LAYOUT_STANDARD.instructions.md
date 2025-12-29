@@ -4,6 +4,8 @@ applyTo: "app/soluciones-financieras/**"
 
 # Financial Solutions Layout Standard
 
+**CRITICAL**: Do not push changes to HEAD unless explicitly requested by the user. There are no exceptions to this rule.
+
 ## Overview
 
 This document defines the **mandatory standardized layout** for all Credit Card and Personal Loan product pages in the Financial Solutions category (`/app/soluciones-financieras/`). This standard has been validated against Google Analytics and Google Ads performance metrics and must be strictly enforced for all existing and new product pages.
@@ -123,7 +125,7 @@ export default function ProductPage() {
                   alt="{Product Name}"
                   width={900}
                   height={507}
-                  className="w-full rounded-xl"
+                  className="w-full rounded-sm"
                   priority={false}
                   quality={85}
                   sizes="(max-width: 768px) 100vw, 900px"
@@ -175,7 +177,7 @@ export default function ProductPage() {
                       alt="{Promo alt text}"
                       width={1000}
                       height={563}
-                      className="rounded-xl"
+                      className="rounded-sm"
                       containerClassName="mx-auto w-full md:w-8/12"
                       quality={80}
                       sizes="(max-width: 768px) 100vw, 800px"
@@ -185,7 +187,7 @@ export default function ProductPage() {
                 </div>
 
                 {/* ELEMENT 15: RELATED ARTICLES BOX */}
-                <div className="my-8 p-6 bg-gray-50 rounded-xl border border-gray-200 text-left sm:text-left">
+                <div className="my-8 p-6 bg-gray-50 rounded-sm border border-gray-200 text-left sm:text-left">
                   <h3 className="text-lg font-semibold text-gray-800 mb-3 text-left">
                     Learn More About Credit Cards:
                   </h3>
@@ -336,7 +338,7 @@ export default function ProductRequirementsPage() {
                   alt="{Product Name}"
                   width={900}
                   height={507}
-                  className="w-full h-auto rounded-xl"
+                  className="w-full h-auto rounded-sm"
                   priority={false}
                   fetchPriority="high"
                   quality={85}
@@ -416,7 +418,7 @@ export default function ProductRequirementsPage() {
                       alt="{Promo alt text}"
                       width={1000}
                       height={563}
-                      className="mx-auto w-full md:w-8/12 h-auto rounded-xl"
+                      className="mx-auto w-full md:w-8/12 h-auto rounded-sm"
                       loading="lazy"
                       quality={80}
                     />
@@ -478,7 +480,7 @@ export default function ProductRequirementsPage() {
                       alt="{Promo alt text}"
                       width={1000}
                       height={563}
-                      className="mx-auto w-full md:w-8/12 h-auto rounded-xl"
+                      className="mx-auto w-full md:w-8/12 h-auto rounded-sm"
                       loading="lazy"
                       quality={80}
                     />
@@ -529,7 +531,7 @@ The following elements are **STRICTLY PROHIBITED** and must be removed if found:
 ```typescript
 // FORBIDDEN - Do NOT use
 <div className="bg-gray-50 border-l-4 border-[#011546] p-6 my-6">
-<div className="bg-blue-50 border border-blue-200 rounded-lg p-6 my-6">
+<div className="bg-blue-50 border border-blue-200 rounded-sm p-6 my-6">
 <div className="bg-yellow-50 border-l-4 border-yellow-400 p-6 my-6">
 ```
 
@@ -546,7 +548,7 @@ The following elements are **STRICTLY PROHIBITED** and must be removed if found:
 
 ```typescript
 // FORBIDDEN - Do NOT use
-<div className="mt-8 p-6 bg-[#011546] text-white rounded-lg">
+<div className="mt-8 p-6 bg-[#011546] text-white rounded-sm">
 ```
 
 ### ❌ NO SVG Icons in Content
@@ -571,7 +573,7 @@ The following elements are **STRICTLY PROHIBITED** and must be removed if found:
 
 ```typescript
 // FORBIDDEN - Do NOT use
-<div className="bg-blue-50 border border-blue-200 rounded-lg p-6 my-6">
+<div className="bg-blue-50 border border-blue-200 rounded-sm p-6 my-6">
   <h3 className="text-lg font-semibold text-gray-800 mb-2 text-left">
     Representative Example
   </h3>
@@ -630,7 +632,7 @@ The following elements are **STRICTLY PROHIBITED** and must be removed if found:
 - **Component**: `ResponsiveImage` from `@/components/ui/responsive-image`
 - **Width**: 900
 - **Height**: 507
-- **className**: `w-full rounded-xl`
+- **className**: `w-full rounded-sm`
 - **containerClassName**: `w-full`
 - **quality**: 85
 - **sizes**: `(max-width: 768px) 100vw, 900px`
@@ -640,7 +642,7 @@ The following elements are **STRICTLY PROHIBITED** and must be removed if found:
 - **Component**: `Image` from `next/image`
 - **Width**: 900
 - **Height**: 507
-- **className**: `w-full h-auto rounded-xl`
+- **className**: `w-full h-auto rounded-sm`
 - **quality**: 85
 - **loading**: `eager`
 - **fetchPriority**: `high`
@@ -648,7 +650,7 @@ The following elements are **STRICTLY PROHIBITED** and must be removed if found:
 ### Promotional Images
 
 - **Benefits Page**: Use `ResponsiveImage` with `containerClassName="mx-auto w-full md:w-8/12"`
-- **Requirements Page**: Use `Image` with `className="mx-auto w-full md:w-8/12 h-auto rounded-xl"`
+- **Requirements Page**: Use `Image` with `className="mx-auto w-full md:w-8/12 h-auto rounded-sm"`
 - **Width**: 1000
 - **Height**: 563
 - **quality**: 80

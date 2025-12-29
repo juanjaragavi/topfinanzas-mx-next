@@ -711,7 +711,7 @@ npm run lighthouse:compare
   loading="lazy"
   placeholder="blur"
   blurDataURL={DEFAULT_BLUR_PLACEHOLDER}
-  className="rounded-lg"
+  className="rounded-sm"
 />
 ```
 

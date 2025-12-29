@@ -64,7 +64,7 @@ export default function RequisitosTarjetaPlatinumBanregioPage() {
             </p>
 
             {/* Image 1 */}
-            <div className="relative w-full h-64 md:h-[400px] my-8 rounded-xl overflow-hidden shadow-lg">
+            <div className="relative w-full h-64 md:h-[400px] my-8 rounded-sm overflow-hidden shadow-lg">
               <Image
                 src="https://media.topfinanzas.com/images/download-5-1.webp"
                 alt="Tarjeta Platinum de Banregio"
@@ -183,7 +183,7 @@ export default function RequisitosTarjetaPlatinumBanregioPage() {
             </p>
 
             {/* Image 2 */}
-            <div className="relative w-full h-64 md:h-[400px] my-8 rounded-xl overflow-hidden shadow-lg">
+            <div className="relative w-full h-64 md:h-[400px] my-8 rounded-sm overflow-hidden shadow-lg">
               <Image
                 src="https://media.topfinanzas.com/images/call-to-ACTION-1.jpg"
                 alt="Solicitar Tarjeta Platinum Banregio"
@@ -235,7 +235,7 @@ export default function RequisitosTarjetaPlatinumBanregioPage() {
             </p>
 
             {/* Image 3 */}
-            <div className="relative w-full h-64 md:h-[400px] my-8 rounded-xl overflow-hidden shadow-lg">
+            <div className="relative w-full h-64 md:h-[400px] my-8 rounded-sm overflow-hidden shadow-lg">
               <Image
                 src="https://media.topfinanzas.com/images/call-to-ACTION-3.jpg"
                 alt="Beneficios Tarjeta Platinum Banregio"
@@ -336,7 +336,7 @@ export default function RequisitosTarjetaPlatinumBanregioPage() {
             </ul>
 
             {/* Image 4 */}
-            <div className="relative w-full h-64 md:h-[400px] my-8 rounded-xl overflow-hidden shadow-lg">
+            <div className="relative w-full h-64 md:h-[400px] my-8 rounded-sm overflow-hidden shadow-lg">
               <Image
                 src="https://media.topfinanzas.com/images/call-to-ACTION-2.jpg"
                 alt="Ventajas Tarjeta Platinum Banregio"
@@ -436,7 +436,7 @@ export default function RequisitosTarjetaPlatinumBanregioPage() {
             </ul>
 
             {/* Image 5 */}
-            <div className="relative w-full h-64 md:h-[400px] my-8 rounded-xl overflow-hidden shadow-lg">
+            <div className="relative w-full h-64 md:h-[400px] my-8 rounded-sm overflow-hidden shadow-lg">
               <Image
                 src="https://media.topfinanzas.com/images/call-to-ACTION-4.jpg"
                 alt="Consejos Tarjeta Platinum Banregio"

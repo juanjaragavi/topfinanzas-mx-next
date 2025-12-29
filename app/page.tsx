@@ -9,6 +9,8 @@ import { useState, useMemo } from "react";
 import { Button } from "@/components/ui/button";
 import dynamic from "next/dynamic";
 
+import { ALL_POSTS } from "@/lib/data/posts";
+
 // Dynamically import components that aren't needed for the initial render
 const DynamicPagination = dynamic(
   () => import("@/components/ui/pagination").then((mod) => mod.Pagination),
@@ -44,177 +46,21 @@ const cleanTitle = (title: string): string => {
   return title.split("|")[0].split(":")[0].split(" - ")[0].trim();
 };
 
-// --- Hardcoded Post Data (Localized for MX) ---
-// Using a subset of posts for the homepage, sorted by date descending
-const allPosts: PostData[] = [
-  {
-    slug: "cashback-vs-puntos-que-programa-de-recompensas-te-conviene-mas-para-el-black-friday",
-    frontmatter: {
-      title:
-        "Cashback vs. Puntos: ¿Qué programa de recompensas te conviene más para el Black Friday?",
-      description:
-        "En esta guía, desglosamos cada opción: Cashback vs. Puntos para que tomes la mejor decisión para tu bolsillo en Black Friday.",
-      date: "2025-12-29T00:00:00Z",
-      featuredImage:
-        "https://media.topfinanzas.com/images/las-mejores-tarjetas-de-credito-para-viajar-guia-para-principiantes.png",
-      categories: [
-        { name: "Finanzas Personales", slug: "finanzas-personales" },
-      ],
-    },
-    category: "Finanzas Personales",
-    categoryPath: "/finanzas-personales",
+// --- Dynamic Post Data from Central Repository ---
+const allPosts: PostData[] = ALL_POSTS.map((post) => ({
+  slug: post.slug,
+  frontmatter: {
+    title: post.title,
+    description: post.description,
+    date: post.date ? new Date(post.date).toISOString() : undefined,
+    featuredImage: post.image,
+    categories: [
+      { name: post.category, slug: post.categoryPath.replace("/", "") },
+    ],
   },
-  {
-    slug: "barclaycard-avios-plus",
-    frontmatter: {
-      title: "Tarjeta de Crédito Premium: Recompensas de Viaje Exclusivas",
-      description:
-        "La tarjeta ideal para viajeros frecuentes con beneficios premium...",
-      date: "2025-10-29T00:00:00Z", // Matching legacy date
-      featuredImage:
-        "https://media.topfinanzas.com/images/barclaycard-avios-plus.webp", // Keep image for layout
-      categories: [
-        { name: "Soluciones Financieras", slug: "soluciones-financieras" },
-      ],
-    },
-    category: "Soluciones Financieras",
-    categoryPath: "/soluciones-financieras",
-  },
-  {
-    slug: "hsbc-personal-loan",
-    frontmatter: {
-      title: "Préstamo Personal HSBC: Financiamiento Flexible (MX)",
-      description:
-        "Descubre los préstamos personales de HSBC con tasas competitivas...",
-      date: "2025-04-04T00:00:00Z",
-      featuredImage:
-        "https://media.topfinanzas.com/images/uk/loans/718135900-fotosprestamo1hsbc-uk.webp",
-      categories: [
-        { name: "Soluciones Financieras", slug: "soluciones-financieras" },
-      ],
-    },
-    category: "Soluciones Financieras",
-    categoryPath: "/soluciones-financieras",
-  },
-  {
-    slug: "funding-circle-personal-loan",
-    frontmatter: {
-      title: "Préstamo para Negocios Funding Circle",
-      description:
-        "Explora los préstamos para negocios de Funding Circle con financiamiento rápido y flexible...",
-      date: "2025-04-04T00:00:00Z",
-      featuredImage:
-        "https://media.topfinanzas.com/images/uk/loans/718136824-fotosprestamo-fundingcircle1uk.webp",
-      categories: [
-        { name: "Soluciones Financieras", slug: "soluciones-financieras" },
-      ],
-    },
-    category: "Soluciones Financieras",
-    categoryPath: "/soluciones-financieras",
-  },
-  {
-    slug: "how-to-track-your-spending-for-30-days",
-    frontmatter: {
-      title:
-        "Cómo Rasterar tus Gastos por 30 Días y Saber a Dónde Va tu Dinero | Top Finanzas MX",
-      description:
-        "Deja de adivinar sobre tus finanzas. Aprende un método sencillo de seguimiento de gastos de 30 días para descubrir a dónde va realmente tu dinero y crear hábitos duraderos.",
-      date: "2025-12-02T00:00:00Z",
-      featuredImage:
-        "https://media.topfinanzas.com/images/uk/how-to-track-your-spending-for-30-days.webp",
-      categories: [
-        { name: "Finanzas Personales", slug: "finanzas-personales" },
-      ],
-    },
-    category: "Finanzas Personales",
-    categoryPath: "/finanzas-personales",
-  },
-  {
-    slug: "the-psychology-of-spending-how-to-stop-impulse-buys-and-start-mindful-saving",
-    frontmatter: {
-      title:
-        "La Psicología del Gasto: Cómo Detener las Compras Impulsivas | Top Finanzas MX",
-      description:
-        "Descubra por qué compramos por impulso y aprenda estrategias prácticas para dominar su mentalidad de dinero. Empiece a ahorrar de forma consciente hoy mismo.",
-      date: "2025-11-25T00:00:00Z",
-      featuredImage:
-        "https://media.topfinanzas.com/images/uk/the-psychology-of-spending-how-to-stop-impulse-buys-and-start-mindful-saving.webp",
-      categories: [
-        { name: "Finanzas Personales", slug: "finanzas-personales" },
-      ],
-    },
-    category: "Finanzas Personales",
-    categoryPath: "/finanzas-personales",
-  },
-  {
-    slug: "automate-your-wealth",
-    frontmatter: {
-      title:
-        'Automatiza tu Riqueza: Sistema de Finanzas "Configúralo y Olvídalo" | Top Finanzas MX',
-      description:
-        'Aprenda cómo automatizar sus finanzas con nuestro sistema "Configúralo y olvídalo". Ahorre tiempo, reduzca el estrés y genere riqueza sin esfuerzo.',
-      date: "2025-11-19T00:00:00Z",
-      featuredImage:
-        "https://media.topfinanzas.com/images/uk/automate-your-wealth.webp",
-      categories: [
-        { name: "Finanzas Personales", slug: "finanzas-personales" },
-      ],
-    },
-    category: "Finanzas Personales",
-    categoryPath: "/finanzas-personales",
-  },
-  {
-    slug: "stop-living-paycheck-to-paycheck",
-    frontmatter: {
-      title:
-        "Deja de Vivir de Quincena en Quincena: 3 Cambios para Romper el Ciclo | Top Finanzas MX",
-      description:
-        "Escapa del ciclo de vivir al día con tres cambios prácticos en el flujo de caja. Aprende cómo las familias están construyendo un respiro sin sacrificios dramáticos.",
-      date: "2025-11-13T00:00:00Z",
-      featuredImage:
-        "https://media.topfinanzas.com/images/budgetbee/stop-living-paycheck-to-paycheck.webp",
-      categories: [
-        { name: "Finanzas Personales", slug: "finanzas-personales" },
-      ],
-    },
-    category: "Finanzas Personales",
-    categoryPath: "/finanzas-personales",
-  },
-  {
-    slug: "financial-health-check-where-does-your-money-go",
-    frontmatter: {
-      title:
-        "Chequeo de Salud Financiera: ¿A Dónde se Va tu Dinero? | Top Finanzas MX",
-      description:
-        "Descubra a dónde va realmente su dinero con nuestro rápido chequeo de salud financiera. Aprenda métodos sencillos de seguimiento que revelan patrones de gasto.",
-      date: "2025-11-05T00:00:00Z",
-      featuredImage:
-        "https://media.topfinanzas.com/images/uk/financial-health-check-money-tracking.webp",
-      categories: [
-        { name: "Finanzas Personales", slug: "finanzas-personales" },
-      ],
-    },
-    category: "Finanzas Personales",
-    categoryPath: "/finanzas-personales",
-  },
-  {
-    slug: "hidden-costs-of-homeownership",
-    frontmatter: {
-      title:
-        "Los Costos Ocultos de Ser Propietario de una Casa | Top Finanzas MX",
-      description:
-        "Descubra los gastos inesperados que sorprenden a los propietarios de viviendas. Desde el mantenimiento hasta los seguros, aprenda a presupuestar los costos ocultos.",
-      date: "2025-10-28T00:00:00Z",
-      featuredImage:
-        "https://media.topfinanzas.com/images/uk/hidden-costs-homeownership.webp",
-      categories: [
-        { name: "Finanzas Personales", slug: "finanzas-personales" },
-      ],
-    },
-    category: "Finanzas Personales",
-    categoryPath: "/finanzas-personales",
-  },
-];
+  category: post.category,
+  categoryPath: post.categoryPath,
+}));
 
 // Reuse posts to populate sections for demo purposes since we have limited hardcoded data
 const savingsPosts = [...allPosts, ...allPosts]
@@ -227,7 +73,7 @@ const cardPosts = [...allPosts, ...allPosts]
   .slice(4, 8)
   .map((p) => ({ ...p, category: "Elige tu tarjeta" }));
 
-// --- End of Hardcoded Data ---
+// --- End of Dynamic Data ---
 
 export default function Home() {
   const [currentPage, setCurrentPage] = useState(1);

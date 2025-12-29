@@ -82,7 +82,7 @@ export default function RequisitosAeromexicoSantanderPage() {
             </p>
 
             {/* Main Image */}
-            <div className="relative w-full h-64 md:h-[400px] my-8 rounded-xl overflow-hidden shadow-lg">
+            <div className="relative w-full h-64 md:h-[400px] my-8 rounded-sm overflow-hidden shadow-lg">
               <Image
                 src="https://media.topfinanzas.com/images/Aeromexico-Santander-Blanca.jpg"
                 alt="Tarjetas de Crédito Aeroméxico Santander"
@@ -111,7 +111,7 @@ export default function RequisitosAeromexicoSantanderPage() {
               los siguientes:
             </p>
 
-            <div className="relative w-full h-64 md:h-[400px] my-8 rounded-xl overflow-hidden shadow-lg">
+            <div className="relative w-full h-64 md:h-[400px] my-8 rounded-sm overflow-hidden shadow-lg">
               <Image
                 src="https://media.topfinanzas.com/images/call-to-ACTION-1.jpg"
                 alt="Requisitos"
@@ -171,7 +171,7 @@ export default function RequisitosAeromexicoSantanderPage() {
               diseñados para distintos perfiles de ingresos.
             </p>
 
-            <div className="relative w-full h-64 md:h-[400px] my-8 rounded-xl overflow-hidden shadow-lg">
+            <div className="relative w-full h-64 md:h-[400px] my-8 rounded-sm overflow-hidden shadow-lg">
               <Image
                 src="https://media.topfinanzas.com/images/call-to-ACTION-3.jpg"
                 alt="Características"
@@ -222,7 +222,7 @@ export default function RequisitosAeromexicoSantanderPage() {
               Estos son algunos de los más destacados:
             </p>
 
-            <div className="relative w-full h-64 md:h-[400px] my-8 rounded-xl overflow-hidden shadow-lg">
+            <div className="relative w-full h-64 md:h-[400px] my-8 rounded-sm overflow-hidden shadow-lg">
               <Image
                 src="https://media.topfinanzas.com/images/call-to-ACTION-2.jpg"
                 alt="Beneficios"
@@ -306,7 +306,7 @@ export default function RequisitosAeromexicoSantanderPage() {
               explicamos los pasos:
             </p>
 
-            <div className="relative w-full h-64 md:h-[400px] my-8 rounded-xl overflow-hidden shadow-lg">
+            <div className="relative w-full h-64 md:h-[400px] my-8 rounded-sm overflow-hidden shadow-lg">
               <Image
                 src="https://media.topfinanzas.com/images/call-to-ACTION-4.jpg"
                 alt="Cómo solicitar"
