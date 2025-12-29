@@ -470,6 +470,16 @@ export default function RequisitosGoldCardAmexAeromexicoPage() {
               que manejas tus finanzas y planeas tus viajes. ¡Tu próxima
               aventura comienza aquí!
             </p>
+
+            {/* CTA Button */}
+            <div className="flex justify-center my-8">
+              <Link
+                href="https://www.americanexpress.com/mx/tarjetas-de-servicio/aeromexico-gold-card"
+                className="inline-block bg-[#00142c] text-white font-bold py-3 px-8 rounded-full hover:bg-blue-900 transition-colors text-lg"
+              >
+                Solicitar ahora
+              </Link>
+            </div>
           </div>
         </div>
       </article>

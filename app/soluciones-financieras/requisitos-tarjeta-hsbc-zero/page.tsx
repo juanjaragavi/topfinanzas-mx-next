@@ -58,8 +58,9 @@ export default function RequisitosHSBCZeroPage() {
 
             {/* Intro Paragraph */}
             <p className="text-lg text-gray-700 mb-6">
-              La Tarjeta HSBC Zero es una opción ideal para quienes buscan una herramienta
-              financiera sin comisiones anuales y con múltiples beneficios.
+              La Tarjeta HSBC Zero es una opción ideal para quienes buscan una
+              herramienta financiera sin comisiones anuales y con múltiples
+              beneficios.
             </p>
 
             {/* Main Image */}
@@ -80,7 +81,8 @@ export default function RequisitosHSBCZeroPage() {
             </h2>
 
             <p className="text-lg text-gray-700 mb-6">
-              Para solicitar la Tarjeta HSBC Zero, debes cumplir con los siguientes criterios:
+              Para solicitar la Tarjeta HSBC Zero, debes cumplir con los
+              siguientes criterios:
             </p>
 
             <div
@@ -94,8 +96,8 @@ export default function RequisitosHSBCZeroPage() {
               <li className="flex items-start">
                 <RedArrowIcon />
                 <span className="text-gray-700 text-lg">
-                  <strong className="text-gray-900">Edad:</strong>{" "}
-                  Tener entre 18 y 74 años 11 meses.
+                  <strong className="text-gray-900">Edad:</strong> Tener entre
+                  18 y 74 años 11 meses.
                 </span>
               </li>
               <li className="flex items-start">
@@ -108,16 +110,22 @@ export default function RequisitosHSBCZeroPage() {
               <li className="flex items-start">
                 <RedArrowIcon />
                 <span className="text-gray-700 text-lg">
-                  <strong className="text-gray-900">Historial crediticio:</strong>{" "}
-                  Es necesario tener un buen historial crediticio en el Buró de Crédito. Además,
-                  es recomendable contar con al menos 6 meses de antigüedad en este historial.
+                  <strong className="text-gray-900">
+                    Historial crediticio:
+                  </strong>{" "}
+                  Es necesario tener un buen historial crediticio en el Buró de
+                  Crédito. Además, es recomendable contar con al menos 6 meses
+                  de antigüedad en este historial.
                 </span>
               </li>
               <li className="flex items-start">
                 <RedArrowIcon />
                 <span className="text-gray-700 text-lg">
-                  <strong className="text-gray-900">Estabilidad laboral:</strong>{" "}
-                  Debes tener una antigüedad mínima de 1 año en tu empleo actual.
+                  <strong className="text-gray-900">
+                    Estabilidad laboral:
+                  </strong>{" "}
+                  Debes tener una antigüedad mínima de 1 año en tu empleo
+                  actual.
                 </span>
               </li>
             </ul>
@@ -138,30 +146,39 @@ export default function RequisitosHSBCZeroPage() {
               Documentación necesaria
             </h2>
             <p className="text-lg text-gray-700 mb-6">
-              Al momento de solicitar tu tarjeta, asegúrate de tener listos los siguientes
-              documentos:
+              Al momento de solicitar tu tarjeta, asegúrate de tener listos los
+              siguientes documentos:
             </p>
             <ul className="space-y-4 mb-10">
               <li className="flex items-start">
                 <RedArrowIcon />
                 <span className="text-gray-700 text-lg">
-                  <strong className="text-gray-900">Identificación oficial:</strong>{" "}
-                  Credencial de elector o, en caso de ser extranjero, FM2 y pasaporte.
+                  <strong className="text-gray-900">
+                    Identificación oficial:
+                  </strong>{" "}
+                  Credencial de elector o, en caso de ser extranjero, FM2 y
+                  pasaporte.
                 </span>
               </li>
               <li className="flex items-start">
                 <RedArrowIcon />
                 <span className="text-gray-700 text-lg">
-                  <strong className="text-gray-900">Comprobante de ingresos:</strong>{" "}
-                  Puedes presentar tus dos últimos recibos de nómina, una tarjeta de crédito de
-                  otra institución, o un estado de cuenta de inversiones o a la vista.
+                  <strong className="text-gray-900">
+                    Comprobante de ingresos:
+                  </strong>{" "}
+                  Puedes presentar tus dos últimos recibos de nómina, una
+                  tarjeta de crédito de otra institución, o un estado de cuenta
+                  de inversiones o a la vista.
                 </span>
               </li>
               <li className="flex items-start">
                 <RedArrowIcon />
                 <span className="text-gray-700 text-lg">
-                  <strong className="text-gray-900">Comprobante de domicilio:</strong>{" "}
-                  Recibo de luz o predial con una antigüedad no mayor a dos meses.
+                  <strong className="text-gray-900">
+                    Comprobante de domicilio:
+                  </strong>{" "}
+                  Recibo de luz o predial con una antigüedad no mayor a dos
+                  meses.
                 </span>
               </li>
             </ul>
@@ -177,9 +194,12 @@ export default function RequisitosHSBCZeroPage() {
               />
             </div>
             <div className="mb-10">
-               <p className="text-gray-700">
+              <p className="text-gray-700">
                 <strong>Conoce más:</strong>{" "}
-                <Link href="/mx/finanzas-personales/ideas-de-negocio-para-emprendedores/" className="text-blue-600 hover:underline">
+                <Link
+                  href="/mx/finanzas-personales/ideas-de-negocio-para-emprendedores/"
+                  className="text-blue-600 hover:underline"
+                >
                   5 ideas de negocio para emprendedores jóvenes
                 </Link>
               </p>
@@ -190,26 +210,29 @@ export default function RequisitosHSBCZeroPage() {
               Pasos para solicitar la tarjeta
             </h2>
             <p className="text-lg text-gray-700 mb-6">
-              El proceso de solicitud es sencillo y puede realizarse tanto en línea como en
-              una sucursal de HSBC. Aquí te explicamos cómo:
+              El proceso de solicitud es sencillo y puede realizarse tanto en
+              línea como en una sucursal de HSBC. Aquí te explicamos cómo:
             </p>
             <ul className="space-y-4 mb-10">
               <li className="flex items-start">
                 <RedArrowIcon />
                 <span className="text-gray-700 text-lg">
                   <strong className="text-gray-900">Solicitud en Línea:</strong>{" "}
-                  Puedes aplicar directamente desde tu celular. Solo necesitas ingresar tus datos
-                  personales y financieros tal como están registrados en Buró de Crédito, y
-                  completar la información adicional requerida.
+                  Puedes aplicar directamente desde tu celular. Solo necesitas
+                  ingresar tus datos personales y financieros tal como están
+                  registrados en Buró de Crédito, y completar la información
+                  adicional requerida.
                 </span>
               </li>
               <li className="flex items-start">
                 <RedArrowIcon />
                 <span className="text-gray-700 text-lg">
-                  <strong className="text-gray-900">Solicitud en Sucursal:</strong>{" "}
-                  Si prefieres hacerlo en persona, puedes acudir a cualquier sucursal de HSBC.
-                  Llevando contigo la documentación necesaria, podrás recibir tu tarjeta el mismo
-                  día.
+                  <strong className="text-gray-900">
+                    Solicitud en Sucursal:
+                  </strong>{" "}
+                  Si prefieres hacerlo en persona, puedes acudir a cualquier
+                  sucursal de HSBC. Llevando contigo la documentación necesaria,
+                  podrás recibir tu tarjeta el mismo día.
                 </span>
               </li>
             </ul>
@@ -219,11 +242,15 @@ export default function RequisitosHSBCZeroPage() {
               Tasas y CAT:
             </h2>
             <p className="text-lg text-gray-700 mb-10 leading-relaxed">
-              Es fundamental que conozcas las condiciones financieras antes de aplicar.{" "}
-              <strong className="text-gray-900">La Tarjeta HSBC Zero tiene una tasa de interés fija anual promedio
-              ponderada por saldo de 41.42%, con un CAT promedio de 94.3% sin IVA.</strong>{" "}
-              Recuerda que, para mantener tu tarjeta sin comisiones, debes realizar al menos
-              una transacción mensual de $1 M.N. o más.
+              Es fundamental que conozcas las condiciones financieras antes de
+              aplicar.{" "}
+              <strong className="text-gray-900">
+                La Tarjeta HSBC Zero tiene una tasa de interés fija anual
+                promedio ponderada por saldo de 41.42%, con un CAT promedio de
+                94.3% sin IVA.
+              </strong>{" "}
+              Recuerda que, para mantener tu tarjeta sin comisiones, debes
+              realizar al menos una transacción mensual de $1 M.N. o más.
             </p>
 
             {/* Image: Entiende el CAT */}
@@ -242,24 +269,29 @@ export default function RequisitosHSBCZeroPage() {
               ¿Para quién es la Tarjeta HSBC Zero?
             </h2>
             <p className="text-lg text-gray-700 mb-6">
-              La Tarjeta HSBC Zero es más que una simple tarjeta de crédito; es la solución
-              ideal para quienes buscan tomar el control de sus finanzas sin complicaciones. Si
-              te identificas con alguno de estos perfiles, esta tarjeta está hecha para ti:
+              La Tarjeta HSBC Zero es más que una simple tarjeta de crédito; es
+              la solución ideal para quienes buscan tomar el control de sus
+              finanzas sin complicaciones. Si te identificas con alguno de estos
+              perfiles, esta tarjeta está hecha para ti:
             </p>
 
             <h3 className="text-xl font-bold text-gray-800 mb-4">
               Jóvenes profesionales
             </h3>
             <p className="text-lg text-gray-700 mb-4">
-              Si estás comenzando a construir tu futuro financiero, la HSBC Zero es tu mejor
-              aliada. Te permite crear un historial crediticio sólido sin las preocupaciones de
-              comisiones anuales que suelen afectar a quienes recién empiezan. Es perfecta
-              para quienes desean establecer una base financiera fuerte desde el principio.
+              Si estás comenzando a construir tu futuro financiero, la HSBC Zero
+              es tu mejor aliada. Te permite crear un historial crediticio
+              sólido sin las preocupaciones de comisiones anuales que suelen
+              afectar a quienes recién empiezan. Es perfecta para quienes desean
+              establecer una base financiera fuerte desde el principio.
             </p>
             <div className="mb-8">
-               <p className="text-gray-700">
+              <p className="text-gray-700">
                 <strong>Conoce más:</strong>{" "}
-                <Link href="/mx/finanzas-personales/ideas-de-negocio-para-emprendedores/" className="text-blue-600 hover:underline">
+                <Link
+                  href="/mx/finanzas-personales/ideas-de-negocio-para-emprendedores/"
+                  className="text-blue-600 hover:underline"
+                >
                   5 ideas de negocio para emprendedores jóvenes
                 </Link>
               </p>
@@ -269,15 +301,19 @@ export default function RequisitosHSBCZeroPage() {
               Planificadores
             </h3>
             <p className="text-lg text-gray-700 mb-4">
-              Si realizas compras regulares pero prefieres mantener tus finanzas simples y
-              claras, esta tarjeta es ideal para ti. No necesitas gastar de más para evitar
-              comisiones; con una sola transacción al mes, mantienes tu tarjeta sin costos
-              adicionales, lo que te da la libertad de gastar solo cuando lo necesites.
+              Si realizas compras regulares pero prefieres mantener tus finanzas
+              simples y claras, esta tarjeta es ideal para ti. No necesitas
+              gastar de más para evitar comisiones; con una sola transacción al
+              mes, mantienes tu tarjeta sin costos adicionales, lo que te da la
+              libertad de gastar solo cuando lo necesites.
             </p>
             <div className="mb-8">
-               <p className="text-gray-700">
+              <p className="text-gray-700">
                 <strong>Conoce más:</strong>{" "}
-                <Link href="/mx/finanzas-personales/pasos-para-un-presupuesto-familiar/" className="text-blue-600 hover:underline">
+                <Link
+                  href="/mx/finanzas-personales/pasos-para-un-presupuesto-familiar/"
+                  className="text-blue-600 hover:underline"
+                >
                   5 pasos para un presupuesto familiar exitoso
                 </Link>
               </p>
@@ -287,15 +323,19 @@ export default function RequisitosHSBCZeroPage() {
               Amantes de la simplicidad
             </h3>
             <p className="text-lg text-gray-700 mb-4">
-              ¿Buscas una tarjeta que sea tan directa como tus decisiones financieras? La HSBC
-              Zero elimina las sorpresas desagradables, ofreciendo un producto transparente
-              donde tú decides cuándo y cómo utilizarla. Perfecta para aquellos que valoran la
-              claridad y desean evitar la letra pequeña.
+              ¿Buscas una tarjeta que sea tan directa como tus decisiones
+              financieras? La HSBC Zero elimina las sorpresas desagradables,
+              ofreciendo un producto transparente donde tú decides cuándo y cómo
+              utilizarla. Perfecta para aquellos que valoran la claridad y
+              desean evitar la letra pequeña.
             </p>
             <div className="mb-10">
-               <p className="text-gray-700">
+              <p className="text-gray-700">
                 <strong>Conoce más:</strong>{" "}
-                <Link href="/mx/finanzas-personales/tarjetas-de-credito-de-neobancos/" className="text-blue-600 hover:underline">
+                <Link
+                  href="/mx/finanzas-personales/tarjetas-de-credito-de-neobancos/"
+                  className="text-blue-600 hover:underline"
+                >
                   Top tarjetas de neobancos
                 </Link>
               </p>
@@ -317,13 +357,15 @@ export default function RequisitosHSBCZeroPage() {
               ¿Es la tarjeta HSBC Zero para ti?
             </h2>
             <p className="text-lg text-gray-700 mb-10 leading-relaxed">
-              La Tarjeta HSBC Zero se posiciona como una opción inteligente para quienes
-              buscan simplicidad, eficiencia y beneficios tangibles sin las complicaciones de
-              comisiones anuales. Si cumples con los requisitos y te identificas con alguno de los
-              perfiles descritos, esta tarjeta puede ser la herramienta financiera perfecta
-              para acompañarte en cada paso de tu camino. Aprovecha la oportunidad de tomar el
-              control de tus finanzas con una tarjeta diseñada para adaptarse a tu estilo de
-              vida, sin sorpresas ni costos inesperados.
+              La Tarjeta HSBC Zero se posiciona como una opción inteligente para
+              quienes buscan simplicidad, eficiencia y beneficios tangibles sin
+              las complicaciones de comisiones anuales. Si cumples con los
+              requisitos y te identificas con alguno de los perfiles descritos,
+              esta tarjeta puede ser la herramienta financiera perfecta para
+              acompañarte en cada paso de tu camino. Aprovecha la oportunidad de
+              tomar el control de tus finanzas con una tarjeta diseñada para
+              adaptarse a tu estilo de vida, sin sorpresas ni costos
+              inesperados.
             </p>
 
             {/* Final CTA Button */}

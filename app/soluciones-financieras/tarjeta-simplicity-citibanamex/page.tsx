@@ -329,7 +329,7 @@ export default function TarjetaSimplicityPage() {
 
             {/* Final CTA Button */}
             <Link
-              href="/soluciones-financieras/requisitos-tarjeta-joy-banamex"
+              href="/soluciones-financieras/requisitos-tarjeta-simplicity-citibanamex"
               className="block w-full mb-12"
             >
               <button className="w-full bg-[#1e40af] hover:bg-blue-800 text-white font-medium py-4 px-8 rounded-full text-lg transition-colors">

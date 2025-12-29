@@ -6,7 +6,8 @@ import Link from "next/link";
 import { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "Requisitos para solicitar la tarjeta de crédito Crecy | Top Finanzas MX",
+  title:
+    "Requisitos para solicitar la tarjeta de crédito Crecy | Top Finanzas MX",
   description:
     "Conoce los requisitos, ventajas y cómo solicitar la tarjeta de crédito Crecy, una opción flexible y sin anualidad.",
 };

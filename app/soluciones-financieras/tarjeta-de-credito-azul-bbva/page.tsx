@@ -6,7 +6,8 @@ import Link from "next/link";
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "Tarjeta de crédito Azul de BBVA: Tu aliado en cada transacción | Top Finanzas MX",
+  title:
+    "Tarjeta de crédito Azul de BBVA: Tu aliado en cada transacción | Top Finanzas MX",
   description:
     "La Tarjeta de Crédito Azul de BBVA es perfecta tanto para nuevos usuarios del crédito como para compradores y viajeros frecuentes.",
 };

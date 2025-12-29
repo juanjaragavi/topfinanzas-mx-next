@@ -338,6 +338,16 @@ export default function RequisitosTarjetaLikeUSantanderPage() {
               tus finanzas, sino que también respalda tus principios éticos,
               haciendo de cada compra una inversión en un futuro mejor.
             </p>
+
+            {/* Final CTA Button */}
+            <div className="flex justify-center my-8">
+              <Link
+                href="https://www.santander.com.mx/personas/tarjetas-de-credito/likeu.html"
+                className="inline-block bg-[#ec0000] text-white font-bold py-3 px-8 rounded-full hover:bg-[#c00000] transition-colors text-lg"
+              >
+                Solicitar ahora
+              </Link>
+            </div>
           </div>
         </div>
       </article>

@@ -456,6 +456,16 @@ export default function RequisitosTarjetaPlatinumBanregioPage() {
               permitirá maximizar las oportunidades que este producto ofrece,
               respaldando tus metas financieras y tu estilo de vida.
             </p>
+
+            {/* CTA Button */}
+            <div className="flex justify-center my-8">
+              <Link
+                href="https://www.banregio.com/personas/tarjetas/platinum.php"
+                className="inline-block bg-orange-500 text-white font-bold py-3 px-8 rounded-full hover:bg-orange-600 transition-colors text-lg"
+              >
+                Solicitar ahora
+              </Link>
+            </div>
           </div>
         </div>
       </article>

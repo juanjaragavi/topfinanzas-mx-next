@@ -6,7 +6,8 @@ import Link from "next/link";
 import { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "Requisitos para la Tarjeta de Crédito Tigres Afirme | Top Finanzas MX",
+  title:
+    "Requisitos para la Tarjeta de Crédito Tigres Afirme | Top Finanzas MX",
   description:
     "Conoce los requisitos, costos y beneficios exclusivos de la Tarjeta de Crédito Tigres Afirme para aficionados.",
 };
@@ -397,82 +398,18 @@ export default function RequisitosTarjetaTigresAfirmePage() {
                     Consulta regularmente tu estado de cuenta:
                   </strong>{" "}
                   Mantente al tanto de tus gastos para evitar sorpresas y
-                  controlar tu presupuesto.
-                </span>
-              </li>
-              <li className="flex items-start">
-                <GreenArrowIcon />
-                <span className="text-gray-700">
-                  <strong className="text-gray-900">Evita el sobregiro:</strong>{" "}
-                  Aunque la tarjeta puede ser una herramienta útil, no excedas
-                  tu capacidad de pago.
+                  asegurarte de que estás dentro de tu presupuesto.
                 </span>
               </li>
             </ul>
 
-            {/* CTA Banner 4 */}
-            <div className="relative w-full h-32 md:h-48 my-8 rounded-xl overflow-hidden shadow-lg">
-              <Image
-                src="https://media.topfinanzas.com/images/call-to-ACTION-2.jpg"
-                alt="Top tarjetas de crédito sin anualidad"
-                fill
-                className="object-cover"
-              />
-            </div>
-            <div className="flex justify-center mb-8">
-              <Link
-                href="/soluciones-financieras/tarjetas-de-credito-sin-anualidad/"
-                className="bg-orange-500 hover:bg-orange-600 text-white font-bold py-3 px-12 rounded-full transition-colors text-lg"
-              >
-                Ver ahora
-              </Link>
-            </div>
-
-            {/* Link 4 */}
-            <div className="mb-8">
-              <span className="font-bold text-black">Conoce más: </span>
-              <Link
-                href="/finanzas-personales/ideas-de-negocio-para-emprendedores/"
-                className="text-blue-600 hover:underline"
-              >
-                5 ideas de negocio para emprendedores jóvenes
-              </Link>
-            </div>
-
-            {/* Conclusion */}
-            <h2 className="text-2xl md:text-3xl font-bold text-gray-700 mt-10 mb-4 leading-tight">
-              ¿Es la ideal ti?
-            </h2>
-            <p className="text-lg text-gray-700 mb-6 font-normal">
-              La Tarjeta de Crédito Tigres Afirme es una excelente opción para
-              los aficionados que desean unir su pasión por el fútbol con
-              beneficios financieros. Sin embargo, es importante evaluar si
-              cumple con tus necesidades y objetivos personales antes de
-              solicitarla. Los costos asociados, como la anualidad y la tasa de
-              interés, deben ser considerados cuidadosamente para evitar
-              problemas financieros.
-            </p>
-            <p className="text-lg text-gray-700 mb-6 font-normal">
-              Si estás listo para dar el siguiente paso y formar parte de esta
-              experiencia única, visita el sitio oficial de Afirme o acude a una
-              sucursal cercana para iniciar tu solicitud. Recuerda que esta
-              tarjeta no solo es un instrumento financiero, sino también una
-              forma de expresar tu lealtad al Club Tigres.
-            </p>
-            <p className="text-lg text-gray-700 mb-6 font-normal">
-              ¡Haz que tu pasión por el equipo también sea parte de tu vida
-              financiera!
-            </p>
-
-            {/* Final Button */}
+            {/* Final CTA Button */}
             <div className="flex justify-center my-8">
               <Link
                 href="https://www.afirme.com/Personas/TDC/Tarjeta-Tigres.html"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="bg-green-600 hover:bg-green-700 text-white font-bold py-4 px-8 rounded-full transition-colors text-xl"
+                className="inline-block bg-green-600 text-white font-bold py-3 px-8 rounded-full hover:bg-green-700 transition-colors text-lg"
               >
-                Ver en sitio oficial
+                Solicitar ahora
               </Link>
             </div>
 

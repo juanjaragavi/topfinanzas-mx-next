@@ -6,7 +6,8 @@ import Link from "next/link";
 import { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "Requisitos para solicitar la tarjeta de Crédito Platinum American Express | Top Finanzas MX",
+  title:
+    "Requisitos para solicitar la tarjeta de Crédito Platinum American Express | Top Finanzas MX",
   description:
     "Conoce los requisitos, beneficios exclusivos y cómo solicitar la tarjeta de Crédito Platinum American Express.",
 };
@@ -46,7 +47,8 @@ export default function RequisitosTarjetaPlatinumAmexPage() {
           <div className="max-w-3xl mx-auto">
             {/* Title */}
             <h1 className="text-4xl md:text-4xl font-bold text-gray-700 mb-6 leading-8">
-              Requisitos para solicitar la tarjeta de Crédito Platinum American Express
+              Requisitos para solicitar la tarjeta de Crédito Platinum American
+              Express
             </h1>
 
             <div
@@ -58,8 +60,9 @@ export default function RequisitosTarjetaPlatinumAmexPage() {
 
             {/* Intro Section */}
             <p className="text-lg text-gray-700 mb-6 font-normal">
-              La tarjeta de crédito Platinum American Express es una opción premium diseñada
-              para quienes buscan exclusividad, privilegios y un servicio personalizado.
+              La tarjeta de crédito Platinum American Express es una opción
+              premium diseñada para quienes buscan exclusividad, privilegios y
+              un servicio personalizado.
             </p>
 
             {/* Image 1 */}
@@ -74,10 +77,11 @@ export default function RequisitosTarjetaPlatinumAmexPage() {
             </div>
 
             <p className="text-lg text-gray-700 mb-6 font-normal">
-              A diferencia de otras tarjetas de crédito, la Platinum ofrece una amplia gama de
-              beneficios que van más allá de lo financiero, incluyendo acceso a experiencias
-              únicas y servicios de lujo en todo el mundo. En este artículo, te detallamos los
-              requisitos clave para solicitarla y los principales beneficios que ofrece.
+              A diferencia de otras tarjetas de crédito, la Platinum ofrece una
+              amplia gama de beneficios que van más allá de lo financiero,
+              incluyendo acceso a experiencias únicas y servicios de lujo en
+              todo el mundo. En este artículo, te detallamos los requisitos
+              clave para solicitarla y los principales beneficios que ofrece.
             </p>
 
             {/* Link 1 */}
@@ -111,12 +115,14 @@ export default function RequisitosTarjetaPlatinumAmexPage() {
 
             {/* Requisitos */}
             <h2 className="text-2xl md:text-3xl font-bold text-gray-700 mt-10 mb-4 leading-tight">
-              ¿Qué debo hacer para solicitar la Tarjeta de Crédito Platinum American Express?
+              ¿Qué debo hacer para solicitar la Tarjeta de Crédito Platinum
+              American Express?
             </h2>
             <p className="text-lg text-gray-700 mb-6 font-normal">
-              Antes de solicitar la Tarjeta de Crédito Platinum American Express, es
-              importante cumplir con ciertos requisitos que demuestran una estabilidad financiera
-              sólida. A continuación, enumeramos los requisitos más importantes.
+              Antes de solicitar la Tarjeta de Crédito Platinum American
+              Express, es importante cumplir con ciertos requisitos que
+              demuestran una estabilidad financiera sólida. A continuación,
+              enumeramos los requisitos más importantes.
             </p>
 
             <div
@@ -127,43 +133,48 @@ export default function RequisitosTarjetaPlatinumAmexPage() {
             ></div>
 
             <p className="text-lg text-gray-700 mb-6 font-normal">
-              La Tarjeta de Crédito Platinum American Express requiere cumplir con varios
-              criterios clave antes de poder ser solicitada. En primer lugar, es necesario tener
-              al menos 18 años cumplidos para poder aplicar. Este es un requisito estándar en
-              la mayoría de las tarjetas de crédito, aunque generalmente los usuarios de esta
-              tarjeta suelen tener una carrera profesional o empresarial avanzada, dado el
-              perfil de ingresos exigido.
+              La Tarjeta de Crédito Platinum American Express requiere cumplir
+              con varios criterios clave antes de poder ser solicitada. En
+              primer lugar, es necesario tener al menos 18 años cumplidos para
+              poder aplicar. Este es un requisito estándar en la mayoría de las
+              tarjetas de crédito, aunque generalmente los usuarios de esta
+              tarjeta suelen tener una carrera profesional o empresarial
+              avanzada, dado el perfil de ingresos exigido.
             </p>
 
             <p className="text-lg text-gray-700 mb-6 font-normal">
-              En cuanto a los ingresos, se requiere que el solicitante cuente con ingresos
-              mensuales mínimos de entre $100,000 y $150,000 MXN. Este es uno de los requisitos
-              más importantes, ya que la tarjeta está dirigida a personas con un alto nivel de
-              ingresos, asegurando que puedan hacer frente a los pagos y disfrutar de los
-              beneficios sin comprometer su estabilidad financiera.
+              En cuanto a los ingresos, se requiere que el solicitante cuente
+              con ingresos mensuales mínimos de entre $100,000 y $150,000 MXN.
+              Este es uno de los requisitos más importantes, ya que la tarjeta
+              está dirigida a personas con un alto nivel de ingresos, asegurando
+              que puedan hacer frente a los pagos y disfrutar de los beneficios
+              sin comprometer su estabilidad financiera.
             </p>
 
             <p className="text-lg text-gray-700 mb-6 font-normal">
-              Otro factor fundamental es el historial crediticio. Para poder obtener la
-              Platinum, es necesario contar con un historial crediticio excelente, lo cual implica
-              haber manejado responsablemente productos financieros como otras tarjetas de
-              crédito o préstamos en el pasado. Un buen historial crediticio aumenta
-              significativamente las posibilidades de ser aprobado.
+              Otro factor fundamental es el historial crediticio. Para poder
+              obtener la Platinum, es necesario contar con un historial
+              crediticio excelente, lo cual implica haber manejado
+              responsablemente productos financieros como otras tarjetas de
+              crédito o préstamos en el pasado. Un buen historial crediticio
+              aumenta significativamente las posibilidades de ser aprobado.
             </p>
 
             <p className="text-lg text-gray-700 mb-6 font-normal">
-              Adicionalmente, se requiere presentar una identificación oficial vigente al
-              momento de la solicitud. Esto puede ser el INE o el pasaporte, documentos válidos en
-              México. También se debe proporcionar un comprobante de domicilio reciente, con
-              una antigüedad no mayor a tres meses, el cual puede ser una factura de servicios
-              como agua, luz o teléfono.
+              Adicionalmente, se requiere presentar una identificación oficial
+              vigente al momento de la solicitud. Esto puede ser el INE o el
+              pasaporte, documentos válidos en México. También se debe
+              proporcionar un comprobante de domicilio reciente, con una
+              antigüedad no mayor a tres meses, el cual puede ser una factura de
+              servicios como agua, luz o teléfono.
             </p>
 
             <p className="text-lg text-gray-700 mb-6 font-normal">
-              Finalmente, el solicitante debe completar la solicitud de la tarjeta ya sea en
-              línea a través del sitio web oficial de American Express o acudiendo a una de sus
-              sucursales. Es importante cumplir con todos los requisitos antes de enviar la
-              solicitud para evitar retrasos en el proceso de aprobación.
+              Finalmente, el solicitante debe completar la solicitud de la
+              tarjeta ya sea en línea a través del sitio web oficial de American
+              Express o acudiendo a una de sus sucursales. Es importante cumplir
+              con todos los requisitos antes de enviar la solicitud para evitar
+              retrasos en el proceso de aprobación.
             </p>
 
             {/* Link 2 */}
@@ -182,9 +193,9 @@ export default function RequisitosTarjetaPlatinumAmexPage() {
               ¿Qué se destaca de la tarjeta Platinum American Express?
             </h2>
             <p className="text-lg text-gray-700 mb-6 font-normal">
-              Además de los requisitos, es importante conocer los beneficios exclusivos que
-              esta tarjeta ofrece, lo que la convierte en una de las más codiciadas en el
-              mercado.
+              Además de los requisitos, es importante conocer los beneficios
+              exclusivos que esta tarjeta ofrece, lo que la convierte en una de
+              las más codiciadas en el mercado.
             </p>
 
             {/* CTA Banner 2 */}
@@ -209,60 +220,75 @@ export default function RequisitosTarjetaPlatinumAmexPage() {
               <li className="flex items-start">
                 <BlueArrowIcon />
                 <span className="text-gray-700">
-                  <strong className="text-gray-900">Acceso a salones VIP:</strong>{" "}
-                  Uno de los principales atractivos de la Platinum es el acceso a más de 1,200
-                  salones VIP en aeropuertos de todo el mundo. Esto incluye la famosa red de salones
-                  Centurion de American Express y otras alianzas con aerolíneas y servicios de
-                  lujo.
+                  <strong className="text-gray-900">
+                    Acceso a salones VIP:
+                  </strong>{" "}
+                  Uno de los principales atractivos de la Platinum es el acceso
+                  a más de 1,200 salones VIP en aeropuertos de todo el mundo.
+                  Esto incluye la famosa red de salones Centurion de American
+                  Express y otras alianzas con aerolíneas y servicios de lujo.
                 </span>
               </li>
               <li className="flex items-start">
                 <BlueArrowIcon />
                 <span className="text-gray-700">
-                  <strong className="text-gray-900">Servicios de concierge:</strong>{" "}
-                  La tarjeta ofrece un servicio de concierge 24/7 que se puede utilizar para
-                  realizar reservas en restaurantes exclusivos, planificar viajes personalizados o
-                  conseguir entradas a eventos que suelen estar agotados. Este beneficio añade un
-                  toque de comodidad y exclusividad a la vida diaria de los titulares.
+                  <strong className="text-gray-900">
+                    Servicios de concierge:
+                  </strong>{" "}
+                  La tarjeta ofrece un servicio de concierge 24/7 que se puede
+                  utilizar para realizar reservas en restaurantes exclusivos,
+                  planificar viajes personalizados o conseguir entradas a
+                  eventos que suelen estar agotados. Este beneficio añade un
+                  toque de comodidad y exclusividad a la vida diaria de los
+                  titulares.
                 </span>
               </li>
               <li className="flex items-start">
                 <BlueArrowIcon />
                 <span className="text-gray-700">
-                  <strong className="text-gray-900">Puntos Membership Rewards:</strong>{" "}
-                  Con cada compra realizada con la tarjeta Platinum, los usuarios acumulan puntos
-                  Membership Rewards, que pueden canjear por productos, viajes o experiencias
-                  exclusivas. Estos puntos no caducan, lo que significa que se pueden acumular a lo
-                  largo del tiempo para obtener recompensas más valiosas.
+                  <strong className="text-gray-900">
+                    Puntos Membership Rewards:
+                  </strong>{" "}
+                  Con cada compra realizada con la tarjeta Platinum, los
+                  usuarios acumulan puntos Membership Rewards, que pueden
+                  canjear por productos, viajes o experiencias exclusivas. Estos
+                  puntos no caducan, lo que significa que se pueden acumular a
+                  lo largo del tiempo para obtener recompensas más valiosas.
                 </span>
               </li>
               <li className="flex items-start">
                 <BlueArrowIcon />
                 <span className="text-gray-700">
-                  <strong className="text-gray-900">Seguro de viaje:</strong>{" "}
-                  La Platinum American Express ofrece un seguro de viaje que cubre accidentes,
-                  retrasos y pérdida de equipaje. Este seguro es útil para aquellos que viajan con
-                  frecuencia y desean estar protegidos ante imprevistos mientras están fuera de
-                  casa.
+                  <strong className="text-gray-900">Seguro de viaje:</strong> La
+                  Platinum American Express ofrece un seguro de viaje que cubre
+                  accidentes, retrasos y pérdida de equipaje. Este seguro es
+                  útil para aquellos que viajan con frecuencia y desean estar
+                  protegidos ante imprevistos mientras están fuera de casa.
                 </span>
               </li>
               <li className="flex items-start">
                 <BlueArrowIcon />
                 <span className="text-gray-700">
-                  <strong className="text-gray-900">Ofertas y experiencias exclusivas:</strong>{" "}
-                  Los titulares de la tarjeta tienen acceso a ofertas especiales y experiencias
-                  únicas que no están disponibles para el público general. Esto puede incluir desde
-                  cenas privadas con chefs reconocidos hasta acceso prioritario a eventos
-                  deportivos y culturales.
+                  <strong className="text-gray-900">
+                    Ofertas y experiencias exclusivas:
+                  </strong>{" "}
+                  Los titulares de la tarjeta tienen acceso a ofertas especiales
+                  y experiencias únicas que no están disponibles para el público
+                  general. Esto puede incluir desde cenas privadas con chefs
+                  reconocidos hasta acceso prioritario a eventos deportivos y
+                  culturales.
                 </span>
               </li>
               <li className="flex items-start">
                 <BlueArrowIcon />
                 <span className="text-gray-700">
-                  <strong className="text-gray-900">Programa de recompensas en viajes:</strong>{" "}
-                  American Express tiene alianzas con cadenas hoteleras, aerolíneas y servicios de
-                  renta de autos. Esto permite a los titulares de la Platinum disfrutar de
-                  mejoras gratuitas de habitación, descuentos en vuelos y otros beneficios exclusivos
+                  <strong className="text-gray-900">
+                    Programa de recompensas en viajes:
+                  </strong>{" "}
+                  American Express tiene alianzas con cadenas hoteleras,
+                  aerolíneas y servicios de renta de autos. Esto permite a los
+                  titulares de la Platinum disfrutar de mejoras gratuitas de
+                  habitación, descuentos en vuelos y otros beneficios exclusivos
                   durante sus viajes.
                 </span>
               </li>
@@ -302,12 +328,13 @@ export default function RequisitosTarjetaPlatinumAmexPage() {
               ¿Qué otros temas debería tener en cuenta?
             </h2>
             <p className="text-lg text-gray-700 mb-6 font-normal">
-              La Tarjeta de Crédito Platinum American Express tiene una cuota anual
-              considerablemente alta en comparación con otras tarjetas de crédito. Sin embargo, esta
-              cuota se justifica por la gran cantidad de beneficios exclusivos que ofrece,
-              especialmente para quienes buscan lujo, comodidad y servicios personalizados. Antes de
-              solicitarla, es importante evaluar si los beneficios son acordes a tus hábitos
-              de consumo y estilo de vida.
+              La Tarjeta de Crédito Platinum American Express tiene una cuota
+              anual considerablemente alta en comparación con otras tarjetas de
+              crédito. Sin embargo, esta cuota se justifica por la gran cantidad
+              de beneficios exclusivos que ofrece, especialmente para quienes
+              buscan lujo, comodidad y servicios personalizados. Antes de
+              solicitarla, es importante evaluar si los beneficios son acordes a
+              tus hábitos de consumo y estilo de vida.
             </p>
 
             {/* CTA Banner 4 */}
@@ -333,16 +360,18 @@ export default function RequisitosTarjetaPlatinumAmexPage() {
               ¿Es la tarjeta de Crédito Platinum American Express para ti?
             </h2>
             <p className="text-lg text-gray-700 mb-6 font-normal">
-              La Tarjeta de Crédito Platinum American Express es una opción ideal para
-              personas con altos ingresos que desean acceder a experiencias exclusivas, servicios
-              personalizados y beneficios premium. Si cumples con los requisitos y valoras los
-              privilegios que ofrece, puede ser una excelente herramienta para mejorar tu
+              La Tarjeta de Crédito Platinum American Express es una opción
+              ideal para personas con altos ingresos que desean acceder a
+              experiencias exclusivas, servicios personalizados y beneficios
+              premium. Si cumples con los requisitos y valoras los privilegios
+              que ofrece, puede ser una excelente herramienta para mejorar tu
               experiencia financiera y de estilo de vida.
             </p>
             <p className="text-lg text-gray-700 mb-6 font-normal">
-              ¿Estás listo para solicitarla? Si cumples con los requisitos mencionados y estás
-              interesado en disfrutar de los beneficios que esta tarjeta ofrece, visita el
-              sitio web de American Express y comienza tu proceso de solicitud hoy mismo.
+              ¿Estás listo para solicitarla? Si cumples con los requisitos
+              mencionados y estás interesado en disfrutar de los beneficios que
+              esta tarjeta ofrece, visita el sitio web de American Express y
+              comienza tu proceso de solicitud hoy mismo.
             </p>
 
             {/* Final Button */}

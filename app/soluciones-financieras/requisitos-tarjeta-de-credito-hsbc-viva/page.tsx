@@ -58,9 +58,9 @@ export default function RequisitosTarjetaHSBCVivaPage() {
 
             {/* Intro Section */}
             <p className="text-lg text-gray-700 mb-6 font-normal">
-              La tarjeta de crédito HSBC Viva es una opción atractiva para quienes
-              buscan beneficios en compras diarias, entretenimiento y descuentos
-              en viajes.
+              La tarjeta de crédito HSBC Viva es una opción atractiva para
+              quienes buscan beneficios en compras diarias, entretenimiento y
+              descuentos en viajes.
             </p>
             <p className="text-lg text-gray-700 mb-6 font-normal">
               A continuación, te presentamos los requisitos clave que debes
@@ -399,11 +399,9 @@ export default function RequisitosTarjetaHSBCVivaPage() {
             <div className="flex justify-center my-8">
               <Link
                 href="https://www.hsbc.com.mx/tarjetas-de-credito/productos/viva/"
-                target="_blank"
-                rel="noopener noreferrer"
                 className="bg-red-600 hover:bg-red-700 text-white font-bold py-4 px-8 rounded-full transition-colors text-xl"
               >
-                Ver en sitio oficial
+                Solicitar ahora
               </Link>
             </div>
 

@@ -58,8 +58,8 @@ export default function RappiCardPage() {
 
             {/* Introduction Summary */}
             <p className="text-lg text-gray-700 mb-6">
-              La RappiCard es una tarjeta de crédito revolucionaria que se adapta
-              al estilo de vida moderno.
+              La RappiCard es una tarjeta de crédito revolucionaria que se
+              adapta al estilo de vida moderno.
             </p>
 
             {/* Quick Benefits Summary */}
@@ -144,7 +144,9 @@ export default function RappiCardPage() {
               <li className="flex items-start">
                 <BlackArrowIcon />
                 <span className="text-gray-700 text-lg">
-                  <strong className="text-gray-900">Ser mayor de 18 años:</strong>{" "}
+                  <strong className="text-gray-900">
+                    Ser mayor de 18 años:
+                  </strong>{" "}
                   Debes contar con la mayoría de edad para aplicar.
                 </span>
               </li>
@@ -379,7 +381,7 @@ export default function RappiCardPage() {
             {/* Final CTA Button */}
             <div className="mb-10">
               <Link
-                href="/mx/soluciones-financieras/requisitos-rappicard/"
+                href="/soluciones-financieras/requisitos-rappicard/"
                 className="block w-full bg-black text-white text-center font-bold py-4 px-6 rounded-full hover:bg-gray-800 transition-colors text-lg"
               >
                 Quiero conocer los requisitos

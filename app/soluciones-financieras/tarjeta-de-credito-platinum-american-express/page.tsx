@@ -7,7 +7,8 @@ import { Button } from "@/components/ui/button";
 import { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "Beneficios de la tarjeta de Crédito Platinum American Express | Top Finanzas MX",
+  title:
+    "Beneficios de la tarjeta de Crédito Platinum American Express | Top Finanzas MX",
   description:
     "La Tarjeta Platinum American Express ofrece acceso a salones VIP, concierge 24/7, puntos Membership Rewards y seguros de viaje completos.",
 };
@@ -299,7 +300,7 @@ export default function TarjetaPlatinumAmexPage() {
             {/* CTA Button 2 */}
             <div className="flex justify-center mt-8 mb-8">
               <Link
-                href="/soluciones-financieras/tarjeta-de-credito-platinum-american-express-requirements"
+                href="/soluciones-financieras/requisitos-tarjeta-de-credito-platinum-american-express"
                 className="w-full md:w-auto"
               >
                 <Button className="w-full md:w-auto bg-blue-700 hover:bg-blue-800 text-white font-bold py-3 px-8 rounded-full text-lg">

@@ -126,11 +126,12 @@ export default function TarjetaDeCreditoTigresAfirmePage() {
               ¿Para quién es ideal la Tarjeta de Crédito Tigres Afirme?
             </h2>
             <p className="text-gray-700 mb-8 leading-tight">
-              Esta tarjeta está especialmente dirigida a los seguidores fervientes
-              de los Tigres UANL que desean combinar su amor por el equipo con
-              beneficios financieros exclusivos. Es ideal para quienes buscan una
-              herramienta que les permita gestionar sus finanzas personales
-              mientras disfrutan de ventajas relacionadas con su equipo favorito.
+              Esta tarjeta está especialmente dirigida a los seguidores
+              fervientes de los Tigres UANL que desean combinar su amor por el
+              equipo con beneficios financieros exclusivos. Es ideal para
+              quienes buscan una herramienta que les permita gestionar sus
+              finanzas personales mientras disfrutan de ventajas relacionadas
+              con su equipo favorito.
             </p>
 
             <h2 className="text-xl font-bold text-gray-700 mt-10 mb-4">
@@ -166,7 +167,9 @@ export default function TarjetaDeCreditoTigresAfirmePage() {
               <li className="flex items-start">
                 <GreenCheckIcon />
                 <span className="text-gray-700">
-                  <strong className="text-gray-900">Puntos Bonus por compras:</strong>{" "}
+                  <strong className="text-gray-900">
+                    Puntos Bonus por compras:
+                  </strong>{" "}
                   Cada compra realizada con la tarjeta acumula Puntos Bonus, que
                   pueden canjearse por una amplia gama de productos y servicios,
                   así como por descuentos en tiendas departamentales y otros
@@ -176,7 +179,9 @@ export default function TarjetaDeCreditoTigresAfirmePage() {
               <li className="flex items-start">
                 <GreenCheckIcon />
                 <span className="text-gray-700">
-                  <strong className="text-gray-900">Meses sin intereses:</strong>{" "}
+                  <strong className="text-gray-900">
+                    Meses sin intereses:
+                  </strong>{" "}
                   Ofrece la posibilidad de diferir compras a meses sin intereses
                   en establecimientos participantes, facilitando la adquisición
                   de bienes y servicios de mayor valor.
@@ -185,7 +190,9 @@ export default function TarjetaDeCreditoTigresAfirmePage() {
               <li className="flex items-start">
                 <GreenCheckIcon />
                 <span className="text-gray-700">
-                  <strong className="text-gray-900">Disposición de efectivo:</strong>{" "}
+                  <strong className="text-gray-900">
+                    Disposición de efectivo:
+                  </strong>{" "}
                   A través de AfirmeNet, los usuarios pueden disponer de
                   efectivo, brindando flexibilidad financiera en momentos de
                   necesidad.
@@ -211,7 +218,9 @@ export default function TarjetaDeCreditoTigresAfirmePage() {
               <li className="flex items-start">
                 <GreenCheckIcon />
                 <span className="text-gray-700">
-                  <strong className="text-gray-900">Historial crediticio:</strong>{" "}
+                  <strong className="text-gray-900">
+                    Historial crediticio:
+                  </strong>{" "}
                   Contar con un buen historial crediticio, demostrando
                   responsabilidad en el manejo de finanzas previas.
                 </span>
@@ -245,7 +254,9 @@ export default function TarjetaDeCreditoTigresAfirmePage() {
               <li className="flex items-start">
                 <GreenCheckIcon />
                 <span className="text-gray-700">
-                  <strong className="text-gray-900">Solicitud de crédito:</strong>{" "}
+                  <strong className="text-gray-900">
+                    Solicitud de crédito:
+                  </strong>{" "}
                   Completar y firmar la solicitud correspondiente.
                 </span>
               </li>
@@ -287,8 +298,9 @@ export default function TarjetaDeCreditoTigresAfirmePage() {
               determinar si se ajusta a tus necesidades financieras.
             </p>
             <p className="text-gray-700 mb-8 leading-tight">
-              Para más información o para iniciar el proceso de solicitud, visita
-              el sitio oficial de Afirme o acércate a una sucursal cercana.
+              Para más información o para iniciar el proceso de solicitud,
+              visita el sitio oficial de Afirme o acércate a una sucursal
+              cercana.
             </p>
 
             <Link

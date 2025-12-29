@@ -7,7 +7,8 @@ import { Button } from "@/components/ui/button";
 import { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "HSBC Zero: Ahorra en comisiones y maximiza tus recompensas | Top Finanzas MX",
+  title:
+    "HSBC Zero: Ahorra en comisiones y maximiza tus recompensas | Top Finanzas MX",
   description:
     "La Tarjeta HSBC Zero ofrece libertad financiera con cero comisiones anuales, programa de recompensas y promociones exclusivas. Conoce sus beneficios.",
 };
@@ -298,7 +299,7 @@ export default function TarjetaHSBCZeroPage() {
             {/* CTA Button 2 */}
             <div className="flex justify-center mt-8 mb-8">
               <Link
-                href="/soluciones-financieras/tarjeta-hsbc-zero-requirements"
+                href="/soluciones-financieras/requisitos-tarjeta-hsbc-zero"
                 className="w-full md:w-auto"
               >
                 <Button className="w-full md:w-auto bg-red-600 hover:bg-red-700 text-white font-bold py-3 px-8 rounded-full text-lg">

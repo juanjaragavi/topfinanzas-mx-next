@@ -134,7 +134,9 @@ export default function RequisitosTarjetaCreditoNuPage() {
               <li className="flex items-start">
                 <PurpleArrowIcon />
                 <span className="text-gray-700">
-                  <strong className="text-gray-900">Documentación Básica:</strong>{" "}
+                  <strong className="text-gray-900">
+                    Documentación Básica:
+                  </strong>{" "}
                   Es necesario tener una identificación oficial vigente como el
                   INE, pasaporte o tarjeta de residencia.
                 </span>
@@ -150,14 +152,16 @@ export default function RequisitosTarjetaCreditoNuPage() {
                 <PurpleArrowIcon />
                 <span className="text-gray-700">
                   <strong className="text-gray-900">Datos Personales:</strong>{" "}
-                  Deberás proporcionar información básica necesaria para calcular
-                  tu CURP y RFC.
+                  Deberás proporcionar información básica necesaria para
+                  calcular tu CURP y RFC.
                 </span>
               </li>
               <li className="flex items-start">
                 <PurpleArrowIcon />
                 <span className="text-gray-700">
-                  <strong className="text-gray-900">Comprobante de Domicilio:</strong>{" "}
+                  <strong className="text-gray-900">
+                    Comprobante de Domicilio:
+                  </strong>{" "}
                   En ciertos casos, podrías necesitar presentar un comprobante
                   de domicilio reciente.
                 </span>
@@ -169,8 +173,7 @@ export default function RequisitosTarjetaCreditoNuPage() {
                     Consulta de Historial Crediticio:
                   </strong>{" "}
                   Se requerirá tu autorización para realizar una verificación de
-                  crédito, un paso estándar en la evaluación de las
-                  solicitudes.
+                  crédito, un paso estándar en la evaluación de las solicitudes.
                 </span>
               </li>
             </ul>
@@ -202,8 +205,8 @@ export default function RequisitosTarjetaCreditoNuPage() {
               <li className="flex items-start">
                 <PurpleArrowIcon />
                 <span className="text-gray-700">
-                  <strong className="text-gray-900">CAT Promedio:</strong>
-                  {" "}139.5% sin IVA.
+                  <strong className="text-gray-900">CAT Promedio:</strong>{" "}
+                  139.5% sin IVA.
                 </span>
               </li>
               <li className="flex items-start">
@@ -328,8 +331,8 @@ export default function RequisitosTarjetaCreditoNuPage() {
             </h3>
             <p className="text-gray-700 mb-6 font-normal">
               Con opciones como la Tarjeta Garantizada Nu, aquellos que buscan
-              entrar al mundo del crédito o mejorar su historial existente tienen
-              una puerta abierta. Nu no solo te ofrece una herramienta
+              entrar al mundo del crédito o mejorar su historial existente
+              tienen una puerta abierta. Nu no solo te ofrece una herramienta
               financiera, sino una oportunidad para crecer y mejorar
               financieramente.
             </p>

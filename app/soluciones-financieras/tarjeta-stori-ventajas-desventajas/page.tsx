@@ -201,8 +201,8 @@ export default function TarjetaStoriVentajasDesventajasPage() {
               Aunque estos números pueden parecer elevados, están en línea con
               productos diseñados para usuarios sin historial crediticio previo.
               Un manejo responsable y educado sobre el crédito es clave para
-              aprovechar al máximo los beneficios de Stori sin incurrir en costos
-              adicionales.
+              aprovechar al máximo los beneficios de Stori sin incurrir en
+              costos adicionales.
             </p>
 
             <h2 className="text-2xl md:text-3xl font-bold text-gray-700 mt-10 mb-4 leading-tight">
