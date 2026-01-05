@@ -307,10 +307,7 @@ export default function RequisitosTarjetaLikeUSantanderPage() {
 
             <p className="text-gray-700 mb-6 font-normal">
               Conoce más:{" "}
-              <Link
-                href="/prestamos"
-                className="text-blue-600 hover:underline"
-              >
+              <Link href="/prestamos" className="text-blue-600 hover:underline">
                 ¿Cuál es el mejor préstamo personal?
               </Link>
             </p>

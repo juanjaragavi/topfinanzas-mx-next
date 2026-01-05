@@ -304,7 +304,19 @@ This layout standard is **mandatory and non-negotiable**. It has been validated 
 3. Follow the exact element order
 4. Validate compliance using the checklist
 
-### 4. SEO Optimization
+### 4. Category Page Updates
+
+**CRITICAL**: The category index pages (`app/tarjetas/page.tsx` and `app/prestamos/page.tsx`) MUST follow the strict update protocol documented in:
+
+**`docs/CATEGORY_PAGE_UPDATE_PROTOCOL.md`**
+
+**Key Rules**:
+
+- **Dynamic Data**: Never hardcode product lists. Always import `ALL_POSTS` from `@/lib/data/posts`.
+- **Filtering**: Use dynamic filtering based on `category` and `subCategory`.
+- **No Legacy Content**: Ensure no UK-specific or legacy content is re-introduced.
+
+### 5. SEO Optimization
 
 - **Meta Tags**: Comprehensive metadata
 - **Schema Markup**: Structured data

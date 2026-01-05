@@ -99,10 +99,7 @@ export default function TarjetaSimplicityPage() {
             </ul>
 
             {/* First CTA Button */}
-            <Link
-              href="/soluciones-financieras"
-              className="block w-full"
-            >
+            <Link href="/soluciones-financieras" className="block w-full">
               <button className="w-full bg-[#1e40af] hover:bg-blue-800 text-white font-medium py-4 px-8 rounded-full text-lg transition-colors">
                 Quiero conocer los requisitos
               </button>

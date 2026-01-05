@@ -3,6 +3,7 @@
 import { BlogLayout } from "@/components/mdx/blog-layout";
 import { FeaturedPostCard } from "@/components/ui/featured-post-card";
 import { useState, useEffect } from "react";
+import { ALL_POSTS } from "@/lib/data/posts";
 
 interface PostItem {
   title: string;
@@ -20,112 +21,29 @@ export default function PrestamosArchivePage() {
     setIsClient(true);
   }, []);
 
-  const loansContent: PostItem[] = [
-    {
-      title: "Préstamo Personal HSBC",
-      slug: "hsbc-personal-loan",
-      description:
-        "Descubra los préstamos personales de HSBC con tasas competitivas, plazos de pago flexibles y un proceso de solicitud rápido.",
-      image:
-        "https://media.topfinanzas.com/images/uk/loans/718135900-fotosprestamo1hsbc-uk.webp",
-      date: "4 April 2025",
-      type: "personal",
-    },
-    {
-      title: "Préstamo Personal Barclays",
-      slug: "barclays-personal-loan",
-      description:
-        "Explore los préstamos personales de Barclays con tasas competitivas, plazos flexibles y un proceso de solicitud optimizado.",
-      image:
-        "https://media.topfinanzas.com/images/uk/loans/718136012-fotosprestamo-barclays2uk.webp",
-      date: "4 April 2025",
-      type: "personal",
-    },
-    {
-      title: "Préstamo para Negocios Funding Circle",
-      slug: "funding-circle-personal-loan",
-      description:
-        "Funding Circle ofrece préstamos comerciales flexibles con decisiones rápidas y tasas competitivas para pequeñas empresas.",
-      image:
-        "https://media.topfinanzas.com/images/uk/loans/718136824-fotosprestamo-fundingcircle1uk.webp",
-      date: "4 April 2025",
-      type: "sme_fintech",
-    },
-    {
-      title: "Préstamo Personal Zopa",
-      slug: "zopa-personal-loan",
-      description:
-        "Explore los préstamos personales de Zopa con tasas personalizadas, sin comisiones ocultas y un proceso rápido en línea.",
-      image:
-        "https://media.topfinanzas.com/images/uk/loans/718136611-fotosprestamo-zopa1uk.webp",
-      date: "4 April 2025",
-      type: "neobank",
-    },
-    {
-      title: "Préstamo Personal Lloyds Bank",
-      slug: "lloyds-bank-personal-loan",
-      description:
-        "Explore los préstamos personales de Lloyds Bank con tasas competitivas, opciones de pago flexibles y servicio confiable.",
-      image:
-        "https://media.topfinanzas.com/images/uk/loans/718136057-fotosprestamo-lloyds1uk.webp",
-      date: "4 April 2025",
-      type: "personal",
-    },
-    {
-      title: "Préstamo Personal NatWest",
-      slug: "natwest-personal-loan",
-      description:
-        "Explore los préstamos personales de NatWest con tasas competitivas, plazos de pago flexibles y un proceso sencillo.",
-      image:
-        "https://media.topfinanzas.com/images/uk/loans/718136156-fotosprestamo-nawest1uk.webp",
-      date: "4 April 2025",
-      type: "personal",
-    },
-    {
-      title: "Préstamo Personal Santander UK",
-      slug: "santander-uk-personal-loan",
-      description:
-        "Explore los préstamos personales de Santander UK con tasas competitivas, plazos de pago flexibles y beneficios exclusivos.",
-      image:
-        "https://media.topfinanzas.com/images/uk/loans/718136214-fotosprestamo-santander1uk.webp",
-      date: "4 April 2025",
-      type: "personal",
-    },
-    {
-      title: "Préstamo Personal TSB",
-      slug: "tsb-personal-loan",
-      description:
-        "Explore los préstamos personales de TSB con tasas competitivas, opciones de pago flexibles y banca clara y sencilla.",
-      image:
-        "https://media.topfinanzas.com/images/uk/loans/718136271-fotosprestamo-tbs1uk.webp",
-      date: "4 April 2025",
-      type: "personal",
-    },
-    {
-      title: "Préstamo Personal Virgin Money",
-      slug: "virgin-money-personal-loan",
-      description:
-        "Explore los préstamos personales de Virgin Money con tasas competitivas, plazos flexibles y beneficios exclusivos.",
-      image:
-        "https://media.topfinanzas.com/images/uk/loans/718136330-fotosprestamo-virginmoney1uk.webp",
-      date: "4 April 2025",
-      type: "personal",
-    },
-    {
-      title: "Préstamo Personal Halifax",
-      slug: "halifax-personal-loan",
-      description:
-        "Explore los préstamos personales de Halifax con tasas competitivas, opciones de pago flexibles y servicio confiable.",
-      image:
-        "https://media.topfinanzas.com/images/uk/loans/718136403-fotosprestamo-halifax1uk.webp",
-      date: "4 April 2025",
-      type: "personal",
-    },
-  ];
+  // Filter Mexican loans from ALL_POSTS
+  const loansContent: PostItem[] = ALL_POSTS.filter(
+    (post) =>
+      post.category === "Soluciones Financieras" &&
+      post.subCategory === "loans",
+  ).map((post) => ({
+    title: post.title,
+    slug: post.slug,
+    description: post.description,
+    image: post.image,
+    date: post.date,
+    type: post.type,
+  }));
 
+  // Date parsing utility function
   const parseDate = (dateString: string): number => {
     if (!dateString) return 0;
     const value = dateString.trim();
+    const patterns = [
+      /^(\d{1,2})\s+([A-Za-z]+)\s+(\d{4})$/,
+      /^([A-Za-z]+)\s+(\d{1,2}),?\s+(\d{4})$/,
+      /^(\d{4})-(\d{2})-(\d{2})$/,
+    ];
     const monthNames = [
       "January",
       "February",
@@ -140,13 +58,6 @@ export default function PrestamosArchivePage() {
       "November",
       "December",
     ];
-
-    const patterns = [
-      /^(\d{1,2})\s+([A-Za-z]+)\s+(\d{4})$/,
-      /^([A-Za-z]+)\s+(\d{1,2}),?\s+(\d{4})$/,
-      /^(\d{4})-(\d{2})-(\d{2})$/,
-    ];
-
     for (const pattern of patterns) {
       const match = value.match(pattern);
       if (match) {
@@ -177,13 +88,19 @@ export default function PrestamosArchivePage() {
     return isNaN(t) ? 0 : t;
   };
 
+  // Sort posts by date (newest first)
   const sortedLoans = [...loansContent].sort(
     (a, b) => parseDate(b.date || "") - parseDate(a.date || ""),
   );
 
+  // No filtering needed, just display the sorted loans content
+  const filteredPosts = sortedLoans;
+
+  // Avoid rendering until client-side code is running
   if (!isClient) {
     return (
       <div className="min-h-screen flex items-center justify-center">
+        {/* Basic loading skeleton */}
         <div className="animate-pulse bg-gray-200 rounded-sm p-8 w-full max-w-4xl">
           <div className="h-8 bg-gray-300 rounded w-3/4 mb-4"></div>
           <div className="h-4 bg-gray-300 rounded w-1/2 mb-6"></div>
@@ -202,28 +119,30 @@ export default function PrestamosArchivePage() {
         Préstamos Personales
       </h1>
       <p className="text-lg text-gray-700 mb-8 leading-tight">
-        Explora las mejores opciones de préstamos personales y financiamiento.
-        Compara tasas, plazos y requisitos para encontrar la solución que mejor
-        se adapte a tus necesidades.
+        Encuentra los mejores préstamos personales en México. Compara tasas,
+        plazos y requisitos para elegir la opción que mejor se adapte a tus
+        necesidades.
       </p>
 
+      {/* Grid of loan posts */}
       <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
-        {sortedLoans.map((post: PostItem) => (
+        {filteredPosts.map((post: PostItem) => (
           <div
             key={post.slug}
             className="relative"
-            style={{ position: "relative" }}
+            style={{ position: "relative" }} // Needed for FeaturedPostCard image positioning
           >
             <FeaturedPostCard
               title={post.title}
               description={post.description}
               image={post.image}
+              // Posts are located under /soluciones-financieras/
               slug={post.slug}
-              category="Préstamos Personales"
-              categorySlug="/soluciones-financieras"
+              category="Préstamos Personales" // Static category for this page
+              categorySlug="/soluciones-financieras" // Base path for these posts
               date={post.date}
               type={post.type}
-              showBadge={true}
+              showBadge={true} // Show type badge if desired
             />
           </div>
         ))}
@@ -234,9 +153,9 @@ export default function PrestamosArchivePage() {
   return (
     <BlogLayout
       metadata={{
-        title: "Préstamos Personales: Guías y Comparativas | TopFinanzas MX",
+        title: "Préstamos Personales: Comparador y Guías | TopFinanzas MX",
         description:
-          "Encuentra los mejores préstamos personales en México. Compara opciones de bancos tradicionales, neobancos y plataformas fintech para obtener el mejor financiamiento.",
+          "Compara los mejores préstamos personales en México. Encuentra tasas bajas, requisitos sencillos y opciones de financiamiento rápido.",
       }}
     >
       {pageContent}
