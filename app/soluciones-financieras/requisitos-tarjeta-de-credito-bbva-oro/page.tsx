@@ -88,12 +88,14 @@ export default function RequisitosTarjetaBBVAOroPage() {
             </h2>
 
             <div className="relative w-full h-64 md:h-[400px] my-8 rounded-sm overflow-hidden shadow-lg">
-              <Image
-                src="https://media.topfinanzas.com/images/call-to-ACTION-1.jpg"
-                alt="Puntos clave"
-                fill
-                className="object-cover"
-              />
+              <Link href="/soluciones-financieras/tarjetas-de-credito-sin-anualidad">
+                <Image
+                  src="https://media.topfinanzas.com/images/call-to-ACTION-1.jpg"
+                  alt="Puntos clave"
+                  fill
+                  className="object-cover"
+                />
+              </Link>
             </div>
 
             <ul className="space-y-3 mb-8">
@@ -142,7 +144,7 @@ export default function RequisitosTarjetaBBVAOroPage() {
             <p className="text-lg text-gray-700 mb-6 font-normal">
               <strong>Conoce más:</strong>{" "}
               <Link
-                href="/finanzas-personales/que-es-el-score-crediticio-y-por-que-es-tan-importante"
+                href="/finanzas-personales/cat-en-tarjetas-de-credito"
                 className="text-blue-600 hover:underline"
               >
                 ¿Cómo saber si estás en buró de crédito y qué significa?
@@ -215,12 +217,14 @@ export default function RequisitosTarjetaBBVAOroPage() {
             </p>
 
             <div className="relative w-full h-64 md:h-[400px] my-8 rounded-sm overflow-hidden shadow-lg">
-              <Image
-                src="https://media.topfinanzas.com/images/call-to-ACTION-3.jpg"
-                alt="Seguro de protección"
-                fill
-                className="object-cover"
-              />
+              <Link href="/soluciones-financieras/cual-es-el-mejor-prestamo-personal">
+                <Image
+                  src="https://media.topfinanzas.com/images/call-to-ACTION-3.jpg"
+                  alt="Seguro de protección"
+                  fill
+                  className="object-cover"
+                />
+              </Link>
             </div>
 
             <ul className="space-y-3 mb-8">
@@ -275,18 +279,20 @@ export default function RequisitosTarjetaBBVAOroPage() {
             </p>
 
             <div className="relative w-full h-64 md:h-[400px] my-8 rounded-sm overflow-hidden shadow-lg">
-              <Image
-                src="https://media.topfinanzas.com/images/call-to-ACTION-2.jpg"
-                alt="Promociones exclusivas"
-                fill
-                className="object-cover"
-              />
+              <Link href="/finanzas-personales/cat-en-tarjetas-de-credito">
+                <Image
+                  src="https://media.topfinanzas.com/images/call-to-ACTION-2.jpg"
+                  alt="Promociones exclusivas"
+                  fill
+                  className="object-cover"
+                />
+              </Link>
             </div>
 
             <p className="text-lg text-gray-700 mb-6 font-normal">
               <strong>Conoce más:</strong>{" "}
               <Link
-                href="/finanzas-personales/3-tarjetas-de-credito-sin-anualidad-populares-en-mexico"
+                href="/soluciones-financieras/tarjetas-de-credito-sin-anualidad"
                 className="text-blue-600 hover:underline"
               >
                 Top tarjetas de neobancos
@@ -429,12 +435,14 @@ export default function RequisitosTarjetaBBVAOroPage() {
             </ul>
 
             <div className="relative w-full h-64 md:h-[400px] my-8 rounded-sm overflow-hidden shadow-lg">
-              <Image
-                src="https://media.topfinanzas.com/images/call-to-ACTION-4.jpg"
-                alt="Proceso de solicitud"
-                fill
-                className="object-cover"
-              />
+              <Link href="/finanzas-personales/tarjetas-de-credito-para-estudiantes">
+                <Image
+                  src="https://media.topfinanzas.com/images/call-to-ACTION-4.jpg"
+                  alt="Proceso de solicitud"
+                  fill
+                  className="object-cover"
+                />
+              </Link>
             </div>
 
             {/* ¿Por qué elegir la tarjeta BBVA Oro? */}

@@ -316,7 +316,14 @@ This layout standard is **mandatory and non-negotiable**. It has been validated 
 - **Filtering**: Use dynamic filtering based on `category` and `subCategory`.
 - **No Legacy Content**: Ensure no UK-specific or legacy content is re-introduced.
 
-### 5. SEO Optimization
+### 5. Article Page Footer Standard
+
+**CRITICAL**: All article pages in `/app/finanzas-personales/` and `/app/soluciones-financieras/` MUST use the `CompactFooter` component.
+
+- **Import**: `import { CompactFooter } from "@/components/layout/compact-footer";`
+- **Usage**: Place `<CompactFooter />` at the bottom of the layout, replacing any other footer component.
+
+### 6. SEO Optimization
 
 - **Meta Tags**: Comprehensive metadata
 - **Schema Markup**: Structured data

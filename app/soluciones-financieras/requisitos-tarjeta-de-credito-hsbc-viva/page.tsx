@@ -191,16 +191,18 @@ export default function RequisitosTarjetaHSBCVivaPage() {
 
             {/* CTA Banner 1 */}
             <div className="relative w-full h-32 md:h-48 my-8 rounded-sm overflow-hidden shadow-lg">
-              <Image
-                src="https://media.topfinanzas.com/images/call-to-ACTION-3.jpg"
-                alt="Entiende el CAT en Tarjetas de Crédito"
-                fill
-                className="object-cover"
-              />
+              <Link href="/finanzas-personales/cat-en-tarjetas-de-credito">
+                <Image
+                  src="https://media.topfinanzas.com/images/call-to-ACTION-3.jpg"
+                  alt="Entiende el CAT en Tarjetas de Crédito"
+                  fill
+                  className="object-cover"
+                />
+              </Link>
             </div>
             <div className="flex justify-center mb-8">
               <Link
-                href="/finanzas-personales/que-es-el-score-crediticio-y-por-que-es-tan-importante"
+                href="/finanzas-personales/cat-en-tarjetas-de-credito"
                 className="bg-orange-500 hover:bg-orange-600 text-white font-bold py-3 px-12 rounded-full transition-colors text-lg"
               >
                 Ver ahora
@@ -211,7 +213,7 @@ export default function RequisitosTarjetaHSBCVivaPage() {
             <div className="mb-8">
               <span className="font-bold text-black">Conoce más: </span>
               <Link
-                href="/finanzas-personales/que-es-el-score-crediticio-y-por-que-es-tan-importante"
+                href="/finanzas-personales/cat-en-tarjetas-de-credito"
                 className="text-blue-600 hover:underline"
               >
                 ¿Cómo saber si estás en buró de crédito y qué significa?
@@ -321,16 +323,18 @@ export default function RequisitosTarjetaHSBCVivaPage() {
 
             {/* CTA Banner 2 */}
             <div className="relative w-full h-32 md:h-48 my-8 rounded-sm overflow-hidden shadow-lg">
-              <Image
-                src="https://media.topfinanzas.com/images/call-to-ACTION-2.jpg"
-                alt="Top tarjetas de crédito sin anualidad"
-                fill
-                className="object-cover"
-              />
+              <Link href="/soluciones-financieras/tarjetas-de-credito-sin-anualidad">
+                <Image
+                  src="https://media.topfinanzas.com/images/call-to-ACTION-2.jpg"
+                  alt="Top tarjetas de crédito sin anualidad"
+                  fill
+                  className="object-cover"
+                />
+              </Link>
             </div>
             <div className="flex justify-center mb-8">
               <Link
-                href="/finanzas-personales/3-tarjetas-de-credito-sin-anualidad-populares-en-mexico"
+                href="/soluciones-financieras/tarjetas-de-credito-sin-anualidad"
                 className="bg-orange-500 hover:bg-orange-600 text-white font-bold py-3 px-12 rounded-full transition-colors text-lg"
               >
                 Ver ahora
@@ -352,7 +356,7 @@ export default function RequisitosTarjetaHSBCVivaPage() {
             <div className="mb-8">
               <span className="font-bold text-black">Conoce más: </span>
               <Link
-                href="/finanzas-personales/3-tarjetas-de-credito-sin-anualidad-populares-en-mexico"
+                href="/soluciones-financieras/tarjetas-de-credito-sin-anualidad"
                 className="text-blue-600 hover:underline"
               >
                 Top tarjetas de neobancos
@@ -361,12 +365,14 @@ export default function RequisitosTarjetaHSBCVivaPage() {
 
             {/* CTA Banner 3 */}
             <div className="relative w-full h-32 md:h-48 my-8 rounded-sm overflow-hidden shadow-lg">
-              <Image
-                src="https://media.topfinanzas.com/images/call-to-ACTION-4.jpg"
-                alt="Buscando el mejor préstamo personal"
-                fill
-                className="object-cover"
-              />
+              <Link href="/soluciones-financieras/cual-es-el-mejor-prestamo-personal">
+                <Image
+                  src="https://media.topfinanzas.com/images/call-to-ACTION-4.jpg"
+                  alt="Buscando el mejor préstamo personal"
+                  fill
+                  className="object-cover"
+                />
+              </Link>
             </div>
             <div className="flex justify-center mb-8">
               <Link

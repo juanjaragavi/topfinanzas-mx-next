@@ -128,24 +128,6 @@ export function Header() {
     return () => window.removeEventListener("scroll", onScroll);
   }, [lastScrollY]);
 
-  const archiveMonths = [
-    "octubre 2025",
-    "septiembre 2025",
-    "agosto 2025",
-    "julio 2025",
-    "junio 2025",
-    "mayo 2025",
-    "febrero 2025",
-    "enero 2025",
-    "diciembre 2024",
-    "septiembre 2024",
-    "agosto 2024",
-    "julio 2024",
-    "enero 2024",
-    "diciembre 2023",
-    "noviembre 2023",
-  ];
-
   return (
     <>
       {/* AdZep activation now handled exclusively by AdZepSPABridge */}
@@ -391,36 +373,38 @@ export function Header() {
               </button>
               {isCategoriesOpen && (
                 <div className="bg-gray-50 px-6 py-2 space-y-2">
-                  {/* Mock categories based on reference + existing nav */}
-                  <div className="flex items-center text-gray-600 py-1">
+                  <Link
+                    href="/soluciones-financieras"
+                    className="flex items-center text-gray-600 py-1 hover:text-[#015ECC]"
+                    onClick={closeMobileMenu}
+                  >
                     <ChevronRight className="w-4 h-4 mr-2 text-gray-300" />
-                    <span>Ahorro inteligente</span>
-                  </div>
-                  <div className="flex items-center text-gray-600 py-1">
+                    <span>Soluciones Financieras</span>
+                  </Link>
+                  <Link
+                    href="/finanzas-personales"
+                    className="flex items-center text-gray-600 py-1 hover:text-[#015ECC]"
+                    onClick={closeMobileMenu}
+                  >
                     <ChevronRight className="w-4 h-4 mr-2 text-gray-300" />
-                    <span>Deuda cero</span>
-                  </div>
-                  <div className="flex items-center text-gray-600 py-1">
+                    <span>Finanzas Personales</span>
+                  </Link>
+                  <Link
+                    href="/tarjetas"
+                    className="flex items-center text-gray-600 py-1 hover:text-[#015ECC]"
+                    onClick={closeMobileMenu}
+                  >
                     <ChevronRight className="w-4 h-4 mr-2 text-gray-300" />
-                    <span>Elige tu tarjeta</span>
-                  </div>
-                  <div className="flex items-center text-gray-600 py-1">
+                    <span>Tarjetas</span>
+                  </Link>
+                  <Link
+                    href="/prestamos"
+                    className="flex items-center text-gray-600 py-1 hover:text-[#015ECC]"
+                    onClick={closeMobileMenu}
+                  >
                     <ChevronRight className="w-4 h-4 mr-2 text-gray-300" />
-                    <span>Finanzas para el hogar</span>
-                  </div>
-                  <div className="flex items-center text-gray-600 py-1">
-                    <ChevronRight className="w-4 h-4 mr-2 text-gray-300" />
-                    <span>Finanzas para estudiantes</span>
-                  </div>
-                  <div className="flex items-center text-gray-600 py-1">
-                    <ChevronRight className="w-4 h-4 mr-2 text-gray-300" />
-                    <span>Finanzas para pymes</span>
-                  </div>
-                  <div className="flex items-center text-gray-600 py-1">
-                    <ChevronRight className="w-4 h-4 mr-2 text-gray-300" />
-                    <span>Finanzas para todos</span>
-                  </div>
-                  {/* ... others matching list */}
+                    <span>Préstamos</span>
+                  </Link>
                 </div>
               )}
             </div>
@@ -431,6 +415,7 @@ export function Header() {
             <Link
               href="/prestamos"
               className="block px-6 py-3 font-bold text-gray-800 uppercase tracking-wide hover:bg-gray-50"
+              onClick={closeMobileMenu}
             >
               PRÉSTAMOS
             </Link>
@@ -441,30 +426,10 @@ export function Header() {
             <Link
               href="/tarjetas"
               className="block px-6 py-3 font-bold text-gray-800 uppercase tracking-wide hover:bg-gray-50"
+              onClick={closeMobileMenu}
             >
               TARJETAS DE CRÉDITO
             </Link>
-
-            <div className="border-t border-gray-100 my-2"></div>
-
-            {/* Archivos (Styled with Red Arrow per screenshot? No, looks like regular header) */}
-            <div className="px-6 py-4">
-              <h3 className="font-bold text-gray-700 text-lg mb-4 flex items-center">
-                Archivos
-                {/* Screenshot has a red arrow line under 'Archivos'? Or separating it? 
-                    Actually looks like a red arrow graphic separating sections or highlighting. 
-                    For now, sticking to clean typography.
-                */}
-              </h3>
-              <div className="space-y-3">
-                {archiveMonths.map((month, idx) => (
-                  <div key={idx} className="flex items-center text-gray-600">
-                    <ChevronRight className="w-3 h-3 mr-3 text-gray-300" />
-                    <span className="text-base">{month}</span>
-                  </div>
-                ))}
-              </div>
-            </div>
           </div>
         </div>
       </div>

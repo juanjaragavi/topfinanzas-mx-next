@@ -6,7 +6,6 @@ import Image from "next/image";
 
 import {
   Sidebar,
-  SidebarAd,
   SidebarCategories,
   SidebarContent,
   SidebarFooter,
@@ -35,9 +34,6 @@ export default function SidebarExample() {
           </SidebarHeader>
 
           <SidebarContent>
-            {/* Banner Ad */}
-            <SidebarAd />
-
             {/* Recent Articles */}
             <SidebarRecentArticles>
               <div className="flex items-center gap-3">
@@ -173,9 +169,8 @@ export default function SidebarExample() {
 
           <p className="text-gray-700">
             This is an example implementation of the sidebar components. The
-            advertisement component (SidebarAd) would typically point to a
-            relevant product page, such as the Barclaycard Avios Plus
-            requirements page.
+            advertisement component would typically point to a relevant product
+            page, such as the Barclaycard Avios Plus requirements page.
           </p>
         </div>
       </div>

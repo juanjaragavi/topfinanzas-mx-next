@@ -108,13 +108,15 @@ export default function RequisitosTarjetaAzulBBVAPage() {
 
             {/* CTA Image 1 */}
             <div className="relative w-full h-auto my-8 rounded-sm overflow-hidden shadow-lg">
-              <Image
-                src="https://media.topfinanzas.com/images/call-to-ACTION-1.jpg"
-                alt="Solicitar Tarjeta"
-                width={800}
-                height={200}
-                className="w-full h-auto object-cover"
-              />
+              <Link href="/soluciones-financieras/tarjetas-de-credito-sin-anualidad">
+                <Image
+                  src="https://media.topfinanzas.com/images/call-to-ACTION-1.jpg"
+                  alt="Solicitar Tarjeta"
+                  width={800}
+                  height={200}
+                  className="w-full h-auto object-cover"
+                />
+              </Link>
             </div>
 
             {/* Section 2 */}
@@ -166,13 +168,15 @@ export default function RequisitosTarjetaAzulBBVAPage() {
 
             {/* CTA Image 2 */}
             <div className="relative w-full h-auto my-8 rounded-sm overflow-hidden shadow-lg">
-              <Image
-                src="https://media.topfinanzas.com/images/call-to-ACTION-3.jpg"
-                alt="Solicitar Tarjeta"
-                width={800}
-                height={200}
-                className="w-full h-auto object-cover"
-              />
+              <Link href="/soluciones-financieras/cual-es-el-mejor-prestamo-personal">
+                <Image
+                  src="https://media.topfinanzas.com/images/call-to-ACTION-3.jpg"
+                  alt="Solicitar Tarjeta"
+                  width={800}
+                  height={200}
+                  className="w-full h-auto object-cover"
+                />
+              </Link>
             </div>
 
             {/* Section 3 */}
@@ -217,13 +221,15 @@ export default function RequisitosTarjetaAzulBBVAPage() {
 
             {/* CTA Image 3 */}
             <div className="relative w-full h-auto my-8 rounded-sm overflow-hidden shadow-lg">
-              <Image
-                src="https://media.topfinanzas.com/images/call-to-ACTION-2.jpg"
-                alt="Solicitar Tarjeta"
-                width={800}
-                height={200}
-                className="w-full h-auto object-cover"
-              />
+              <Link href="/finanzas-personales/cat-en-tarjetas-de-credito">
+                <Image
+                  src="https://media.topfinanzas.com/images/call-to-ACTION-2.jpg"
+                  alt="Solicitar Tarjeta"
+                  width={800}
+                  height={200}
+                  className="w-full h-auto object-cover"
+                />
+              </Link>
             </div>
 
             {/* Section 4 */}
@@ -262,13 +268,15 @@ export default function RequisitosTarjetaAzulBBVAPage() {
 
             {/* CTA Image 4 */}
             <div className="relative w-full h-auto my-8 rounded-sm overflow-hidden shadow-lg">
-              <Image
-                src="https://media.topfinanzas.com/images/call-to-ACTION-4.jpg"
-                alt="Solicitar Tarjeta"
-                width={800}
-                height={200}
-                className="w-full h-auto object-cover"
-              />
+              <Link href="/finanzas-personales/tarjetas-de-credito-para-estudiantes">
+                <Image
+                  src="https://media.topfinanzas.com/images/call-to-ACTION-4.jpg"
+                  alt="Solicitar Tarjeta"
+                  width={800}
+                  height={200}
+                  className="w-full h-auto object-cover"
+                />
+              </Link>
             </div>
 
             {/* Section 5 */}
@@ -296,7 +304,7 @@ export default function RequisitosTarjetaAzulBBVAPage() {
             <p className="text-lg text-gray-700 mb-6 font-normal">
               Conoce más:{" "}
               <Link
-                href="/finanzas-personales/3-tarjetas-de-credito-sin-anualidad-populares-en-mexico"
+                href="/soluciones-financieras/tarjetas-de-credito-sin-anualidad"
                 className="text-blue-600 hover:underline"
               >
                 Top tarjetas de neobancos

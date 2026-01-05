@@ -84,19 +84,21 @@ export default function RequisitosTarjetaCreditoNuPage() {
             </p>
 
             <div className="relative w-full my-8 flex justify-center">
-              <Image
-                src="https://media.topfinanzas.com/images/call-to-ACTION-4.jpg"
-                alt="Tarjetas de crédito para estudiantes"
-                width={900}
-                height={300}
-                className="rounded-sm shadow-lg"
-              />
+              <Link href="/finanzas-personales/tarjetas-de-credito-para-estudiantes">
+                <Image
+                  src="https://media.topfinanzas.com/images/call-to-ACTION-4.jpg"
+                  alt="Tarjetas de crédito para estudiantes"
+                  width={900}
+                  height={300}
+                  className="rounded-sm shadow-lg"
+                />
+              </Link>
             </div>
 
             <p className="text-gray-700 mb-6 font-normal">
               <strong>Conoce más:</strong>{" "}
               <Link
-                href="/finanzas-personales/3-tarjetas-de-credito-sin-anualidad-populares-en-mexico"
+                href="/finanzas-personales/tarjetas-de-credito-para-estudiantes"
                 className="text-blue-600 hover:underline"
               >
                 Tarjetas de crédito para estudiantes
@@ -181,7 +183,7 @@ export default function RequisitosTarjetaCreditoNuPage() {
             <p className="text-gray-700 mb-6 font-normal">
               Conoce más:{" "}
               <Link
-                href="/finanzas-personales/que-es-el-score-crediticio-y-por-que-es-tan-importante"
+                href="/finanzas-personales/cat-en-tarjetas-de-credito"
                 className="text-blue-600 hover:underline"
               >
                 ¿Cómo saber si estás en buró de crédito y qué significa?
@@ -220,7 +222,7 @@ export default function RequisitosTarjetaCreditoNuPage() {
             <p className="text-gray-700 mb-6 font-normal">
               <strong>Conoce más:</strong>{" "}
               <Link
-                href="/finanzas-personales/que-es-el-score-crediticio-y-por-que-es-tan-importante"
+                href="/finanzas-personales/cat-en-tarjetas-de-credito"
                 className="text-blue-600 hover:underline"
               >
                 Entiende el CAT en Tarjetas de Crédito
@@ -228,12 +230,14 @@ export default function RequisitosTarjetaCreditoNuPage() {
             </p>
 
             <div className="relative w-full h-64 md:h-[400px] my-8 rounded-sm overflow-hidden shadow-lg">
-              <Image
-                src="https://media.topfinanzas.com/images/call-to-ACTION-2.jpg"
-                alt="Entiende el CAT en Tarjetas de Crédito"
-                fill
-                className="object-contain"
-              />
+              <Link href="/finanzas-personales/cat-en-tarjetas-de-credito">
+                <Image
+                  src="https://media.topfinanzas.com/images/call-to-ACTION-2.jpg"
+                  alt="Entiende el CAT en Tarjetas de Crédito"
+                  fill
+                  className="object-contain"
+                />
+              </Link>
             </div>
 
             <h2 className="text-2xl md:text-3xl font-bold text-gray-700 mt-10 mb-4 leading-tight">
@@ -269,7 +273,7 @@ export default function RequisitosTarjetaCreditoNuPage() {
             <p className="text-gray-700 mb-6 font-normal">
               Conoce más:{" "}
               <Link
-                href="/finanzas-personales/3-tarjetas-de-credito-sin-anualidad-populares-en-mexico"
+                href="/soluciones-financieras/tarjetas-de-credito-sin-anualidad"
                 className="text-blue-600 hover:underline"
               >
                 Top tarjetas de neobancos
@@ -297,13 +301,15 @@ export default function RequisitosTarjetaCreditoNuPage() {
             </p>
 
             <div className="relative w-full my-8 flex justify-center">
-              <Image
-                src="https://media.topfinanzas.com/images/call-to-ACTION-1.jpg"
-                alt="Top tarjetas de crédito sin anualidad"
-                width={900}
-                height={300}
-                className="rounded-sm shadow-lg"
-              />
+              <Link href="/soluciones-financieras/tarjetas-de-credito-sin-anualidad">
+                <Image
+                  src="https://media.topfinanzas.com/images/call-to-ACTION-1.jpg"
+                  alt="Top tarjetas de crédito sin anualidad"
+                  width={900}
+                  height={300}
+                  className="rounded-sm shadow-lg"
+                />
+              </Link>
             </div>
 
             <h3 className="text-xl md:text-2xl font-bold text-gray-700 mt-8 mb-3 leading-tight">
@@ -338,13 +344,15 @@ export default function RequisitosTarjetaCreditoNuPage() {
             </p>
 
             <div className="relative w-full my-8 flex justify-center">
-              <Image
-                src="https://media.topfinanzas.com/images/call-to-ACTION-3.jpg"
-                alt="Opciones de préstamo personal"
-                width={900}
-                height={300}
-                className="rounded-sm shadow-lg"
-              />
+              <Link href="/soluciones-financieras/cual-es-el-mejor-prestamo-personal">
+                <Image
+                  src="https://media.topfinanzas.com/images/call-to-ACTION-3.jpg"
+                  alt="Opciones de préstamo personal"
+                  width={900}
+                  height={300}
+                  className="rounded-sm shadow-lg"
+                />
+              </Link>
             </div>
 
             <h2 className="text-2xl md:text-3xl font-bold text-gray-700 mt-10 mb-4 leading-tight">

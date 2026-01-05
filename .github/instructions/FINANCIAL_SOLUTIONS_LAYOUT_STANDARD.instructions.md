@@ -24,8 +24,7 @@ This document defines the **mandatory standardized layout** for all Credit Card 
 
 Every financial product must have **TWO separate pages**:
 
-1. **Benefits Page**: `/soluciones-financieras/{product-slug}/page.tsx`
-2. **Requirements Page**: `/soluciones-financieras/{product-slug}-requirements/page.tsx`
+1. **Benefits Page**: `/soluciones-financieras/{product-slug}/page.tsx` 2. **Requirements Page**: `/soluciones-financieras/requisitos-{product-slug}/page.tsx`
 
 ---
 
@@ -49,7 +48,7 @@ import { AIContentDisclaimer } from "@/components/ui/ai-content-disclaimer";
 ```typescript
 export function generateMetadata() {
   return {
-    title: "{Product Name}: {Value Proposition} - Top Finance UK",
+    title: "{Product Name}: {Value Proposition} - Top Finanzas MX",
     description: "{Compelling 150-160 character description}",
     keywords: "{comma-separated keywords}",
   };
@@ -87,8 +86,10 @@ export default function ProductPage() {
 
               {/* ELEMENT 5: FIRST AD UNIT */}
               <div
-                id="uk_topfinanzas_3"
-                className="items-center justify-center flex w-full my-8"
+                id="square02"
+                data-topads
+                data-topads-size="square"
+                className="my-8"
               >
                 {/* Empty responsive, centered div */}
               </div>
@@ -109,10 +110,10 @@ export default function ProductPage() {
                 {/* Repeat for 4 features total */}
               </div>
 
-              {/* ELEMENT 8: VIEW REQUIREMENTS BUTTON */}
-              <div className="text-left my-8">
-                <Link href="/soluciones-financieras/{product-slug}-requirements">
-                  <Button className="bg-[{BRAND_COLOR}] hover:bg-green-800 text-white font-medium text-md py-2 px-8 rounded-full w-full">
+              {/* ELEMENT 8: VIEW REQUIREMENTS BUTTOrequisitos-{product-slug}">
+                  <button className="w-full bg-[{BRAND_COLOR}] hover:opacity-90 text-white font-medium py-4 px-8 rounded-full text-lg transition-colors">
+                    Quiero conocer los requisitos
+                  </btton className="bg-[{BRAND_COLOR}] hover:bg-green-800 text-white font-medium text-md py-2 px-8 rounded-full w-full">
                     View Requirements
                   </Button>
                 </Link>
@@ -149,8 +150,10 @@ export default function ProductPage() {
 
                 {/* ELEMENT 11: SECOND AD UNIT */}
                 <div
-                  id="uk_topfinanzas_4"
-                  className="items-center justify-center flex w-full my-8"
+                  id="square02"
+                  data-topads
+                  data-topads-size="square"
+                  className="my-8"
                 >
                   {/* Empty responsive, centered div */}
                 </div>
@@ -241,10 +244,10 @@ export default function ProductPage() {
 
                 {/* ELEMENT 18: FINAL CTA BUTTON */}
                 <div className="text-left my-8">
-                  <Link href="/soluciones-financieras/{product-slug}-requirements">
-                    <Button className="bg-[{BRAND_COLOR}] hover:bg-blue-800 text-white font-medium text-md py-2 px-8 rounded-full w-full">
-                      View Requirements
-                    </Button>
+                  <Link href="/soluciones-financieras/requisitos-{product-slug}">
+                    <button className="w-full bg-[{BRAND_COLOR}] hover:opacity-90 text-white font-medium py-4 px-8 rounded-full text-lg transition-colors">
+                      Quiero conocer los requisitos
+                    </button>
                   </Link>
                 </div>
 
@@ -286,7 +289,7 @@ import { AIContentDisclaimer } from "@/components/ui/ai-content-disclaimer";
 export function generateMetadata() {
   return {
     title:
-      "{Product Name} Requirements: Everything You Need to Know - Top Finance UK",
+      "{Product Name} Requirements: Everything You Need to Know - Top Finanzas MX",
     description: "{Eligibility and application information, 150-160 chars}",
     keywords:
       "{product name} requirements, eligibility, application, credit score, UK credit cards",
@@ -318,7 +321,9 @@ export default function ProductRequirementsPage() {
 
             {/* ELEMENT 4: FIRST AD UNIT */}
             <div
-              id="uk_topfinanzas_3"
+              id="square03"
+              data-topads
+              data-topads-size="square"
               className="items-center justify-center flex w-full my-6"
             >
               {/* Empty responsive, centered div */}
@@ -364,7 +369,9 @@ export default function ProductRequirementsPage() {
                   {/* Repeat for all eligibility criteria */}
                 </div>
 
-                {/* ELEMENT 8: SECOND AD UNIT */}
+                {/* ELsquare04"
+                  data-topads
+                  data-topads-size="squareAD UNIT */}
                 <div
                   id="uk_topfinanzas_4"
                   className="items-center justify-center flex w-full my-6"
@@ -498,10 +505,10 @@ export default function ProductRequirementsPage() {
 
                 {/* ELEMENT 17: FINAL EXTERNAL CTA BUTTON */}
                 <div className="text-left my-8">
-                  <Link href="{OFFICIAL_BANK_URL}">
-                    <Button className="bg-[{BRAND_COLOR}] hover:bg-blue-800 text-white font-medium text-md py-2 px-8 rounded-full w-full">
-                      Visit Official Website
-                    </Button>
+                  <Link href="{OFFICIAL_BANK_URL}" className="block w-full mb-12" target="_blank" rel="noopener noreferrer">
+                    <button className="w-full bg-[{BRAND_COLOR}] hover:bg-blue-800 text-white font-medium py-4 px-8 rounded-full text-lg transition-colors">
+                      Ver en sitio oficial
+                    </button>
                   </Link>
                 </div>
               </section>

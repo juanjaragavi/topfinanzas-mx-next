@@ -1,6 +1,7 @@
 import React from "react";
 import Image from "next/image";
 import Link from "next/link";
+import { CompactFooter } from "@/components/layout/compact-footer";
 import { Card, CardContent } from "@/components/ui/card";
 import { CheckCircle2, AlertCircle } from "lucide-react";
 import { Metadata } from "next";
@@ -339,6 +340,7 @@ export default function FondoEmergenciaPage() {
           </div>
         </div>
       </div>
+      <CompactFooter />
     </div>
   );
 }

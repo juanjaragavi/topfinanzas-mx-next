@@ -136,12 +136,14 @@ export default function RequisitosTarjetaSimplicityPage() {
 
             {/* Image 2 */}
             <div className="relative w-full h-64 md:h-[400px] my-8 rounded-sm overflow-hidden shadow-lg">
-              <Image
-                src="https://media.topfinanzas.com/images/call-to-ACTION-1.jpg"
-                alt="Solicitar Tarjeta Joy Banamex"
-                fill
-                className="object-contain"
-              />
+              <Link href="/soluciones-financieras/tarjetas-de-credito-sin-anualidad">
+                <Image
+                  src="https://media.topfinanzas.com/images/call-to-ACTION-1.jpg"
+                  alt="Solicitar Tarjeta Joy Banamex"
+                  fill
+                  className="object-contain"
+                />
+              </Link>
             </div>
 
             {/* Tasa de interés */}
@@ -199,13 +201,15 @@ export default function RequisitosTarjetaSimplicityPage() {
 
             {/* Joy Card Image */}
             <div className="relative w-full my-8 flex justify-center">
-              <Image
-                src="https://media.topfinanzas.com/images/call-to-ACTION-2.jpg"
-                alt="Tarjeta de crédito Joy de Banamex"
-                width={400}
-                height={250}
-                className="rounded-sm shadow-lg"
-              />
+              <Link href="/finanzas-personales/cat-en-tarjetas-de-credito">
+                <Image
+                  src="https://media.topfinanzas.com/images/call-to-ACTION-2.jpg"
+                  alt="Tarjeta de crédito Joy de Banamex"
+                  width={400}
+                  height={250}
+                  className="rounded-sm shadow-lg"
+                />
+              </Link>
             </div>
 
             <p className="text-gray-700 mb-6 font-normal">
@@ -220,12 +224,14 @@ export default function RequisitosTarjetaSimplicityPage() {
 
             {/* Image 3 */}
             <div className="relative w-full h-64 md:h-[400px] my-8 rounded-sm overflow-hidden shadow-lg">
-              <Image
-                src="https://media.topfinanzas.com/images/call-to-ACTION-3.jpg"
-                alt="Beneficios Tarjeta Joy"
-                fill
-                className="object-contain"
-              />
+              <Link href="/soluciones-financieras/cual-es-el-mejor-prestamo-personal">
+                <Image
+                  src="https://media.topfinanzas.com/images/call-to-ACTION-3.jpg"
+                  alt="Beneficios Tarjeta Joy"
+                  fill
+                  className="object-contain"
+                />
+              </Link>
             </div>
 
             {/* Que debo hacer para tenerla */}
@@ -280,18 +286,20 @@ export default function RequisitosTarjetaSimplicityPage() {
 
             {/* Image 4 */}
             <div className="relative w-full h-64 md:h-[400px] my-8 rounded-sm overflow-hidden shadow-lg">
-              <Image
-                src="https://media.topfinanzas.com/images/call-to-ACTION-2.jpg"
-                alt="Requisitos Tarjeta Joy"
-                fill
-                className="object-contain"
-              />
+              <Link href="/finanzas-personales/cat-en-tarjetas-de-credito">
+                <Image
+                  src="https://media.topfinanzas.com/images/call-to-ACTION-2.jpg"
+                  alt="Requisitos Tarjeta Joy"
+                  fill
+                  className="object-contain"
+                />
+              </Link>
             </div>
 
             <p className="text-gray-700 mb-6 font-normal">
               Conoce más:{" "}
               <Link
-                href="/finanzas-personales/que-es-el-score-crediticio-y-por-que-es-tan-importante"
+                href="/finanzas-personales/cat-en-tarjetas-de-credito"
                 className="text-blue-600 hover:underline"
               >
                 ¿Cómo saber si estás en buró de crédito y qué significa?
@@ -358,12 +366,14 @@ export default function RequisitosTarjetaSimplicityPage() {
             {/* Por que elegir */}
             {/* Image 5 */}
             <div className="relative w-full h-64 md:h-[400px] my-8 rounded-sm overflow-hidden shadow-lg">
-              <Image
-                src="https://media.topfinanzas.com/images/call-to-ACTION-4.jpg"
-                alt="Pasos para solicitar Tarjeta Joy"
-                fill
-                className="object-contain"
-              />
+              <Link href="/finanzas-personales/tarjetas-de-credito-para-estudiantes">
+                <Image
+                  src="https://media.topfinanzas.com/images/call-to-ACTION-4.jpg"
+                  alt="Pasos para solicitar Tarjeta Joy"
+                  fill
+                  className="object-contain"
+                />
+              </Link>
             </div>
 
             <h2 className="text-2xl md:text-3xl font-bold text-gray-700 mt-10 mb-4 leading-tight">
@@ -388,7 +398,7 @@ export default function RequisitosTarjetaSimplicityPage() {
             <p className="text-gray-700 mb-6 font-normal">
               Conoce más:{" "}
               <Link
-                href="/finanzas-personales/3-tarjetas-de-credito-sin-anualidad-populares-en-mexico"
+                href="/soluciones-financieras/tarjetas-de-credito-sin-anualidad"
                 className="text-blue-600 hover:underline"
               >
                 Top tarjetas de neobancos

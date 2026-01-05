@@ -134,19 +134,21 @@ export default function RequisitosTarjetaStoriPage() {
 
             {/* Image: Eres estudiante */}
             <div className="mb-6">
-              <Image
-                src="https://media.topfinanzas.com/images/call-to-ACTION-1.jpg"
-                alt="¿Eres estudiante?"
-                width={800}
-                height={400}
-                className="w-full h-auto rounded-sm shadow-md"
-              />
+              <Link href="/finanzas-personales/tarjetas-de-credito-para-estudiantes">
+                <Image
+                  src="https://media.topfinanzas.com/images/call-to-ACTION-1.jpg"
+                  alt="¿Eres estudiante?"
+                  width={800}
+                  height={400}
+                  className="w-full h-auto rounded-sm shadow-md"
+                />
+              </Link>
             </div>
             <div className="mb-10">
               <p className="text-gray-700">
                 <strong>Conoce más:</strong>{" "}
                 <Link
-                  href="/finanzas-personales/3-tarjetas-de-credito-sin-anualidad-populares-en-mexico"
+                  href="/finanzas-personales/tarjetas-de-credito-para-estudiantes"
                   className="text-blue-600 hover:underline"
                 >
                   Tarjetas de crédito para estudiantes
@@ -198,19 +200,21 @@ export default function RequisitosTarjetaStoriPage() {
 
             {/* Image: Buscando el mejor préstamo */}
             <div className="mb-6">
-              <Image
-                src="https://media.topfinanzas.com/images/call-to-ACTION-4.jpg"
-                alt="¿Buscando el mejor préstamo personal?"
-                width={800}
-                height={400}
-                className="w-full h-auto rounded-sm shadow-md"
-              />
+              <Link href="/soluciones-financieras/cual-es-el-mejor-prestamo-personal">
+                <Image
+                  src="https://media.topfinanzas.com/images/call-to-ACTION-4.jpg"
+                  alt="¿Buscando el mejor préstamo personal?"
+                  width={800}
+                  height={400}
+                  className="w-full h-auto rounded-sm shadow-md"
+                />
+              </Link>
             </div>
             <div className="mb-10">
               <p className="text-gray-700">
                 <strong>Conoce más:</strong>{" "}
                 <Link
-                  href="/prestamos"
+                  href="/soluciones-financieras/cual-es-el-mejor-prestamo-personal"
                   className="text-blue-600 hover:underline"
                 >
                   ¿Cuál es el mejor préstamo personal?
@@ -300,19 +304,21 @@ export default function RequisitosTarjetaStoriPage() {
 
             {/* Image: Top tarjetas */}
             <div className="mb-6">
-              <Image
-                src="https://media.topfinanzas.com/images/call-to-ACTION-2.jpg"
-                alt="Top tarjetas de crédito sin anualidad"
-                width={800}
-                height={400}
-                className="w-full h-auto rounded-sm shadow-md"
-              />
+              <Link href="/soluciones-financieras/tarjetas-de-credito-sin-anualidad">
+                <Image
+                  src="https://media.topfinanzas.com/images/call-to-ACTION-2.jpg"
+                  alt="Top tarjetas de crédito sin anualidad"
+                  width={800}
+                  height={400}
+                  className="w-full h-auto rounded-sm shadow-md"
+                />
+              </Link>
             </div>
             <div className="mb-10">
               <p className="text-gray-700">
                 <strong>Conoce más:</strong>{" "}
                 <Link
-                  href="/finanzas-personales/3-tarjetas-de-credito-sin-anualidad-populares-en-mexico"
+                  href="/soluciones-financieras/tarjetas-de-credito-sin-anualidad"
                   className="text-blue-600 hover:underline"
                 >
                   Top tarjetas de crédito sin anualidad
@@ -355,19 +361,21 @@ export default function RequisitosTarjetaStoriPage() {
 
             {/* Image: Entiende el CAT */}
             <div className="mb-6">
-              <Image
-                src="https://media.topfinanzas.com/images/call-to-ACTION-3.jpg"
-                alt="Entiende el CAT en Tarjetas de Crédito"
-                width={800}
-                height={400}
-                className="w-full h-auto rounded-sm shadow-md"
-              />
+              <Link href="/finanzas-personales/cat-en-tarjetas-de-credito">
+                <Image
+                  src="https://media.topfinanzas.com/images/call-to-ACTION-3.jpg"
+                  alt="Entiende el CAT en Tarjetas de Crédito"
+                  width={800}
+                  height={400}
+                  className="w-full h-auto rounded-sm shadow-md"
+                />
+              </Link>
             </div>
             <div className="mb-10">
               <p className="text-gray-700">
                 <strong>Conoce más:</strong>{" "}
                 <Link
-                  href="/finanzas-personales/que-es-el-score-crediticio-y-por-que-es-tan-importante"
+                  href="/finanzas-personales/cat-en-tarjetas-de-credito"
                   className="text-blue-600 hover:underline"
                 >
                   Entiende el CAT en Tarjetas de Crédito
