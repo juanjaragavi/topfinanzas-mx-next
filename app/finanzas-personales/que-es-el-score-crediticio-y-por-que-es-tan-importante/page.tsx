@@ -1,6 +1,7 @@
 import React from "react";
 import Image from "next/image";
 import Link from "next/link";
+import { CompactFooter } from "@/components/layout/compact-footer";
 import { Card, CardContent } from "@/components/ui/card";
 import {
   CheckCircle2,
@@ -346,6 +347,7 @@ export default function ScoreCrediticioPage() {
           </div>
         </div>
       </div>
+      <CompactFooter />
     </div>
   );
 }

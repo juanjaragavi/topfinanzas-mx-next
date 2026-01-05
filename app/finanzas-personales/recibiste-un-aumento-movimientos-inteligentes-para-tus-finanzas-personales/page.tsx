@@ -1,5 +1,6 @@
 import Image from "next/image";
 import Link from "next/link";
+import { CompactFooter } from "@/components/layout/compact-footer";
 import { Button } from "@/components/ui/button";
 import { Card, CardContent } from "@/components/ui/card";
 import {
@@ -346,6 +347,7 @@ export default function AumentoSueldoPage() {
           </div>
         </div>
       </section>
+      <CompactFooter />
     </main>
   );
 }

@@ -1,5 +1,6 @@
 import Image from "next/image";
 import Link from "next/link";
+import { CompactFooter } from "@/components/layout/compact-footer";
 import { Button } from "@/components/ui/button";
 import {
   CheckCircle2,
@@ -399,6 +400,7 @@ export default function ErroresFinancieros20sPage() {
           </div>
         </div>
       </section>
+      <CompactFooter />
     </main>
   );
 }

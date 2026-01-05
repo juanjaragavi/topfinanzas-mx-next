@@ -4,6 +4,7 @@ import { useEffect, useState } from "react";
 import { useRouter } from "next/navigation";
 import AdController from "@/components/ads/AdController";
 import CreditCardFormToProduct from "@/components/credit-card-form-to-product";
+import { CompactFooter } from "@/components/layout/compact-footer";
 import {
   buildRedirectPath,
   readRecommenderLockFromClient,
@@ -58,10 +59,13 @@ export default function Home() {
   }
 
   return (
-    <section className="w-full p-0">
-      {/* Disable ads specifically on this page */}
-      <AdController disableAds={true} />
-      <CreditCardFormToProduct />
-    </section>
+    <main className="w-full p-0 flex flex-col min-h-screen">
+      <section className="flex-grow">
+        {/* Disable ads specifically on this page */}
+        <AdController disableAds={true} />
+        <CreditCardFormToProduct />
+      </section>
+      <CompactFooter />
+    </main>
   );
 }
