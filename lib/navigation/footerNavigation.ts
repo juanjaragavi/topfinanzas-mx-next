@@ -71,22 +71,22 @@ export const footerNavigation = {
     links: [
       {
         platform: "Facebook",
-        url: "https://www.facebook.com/topfinanzas", // Placeholder
+        url: "https://www.facebook.com/TopFinanzasParaTi", // Placeholder
         ariaLabel: "Facebook",
       },
       {
         platform: "YouTube",
-        url: "https://www.youtube.com/@topfinanzas", // Placeholder
+        url: "https://www.youtube.com/@top_finanzas_latam", // Placeholder
         ariaLabel: "YouTube",
       },
       {
         platform: "Instagram",
-        url: "https://www.instagram.com/topfinanzas/",
+        url: "https://www.youtube.com/@top_finanzas_latam",
         ariaLabel: "Instagram",
       },
       {
         platform: "TikTok",
-        url: "https://www.tiktok.com/@topfinanzas", // Placeholder
+        url: "https://www.tiktok.com/@top.finanzas.latam", // Placeholder
         ariaLabel: "TikTok",
       },
     ],

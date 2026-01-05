@@ -159,30 +159,6 @@ export function BlogLayout({ children, metadata }: BlogLayoutProps) {
                         </Link>
                       </div>
                     </div>
-                    {/* Lifestyle Creep Article */}
-                    <div className="flex items-center gap-3">
-                      <Image
-                        src="https://media.topfinanzas.com/images/lifestyle-creep-finanzas-personales.webp"
-                        alt="What Is Lifestyle Creep and How Is It Silently Draining Your Wallet"
-                        width={50}
-                        height={50}
-                        loading="lazy"
-                        priority={false}
-                        className="rounded-sm object-cover"
-                        onError={(e) => {
-                          e.currentTarget.src =
-                            "https://media.topfinanzas.com/images/placeholder-image.webp";
-                        }}
-                      />
-                      <div>
-                        <Link
-                          href="/finanzas-personales/what-is-lifestyle-creep"
-                          className="text-sm font-medium hover:underline line-clamp-2"
-                        >
-                          ¿Qué es la "Inflación del Estilo de Vida"?
-                        </Link>
-                      </div>
-                    </div>
                     {/* Budget Article */}
                     <div className="flex items-center gap-3">
                       <Image
