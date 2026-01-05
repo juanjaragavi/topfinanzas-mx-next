@@ -196,7 +196,7 @@ export default function RequisitosTarjetaVolarisInvex0Page() {
             <p className="text-gray-700 mb-6 font-normal">
               Conoce más:{" "}
               <Link
-                href="/finanzas-personales/tarjetas-de-credito-de-neobancos"
+                href="/soluciones-financieras/tarjetas-de-credito-sin-anualidad"
                 className="text-blue-600 hover:underline"
               >
                 Top tarjetas de neobancos
@@ -249,7 +249,9 @@ export default function RequisitosTarjetaVolarisInvex0Page() {
               <li className="flex items-start">
                 <BlueArrowIcon />
                 <span className="text-gray-700">
-                  <strong className="text-gray-900">Bonos de bienvenida:</strong>{" "}
+                  <strong className="text-gray-900">
+                    Bonos de bienvenida:
+                  </strong>{" "}
                   Al solicitar y ser aprobado para la Tarjeta de Crédito Volaris
                   INVEX, podrás acceder a bonos de bienvenida, como puntos
                   adicionales o descuentos en tu primer vuelo con Volaris.
@@ -278,8 +280,7 @@ export default function RequisitosTarjetaVolarisInvex0Page() {
               <li className="flex items-start">
                 <BlueArrowIcon />
                 <span className="text-gray-700">
-                  <strong className="text-gray-900">CAT:</strong> 23.8% sin
-                  IVA.
+                  <strong className="text-gray-900">CAT:</strong> 23.8% sin IVA.
                 </span>
               </li>
               <li className="flex items-start">

@@ -167,7 +167,7 @@ export default function RequisitosTarjetaTigresAfirmePage() {
             </div>
             <div className="flex justify-center mb-8">
               <Link
-                href="/finanzas-personales/3-tarjetas-de-credito-sin-anualidad-populares-en-mexico"
+                href="/soluciones-financieras/tarjetas-de-credito-sin-anualidad"
                 className="bg-orange-500 hover:bg-orange-600 text-white font-bold py-3 px-12 rounded-full transition-colors text-lg"
               >
                 Conoce más
@@ -259,7 +259,7 @@ export default function RequisitosTarjetaTigresAfirmePage() {
             <div className="mb-8">
               <span className="font-bold text-black">Conoce más: </span>
               <Link
-                href="/finanzas-personales/3-tarjetas-de-credito-sin-anualidad-populares-en-mexico"
+                href="/soluciones-financieras/tarjetas-de-credito-sin-anualidad"
                 className="text-blue-600 hover:underline"
               >
                 Top tarjetas de neobancos
@@ -277,7 +277,7 @@ export default function RequisitosTarjetaTigresAfirmePage() {
             </div>
             <div className="flex justify-center mb-8">
               <Link
-                href="/finanzas-personales/que-es-el-score-crediticio-y-por-que-es-tan-importante"
+                href="/finanzas-personales/cat-en-tarjetas-de-credito"
                 className="bg-orange-500 hover:bg-orange-600 text-white font-bold py-3 px-12 rounded-full transition-colors text-lg"
               >
                 Ver ahora
@@ -354,7 +354,7 @@ export default function RequisitosTarjetaTigresAfirmePage() {
             <div className="mb-8">
               <span className="font-bold text-black">Conoce más: </span>
               <Link
-                href="/finanzas-personales/que-es-el-score-crediticio-y-por-que-es-tan-importante"
+                href="/finanzas-personales/cat-en-tarjetas-de-credito"
                 className="text-blue-600 hover:underline"
               >
                 ¿Cómo saber si estás en buró de crédito y qué significa?

@@ -333,7 +333,7 @@ export default function RequisitosHSBCZeroPage() {
               <p className="text-gray-700">
                 <strong>Conoce más:</strong>{" "}
                 <Link
-                  href="/finanzas-personales/3-tarjetas-de-credito-sin-anualidad-populares-en-mexico"
+                  href="/soluciones-financieras/tarjetas-de-credito-sin-anualidad"
                   className="text-blue-600 hover:underline"
                 >
                   Top tarjetas de neobancos

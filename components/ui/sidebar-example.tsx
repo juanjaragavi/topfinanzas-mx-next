@@ -169,9 +169,8 @@ export default function SidebarExample() {
 
           <p className="text-gray-700">
             This is an example implementation of the sidebar components. The
-            advertisement component would typically point to a
-            relevant product page, such as the Barclaycard Avios Plus
-            requirements page.
+            advertisement component would typically point to a relevant product
+            page, such as the Barclaycard Avios Plus requirements page.
           </p>
         </div>
       </div>

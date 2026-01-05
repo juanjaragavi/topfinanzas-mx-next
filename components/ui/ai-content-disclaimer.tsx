@@ -91,10 +91,11 @@ export function AIContentDisclaimer() {
               Aviso de Contenido Generado por IA
             </h4>
             <p className="text-sm text-left sm:text-left text-gray-600 mb-2">
-              Este contenido fue generado utilizando herramientas de inteligencia artificial,
-              con información extensa recopilada de recursos en línea en tiempo real. Todo el
-              contenido generado (texto y potencialmente imágenes) ha sido curado,
-              revisado y corregido por un autor humano.
+              Este contenido fue generado utilizando herramientas de
+              inteligencia artificial, con información extensa recopilada de
+              recursos en línea en tiempo real. Todo el contenido generado
+              (texto y potencialmente imágenes) ha sido curado, revisado y
+              corregido por un autor humano.
             </p>
             <div className="text-sm flex items-center text-gray-700">
               <span className="font-medium">Editado por:</span>
@@ -168,10 +169,11 @@ export function AIContentDisclaimerStatic() {
               Aviso de Contenido Generado por IA
             </h4>
             <p className="text-sm text-gray-600 mb-2">
-              Este contenido fue generado utilizando herramientas de inteligencia artificial,
-              con información extensa recopilada de recursos en línea en tiempo real. Todo el
-              contenido generado (texto y potencialmente imágenes) ha sido curado,
-              revisado y corregido por un autor humano.
+              Este contenido fue generado utilizando herramientas de
+              inteligencia artificial, con información extensa recopilada de
+              recursos en línea en tiempo real. Todo el contenido generado
+              (texto y potencialmente imágenes) ha sido curado, revisado y
+              corregido por un autor humano.
             </p>
             <div className="text-sm flex items-center text-gray-700">
               <span className="font-medium">Editado por:</span>

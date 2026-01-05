@@ -119,7 +119,7 @@ export default function RequisitosTarjetaHeyBancoPage() {
             <p className="text-gray-700 mb-6 font-normal">
               Conoce más:{" "}
               <Link
-                href="/finanzas-personales/tarjetas-de-credito-de-neobancos/"
+                href="/soluciones-financieras/tarjetas-de-credito-sin-anualidad"
                 className="text-blue-600 hover:underline"
               >
                 Top tarjetas de neobancos

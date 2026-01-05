@@ -6,7 +6,8 @@ import Link from "next/link";
 import { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "Beneficios de la tarjeta de crédito Volaris INVEX 0 | Top Finanzas MX",
+  title:
+    "Beneficios de la tarjeta de crédito Volaris INVEX 0 | Top Finanzas MX",
   description:
     "Ideal para viajeros frecuentes, especialmente usuarios de Volaris, con beneficios que facilitan y mejoran cada viaje.",
 };

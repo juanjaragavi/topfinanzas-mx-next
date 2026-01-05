@@ -6,7 +6,8 @@ import Link from "next/link";
 import { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "Requisitos de la tarjeta de crédito Santander Aeroméxico Infinite | Top Finanzas MX",
+  title:
+    "Requisitos de la tarjeta de crédito Santander Aeroméxico Infinite | Top Finanzas MX",
   description:
     "Conoce los requisitos para solicitar la tarjeta Santander Aeroméxico Infinite, sus beneficios exclusivos y el proceso de solicitud.",
 };
@@ -295,8 +296,8 @@ export default function RequisitosTarjetaSantanderAeromexicoInfinitePage() {
               <li className="flex items-start">
                 <RedArrowIcon />
                 <span className="text-gray-700">
-                  <strong className="text-gray-900">Seguro de viaje:</strong>{" "}
-                  La tarjeta también incluye seguros de viaje que cubren desde
+                  <strong className="text-gray-900">Seguro de viaje:</strong> La
+                  tarjeta también incluye seguros de viaje que cubren desde
                   accidentes hasta protección de equipaje, lo que te brinda
                   tranquilidad adicional en cada viaje.
                 </span>

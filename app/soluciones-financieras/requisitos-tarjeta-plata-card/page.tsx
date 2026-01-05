@@ -99,7 +99,7 @@ export default function RequisitosTarjetaPlataCardPage() {
               <p className="text-gray-700">
                 <strong>Conoce más:</strong>{" "}
                 <Link
-                  href="/finanzas-personales/3-tarjetas-de-credito-sin-anualidad-populares-en-mexico"
+                  href="/soluciones-financieras/tarjetas-de-credito-sin-anualidad"
                   className="text-blue-600 hover:underline"
                 >
                   Top tarjetas de crédito sin anualidad
@@ -184,7 +184,7 @@ export default function RequisitosTarjetaPlataCardPage() {
               <p className="text-gray-700">
                 <strong>Conoce más:</strong>{" "}
                 <Link
-                  href="/finanzas-personales/3-tarjetas-de-credito-sin-anualidad-populares-en-mexico"
+                  href="/finanzas-personales/tarjetas-de-credito-para-estudiantes"
                   className="text-blue-600 hover:underline"
                 >
                   Tarjetas de crédito para estudiantes
@@ -245,7 +245,7 @@ export default function RequisitosTarjetaPlataCardPage() {
               <p className="text-gray-700">
                 <strong>Conoce más:</strong>{" "}
                 <Link
-                  href="/prestamos"
+                  href="/soluciones-financieras/cual-es-el-mejor-prestamo-personal"
                   className="text-blue-600 hover:underline"
                 >
                   ¿Cuál es el mejor préstamo personal?
@@ -315,7 +315,7 @@ export default function RequisitosTarjetaPlataCardPage() {
               <p className="text-gray-700">
                 <strong>Conoce más:</strong>{" "}
                 <Link
-                  href="/finanzas-personales/que-es-el-score-crediticio-y-por-que-es-tan-importante"
+                  href="/finanzas-personales/cat-en-tarjetas-de-credito"
                   className="text-blue-600 hover:underline"
                 >
                   Entiende el CAT en Tarjetas de Crédito

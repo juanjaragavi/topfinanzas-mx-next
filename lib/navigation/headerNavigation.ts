@@ -69,41 +69,39 @@ export const headerNavigation = {
   categoriesMegaMenu: {
     text: "CATEGORÍAS",
     sidebarItems: [
-      { text: "Ahorro inteligente", href: "/ahorro" },
-      { text: "Deuda cero", href: "/deuda" },
-      { text: "Elige tu tarjeta", href: "/tarjetas" },
-      { text: "Finanzas para el hogar", href: "/finanzas-hogar" },
-      { text: "Finanzas para estudiantes", href: "/estudiantes" },
-      { text: "Finanzas para pymes", href: "/pymes" },
-      { text: "Finanzas para todos", href: "/finanzas-para-todos" },
+      { text: "Soluciones Financieras", href: "/soluciones-financieras" },
+      { text: "Finanzas Personales", href: "/finanzas-personales" },
+      { text: "Tarjetas", href: "/tarjetas" },
+      { text: "Préstamos", href: "/prestamos" },
     ],
     featuredPosts: [
       {
-        title: "Guía para Ahorrar Dinero Rápidamente",
-        href: "/ahorro/guia-ahorro-rapido",
-        image: "https://media.topfinanzas.com/images/best-personal-loans.webp",
+        title: "Finanzas Personales en Quincena: Qué Hacer y Qué Evitar",
+        href: "/finanzas-personales/finanzas-personales-en-quincena-que-hacer-y-que-evitar-con-tu-sueldo",
+        image:
+          "https://media.topfinanzas.com/images/finanzas-personales-en-quincena-que-hacer-y-que-evitar-con-tu-sueldo.webp",
+        category: "FINANZAS PERSONALES",
+      },
+      {
+        title: "10 Reglas de Oro Para Una Vida Sin Estrés Financiero",
+        href: "/finanzas-personales/finanzas-personales-en-mexico-10-reglas-de-oro-para-una-vida-sin-estres-financiero",
+        image:
+          "https://media.topfinanzas.com/images/finanzas-personales-en-mexico-10-reglas-de-oro-para-una-vida-sin-estres-financiero.png",
+        category: "FINANZAS PERSONALES",
+      },
+      {
+        title: "Ahorro Inteligente: Estrategias para Impulsar tu Dinero",
+        href: "/finanzas-personales/ahorro-inteligente-estrategias-de-finanzas-personales-para-impulsar-tu-dinero",
+        image:
+          "https://media.topfinanzas.com/images/ahorro-inteligente-estrategias-de-finanzas-personales-para-impulsar-tu-dinero.webp",
         category: "AHORRO INTELIGENTE",
       },
       {
-        title: "Cómo Salir de Deudas: Estrategias Efectivas",
-        href: "/deuda/salir-de-deudas",
+        title: "Inversión Inteligente en México: Cómo Hacer Crecer tu Dinero",
+        href: "/finanzas-personales/inversion-inteligente-en-mexico-como-hacer-crecer-tu-dinero",
         image:
-          "https://media.topfinanzas.com/images/uk/Top_Finance_how_to_get_out_of_debt.webp",
-        category: "DEUDA CERO",
-      },
-      {
-        title: "Mejores Tarjetas de Crédito para Viajes",
-        href: "/tarjetas/mejores-tarjetas-viajes",
-        image:
-          "https://media.topfinanzas.com/images/uk/Top_Finance_uk_credit_cards.webp",
-        category: "ELIGE TU TARJETA",
-      },
-      {
-        title: "Presupuesto Familiar: Guía Paso a Paso",
-        href: "/finanzas-hogar/presupuesto-familiar",
-        image:
-          "https://media.topfinanzas.com/images/uk/loans/718135900-fotosprestamo1hsbc-uk.webp",
-        category: "FINANZAS PARA EL HOGAR",
+          "https://media.topfinanzas.com/images/inversion-inteligente-en-mexico-como-hacer-crecer-tu-dinero.jpg",
+        category: "INVERSIÓN",
       },
     ],
   },

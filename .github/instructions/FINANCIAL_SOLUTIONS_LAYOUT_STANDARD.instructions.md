@@ -24,8 +24,8 @@ This document defines the **mandatory standardized layout** for all Credit Card 
 
 Every financial product must have **TWO separate pages**:
 
-1. **Benefits Page**: `/soluciones-financieras/{product-slug}/page.tsx`
-    2. **Requirements Page**: `/soluciones-financieras/requisitos-{product-slug}/page.tsx`
+1. **Benefits Page**: `/soluciones-financieras/{product-slug}/page.tsx` 2. **Requirements Page**: `/soluciones-financieras/requisitos-{product-slug}/page.tsx`
+
 ---
 
 ## BENEFITS PAGE STRUCTURE
