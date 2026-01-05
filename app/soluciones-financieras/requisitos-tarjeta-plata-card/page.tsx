@@ -1,6 +1,7 @@
 import { Header } from "@/components/layout/header";
 import { CompactFooter } from "@/components/layout/compact-footer";
 import { AIContentDisclaimer } from "@/components/ui/ai-content-disclaimer";
+import { ActionBanner } from "@/components/ui/action-banner";
 import Image from "next/image";
 import Link from "next/link";
 import { Metadata } from "next";
@@ -86,17 +87,11 @@ export default function RequisitosTarjetaPlataCardPage() {
             </p>
 
             {/* Image: Top tarjetas */}
-            <div className="mb-10">
-              <Link href="/soluciones-financieras/tarjetas-de-credito-sin-anualidad">
-                <Image
-                  src="https://media.topfinanzas.com/images/call-to-ACTION-2.jpg"
-                  alt="Top tarjetas de crédito sin anualidad"
-                  width={800}
-                  height={400}
-                  className="w-full h-auto rounded-sm shadow-md"
-                />
-              </Link>
-            </div>
+            <ActionBanner
+              href="/soluciones-financieras/tarjetas-de-credito-sin-anualidad"
+              src="https://media.topfinanzas.com/images/call-to-ACTION-2.jpg"
+              alt="Top tarjetas de crédito sin anualidad"
+            />
             <div className="mb-10">
               <p className="text-gray-700">
                 <strong>Conoce más:</strong>{" "}
@@ -173,17 +168,11 @@ export default function RequisitosTarjetaPlataCardPage() {
             </ul>
 
             {/* Image: Eres estudiante */}
-            <div className="mb-6">
-              <Link href="/finanzas-personales/tarjetas-de-credito-para-estudiantes">
-                <Image
-                  src="https://media.topfinanzas.com/images/call-to-ACTION-1.jpg"
-                  alt="¿Eres estudiante?"
-                  width={800}
-                  height={400}
-                  className="w-full h-auto rounded-sm shadow-md"
-                />
-              </Link>
-            </div>
+            <ActionBanner
+              href="/finanzas-personales/tarjetas-de-credito-para-estudiantes"
+              src="https://media.topfinanzas.com/images/call-to-ACTION-1.jpg"
+              alt="¿Eres estudiante?"
+            />
             <div className="mb-10">
               <p className="text-gray-700">
                 <strong>Conoce más:</strong>{" "}
@@ -236,17 +225,11 @@ export default function RequisitosTarjetaPlataCardPage() {
             </ul>
 
             {/* Image: Buscando el mejor préstamo */}
-            <div className="mb-6">
-              <Link href="/soluciones-financieras/cual-es-el-mejor-prestamo-personal">
-                <Image
-                  src="https://media.topfinanzas.com/images/call-to-ACTION-4.jpg"
-                  alt="¿Buscando el mejor préstamo personal?"
-                  width={800}
-                  height={400}
-                  className="w-full h-auto rounded-sm shadow-md"
-                />
-              </Link>
-            </div>
+            <ActionBanner
+              href="/soluciones-financieras/cual-es-el-mejor-prestamo-personal"
+              src="https://media.topfinanzas.com/images/call-to-ACTION-4.jpg"
+              alt="¿Buscando el mejor préstamo personal?"
+            />
             <div className="mb-10">
               <p className="text-gray-700">
                 <strong>Conoce más:</strong>{" "}
@@ -308,17 +291,11 @@ export default function RequisitosTarjetaPlataCardPage() {
             </ul>
 
             {/* Image: Entiende el CAT */}
-            <div className="mb-6">
-              <Link href="/finanzas-personales/cat-en-tarjetas-de-credito">
-                <Image
-                  src="https://media.topfinanzas.com/images/call-to-ACTION-3.jpg"
-                  alt="Entiende el CAT en Tarjetas de Crédito"
-                  width={800}
-                  height={400}
-                  className="w-full h-auto rounded-sm shadow-md"
-                />
-              </Link>
-            </div>
+            <ActionBanner
+              href="/finanzas-personales/cat-en-tarjetas-de-credito"
+              src="https://media.topfinanzas.com/images/call-to-ACTION-3.jpg"
+              alt="Entiende el CAT en Tarjetas de Crédito"
+            />
             <div className="mb-10">
               <p className="text-gray-700">
                 <strong>Conoce más:</strong>{" "}

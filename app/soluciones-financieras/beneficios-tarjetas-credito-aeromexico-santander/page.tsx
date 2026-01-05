@@ -1,6 +1,7 @@
 import { Header } from "@/components/layout/header";
 import { CompactFooter } from "@/components/layout/compact-footer";
 import { AIContentDisclaimer } from "@/components/ui/ai-content-disclaimer";
+import { ActionBanner } from "@/components/ui/action-banner";
 import Image from "next/image";
 import Link from "next/link";
 import { Metadata } from "next";
@@ -108,14 +109,11 @@ export default function BeneficiosAeromexicoSantanderPage() {
               ventajas competitivas en el mercado de viajes y estilo de vida:
             </p>
 
-            <div className="relative w-full h-64 md:h-[400px] my-8 rounded-sm overflow-hidden shadow-lg">
-              <Image
-                src="https://media.topfinanzas.com/images/call-to-ACTION-2.jpg"
-                alt="Beneficios Exclusivos"
-                fill
-                className="object-cover"
-              />
-            </div>
+            <ActionBanner
+              href="/soluciones-financieras/requisitos-tarjetas-credito-aeromexico-santander"
+              src="https://media.topfinanzas.com/images/call-to-ACTION-2.jpg"
+              alt="Beneficios Exclusivos"
+            />
 
             <ul className="space-y-3 mb-8">
               <li className="flex items-start">
@@ -181,14 +179,11 @@ export default function BeneficiosAeromexicoSantanderPage() {
               adaptarse a tus necesidades financieras y de viaje:
             </p>
 
-            <div className="relative w-full h-64 md:h-[400px] my-8 rounded-sm overflow-hidden shadow-lg">
-              <Image
-                src="https://media.topfinanzas.com/images/call-to-ACTION-3.jpg"
-                alt="Características"
-                fill
-                className="object-cover"
-              />
-            </div>
+            <ActionBanner
+              href="/soluciones-financieras/requisitos-tarjetas-credito-aeromexico-santander"
+              src="https://media.topfinanzas.com/images/call-to-ACTION-3.jpg"
+              alt="Características"
+            />
 
             <ul className="space-y-3 mb-8">
               <li className="flex items-start">
@@ -242,14 +237,11 @@ export default function BeneficiosAeromexicoSantanderPage() {
               requisitos generales:
             </p>
 
-            <div className="relative w-full h-64 md:h-[400px] my-8 rounded-sm overflow-hidden shadow-lg">
-              <Image
-                src="https://media.topfinanzas.com/images/call-to-ACTION-1.jpg"
-                alt="Requisitos"
-                fill
-                className="object-cover"
-              />
-            </div>
+            <ActionBanner
+              href="/soluciones-financieras/requisitos-tarjetas-credito-aeromexico-santander"
+              src="https://media.topfinanzas.com/images/call-to-ACTION-1.jpg"
+              alt="Requisitos"
+            />
 
             <ul className="space-y-3 mb-8">
               <li className="flex items-start">
@@ -294,14 +286,11 @@ export default function BeneficiosAeromexicoSantanderPage() {
               línea o acudir a una sucursal.
             </p>
 
-            <div className="relative w-full h-64 md:h-[400px] my-8 rounded-sm overflow-hidden shadow-lg">
-              <Image
-                src="https://media.topfinanzas.com/images/call-to-ACTION-4.jpg"
-                alt="Solicitud"
-                fill
-                className="object-cover"
-              />
-            </div>
+            <ActionBanner
+              href="/soluciones-financieras/requisitos-tarjetas-credito-aeromexico-santander"
+              src="https://media.topfinanzas.com/images/call-to-ACTION-4.jpg"
+              alt="Solicitud"
+            />
 
             <p className="text-lg text-gray-700 mb-6 font-normal">
               Simplemente completa el formulario con tus datos personales y

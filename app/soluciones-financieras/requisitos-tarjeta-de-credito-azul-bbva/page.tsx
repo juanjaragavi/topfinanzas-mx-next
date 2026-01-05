@@ -1,6 +1,7 @@
 import { Header } from "@/components/layout/header";
 import { CompactFooter } from "@/components/layout/compact-footer";
 import { AIContentDisclaimer } from "@/components/ui/ai-content-disclaimer";
+import { ActionBanner } from "@/components/ui/action-banner";
 import Image from "next/image";
 import Link from "next/link";
 import { Metadata } from "next";
@@ -107,17 +108,11 @@ export default function RequisitosTarjetaAzulBBVAPage() {
             ></div>
 
             {/* CTA Image 1 */}
-            <div className="relative w-full h-auto my-8 rounded-sm overflow-hidden shadow-lg">
-              <Link href="/soluciones-financieras/tarjetas-de-credito-sin-anualidad">
-                <Image
-                  src="https://media.topfinanzas.com/images/call-to-ACTION-1.jpg"
-                  alt="Solicitar Tarjeta"
-                  width={800}
-                  height={200}
-                  className="w-full h-auto object-cover"
-                />
-              </Link>
-            </div>
+            <ActionBanner
+              href="/soluciones-financieras/tarjetas-de-credito-sin-anualidad"
+              src="https://media.topfinanzas.com/images/call-to-ACTION-1.jpg"
+              alt="Solicitar Tarjeta"
+            />
 
             {/* Section 2 */}
             <h2 className="text-2xl md:text-3xl font-bold text-gray-700 mt-10 mb-4 leading-tight">
@@ -167,17 +162,11 @@ export default function RequisitosTarjetaAzulBBVAPage() {
             </ul>
 
             {/* CTA Image 2 */}
-            <div className="relative w-full h-auto my-8 rounded-sm overflow-hidden shadow-lg">
-              <Link href="/soluciones-financieras/cual-es-el-mejor-prestamo-personal">
-                <Image
-                  src="https://media.topfinanzas.com/images/call-to-ACTION-3.jpg"
-                  alt="Solicitar Tarjeta"
-                  width={800}
-                  height={200}
-                  className="w-full h-auto object-cover"
-                />
-              </Link>
-            </div>
+            <ActionBanner
+              href="/soluciones-financieras/cual-es-el-mejor-prestamo-personal"
+              src="https://media.topfinanzas.com/images/call-to-ACTION-3.jpg"
+              alt="Solicitar Tarjeta"
+            />
 
             {/* Section 3 */}
             <h2 className="text-2xl md:text-3xl font-bold text-gray-700 mt-10 mb-4 leading-tight">
@@ -220,17 +209,11 @@ export default function RequisitosTarjetaAzulBBVAPage() {
             </ul>
 
             {/* CTA Image 3 */}
-            <div className="relative w-full h-auto my-8 rounded-sm overflow-hidden shadow-lg">
-              <Link href="/finanzas-personales/cat-en-tarjetas-de-credito">
-                <Image
-                  src="https://media.topfinanzas.com/images/call-to-ACTION-2.jpg"
-                  alt="Solicitar Tarjeta"
-                  width={800}
-                  height={200}
-                  className="w-full h-auto object-cover"
-                />
-              </Link>
-            </div>
+            <ActionBanner
+              href="/finanzas-personales/cat-en-tarjetas-de-credito"
+              src="https://media.topfinanzas.com/images/call-to-ACTION-2.jpg"
+              alt="Solicitar Tarjeta"
+            />
 
             {/* Section 4 */}
             <h2 className="text-2xl md:text-3xl font-bold text-gray-700 mt-10 mb-4 leading-tight">
@@ -267,17 +250,11 @@ export default function RequisitosTarjetaAzulBBVAPage() {
             </ul>
 
             {/* CTA Image 4 */}
-            <div className="relative w-full h-auto my-8 rounded-sm overflow-hidden shadow-lg">
-              <Link href="/finanzas-personales/tarjetas-de-credito-para-estudiantes">
-                <Image
-                  src="https://media.topfinanzas.com/images/call-to-ACTION-4.jpg"
-                  alt="Solicitar Tarjeta"
-                  width={800}
-                  height={200}
-                  className="w-full h-auto object-cover"
-                />
-              </Link>
-            </div>
+            <ActionBanner
+              href="/finanzas-personales/tarjetas-de-credito-para-estudiantes"
+              src="https://media.topfinanzas.com/images/call-to-ACTION-4.jpg"
+              alt="Solicitar Tarjeta"
+            />
 
             {/* Section 5 */}
             <h2 className="text-2xl md:text-3xl font-bold text-gray-700 mt-10 mb-4 leading-tight">
