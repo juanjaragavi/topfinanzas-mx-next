@@ -8,7 +8,7 @@ set -u
 # Define branch names
 MAIN_BRANCH="main"
 DEV_BRANCH="dev"
-BACKUP_BRANCH="backup"
+BACKUP_BRANCH="backup-main"
 
 echo "Starting branch synchronization process..."
 
