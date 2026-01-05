@@ -184,12 +184,14 @@ export default function RequisitosTarjetaPlatinumBanregioPage() {
 
             {/* Image 2 */}
             <div className="relative w-full h-64 md:h-[400px] my-8 rounded-sm overflow-hidden shadow-lg">
-              <Image
-                src="https://media.topfinanzas.com/images/call-to-ACTION-1.jpg"
-                alt="Solicitar Tarjeta Platinum Banregio"
-                fill
-                className="object-contain"
-              />
+              <Link href="/soluciones-financieras/tarjetas-de-credito-sin-anualidad">
+                <Image
+                  src="https://media.topfinanzas.com/images/call-to-ACTION-1.jpg"
+                  alt="Solicitar Tarjeta Platinum Banregio"
+                  fill
+                  className="object-contain"
+                />
+              </Link>
             </div>
 
             {/* Historial crediticio */}
@@ -236,12 +238,14 @@ export default function RequisitosTarjetaPlatinumBanregioPage() {
 
             {/* Image 3 */}
             <div className="relative w-full h-64 md:h-[400px] my-8 rounded-sm overflow-hidden shadow-lg">
-              <Image
-                src="https://media.topfinanzas.com/images/call-to-ACTION-3.jpg"
-                alt="Beneficios Tarjeta Platinum Banregio"
-                fill
-                className="object-contain"
-              />
+              <Link href="/soluciones-financieras/cual-es-el-mejor-prestamo-personal">
+                <Image
+                  src="https://media.topfinanzas.com/images/call-to-ACTION-3.jpg"
+                  alt="Beneficios Tarjeta Platinum Banregio"
+                  fill
+                  className="object-contain"
+                />
+              </Link>
             </div>
 
             {/* Edad mínima y residencia */}
@@ -337,12 +341,14 @@ export default function RequisitosTarjetaPlatinumBanregioPage() {
 
             {/* Image 4 */}
             <div className="relative w-full h-64 md:h-[400px] my-8 rounded-sm overflow-hidden shadow-lg">
-              <Image
-                src="https://media.topfinanzas.com/images/call-to-ACTION-2.jpg"
-                alt="Ventajas Tarjeta Platinum Banregio"
-                fill
-                className="object-contain"
-              />
+              <Link href="/finanzas-personales/cat-en-tarjetas-de-credito">
+                <Image
+                  src="https://media.topfinanzas.com/images/call-to-ACTION-2.jpg"
+                  alt="Ventajas Tarjeta Platinum Banregio"
+                  fill
+                  className="object-contain"
+                />
+              </Link>
             </div>
 
             {/* Proceso de solicitud */}
@@ -437,12 +443,14 @@ export default function RequisitosTarjetaPlatinumBanregioPage() {
 
             {/* Image 5 */}
             <div className="relative w-full h-64 md:h-[400px] my-8 rounded-sm overflow-hidden shadow-lg">
-              <Image
-                src="https://media.topfinanzas.com/images/call-to-ACTION-4.jpg"
-                alt="Consejos Tarjeta Platinum Banregio"
-                fill
-                className="object-contain"
-              />
+              <Link href="/finanzas-personales/tarjetas-de-credito-para-estudiantes">
+                <Image
+                  src="https://media.topfinanzas.com/images/call-to-ACTION-4.jpg"
+                  alt="Consejos Tarjeta Platinum Banregio"
+                  fill
+                  className="object-contain"
+                />
+              </Link>
             </div>
 
             {/* ¿Es la opción ideal para ti? */}

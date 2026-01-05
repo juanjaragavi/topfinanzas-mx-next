@@ -139,12 +139,14 @@ export default function RequisitosTarjetaVolarisInvex0Page() {
 
             {/* Image 2 */}
             <div className="relative w-full h-64 md:h-[400px] my-8 rounded-sm overflow-hidden shadow-lg">
-              <Image
-                src="https://media.topfinanzas.com/images/call-to-ACTION-1.jpg"
-                alt="Solicitar Tarjeta Volaris INVEX"
-                fill
-                className="object-contain"
-              />
+              <Link href="/soluciones-financieras/tarjetas-de-credito-sin-anualidad">
+                <Image
+                  src="https://media.topfinanzas.com/images/call-to-ACTION-1.jpg"
+                  alt="Solicitar Tarjeta Volaris INVEX"
+                  fill
+                  className="object-contain"
+                />
+              </Link>
             </div>
 
             {/* Documentación Requerida */}
@@ -205,12 +207,14 @@ export default function RequisitosTarjetaVolarisInvex0Page() {
 
             {/* Image 3 */}
             <div className="relative w-full h-64 md:h-[400px] my-8 rounded-sm overflow-hidden shadow-lg">
-              <Image
-                src="https://media.topfinanzas.com/images/call-to-ACTION-3.jpg"
-                alt="Documentación Tarjeta Volaris INVEX"
-                fill
-                className="object-contain"
-              />
+              <Link href="/soluciones-financieras/cual-es-el-mejor-prestamo-personal">
+                <Image
+                  src="https://media.topfinanzas.com/images/call-to-ACTION-3.jpg"
+                  alt="Documentación Tarjeta Volaris INVEX"
+                  fill
+                  className="object-contain"
+                />
+              </Link>
             </div>
 
             {/* Atractivo de la tarjeta */}
@@ -307,12 +311,14 @@ export default function RequisitosTarjetaVolarisInvex0Page() {
 
             {/* Image 4 */}
             <div className="relative w-full h-64 md:h-[400px] my-8 rounded-sm overflow-hidden shadow-lg">
-              <Image
-                src="https://media.topfinanzas.com/images/call-to-ACTION-2.jpg"
-                alt="Beneficios Volaris INVEX"
-                fill
-                className="object-contain"
-              />
+              <Link href="/finanzas-personales/cat-en-tarjetas-de-credito">
+                <Image
+                  src="https://media.topfinanzas.com/images/call-to-ACTION-2.jpg"
+                  alt="Beneficios Volaris INVEX"
+                  fill
+                  className="object-contain"
+                />
+              </Link>
             </div>
 
             {/* Proceso de solicitud */}
@@ -366,12 +372,14 @@ export default function RequisitosTarjetaVolarisInvex0Page() {
 
             {/* Image 5 */}
             <div className="relative w-full h-64 md:h-[400px] my-8 rounded-sm overflow-hidden shadow-lg">
-              <Image
-                src="https://media.topfinanzas.com/images/call-to-ACTION-4.jpg"
-                alt="Proceso de solicitud"
-                fill
-                className="object-contain"
-              />
+              <Link href="/finanzas-personales/tarjetas-de-credito-para-estudiantes">
+                <Image
+                  src="https://media.topfinanzas.com/images/call-to-ACTION-4.jpg"
+                  alt="Proceso de solicitud"
+                  fill
+                  className="object-contain"
+                />
+              </Link>
             </div>
 
             {/* Conclusion */}

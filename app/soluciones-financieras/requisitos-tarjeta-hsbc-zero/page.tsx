@@ -132,13 +132,15 @@ export default function RequisitosHSBCZeroPage() {
 
             {/* Image: Top tarjetas */}
             <div className="mb-10">
-              <Image
-                src="https://media.topfinanzas.com/images/call-to-ACTION-1.jpg"
-                alt="Top tarjetas de crédito sin anualidad"
-                width={800}
-                height={400}
-                className="w-full h-auto rounded-sm shadow-md"
-              />
+              <Link href="/soluciones-financieras/tarjetas-de-credito-sin-anualidad">
+                <Image
+                  src="https://media.topfinanzas.com/images/call-to-ACTION-1.jpg"
+                  alt="Top tarjetas de crédito sin anualidad"
+                  width={800}
+                  height={400}
+                  className="w-full h-auto rounded-sm shadow-md"
+                />
+              </Link>
             </div>
 
             {/* Section 2: Documentación necesaria */}
@@ -185,13 +187,15 @@ export default function RequisitosHSBCZeroPage() {
 
             {/* Image: Eres estudiante */}
             <div className="mb-6">
-              <Image
-                src="https://media.topfinanzas.com/images/call-to-ACTION-4.jpg"
-                alt="¿Eres estudiante?"
-                width={800}
-                height={400}
-                className="w-full h-auto rounded-sm shadow-md"
-              />
+              <Link href="/finanzas-personales/tarjetas-de-credito-para-estudiantes">
+                <Image
+                  src="https://media.topfinanzas.com/images/call-to-ACTION-4.jpg"
+                  alt="¿Eres estudiante?"
+                  width={800}
+                  height={400}
+                  className="w-full h-auto rounded-sm shadow-md"
+                />
+              </Link>
             </div>
             <div className="mb-10">
               <p className="text-gray-700">
@@ -255,13 +259,15 @@ export default function RequisitosHSBCZeroPage() {
 
             {/* Image: Entiende el CAT */}
             <div className="mb-10">
-              <Image
-                src="https://media.topfinanzas.com/images/call-to-ACTION-2.jpg"
-                alt="Entiende el CAT en Tarjetas de Crédito"
-                width={800}
-                height={400}
-                className="w-full h-auto rounded-sm shadow-md"
-              />
+              <Link href="/finanzas-personales/cat-en-tarjetas-de-credito">
+                <Image
+                  src="https://media.topfinanzas.com/images/call-to-ACTION-2.jpg"
+                  alt="Entiende el CAT en Tarjetas de Crédito"
+                  width={800}
+                  height={400}
+                  className="w-full h-auto rounded-sm shadow-md"
+                />
+              </Link>
             </div>
 
             {/* Section 5: ¿Para quién es la Tarjeta HSBC Zero? */}
@@ -343,13 +349,15 @@ export default function RequisitosHSBCZeroPage() {
 
             {/* Image: Buscando el mejor préstamo */}
             <div className="mb-10">
-              <Image
-                src="https://media.topfinanzas.com/images/call-to-ACTION-3.jpg"
-                alt="¿Buscando el mejor préstamo personal?"
-                width={800}
-                height={400}
-                className="w-full h-auto rounded-sm shadow-md"
-              />
+              <Link href="/soluciones-financieras/cual-es-el-mejor-prestamo-personal">
+                <Image
+                  src="https://media.topfinanzas.com/images/call-to-ACTION-3.jpg"
+                  alt="¿Buscando el mejor préstamo personal?"
+                  width={800}
+                  height={400}
+                  className="w-full h-auto rounded-sm shadow-md"
+                />
+              </Link>
             </div>
 
             {/* Section 6: ¿Es la tarjeta HSBC Zero para ti? */}

@@ -210,12 +210,14 @@ export default function RequisitosTarjetaVexiCarnetPage() {
 
             {/* Image 2 */}
             <div className="relative w-full h-64 md:h-[400px] my-8 rounded-sm overflow-hidden shadow-lg">
-              <Image
-                src="https://media.topfinanzas.com/images/call-to-ACTION-2.jpg"
-                alt="Entiende el CAT en Tarjetas de Crédito"
-                fill
-                className="object-contain"
-              />
+              <Link href="/finanzas-personales/cat-en-tarjetas-de-credito">
+                <Image
+                  src="https://media.topfinanzas.com/images/call-to-ACTION-2.jpg"
+                  alt="Entiende el CAT en Tarjetas de Crédito"
+                  fill
+                  className="object-contain"
+                />
+              </Link>
             </div>
 
             <p className="text-gray-700 mb-6 font-normal">
@@ -274,12 +276,14 @@ export default function RequisitosTarjetaVexiCarnetPage() {
 
             {/* Image 3 */}
             <div className="relative w-full h-64 md:h-[400px] my-8 rounded-sm overflow-hidden shadow-lg">
-              <Image
-                src="https://media.topfinanzas.com/images/call-to-ACTION-1.jpg"
-                alt="Top tarjetas de crédito sin anualidad"
-                fill
-                className="object-contain"
-              />
+              <Link href="/soluciones-financieras/tarjetas-de-credito-sin-anualidad">
+                <Image
+                  src="https://media.topfinanzas.com/images/call-to-ACTION-1.jpg"
+                  alt="Top tarjetas de crédito sin anualidad"
+                  fill
+                  className="object-contain"
+                />
+              </Link>
             </div>
 
             <p className="text-gray-700 mb-6 font-normal">
@@ -384,12 +388,14 @@ export default function RequisitosTarjetaVexiCarnetPage() {
 
             {/* Image 4 */}
             <div className="relative w-full h-64 md:h-[400px] my-8 rounded-sm overflow-hidden shadow-lg">
-              <Image
-                src="https://media.topfinanzas.com/images/call-to-ACTION-3.jpg"
-                alt="Buscando el mejor préstamo personal"
-                fill
-                className="object-contain"
-              />
+              <Link href="/soluciones-financieras/cual-es-el-mejor-prestamo-personal">
+                <Image
+                  src="https://media.topfinanzas.com/images/call-to-ACTION-3.jpg"
+                  alt="Buscando el mejor préstamo personal"
+                  fill
+                  className="object-contain"
+                />
+              </Link>
             </div>
 
             {/* Final Section */}

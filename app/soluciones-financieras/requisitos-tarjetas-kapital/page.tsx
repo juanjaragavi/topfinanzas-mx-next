@@ -152,12 +152,14 @@ export default function RequisitosTarjetasKapitalPage() {
 
             {/* Image CTA 1 */}
             <div className="relative w-full h-64 md:h-[400px] my-8 rounded-sm overflow-hidden shadow-lg">
-              <Image
-                src="https://media.topfinanzas.com/images/call-to-ACTION-1.jpg"
-                alt="Solicitar Tarjeta Kapital"
-                fill
-                className="object-contain"
-              />
+              <Link href="/soluciones-financieras/tarjetas-de-credito-sin-anualidad">
+                <Image
+                  src="https://media.topfinanzas.com/images/call-to-ACTION-1.jpg"
+                  alt="Solicitar Tarjeta Kapital"
+                  fill
+                  className="object-contain"
+                />
+              </Link>
             </div>
 
             {/* Section: Documentación requerida */}
@@ -211,12 +213,14 @@ export default function RequisitosTarjetasKapitalPage() {
 
             {/* Image CTA 2 */}
             <div className="relative w-full h-64 md:h-[400px] my-8 rounded-sm overflow-hidden shadow-lg">
-              <Image
-                src="https://media.topfinanzas.com/images/call-to-ACTION-3.jpg"
-                alt="Documentación Kapital"
-                fill
-                className="object-contain"
-              />
+              <Link href="/soluciones-financieras/cual-es-el-mejor-prestamo-personal">
+                <Image
+                  src="https://media.topfinanzas.com/images/call-to-ACTION-3.jpg"
+                  alt="Documentación Kapital"
+                  fill
+                  className="object-contain"
+                />
+              </Link>
             </div>
 
             {/* Section: Proceso de solicitud */}
@@ -293,12 +297,14 @@ export default function RequisitosTarjetasKapitalPage() {
 
             {/* Image CTA 3 */}
             <div className="relative w-full h-64 md:h-[400px] my-8 rounded-sm overflow-hidden shadow-lg">
-              <Image
-                src="https://media.topfinanzas.com/images/call-to-ACTION-2.jpg"
-                alt="Proceso Kapital"
-                fill
-                className="object-contain"
-              />
+              <Link href="/finanzas-personales/cat-en-tarjetas-de-credito">
+                <Image
+                  src="https://media.topfinanzas.com/images/call-to-ACTION-2.jpg"
+                  alt="Proceso Kapital"
+                  fill
+                  className="object-contain"
+                />
+              </Link>
             </div>
 
             {/* Section: ¿Qué aspectos adicionales tiene la tarjeta de crédito Kapital? */}
@@ -351,12 +357,14 @@ export default function RequisitosTarjetasKapitalPage() {
 
             {/* Image CTA 4 */}
             <div className="relative w-full h-64 md:h-[400px] my-8 rounded-sm overflow-hidden shadow-lg">
-              <Image
-                src="https://media.topfinanzas.com/images/call-to-ACTION-4.jpg"
-                alt="Beneficios Adicionales Kapital"
-                fill
-                className="object-contain"
-              />
+              <Link href="/finanzas-personales/tarjetas-de-credito-para-estudiantes">
+                <Image
+                  src="https://media.topfinanzas.com/images/call-to-ACTION-4.jpg"
+                  alt="Beneficios Adicionales Kapital"
+                  fill
+                  className="object-contain"
+                />
+              </Link>
             </div>
 
             {/* Section: ¿Es la tarjeta de crédito Kapital para ti? */}

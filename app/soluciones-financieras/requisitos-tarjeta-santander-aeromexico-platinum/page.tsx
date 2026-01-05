@@ -137,12 +137,14 @@ export default function RequisitosTarjetaSantanderAeromexicoPlatinumPage() {
 
             {/* CTA Image 1 */}
             <div className="relative w-full h-64 md:h-[400px] my-8 rounded-sm overflow-hidden shadow-lg">
-              <Image
-                src="https://media.topfinanzas.com/images/call-to-ACTION-1.jpg"
-                alt="Solicitar Tarjeta Santander Aeroméxico Platinum"
-                fill
-                className="object-contain"
-              />
+              <Link href="/soluciones-financieras/tarjetas-de-credito-sin-anualidad">
+                <Image
+                  src="https://media.topfinanzas.com/images/call-to-ACTION-1.jpg"
+                  alt="Solicitar Tarjeta Santander Aeroméxico Platinum"
+                  fill
+                  className="object-contain"
+                />
+              </Link>
             </div>
 
             {/* Documentación requerida */}
@@ -194,12 +196,14 @@ export default function RequisitosTarjetaSantanderAeromexicoPlatinumPage() {
 
             {/* CTA Image 2 */}
             <div className="relative w-full h-64 md:h-[400px] my-8 rounded-sm overflow-hidden shadow-lg">
-              <Image
-                src="https://media.topfinanzas.com/images/call-to-ACTION-3.jpg"
-                alt="Solicitar Tarjeta Santander Aeroméxico Platinum"
-                fill
-                className="object-contain"
-              />
+              <Link href="/soluciones-financieras/cual-es-el-mejor-prestamo-personal">
+                <Image
+                  src="https://media.topfinanzas.com/images/call-to-ACTION-3.jpg"
+                  alt="Solicitar Tarjeta Santander Aeroméxico Platinum"
+                  fill
+                  className="object-contain"
+                />
+              </Link>
             </div>
 
             {/* Proceso de solicitud */}
@@ -243,12 +247,14 @@ export default function RequisitosTarjetaSantanderAeromexicoPlatinumPage() {
 
             {/* CTA Image 3 */}
             <div className="relative w-full h-64 md:h-[400px] my-8 rounded-sm overflow-hidden shadow-lg">
-              <Image
-                src="https://media.topfinanzas.com/images/call-to-ACTION-2.jpg"
-                alt="Solicitar Tarjeta Santander Aeroméxico Platinum"
-                fill
-                className="object-contain"
-              />
+              <Link href="/finanzas-personales/cat-en-tarjetas-de-credito">
+                <Image
+                  src="https://media.topfinanzas.com/images/call-to-ACTION-2.jpg"
+                  alt="Solicitar Tarjeta Santander Aeroméxico Platinum"
+                  fill
+                  className="object-contain"
+                />
+              </Link>
             </div>
 
             {/* ¿Qué es lo atractivo...? */}
@@ -325,12 +331,14 @@ export default function RequisitosTarjetaSantanderAeromexicoPlatinumPage() {
 
             {/* CTA Image 4 */}
             <div className="relative w-full h-64 md:h-[400px] my-8 rounded-sm overflow-hidden shadow-lg">
-              <Image
-                src="https://media.topfinanzas.com/images/call-to-ACTION-4.jpg"
-                alt="Solicitar Tarjeta Santander Aeroméxico Platinum"
-                fill
-                className="object-contain"
-              />
+              <Link href="/finanzas-personales/tarjetas-de-credito-para-estudiantes">
+                <Image
+                  src="https://media.topfinanzas.com/images/call-to-ACTION-4.jpg"
+                  alt="Solicitar Tarjeta Santander Aeroméxico Platinum"
+                  fill
+                  className="object-contain"
+                />
+              </Link>
             </div>
 
             {/* ¿Es ideal para ti? */}

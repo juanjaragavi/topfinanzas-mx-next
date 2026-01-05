@@ -191,12 +191,14 @@ export default function RequisitosTarjetaHSBCVivaPage() {
 
             {/* CTA Banner 1 */}
             <div className="relative w-full h-32 md:h-48 my-8 rounded-sm overflow-hidden shadow-lg">
-              <Image
-                src="https://media.topfinanzas.com/images/call-to-ACTION-3.jpg"
-                alt="Entiende el CAT en Tarjetas de Crédito"
-                fill
-                className="object-cover"
-              />
+              <Link href="/finanzas-personales/cat-en-tarjetas-de-credito">
+                <Image
+                  src="https://media.topfinanzas.com/images/call-to-ACTION-3.jpg"
+                  alt="Entiende el CAT en Tarjetas de Crédito"
+                  fill
+                  className="object-cover"
+                />
+              </Link>
             </div>
             <div className="flex justify-center mb-8">
               <Link
@@ -321,12 +323,14 @@ export default function RequisitosTarjetaHSBCVivaPage() {
 
             {/* CTA Banner 2 */}
             <div className="relative w-full h-32 md:h-48 my-8 rounded-sm overflow-hidden shadow-lg">
-              <Image
-                src="https://media.topfinanzas.com/images/call-to-ACTION-2.jpg"
-                alt="Top tarjetas de crédito sin anualidad"
-                fill
-                className="object-cover"
-              />
+              <Link href="/soluciones-financieras/tarjetas-de-credito-sin-anualidad">
+                <Image
+                  src="https://media.topfinanzas.com/images/call-to-ACTION-2.jpg"
+                  alt="Top tarjetas de crédito sin anualidad"
+                  fill
+                  className="object-cover"
+                />
+              </Link>
             </div>
             <div className="flex justify-center mb-8">
               <Link
@@ -361,12 +365,14 @@ export default function RequisitosTarjetaHSBCVivaPage() {
 
             {/* CTA Banner 3 */}
             <div className="relative w-full h-32 md:h-48 my-8 rounded-sm overflow-hidden shadow-lg">
-              <Image
-                src="https://media.topfinanzas.com/images/call-to-ACTION-4.jpg"
-                alt="Buscando el mejor préstamo personal"
-                fill
-                className="object-cover"
-              />
+              <Link href="/soluciones-financieras/cual-es-el-mejor-prestamo-personal">
+                <Image
+                  src="https://media.topfinanzas.com/images/call-to-ACTION-4.jpg"
+                  alt="Buscando el mejor préstamo personal"
+                  fill
+                  className="object-cover"
+                />
+              </Link>
             </div>
             <div className="flex justify-center mb-8">
               <Link
