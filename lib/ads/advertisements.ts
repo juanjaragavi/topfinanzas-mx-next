@@ -33,19 +33,6 @@ export const advertisements: Advertisement[] = [
     format: "square",
     active: true,
   },
-  {
-    id: "ad2",
-    name: "Credit Card Blog Ad",
-    image: {
-      src: "https://media.topfinanzas.com/images/Top-Blog-Credit-Cards.webp",
-      alt: "Credit cards blog advertisement",
-      width: 320,
-      height: 620,
-    },
-    link: "/finanzas-personales/credit-card-types-benefits", // Updated link
-    format: "portrait",
-    active: true,
-  },
 ];
 
 /**

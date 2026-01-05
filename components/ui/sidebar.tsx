@@ -4,8 +4,6 @@ import * as React from "react";
 import { Slot } from "@radix-ui/react-slot";
 import { VariantProps, cva } from "class-variance-authority";
 import { PanelLeft } from "lucide-react";
-import Image from "next/image";
-import Link from "next/link";
 
 import { useIsMobile } from "@/hooks/use-mobile";
 import { cn } from "@/lib/utils";
@@ -744,35 +742,6 @@ const SidebarMenuSubButton = React.forwardRef<
 });
 SidebarMenuSubButton.displayName = "SidebarMenuSubButton";
 
-const SidebarAd = React.forwardRef<HTMLDivElement, React.ComponentProps<"div">>(
-  ({ className, ...props }, ref) => {
-    return (
-      <div
-        ref={ref}
-        data-sidebar="ad"
-        className={cn("px-2 my-4", className)}
-        {...props}
-      >
-        <Link href="/finanzas-personales/credit-card-types-benefits/">
-          <div className="overflow-hidden rounded-sm border shadow hover:shadow-md transition-shadow">
-            <Image
-              src="https://media.topfinanzas.com/images/ads/Top-Blog-Credit-Cards.webp"
-              alt="Barclaycard Avios Plus Credit Card"
-              width={1000}
-              height={563}
-              className="mx-auto w-full md:w-full h-auto rounded-sm"
-              priority
-              placeholder="blur"
-              blurDataURL="data:image/webp;base64,UklGRlIAAABXRUJQVlA4WAoAAAAQAAAACQAAAwAAQUxQSBcAAAABD9D/ERFCyDa37d+ICPgXqjgjoqA+qgAAVlA4IDYAAACQAQCdASoKAAQAAkA4JZwAAPrHQAD++5AK1AA="
-            />
-          </div>
-        </Link>
-      </div>
-    );
-  },
-);
-SidebarAd.displayName = "SidebarAd";
-
 // Recent Articles component for sidebar
 const SidebarRecentArticles = React.forwardRef<
   HTMLDivElement,
@@ -856,7 +825,6 @@ SidebarNewsletter.displayName = "SidebarNewsletter";
 
 export {
   Sidebar,
-  SidebarAd,
   SidebarCategories,
   SidebarContent,
   SidebarFooter,

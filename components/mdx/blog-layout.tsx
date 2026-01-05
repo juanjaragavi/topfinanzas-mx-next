@@ -8,7 +8,6 @@ import { ReactNode } from "react";
 import Link from "next/link";
 import Image from "next/image";
 import {
-  SidebarAd,
   SidebarCategories,
   SidebarContent,
   SidebarNewsletter,
@@ -57,8 +56,6 @@ export function BlogLayout({ children, metadata }: BlogLayoutProps) {
             <div className="lg:col-span-4">
               <SidebarProvider>
                 <SidebarContent>
-                  {/* Ad banner */}
-                  <SidebarAd />
                   <SidebarSeparator />
                   {/* Recent Articles - Updated */}
                   <SidebarRecentArticles>
