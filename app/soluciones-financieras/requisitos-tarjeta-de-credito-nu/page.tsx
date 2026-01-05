@@ -1,6 +1,7 @@
 import { Header } from "@/components/layout/header";
 import { CompactFooter } from "@/components/layout/compact-footer";
 import { AIContentDisclaimer } from "@/components/ui/ai-content-disclaimer";
+import { ActionBanner } from "@/components/ui/action-banner";
 import Image from "next/image";
 import Link from "next/link";
 import { Metadata } from "next";
@@ -66,12 +67,13 @@ export default function RequisitosTarjetaCreditoNuPage() {
               ¿Qué necesitas para solicitar tu Tarjeta NuBank?
             </h2>
 
-            <div className="relative w-full h-64 md:h-[400px] my-8 rounded-sm overflow-hidden shadow-lg">
+            <div className="w-full my-8">
               <Image
                 src="https://media.topfinanzas.com/images/download-2-1.webp"
                 alt="Tarjeta de crédito Nu"
-                fill
-                className="object-cover"
+                width={800}
+                height={400}
+                className="w-full h-auto"
                 priority
               />
             </div>
@@ -83,17 +85,11 @@ export default function RequisitosTarjetaCreditoNuPage() {
               necesitas preparar:
             </p>
 
-            <div className="relative w-full my-8 flex justify-center">
-              <Link href="/finanzas-personales/tarjetas-de-credito-para-estudiantes">
-                <Image
-                  src="https://media.topfinanzas.com/images/call-to-ACTION-4.jpg"
-                  alt="Tarjetas de crédito para estudiantes"
-                  width={900}
-                  height={300}
-                  className="rounded-sm shadow-lg"
-                />
-              </Link>
-            </div>
+            <ActionBanner
+              href="/finanzas-personales/tarjetas-de-credito-para-estudiantes"
+              src="https://media.topfinanzas.com/images/call-to-ACTION-4.jpg"
+              alt="Tarjetas de crédito para estudiantes"
+            />
 
             <p className="text-gray-700 mb-6 font-normal">
               <strong>Conoce más:</strong>{" "}
@@ -229,16 +225,11 @@ export default function RequisitosTarjetaCreditoNuPage() {
               </Link>
             </p>
 
-            <div className="relative w-full h-64 md:h-[400px] my-8 rounded-sm overflow-hidden shadow-lg">
-              <Link href="/finanzas-personales/cat-en-tarjetas-de-credito">
-                <Image
-                  src="https://media.topfinanzas.com/images/call-to-ACTION-2.jpg"
-                  alt="Entiende el CAT en Tarjetas de Crédito"
-                  fill
-                  className="object-contain"
-                />
-              </Link>
-            </div>
+            <ActionBanner
+              href="/finanzas-personales/cat-en-tarjetas-de-credito"
+              src="https://media.topfinanzas.com/images/call-to-ACTION-2.jpg"
+              alt="Entiende el CAT en Tarjetas de Crédito"
+            />
 
             <h2 className="text-2xl md:text-3xl font-bold text-gray-700 mt-10 mb-4 leading-tight">
               Proceso de solicitud en línea:
@@ -300,17 +291,11 @@ export default function RequisitosTarjetaCreditoNuPage() {
               </Link>
             </p>
 
-            <div className="relative w-full my-8 flex justify-center">
-              <Link href="/soluciones-financieras/tarjetas-de-credito-sin-anualidad">
-                <Image
-                  src="https://media.topfinanzas.com/images/call-to-ACTION-1.jpg"
-                  alt="Top tarjetas de crédito sin anualidad"
-                  width={900}
-                  height={300}
-                  className="rounded-sm shadow-lg"
-                />
-              </Link>
-            </div>
+            <ActionBanner
+              href="/soluciones-financieras/tarjetas-de-credito-sin-anualidad"
+              src="https://media.topfinanzas.com/images/call-to-ACTION-1.jpg"
+              alt="Top tarjetas de crédito sin anualidad"
+            />
 
             <h3 className="text-xl md:text-2xl font-bold text-gray-700 mt-8 mb-3 leading-tight">
               Innovadores financieros
@@ -343,17 +328,11 @@ export default function RequisitosTarjetaCreditoNuPage() {
               financieramente.
             </p>
 
-            <div className="relative w-full my-8 flex justify-center">
-              <Link href="/soluciones-financieras/cual-es-el-mejor-prestamo-personal">
-                <Image
-                  src="https://media.topfinanzas.com/images/call-to-ACTION-3.jpg"
-                  alt="Opciones de préstamo personal"
-                  width={900}
-                  height={300}
-                  className="rounded-sm shadow-lg"
-                />
-              </Link>
-            </div>
+            <ActionBanner
+              href="/soluciones-financieras/cual-es-el-mejor-prestamo-personal"
+              src="https://media.topfinanzas.com/images/call-to-ACTION-3.jpg"
+              alt="Opciones de préstamo personal"
+            />
 
             <h2 className="text-2xl md:text-3xl font-bold text-gray-700 mt-10 mb-4 leading-tight">
               ¿Es Nu la tarjeta para ti?

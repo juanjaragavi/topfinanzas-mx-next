@@ -1,6 +1,7 @@
 import { Header } from "@/components/layout/header";
 import { CompactFooter } from "@/components/layout/compact-footer";
 import { AIContentDisclaimer } from "@/components/ui/ai-content-disclaimer";
+import { ActionBanner } from "@/components/ui/action-banner";
 import Image from "next/image";
 import Link from "next/link";
 import { Metadata } from "next";
@@ -65,12 +66,13 @@ export default function RequisitosTarjetaCrecyPage() {
             </p>
 
             {/* Image 1 */}
-            <div className="relative w-full h-64 md:h-[400px] my-8 rounded-sm overflow-hidden shadow-lg">
+            <div className="w-full my-8">
               <Image
                 src="https://media.topfinanzas.com/images/download.webp"
                 alt="Tarjeta de Crédito Crecy"
-                fill
-                className="object-cover"
+                width={800}
+                height={400}
+                className="w-full h-auto"
                 priority
               />
             </div>
@@ -201,16 +203,11 @@ export default function RequisitosTarjetaCrecyPage() {
             </div>
 
             {/* CTA Banner 1 */}
-            <div className="relative w-full h-32 md:h-48 my-8 rounded-sm overflow-hidden shadow-lg">
-              <Link href="/finanzas-personales/tarjetas-de-credito-para-estudiantes">
-                <Image
-                  src="https://media.topfinanzas.com/images/call-to-ACTION-1.jpg"
-                  alt="¿Eres estudiante?"
-                  fill
-                  className="object-cover"
-                />
-              </Link>
-            </div>
+            <ActionBanner
+              href="/finanzas-personales/tarjetas-de-credito-para-estudiantes"
+              src="https://media.topfinanzas.com/images/call-to-ACTION-1.jpg"
+              alt="¿Eres estudiante?"
+            />
             <div className="flex justify-center mb-8">
               <Link
                 href="/soluciones-financieras/tarjetas-de-credito-sin-anualidad"
@@ -282,16 +279,11 @@ export default function RequisitosTarjetaCrecyPage() {
             </ul>
 
             {/* CTA Banner 2 */}
-            <div className="relative w-full h-32 md:h-48 my-8 rounded-sm overflow-hidden shadow-lg">
-              <Link href="/finanzas-personales/cat-en-tarjetas-de-credito">
-                <Image
-                  src="https://media.topfinanzas.com/images/call-to-ACTION-3.jpg"
-                  alt="Entiende el CAT en Tarjetas de Crédito"
-                  fill
-                  className="object-cover"
-                />
-              </Link>
-            </div>
+            <ActionBanner
+              href="/finanzas-personales/cat-en-tarjetas-de-credito"
+              src="https://media.topfinanzas.com/images/call-to-ACTION-3.jpg"
+              alt="Entiende el CAT en Tarjetas de Crédito"
+            />
             <div className="flex justify-center mb-8">
               <Link
                 href="/finanzas-personales/cat-en-tarjetas-de-credito"
@@ -365,16 +357,11 @@ export default function RequisitosTarjetaCrecyPage() {
             </ul>
 
             {/* CTA Banner 3 */}
-            <div className="relative w-full h-32 md:h-48 my-8 rounded-sm overflow-hidden shadow-lg">
-              <Link href="/soluciones-financieras/tarjetas-de-credito-sin-anualidad">
-                <Image
-                  src="https://media.topfinanzas.com/images/call-to-ACTION-2.jpg"
-                  alt="Top tarjetas de crédito sin anualidad"
-                  fill
-                  className="object-cover"
-                />
-              </Link>
-            </div>
+            <ActionBanner
+              href="/soluciones-financieras/tarjetas-de-credito-sin-anualidad"
+              src="https://media.topfinanzas.com/images/call-to-ACTION-2.jpg"
+              alt="Top tarjetas de crédito sin anualidad"
+            />
             <div className="flex justify-center mb-8">
               <Link
                 href="/soluciones-financieras/tarjetas-de-credito-sin-anualidad"

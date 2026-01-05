@@ -1,6 +1,7 @@
 import { Header } from "@/components/layout/header";
 import { CompactFooter } from "@/components/layout/compact-footer";
 import { AIContentDisclaimer } from "@/components/ui/ai-content-disclaimer";
+import { ActionBanner } from "@/components/ui/action-banner";
 import Image from "next/image";
 import Link from "next/link";
 import { Metadata } from "next";
@@ -136,16 +137,11 @@ export default function RequisitosTarjetaSantanderAeromexicoPlatinumPage() {
             ></div>
 
             {/* CTA Image 1 */}
-            <div className="relative w-full h-64 md:h-[400px] my-8 rounded-sm overflow-hidden shadow-lg">
-              <Link href="/soluciones-financieras/tarjetas-de-credito-sin-anualidad">
-                <Image
-                  src="https://media.topfinanzas.com/images/call-to-ACTION-1.jpg"
-                  alt="Solicitar Tarjeta Santander Aeroméxico Platinum"
-                  fill
-                  className="object-contain"
-                />
-              </Link>
-            </div>
+            <ActionBanner
+              href="/soluciones-financieras/tarjetas-de-credito-sin-anualidad"
+              src="https://media.topfinanzas.com/images/call-to-ACTION-1.jpg"
+              alt="Solicitar Tarjeta Santander Aeroméxico Platinum"
+            />
 
             {/* Documentación requerida */}
             <h2 className="text-2xl md:text-3xl font-bold text-gray-700 mt-10 mb-4 leading-tight">
@@ -195,16 +191,11 @@ export default function RequisitosTarjetaSantanderAeromexicoPlatinumPage() {
             </ul>
 
             {/* CTA Image 2 */}
-            <div className="relative w-full h-64 md:h-[400px] my-8 rounded-sm overflow-hidden shadow-lg">
-              <Link href="/soluciones-financieras/cual-es-el-mejor-prestamo-personal">
-                <Image
-                  src="https://media.topfinanzas.com/images/call-to-ACTION-3.jpg"
-                  alt="Solicitar Tarjeta Santander Aeroméxico Platinum"
-                  fill
-                  className="object-contain"
-                />
-              </Link>
-            </div>
+            <ActionBanner
+              href="/soluciones-financieras/cual-es-el-mejor-prestamo-personal"
+              src="https://media.topfinanzas.com/images/call-to-ACTION-3.jpg"
+              alt="Solicitar Tarjeta Santander Aeroméxico Platinum"
+            />
 
             {/* Proceso de solicitud */}
             <h2 className="text-2xl md:text-3xl font-bold text-gray-700 mt-10 mb-4 leading-tight">
@@ -246,16 +237,11 @@ export default function RequisitosTarjetaSantanderAeromexicoPlatinumPage() {
             </ul>
 
             {/* CTA Image 3 */}
-            <div className="relative w-full h-64 md:h-[400px] my-8 rounded-sm overflow-hidden shadow-lg">
-              <Link href="/finanzas-personales/cat-en-tarjetas-de-credito">
-                <Image
-                  src="https://media.topfinanzas.com/images/call-to-ACTION-2.jpg"
-                  alt="Solicitar Tarjeta Santander Aeroméxico Platinum"
-                  fill
-                  className="object-contain"
-                />
-              </Link>
-            </div>
+            <ActionBanner
+              href="/finanzas-personales/cat-en-tarjetas-de-credito"
+              src="https://media.topfinanzas.com/images/call-to-ACTION-2.jpg"
+              alt="Solicitar Tarjeta Santander Aeroméxico Platinum"
+            />
 
             {/* ¿Qué es lo atractivo...? */}
             <h2 className="text-2xl md:text-3xl font-bold text-gray-700 mt-10 mb-4 leading-tight">
@@ -330,16 +316,11 @@ export default function RequisitosTarjetaSantanderAeromexicoPlatinumPage() {
             </p>
 
             {/* CTA Image 4 */}
-            <div className="relative w-full h-64 md:h-[400px] my-8 rounded-sm overflow-hidden shadow-lg">
-              <Link href="/finanzas-personales/tarjetas-de-credito-para-estudiantes">
-                <Image
-                  src="https://media.topfinanzas.com/images/call-to-ACTION-4.jpg"
-                  alt="Solicitar Tarjeta Santander Aeroméxico Platinum"
-                  fill
-                  className="object-contain"
-                />
-              </Link>
-            </div>
+            <ActionBanner
+              href="/finanzas-personales/tarjetas-de-credito-para-estudiantes"
+              src="https://media.topfinanzas.com/images/call-to-ACTION-4.jpg"
+              alt="Solicitar Tarjeta Santander Aeroméxico Platinum"
+            />
 
             {/* ¿Es ideal para ti? */}
             <h2 className="text-2xl md:text-3xl font-bold text-gray-700 mt-10 mb-4 leading-tight">

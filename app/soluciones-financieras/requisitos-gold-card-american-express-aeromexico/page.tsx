@@ -1,6 +1,7 @@
 import { Header } from "@/components/layout/header";
 import { CompactFooter } from "@/components/layout/compact-footer";
 import { AIContentDisclaimer } from "@/components/ui/ai-content-disclaimer";
+import { ActionBanner } from "@/components/ui/action-banner";
 import Image from "next/image";
 import Link from "next/link";
 import { Metadata } from "next";
@@ -178,16 +179,11 @@ export default function RequisitosGoldCardAmexAeromexicoPage() {
             </p>
 
             {/* Image 2 */}
-            <div className="relative w-full h-64 md:h-[400px] my-8 rounded-sm overflow-hidden shadow-lg">
-              <Link href="/soluciones-financieras/tarjetas-de-credito-sin-anualidad">
-                <Image
-                  src="https://media.topfinanzas.com/images/call-to-ACTION-1.jpg"
-                  alt="Solicitar Gold Card American Express Aeroméxico"
-                  fill
-                  className="object-contain"
-                />
-              </Link>
-            </div>
+            <ActionBanner
+              href="/soluciones-financieras/tarjetas-de-credito-sin-anualidad"
+              src="https://media.topfinanzas.com/images/call-to-ACTION-1.jpg"
+              alt="Solicitar Gold Card American Express Aeroméxico"
+            />
 
             {/* ¿Qué tiene de especial? */}
             <h2 className="text-2xl md:text-3xl font-bold text-gray-700 mt-10 mb-4 leading-tight">
@@ -276,16 +272,11 @@ export default function RequisitosGoldCardAmexAeromexicoPage() {
             </p>
 
             {/* Image 3 */}
-            <div className="relative w-full h-64 md:h-[400px] my-8 rounded-sm overflow-hidden shadow-lg">
-              <Link href="/soluciones-financieras/cual-es-el-mejor-prestamo-personal">
-                <Image
-                  src="https://media.topfinanzas.com/images/call-to-ACTION-3.jpg"
-                  alt="Beneficios Gold Card American Express Aeroméxico"
-                  fill
-                  className="object-contain"
-                />
-              </Link>
-            </div>
+            <ActionBanner
+              href="/soluciones-financieras/cual-es-el-mejor-prestamo-personal"
+              src="https://media.topfinanzas.com/images/call-to-ACTION-3.jpg"
+              alt="Beneficios Gold Card American Express Aeroméxico"
+            />
 
             {/* Ventajas Adicionales */}
             <h2 className="text-2xl md:text-3xl font-bold text-gray-700 mt-10 mb-4 leading-tight">
@@ -336,16 +327,11 @@ export default function RequisitosGoldCardAmexAeromexicoPage() {
             </p>
 
             {/* Image 4 */}
-            <div className="relative w-full h-64 md:h-[400px] my-8 rounded-sm overflow-hidden shadow-lg">
-              <Link href="/finanzas-personales/cat-en-tarjetas-de-credito">
-                <Image
-                  src="https://media.topfinanzas.com/images/call-to-ACTION-2.jpg"
-                  alt="Ventajas Gold Card American Express Aeroméxico"
-                  fill
-                  className="object-contain"
-                />
-              </Link>
-            </div>
+            <ActionBanner
+              href="/finanzas-personales/cat-en-tarjetas-de-credito"
+              src="https://media.topfinanzas.com/images/call-to-ACTION-2.jpg"
+              alt="Ventajas Gold Card American Express Aeroméxico"
+            />
 
             {/* ¿Cómo Solicitar? */}
             <h2 className="text-2xl md:text-3xl font-bold text-gray-700 mt-10 mb-4 leading-tight">
@@ -450,16 +436,11 @@ export default function RequisitosGoldCardAmexAeromexicoPage() {
             </ul>
 
             {/* Image 5 */}
-            <div className="relative w-full h-64 md:h-[400px] my-8 rounded-sm overflow-hidden shadow-lg">
-              <Link href="/finanzas-personales/tarjetas-de-credito-para-estudiantes">
-                <Image
-                  src="https://media.topfinanzas.com/images/call-to-ACTION-4.jpg"
-                  alt="Preguntas Frecuentes Gold Card American Express Aeroméxico"
-                  fill
-                  className="object-contain"
-                />
-              </Link>
-            </div>
+            <ActionBanner
+              href="/finanzas-personales/tarjetas-de-credito-para-estudiantes"
+              src="https://media.topfinanzas.com/images/call-to-ACTION-4.jpg"
+              alt="Preguntas Frecuentes Gold Card American Express Aeroméxico"
+            />
 
             {/* ¿Es para ti? */}
             <h2 className="text-2xl md:text-3xl font-bold text-gray-700 mt-10 mb-4 leading-tight">

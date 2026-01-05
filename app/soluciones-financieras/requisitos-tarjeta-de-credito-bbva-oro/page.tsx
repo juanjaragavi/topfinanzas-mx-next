@@ -1,6 +1,7 @@
 import { Header } from "@/components/layout/header";
 import { CompactFooter } from "@/components/layout/compact-footer";
 import { AIContentDisclaimer } from "@/components/ui/ai-content-disclaimer";
+import { ActionBanner } from "@/components/ui/action-banner";
 import Image from "next/image";
 import Link from "next/link";
 import { Metadata } from "next";
@@ -72,12 +73,13 @@ export default function RequisitosTarjetaBBVAOroPage() {
             </p>
 
             {/* Main Image */}
-            <div className="relative w-full h-64 md:h-[400px] my-8 rounded-sm overflow-hidden shadow-lg">
+            <div className="w-full my-8">
               <Image
                 src="https://media.topfinanzas.com/images/bbva-oro.jpg"
                 alt="Tarjeta de Crédito BBVA Oro"
-                fill
-                className="object-cover"
+                width={800}
+                height={400}
+                className="w-full h-auto"
                 priority
               />
             </div>
@@ -87,16 +89,11 @@ export default function RequisitosTarjetaBBVAOroPage() {
               Puntos clave
             </h2>
 
-            <div className="relative w-full h-64 md:h-[400px] my-8 rounded-sm overflow-hidden shadow-lg">
-              <Link href="/soluciones-financieras/tarjetas-de-credito-sin-anualidad">
-                <Image
-                  src="https://media.topfinanzas.com/images/call-to-ACTION-1.jpg"
-                  alt="Puntos clave"
-                  fill
-                  className="object-cover"
-                />
-              </Link>
-            </div>
+            <ActionBanner
+              href="/soluciones-financieras/tarjetas-de-credito-sin-anualidad"
+              src="https://media.topfinanzas.com/images/call-to-ACTION-1.jpg"
+              alt="Puntos clave"
+            />
 
             <ul className="space-y-3 mb-8">
               <li className="flex items-start">
@@ -216,16 +213,11 @@ export default function RequisitosTarjetaBBVAOroPage() {
               seguro de protección, el cual incluye:
             </p>
 
-            <div className="relative w-full h-64 md:h-[400px] my-8 rounded-sm overflow-hidden shadow-lg">
-              <Link href="/soluciones-financieras/cual-es-el-mejor-prestamo-personal">
-                <Image
-                  src="https://media.topfinanzas.com/images/call-to-ACTION-3.jpg"
-                  alt="Seguro de protección"
-                  fill
-                  className="object-cover"
-                />
-              </Link>
-            </div>
+            <ActionBanner
+              href="/soluciones-financieras/cual-es-el-mejor-prestamo-personal"
+              src="https://media.topfinanzas.com/images/call-to-ACTION-3.jpg"
+              alt="Seguro de protección"
+            />
 
             <ul className="space-y-3 mb-8">
               <li className="flex items-start">
@@ -278,16 +270,11 @@ export default function RequisitosTarjetaBBVAOroPage() {
               entretenimiento, moda y viajes.
             </p>
 
-            <div className="relative w-full h-64 md:h-[400px] my-8 rounded-sm overflow-hidden shadow-lg">
-              <Link href="/finanzas-personales/cat-en-tarjetas-de-credito">
-                <Image
-                  src="https://media.topfinanzas.com/images/call-to-ACTION-2.jpg"
-                  alt="Promociones exclusivas"
-                  fill
-                  className="object-cover"
-                />
-              </Link>
-            </div>
+            <ActionBanner
+              href="/finanzas-personales/cat-en-tarjetas-de-credito"
+              src="https://media.topfinanzas.com/images/call-to-ACTION-2.jpg"
+              alt="Promociones exclusivas"
+            />
 
             <p className="text-lg text-gray-700 mb-6 font-normal">
               <strong>Conoce más:</strong>{" "}
@@ -434,16 +421,11 @@ export default function RequisitosTarjetaBBVAOroPage() {
               </li>
             </ul>
 
-            <div className="relative w-full h-64 md:h-[400px] my-8 rounded-sm overflow-hidden shadow-lg">
-              <Link href="/finanzas-personales/tarjetas-de-credito-para-estudiantes">
-                <Image
-                  src="https://media.topfinanzas.com/images/call-to-ACTION-4.jpg"
-                  alt="Proceso de solicitud"
-                  fill
-                  className="object-cover"
-                />
-              </Link>
-            </div>
+            <ActionBanner
+              href="/finanzas-personales/tarjetas-de-credito-para-estudiantes"
+              src="https://media.topfinanzas.com/images/call-to-ACTION-4.jpg"
+              alt="Proceso de solicitud"
+            />
 
             {/* ¿Por qué elegir la tarjeta BBVA Oro? */}
             <h2 className="text-2xl md:text-3xl font-bold text-gray-700 mt-10 mb-4 leading-tight">

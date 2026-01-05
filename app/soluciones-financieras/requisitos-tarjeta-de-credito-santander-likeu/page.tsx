@@ -1,6 +1,7 @@
 import { Header } from "@/components/layout/header";
 import { CompactFooter } from "@/components/layout/compact-footer";
 import { AIContentDisclaimer } from "@/components/ui/ai-content-disclaimer";
+import { ActionBanner } from "@/components/ui/action-banner";
 import Image from "next/image";
 import Link from "next/link";
 import { Metadata } from "next";
@@ -158,16 +159,11 @@ export default function RequisitosTarjetaLikeUSantanderPage() {
             </p>
 
             {/* Image 2 */}
-            <div className="relative w-full h-64 md:h-[400px] my-8 rounded-sm overflow-hidden shadow-lg">
-              <Link href="/soluciones-financieras/tarjetas-de-credito-sin-anualidad">
-                <Image
-                  src="https://media.topfinanzas.com/images/call-to-ACTION-1.jpg"
-                  alt="Solicitar Tarjeta LikeU"
-                  fill
-                  className="object-contain"
-                />
-              </Link>
-            </div>
+            <ActionBanner
+              href="/soluciones-financieras/tarjetas-de-credito-sin-anualidad"
+              src="https://media.topfinanzas.com/images/call-to-ACTION-1.jpg"
+              alt="Solicitar Tarjeta LikeU"
+            />
 
             {/* Proceso de solicitud */}
             <h2 className="text-2xl md:text-3xl font-bold text-gray-700 mt-10 mb-4 leading-tight">
@@ -230,16 +226,11 @@ export default function RequisitosTarjetaLikeUSantanderPage() {
             </p>
 
             {/* Image 3 */}
-            <div className="relative w-full h-64 md:h-[400px] my-8 rounded-sm overflow-hidden shadow-lg">
-              <Link href="/soluciones-financieras/cual-es-el-mejor-prestamo-personal">
-                <Image
-                  src="https://media.topfinanzas.com/images/call-to-ACTION-3.jpg"
-                  alt="Costos y tasas Tarjeta LikeU"
-                  fill
-                  className="object-contain"
-                />
-              </Link>
-            </div>
+            <ActionBanner
+              href="/soluciones-financieras/cual-es-el-mejor-prestamo-personal"
+              src="https://media.topfinanzas.com/images/call-to-ACTION-3.jpg"
+              alt="Costos y tasas Tarjeta LikeU"
+            />
 
             {/* ¿Para quién es la Tarjeta LikeU? */}
             <h2 className="text-2xl md:text-3xl font-bold text-gray-700 mt-10 mb-4 leading-tight">
@@ -270,16 +261,11 @@ export default function RequisitosTarjetaLikeUSantanderPage() {
             </p>
 
             {/* Image 4 */}
-            <div className="relative w-full h-64 md:h-[400px] my-8 rounded-sm overflow-hidden shadow-lg">
-              <Link href="/finanzas-personales/cat-en-tarjetas-de-credito">
-                <Image
-                  src="https://media.topfinanzas.com/images/call-to-ACTION-2.jpg"
-                  alt="Para quién es la Tarjeta LikeU"
-                  fill
-                  className="object-contain"
-                />
-              </Link>
-            </div>
+            <ActionBanner
+              href="/finanzas-personales/cat-en-tarjetas-de-credito"
+              src="https://media.topfinanzas.com/images/call-to-ACTION-2.jpg"
+              alt="Para quién es la Tarjeta LikeU"
+            />
 
             <h3 className="text-xl font-bold text-gray-700 mt-8 mb-4 leading-tight">
               Profesionales con estabilidad financiera:
@@ -322,16 +308,11 @@ export default function RequisitosTarjetaLikeUSantanderPage() {
             </p>
 
             {/* Image 5 */}
-            <div className="relative w-full h-64 md:h-[400px] my-8 rounded-sm overflow-hidden shadow-lg">
-              <Link href="/finanzas-personales/tarjetas-de-credito-para-estudiantes">
-                <Image
-                  src="https://media.topfinanzas.com/images/call-to-ACTION-4.jpg"
-                  alt="Usuarios frecuentes de tarjetas"
-                  fill
-                  className="object-contain"
-                />
-              </Link>
-            </div>
+            <ActionBanner
+              href="/finanzas-personales/tarjetas-de-credito-para-estudiantes"
+              src="https://media.topfinanzas.com/images/call-to-ACTION-4.jpg"
+              alt="Usuarios frecuentes de tarjetas"
+            />
 
             {/* Más que una simple tarjeta de crédito */}
             <h2 className="text-2xl md:text-3xl font-bold text-gray-700 mt-10 mb-4 leading-tight">

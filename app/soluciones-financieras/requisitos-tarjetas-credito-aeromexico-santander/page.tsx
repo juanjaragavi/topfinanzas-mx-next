@@ -1,6 +1,7 @@
 import { Header } from "@/components/layout/header";
 import { CompactFooter } from "@/components/layout/compact-footer";
 import { AIContentDisclaimer } from "@/components/ui/ai-content-disclaimer";
+import { ActionBanner } from "@/components/ui/action-banner";
 import Image from "next/image";
 import Link from "next/link";
 import { Metadata } from "next";
@@ -111,16 +112,11 @@ export default function RequisitosAeromexicoSantanderPage() {
               los siguientes:
             </p>
 
-            <div className="relative w-full h-64 md:h-[400px] my-8 rounded-sm overflow-hidden shadow-lg">
-              <Link href="/soluciones-financieras/tarjetas-de-credito-sin-anualidad">
-                <Image
-                  src="https://media.topfinanzas.com/images/call-to-ACTION-1.jpg"
-                  alt="Requisitos"
-                  fill
-                  className="object-cover"
-                />
-              </Link>
-            </div>
+            <ActionBanner
+              href="/soluciones-financieras/tarjetas-de-credito-sin-anualidad"
+              src="https://media.topfinanzas.com/images/call-to-ACTION-1.jpg"
+              alt="Requisitos"
+            />
 
             <ul className="space-y-3 mb-8">
               <li className="flex items-start">
@@ -173,16 +169,11 @@ export default function RequisitosAeromexicoSantanderPage() {
               diseñados para distintos perfiles de ingresos.
             </p>
 
-            <div className="relative w-full h-64 md:h-[400px] my-8 rounded-sm overflow-hidden shadow-lg">
-              <Link href="/soluciones-financieras/cual-es-el-mejor-prestamo-personal">
-                <Image
-                  src="https://media.topfinanzas.com/images/call-to-ACTION-3.jpg"
-                  alt="Características"
-                  fill
-                  className="object-cover"
-                />
-              </Link>
-            </div>
+            <ActionBanner
+              href="/soluciones-financieras/cual-es-el-mejor-prestamo-personal"
+              src="https://media.topfinanzas.com/images/call-to-ACTION-3.jpg"
+              alt="Características"
+            />
 
             <p className="text-lg text-gray-700 mb-6 font-normal">
               La <strong>Aeroméxico Santander Blanca</strong> requiere un
@@ -226,16 +217,11 @@ export default function RequisitosAeromexicoSantanderPage() {
               Estos son algunos de los más destacados:
             </p>
 
-            <div className="relative w-full h-64 md:h-[400px] my-8 rounded-sm overflow-hidden shadow-lg">
-              <Link href="/finanzas-personales/cat-en-tarjetas-de-credito">
-                <Image
-                  src="https://media.topfinanzas.com/images/call-to-ACTION-2.jpg"
-                  alt="Beneficios"
-                  fill
-                  className="object-cover"
-                />
-              </Link>
-            </div>
+            <ActionBanner
+              href="/finanzas-personales/cat-en-tarjetas-de-credito"
+              src="https://media.topfinanzas.com/images/call-to-ACTION-2.jpg"
+              alt="Beneficios"
+            />
 
             <ul className="space-y-3 mb-8">
               <li className="flex items-start">
@@ -312,16 +298,11 @@ export default function RequisitosAeromexicoSantanderPage() {
               explicamos los pasos:
             </p>
 
-            <div className="relative w-full h-64 md:h-[400px] my-8 rounded-sm overflow-hidden shadow-lg">
-              <Link href="/finanzas-personales/tarjetas-de-credito-para-estudiantes">
-                <Image
-                  src="https://media.topfinanzas.com/images/call-to-ACTION-4.jpg"
-                  alt="Cómo solicitar"
-                  fill
-                  className="object-cover"
-                />
-              </Link>
-            </div>
+            <ActionBanner
+              href="/finanzas-personales/tarjetas-de-credito-para-estudiantes"
+              src="https://media.topfinanzas.com/images/call-to-ACTION-4.jpg"
+              alt="Cómo solicitar"
+            />
 
             <ul className="space-y-3 mb-8">
               <li className="flex items-start">
