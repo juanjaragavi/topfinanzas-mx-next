@@ -22,7 +22,6 @@ const filesToModify = [
   "app/finanzas-personales/understanding-credit-card-interest-rates/page.tsx",
   "app/finanzas-personales/setting-financial-goals/page.tsx",
   "app/finanzas-personales/best-personal-loans/page.tsx",
-  "app/finanzas-personales/what-is-lifestyle-creep/page.tsx",
   "app/finanzas-personales/inflation-proof-your-life/page.tsx",
   "app/finanzas-personales/credit-card-types-benefits/page.tsx",
   "app/finanzas-personales/personal-loans-debt-strategy/page.tsx",
