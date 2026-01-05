@@ -2,7 +2,6 @@ import { Header } from "@/components/layout/header";
 import { CompactFooter } from "@/components/layout/compact-footer";
 import { AIContentDisclaimer } from "@/components/ui/ai-content-disclaimer";
 import { ActionBanner } from "@/components/ui/action-banner";
-import Image from "next/image";
 import Link from "next/link";
 import { Metadata } from "next";
 import ResponsiveImage from "@/components/ui/responsive-image";

@@ -499,7 +499,7 @@ export default function Contactanos() {
               </h3>
               <div className="flex justify-center space-x-4">
                 <Link
-                  href="https://www.facebook.com/topfinanzas"
+                  href="https://www.facebook.com/TopFinanzasParaTi"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="w-12 h-12 flex items-center justify-center bg-[#3b5998] text-white rounded-sm hover:opacity-90 transition-opacity"
@@ -508,7 +508,7 @@ export default function Contactanos() {
                   <FaFacebook size={24} />
                 </Link>
                 <Link
-                  href="https://www.youtube.com/@topfinanzas"
+                  href="https://www.youtube.com/@top_finanzas_latam"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="w-12 h-12 flex items-center justify-center bg-[#FF0000] text-white rounded-sm hover:opacity-90 transition-opacity"
@@ -517,7 +517,7 @@ export default function Contactanos() {
                   <FaYoutube size={24} />
                 </Link>
                 <Link
-                  href="https://www.tiktok.com/@topfinanzas"
+                  href="https://www.tiktok.com/@top.finanzas.latam"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="w-12 h-12 flex items-center justify-center bg-[#69C9D0] text-white rounded-sm hover:opacity-90 transition-opacity"
@@ -526,7 +526,7 @@ export default function Contactanos() {
                   <FaTiktok size={24} />
                 </Link>
                 <Link
-                  href="https://www.instagram.com/topfinanzas/"
+                  href="https://www.instagram.com/topfinanzas_es/"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="w-12 h-12 flex items-center justify-center bg-[#3f729b] text-white rounded-sm hover:opacity-90 transition-opacity"
