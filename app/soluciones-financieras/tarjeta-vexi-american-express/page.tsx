@@ -189,8 +189,8 @@ export default function TarjetaVexiAmexPage() {
               <li className="flex items-start">
                 <SkyArrowIcon />
                 <span className="text-gray-700">
-                  <strong className="text-gray-900">Viajes:</strong> Disfruta
-                  de descuentos en vuelos, hoteles y otros servicios de viaje a
+                  <strong className="text-gray-900">Viajes:</strong> Disfruta de
+                  descuentos en vuelos, hoteles y otros servicios de viaje a
                   nivel internacional, respaldado por la red global de American
                   Express.
                 </span>
@@ -231,10 +231,9 @@ export default function TarjetaVexiAmexPage() {
               que durante el primer año de uso no tendrás que pagar anualidad.
               Esto te permite disfrutar de todas las ventajas y funcionalidades
               de la tarjeta sin preocuparte por costos adicionales. A partir del
-              segundo año, la cuota anual es de $499 MXN, una tarifa
-              competitiva en comparación con otras tarjetas del mercado,
-              especialmente considerando los beneficios y promociones que
-              ofrece.
+              segundo año, la cuota anual es de $499 MXN, una tarifa competitiva
+              en comparación con otras tarjetas del mercado, especialmente
+              considerando los beneficios y promociones que ofrece.
             </p>
 
             {/* Section: Meses sin intereses */}

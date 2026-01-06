@@ -51,7 +51,7 @@ export function SearchBar({ isOpen, onClose }: SearchBarProps) {
                 type="text"
                 value={query}
                 onChange={handleSearch}
-                placeholder="Search..."
+                placeholder="Buscar..."
                 className="w-full h-10 pl-4 pr-10 bg-gray-100 rounded-full text-sm focus:outline-none focus:ring-2 focus:ring-blue-500"
               />
               {query && (
@@ -72,12 +72,12 @@ export function SearchBar({ isOpen, onClose }: SearchBarProps) {
               }}
               className="text-sm font-bold text-gray-700 hover:text-blue-600 uppercase tracking-wide hidden md:block"
             >
-              Search
+              Buscar
             </button>
             <button
               onClick={onClose}
               className="p-2 -mr-2 text-gray-500 hover:text-gray-700 rounded-full hover:bg-gray-100"
-              aria-label="Close search"
+              aria-label="Cerrar búsqueda"
             >
               <X className="w-6 h-6" />
             </button>

@@ -58,8 +58,8 @@ export default function PrestamosAfluentaPage() {
 
             {/* Introduction Summary */}
             <p className="text-lg text-gray-700 mb-6">
-              Afluenta es una plataforma de préstamos P2P (persona a persona) que
-              permite a los usuarios acceder a financiamiento directo entre
+              Afluenta es una plataforma de préstamos P2P (persona a persona)
+              que permite a los usuarios acceder a financiamiento directo entre
               personas, ofreciendo una alternativa accesible y flexible en
               comparación con los préstamos bancarios tradicionales.
             </p>
@@ -70,8 +70,8 @@ export default function PrestamosAfluentaPage() {
                 <SlateArrowIcon />
                 <span className="text-gray-700">
                   <strong className="text-gray-900">Tasas competitivas:</strong>{" "}
-                  Afluenta ofrece tasas de interés accesibles, gracias a su modelo
-                  peer-to-peer (P2P).
+                  Afluenta ofrece tasas de interés accesibles, gracias a su
+                  modelo peer-to-peer (P2P).
                 </span>
               </li>
               <li className="flex items-start">
@@ -131,9 +131,9 @@ export default function PrestamosAfluentaPage() {
               tradicionales. En lugar de depender de un banco para obtener
               financiamiento, Afluenta conecta a los solicitantes de crédito
               directamente con inversionistas, lo que reduce costos y permite
-              obtener tasas de interés más bajas. Esto hace que los préstamos sean
-              más accesibles para quienes buscan financiar proyectos personales o
-              cubrir necesidades de liquidez.
+              obtener tasas de interés más bajas. Esto hace que los préstamos
+              sean más accesibles para quienes buscan financiar proyectos
+              personales o cubrir necesidades de liquidez.
             </p>
             <p className="text-gray-700 mb-6 leading-tight">
               Además, Afluenta permite a los usuarios comparar las tasas de
@@ -150,16 +150,17 @@ export default function PrestamosAfluentaPage() {
             <p className="text-gray-700 mb-4 leading-tight">
               Afluenta ofrece una gran variedad de opciones en cuanto a montos y
               plazos de pago, adaptándose a las necesidades y posibilidades de
-              cada usuario. Los solicitantes pueden elegir el plazo que mejor les
-              convenga, con opciones de pagos mensuales que se ajustan a su
+              cada usuario. Los solicitantes pueden elegir el plazo que mejor
+              les convenga, con opciones de pagos mensuales que se ajustan a su
               capacidad económica.
             </p>
             <p className="text-gray-700 mb-6 leading-tight">
-              Este nivel de flexibilidad permite a los usuarios manejar sus deudas
-              de manera más controlada, ya sea que necesiten financiar una compra
-              importante o consolidar deudas existentes. La flexibilidad también
-              se extiende a la posibilidad de realizar pagos anticipados sin
-              penalización, lo que da aún más control sobre el pago del préstamo.
+              Este nivel de flexibilidad permite a los usuarios manejar sus
+              deudas de manera más controlada, ya sea que necesiten financiar
+              una compra importante o consolidar deudas existentes. La
+              flexibilidad también se extiende a la posibilidad de realizar
+              pagos anticipados sin penalización, lo que da aún más control
+              sobre el pago del préstamo.
             </p>
 
             {/* Section: Proceso de solicitud 100% digital */}
@@ -169,16 +170,16 @@ export default function PrestamosAfluentaPage() {
             <p className="text-gray-700 mb-4 leading-tight">
               La experiencia de Afluenta es completamente digital, permitiendo a
               los usuarios solicitar, gestionar y pagar sus préstamos sin
-              necesidad de acudir a una sucursal bancaria. Desde el registro hasta
-              la aprobación, todo el proceso se realiza en línea, lo que resulta
-              en una experiencia rápida y conveniente.
+              necesidad de acudir a una sucursal bancaria. Desde el registro
+              hasta la aprobación, todo el proceso se realiza en línea, lo que
+              resulta en una experiencia rápida y conveniente.
             </p>
             <p className="text-gray-700 mb-6 leading-tight">
-              El proceso de solicitud es ágil y requiere únicamente los documentos
-              básicos, como identificación oficial y comprobante de ingresos. Una
-              vez enviado, Afluenta revisa el perfil del solicitante y, en caso de
-              aprobación, el préstamo se financia mediante la plataforma, sin
-              largos tiempos de espera.
+              El proceso de solicitud es ágil y requiere únicamente los
+              documentos básicos, como identificación oficial y comprobante de
+              ingresos. Una vez enviado, Afluenta revisa el perfil del
+              solicitante y, en caso de aprobación, el préstamo se financia
+              mediante la plataforma, sin largos tiempos de espera.
             </p>
 
             {/* Section: Transparencia y seguridad */}
@@ -186,11 +187,11 @@ export default function PrestamosAfluentaPage() {
               Transparencia y seguridad
             </h2>
             <p className="text-gray-700 mb-4 leading-tight">
-              Uno de los aspectos más valorados de Afluenta es su transparencia en
-              las condiciones de los préstamos. Los solicitantes pueden ver de
-              manera clara las tasas de interés, el costo total del crédito y los
-              plazos de pago desde el inicio, lo que evita sorpresas desagradables
-              o cargos ocultos.
+              Uno de los aspectos más valorados de Afluenta es su transparencia
+              en las condiciones de los préstamos. Los solicitantes pueden ver
+              de manera clara las tasas de interés, el costo total del crédito y
+              los plazos de pago desde el inicio, lo que evita sorpresas
+              desagradables o cargos ocultos.
             </p>
             <p className="text-gray-700 mb-6 leading-tight">
               Afluenta se compromete a proteger la información financiera de sus
@@ -208,17 +209,18 @@ export default function PrestamosAfluentaPage() {
             <p className="text-gray-700 mb-4 leading-tight">
               Para aquellos que buscan una alternativa a los métodos de
               financiamiento convencionales, Afluenta representa una opción
-              innovadora en el mercado financiero. Al permitir que las personas se
-              financien entre sí, se crean comunidades de apoyo financiero, donde
-              los usuarios pueden encontrar oportunidades que se ajusten mejor a
-              sus necesidades y presupuesto.
+              innovadora en el mercado financiero. Al permitir que las personas
+              se financien entre sí, se crean comunidades de apoyo financiero,
+              donde los usuarios pueden encontrar oportunidades que se ajusten
+              mejor a sus necesidades y presupuesto.
             </p>
             <p className="text-gray-700 mb-8 leading-tight">
-              Los inversionistas, por su parte, encuentran en Afluenta una opción
-              atractiva para diversificar sus inversiones, lo que a su vez
-              incrementa las opciones de financiamiento para los prestatarios.
-              Este modelo alternativo ofrece tanto a los solicitantes como a los
-              inversionistas una plataforma accesible, confiable y transparente.
+              Los inversionistas, por su parte, encuentran en Afluenta una
+              opción atractiva para diversificar sus inversiones, lo que a su
+              vez incrementa las opciones de financiamiento para los
+              prestatarios. Este modelo alternativo ofrece tanto a los
+              solicitantes como a los inversionistas una plataforma accesible,
+              confiable y transparente.
             </p>
 
             {/* Section: ¿Es el préstamo de Afluenta ideal para ti? */}
@@ -229,12 +231,12 @@ export default function PrestamosAfluentaPage() {
               Los préstamos de Afluenta son ideales para quienes buscan
               financiamiento flexible, accesible y con condiciones competitivas.
               Desde tasas de interés más bajas hasta un proceso completamente
-              digital, esta plataforma se posiciona como una alternativa moderna y
-              confiable frente a los bancos tradicionales.
+              digital, esta plataforma se posiciona como una alternativa moderna
+              y confiable frente a los bancos tradicionales.
             </p>
             <p className="text-gray-700 mb-8 leading-tight">
-              Si estás considerando solicitar un préstamo, Afluenta podría ser la
-              solución ideal para obtener los fondos que necesitas mientras
+              Si estás considerando solicitar un préstamo, Afluenta podría ser
+              la solución ideal para obtener los fondos que necesitas mientras
               aprovechas las ventajas de un modelo de financiamiento P2P.
             </p>
 

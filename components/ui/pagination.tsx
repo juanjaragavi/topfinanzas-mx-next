@@ -19,10 +19,10 @@ export function Pagination({
         variant="secondary"
         className="px-4 py-2 text-sm font-medium rounded-full disabled:opacity-50 disabled:cursor-not-allowed transition-colors"
       >
-        Previous
+        Anterior
       </Button>
       <span className="text-sm text-gray-700">
-        Page {currentPage} of {totalPages}
+        Página {currentPage} de {totalPages}
       </span>
       <Button
         onClick={() => onPageChange(Math.min(currentPage + 1, totalPages))}
@@ -30,7 +30,7 @@ export function Pagination({
         variant="secondary"
         className="px-4 py-2 text-sm font-medium rounded-full disabled:opacity-50 disabled:cursor-not-allowed transition-colors"
       >
-        Next
+        Siguiente
       </Button>
     </div>
   );

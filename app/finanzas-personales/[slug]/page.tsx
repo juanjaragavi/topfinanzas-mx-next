@@ -10,10 +10,18 @@ export async function generateMetadata({
   params: Promise<{ slug: string }>;
 }): Promise<Metadata> {
   const { slug } = await params;
+  const baseUrl = "https://topfinanzas.com/mx";
+
   return {
     title: `Finanzas Personales - ${slug} | Top Finanzas MX`,
     description:
       "Consejos y guías para mejorar tus finanzas personales en México.",
+    alternates: {
+      canonical: `${baseUrl}/finanzas-personales/${slug}`,
+      languages: {
+        "es-MX": `${baseUrl}/finanzas-personales/${slug}`,
+      },
+    },
   };
 }
 

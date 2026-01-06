@@ -58,8 +58,8 @@ export default function MoneymanPrestamosGuiaPage() {
 
             {/* Introduction Summary */}
             <p className="text-lg text-gray-700 mb-6">
-              La solución rápida y sin complicaciones que necesitas para acceder a
-              fondos de manera inmediata.
+              La solución rápida y sin complicaciones que necesitas para acceder
+              a fondos de manera inmediata.
             </p>
 
             {/* Quick Benefits Summary */}
@@ -67,7 +67,9 @@ export default function MoneymanPrestamosGuiaPage() {
               <li className="flex items-start">
                 <LimeArrowIcon />
                 <span className="text-gray-700">
-                  <strong className="text-gray-900">Proceso 100% digital:</strong>{" "}
+                  <strong className="text-gray-900">
+                    Proceso 100% digital:
+                  </strong>{" "}
                   Recibe el dinero sin salir de casa.
                 </span>
               </li>
@@ -123,8 +125,8 @@ export default function MoneymanPrestamosGuiaPage() {
             </h2>
             <p className="text-gray-700 mb-4 leading-tight">
               Optar por un préstamo de Moneyman significa acceder a
-              financiamiento de manera eficiente y transparente. Este servicio se
-              destaca por su proceso de solicitud simplificado y rápida
+              financiamiento de manera eficiente y transparente. Este servicio
+              se destaca por su proceso de solicitud simplificado y rápida
               respuesta, lo que lo hace ideal para situaciones de urgencia
               financiera o cuando necesitas liquidez inmediata sin las demoras
               de la banca tradicional.
@@ -211,7 +213,9 @@ export default function MoneymanPrestamosGuiaPage() {
               <li className="flex items-start">
                 <LimeArrowIcon />
                 <span className="text-gray-700">
-                  <strong className="text-gray-900">Verificación rápida:</strong>{" "}
+                  <strong className="text-gray-900">
+                    Verificación rápida:
+                  </strong>{" "}
                   El sistema de Moneyman verifica tu información de manera
                   eficiente para asegurar una respuesta rápida.
                 </span>

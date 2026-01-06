@@ -114,12 +114,12 @@ export const headerNavigation = {
         title: "Finanzas Personales",
         items: [
           {
-            text: cleanTitle("Los Mejores Préstamos Personales"),
-            href: "/finanzas-personales/best-personal-loans",
+            text: "Mejores Préstamos Personales",
+            href: "/prestamos",
           },
           {
-            text: cleanTitle("Guía Práctica para Salir de Deudas"),
-            href: "/finanzas-personales/getting-out-of-debt",
+            text: "Guía para Salir de Deudas",
+            href: "/finanzas-personales",
           },
           {
             text: "Ver más...",
@@ -132,12 +132,12 @@ export const headerNavigation = {
         title: "Tarjetas",
         items: [
           {
-            text: cleanTitle("Barclaycard Avios Plus"),
-            href: "/soluciones-financieras/barclaycard-avios-plus",
+            text: "Mejores Tarjetas de Crédito",
+            href: "/tarjetas",
           },
           {
             text: "Ver más...",
-            href: "/soluciones-financieras",
+            href: "/tarjetas",
             isEmphasis: true,
           },
         ],
@@ -146,8 +146,8 @@ export const headerNavigation = {
         title: "Préstamos",
         items: [
           {
-            text: cleanTitle("Préstamo Personal HSBC"),
-            href: "/soluciones-financieras/hsbc-personal-loan",
+            text: "Mejores Préstamos Personales",
+            href: "/prestamos",
           },
           {
             text: "Ver más...",
@@ -161,16 +161,16 @@ export const headerNavigation = {
       title: "Artículos Destacados",
       posts: [
         {
-          title: cleanTitle("Los Mejores Préstamos Personales"),
-          href: "/finanzas-personales/best-personal-loans",
+          title: "Mejores Préstamos Personales",
+          href: "/prestamos",
           image:
             "https://media.topfinanzas.com/images/best-personal-loans.webp",
           category: "Finanzas Personales",
           categoryHref: "/finanzas-personales",
         },
         {
-          title: cleanTitle("Guía Práctica para Salir de Deudas"),
-          href: "/finanzas-personales/getting-out-of-debt",
+          title: "Guía para Salir de Deudas",
+          href: "/finanzas-personales",
           image:
             "https://media.topfinanzas.com/images/uk/Top_Finance_how_to_get_out_of_debt.webp",
           category: "Finanzas Personales",

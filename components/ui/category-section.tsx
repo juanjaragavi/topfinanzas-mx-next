@@ -38,7 +38,7 @@ export function CategorySection({
             href={viewAllLink}
             className="text-gray-500 hover:text-blue-600 font-medium text-sm flex items-center mb-1"
           >
-            {posts.length} posts
+            {posts.length} artículos
           </Link>
         )}
       </div>

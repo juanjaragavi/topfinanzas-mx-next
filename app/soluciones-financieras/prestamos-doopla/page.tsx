@@ -59,14 +59,14 @@ export default function PrestamosDooplaPage() {
             {/* Intro */}
             <p className="text-lg text-gray-700 mb-6">
               Doopla es una plataforma de financiamiento pionera en México,
-              especializada en préstamos de persona a persona (P2P). Este modelo de
-              préstamos permite conectar a personas que necesitan crédito con
-              inversionistas que están dispuestos a prestar su dinero, eliminando a
-              los intermediarios tradicionales como los bancos. Este enfoque ofrece
-              múltiples beneficios tanto para los solicitantes de préstamos como
-              para los inversionistas, lo que resulta en tasas de interés más bajas
-              para quienes solicitan crédito y mayores rendimientos para quienes
-              invierten.
+              especializada en préstamos de persona a persona (P2P). Este modelo
+              de préstamos permite conectar a personas que necesitan crédito con
+              inversionistas que están dispuestos a prestar su dinero,
+              eliminando a los intermediarios tradicionales como los bancos.
+              Este enfoque ofrece múltiples beneficios tanto para los
+              solicitantes de préstamos como para los inversionistas, lo que
+              resulta en tasas de interés más bajas para quienes solicitan
+              crédito y mayores rendimientos para quienes invierten.
             </p>
 
             {/* Quick Benefits Summary */}
@@ -97,7 +97,9 @@ export default function PrestamosDooplaPage() {
               <li className="flex items-start">
                 <CheckIcon />
                 <span className="text-gray-700">
-                  <strong className="text-gray-900">Trámite 100% digital:</strong>{" "}
+                  <strong className="text-gray-900">
+                    Trámite 100% digital:
+                  </strong>{" "}
                   Solicita y recibe tu préstamo sin salir de casa.
                 </span>
               </li>
@@ -130,16 +132,16 @@ export default function PrestamosDooplaPage() {
             </h2>
             <p className="text-gray-700 mb-4 leading-tight">
               El principal atractivo de los préstamos P2P en Doopla es que las
-              tasas de interés comienzan desde el 12% anual, significativamente más
-              bajas que las que ofrecen los bancos tradicionales, que pueden
+              tasas de interés comienzan desde el 12% anual, significativamente
+              más bajas que las que ofrecen los bancos tradicionales, que pueden
               superar el 60%. Las tasas en Doopla se asignan con base en la
               calificación de riesgo del solicitante, lo que significa que
               aquellos con un mejor historial crediticio pueden acceder a tasas
               más bajas.
             </p>
             <p className="text-gray-700 mb-4 leading-tight">
-              El sistema de clasificación de riesgo utiliza un modelo de “scoring”
-              que categoriza a los solicitantes en diferentes niveles:
+              El sistema de clasificación de riesgo utiliza un modelo de
+              “scoring” que categoriza a los solicitantes en diferentes niveles:
             </p>
             <ul className="list-disc pl-5 mb-4 text-gray-700 space-y-2">
               <li>
@@ -157,7 +159,8 @@ export default function PrestamosDooplaPage() {
             </ul>
             <p className="text-gray-700 mb-4 leading-tight">
               Esta estructura asegura que las personas puedan obtener préstamos
-              con tasas ajustadas a su perfil, evitando pagar intereses excesivos.
+              con tasas ajustadas a su perfil, evitando pagar intereses
+              excesivos.
             </p>
 
             {/* Section: Préstamos de persona a persona */}
@@ -167,28 +170,32 @@ export default function PrestamosDooplaPage() {
             <p className="text-gray-700 mb-4 leading-tight">
               El modelo P2P de Doopla elimina la intermediación bancaria,
               permitiendo que el dinero provenga directamente de otros usuarios
-              que desean invertir. Este sistema de financiación directa reduce los
-              costos operativos y permite que tanto los solicitantes como los
-              prestamistas se beneficien de mejores condiciones.
+              que desean invertir. Este sistema de financiación directa reduce
+              los costos operativos y permite que tanto los solicitantes como
+              los prestamistas se beneficien de mejores condiciones.
             </p>
             <ul className="list-disc pl-5 mb-4 text-gray-700 space-y-2">
               <li>
-                <strong className="text-gray-900">Para los solicitantes:</strong>{" "}
-                Pueden acceder a créditos a tasas mucho más competitivas, sin las
-                comisiones elevadas que suelen cobrar los bancos.
+                <strong className="text-gray-900">
+                  Para los solicitantes:
+                </strong>{" "}
+                Pueden acceder a créditos a tasas mucho más competitivas, sin
+                las comisiones elevadas que suelen cobrar los bancos.
               </li>
               <li>
-                <strong className="text-gray-900">Para los prestamistas:</strong>{" "}
+                <strong className="text-gray-900">
+                  Para los prestamistas:
+                </strong>{" "}
                 Obtienen rendimientos significativamente más altos al prestar su
-                dinero, en comparación con las tasas de interés ofrecidas por los
-                instrumentos de ahorro tradicionales.
+                dinero, en comparación con las tasas de interés ofrecidas por
+                los instrumentos de ahorro tradicionales.
               </li>
             </ul>
             <p className="text-gray-700 mb-4 leading-tight">
               Este modelo ha tenido éxito en países como Estados Unidos, Reino
-              Unido y España durante más de 10 años, y ahora en México, Doopla es
-              una de las plataformas pioneras en esta área, ofreciendo seguridad y
-              transparencia en cada transacción.
+              Unido y España durante más de 10 años, y ahora en México, Doopla
+              es una de las plataformas pioneras en esta área, ofreciendo
+              seguridad y transparencia en cada transacción.
             </p>
 
             {/* Section: Flexibilidad en montos y plazos */}
@@ -196,16 +203,17 @@ export default function PrestamosDooplaPage() {
               Flexibilidad en montos y plazos
             </h2>
             <p className="text-gray-700 mb-4 leading-tight">
-              Con Doopla, puedes solicitar préstamos desde $20,000 hasta $350,000
-              MXN, lo que te brinda la flexibilidad de elegir el monto que mejor
-              se ajuste a tus necesidades financieras. Ya sea que necesites
-              consolidar deudas, financiar un proyecto personal o cubrir gastos
-              médicos, Doopla te ofrece una opción ajustada a tu situación.
+              Con Doopla, puedes solicitar préstamos desde $20,000 hasta
+              $350,000 MXN, lo que te brinda la flexibilidad de elegir el monto
+              que mejor se ajuste a tus necesidades financieras. Ya sea que
+              necesites consolidar deudas, financiar un proyecto personal o
+              cubrir gastos médicos, Doopla te ofrece una opción ajustada a tu
+              situación.
             </p>
             <p className="text-gray-700 mb-4 leading-tight">
-              Además, puedes seleccionar plazos de pago que van desde 12 hasta 36
-              meses, lo que te permite planificar tus pagos de manera cómoda y
-              manejable. Esta flexibilidad de plazo es ideal para ajustar el
+              Además, puedes seleccionar plazos de pago que van desde 12 hasta
+              36 meses, lo que te permite planificar tus pagos de manera cómoda
+              y manejable. Esta flexibilidad de plazo es ideal para ajustar el
               crédito a tu capacidad de pago, sin presión innecesaria.
             </p>
 
@@ -216,10 +224,10 @@ export default function PrestamosDooplaPage() {
             <p className="text-gray-700 mb-4 leading-tight">
               Otro de los grandes beneficios de Doopla es que todo el proceso de
               solicitud de crédito se realiza completamente en línea. Desde la
-              creación de tu cuenta hasta la recepción del dinero, no es necesario
-              que realices trámites presenciales ni que gastes tiempo en largas
-              gestiones bancarias. Además, Doopla no cobra comisiones ocultas o
-              costos adicionales por la solicitud del préstamo.
+              creación de tu cuenta hasta la recepción del dinero, no es
+              necesario que realices trámites presenciales ni que gastes tiempo
+              en largas gestiones bancarias. Además, Doopla no cobra comisiones
+              ocultas o costos adicionales por la solicitud del préstamo.
             </p>
             <ul className="list-disc pl-5 mb-4 text-gray-700 space-y-2">
               <li>
@@ -245,9 +253,9 @@ export default function PrestamosDooplaPage() {
               Uno de los grandes atractivos de Doopla es la rapidez con la que
               puedes acceder a tu préstamo. Después de que tu solicitud es
               aprobada, el crédito puede ser fondeado por la comunidad de
-              inversionistas en un promedio de 24 horas hábiles. Esto es ideal si
-              necesitas dinero de manera urgente, ya que podrás recibir los fondos
-              en tu cuenta bancaria casi de inmediato.
+              inversionistas en un promedio de 24 horas hábiles. Esto es ideal
+              si necesitas dinero de manera urgente, ya que podrás recibir los
+              fondos en tu cuenta bancaria casi de inmediato.
             </p>
 
             {/* Section: ¿Es Doopla la mejor opción para ti? */}
@@ -258,10 +266,11 @@ export default function PrestamosDooplaPage() {
               Si estás buscando un préstamo con tasas de interés más bajas y un
               proceso totalmente digital, Doopla es una opción que deberías
               considerar. Gracias a su modelo de préstamos de persona a persona,
-              los solicitantes pueden beneficiarse de condiciones más justas y sin
-              costos ocultos. Además, la rapidez en el proceso y la flexibilidad en
-              los montos y plazos hacen que Doopla sea una alternativa ideal para
-              quienes necesitan un financiamiento confiable.
+              los solicitantes pueden beneficiarse de condiciones más justas y
+              sin costos ocultos. Además, la rapidez en el proceso y la
+              flexibilidad en los montos y plazos hacen que Doopla sea una
+              alternativa ideal para quienes necesitan un financiamiento
+              confiable.
             </p>
 
             {/* Second CTA Button */}

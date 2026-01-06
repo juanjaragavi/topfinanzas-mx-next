@@ -58,8 +58,8 @@ export default function PrestamosDigitPage() {
 
             {/* Intro */}
             <p className="text-lg text-gray-700 mb-6">
-              Digitt es una plataforma digital en México diseñada para facilitar el
-              acceso a préstamos personales de manera ágil y segura.
+              Digitt es una plataforma digital en México diseñada para facilitar
+              el acceso a préstamos personales de manera ágil y segura.
             </p>
 
             {/* Quick Benefits Summary */}
@@ -125,8 +125,8 @@ export default function PrestamosDigitPage() {
 
             <p className="text-gray-700 mb-6 leading-tight">
               A continuación, exploramos las ventajas más destacadas que Digitt
-              ofrece a quienes buscan una alternativa de financiamiento confiable y
-              sin complicaciones.
+              ofrece a quienes buscan una alternativa de financiamiento
+              confiable y sin complicaciones.
             </p>
 
             {/* Section: Tasas de interés competitivas */}
@@ -135,12 +135,12 @@ export default function PrestamosDigitPage() {
             </h2>
             <p className="text-gray-700 mb-4 leading-tight">
               Uno de los beneficios principales que distingue a Digitt es su
-              enfoque en ofrecer tasas de interés accesibles. Gracias a su modelo
-              digital, Digitt logra mantener costos operativos bajos, lo que
-              permite ofrecer condiciones competitivas a los solicitantes. Estas
-              tasas se ajustan a las necesidades y capacidad de pago del usuario,
-              lo que facilita el acceso al financiamiento sin comprometer la
-              estabilidad financiera.
+              enfoque en ofrecer tasas de interés accesibles. Gracias a su
+              modelo digital, Digitt logra mantener costos operativos bajos, lo
+              que permite ofrecer condiciones competitivas a los solicitantes.
+              Estas tasas se ajustan a las necesidades y capacidad de pago del
+              usuario, lo que facilita el acceso al financiamiento sin
+              comprometer la estabilidad financiera.
             </p>
 
             {/* Section: Proceso 100% digital y rápido */}
@@ -150,11 +150,12 @@ export default function PrestamosDigitPage() {
             <p className="text-gray-700 mb-4 leading-tight">
               El proceso de solicitud y aprobación de un préstamo en Digitt es
               completamente digital, lo que significa que los usuarios pueden
-              gestionar su préstamo desde la comodidad de su hogar. A través de su
-              plataforma, el solicitante puede completar la solicitud y recibir una
-              respuesta en poco tiempo, sin necesidad de acudir a una sucursal o
-              realizar trámites presenciales. Este enfoque digital no solo acelera
-              el proceso, sino que también permite mayor comodidad y control.
+              gestionar su préstamo desde la comodidad de su hogar. A través de
+              su plataforma, el solicitante puede completar la solicitud y
+              recibir una respuesta en poco tiempo, sin necesidad de acudir a
+              una sucursal o realizar trámites presenciales. Este enfoque
+              digital no solo acelera el proceso, sino que también permite mayor
+              comodidad y control.
             </p>
 
             {/* Section: Flexibilidad en montos y plazos de pago */}
@@ -163,12 +164,13 @@ export default function PrestamosDigitPage() {
             </h2>
             <p className="text-gray-700 mb-4 leading-tight">
               Digitt se adapta a las necesidades específicas de cada usuario al
-              ofrecer flexibilidad en montos y plazos de pago. Esto significa que
-              los solicitantes pueden elegir la cantidad que realmente necesitan y
-              seleccionar un plazo que les permita realizar pagos cómodos, de
-              acuerdo a su flujo de ingresos. Esta flexibilidad es especialmente
-              beneficiosa para quienes buscan cubrir gastos imprevistos o realizar
-              una compra importante sin afectar su presupuesto.
+              ofrecer flexibilidad en montos y plazos de pago. Esto significa
+              que los solicitantes pueden elegir la cantidad que realmente
+              necesitan y seleccionar un plazo que les permita realizar pagos
+              cómodos, de acuerdo a su flujo de ingresos. Esta flexibilidad es
+              especialmente beneficiosa para quienes buscan cubrir gastos
+              imprevistos o realizar una compra importante sin afectar su
+              presupuesto.
             </p>
 
             {/* Section: Transparencia y seguridad en el proceso */}
@@ -177,11 +179,11 @@ export default function PrestamosDigitPage() {
             </h2>
             <p className="text-gray-700 mb-4 leading-tight">
               Uno de los aspectos más valorados de Digitt es su transparencia en
-              términos y condiciones. Los solicitantes pueden ver todos los costos
-              asociados al préstamo, incluyendo tasas de interés y comisiones,
-              desde el inicio. Esta claridad en la información permite que el
-              usuario tome decisiones informadas sin preocuparse por cargos
-              ocultos o sorpresas desagradables al momento de pagar.
+              términos y condiciones. Los solicitantes pueden ver todos los
+              costos asociados al préstamo, incluyendo tasas de interés y
+              comisiones, desde el inicio. Esta claridad en la información
+              permite que el usuario tome decisiones informadas sin preocuparse
+              por cargos ocultos o sorpresas desagradables al momento de pagar.
             </p>
             <p className="text-gray-700 mb-4 leading-tight">
               Además, Digitt garantiza la seguridad de los datos personales y
@@ -196,19 +198,19 @@ export default function PrestamosDigitPage() {
               Evaluación de crédito accesible
             </h2>
             <p className="text-gray-700 mb-4 leading-tight">
-              Digitt se enfoca en facilitar el acceso a financiamiento, por lo que
-              ofrece una evaluación de crédito accesible. Esto significa que las
-              personas con historiales crediticios moderados pueden tener mayores
-              oportunidades de obtener un préstamo, en comparación con los
-              requisitos tradicionales de bancos y entidades financieras. La
+              Digitt se enfoca en facilitar el acceso a financiamiento, por lo
+              que ofrece una evaluación de crédito accesible. Esto significa que
+              las personas con historiales crediticios moderados pueden tener
+              mayores oportunidades de obtener un préstamo, en comparación con
+              los requisitos tradicionales de bancos y entidades financieras. La
               plataforma utiliza una evaluación integral que considera varios
               aspectos financieros del solicitante, permitiendo una oportunidad
               justa para todos.
             </p>
             <p className="text-gray-700 mb-4 leading-tight">
-              Los usuarios que mantienen un buen historial dentro de Digitt pueden
-              acceder a mejores condiciones en futuros préstamos, creando así una
-              relación de confianza con la plataforma.
+              Los usuarios que mantienen un buen historial dentro de Digitt
+              pueden acceder a mejores condiciones en futuros préstamos, creando
+              así una relación de confianza con la plataforma.
             </p>
 
             {/* Section: ¿Es Digitt ideal para ti? */}
@@ -216,15 +218,15 @@ export default function PrestamosDigitPage() {
               ¿Es Digitt ideal para ti?
             </h2>
             <p className="text-gray-700 mb-4 leading-tight">
-              Los préstamos de Digitt son una excelente opción para quienes buscan
-              financiamiento rápido, seguro y con condiciones competitivas. Con un
-              proceso digital, transparencia en condiciones y flexibilidad en
-              pagos, Digitt se posiciona como una alternativa moderna y conveniente
-              en el mercado de préstamos personales.
+              Los préstamos de Digitt son una excelente opción para quienes
+              buscan financiamiento rápido, seguro y con condiciones
+              competitivas. Con un proceso digital, transparencia en condiciones
+              y flexibilidad en pagos, Digitt se posiciona como una alternativa
+              moderna y conveniente en el mercado de préstamos personales.
             </p>
             <p className="text-gray-700 mb-4 leading-tight">
-              Si estás considerando un préstamo, Digitt puede ser la solución ideal
-              para tus necesidades financieras.
+              Si estás considerando un préstamo, Digitt puede ser la solución
+              ideal para tus necesidades financieras.
             </p>
 
             {/* Second CTA Button */}

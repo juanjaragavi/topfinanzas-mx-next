@@ -6,7 +6,8 @@ import Link from "next/link";
 import { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "Tarjeta Spin by OXXO: ¿Es una buena opción para ti? | Top Finanzas MX",
+  title:
+    "Tarjeta Spin by OXXO: ¿Es una buena opción para ti? | Top Finanzas MX",
   description:
     "Spin by OXXO es una solución financiera integral que ofrece una tarjeta Visa y app para enviar dinero, sin necesidad de cuenta bancaria tradicional.",
 };
@@ -266,9 +267,9 @@ export default function TarjetaSpinOxxoPage() {
               <li className="flex items-start">
                 <OrangeArrowIcon />
                 <span className="text-gray-700">
-                  <strong className="text-gray-900">Comisiones:</strong>{" "}
-                  Algunas operaciones de depósito y retiro pueden incurrir en
-                  costos adicionales.
+                  <strong className="text-gray-900">Comisiones:</strong> Algunas
+                  operaciones de depósito y retiro pueden incurrir en costos
+                  adicionales.
                 </span>
               </li>
             </ul>

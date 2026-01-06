@@ -138,9 +138,7 @@ export default function KueskiPrestamosPage() {
                 a 99 días, según tu perfil crediticio.
               </li>
               <li>
-                <strong className="text-gray-900">
-                  Proceso de solicitud:
-                </strong>{" "}
+                <strong className="text-gray-900">Proceso de solicitud:</strong>{" "}
                 Completamente en línea, con respuesta en minutos.
               </li>
             </ul>

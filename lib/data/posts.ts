@@ -649,9 +649,11 @@ export const ALL_POSTS: PostItem[] = [
   },
   // Financial Solutions - Loans
   {
-    title: "Kueski préstamos: crédito fácil y seguro sin buró | Top Finanzas MX",
+    title:
+      "Kueski préstamos: crédito fácil y seguro sin buró | Top Finanzas MX",
     slug: "kueski-prestamos",
-    description: "Kueski ofrece préstamos en línea rápidos y seguros sin necesidad de historial crediticio. Solicita desde $400 hasta $24,500 MXN con respuesta en minutos.",
+    description:
+      "Kueski ofrece préstamos en línea rápidos y seguros sin necesidad de historial crediticio. Solicita desde $400 hasta $24,500 MXN con respuesta en minutos.",
     image: "https://media.topfinanzas.com/images/download-7-2.webp",
     category: "Soluciones Financieras",
     categoryPath: "/soluciones-financieras",
@@ -662,7 +664,8 @@ export const ALL_POSTS: PostItem[] = [
   {
     title: "Beneficios de los préstamos de Afluenta | Top Finanzas MX",
     slug: "prestamos-afluenta",
-    description: "Descubre los beneficios de los préstamos P2P de Afluenta: tasas competitivas, 100% digital y sin bancos.",
+    description:
+      "Descubre los beneficios de los préstamos P2P de Afluenta: tasas competitivas, 100% digital y sin bancos.",
     image: "https://media.topfinanzas.com/images/download-6.webp",
     category: "Soluciones Financieras",
     categoryPath: "/soluciones-financieras",
@@ -673,7 +676,8 @@ export const ALL_POSTS: PostItem[] = [
   {
     title: "Beneficios de los préstamos con Baubap | Top Finanzas MX",
     slug: "prestamos-baubap",
-    description: "Descubre los beneficios de los préstamos Baubap: 100% digital, rápido y sin historial crediticio riguroso.",
+    description:
+      "Descubre los beneficios de los préstamos Baubap: 100% digital, rápido y sin historial crediticio riguroso.",
     image: "https://media.topfinanzas.com/images/baubap-1-1-1.jpg",
     category: "Soluciones Financieras",
     categoryPath: "/soluciones-financieras",
@@ -682,9 +686,11 @@ export const ALL_POSTS: PostItem[] = [
     subCategory: "loans",
   },
   {
-    title: "Préstamo Coppel: Solución flexible para lo que necesitas | Top Finanzas MX",
+    title:
+      "Préstamo Coppel: Solución flexible para lo que necesitas | Top Finanzas MX",
     slug: "prestamos-coppel",
-    description: "Descubre los Préstamos Personales Coppel: montos flexibles, plazos a tu medida y solicitud 100% digital.",
+    description:
+      "Descubre los Préstamos Personales Coppel: montos flexibles, plazos a tu medida y solicitud 100% digital.",
     image: "https://media.topfinanzas.com/images/download-4.webp",
     category: "Soluciones Financieras",
     categoryPath: "/soluciones-financieras",
@@ -695,7 +701,8 @@ export const ALL_POSTS: PostItem[] = [
   {
     title: "Beneficios de los préstamos con Kubo Financiero | Top Finanzas MX",
     slug: "prestamos-de-kubo-financiero",
-    description: "Kubo Financiero facilita préstamos en línea con tasas competitivas, flexibilidad de pago y seguridad total. Conoce sus beneficios aquí.",
+    description:
+      "Kubo Financiero facilita préstamos en línea con tasas competitivas, flexibilidad de pago y seguridad total. Conoce sus beneficios aquí.",
     image: "https://media.topfinanzas.com/images/kubo-2.jpg",
     category: "Soluciones Financieras",
     categoryPath: "/soluciones-financieras",
@@ -706,7 +713,8 @@ export const ALL_POSTS: PostItem[] = [
   {
     title: "Beneficios de los préstamos con Digitt | Top Finanzas MX",
     slug: "prestamos-digit",
-    description: "Digitt es una plataforma digital que ofrece préstamos personales rápidos, seguros y con tasas competitivas. Conoce todos sus beneficios aquí.",
+    description:
+      "Digitt es una plataforma digital que ofrece préstamos personales rápidos, seguros y con tasas competitivas. Conoce todos sus beneficios aquí.",
     image: "https://media.topfinanzas.com/images/download-7.webp",
     category: "Soluciones Financieras",
     categoryPath: "/soluciones-financieras",
@@ -717,7 +725,8 @@ export const ALL_POSTS: PostItem[] = [
   {
     title: "Beneficios de los Préstamos Doopla | Top Finanzas MX",
     slug: "prestamos-doopla",
-    description: "Doopla ofrece préstamos personales P2P con tasas desde 12% anual, montos hasta $350,000 MXN y trámite 100% en línea. Conoce sus beneficios.",
+    description:
+      "Doopla ofrece préstamos personales P2P con tasas desde 12% anual, montos hasta $350,000 MXN y trámite 100% en línea. Conoce sus beneficios.",
     image: "https://media.topfinanzas.com/images/download-5.webp",
     category: "Soluciones Financieras",
     categoryPath: "/soluciones-financieras",
@@ -726,9 +735,11 @@ export const ALL_POSTS: PostItem[] = [
     subCategory: "loans",
   },
   {
-    title: "¿Buscas préstamos en línea solo con INE? ¡Descubre todo lo que debes saber!",
+    title:
+      "¿Buscas préstamos en línea solo con INE? ¡Descubre todo lo que debes saber!",
     slug: "prestamos-en-linea-solo-con-ine",
-    description: "Los préstamos en línea solo con INE son la opción más rápida y sencilla para obtener financiamiento en México. Descubre cómo solicitarlos aquí.",
+    description:
+      "Los préstamos en línea solo con INE son la opción más rápida y sencilla para obtener financiamiento en México. Descubre cómo solicitarlos aquí.",
     image: "https://media.topfinanzas.com/images/download-1-820x547.webp",
     category: "Soluciones Financieras",
     categoryPath: "/soluciones-financieras",
@@ -737,9 +748,11 @@ export const ALL_POSTS: PostItem[] = [
     subCategory: "loans",
   },
   {
-    title: "Beneficios y características clave de Préstamos Feliz | Top Finanzas MX",
+    title:
+      "Beneficios y características clave de Préstamos Feliz | Top Finanzas MX",
     slug: "prestamos-feliz",
-    description: "Préstamos Feliz ofrece créditos de hasta $500,000 MXN con aprobación en 15 minutos. Conoce sus tasas, ventajas y si es la opción ideal para ti.",
+    description:
+      "Préstamos Feliz ofrece créditos de hasta $500,000 MXN con aprobación en 15 minutos. Conoce sus tasas, ventajas y si es la opción ideal para ti.",
     image: "https://media.topfinanzas.com/images/download-11.webp",
     category: "Soluciones Financieras",
     categoryPath: "/soluciones-financieras",
@@ -748,9 +761,11 @@ export const ALL_POSTS: PostItem[] = [
     subCategory: "loans",
   },
   {
-    title: "Préstamos La Tasa: Una alternativa innovadora para reducir intereses | Top Finanzas MX",
+    title:
+      "Préstamos La Tasa: Una alternativa innovadora para reducir intereses | Top Finanzas MX",
     slug: "prestamos-la-tasa",
-    description: "Descubre los préstamos personales de La Tasa: tasas desde 16.9%, montos hasta $350,000, sin aval y proceso 100% en línea.",
+    description:
+      "Descubre los préstamos personales de La Tasa: tasas desde 16.9%, montos hasta $350,000, sin aval y proceso 100% en línea.",
     image: "https://media.topfinanzas.com/images/latasa-1-1.jpg",
     category: "Soluciones Financieras",
     categoryPath: "/soluciones-financieras",
@@ -759,9 +774,11 @@ export const ALL_POSTS: PostItem[] = [
     subCategory: "loans",
   },
   {
-    title: "Préstamos Lime: Microcréditos para tus emergencias financieras | Top Finanzas MX",
+    title:
+      "Préstamos Lime: Microcréditos para tus emergencias financieras | Top Finanzas MX",
     slug: "prestamos-lime",
-    description: "Accede a microcréditos de manera rápida y completamente en línea con Préstamos Lime. Obtén aprobación en minutos y plazos flexibles.",
+    description:
+      "Accede a microcréditos de manera rápida y completamente en línea con Préstamos Lime. Obtén aprobación en minutos y plazos flexibles.",
     image: "https://media.topfinanzas.com/images/download-10.webp",
     category: "Soluciones Financieras",
     categoryPath: "/soluciones-financieras",
@@ -772,7 +789,8 @@ export const ALL_POSTS: PostItem[] = [
   {
     title: "Moneyman: tu préstamo ideal | Top Finanzas MX",
     slug: "moneyman-prestamos-guia",
-    description: "La solución rápida y sin complicaciones que necesitas para acceder a fondos de manera inmediata con Moneyman.",
+    description:
+      "La solución rápida y sin complicaciones que necesitas para acceder a fondos de manera inmediata con Moneyman.",
     image: "https://media.topfinanzas.com/images/moneyman-1-1.jpg",
     category: "Soluciones Financieras",
     categoryPath: "/soluciones-financieras",
@@ -781,10 +799,13 @@ export const ALL_POSTS: PostItem[] = [
     subCategory: "loans",
   },
   {
-    title: "¿Cuál es el mejor préstamo personal? Explorando opciones en el mundo Fintech | Top Finanzas MX",
+    title:
+      "¿Cuál es el mejor préstamo personal? Explorando opciones en el mundo Fintech | Top Finanzas MX",
     slug: "cual-es-el-mejor-prestamo-personal",
-    description: "Analizamos las mejores opciones de préstamos personales en el mundo Fintech de México. Compara tasas, requisitos y beneficios.",
-    image: "https://media.topfinanzas.com/images/Top_Finanzas_Prestamo_personal-820x547.webp",
+    description:
+      "Analizamos las mejores opciones de préstamos personales en el mundo Fintech de México. Compara tasas, requisitos y beneficios.",
+    image:
+      "https://media.topfinanzas.com/images/Top_Finanzas_Prestamo_personal-820x547.webp",
     category: "Soluciones Financieras",
     categoryPath: "/soluciones-financieras",
     date: "25 July 2025",

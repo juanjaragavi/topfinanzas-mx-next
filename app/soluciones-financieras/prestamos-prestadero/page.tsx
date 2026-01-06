@@ -58,8 +58,9 @@ export default function PrestamosPrestaderoPage() {
 
             {/* Intro Summary */}
             <p className="text-lg text-gray-700 mb-6 leading-relaxed">
-              Obtener un préstamo personal en México puede ser una gran solución para
-              enfrentar emergencias, consolidar deudas o financiar proyectos importantes.
+              Obtener un préstamo personal en México puede ser una gran solución
+              para enfrentar emergencias, consolidar deudas o financiar
+              proyectos importantes.
             </p>
 
             {/* Quick Benefits Summary (Top Bullets) */}
@@ -67,28 +68,38 @@ export default function PrestamosPrestaderoPage() {
               <li className="flex items-start">
                 <LimeArrowIcon />
                 <span className="text-gray-700">
-                  <strong className="text-gray-900">Tasas de interés competitivas:</strong>{" "}
-                  Prestadero ofrece tasas más bajas que las instituciones tradicionales.
+                  <strong className="text-gray-900">
+                    Tasas de interés competitivas:
+                  </strong>{" "}
+                  Prestadero ofrece tasas más bajas que las instituciones
+                  tradicionales.
                 </span>
               </li>
               <li className="flex items-start">
                 <LimeArrowIcon />
                 <span className="text-gray-700">
-                  <strong className="text-gray-900">Proceso 100% en línea:</strong>{" "}
+                  <strong className="text-gray-900">
+                    Proceso 100% en línea:
+                  </strong>{" "}
                   Solicita y gestiona tu préstamo sin salir de casa.
                 </span>
               </li>
               <li className="flex items-start">
                 <LimeArrowIcon />
                 <span className="text-gray-700">
-                  <strong className="text-gray-900">Montos y plazos flexibles:</strong>{" "}
-                  Préstamos desde $10,000 hasta $300,000 pesos con plazos de 12 a 36 meses.
+                  <strong className="text-gray-900">
+                    Montos y plazos flexibles:
+                  </strong>{" "}
+                  Préstamos desde $10,000 hasta $300,000 pesos con plazos de 12
+                  a 36 meses.
                 </span>
               </li>
               <li className="flex items-start">
                 <LimeArrowIcon />
                 <span className="text-gray-700">
-                  <strong className="text-gray-900">Sin penalización por pagos anticipados:</strong>{" "}
+                  <strong className="text-gray-900">
+                    Sin penalización por pagos anticipados:
+                  </strong>{" "}
                   Liquida tu préstamo antes sin costos adicionales.
                 </span>
               </li>
@@ -117,11 +128,13 @@ export default function PrestamosPrestaderoPage() {
 
             {/* Intro Continued */}
             <p className="text-gray-700 mb-6 leading-relaxed">
-              Entre las múltiples opciones de financiamiento disponibles, Prestadero se ha
-              posicionado como una plataforma confiable y accesible, ofreciendo a los usuarios
-              tasas competitivas y un proceso 100% digital. En este artículo, te explicamos los
-              principales beneficios de solicitar un préstamo con Prestadero y por qué es una
-              excelente opción a considerar si buscas financiamiento.
+              Entre las múltiples opciones de financiamiento disponibles,
+              Prestadero se ha posicionado como una plataforma confiable y
+              accesible, ofreciendo a los usuarios tasas competitivas y un
+              proceso 100% digital. En este artículo, te explicamos los
+              principales beneficios de solicitar un préstamo con Prestadero y
+              por qué es una excelente opción a considerar si buscas
+              financiamiento.
             </p>
 
             {/* Section: ¿Qué es Prestadero? */}
@@ -129,12 +142,15 @@ export default function PrestamosPrestaderoPage() {
               ¿Qué es Prestadero?
             </h2>
             <p className="text-gray-700 mb-4 leading-relaxed">
-              Antes de profundizar en los beneficios, es importante entender qué es Prestadero
-              y cómo funciona. Prestadero es una plataforma mexicana de préstamos entre
-              personas, también conocida como peer-to-peer lending. Esta modalidad conecta a solicitantes de préstamos con inversionistas
-              dispuestos a financiar sus necesidades. De esta manera, se eliminan intermediarios como
-              los bancos, lo que permite ofrecer tasas de interés más bajas y condiciones
-              flexibles tanto para el solicitante como para el inversionista.
+              Antes de profundizar en los beneficios, es importante entender qué
+              es Prestadero y cómo funciona. Prestadero es una plataforma
+              mexicana de préstamos entre personas, también conocida como
+              peer-to-peer lending. Esta modalidad conecta a solicitantes de
+              préstamos con inversionistas dispuestos a financiar sus
+              necesidades. De esta manera, se eliminan intermediarios como los
+              bancos, lo que permite ofrecer tasas de interés más bajas y
+              condiciones flexibles tanto para el solicitante como para el
+              inversionista.
             </p>
 
             {/* Section: Tasas de interés competitivas */}
@@ -142,14 +158,16 @@ export default function PrestamosPrestaderoPage() {
               Tasas de interés competitivas
             </h2>
             <p className="text-gray-700 mb-6 leading-relaxed">
-              Uno de los beneficios más destacados de Prestadero es la tasa de interés
-              competitiva que ofrece en comparación con otras instituciones financieras
-              tradicionales. Al tratarse de una plataforma de préstamos entre particulares, no hay costos
-              operativos elevados como los que tienen los bancos, lo que se traduce en tasas de
-              interés mucho más accesibles. Además, Prestadero analiza el perfil crediticio
-              de cada solicitante y ofrece una tasa personalizada basada en su capacidad de
-              pago y su historial crediticio, lo que garantiza que las condiciones del préstamo
-              sean justas para ambas partes.
+              Uno de los beneficios más destacados de Prestadero es la tasa de
+              interés competitiva que ofrece en comparación con otras
+              instituciones financieras tradicionales. Al tratarse de una
+              plataforma de préstamos entre particulares, no hay costos
+              operativos elevados como los que tienen los bancos, lo que se
+              traduce en tasas de interés mucho más accesibles. Además,
+              Prestadero analiza el perfil crediticio de cada solicitante y
+              ofrece una tasa personalizada basada en su capacidad de pago y su
+              historial crediticio, lo que garantiza que las condiciones del
+              préstamo sean justas para ambas partes.
             </p>
 
             {/* Section: Proceso 100% en línea */}
@@ -157,13 +175,15 @@ export default function PrestamosPrestaderoPage() {
               Proceso 100% en línea
             </h2>
             <p className="text-gray-700 mb-6 leading-relaxed">
-              Otro aspecto que hace de Prestadero una opción conveniente es su proceso
-              completamente en línea. Desde la solicitud hasta la firma del contrato, todo se puede
-              realizar sin necesidad de visitar una sucursal. Esto es especialmente útil para
-              personas con agendas ocupadas o que viven en áreas rurales donde el acceso a
-              instituciones financieras tradicionales puede ser limitado. El proceso digital es
-              sencillo e intuitivo, permitiendo a los usuarios registrarse, subir documentos y
-              recibir una respuesta en pocos días.
+              Otro aspecto que hace de Prestadero una opción conveniente es su
+              proceso completamente en línea. Desde la solicitud hasta la firma
+              del contrato, todo se puede realizar sin necesidad de visitar una
+              sucursal. Esto es especialmente útil para personas con agendas
+              ocupadas o que viven en áreas rurales donde el acceso a
+              instituciones financieras tradicionales puede ser limitado. El
+              proceso digital es sencillo e intuitivo, permitiendo a los
+              usuarios registrarse, subir documentos y recibir una respuesta en
+              pocos días.
             </p>
 
             {/* Section: Plazos de pago adaptables */}
@@ -171,10 +191,11 @@ export default function PrestamosPrestaderoPage() {
               Plazos de pago adaptables
             </h2>
             <p className="text-gray-700 mb-6 leading-relaxed">
-              Al solicitar un préstamo, uno de los factores más importantes a considerar es el
-              plazo de pago. Con Prestadero, los plazos van desde 12 hasta 36 meses, lo que
-              ofrece una gran flexibilidad para adaptar los pagos mensuales a la capacidad
-              financiera de cada solicitante. Esta adaptabilidad es clave para que los usuarios
+              Al solicitar un préstamo, uno de los factores más importantes a
+              considerar es el plazo de pago. Con Prestadero, los plazos van
+              desde 12 hasta 36 meses, lo que ofrece una gran flexibilidad para
+              adaptar los pagos mensuales a la capacidad financiera de cada
+              solicitante. Esta adaptabilidad es clave para que los usuarios
               puedan cumplir con sus obligaciones de manera cómoda y evitar el
               sobreendeudamiento.
             </p>
@@ -184,12 +205,13 @@ export default function PrestamosPrestaderoPage() {
               Transparencia y sin costos ocultos
             </h2>
             <p className="text-gray-700 mb-6 leading-relaxed">
-              Una de las mayores preocupaciones al solicitar un préstamo es la posibilidad de
-              encontrarse con cargos ocultos o condiciones poco claras. Prestadero se destaca
-              por su total transparencia en el proceso. Desde el inicio, el solicitante sabe
-              exactamente cuánto deberá pagar, cuál es la tasa de interés aplicada y cuál será
-              el plazo de pago. No hay sorpresas ni costos inesperados, lo que genera
-              confianza y tranquilidad para los usuarios.
+              Una de las mayores preocupaciones al solicitar un préstamo es la
+              posibilidad de encontrarse con cargos ocultos o condiciones poco
+              claras. Prestadero se destaca por su total transparencia en el
+              proceso. Desde el inicio, el solicitante sabe exactamente cuánto
+              deberá pagar, cuál es la tasa de interés aplicada y cuál será el
+              plazo de pago. No hay sorpresas ni costos inesperados, lo que
+              genera confianza y tranquilidad para los usuarios.
             </p>
 
             {/* Section: No hay penalización por pagos anticipados */}
@@ -197,11 +219,12 @@ export default function PrestamosPrestaderoPage() {
               No hay penalización por pagos anticipados
             </h2>
             <p className="text-gray-700 mb-6 leading-relaxed">
-              A diferencia de muchas instituciones financieras que penalizan los pagos
-              anticipados, Prestadero permite que los usuarios adelanten pagos o liquiden su deuda
-              antes del plazo acordado sin ningún tipo de penalización. Esto es especialmente
-              beneficioso para aquellos que logran mejorar su situación financiera y desean
-              reducir el tiempo de su deuda o el monto total de los intereses.
+              A diferencia de muchas instituciones financieras que penalizan los
+              pagos anticipados, Prestadero permite que los usuarios adelanten
+              pagos o liquiden su deuda antes del plazo acordado sin ningún tipo
+              de penalización. Esto es especialmente beneficioso para aquellos
+              que logran mejorar su situación financiera y desean reducir el
+              tiempo de su deuda o el monto total de los intereses.
             </p>
 
             {/* Section: Evaluación rápida y sin complicaciones */}
@@ -209,13 +232,15 @@ export default function PrestamosPrestaderoPage() {
               Evaluación rápida y sin complicaciones
             </h2>
             <p className="text-gray-700 mb-6 leading-relaxed">
-              El proceso de evaluación de una solicitud en Prestadero es rápido y sencillo.
-              Después de llenar el formulario en línea y subir los documentos necesarios
-              (comprobante de ingresos, identificación oficial, comprobante de domicilio), el sistema
-              revisa el historial crediticio del solicitante y, en cuestión de días, se emite
-              una respuesta sobre la aprobación del préstamo. Esta agilidad en la respuesta
-              es un gran beneficio para quienes necesitan el dinero rápidamente para enfrentar
-              una emergencia o aprovechar una oportunidad financiera.
+              El proceso de evaluación de una solicitud en Prestadero es rápido
+              y sencillo. Después de llenar el formulario en línea y subir los
+              documentos necesarios (comprobante de ingresos, identificación
+              oficial, comprobante de domicilio), el sistema revisa el historial
+              crediticio del solicitante y, en cuestión de días, se emite una
+              respuesta sobre la aprobación del préstamo. Esta agilidad en la
+              respuesta es un gran beneficio para quienes necesitan el dinero
+              rápidamente para enfrentar una emergencia o aprovechar una
+              oportunidad financiera.
             </p>
 
             {/* Section: ¿A qué debo prestarle especial atención? */}
@@ -223,19 +248,22 @@ export default function PrestamosPrestaderoPage() {
               ¿A qué debo prestarle especial atención?
             </h2>
             <p className="text-gray-700 mb-6 leading-relaxed">
-              Solicitar un préstamo con Prestadero ofrece una serie de beneficios que lo hacen
-              una opción atractiva para quienes buscan financiamiento en México. Desde sus tasas
-              competitivas y flexibilidad en los montos y plazos, hasta su total transparencia y
-              facilidad de uso, esta plataforma proporciona una alternativa segura y accesible para
-              resolver necesidades financieras. Además, su proceso 100% en línea y sin
-              penalizaciones por pagos anticipados la convierten en una solución ideal para aquellos
-              que buscan simplicidad y eficiencia en la gestión de su crédito.
+              Solicitar un préstamo con Prestadero ofrece una serie de
+              beneficios que lo hacen una opción atractiva para quienes buscan
+              financiamiento en México. Desde sus tasas competitivas y
+              flexibilidad en los montos y plazos, hasta su total transparencia
+              y facilidad de uso, esta plataforma proporciona una alternativa
+              segura y accesible para resolver necesidades financieras. Además,
+              su proceso 100% en línea y sin penalizaciones por pagos
+              anticipados la convierten en una solución ideal para aquellos que
+              buscan simplicidad y eficiencia en la gestión de su crédito.
             </p>
             <p className="text-gray-700 mb-8 leading-relaxed">
-              Si estás considerando solicitar un préstamo personal, Prestadero puede ser la
-              opción adecuada para ti. No solo obtendrás condiciones favorables, sino que
-              también tendrás la tranquilidad de trabajar con una plataforma confiable que pone a
-              sus usuarios en primer lugar.
+              Si estás considerando solicitar un préstamo personal, Prestadero
+              puede ser la opción adecuada para ti. No solo obtendrás
+              condiciones favorables, sino que también tendrás la tranquilidad
+              de trabajar con una plataforma confiable que pone a sus usuarios
+              en primer lugar.
             </p>
 
             {/* Final CTA Button */}

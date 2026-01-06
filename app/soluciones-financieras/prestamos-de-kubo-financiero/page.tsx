@@ -58,9 +58,9 @@ export default function KuboFinancieroPage() {
 
             {/* Intro */}
             <p className="text-lg text-gray-700 mb-6">
-              Kubo Financiero es una plataforma en línea que facilita el acceso a
-              préstamos personales en México, ofreciendo opciones de financiamiento
-              flexibles y accesibles.
+              Kubo Financiero es una plataforma en línea que facilita el acceso
+              a préstamos personales en México, ofreciendo opciones de
+              financiamiento flexibles y accesibles.
             </p>
 
             {/* Quick Benefits Summary */}
@@ -130,12 +130,12 @@ export default function KuboFinancieroPage() {
               Tasas de interés competitivas
             </h2>
             <p className="text-gray-700 mb-4 leading-tight">
-              Uno de los beneficios clave de Kubo Financiero es la oferta de tasas
-              de interés competitivas. Al operar en línea, la plataforma reduce
-              costos operativos y puede ofrecer condiciones favorables a sus
-              solicitantes. Los usuarios tienen acceso a tasas ajustadas a su
-              perfil, lo que permite condiciones de financiamiento accesibles y
-              adaptadas a cada caso.
+              Uno de los beneficios clave de Kubo Financiero es la oferta de
+              tasas de interés competitivas. Al operar en línea, la plataforma
+              reduce costos operativos y puede ofrecer condiciones favorables a
+              sus solicitantes. Los usuarios tienen acceso a tasas ajustadas a
+              su perfil, lo que permite condiciones de financiamiento accesibles
+              y adaptadas a cada caso.
             </p>
 
             {/* Section: Flexibilidad en montos y plazos de pago */}
@@ -143,8 +143,8 @@ export default function KuboFinancieroPage() {
               Flexibilidad en montos y plazos de pago
             </h2>
             <p className="text-gray-700 mb-4 leading-tight">
-              Kubo Financiero permite a los usuarios elegir tanto el monto como el
-              plazo de pago del préstamo, adaptándose a las necesidades
+              Kubo Financiero permite a los usuarios elegir tanto el monto como
+              el plazo de pago del préstamo, adaptándose a las necesidades
               específicas de cada solicitante. Esta flexibilidad brinda a los
               usuarios la posibilidad de ajustar los términos del préstamo a sus
               posibilidades y objetivos financieros, ya sea para cubrir un gasto
@@ -159,9 +159,9 @@ export default function KuboFinancieroPage() {
               Kubo Financiero ofrece un proceso de solicitud completamente en
               línea, lo que significa que los usuarios pueden realizar todo el
               trámite desde cualquier lugar. Esta digitalización facilita la
-              solicitud de financiamiento y permite recibir los fondos sin visitas
-              presenciales, reduciendo el tiempo y esfuerzo necesarios para
-              acceder a un préstamo.
+              solicitud de financiamiento y permite recibir los fondos sin
+              visitas presenciales, reduciendo el tiempo y esfuerzo necesarios
+              para acceder a un préstamo.
             </p>
 
             {/* Section: Transparencia en condiciones y seguridad */}
@@ -170,15 +170,16 @@ export default function KuboFinancieroPage() {
             </h2>
             <p className="text-gray-700 mb-4 leading-tight">
               La transparencia es uno de los pilares de Kubo Financiero, ya que
-              los usuarios pueden conocer todos los detalles de su préstamo desde
-              el inicio. Esto incluye las tasas de interés, los plazos de pago y
-              cualquier costo asociado, lo que permite a los solicitantes tomar
-              decisiones informadas sin preocuparse por cargos ocultos.
+              los usuarios pueden conocer todos los detalles de su préstamo
+              desde el inicio. Esto incluye las tasas de interés, los plazos de
+              pago y cualquier costo asociado, lo que permite a los solicitantes
+              tomar decisiones informadas sin preocuparse por cargos ocultos.
             </p>
             <p className="text-gray-700 mb-4 leading-tight">
               Además, Kubo Financiero cuenta con medidas avanzadas de seguridad
-              para proteger la información financiera y personal de los usuarios,
-              brindando un entorno confiable para el manejo de sus datos.
+              para proteger la información financiera y personal de los
+              usuarios, brindando un entorno confiable para el manejo de sus
+              datos.
             </p>
 
             {/* Section: Evaluación de crédito accesible */}
@@ -187,13 +188,13 @@ export default function KuboFinancieroPage() {
             </h2>
             <p className="text-gray-700 mb-4 leading-tight">
               Kubo Financiero realiza una evaluación de crédito accesible, que
-              permite a más personas tener acceso al financiamiento. A diferencia
-              de las instituciones financieras tradicionales, Kubo Financiero toma
-              en cuenta diferentes factores para evaluar la solicitud, lo que
-              facilita el acceso a quienes pueden tener un historial crediticio
-              moderado o limitado. Esto hace que Kubo Financiero sea una opción
-              ideal para aquellos que buscan una alternativa de financiamiento
-              flexible y justa.
+              permite a más personas tener acceso al financiamiento. A
+              diferencia de las instituciones financieras tradicionales, Kubo
+              Financiero toma en cuenta diferentes factores para evaluar la
+              solicitud, lo que facilita el acceso a quienes pueden tener un
+              historial crediticio moderado o limitado. Esto hace que Kubo
+              Financiero sea una opción ideal para aquellos que buscan una
+              alternativa de financiamiento flexible y justa.
             </p>
 
             {/* Section: Ventajas adicionales de Kubo Financiero */}
@@ -202,14 +203,16 @@ export default function KuboFinancieroPage() {
             </h2>
             <p className="text-gray-700 mb-4 leading-tight">
               Además de los beneficios clave ya mencionados, Kubo Financiero se
-              destaca por características que mejoran la experiencia del usuario y
-              su acceso a financiamiento personal:
+              destaca por características que mejoran la experiencia del usuario
+              y su acceso a financiamiento personal:
             </p>
             <ul className="space-y-4 mb-8">
               <li className="flex items-start">
                 <CheckIcon />
                 <span className="text-gray-700">
-                  <strong className="text-gray-900">Control sobre pagos:</strong>{" "}
+                  <strong className="text-gray-900">
+                    Control sobre pagos:
+                  </strong>{" "}
                   La plataforma permite realizar pagos anticipados sin
                   penalización, lo que brinda a los usuarios mayor control sobre
                   la gestión de su préstamo.
@@ -218,10 +221,12 @@ export default function KuboFinancieroPage() {
               <li className="flex items-start">
                 <CheckIcon />
                 <span className="text-gray-700">
-                  <strong className="text-gray-900">Atención personalizada:</strong>{" "}
+                  <strong className="text-gray-900">
+                    Atención personalizada:
+                  </strong>{" "}
                   Kubo Financiero cuenta con un equipo de soporte que está
-                  disponible para resolver dudas y orientar a los usuarios durante
-                  todo el proceso.
+                  disponible para resolver dudas y orientar a los usuarios
+                  durante todo el proceso.
                 </span>
               </li>
               <li className="flex items-start">
@@ -229,8 +234,8 @@ export default function KuboFinancieroPage() {
                 <span className="text-gray-700">
                   <strong className="text-gray-900">Aprobación rápida:</strong>{" "}
                   Al realizar el proceso en línea, los usuarios reciben una
-                  respuesta en poco tiempo, facilitando el acceso a los fondos de
-                  manera ágil y sin contratiempos.
+                  respuesta en poco tiempo, facilitando el acceso a los fondos
+                  de manera ágil y sin contratiempos.
                 </span>
               </li>
             </ul>
@@ -240,16 +245,16 @@ export default function KuboFinancieroPage() {
               ¿Es Kubo Financiero ideal para ti?
             </h2>
             <p className="text-gray-700 mb-4 leading-tight">
-              Kubo Financiero representa una excelente opción para quienes buscan
-              financiamiento seguro, rápido y sin complicaciones. Desde tasas de
-              interés competitivas hasta un proceso de solicitud digital, esta
-              plataforma se posiciona como una alternativa moderna y confiable en
-              el sector de préstamos personales en México.
+              Kubo Financiero representa una excelente opción para quienes
+              buscan financiamiento seguro, rápido y sin complicaciones. Desde
+              tasas de interés competitivas hasta un proceso de solicitud
+              digital, esta plataforma se posiciona como una alternativa moderna
+              y confiable en el sector de préstamos personales en México.
             </p>
             <p className="text-gray-700 mb-4 leading-tight">
               Si buscas una opción de financiamiento que se adapte a tus
-              necesidades y te permita alcanzar tus objetivos, Kubo Financiero es
-              una alternativa ideal para explorar.
+              necesidades y te permita alcanzar tus objetivos, Kubo Financiero
+              es una alternativa ideal para explorar.
             </p>
 
             {/* Second CTA Button */}

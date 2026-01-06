@@ -6,7 +6,8 @@ import Link from "next/link";
 import { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "Préstamo Coppel: Solución flexible para lo que necesitas | Top Finanzas MX",
+  title:
+    "Préstamo Coppel: Solución flexible para lo que necesitas | Top Finanzas MX",
   description:
     "Descubre los Préstamos Personales Coppel: montos flexibles, plazos a tu medida y solicitud 100% digital.",
 };
@@ -119,12 +120,12 @@ export default function PrestamosCoppelPage() {
 
             <p className="text-gray-700 mb-4 leading-tight">
               Los Préstamos Personales Coppel son una opción ideal para quienes
-              necesitan acceso rápido y flexible a financiamiento, con montos que
-              van desde $1,000 hasta $50,000 MXN. Ya sea para cubrir gastos como
-              el regreso a clases, imprevistos o cualquier necesidad personal,
-              este producto ofrece condiciones accesibles y cómodas para los
-              usuarios en México. A continuación, te explicamos los principales
-              beneficios de este préstamo.
+              necesitan acceso rápido y flexible a financiamiento, con montos
+              que van desde $1,000 hasta $50,000 MXN. Ya sea para cubrir gastos
+              como el regreso a clases, imprevistos o cualquier necesidad
+              personal, este producto ofrece condiciones accesibles y cómodas
+              para los usuarios en México. A continuación, te explicamos los
+              principales beneficios de este préstamo.
             </p>
 
             {/* Section: Montos Flexibles */}
@@ -132,12 +133,12 @@ export default function PrestamosCoppelPage() {
               Montos Flexibles
             </h2>
             <p className="text-gray-700 mb-4 leading-tight">
-              Una de las mayores ventajas de los Préstamos Personales Coppel es la
-              flexibilidad en los montos que puedes solicitar. Dependiendo de tus
-              necesidades, puedes acceder a un préstamo desde $1,000 hasta $50,000
-              MXN, lo que te permite adaptar el crédito a situaciones pequeñas o
-              más grandes, como gastos escolares, reparaciones en el hogar o
-              emergencias.
+              Una de las mayores ventajas de los Préstamos Personales Coppel es
+              la flexibilidad en los montos que puedes solicitar. Dependiendo de
+              tus necesidades, puedes acceder a un préstamo desde $1,000 hasta
+              $50,000 MXN, lo que te permite adaptar el crédito a situaciones
+              pequeñas o más grandes, como gastos escolares, reparaciones en el
+              hogar o emergencias.
             </p>
             <p className="text-gray-700 mb-6 leading-tight">
               Esta flexibilidad es ideal para quienes necesitan un préstamo
@@ -152,15 +153,17 @@ export default function PrestamosCoppelPage() {
             </h2>
             <p className="text-gray-700 mb-4 leading-tight">
               Otra gran ventaja es la flexibilidad en los plazos de pago. Coppel
-              te permite elegir entre tres opciones: 12, 18 o 24 meses para pagar
-              el préstamo. Esto significa que puedes seleccionar el plazo que
-              mejor se ajuste a tu capacidad de pago, de manera que las cuotas
-              mensuales sean manejables y no afecten tus finanzas personales.
+              te permite elegir entre tres opciones: 12, 18 o 24 meses para
+              pagar el préstamo. Esto significa que puedes seleccionar el plazo
+              que mejor se ajuste a tu capacidad de pago, de manera que las
+              cuotas mensuales sean manejables y no afecten tus finanzas
+              personales.
             </p>
             <p className="text-gray-700 mb-6 leading-tight">
-              Además, el hecho de que puedas elegir el plazo más conveniente te da
-              control sobre el tiempo que necesitas para liquidar tu deuda, lo que
-              lo hace una opción adaptable a diferentes perfiles económicos.
+              Además, el hecho de que puedas elegir el plazo más conveniente te
+              da control sobre el tiempo que necesitas para liquidar tu deuda,
+              lo que lo hace una opción adaptable a diferentes perfiles
+              económicos.
             </p>
 
             {/* Section: Facilidad en el proceso de solicitud */}
@@ -186,15 +189,15 @@ export default function PrestamosCoppelPage() {
                 <CoppelArrowIcon />
                 <span className="text-gray-700">
                   <strong className="text-gray-900">App Coppel:</strong>{" "}
-                  Descarga la aplicación, entra al menú de préstamos y realiza la
-                  solicitud.
+                  Descarga la aplicación, entra al menú de préstamos y realiza
+                  la solicitud.
                 </span>
               </li>
               <li className="flex items-start">
                 <CoppelArrowIcon />
                 <span className="text-gray-700">
-                  <strong className="text-gray-900">WhatsApp:</strong>{" "}
-                  Ahora puedes solicitar un préstamo tan fácilmente como enviar un
+                  <strong className="text-gray-900">WhatsApp:</strong> Ahora
+                  puedes solicitar un préstamo tan fácilmente como enviar un
                   mensaje de WhatsApp. La atención es rápida y te confirman si
                   tienes un préstamo autorizado en minutos.
                 </span>
@@ -215,8 +218,8 @@ export default function PrestamosCoppelPage() {
               Una vez aprobado el préstamo, el dinero es depositado de inmediato
               en tu Tarjeta de Débito BanCoppel. Esto significa que puedes
               acceder al dinero rápidamente para cubrir cualquier emergencia o
-              gasto urgente. Además, si no tienes la tarjeta, puedes tramitarla de
-              forma sencilla para recibir el préstamo.
+              gasto urgente. Además, si no tienes la tarjeta, puedes tramitarla
+              de forma sencilla para recibir el préstamo.
             </p>
             <p className="text-gray-700 mb-6 leading-tight">
               Este depósito instantáneo es uno de los grandes atractivos del
@@ -230,9 +233,9 @@ export default function PrestamosCoppelPage() {
               Opciones de pago cómodas
             </h2>
             <p className="text-gray-700 mb-4 leading-tight">
-              Una vez que obtienes tu préstamo, Coppel te ofrece múltiples formas
-              de hacer los abonos mensuales, facilitando el proceso de pago.
-              Puedes realizar los pagos a través de:
+              Una vez que obtienes tu préstamo, Coppel te ofrece múltiples
+              formas de hacer los abonos mensuales, facilitando el proceso de
+              pago. Puedes realizar los pagos a través de:
             </p>
             <ul className="space-y-4 mb-8">
               <li className="flex items-start">
@@ -274,10 +277,10 @@ export default function PrestamosCoppelPage() {
             </h2>
             <p className="text-gray-700 mb-4 leading-tight">
               Si ya eres cliente de Crédito Coppel y tienes un buen historial de
-              pago, puedes acceder a condiciones aún más favorables. Los clientes
-              puntuales son recompensados con montos más altos y mejores
-              condiciones de préstamo, lo que incentiva un manejo responsable de
-              las finanzas.
+              pago, puedes acceder a condiciones aún más favorables. Los
+              clientes puntuales son recompensados con montos más altos y
+              mejores condiciones de préstamo, lo que incentiva un manejo
+              responsable de las finanzas.
             </p>
 
             {/* Section: ¿Es el préstamo personal Coppel para ti? */}
@@ -287,11 +290,11 @@ export default function PrestamosCoppelPage() {
             <p className="text-gray-700 mb-8 leading-tight">
               El Préstamo Personal Coppel ofrece una solución rápida, flexible y
               accesible para quienes necesitan financiamiento en México. Con
-              montos ajustables, plazos flexibles y múltiples formas de solicitar
-              y abonar, este producto es ideal para cubrir gastos personales,
-              emergencias o situaciones puntuales. Si estás interesado en conocer
-              los requisitos para obtener este préstamo, haz clic en el botón a
-              continuación.
+              montos ajustables, plazos flexibles y múltiples formas de
+              solicitar y abonar, este producto es ideal para cubrir gastos
+              personales, emergencias o situaciones puntuales. Si estás
+              interesado en conocer los requisitos para obtener este préstamo,
+              haz clic en el botón a continuación.
             </p>
 
             {/* Final CTA Button */}

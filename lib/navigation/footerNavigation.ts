@@ -25,7 +25,7 @@ export const footerNavigation = {
   /** Main navigation section */
   mainNavItems: [
     {
-      text: "Home",
+      text: "Inicio",
       href: "/",
     },
     {

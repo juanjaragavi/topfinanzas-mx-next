@@ -141,6 +141,12 @@ export const metadata: Metadata = {
 
   // Optional: Define metadataBase for resolving relative image URLs
   metadataBase: new URL(baseUrl),
+  alternates: {
+    canonical: baseUrl,
+    languages: {
+      "es-MX": baseUrl,
+    },
+  },
 };
 
 export default function RootLayout({

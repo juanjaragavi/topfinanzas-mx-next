@@ -9,11 +9,19 @@ export async function generateMetadata({
   params: Promise<{ slug: string }>;
 }) {
   const { slug } = await params;
+  const baseUrl = "https://topfinanzas.com/mx";
+
   // TODO: Fetch metadata based on params.slug
   return {
     title: `Soluciones Financieras - ${slug} | Top Finanzas MX`,
     description:
       "Encuentra las mejores soluciones financieras adaptadas a tus necesidades en México.",
+    alternates: {
+      canonical: `${baseUrl}/soluciones-financieras/${slug}`,
+      languages: {
+        "es-MX": `${baseUrl}/soluciones-financieras/${slug}`,
+      },
+    },
   };
 }
 
