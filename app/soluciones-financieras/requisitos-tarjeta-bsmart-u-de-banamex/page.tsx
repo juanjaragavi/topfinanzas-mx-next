@@ -264,7 +264,7 @@ export default function RequisitosTarjetaBsmartUBanamexPage() {
                   Si tu solicitud es aprobada, Banamex te notificará y recibirás
                   tu tarjeta en la dirección registrada. Una vez que tengas tu
                   tarjeta, podrás activarla y comenzar a usarla para hacer tus
-compras y aprovechar los beneficios que ofrece.
+                  compras y aprovechar los beneficios que ofrece.
                 </span>
               </li>
             </ul>

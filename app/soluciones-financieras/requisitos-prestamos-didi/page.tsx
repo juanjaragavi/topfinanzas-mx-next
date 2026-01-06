@@ -63,11 +63,11 @@ export default function RequisitosPrestamosDidiPage() {
               través de sus préstamos personales.
             </p>
             <p className="text-gray-700 mb-6 font-normal">
-              Esta opción es especialmente atractiva para conductores y socios que
-              buscan obtener liquidez de manera rápida y segura. A continuación,
-              te explicamos los requisitos para solicitar un préstamo con DiDi,
-              así como el proceso paso a paso para que puedas aprovechar esta
-              oportunidad financiera.
+              Esta opción es especialmente atractiva para conductores y socios
+              que buscan obtener liquidez de manera rápida y segura. A
+              continuación, te explicamos los requisitos para solicitar un
+              préstamo con DiDi, así como el proceso paso a paso para que puedas
+              aprovechar esta oportunidad financiera.
             </p>
 
             {/* Image 1 (Featured) */}
@@ -90,16 +90,18 @@ export default function RequisitosPrestamosDidiPage() {
               Los préstamos personales de DiDi son un producto financiero
               dirigido a conductores y usuarios de la plataforma, diseñado para
               ofrecer acceso a financiamiento con tasas competitivas y plazos
-              flexibles. El objetivo de este servicio es brindar liquidez rápida,
-              ya sea para afrontar gastos inesperados, mejorar el vehículo para
-              los conductores o cubrir otras necesidades personales.
+              flexibles. El objetivo de este servicio es brindar liquidez
+              rápida, ya sea para afrontar gastos inesperados, mejorar el
+              vehículo para los conductores o cubrir otras necesidades
+              personales.
             </p>
             <p className="text-gray-700 mb-6 font-normal">
-              A través de su aplicación, DiDi ofrece una experiencia de solicitud
-              sencilla y sin complicaciones, permitiendo a los usuarios acceder a
-              préstamos sin necesidad de acudir a una sucursal bancaria o
-              realizar trámites extensos. Sin embargo, antes de iniciar el
-              proceso de solicitud, es esencial cumplir con ciertos requisitos.
+              A través de su aplicación, DiDi ofrece una experiencia de
+              solicitud sencilla y sin complicaciones, permitiendo a los
+              usuarios acceder a préstamos sin necesidad de acudir a una
+              sucursal bancaria o realizar trámites extensos. Sin embargo, antes
+              de iniciar el proceso de solicitud, es esencial cumplir con
+              ciertos requisitos.
             </p>
 
             <p className="text-gray-700 mb-6 font-normal">
@@ -124,12 +126,12 @@ export default function RequisitosPrestamosDidiPage() {
               Requisitos para solicitar un préstamo DiDi
             </h2>
             <p className="text-gray-700 mb-6 font-normal">
-              Antes de iniciar el proceso, es necesario que el solicitante cumpla
-              con una serie de requisitos básicos que garantizan la elegibilidad
-              para el préstamo. Estos requisitos aseguran que tanto la plataforma
-              como el usuario tengan una experiencia confiable y segura. A
-              continuación, se detallan los requisitos para solicitar un
-              préstamo con DiDi:
+              Antes de iniciar el proceso, es necesario que el solicitante
+              cumpla con una serie de requisitos básicos que garantizan la
+              elegibilidad para el préstamo. Estos requisitos aseguran que tanto
+              la plataforma como el usuario tengan una experiencia confiable y
+              segura. A continuación, se detallan los requisitos para solicitar
+              un préstamo con DiDi:
             </p>
             <ul className="space-y-3 mb-8">
               <li className="flex items-start">
@@ -151,15 +153,17 @@ export default function RequisitosPrestamosDidiPage() {
                   <strong className="text-gray-900">
                     Contar con una identificación oficial vigente:
                   </strong>{" "}
-                  Como en cualquier producto financiero, es imprescindible contar
-                  con una identificación oficial vigente, como el INE o
+                  Como en cualquier producto financiero, es imprescindible
+                  contar con una identificación oficial vigente, como el INE o
                   pasaporte, que permita validar la identidad del solicitante.
                 </span>
               </li>
               <li className="flex items-start">
                 <OrangeArrowIcon />
                 <span className="text-gray-700">
-                  <strong className="text-gray-900">Ser mayor de 18 años:</strong>{" "}
+                  <strong className="text-gray-900">
+                    Ser mayor de 18 años:
+                  </strong>{" "}
                   Los solicitantes deben ser mayores de edad para poder acceder
                   al préstamo. En México, la mayoría de edad es a los 18 años.
                 </span>
@@ -179,11 +183,13 @@ export default function RequisitosPrestamosDidiPage() {
               <li className="flex items-start">
                 <OrangeArrowIcon />
                 <span className="text-gray-700">
-                  <strong className="text-gray-900">Historial crediticio:</strong>{" "}
-                  Aunque DiDi ofrece préstamos a usuarios con diferentes perfiles
-                  crediticios, contar con un historial crediticio favorable puede
-                  mejorar las condiciones del préstamo, como una tasa de interés
-                  más baja o mayores montos de crédito.
+                  <strong className="text-gray-900">
+                    Historial crediticio:
+                  </strong>{" "}
+                  Aunque DiDi ofrece préstamos a usuarios con diferentes
+                  perfiles crediticios, contar con un historial crediticio
+                  favorable puede mejorar las condiciones del préstamo, como una
+                  tasa de interés más baja o mayores montos de crédito.
                 </span>
               </li>
             </ul>
@@ -209,7 +215,8 @@ export default function RequisitosPrestamosDidiPage() {
             <p className="text-gray-700 mb-6 font-normal">
               Una vez que cumplas con los requisitos anteriores, el siguiente
               paso es realizar la solicitud a través de la plataforma de DiDi.
-              Aquí te explicamos el proceso paso a paso para obtener tu préstamo:
+              Aquí te explicamos el proceso paso a paso para obtener tu
+              préstamo:
             </p>
             <ul className="space-y-3 mb-8">
               <li className="flex items-start">
@@ -236,7 +243,9 @@ export default function RequisitosPrestamosDidiPage() {
               <li className="flex items-start">
                 <OrangeArrowIcon />
                 <span className="text-gray-700">
-                  <strong className="text-gray-900">Sube tus documentos:</strong>{" "}
+                  <strong className="text-gray-900">
+                    Sube tus documentos:
+                  </strong>{" "}
                   Adjunta una foto de tu identificación oficial y cualquier otro
                   documento que la plataforma te solicite para verificar tu
                   identidad.
@@ -245,9 +254,11 @@ export default function RequisitosPrestamosDidiPage() {
               <li className="flex items-start">
                 <OrangeArrowIcon />
                 <span className="text-gray-700">
-                  <strong className="text-gray-900">Espera la aprobación:</strong>{" "}
-                  El sistema analizará tu perfil y te notificará en pocos minutos
-                  si tu solicitud ha sido aprobada.
+                  <strong className="text-gray-900">
+                    Espera la aprobación:
+                  </strong>{" "}
+                  El sistema analizará tu perfil y te notificará en pocos
+                  minutos si tu solicitud ha sido aprobada.
                 </span>
               </li>
               <li className="flex items-start">
@@ -255,7 +266,8 @@ export default function RequisitosPrestamosDidiPage() {
                 <span className="text-gray-700">
                   <strong className="text-gray-900">Recibe tu dinero:</strong>{" "}
                   Una vez aprobado, el monto del préstamo será transferido a tu
-                  cuenta bancaria registrada, generalmente en un plazo muy corto.
+                  cuenta bancaria registrada, generalmente en un plazo muy
+                  corto.
                 </span>
               </li>
             </ul>
@@ -293,9 +305,9 @@ export default function RequisitosPrestamosDidiPage() {
                   <strong className="text-gray-900">
                     Facilidad de acceso:
                   </strong>{" "}
-                  Al ser una plataforma digital, el proceso de solicitud es rápido
-                  y sencillo, sin necesidad de realizar visitas a sucursales
-                  físicas.
+                  Al ser una plataforma digital, el proceso de solicitud es
+                  rápido y sencillo, sin necesidad de realizar visitas a
+                  sucursales físicas.
                 </span>
               </li>
               <li className="flex items-start">
@@ -320,8 +332,8 @@ export default function RequisitosPrestamosDidiPage() {
                 <span className="text-gray-700">
                   <strong className="text-gray-900">Conveniencia:</strong> Los
                   conductores de DiDi pueden utilizar los préstamos para mejorar
-                  su vehículo o cubrir otros gastos relacionados con su actividad
-                  en la plataforma.
+                  su vehículo o cubrir otros gastos relacionados con su
+                  actividad en la plataforma.
                 </span>
               </li>
             </ul>

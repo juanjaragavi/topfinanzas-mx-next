@@ -5,31 +5,11 @@ import Image from "next/image";
 import { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "Requisitos para solicitar un préstamo en Yotepresto | Top Finanzas MX",
+  title:
+    "Requisitos para solicitar un préstamo en Yotepresto | Top Finanzas MX",
   description:
     "Conoce los requisitos clave para solicitar un préstamo en Yotepresto, una plataforma con tasas competitivas y proceso 100% digital.",
 };
-
-// Azure Blue Arrow Icon Component (Matches #4f93f6 closest Tailwind value: text-blue-500)
-function BlueArrowIcon() {
-  return (
-    <svg
-      className="w-5 h-5 text-blue-500 mt-1 mr-3 flex-shrink-0"
-      viewBox="0 0 20 20"
-      fill="currentColor"
-    >
-      <circle cx="10" cy="10" r="10" fill="currentColor" />
-      <path
-        d="M7 10l2.5 2.5L14 8"
-        stroke="white"
-        strokeWidth="2"
-        fill="none"
-        strokeLinecap="round"
-        strokeLinejoin="round"
-      />
-    </svg>
-  );
-}
 
 export default function RequisitosPrestamosYoteprestoPage() {
   return (
@@ -142,8 +122,8 @@ export default function RequisitosPrestamosYoteprestoPage() {
               retrasos, ayudando a mantener un historial de pagos impecable.
             </p>
 
-             {/* Image 2 (CTA 1) */}
-             <div className="w-full my-8">
+            {/* Image 2 (CTA 1) */}
+            <div className="w-full my-8">
               <Image
                 src="https://media.topfinanzas.com/images/call-to-ACTION-1.jpg"
                 alt="Solicita tu préstamo"
@@ -221,7 +201,7 @@ export default function RequisitosPrestamosYoteprestoPage() {
             </p>
 
             {/* Image 4 (CTA 2 - Order: 1, 3, 2, 4) */}
-             <div className="w-full my-8">
+            <div className="w-full my-8">
               <Image
                 src="https://media.topfinanzas.com/images/call-to-ACTION-2.jpg"
                 alt="Beneficios exclusivos"
@@ -284,7 +264,7 @@ export default function RequisitosPrestamosYoteprestoPage() {
               eficiente.
             </p>
 
-             {/* Image 5 (CTA 4) */}
+            {/* Image 5 (CTA 4) */}
             <div className="w-full my-8">
               <Image
                 src="https://media.topfinanzas.com/images/call-to-ACTION-4.jpg"

@@ -7,7 +7,8 @@ import Link from "next/link";
 import { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "Requisitos para solicitar la tarjeta Santander Free | Top Finanzas MX",
+  title:
+    "Requisitos para solicitar la tarjeta Santander Free | Top Finanzas MX",
   description:
     "Conoce los requisitos, beneficios y proceso de solicitud de la Tarjeta Santander Free. Una opción ideal sin anualidad bajo un consumo mínimo mensual.",
 };
@@ -360,7 +361,9 @@ export default function RequisitosTarjetaSantanderFreePage() {
               <li className="flex items-start">
                 <RedArrowIcon />
                 <span className="text-gray-700">
-                  <strong className="text-gray-900">Meses sin intereses:</strong>{" "}
+                  <strong className="text-gray-900">
+                    Meses sin intereses:
+                  </strong>{" "}
                   Accede a promociones de meses sin intereses en comercios
                   afiliados, lo que te permitirá planificar tus compras de forma
                   más cómoda y sin sobrecostos.

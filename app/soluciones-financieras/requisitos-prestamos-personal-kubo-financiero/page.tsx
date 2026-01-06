@@ -6,7 +6,8 @@ import Image from "next/image";
 import { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "Requisitos para solicitar un préstamo en Kubo Financiero | Top Finanzas MX",
+  title:
+    "Requisitos para solicitar un préstamo en Kubo Financiero | Top Finanzas MX",
   description:
     "Conoce los requisitos para solicitar un préstamo en Kubo Financiero. Proceso 100% en línea, tasas competitivas y flexibilidad en pagos.",
 };

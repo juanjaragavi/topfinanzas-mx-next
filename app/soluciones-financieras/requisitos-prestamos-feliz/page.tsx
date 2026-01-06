@@ -6,7 +6,8 @@ import Image from "next/image";
 import { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "Requisitos y proceso de solicitud de Préstamos Feliz | Top Finanzas MX",
+  title:
+    "Requisitos y proceso de solicitud de Préstamos Feliz | Top Finanzas MX",
   description:
     "Descubre los requisitos y el proceso para solicitar un préstamo con Préstamos Feliz. Aprobación en 15 minutos, sin largos trámites.",
 };
@@ -258,7 +259,9 @@ export default function RequisitosPrestamosFelizPage() {
               <li className="flex items-start">
                 <BlueCheckIcon />
                 <span className="text-gray-700">
-                  <strong className="text-gray-900">Espera la aprobación:</strong>{" "}
+                  <strong className="text-gray-900">
+                    Espera la aprobación:
+                  </strong>{" "}
                   Una vez enviada tu solicitud, recibirás la respuesta en tan
                   solo 15 minutos si cumples con todos los requisitos.
                 </span>

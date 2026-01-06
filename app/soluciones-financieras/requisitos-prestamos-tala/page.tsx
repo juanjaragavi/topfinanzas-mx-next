@@ -204,7 +204,9 @@ export default function RequisitosTalaPage() {
               <li className="flex items-start">
                 <CyanCheckIcon />
                 <span className="text-gray-700">
-                  <strong className="text-gray-900">Solicitud del crédito:</strong>{" "}
+                  <strong className="text-gray-900">
+                    Solicitud del crédito:
+                  </strong>{" "}
                   Completa el formulario de solicitud dentro de la app. No se
                   requieren pagos por adelantado ni visitas a sucursales
                   físicas.
@@ -271,9 +273,9 @@ export default function RequisitosTalaPage() {
                     Necesidades de financiamiento inmediato:
                   </strong>{" "}
                   Para quienes requieren dinero de forma urgente para
-                  emergencias, gastos médicos, reparaciones u otros
-                  imprevistos, Tala ofrece una solución rápida con tiempos de
-                  aprobación y entrega de fondos mínimos.
+                  emergencias, gastos médicos, reparaciones u otros imprevistos,
+                  Tala ofrece una solución rápida con tiempos de aprobación y
+                  entrega de fondos mínimos.
                 </span>
               </li>
               <li className="flex items-start">

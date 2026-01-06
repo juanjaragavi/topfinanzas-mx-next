@@ -264,7 +264,9 @@ export default function RequisitosTarjetaMercadoPagoPage() {
               <li className="flex items-start">
                 <SkyArrowIcon />
                 <span className="text-gray-700">
-                  <strong className="text-gray-900">Ser mayor de 18 años:</strong>{" "}
+                  <strong className="text-gray-900">
+                    Ser mayor de 18 años:
+                  </strong>{" "}
                   Al igual que todas las tarjetas de crédito, debes ser mayor de
                   edad para solicitarla.
                 </span>

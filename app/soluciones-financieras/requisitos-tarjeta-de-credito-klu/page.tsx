@@ -7,7 +7,8 @@ import Link from "next/link";
 import { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "Requisitos para solicitar la tarjeta de crédito Klu | Top Finanzas MX",
+  title:
+    "Requisitos para solicitar la tarjeta de crédito Klu | Top Finanzas MX",
   description:
     "Conoce los requisitos, beneficios y proceso de solicitud de la tarjeta de crédito Klu. Una opción accesible sin anualidad para construir historial crediticio.",
 };

@@ -273,7 +273,7 @@ export default function RequisitosLaTasaPage() {
                     Quienes valoran la rapidez y comodidad:
                   </strong>{" "}
                   Si necesitas un préstamo urgente o prefieres evitar trámites
-complicados, La Tasa ofrece un proceso 100% digital, desde la
+                  complicados, La Tasa ofrece un proceso 100% digital, desde la
                   solicitud hasta la entrega del dinero, con un tiempo de
                   aprobación y desembolso menor a 48 horas.
                 </span>

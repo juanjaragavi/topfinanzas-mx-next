@@ -335,8 +335,8 @@ export default function RequisitosPrestamosDigittPage() {
                   <strong className="text-gray-900">
                     Tasas de interés competitivas:
                   </strong>{" "}
-                  Como plataforma digital, Digitt puede ofrecer tasas de
-                  interés atractivas que se adaptan a las posibilidades de cada
+                  Como plataforma digital, Digitt puede ofrecer tasas de interés
+                  atractivas que se adaptan a las posibilidades de cada
                   solicitante.
                 </span>
               </li>

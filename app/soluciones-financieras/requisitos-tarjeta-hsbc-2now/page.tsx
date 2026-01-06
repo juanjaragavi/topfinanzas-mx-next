@@ -7,7 +7,8 @@ import Link from "next/link";
 import { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "Requisitos para solicitar la tarjeta de crédito HSBC 2Now | Top Finanzas MX",
+  title:
+    "Requisitos para solicitar la tarjeta de crédito HSBC 2Now | Top Finanzas MX",
   description:
     "Conoce los requisitos, beneficios y proceso de solicitud de la tarjeta HSBC 2Now. Disfruta de beneficios exclusivos y sin anualidad el primer año.",
 };
@@ -236,7 +237,9 @@ export default function RequisitosTarjetaHsbc2NowPage() {
               <li className="flex items-start">
                 <RedArrowIcon />
                 <span className="text-gray-700">
-                  <strong className="text-gray-900">Ser mayor de 18 años:</strong>{" "}
+                  <strong className="text-gray-900">
+                    Ser mayor de 18 años:
+                  </strong>{" "}
                   Al igual que con cualquier tarjeta de crédito, es necesario
                   ser mayor de edad para solicitarla.
                 </span>

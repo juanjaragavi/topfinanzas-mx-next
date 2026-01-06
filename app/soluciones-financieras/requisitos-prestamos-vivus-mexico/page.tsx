@@ -89,7 +89,9 @@ export default function RequisitosPrestamosVivusPage() {
               <li className="flex items-start">
                 <CustomArrowIcon />
                 <span className="text-gray-700">
-                  <strong className="text-gray-900">Ser mayor de 18 años:</strong>{" "}
+                  <strong className="text-gray-900">
+                    Ser mayor de 18 años:
+                  </strong>{" "}
                   Para poder solicitar un préstamo con Vivus, es necesario que
                   seas mayor de edad. Este es un requisito básico para acceder a
                   cualquier tipo de financiamiento.

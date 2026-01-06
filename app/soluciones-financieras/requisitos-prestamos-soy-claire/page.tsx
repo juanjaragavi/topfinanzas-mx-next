@@ -117,9 +117,7 @@ export default function RequisitosPrestamoSoyClairePage() {
               <li className="flex items-start">
                 <SkyCheckIcon />
                 <span className="text-gray-700">
-                  <strong className="text-gray-900">
-                    Tarjetas aceptadas:
-                  </strong>{" "}
+                  <strong className="text-gray-900">Tarjetas aceptadas:</strong>{" "}
                   Solo se aceptan tarjetas de crédito Visa y MasterCard a tu
                   nombre. No aplica para tarjetas de débito, departamentales ni
                   American Express.

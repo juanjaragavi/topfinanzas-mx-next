@@ -47,11 +47,6 @@ export interface CategoriesMegaMenu {
   }>;
 }
 
-// Helper function to clean titles (remove potential pipe and extra text)
-const cleanTitle = (title: string): string => {
-  return title.split("|")[0].split(":")[0].split(" - ")[0].trim();
-};
-
 export const headerNavigation = {
   /** Main navigation items - Desktop (Matches Legacy) */
   mainNavItems: [

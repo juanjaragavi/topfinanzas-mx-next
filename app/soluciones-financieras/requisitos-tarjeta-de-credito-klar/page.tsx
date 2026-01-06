@@ -117,7 +117,9 @@ export default function RequisitosTarjetaKlarPage() {
               <li className="flex items-start">
                 <AmberArrowIcon />
                 <span className="text-gray-700">
-                  <strong className="text-gray-900">Ser mayor de 18 años:</strong>{" "}
+                  <strong className="text-gray-900">
+                    Ser mayor de 18 años:
+                  </strong>{" "}
                   Como en cualquier producto financiero, debes tener la mayoría
                   de edad para poder aplicar.
                 </span>
@@ -212,7 +214,9 @@ export default function RequisitosTarjetaKlarPage() {
               <li className="flex items-start">
                 <AmberArrowIcon />
                 <span className="text-gray-700">
-                  <strong className="text-gray-900">Sube los documentos:</strong>{" "}
+                  <strong className="text-gray-900">
+                    Sube los documentos:
+                  </strong>{" "}
                   A través de la misma aplicación, podrás subir la
                   identificación oficial y el comprobante de domicilio. El
                   proceso es sencillo y rápido.

@@ -6,7 +6,8 @@ import Link from "next/link";
 import { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "Requisitos para solicitar un préstamo en Creditea México | Top Finanzas MX",
+  title:
+    "Requisitos para solicitar un préstamo en Creditea México | Top Finanzas MX",
   description:
     "Conoce los requisitos para solicitar un préstamo en Creditea México. Una guía completa sobre cómo obtener financiamiento rápido, flexible y 100% en línea.",
 };
@@ -58,16 +59,17 @@ export default function RequisitosPrestamosCrediteaPage() {
 
             {/* Intro Section */}
             <p className="text-lg text-gray-700 mb-6 font-normal">
-              En un mundo donde la flexibilidad financiera es clave para afrontar
-              gastos inesperados o alcanzar metas personales, los préstamos
-              personales se han convertido en una herramienta fundamental.
+              En un mundo donde la flexibilidad financiera es clave para
+              afrontar gastos inesperados o alcanzar metas personales, los
+              préstamos personales se han convertido en una herramienta
+              fundamental.
             </p>
             <p className="text-gray-700 mb-6 font-normal">
               Creditea México es una de las plataformas más populares en el país
               para obtener financiamiento de forma rápida y sencilla. A
               continuación, te presentamos una guía detallada sobre los
-              requisitos necesarios para solicitar un préstamo en Creditea y cómo
-              funciona el proceso.
+              requisitos necesarios para solicitar un préstamo en Creditea y
+              cómo funciona el proceso.
             </p>
 
             {/* Image 1 (Featured) */}
@@ -110,15 +112,15 @@ export default function RequisitosPrestamosCrediteaPage() {
               El servicio de Creditea te permite solicitar préstamos de manera
               rápida, con montos que van desde los $1,000 hasta $70,000 pesos, y
               plazos de pago ajustados a tus necesidades, de entre 4 y 36 meses.
-              Dependiendo de tu perfil crediticio y capacidad de pago, el interés
-              y el plazo pueden variar, pero lo más importante es que puedes
-              manejar todo desde la comodidad de tu hogar.
+              Dependiendo de tu perfil crediticio y capacidad de pago, el
+              interés y el plazo pueden variar, pero lo más importante es que
+              puedes manejar todo desde la comodidad de tu hogar.
             </p>
 
             <p className="text-gray-700 mb-6 font-normal">
-              Creditea se enfoca en proporcionar una experiencia de usuario ágil,
-              y parte de esto es su proceso simplificado de solicitud. Veamos los
-              requisitos básicos que necesitas cumplir.
+              Creditea se enfoca en proporcionar una experiencia de usuario
+              ágil, y parte de esto es su proceso simplificado de solicitud.
+              Veamos los requisitos básicos que necesitas cumplir.
             </p>
 
             {/* Requisitos */}
@@ -127,9 +129,9 @@ export default function RequisitosPrestamosCrediteaPage() {
             </h2>
             <p className="text-gray-700 mb-6 font-normal">
               Uno de los atractivos principales de Creditea es su accesibilidad.
-              Los requisitos que debes cumplir son mínimos y están diseñados para
-              que el proceso de aprobación sea rápido y sin complicaciones. A
-              continuación, te detallamos cada uno de ellos:
+              Los requisitos que debes cumplir son mínimos y están diseñados
+              para que el proceso de aprobación sea rápido y sin complicaciones.
+              A continuación, te detallamos cada uno de ellos:
             </p>
             <ul className="space-y-3 mb-8">
               <li className="flex items-start">
@@ -139,8 +141,8 @@ export default function RequisitosPrestamosCrediteaPage() {
                     Ser mayor de edad (18 años en adelante):
                   </strong>{" "}
                   Como en cualquier entidad financiera, uno de los requisitos
-                  principales es que seas mayor de edad. Esto garantiza que estás
-                  en capacidad de contraer responsabilidades legales.
+                  principales es que seas mayor de edad. Esto garantiza que
+                  estás en capacidad de contraer responsabilidades legales.
                 </span>
               </li>
               <li className="flex items-start">
@@ -173,8 +175,8 @@ export default function RequisitosPrestamosCrediteaPage() {
                   </strong>{" "}
                   Deberás tener una cuenta bancaria a tu nombre, ya que el
                   depósito del préstamo se realizará directamente en ella.
-                  Además, Creditea utilizará esta cuenta para realizar los cobros
-                  automáticos de las mensualidades.
+                  Además, Creditea utilizará esta cuenta para realizar los
+                  cobros automáticos de las mensualidades.
                 </span>
               </li>
               <li className="flex items-start">
@@ -194,9 +196,9 @@ export default function RequisitosPrestamosCrediteaPage() {
                   <strong className="text-gray-900">
                     Ingresos comprobables:
                   </strong>{" "}
-                  Aunque no es necesario tener un empleo formal, debes contar con
-                  ingresos comprobables que te permitan hacer frente al préstamo
-                  solicitado.
+                  Aunque no es necesario tener un empleo formal, debes contar
+                  con ingresos comprobables que te permitan hacer frente al
+                  préstamo solicitado.
                 </span>
               </li>
             </ul>
@@ -253,8 +255,8 @@ export default function RequisitosPrestamosCrediteaPage() {
                     Completar la solicitud:
                   </strong>{" "}
                   Una vez registrado, deberás llenar la solicitud de préstamo,
-                  indicando el monto que deseas pedir y el plazo de pago. En esta
-                  etapa, también deberás adjuntar tus documentos.
+                  indicando el monto que deseas pedir y el plazo de pago. En
+                  esta etapa, también deberás adjuntar tus documentos.
                 </span>
               </li>
               <li className="flex items-start">
@@ -275,8 +277,8 @@ export default function RequisitosPrestamosCrediteaPage() {
                     Aprobación y desembolso:
                   </strong>{" "}
                   Si tu solicitud es aprobada, recibirás una oferta con las
-                  condiciones del préstamo. Si aceptas los términos, el dinero se
-                  depositará en tu cuenta bancaria en cuestión de horas.
+                  condiciones del préstamo. Si aceptas los términos, el dinero
+                  se depositará en tu cuenta bancaria en cuestión de horas.
                 </span>
               </li>
             </ul>
@@ -293,8 +295,8 @@ export default function RequisitosPrestamosCrediteaPage() {
               Ventajas de solicitar un préstamo en Creditea
             </h2>
             <p className="text-gray-700 mb-6 font-normal">
-              Optar por un préstamo con Creditea tiene varias ventajas, entre las
-              cuales destacan:
+              Optar por un préstamo con Creditea tiene varias ventajas, entre
+              las cuales destacan:
             </p>
             <ul className="space-y-3 mb-8">
               <li className="flex items-start">
@@ -348,15 +350,15 @@ export default function RequisitosPrestamosCrediteaPage() {
             <p className="text-gray-700 mb-6 font-normal">
               Es importante recordar que, aunque Creditea ofrece una alternativa
               accesible y rápida, cualquier préstamo debe tomarse con
-              responsabilidad. Evalúa tu capacidad de pago antes de comprometerte
-              con un crédito y asegúrate de comprender los términos y
-              condiciones.
+              responsabilidad. Evalúa tu capacidad de pago antes de
+              comprometerte con un crédito y asegúrate de comprender los
+              términos y condiciones.
             </p>
             <p className="text-gray-700 mb-6 font-normal">
               Si necesitas financiamiento rápido y cuentas con los requisitos
-              necesarios, Creditea México puede ser una excelente opción para ti.
-              Ahora que conoces el proceso, estás listo para dar el siguiente
-              paso en tu solicitud.
+              necesarios, Creditea México puede ser una excelente opción para
+              ti. Ahora que conoces el proceso, estás listo para dar el
+              siguiente paso en tu solicitud.
             </p>
 
             <div className="mt-8 pt-8 border-t">

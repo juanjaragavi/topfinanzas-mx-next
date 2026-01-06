@@ -266,9 +266,9 @@ export default function RequisitosBaubapPage() {
                     Evaluación de la solicitud:
                   </strong>{" "}
                   Una vez que el solicitante completa el formulario, Baubap
-                  revisa la información y realiza una evaluación de crédito
-                  para determinar la elegibilidad del usuario. Este proceso es
-                  rápido y eficiente.
+                  revisa la información y realiza una evaluación de crédito para
+                  determinar la elegibilidad del usuario. Este proceso es rápido
+                  y eficiente.
                 </span>
               </li>
               <li className="flex items-start">

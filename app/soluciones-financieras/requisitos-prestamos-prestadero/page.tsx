@@ -6,7 +6,8 @@ import Link from "next/link";
 import { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "Requisitos para solicitar un préstamo con Prestadero | Top Finanzas MX",
+  title:
+    "Requisitos para solicitar un préstamo con Prestadero | Top Finanzas MX",
   description:
     "Conoce los requisitos para solicitar un préstamo en Prestadero, una plataforma P2P con tasas competitivas y proceso 100% online.",
 };
@@ -64,8 +65,8 @@ export default function RequisitosPrestamosPrestaderoPage() {
             </p>
             <p className="text-gray-700 mb-6 font-normal">
               En este sentido, Prestadero se presenta como una plataforma
-              confiable y accesible que permite solicitar préstamos personales con
-              condiciones competitivas. A continuación, te detallamos los
+              confiable y accesible que permite solicitar préstamos personales
+              con condiciones competitivas. A continuación, te detallamos los
               requisitos y los pasos necesarios para solicitar un préstamo con
               Prestadero.
             </p>
@@ -101,8 +102,9 @@ export default function RequisitosPrestamosPrestaderoPage() {
               particulares (peer-to-peer), que conecta directamente a los
               solicitantes de préstamos con inversionistas. Esta modalidad
               permite obtener mejores condiciones de financiamiento en
-              comparación con instituciones tradicionales, y a los inversionistas
-              les ofrece una opción atractiva para hacer crecer su dinero.
+              comparación con instituciones tradicionales, y a los
+              inversionistas les ofrece una opción atractiva para hacer crecer
+              su dinero.
             </p>
 
             {/* Image 2 (Call to Action 1) */}
@@ -181,8 +183,8 @@ export default function RequisitosPrestamosPrestaderoPage() {
                 <LimeArrowIcon />
                 <span className="text-gray-700">
                   <strong className="text-gray-900">Solicitud en línea:</strong>{" "}
-                  El proceso de solicitud de préstamo se realiza completamente en
-                  línea. Deberás ingresar a la plataforma de Prestadero,
+                  El proceso de solicitud de préstamo se realiza completamente
+                  en línea. Deberás ingresar a la plataforma de Prestadero,
                   registrarte y llenar un formulario con tus datos personales y
                   financieros.
                 </span>
@@ -192,8 +194,8 @@ export default function RequisitosPrestamosPrestaderoPage() {
                 <span className="text-gray-700">
                   <strong className="text-gray-900">Capacidad de pago:</strong>{" "}
                   Prestadero se asegura de que los solicitantes tengan la
-                  capacidad financiera para cumplir con los pagos mensuales. Este
-                  aspecto se evalúa con base en los ingresos y el nivel de
+                  capacidad financiera para cumplir con los pagos mensuales.
+                  Este aspecto se evalúa con base en los ingresos y el nivel de
                   endeudamiento actual del solicitante.
                 </span>
               </li>
@@ -229,8 +231,8 @@ export default function RequisitosPrestamosPrestaderoPage() {
             </h2>
             <p className="text-gray-700 mb-6 font-normal">
               El proceso para solicitar un préstamo en Prestadero es sencillo y
-              rápido, siempre que cumplas con los requisitos mencionados. Aquí te
-              explicamos cada paso detalladamente:
+              rápido, siempre que cumplas con los requisitos mencionados. Aquí
+              te explicamos cada paso detalladamente:
             </p>
             <ul className="space-y-3 mb-8">
               <li className="flex items-start">
@@ -265,21 +267,19 @@ export default function RequisitosPrestamosPrestaderoPage() {
                     Verificación del historial crediticio:
                   </strong>{" "}
                   Prestadero revisará tu historial crediticio para determinar tu
-                  elegibilidad para el préstamo. Este proceso es esencial, ya que
-                  le da confianza a los inversionistas sobre la capacidad de pago
-                  del solicitante.
+                  elegibilidad para el préstamo. Este proceso es esencial, ya
+                  que le da confianza a los inversionistas sobre la capacidad de
+                  pago del solicitante.
                 </span>
               </li>
               <li className="flex items-start">
                 <LimeArrowIcon />
                 <span className="text-gray-700">
-                  <strong className="text-gray-900">
-                    Oferta de préstamo:
-                  </strong>{" "}
-                  Si cumples con los requisitos, Prestadero te ofrecerá un monto y
-                  una tasa de interés basados en tu perfil financiero. Esta
-                  oferta se ajusta a tu capacidad de pago y se te presentarán los
-                  términos y condiciones del préstamo.
+                  <strong className="text-gray-900">Oferta de préstamo:</strong>{" "}
+                  Si cumples con los requisitos, Prestadero te ofrecerá un monto
+                  y una tasa de interés basados en tu perfil financiero. Esta
+                  oferta se ajusta a tu capacidad de pago y se te presentarán
+                  los términos y condiciones del préstamo.
                 </span>
               </li>
               <li className="flex items-start">
@@ -359,8 +359,8 @@ export default function RequisitosPrestamosPrestaderoPage() {
                     Transparencia en el proceso:
                   </strong>{" "}
                   Uno de los pilares de Prestadero es la transparencia. Desde el
-                  inicio, los solicitantes conocen las tasas de interés, plazos y
-                  montos a pagar sin cargos ocultos ni sorpresas.
+                  inicio, los solicitantes conocen las tasas de interés, plazos
+                  y montos a pagar sin cargos ocultos ni sorpresas.
                 </span>
               </li>
               <li className="flex items-start">
@@ -369,9 +369,9 @@ export default function RequisitosPrestamosPrestaderoPage() {
                   <strong className="text-gray-900">
                     Sin penalización por pagos anticipados:
                   </strong>{" "}
-                  A diferencia de muchas instituciones financieras, Prestadero no
-                  cobra penalizaciones si decides adelantar pagos o liquidar el
-                  préstamo antes del plazo pactado.
+                  A diferencia de muchas instituciones financieras, Prestadero
+                  no cobra penalizaciones si decides adelantar pagos o liquidar
+                  el préstamo antes del plazo pactado.
                 </span>
               </li>
             </ul>
@@ -402,9 +402,9 @@ export default function RequisitosPrestamosPrestaderoPage() {
               transparente y accesible para quienes buscan financiamiento en
               México. Cumpliendo con los requisitos y siguiendo el proceso
               sencillo, podrás acceder a montos significativos con tasas de
-              interés competitivas y plazos flexibles, todo desde la comodidad de
-              tu hogar. Si necesitas un préstamo, considera a Prestadero como una
-              alternativa confiable para lograr tus metas financieras.
+              interés competitivas y plazos flexibles, todo desde la comodidad
+              de tu hogar. Si necesitas un préstamo, considera a Prestadero como
+              una alternativa confiable para lograr tus metas financieras.
             </p>
 
             <div className="mt-8 pt-8 border-t">

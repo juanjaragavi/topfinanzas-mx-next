@@ -1,1 +1,10 @@
-feat: Add Privacy Policy and Terms of Service pages with localization support
+feat: migrate legacy WordPress landing pages to Next.js
+
+- Add /enrutador credit card router page with cupo selection and FAQ
+- Add /administrar-enrutador redirect (admin route)
+- Add /tarjetas/tarjetas-de-credito-campana credit cards campaign landing
+- Add /tarjetas/prestamos-campana personal loans campaign landing
+- Add /test-implementation-afs blog archive test page
+- Fix unused BlueArrowIcon in requisitos-prestamos-con-yotepresto
+- Remove unused cleanTitle helper from headerNavigation
+- Pass ESLint with zero warnings

@@ -6,7 +6,8 @@ import Link from "next/link";
 import { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "Requisitos para solicitar un préstamo en Credilikeme | Top Finanzas MX",
+  title:
+    "Requisitos para solicitar un préstamo en Credilikeme | Top Finanzas MX",
   description:
     "Conoce los requisitos para solicitar un préstamo en Credilikeme, una opción accesible para quienes necesitan dinero rápido, incluso sin historial crediticio.",
 };
@@ -81,8 +82,8 @@ export default function RequisitosPrestamosCredilikemePage() {
             </h2>
             <p className="text-gray-700 mb-6 font-normal">
               Para poder acceder a un préstamo a través de Credilikeme, es
-              necesario cumplir con ciertos requisitos básicos que garantizan que
-              eres elegible para este tipo de financiamiento. Estos son:
+              necesario cumplir con ciertos requisitos básicos que garantizan
+              que eres elegible para este tipo de financiamiento. Estos son:
             </p>
             <ul className="space-y-3 mb-8">
               <li className="flex items-start">
@@ -115,8 +116,8 @@ export default function RequisitosPrestamosCredilikemePage() {
                   <strong className="text-gray-900">
                     Cuenta bancaria propia:
                   </strong>{" "}
-                  Necesitas tener una cuenta bancaria a tu nombre, ya que es allí
-                  donde se depositará el préstamo.
+                  Necesitas tener una cuenta bancaria a tu nombre, ya que es
+                  allí donde se depositará el préstamo.
                 </span>
               </li>
               <li className="flex items-start">
@@ -184,10 +185,10 @@ export default function RequisitosPrestamosCredilikemePage() {
                     Verificación de identidad:
                   </strong>{" "}
                   Una vez que envíes tu solicitud, recibirás una llamada
-                  telefónica para verificar tu identidad y validar la información
-                  proporcionada. Este paso es crucial para garantizar que los
-                  datos sean correctos y que realmente eres tú quien está
-                  solicitando el préstamo.
+                  telefónica para verificar tu identidad y validar la
+                  información proporcionada. Este paso es crucial para
+                  garantizar que los datos sean correctos y que realmente eres
+                  tú quien está solicitando el préstamo.
                 </span>
               </li>
               <li className="flex items-start">
@@ -196,11 +197,11 @@ export default function RequisitosPrestamosCredilikemePage() {
                   <strong className="text-gray-900">
                     Descarga de la aplicación:
                   </strong>{" "}
-                  Si tu solicitud es preaprobada, deberás descargar la aplicación
-                  móvil de Credilikeme e ingresar con tu ID para firmar el
-                  contrato de préstamo. La app también te permitirá gestionar tu
-                  préstamo, revisar tu saldo, realizar pagos, y acceder a los
-                  beneficios del programa de recompensas.
+                  Si tu solicitud es preaprobada, deberás descargar la
+                  aplicación móvil de Credilikeme e ingresar con tu ID para
+                  firmar el contrato de préstamo. La app también te permitirá
+                  gestionar tu préstamo, revisar tu saldo, realizar pagos, y
+                  acceder a los beneficios del programa de recompensas.
                 </span>
               </li>
               <li className="flex items-start">
@@ -230,10 +231,10 @@ export default function RequisitosPrestamosCredilikemePage() {
               Tasas de interés, costos y plazos de pago
             </h2>
             <p className="text-gray-700 mb-6 font-normal">
-              Es fundamental que, al solicitar un préstamo, tengas claridad sobre
-              los costos asociados y los plazos de pago disponibles. Credilikeme
-              ofrece varias opciones, pero es importante que estés informado para
-              evitar sorpresas.
+              Es fundamental que, al solicitar un préstamo, tengas claridad
+              sobre los costos asociados y los plazos de pago disponibles.
+              Credilikeme ofrece varias opciones, pero es importante que estés
+              informado para evitar sorpresas.
             </p>
             <ul className="space-y-3 mb-8">
               <li className="flex items-start">

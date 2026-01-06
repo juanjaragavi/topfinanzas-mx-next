@@ -154,7 +154,9 @@ export default function RequisitosPrestamosDooplaPage() {
               <li className="flex items-start">
                 <DooplaCheckIcon />
                 <span className="text-gray-700">
-                  <strong className="text-gray-900">Ser mayor de 18 años:</strong>{" "}
+                  <strong className="text-gray-900">
+                    Ser mayor de 18 años:
+                  </strong>{" "}
                   Solo personas mayores de edad pueden solicitar un crédito en
                   Doopla.
                 </span>
