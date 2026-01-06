@@ -11,7 +11,84 @@ export interface PostItem {
 }
 
 export const ALL_POSTS: PostItem[] = [
+  {
+    title: "Requisitos préstamos Vivus México | Top Finanzas MX",
+    slug: "requisitos-prestamos-vivus-mexico",
+    description:
+      "Obtén hasta $3,000 MXN en minutos. Con un proceso 100% en línea y sin papeleo, es ideal para cubrir emergencias o gastos pequeños.",
+    image: "https://media.topfinanzas.com/images/vivus.webp",
+    category: "Soluciones Financieras",
+    categoryPath: "/soluciones-financieras",
+    date: "06 Jan 2026",
+    type: "personal",
+    subCategory: "loans",
+  },
+  {
+    title:
+      "Requisitos para solicitar un préstamo con Yotepresto | Top Finanzas MX",
+    slug: "requisitos-prestamos-con-yotepresto",
+    description:
+      "Descubre los requisitos para solicitar un préstamo con Yotepresto en México. Guía detallada sobre historial crediticio, comprobantes de ingresos, y cuenta bancaria.",
+    image:
+      "https://topfinanzas.com/mx/wp-content/uploads/2024/03/Requisitos-para-solicitar-un-prestamo-con-Yotepresto.webp",
+    category: "Soluciones Financieras",
+    categoryPath: "/soluciones-financieras",
+    date: "06 Jan 2026",
+    type: "personal",
+    subCategory: "loans",
+  },
   // New Post
+  {
+    title:
+      "Requisitos para solicitar un préstamo en Creditea México | Top Finanzas MX",
+    slug: "requisitos-prestamos-creditea",
+    description:
+      "Conoce los requisitos para solicitar un préstamo en Creditea México. Una guía completa sobre cómo obtener financiamiento rápido, flexible y 100% en línea.",
+    image: "https://media.topfinanzas.com/images/creditea-1-1-1.webp",
+    category: "Soluciones Financieras",
+    categoryPath: "/soluciones-financieras",
+    date: "06 Jan 2026",
+    type: "personal",
+    subCategory: "loans",
+  },
+  {
+    title: "Requisitos para solicitar un préstamo con DiDi | Top Finanzas MX",
+    slug: "requisitos-prestamos-didi",
+    description:
+      "Conoce los requisitos para solicitar un préstamo con DiDi, una opción financiera rápida y segura para conductores y usuarios de la plataforma.",
+    image: "https://media.topfinanzas.com/images/didi-1-1-1.webp",
+    category: "Soluciones Financieras",
+    categoryPath: "/soluciones-financieras",
+    date: "06 Jan 2026",
+    type: "personal",
+    subCategory: "loans",
+  },
+  {
+    title:
+      "Requisitos para solicitar un préstamo con Prestadero | Top Finanzas MX",
+    slug: "requisitos-prestamos-prestadero",
+    description:
+      "Conoce los requisitos para solicitar un préstamo en Prestadero, una plataforma P2P con tasas competitivas y proceso 100% online.",
+    image: "https://media.topfinanzas.com/images/prestadero-1-2-1-1.webp",
+    category: "Soluciones Financieras",
+    categoryPath: "/soluciones-financieras",
+    date: "06 Jan 2026",
+    type: "personal",
+    subCategory: "loans",
+  },
+  {
+    title:
+      "Requisitos para solicitar un préstamo en Credilikeme | Top Finanzas MX",
+    slug: "requisitos-prestamos-credilikeme",
+    description:
+      "Conoce los requisitos para solicitar un préstamo en Credilikeme, una opción accesible para quienes necesitan dinero rápido, incluso sin historial crediticio.",
+    image: "https://media.topfinanzas.com/images/banner-credilikeme2.webp",
+    category: "Soluciones Financieras",
+    categoryPath: "/soluciones-financieras",
+    date: "06 Jan 2026",
+    type: "personal",
+    subCategory: "loans",
+  },
   {
     title:
       "Finanzas Personales en Quincena: Qué Hacer y Qué Evitar con tu Sueldo | Top Finanzas MX",
