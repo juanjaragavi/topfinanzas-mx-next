@@ -2,6 +2,7 @@ import { Header } from "@/components/layout/header";
 import { CompactFooter } from "@/components/layout/compact-footer";
 import { AIContentDisclaimer } from "@/components/ui/ai-content-disclaimer";
 import Image from "next/image";
+import Link from "next/link";
 import { Metadata } from "next";
 
 export const metadata: Metadata = {
@@ -34,7 +35,12 @@ export default function TarjetasCashbackPage() {
             <div className="my-8 text-left sm:text-left">
               <p className="text-left sm:text-left text-lg text-gray-800 mb-4 leading-6">
                 ¿Te imaginas que te devolvieran un porcentaje de todo el dinero
-                que gastas con tu tarjeta de crédito? Pues de eso se trata el
+                que gastas con tu <Link
+                  href="/soluciones-financieras/tarjetas-de-credito-sin-anualidad"
+                  className="text-blue-600 hover:underline"
+                >
+                  tarjeta de crédito
+                </Link>? Pues de eso se trata el
                 cashback. En un mundo donde buscamos maximizar cada peso, las
                 tarjetas con cashback se han convertido en una herramienta de
                 finanzas personales increíblemente popular en México. No son
@@ -63,7 +69,12 @@ export default function TarjetasCashbackPage() {
                 />
               </div>
 
-              <section className="my-6">
+              <section classNa<Link
+                    href="/soluciones-financieras/cashback"
+                    className="text-blue-600 hover:underline"
+                  >
+                    cashback
+                  </Link>">
                 <h2 className="text-left sm:text-left text-xl font-bold text-gray-800 mb-4">
                   ¿Qué es el Cashback y Cómo Funciona?
                 </h2>

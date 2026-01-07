@@ -2,6 +2,7 @@ import { Header } from "@/components/layout/header";
 import { CompactFooter } from "@/components/layout/compact-footer";
 import { AIContentDisclaimer } from "@/components/ui/ai-content-disclaimer";
 import Image from "next/image";
+import Link from "next/link";
 import { Metadata } from "next";
 
 export const metadata: Metadata = {
@@ -119,7 +120,12 @@ export default function FinanzasParejasNuevasPage() {
                 <p className="text-left sm:text-left text-gray-800 mb-4 text-sm leading-6 font-light">
                   Uno de los pasos más poderosos que pueden dar como pareja es
                   crear un plan financiero conjunto. Esto comienza con un
-                  presupuesto. Un presupuesto no se trata de restricción; es una
+                  <Link
+                    href="/finanzas-personales/guia-para-principiantes-como-crear-un-presupuesto-que-si-funciona"
+                    className="text-blue-600 hover:underline"
+                  >
+                    {" "}presupuesto
+                  </Link>. Un presupuesto no se trata de restricción; es una
                   hoja de ruta para su dinero, ayudándoles a decidir a dónde
                   quieren que vaya. Trabajen juntos para rastrear sus ingresos y
                   gastos. Hay muchas maneras de abordar esto, desde simples
@@ -167,7 +173,12 @@ export default function FinanzasParejasNuevasPage() {
                 </h2>
                 <p className="text-left sm:text-left text-gray-800 mb-4 text-sm leading-6 font-light">
                   La vida sucede, y los gastos inesperados pueden aparecer. Como
-                  pareja, construir un fondo de emergencia robusto es más
+                  pareja, construir un <Link
+                    href="/finanzas-personales/que-es-un-fondo-de-emergencia-y-por-que-es-clave-para-tu-tranquilidad"
+                    className="text-blue-600 hover:underline"
+                  >
+                    fondo de emergencia
+                  </Link> robusto es más
                   importante que nunca. Intenten ahorrar al menos 3-6 meses de
                   gastos esenciales en una cuenta de ahorro separada y de fácil
                   acceso. Este fondo proporciona un colchón crucial contra la

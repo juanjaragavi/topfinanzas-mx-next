@@ -92,7 +92,12 @@ export default function InversionInteligentePage() {
                     invertir, asegúrate de tener un colchón financiero para
                     imprevistos. Lo ideal es contar con al menos 3 a 6 meses de
                     tus gastos esenciales ahorrados en una cuenta de fácil
-                    acceso.
+                    acceso. Aprende más sobre <Link
+                      href="/finanzas-personales/que-es-un-fondo-de-emergencia-y-por-que-es-clave-para-tu-tranquilidad"
+                      className="text-blue-600 hover:underline"
+                    >
+                      qué es un fondo de emergencia
+                    </Link>.
                   </li>
                   <li className="mb-2">
                     <strong>Educa tus Finanzas Personales:</strong> Conoce los

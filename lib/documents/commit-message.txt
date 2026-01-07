@@ -1,10 +1,12 @@
-chore: implement backlinking strategy for finanzas-personales batch 2
+chore: implement backlinking strategy for finanzas-personales batch 3
 
 - Processed 10 files in app/finanzas-personales/
 - Added next/link imports where missing
 - Injected internal links for high-value keywords:
-  - historial crediticio -> /soluciones-financieras/historial-crediticio
+  - tarjetas de crédito -> /soluciones-financieras/tarjetas-de-credito-sin-anualidad
   - cashback -> /soluciones-financieras/cashback
   - puntos -> /soluciones-financieras/puntos
-  - tarjetas de crédito -> /soluciones-financieras/tarjetas-de-credito-sin-anualidad
+  - historial crediticio -> /soluciones-financieras/historial-crediticio
   - CAT -> /finanzas-personales/cat-en-tarjetas-de-credito
+  - fondo de emergencia -> /finanzas-personales/que-es-un-fondo-de-emergencia...
+  - presupuesto -> /finanzas-personales/guia-para-principiantes...

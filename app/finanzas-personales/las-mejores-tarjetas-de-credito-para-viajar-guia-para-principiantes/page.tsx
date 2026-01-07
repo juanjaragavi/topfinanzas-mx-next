@@ -2,6 +2,7 @@ import { Header } from "@/components/layout/header";
 import { CompactFooter } from "@/components/layout/compact-footer";
 import { AIContentDisclaimer } from "@/components/ui/ai-content-disclaimer";
 import Image from "next/image";
+import Link from "next/link";
 import { Metadata } from "next";
 
 export const metadata: Metadata = {
@@ -34,8 +35,12 @@ export default function LasMejoresTarjetasDeCreditoParaViajarPage() {
             <div className="my-8 text-left sm:text-left">
               <p className="text-left sm:text-left text-lg text-gray-800 mb-4 leading-6">
                 ¿Sueñas con tu próxima escapada a la playa o una aventura
-                internacional? Si viajar es una de tus prioridades, una tarjeta
-                de crédito especializada puede ser tu mejor aliada. Lejos de ser
+                internacional? Si viajar es una de tus prioridades, una <Link
+                  href="/soluciones-financieras/tarjetas-de-credito-sin-anualidad"
+                  className="text-blue-600 hover:underline"
+                >
+                  tarjeta de crédito
+                </Link> especializada puede ser tu mejor aliada. Lejos de ser
                 un simple plástico, las mejores tarjetas de crédito para viajar
                 están diseñadas para acumular puntos, ahorrarte dinero y hacer
                 tu experiencia mucho más cómoda. Pero con tantas opciones en el
@@ -205,7 +210,12 @@ export default function LasMejoresTarjetasDeCreditoParaViajarPage() {
                   <li className="mb-2">
                     <strong>CAT (Costo Anual Total):</strong> En México, todas
                     las instituciones financieras están obligadas a mostrar el
-                    CAT. Este número incluye la tasa de interés promedio, la
+                    <Link
+                      href="/finanzas-personales/cat-en-tarjetas-de-credito"
+                      className="text-blue-600 hover:underline"
+                    >
+                      {" "}CAT
+                    </Link>. Este número incluye la tasa de interés promedio, la
                     anualidad y otras comisiones. Las tarjetas de recompensas y
                     viajes suelen tener tasas de interés y CAT muy altos.
                   </li>
@@ -257,7 +267,12 @@ export default function LasMejoresTarjetasDeCreditoParaViajarPage() {
                 </h3>
                 <p className="text-left sm:text-left text-gray-800 mb-4 text-sm leading-6 font-light">
                   Sé realista. Muchas de las mejores tarjetas de crédito para
-                  viajar requieren un historial crediticio sólido (un buen score
+                  viajar requieren un <Link
+                    href="/soluciones-financieras/historial-crediticio"
+                    className="text-blue-600 hover:underline"
+                  >
+                    historial crediticio
+                  </Link> sólido (un buen score
                   en el Buró de Crédito) e ingresos mínimos comprobables que
                   pueden ser elevados. Revisa los requisitos antes de aplicar
                   para no afectar tu historial con una solicitud rechazada.

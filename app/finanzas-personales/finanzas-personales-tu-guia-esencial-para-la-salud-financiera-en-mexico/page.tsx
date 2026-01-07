@@ -213,7 +213,12 @@ export default function FinanzasPersonalesGuiaPage() {
                           Protección Financiera:
                         </strong>{" "}
                         Salvaguardar tus activos e ingresos a través de seguros
-                        y fondos de emergencia.
+                        y <Link
+                          href="/finanzas-personales/que-es-un-fondo-de-emergencia-y-por-que-es-clave-para-tu-tranquilidad"
+                          className="text-blue-600 hover:underline"
+                        >
+                          fondos de emergencia
+                        </Link>.
                       </div>
                     </li>
                   </ul>

@@ -170,7 +170,12 @@ export default function PresupuestoPrincipiantesPage() {
                   </h3>
                   <p className="text-sm text-blue-800">
                     Al planificar tus gastos, es mucho más difícil caer en la
-                    tentación de usar la tarjeta de crédito para compras que no
+                    tentación de usar la <Link
+                      href="/soluciones-financieras/tarjetas-de-credito-sin-anualidad"
+                      className="text-blue-600 hover:underline"
+                    >
+                      tarjeta de crédito
+                    </Link> para compras que no
                     puedes permitirte.
                   </p>
                 </div>

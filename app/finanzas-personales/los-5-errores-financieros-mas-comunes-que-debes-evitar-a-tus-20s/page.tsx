@@ -241,9 +241,19 @@ export default function ErroresFinancieros20sPage() {
                   ¿Cómo usarlas a tu favor?
                 </h3>
                 <p className="text-gray-700 leading-relaxed">
-                  Piensa en tu tarjeta de crédito como una herramienta, no como
+                  Piensa en tu <Link
+                    href="/soluciones-financieras/tarjetas-de-credito-sin-anualidad"
+                    className="text-blue-600 hover:underline"
+                  >
+                    tarjeta de crédito
+                  </Link> como una herramienta, no como
                   una extensión de tu sueldo. Úsala para construir un buen
-                  historial crediticio, lo que te ayudará en el futuro a obtener
+                  <Link
+                    href="/soluciones-financieras/historial-crediticio"
+                    className="text-blue-600 hover:underline"
+                  >
+                    {" "}historial crediticio
+                  </Link>, lo que te ayudará en el futuro a obtener
                   créditos más grandes, como un hipotecario. La clave es ser
                   «totalero», es decir, pagar el total de tu deuda cada mes en
                   la fecha de pago para no generar intereses. Aprovecha los
@@ -274,7 +284,12 @@ export default function ErroresFinancieros20sPage() {
                     suficiente), sino de tener un fondo para emergencias. Un
                     imprevisto, como una enfermedad o la pérdida del trabajo,
                     puede desestabilizar por completo tus finanzas si no tienes
-                    un colchón de seguridad.
+                    un colchón de seguridad. Aprende más sobre la <Link
+                      href="/finanzas-personales/que-es-un-fondo-de-emergencia-y-por-que-es-clave-para-tu-tranquilidad"
+                      className="text-blue-600 hover:underline"
+                    >
+                      importancia de un fondo de emergencia
+                    </Link>.
                   </p>
                 </div>
               </div>

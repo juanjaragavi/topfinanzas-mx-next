@@ -76,7 +76,12 @@ export default function LasMejoresTarjetasBlackFridayPage() {
                     <strong>Cashback (Reembolso en efectivo):</strong> Imagina
                     que, además del descuento que ya tiene un producto, el banco
                     te regresa un porcentaje de lo que gastaste. Eso es el
-                    cashback. Algunas tarjetas te devuelven desde el 1% hasta el
+                    <Link
+                      href="/soluciones-financieras/cashback"
+                      className="text-blue-600 hover:underline"
+                    >
+                      {" "}cashback
+                    </Link>. Algunas tarjetas te devuelven desde el 1% hasta el
                     5% de tus compras en categorías específicas o en general.
                     ¡Es dinero gratis solo por comprar! Mira{" "}
                     <Link
@@ -102,7 +107,12 @@ export default function LasMejoresTarjetasBlackFridayPage() {
                   </li>
                   <li className="mb-2">
                     <strong>Programa de Puntos o Recompensas:</strong> Cada
-                    compra que haces acumula puntos que después puedes canjear
+                    compra que haces acumula <Link
+                      href="/soluciones-financieras/puntos"
+                      className="text-blue-600 hover:underline"
+                    >
+                      puntos
+                    </Link> que después puedes canjear
                     por productos, boletos de avión, certificados de regalo y
                     más. Durante el Black Friday, tus gastos pueden ayudarte a
                     juntar una buena cantidad de puntos para tus próximas

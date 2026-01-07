@@ -137,7 +137,12 @@ export default function SalirDeDeudasPage() {
                         <span>
                           <strong>Tasa de Interés y CAT:</strong> Fíjate bien en
                           la tasa de interés anual, y sobre todo, en el Costo
-                          Anual Total (CAT). Este último es clave, pues te dice
+                          Anual Total (<Link
+                            href="/finanzas-personales/cat-en-tarjetas-de-credito"
+                            className="text-blue-600 hover:underline"
+                          >
+                            CAT
+                          </Link>). Este último es clave, pues te dice
                           el costo real de tu deuda.
                         </span>
                       </li>
@@ -279,11 +284,20 @@ export default function SalirDeDeudasPage() {
                             Consejo Pro
                           </h4>
                           <p className="text-yellow-800">
-                            También es muy recomendable crear un pequeño fondo
-                            de emergencia de unos $5,000 a $10,000 pesos. Puede
+                            También es muy recomendable crear un pequeño <Link
+                              href="/finanzas-personales/que-es-un-fondo-de-emergencia-y-por-que-es-clave-para-tu-tranquilidad"
+                              className="text-blue-600 hover:underline"
+                            >
+                              fondo de emergencia
+                            </Link> de unos $5,000 a $10,000 pesos. Puede
                             sonar contradictorio, pero tener este colchón
                             evitará que un imprevisto, como una llanta ponchada,
-                            te obligue a usar la tarjeta de crédito y te haga
+                            te obligue a usar la <Link
+                              href="/soluciones-financieras/tarjetas-de-credito-sin-anualidad"
+                              className="text-blue-600 hover:underline"
+                            >
+                              tarjeta de crédito
+                            </Link> y te haga
                             retroceder.
                           </p>
                         </div>
