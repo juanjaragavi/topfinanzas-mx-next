@@ -127,7 +127,10 @@ export default function RequisitosTarjetaMercadoPagoPage() {
 
             {/* 1. Sin cuota anual */}
             <h3 className="text-xl font-semibold text-gray-700 mt-6 mb-2">
-              1. Sin cuota anual
+              1.{" "}
+              <Link href="/soluciones-financieras/tarjetas-de-credito-sin-anualidad">
+                Sin cuota anual
+              </Link>
             </h3>
             <p className="text-gray-700 mb-4 font-normal">
               Una de las ventajas más destacadas de la tarjeta de crédito
@@ -288,10 +291,14 @@ export default function RequisitosTarjetaMercadoPagoPage() {
                   <strong className="text-gray-900">
                     Buen historial crediticio:
                   </strong>{" "}
-                  Mercado Pago revisará tu historial crediticio para asegurarse
-                  de que puedas manejar el crédito de manera responsable. No es
-                  necesario tener un historial extenso, pero contar con un buen
-                  puntaje crediticio aumentará las posibilidades de aprobación.
+                  Mercado Pago revisará tu{" "}
+                  <Link href="/soluciones-financieras/historial-crediticio">
+                    historial crediticio
+                  </Link>{" "}
+                  para asegurarse de que puedas manejar el crédito de manera
+                  responsable. No es necesario tener un historial extenso, pero
+                  contar con un buen puntaje crediticio aumentará las
+                  posibilidades de aprobación.
                 </span>
               </li>
               <li className="flex items-start">

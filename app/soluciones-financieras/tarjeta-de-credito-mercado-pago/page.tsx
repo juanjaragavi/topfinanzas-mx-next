@@ -70,8 +70,17 @@ export default function TarjetaMercadoPagoPage() {
               <li className="flex items-start">
                 <SkyArrowIcon />
                 <span className="text-gray-700">
-                  <strong className="text-gray-900">Sin cuota anual:</strong> No
-                  pagarás una tarifa por el mantenimiento de tu tarjeta.
+                  <strong className="text-gray-900">
+                    <Link
+                      href="/soluciones-financieras/tarjetas-de-credito-sin-anualidad"
+                      title="Sin anualidad"
+                      className="text-blue-600 hover:underline"
+                    >
+                      Sin cuota anual
+                    </Link>
+                    :
+                  </strong>{" "}
+                  No pagarás una tarifa por el mantenimiento de tu tarjeta.
                 </span>
               </li>
               <li className="flex items-start">
@@ -80,8 +89,14 @@ export default function TarjetaMercadoPagoPage() {
                   <strong className="text-gray-900">
                     Promociones exclusivas:
                   </strong>{" "}
-                  Meses sin intereses y descuentos en Mercado Libre y otros
-                  sitios.
+                  <Link
+                    href="/soluciones-financieras/meses-sin-intereses"
+                    title="Meses sin intereses"
+                    className="text-blue-600 hover:underline"
+                  >
+                    Meses sin intereses
+                  </Link>{" "}
+                  y descuentos en Mercado Libre y otros sitios.
                 </span>
               </li>
               <li className="flex items-start">
@@ -267,7 +282,14 @@ export default function TarjetaMercadoPagoPage() {
                 <SkyArrowIcon />
                 <span className="text-gray-700">
                   <strong className="text-gray-900">
-                    Historial crediticio aceptable:
+                    <Link
+                      href="/soluciones-financieras/historial-crediticio"
+                      title="Historial crediticio"
+                      className="text-blue-600 hover:underline"
+                    >
+                      Historial crediticio
+                    </Link>{" "}
+                    aceptable:
                   </strong>{" "}
                   Mercado Pago evaluará tu historial crediticio como parte del
                   proceso de solicitud. Aunque no necesitas tener un historial

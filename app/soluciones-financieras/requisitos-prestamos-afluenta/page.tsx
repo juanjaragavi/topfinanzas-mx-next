@@ -163,11 +163,17 @@ export default function RequisitosPrestamosAfluentaPage() {
               Buen historial crediticio
             </h2>
             <p className="text-lg text-gray-700 mb-6 font-normal">
-              Es importante contar con un historial crediticio positivo.
-              Afluenta revisa el puntaje de crédito de sus solicitantes para
-              evaluar su comportamiento financiero, asegurándose de que no
-              existan deudas pendientes significativas o historial de pagos
-              atrasados.
+              Es importante contar con un{" "}
+              <Link href="/finanzas-personales/que-es-el-score-crediticio-y-por-que-es-tan-importante">
+                historial crediticio
+              </Link>{" "}
+              positivo. Afluenta revisa el puntaje de crédito de sus
+              solicitantes para evaluar su comportamiento financiero,
+              asegurándose de que no existan{" "}
+              <Link href="/finanzas-personales/la-forma-inteligente-de-salir-de-deudas-y-no-volver-a-caer">
+                deudas
+              </Link>{" "}
+              pendientes significativas o historial de pagos atrasados.
             </p>
             <p className="text-lg text-gray-700 mb-6 font-normal">
               Un historial limpio aumenta las probabilidades de aprobación,

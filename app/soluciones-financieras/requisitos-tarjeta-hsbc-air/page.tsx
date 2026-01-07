@@ -92,10 +92,13 @@ export default function RequisitosTarjetaHSBCAirPage() {
             <p className="text-lg text-gray-700 mb-6">
               La tarjeta HSBC Air está dirigida a personas mayores de edad con
               ingresos mínimos de $5,000 MXN mensuales. Para ser considerado, es
-              crucial contar con un historial crediticio limpio, sin atrasos ni
-              sobregiros. Este perfil asegura que los solicitantes sean
-              financieramente responsables y capaces de manejar sus compromisos
-              crediticios.
+              crucial contar con un{" "}
+              <Link href="/soluciones-financieras/historial-crediticio">
+                historial crediticio
+              </Link>{" "}
+              limpio, sin atrasos ni sobregiros. Este perfil asegura que los
+              solicitantes sean financieramente responsables y capaces de
+              manejar sus compromisos crediticios.
             </p>
 
             <div
@@ -232,8 +235,12 @@ export default function RequisitosTarjetaHSBCAirPage() {
                 <span className="text-gray-700 text-lg">
                   <strong className="text-gray-900">Anualidad:</strong> La
                   tarjeta tiene una anualidad de $879 MXN, que puede ser pagada
-                  en seis mensualidades sin intereses. Este costo es competitivo
-                  en comparación con otras tarjetas de crédito del mercado.
+                  en seis{" "}
+                  <Link href="/soluciones-financieras/meses-sin-intereses">
+                    mensualidades sin intereses
+                  </Link>
+                  . Este costo es competitivo en comparación con otras tarjetas
+                  de crédito del mercado.
                 </span>
               </li>
               <li className="flex items-start">
@@ -241,8 +248,11 @@ export default function RequisitosTarjetaHSBCAirPage() {
                 <span className="text-gray-700 text-lg">
                   <strong className="text-gray-900">Tasa de interés:</strong>{" "}
                   HSBC Air ofrece una tasa de interés variable del 39.90% anual
-                  para compras y disposiciones de efectivo, con un CAT (Costo
-                  Anual Total) promedio de 44.9%. Esta tasa es atractiva,
+                  para compras y disposiciones de efectivo, con un{" "}
+                  <Link href="/finanzas-personales/cat-en-tarjetas-de-credito">
+                    CAT
+                  </Link>{" "}
+                  (Costo Anual Total) promedio de 44.9%. Esta tasa es atractiva,
                   especialmente si se considera que permite financiar compras de
                   manera accesible.
                 </span>

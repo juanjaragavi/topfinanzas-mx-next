@@ -93,7 +93,11 @@ export default function PrestamosFelizPage() {
                   <strong className="text-gray-900">
                     Altas tasas de interés:
                   </strong>{" "}
-                  Tasa fija anual del 90% y CAT promedio de 138.2%.
+                  Tasa fija anual del 90% y{" "}
+                  <Link href="/finanzas-personales/cat-en-tarjetas-de-credito">
+                    CAT
+                  </Link>{" "}
+                  promedio de 138.2%.
                 </span>
               </li>
               <li className="flex items-start">
@@ -131,9 +135,12 @@ export default function PrestamosFelizPage() {
               Aunque es una opción atractiva para quienes buscan liquidez
               inmediata, especialmente en situaciones de emergencia, también
               presenta desventajas importantes, como una tasa de interés fija
-              anual del 90% y un Costo Anual Total (CAT) promedio de 138.2%, lo
-              que lo convierte en un producto financiero caro en comparación con
-              otras opciones en el mercado.
+              anual del 90% y un Costo Anual Total (
+              <Link href="/finanzas-personales/cat-en-tarjetas-de-credito">
+                CAT
+              </Link>
+              ) promedio de 138.2%, lo que lo convierte en un producto
+              financiero caro en comparación con otras opciones en el mercado.
             </p>
 
             {/* Section: ¿Para quién es ideal Préstamos Feliz? */}

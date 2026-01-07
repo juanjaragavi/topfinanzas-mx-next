@@ -154,7 +154,15 @@ export default function TarjetaBSmartUPage() {
             <div className="space-y-6">
               <div>
                 <h3 className="text-xl font-bold text-gray-700 mb-2">
-                  1. Sin cuota anual el primer año
+                  1.{" "}
+                  <Link
+                    href="/soluciones-financieras/tarjetas-de-credito-sin-anualidad"
+                    title="Sin anualidad"
+                    className="text-blue-600 hover:underline"
+                  >
+                    Sin cuota anual
+                  </Link>{" "}
+                  el primer año
                 </h3>
                 <p className="text-gray-700 leading-relaxed">
                   Uno de los principales atractivos de la tarjeta Bsmart U de

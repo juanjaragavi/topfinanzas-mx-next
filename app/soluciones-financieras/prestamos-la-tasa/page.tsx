@@ -72,7 +72,11 @@ export default function PrestamosLaTasaPage() {
                   <strong className="text-gray-900">
                     Tasas personalizadas:
                   </strong>{" "}
-                  desde 16.9% según tu historial crediticio.
+                  desde 16.9% según tu{" "}
+                  <Link href="/finanzas-personales/que-es-el-score-crediticio-y-por-que-es-tan-importante">
+                    historial crediticio
+                  </Link>
+                  .
                 </span>
               </li>
               <li className="flex items-start">

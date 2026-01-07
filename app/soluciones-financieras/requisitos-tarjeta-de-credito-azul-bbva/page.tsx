@@ -141,7 +141,10 @@ export default function RequisitosTarjetaAzulBBVAPage() {
                 <BlueArrowIcon />
                 <span className="text-gray-700">
                   <strong className="text-gray-900">
-                    Historial Crediticio:
+                    <Link href="/finanzas-personales/que-es-el-score-crediticio-y-por-que-es-tan-importante">
+                      Historial Crediticio
+                    </Link>
+                    :
                   </strong>{" "}
                   Debes autorizar a BBVA a realizar una consulta de tu historial
                   en el Buró de Crédito.
@@ -188,7 +191,10 @@ export default function RequisitosTarjetaAzulBBVAPage() {
                 <BlueArrowIcon />
                 <span className="text-gray-700">
                   <strong className="text-gray-900">
-                    CAT (Costo Anual Total):
+                    <Link href="/finanzas-personales/cat-en-tarjetas-de-credito">
+                      CAT
+                    </Link>{" "}
+                    (Costo Anual Total):
                   </strong>{" "}
                   El CAT de 97.3% más IVA es considerable y debe ser evaluado
                   frente a los beneficios ofrecidos por la tarjeta.

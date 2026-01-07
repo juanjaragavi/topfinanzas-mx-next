@@ -136,7 +136,11 @@ export default function RequisitosTarjetaKluPage() {
 
             {/* 4. Historial crediticio */}
             <h3 className="text-xl font-semibold text-gray-700 mt-6 mb-2">
-              4. Historial crediticio (opcional)
+              4.{" "}
+              <Link href="/finanzas-personales/que-es-el-score-crediticio-y-por-que-es-tan-importante">
+                Historial crediticio
+              </Link>{" "}
+              (opcional)
             </h3>
             <p className="text-gray-700 mb-4 font-normal">
               Aunque la tarjeta de crédito Klu está diseñada para personas con
@@ -263,9 +267,15 @@ export default function RequisitosTarjetaKluPage() {
               <li className="flex items-start">
                 <SlateArrowIcon />
                 <span className="text-gray-700">
-                  <strong className="text-gray-900">Sin anualidad:</strong> Uno
-                  de los principales atractivos de esta tarjeta es que no cobra
-                  comisión por anualidad, lo que la hace accesible y económica.
+                  <strong className="text-gray-900">
+                    <Link href="/soluciones-financieras/tarjetas-de-credito-sin-anualidad">
+                      Sin anualidad
+                    </Link>
+                    :
+                  </strong>{" "}
+                  Uno de los principales atractivos de esta tarjeta es que no
+                  cobra comisión por anualidad, lo que la hace accesible y
+                  económica.
                 </span>
               </li>
               <li className="flex items-start">

@@ -204,9 +204,12 @@ export default function PrestamosCrediteaPage() {
                   <strong className="text-gray-900">
                     Evaluación crediticia rápida:
                   </strong>{" "}
-                  Creditea revisa tu historial crediticio de manera rápida y, en
-                  la mayoría de los casos, ofrece una respuesta en menos de 24
-                  horas.
+                  Creditea revisa tu{" "}
+                  <Link href="/finanzas-personales/que-es-el-score-crediticio-y-por-que-es-tan-importante">
+                    historial crediticio
+                  </Link>{" "}
+                  de manera rápida y, en la mayoría de los casos, ofrece una
+                  respuesta en menos de 24 horas.
                 </span>
               </li>
               <li className="flex items-start">

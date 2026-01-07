@@ -82,8 +82,11 @@ export default function KueskiPrestamosPage() {
                   <strong className="text-gray-900 font-bold">
                     Sin buró de crédito:
                   </strong>{" "}
-                  Acepta solicitudes sin importar el historial crediticio o con
-                  problemas pasados.
+                  Acepta solicitudes sin importar el{" "}
+                  <Link href="/finanzas-personales/que-es-el-score-crediticio-y-por-que-es-tan-importante">
+                    historial crediticio
+                  </Link>{" "}
+                  o con problemas pasados.
                 </span>
               </li>
               <li className="flex items-start">

@@ -61,10 +61,13 @@ export default function RequisitosPrestamoSoyClairePage() {
               sin penalizaciones por pagos anticipados.
             </p>
             <p className="text-lg text-gray-700 mb-6 font-normal">
-              Si buscas consolidar tus deudas de tarjetas de crédito, los
-              préstamos Claire de INVEX pueden ser una opción atractiva. A
-              continuación, te presentamos los requisitos básicos para solicitar
-              este crédito:
+              Si buscas consolidar tus{" "}
+              <Link href="/finanzas-personales/la-forma-inteligente-de-salir-de-deudas-y-no-volver-a-caer">
+                deudas
+              </Link>{" "}
+              de tarjetas de crédito, los préstamos Claire de INVEX pueden ser
+              una opción atractiva. A continuación, te presentamos los
+              requisitos básicos para solicitar este crédito:
             </p>
 
             {/* Image 1 (Hero) */}
@@ -91,7 +94,11 @@ export default function RequisitosPrestamoSoyClairePage() {
                     Consulta a Buró de Crédito:
                   </strong>{" "}
                   Autorizar la consulta a Buró de Crédito es indispensable para
-                  evaluar tu historial crediticio y determinar si eres elegible.
+                  evaluar tu{" "}
+                  <Link href="/finanzas-personales/que-es-el-score-crediticio-y-por-que-es-tan-importante">
+                    historial crediticio
+                  </Link>{" "}
+                  y determinar si eres elegible.
                 </span>
               </li>
               <li className="flex items-start">

@@ -68,7 +68,16 @@ export default function TarjetaHSBCVivaPage() {
               <li className="flex items-start">
                 <RedArrowIcon />
                 <span className="text-gray-700">
-                  <strong className="text-gray-900">Sin anualidad:</strong>{" "}
+                  <strong className="text-gray-900">
+                    <Link
+                      href="/soluciones-financieras/tarjetas-de-credito-sin-anualidad"
+                      title="Sin anualidad"
+                      className="text-blue-600 hover:underline"
+                    >
+                      Sin anualidad
+                    </Link>
+                    :
+                  </strong>{" "}
                   Mantén tu tarjeta sin preocuparte por cargos anuales.
                 </span>
               </li>
@@ -148,7 +157,14 @@ export default function TarjetaHSBCVivaPage() {
 
               <section>
                 <h2 className="text-2xl font-bold text-gray-800 mb-4">
-                  Cashback en compras
+                  <Link
+                    href="/soluciones-financieras/cashback"
+                    title="Cashback"
+                    className="text-blue-600 hover:underline"
+                  >
+                    Cashback
+                  </Link>{" "}
+                  en compras
                 </h2>
                 <p className="mb-4">
                   Otra ventaja atractiva de la HSBC Viva es su programa de
@@ -168,7 +184,13 @@ export default function TarjetaHSBCVivaPage() {
 
               <section>
                 <h2 className="text-2xl font-bold text-gray-800 mb-4">
-                  Meses sin intereses
+                  <Link
+                    href="/soluciones-financieras/meses-sin-intereses"
+                    title="Meses sin intereses"
+                    className="text-blue-600 hover:underline"
+                  >
+                    Meses sin intereses
+                  </Link>
                 </h2>
                 <p className="mb-4">
                   La tarjeta HSBC Viva también te brinda la opción de pagar a

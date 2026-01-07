@@ -87,8 +87,15 @@ export default function TarjetaAeromexicoSantanderPage() {
                   <strong className="text-gray-900">
                     Beneficios exclusivos:
                   </strong>{" "}
-                  Salones Premier, meses sin intereses en Aeroméxico y seguros
-                  de viaje.
+                  Salones Premier,{" "}
+                  <Link
+                    href="/soluciones-financieras/meses-sin-intereses"
+                    title="Meses sin intereses"
+                    className="text-blue-600 hover:underline"
+                  >
+                    meses sin intereses
+                  </Link>{" "}
+                  en Aeroméxico y seguros de viaje.
                 </span>
               </li>
               <li className="flex items-start">

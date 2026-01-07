@@ -76,11 +76,18 @@ export default function RequisitosRappiCardPage() {
             </div>
 
             <p className="text-lg text-gray-700 mb-10">
-              Con su propuesta sin anualidad y beneficios como cashback, es una
-              herramienta ideal para quienes buscan facilidad y recompensas en
-              sus transacciones diarias. En este artículo, te explicaremos
-              detalladamente los requisitos y pasos necesarios para obtener esta
-              tarjeta de crédito.
+              Con su propuesta{" "}
+              <Link href="/soluciones-financieras/tarjetas-de-credito-sin-anualidad">
+                sin anualidad
+              </Link>{" "}
+              y beneficios como{" "}
+              <Link href="/finanzas-personales/sacale-jugo-a-tu-tarjeta-de-credito-con-cashback">
+                cashback
+              </Link>
+              , es una herramienta ideal para quienes buscan facilidad y
+              recompensas en sus transacciones diarias. En este artículo, te
+              explicaremos detalladamente los requisitos y pasos necesarios para
+              obtener esta tarjeta de crédito.
             </p>
 
             {/* Section 1: ¿Cuáles son los requisitos...? */}
@@ -115,7 +122,10 @@ export default function RequisitosRappiCardPage() {
                 <BlackArrowIcon />
                 <span className="text-gray-700 text-lg">
                   <strong className="text-gray-900">
-                    Historial crediticio:
+                    <Link href="/finanzas-personales/que-es-el-score-crediticio-y-por-que-es-tan-importante">
+                      Historial crediticio
+                    </Link>
+                    :
                   </strong>{" "}
                   Tener un buen historial crediticio. Si ya cuentas con otros
                   productos financieros, asegúrate de que están al día y si eres

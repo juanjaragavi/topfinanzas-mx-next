@@ -237,10 +237,13 @@ export default function RequisitosPrestamosCoppelPage() {
             <p className="text-lg text-gray-700 mb-6 font-normal">
               Si tienes varias deudas con diferentes fechas de pago, tasas de
               interés elevadas o simplemente quieres simplificar tus pagos, este
-              préstamo te permite consolidar tus deudas en un solo crédito, con
-              condiciones más manejables. De esta manera, puedes mejorar tu
-              organización financiera y reducir la presión de los pagos
-              mensuales.
+              préstamo te permite consolidar tus{" "}
+              <Link href="/finanzas-personales/la-forma-inteligente-de-salir-de-deudas-y-no-volver-a-caer">
+                deudas
+              </Link>{" "}
+              en un solo crédito, con condiciones más manejables. De esta
+              manera, puedes mejorar tu organización financiera y reducir la
+              presión de los pagos mensuales.
             </p>
             <p className="text-lg text-gray-700 mb-6 font-normal">
               Conoce más:{" "}

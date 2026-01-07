@@ -165,9 +165,12 @@ export default function PrestamosPrestaderoPage() {
               operativos elevados como los que tienen los bancos, lo que se
               traduce en tasas de interés mucho más accesibles. Además,
               Prestadero analiza el perfil crediticio de cada solicitante y
-              ofrece una tasa personalizada basada en su capacidad de pago y su
-              historial crediticio, lo que garantiza que las condiciones del
-              préstamo sean justas para ambas partes.
+              ofrece una tasa personalizada basada en su capacidad de pago y su{" "}
+              <Link href="/finanzas-personales/que-es-el-score-crediticio-y-por-que-es-tan-importante">
+                historial crediticio
+              </Link>
+              , lo que garantiza que las condiciones del préstamo sean justas
+              para ambas partes.
             </p>
 
             {/* Section: Proceso 100% en línea */}
@@ -221,10 +224,14 @@ export default function PrestamosPrestaderoPage() {
             <p className="text-gray-700 mb-6 leading-relaxed">
               A diferencia de muchas instituciones financieras que penalizan los
               pagos anticipados, Prestadero permite que los usuarios adelanten
-              pagos o liquiden su deuda antes del plazo acordado sin ningún tipo
-              de penalización. Esto es especialmente beneficioso para aquellos
-              que logran mejorar su situación financiera y desean reducir el
-              tiempo de su deuda o el monto total de los intereses.
+              pagos o liquiden su{" "}
+              <Link href="/finanzas-personales/la-forma-inteligente-de-salir-de-deudas-y-no-volver-a-caer">
+                deuda
+              </Link>{" "}
+              antes del plazo acordado sin ningún tipo de penalización. Esto es
+              especialmente beneficioso para aquellos que logran mejorar su
+              situación financiera y desean reducir el tiempo de su deuda o el
+              monto total de los intereses.
             </p>
 
             {/* Section: Evaluación rápida y sin complicaciones */}

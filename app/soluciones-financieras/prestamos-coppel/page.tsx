@@ -161,8 +161,11 @@ export default function PrestamosCoppelPage() {
             </p>
             <p className="text-gray-700 mb-6 leading-tight">
               Además, el hecho de que puedas elegir el plazo más conveniente te
-              da control sobre el tiempo que necesitas para liquidar tu deuda,
-              lo que lo hace una opción adaptable a diferentes perfiles
+              da control sobre el tiempo que necesitas para{" "}
+              <Link href="/finanzas-personales/la-forma-inteligente-de-salir-de-deudas-y-no-volver-a-caer">
+                liquidar tu deuda
+              </Link>
+              , lo que lo hace una opción adaptable a diferentes perfiles
               económicos.
             </p>
 

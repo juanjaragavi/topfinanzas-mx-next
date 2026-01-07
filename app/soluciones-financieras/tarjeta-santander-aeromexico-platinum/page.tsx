@@ -80,7 +80,16 @@ export default function TarjetaSantanderAeromexicoPlatinumPage() {
               <li className="flex items-start">
                 <RedArrowIcon />
                 <span className="text-gray-700">
-                  <strong className="text-gray-900">Puntos Premier:</strong>{" "}
+                  <strong className="text-gray-900">
+                    <Link
+                      href="/soluciones-financieras/puntos"
+                      title="Puntos"
+                      className="text-red-600 hover:underline"
+                    >
+                      Puntos Premier
+                    </Link>
+                    :
+                  </strong>{" "}
                   Gana puntos en cada compra y canjéalos por vuelos o mejoras.
                 </span>
               </li>
@@ -95,7 +104,14 @@ export default function TarjetaSantanderAeromexicoPlatinumPage() {
                 <RedArrowIcon />
                 <span className="text-gray-700">
                   <strong className="text-gray-900">
-                    Primer año sin anualidad:
+                    <Link
+                      href="/soluciones-financieras/tarjetas-de-credito-sin-anualidad"
+                      title="Sin anualidad"
+                      className="text-red-600 hover:underline"
+                    >
+                      Primer año sin anualidad
+                    </Link>
+                    :
                   </strong>{" "}
                   Ahorra en costos el primer año con esta tarjeta.
                 </span>
@@ -241,7 +257,13 @@ export default function TarjetaSantanderAeromexicoPlatinumPage() {
 
             {/* Section: Meses sin intereses */}
             <h2 className="text-2xl md:text-3xl font-bold text-gray-700 mt-10 mb-4 leading-tight">
-              Meses sin intereses
+              <Link
+                href="/soluciones-financieras/meses-sin-intereses"
+                title="Meses sin intereses"
+                className="text-red-600 hover:underline"
+              >
+                Meses sin intereses
+              </Link>
             </h2>
             <p className="text-gray-700 mb-6 leading-tight">
               La tarjeta Santander Aeroméxico Platinum te permite aprovechar la

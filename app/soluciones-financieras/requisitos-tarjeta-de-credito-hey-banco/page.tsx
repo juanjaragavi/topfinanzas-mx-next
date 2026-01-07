@@ -106,7 +106,11 @@ export default function RequisitosTarjetaHeyBancoPage() {
 
             {/* Section: Buen historial crediticio (opcional) */}
             <h2 className="text-2xl md:text-3xl font-bold text-gray-700 mt-10 mb-4 leading-tight">
-              Buen historial crediticio (opcional)
+              Buen{" "}
+              <Link href="/finanzas-personales/que-es-el-score-crediticio-y-por-que-es-tan-importante">
+                historial crediticio
+              </Link>{" "}
+              (opcional)
             </h2>
             <p className="text-gray-700 mb-6 font-normal">
               No es necesario contar con un historial crediticio para solicitar
@@ -310,19 +314,27 @@ export default function RequisitosTarjetaHeyBancoPage() {
               <li className="flex items-start">
                 <DarkArrowIcon />
                 <span className="text-gray-700">
-                  <strong className="text-gray-900">Sin anualidad:</strong> Uno
-                  de los principales atractivos de esta tarjeta es que no tiene
-                  anualidad. Esto significa que no tendrás que pagar una cuota
-                  fija cada año por el uso de la tarjeta, lo que la convierte en
-                  una opción económica para quienes buscan evitar cargos
-                  adicionales.
+                  <strong className="text-gray-900">
+                    <Link href="/soluciones-financieras/tarjetas-de-credito-sin-anualidad">
+                      Sin anualidad
+                    </Link>
+                    :
+                  </strong>{" "}
+                  Uno de los principales atractivos de esta tarjeta es que no
+                  tiene anualidad. Esto significa que no tendrás que pagar una
+                  cuota fija cada año por el uso de la tarjeta, lo que la
+                  convierte en una opción económica para quienes buscan evitar
+                  cargos adicionales.
                 </span>
               </li>
               <li className="flex items-start">
                 <DarkArrowIcon />
                 <span className="text-gray-700">
                   <strong className="text-gray-900">
-                    Cashback en todas tus compras:
+                    <Link href="/finanzas-personales/sacale-jugo-a-tu-tarjeta-de-credito-con-cashback">
+                      Cashback
+                    </Link>{" "}
+                    en todas tus compras:
                   </strong>{" "}
                   La tarjeta de crédito Hey Banco ofrece un programa de cashback
                   que te permite ganar un porcentaje de tus compras en dinero de

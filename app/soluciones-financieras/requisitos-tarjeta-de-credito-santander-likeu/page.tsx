@@ -201,8 +201,13 @@ export default function RequisitosTarjetaLikeUSantanderPage() {
               <li className="flex items-start">
                 <RedArrowIcon />
                 <span className="text-gray-700">
-                  <strong className="text-gray-900">CAT Promedio:</strong> 90.9%
-                  sin IVA, reflejando el costo anual total del crédito.
+                  <strong className="text-gray-900">
+                    <Link href="/finanzas-personales/cat-en-tarjetas-de-credito">
+                      CAT
+                    </Link>{" "}
+                    Promedio:
+                  </strong>{" "}
+                  90.9% sin IVA, reflejando el costo anual total del crédito.
                 </span>
               </li>
               <li className="flex items-start">
@@ -291,10 +296,11 @@ export default function RequisitosTarjetaLikeUSantanderPage() {
               Usuarios frecuentes de tarjetas:
             </h3>
             <p className="text-gray-700 mb-6 font-normal">
-              Para aquellos que maximizan los cashbacks y valoran las
-              protecciones en sus compras diarias, LikeU ofrece un conjunto
-              atractivo de recompensas y seguridades que enriquecen cada
-              transacción.
+              Para aquellos que maximizan los{" "}
+              <Link href="/soluciones-financieras/cashback">cashbacks</Link> y
+              valoran las protecciones en sus compras diarias, LikeU ofrece un
+              conjunto atractivo de recompensas y seguridades que enriquecen
+              cada transacción.
             </p>
 
             <p className="text-gray-700 mb-6 font-normal">

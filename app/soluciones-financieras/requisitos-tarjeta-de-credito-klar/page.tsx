@@ -173,10 +173,13 @@ export default function RequisitosTarjetaKlarPage() {
             />
 
             <p className="text-gray-700 mb-6 font-normal">
-              Klar no solicita un historial crediticio previo, lo que la
-              convierte en una excelente opción para aquellos que están
-              construyendo su historial financiero o que han tenido dificultades
-              para ser aprobados por otros bancos.
+              Klar no solicita un{" "}
+              <Link href="/finanzas-personales/que-es-el-score-crediticio-y-por-que-es-tan-importante">
+                historial crediticio
+              </Link>{" "}
+              previo, lo que la convierte en una excelente opción para aquellos
+              que están construyendo su historial financiero o que han tenido
+              dificultades para ser aprobados por otros bancos.
             </p>
 
             {/* Proceso de solicitud */}

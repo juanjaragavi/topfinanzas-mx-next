@@ -123,7 +123,10 @@ export default function PrestamosBaubapPage() {
 
             <p className="text-gray-700 mb-6 leading-tight">
               Sus beneficios están diseñados para facilitar el acceso a
-              créditos, incluso para personas con un historial crediticio
+              créditos, incluso para personas con un{" "}
+              <Link href="/finanzas-personales/que-es-el-score-crediticio-y-por-que-es-tan-importante">
+                historial crediticio
+              </Link>{" "}
               moderado. A continuación, exploramos las ventajas clave de los
               préstamos en Baubap.
             </p>
@@ -197,9 +200,12 @@ export default function PrestamosBaubapPage() {
               solicitantes elijan un periodo que se adapte a sus necesidades y
               capacidad de pago. Esta flexibilidad se extiende a la posibilidad
               de realizar pagos anticipados sin penalización, lo cual da mayor
-              control sobre la deuda. Así, los usuarios pueden administrar sus
-              pagos de acuerdo con su flujo de ingresos, ayudando a mantener su
-              estabilidad financiera.
+              control sobre la{" "}
+              <Link href="/finanzas-personales/la-forma-inteligente-de-salir-de-deudas-y-no-volver-a-caer">
+                deuda
+              </Link>
+              . Así, los usuarios pueden administrar sus pagos de acuerdo con su
+              flujo de ingresos, ayudando a mantener su estabilidad financiera.
             </p>
 
             {/* Section: Ventajas adicionales */}

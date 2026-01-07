@@ -3,6 +3,7 @@ import { CompactFooter } from "@/components/layout/compact-footer";
 import { AIContentDisclaimer } from "@/components/ui/ai-content-disclaimer";
 import { ActionBanner } from "@/components/ui/action-banner";
 import Image from "next/image";
+import Link from "next/link";
 import { Metadata } from "next";
 
 export const metadata: Metadata = {
@@ -155,7 +156,11 @@ export default function RequisitosTalaPage() {
                 <CyanCheckIcon />
                 <span className="text-gray-700">
                   <strong className="text-gray-900">
-                    Sin necesidad de historial crediticio:
+                    Sin necesidad de{" "}
+                    <Link href="/finanzas-personales/que-es-el-score-crediticio-y-por-que-es-tan-importante">
+                      historial crediticio
+                    </Link>
+                    :
                   </strong>{" "}
                   Tala no revisa el Buró de Crédito para aprobar tu solicitud,
                   aunque sí reporta tu actividad crediticia.

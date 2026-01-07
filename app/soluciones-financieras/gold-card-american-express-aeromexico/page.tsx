@@ -308,7 +308,11 @@ export default function GoldCardAmexAeromexicoPage() {
                     Verifica los requisitos:
                   </strong>{" "}
                   Edad mínima: 18 años, ingreso mensual mínimo: $20,000 MXN y
-                  buen historial crediticio.
+                  buen{" "}
+                  <Link href="/finanzas-personales/que-es-el-score-crediticio-y-por-que-es-tan-importante">
+                    historial crediticio
+                  </Link>
+                  .
                 </span>
               </li>
               <li className="flex items-start">

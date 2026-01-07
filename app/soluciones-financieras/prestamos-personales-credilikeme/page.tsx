@@ -127,7 +127,11 @@ export default function CredilikemePage() {
               Bancaria y de Valores (CNBV) y la Condusef. Esto garantiza que
               Credilikeme sea una opción legal y regulada para aquellos que
               necesitan acceder a financiamiento, especialmente quienes tienen
-              un historial crediticio negativo o carecen de uno.
+              un{" "}
+              <Link href="/finanzas-personales/que-es-el-score-crediticio-y-por-que-es-tan-importante">
+                historial crediticio
+              </Link>{" "}
+              negativo o carecen de uno.
             </p>
 
             {/* Section: Préstamos accesibles */}
@@ -246,11 +250,14 @@ export default function CredilikemePage() {
             <p className="text-gray-700 mb-8 leading-relaxed">
               Credilikeme es una herramienta financiera diseñada para personas
               que necesitan acceder a un crédito rápido y accesible,
-              especialmente aquellas con un historial crediticio negativo o sin
-              historial. Su estructura flexible permite a los usuarios construir
-              una mejor reputación financiera a través del cumplimiento puntual
-              de sus pagos, lo que a su vez abre la puerta a condiciones de
-              crédito más favorables en el futuro.
+              especialmente aquellas con un{" "}
+              <Link href="/finanzas-personales/que-es-el-score-crediticio-y-por-que-es-tan-importante">
+                historial crediticio
+              </Link>{" "}
+              negativo o sin historial. Su estructura flexible permite a los
+              usuarios construir una mejor reputación financiera a través del
+              cumplimiento puntual de sus pagos, lo que a su vez abre la puerta
+              a condiciones de crédito más favorables en el futuro.
             </p>
             <p className="text-gray-700 mb-8 leading-relaxed">
               Sin embargo, debido a las altas tasas de interés y las comisiones

@@ -118,7 +118,11 @@ export default function TarjetaDeCreditoAzulBBVAPage() {
               amplia gama de consumidores. Esta tarjeta es especialmente
               atractiva para aquellos que buscan una entrada sin complicaciones
               al mundo del crédito, ofreciendo un camino sencillo hacia la
-              construcción de un historial crediticio saludable.
+              construcción de un{" "}
+              <Link href="/finanzas-personales/que-es-el-score-crediticio-y-por-que-es-tan-importante">
+                historial crediticio
+              </Link>{" "}
+              saludable.
             </p>
 
             <h2 className="text-2xl md:text-3xl font-bold text-gray-700 mt-10 mb-4 leading-tight">

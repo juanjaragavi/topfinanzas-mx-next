@@ -169,8 +169,11 @@ export default function PrestamosDigitPage() {
               necesitan y seleccionar un plazo que les permita realizar pagos
               cómodos, de acuerdo a su flujo de ingresos. Esta flexibilidad es
               especialmente beneficiosa para quienes buscan cubrir gastos
-              imprevistos o realizar una compra importante sin afectar su
-              presupuesto.
+              imprevistos o realizar una compra importante sin afectar su{" "}
+              <Link href="/finanzas-personales/guia-para-principiantes-como-crear-un-presupuesto-que-si-funciona">
+                presupuesto
+              </Link>
+              .
             </p>
 
             {/* Section: Transparencia y seguridad en el proceso */}

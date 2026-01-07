@@ -86,12 +86,15 @@ export default function RequisitosTarjetaBsmartUBanamexPage() {
             </h2>
             <p className="text-lg text-gray-700 mb-6 font-normal">
               La tarjeta Bsmart U de Banamex está diseñada específicamente para
-              estudiantes universitarios que desean comenzar a construir su
-              historial crediticio mientras disfrutan de beneficios adaptados a
-              sus necesidades. Ofrece promociones exclusivas, recompensas por
-              tus compras y acceso a diversas herramientas de administración
-              financiera, facilitando el manejo de los gastos y ayudando a
-              adquirir buenos hábitos financieros desde una etapa temprana.
+              estudiantes universitarios que desean comenzar a construir su{" "}
+              <Link href="/finanzas-personales/que-es-el-score-crediticio-y-por-que-es-tan-importante">
+                historial crediticio
+              </Link>{" "}
+              mientras disfrutan de beneficios adaptados a sus necesidades.
+              Ofrece promociones exclusivas, recompensas por tus compras y
+              acceso a diversas herramientas de administración financiera,
+              facilitando el manejo de los gastos y ayudando a adquirir buenos
+              hábitos financieros desde una etapa temprana.
             </p>
 
             <div
@@ -184,7 +187,10 @@ export default function RequisitosTarjetaBsmartUBanamexPage() {
                 <SkyArrowIcon />
                 <span className="text-gray-700">
                   <strong className="text-gray-900">
-                    Historial crediticio no requerido:
+                    <Link href="/finanzas-personales/que-es-el-score-crediticio-y-por-que-es-tan-importante">
+                      Historial crediticio
+                    </Link>{" "}
+                    no requerido:
                   </strong>{" "}
                   Una de las grandes ventajas de la tarjeta Bsmart U es que no
                   necesitas tener un historial crediticio previo. Esto la

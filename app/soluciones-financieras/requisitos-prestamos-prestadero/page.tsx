@@ -139,11 +139,14 @@ export default function RequisitosPrestamosPrestaderoPage() {
                   <strong className="text-gray-900">
                     Contar con un historial crediticio:
                   </strong>{" "}
-                  Prestadero realiza una revisión exhaustiva del historial
-                  crediticio de los solicitantes para evaluar su capacidad de
-                  pago. No es necesario tener un historial impecable, pero es
-                  fundamental contar con un nivel aceptable de cumplimiento con
-                  créditos anteriores.
+                  Prestadero realiza una revisión exhaustiva del{" "}
+                  <Link href="/finanzas-personales/que-es-el-score-crediticio-y-por-que-es-tan-importante">
+                    historial crediticio
+                  </Link>{" "}
+                  de los solicitantes para evaluar su capacidad de pago. No es
+                  necesario tener un historial impecable, pero es fundamental
+                  contar con un nivel aceptable de cumplimiento con créditos
+                  anteriores.
                 </span>
               </li>
               <li className="flex items-start">
@@ -254,10 +257,13 @@ export default function RequisitosPrestamosPrestaderoPage() {
                     Llenado del formulario:
                   </strong>{" "}
                   Una vez registrado, deberás llenar un formulario en línea con
-                  detalles sobre tus ingresos, egresos, deudas actuales y el
-                  monto del préstamo que deseas solicitar. Es importante ser lo
-                  más preciso posible para que la evaluación sea rápida y
-                  efectiva.
+                  detalles sobre tus ingresos, egresos,{" "}
+                  <Link href="/finanzas-personales/la-forma-inteligente-de-salir-de-deudas-y-no-volver-a-caer">
+                    deudas
+                  </Link>{" "}
+                  actuales y el monto del préstamo que deseas solicitar. Es
+                  importante ser lo más preciso posible para que la evaluación
+                  sea rápida y efectiva.
                 </span>
               </li>
               <li className="flex items-start">

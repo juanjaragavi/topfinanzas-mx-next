@@ -131,8 +131,15 @@ export default function RequisitosTarjetaSantanderFreePage() {
                   <strong className="text-gray-900">
                     Promociones exclusivas:
                   </strong>{" "}
-                  Accede a meses sin intereses y descuentos en establecimientos
-                  afiliados a Santander.
+                  Accede a{" "}
+                  <Link
+                    href="/soluciones-financieras/meses-sin-intereses"
+                    title="Meses sin intereses"
+                    className="text-blue-600 hover:underline"
+                  >
+                    meses sin intereses
+                  </Link>{" "}
+                  y descuentos en establecimientos afiliados a Santander.
                 </span>
               </li>
               <li className="flex items-start">
@@ -141,8 +148,16 @@ export default function RequisitosTarjetaSantanderFreePage() {
                   <strong className="text-gray-900">
                     Programa de recompensas:
                   </strong>{" "}
-                  Gana puntos por cada compra que realices y canjéalos por
-                  diferentes productos o experiencias.
+                  Gana{" "}
+                  <Link
+                    href="/soluciones-financieras/puntos"
+                    title="Puntos"
+                    className="text-blue-600 hover:underline"
+                  >
+                    puntos
+                  </Link>{" "}
+                  por cada compra que realices y canjéalos per diferentes
+                  productos o experiencias.
                 </span>
               </li>
             </ul>

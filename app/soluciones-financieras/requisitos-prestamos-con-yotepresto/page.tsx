@@ -2,6 +2,7 @@ import { Header } from "@/components/layout/header";
 import { CompactFooter } from "@/components/layout/compact-footer";
 import { AIContentDisclaimer } from "@/components/ui/ai-content-disclaimer";
 import Image from "next/image";
+import Link from "next/link";
 import { Metadata } from "next";
 
 export const metadata: Metadata = {
@@ -195,9 +196,12 @@ export default function RequisitosPrestamosYoteprestoPage() {
               tradicionales. Las tasas de interés en Yotepresto van desde el
               8.9% hasta el 38.9%, dependiendo del perfil crediticio del
               solicitante. Esta variabilidad permite que las personas con un
-              buen historial crediticio accedan a tasas mucho más competitivas
-              y, por lo tanto, paguen menos en intereses durante la vida del
-              préstamo.
+              buen{" "}
+              <Link href="/finanzas-personales/que-es-el-score-crediticio-y-por-que-es-tan-importante">
+                historial crediticio
+              </Link>{" "}
+              accedan a tasas mucho más competitivas y, por lo tanto, paguen
+              menos en intereses durante la vida del préstamo.
             </p>
 
             {/* Image 4 (CTA 2 - Order: 1, 3, 2, 4) */}

@@ -68,9 +68,18 @@ export default function TarjetaSantanderFreePage() {
               <li className="flex items-start">
                 <RedArrowIcon />
                 <span className="text-gray-700">
-                  <strong className="text-gray-900">Sin anualidad:</strong> No
-                  pagas anualidad si realizas compras por al menos $200 MXN al
-                  mes.
+                  <strong className="text-gray-900">
+                    <Link
+                      href="/soluciones-financieras/tarjetas-de-credito-sin-anualidad"
+                      title="Sin anualidad"
+                      className="text-red-600 hover:underline"
+                    >
+                      Sin anualidad
+                    </Link>
+                    :
+                  </strong>{" "}
+                  No pagas anualidad si realizas compras por al menos $200 MXN
+                  al mes.
                 </span>
               </li>
               <li className="flex items-start">
@@ -88,8 +97,15 @@ export default function TarjetaSantanderFreePage() {
                   <strong className="text-gray-900">
                     Promociones exclusivas:
                   </strong>{" "}
-                  Acceso a meses sin intereses en comercios afiliados y
-                  descuentos especiales.
+                  Acceso a{" "}
+                  <Link
+                    href="/soluciones-financieras/meses-sin-intereses"
+                    title="Meses sin intereses"
+                    className="text-red-600 hover:underline"
+                  >
+                    meses sin intereses
+                  </Link>{" "}
+                  en comercios afiliados y descuentos especiales.
                 </span>
               </li>
               <li className="flex items-start">
@@ -98,8 +114,14 @@ export default function TarjetaSantanderFreePage() {
                   <strong className="text-gray-900">
                     Recompensas por compras:
                   </strong>{" "}
-                  Acumula puntos con cada compra que puedes canjear por
-                  productos o servicios.
+                  <Link
+                    href="/soluciones-financieras/puntos"
+                    title="Puntos"
+                    className="text-red-600 hover:underline"
+                  >
+                    Acumula puntos
+                  </Link>{" "}
+                  con cada compra que puedes canjear por productos o servicios.
                 </span>
               </li>
             </ul>
@@ -197,9 +219,16 @@ export default function TarjetaSantanderFreePage() {
             <p className="text-gray-700 mb-6 leading-relaxed">
               Si eres alguien que realiza compras regulares de bajo monto y
               busca una tarjeta flexible, esta puede ser la opción adecuada para
-              ti. Además, si estás buscando construir o mejorar tu historial
-              crediticio, la Tarjeta Santander Free te ofrece la posibilidad de
-              hacerlo sin preocuparte por costosas comisiones.
+              ti. Además, si estás buscando construir o mejorar tu{" "}
+              <Link
+                href="/soluciones-financieras/historial-crediticio"
+                title="Historial crediticio"
+                className="text-red-600 hover:underline"
+              >
+                historial crediticio
+              </Link>
+              , la Tarjeta Santander Free te ofrece la posibilidad de hacerlo
+              sin preocuparte por costosas comisiones.
             </p>
 
             {/* Section: ¿Qué más debo tener en cuenta? */}

@@ -134,9 +134,12 @@ export default function RequisitosPrestamosCredilikemePage() {
                   <strong className="text-gray-900">
                     Historial crediticio:
                   </strong>{" "}
-                  Aunque Credilikeme acepta solicitudes de personas con mal
-                  historial crediticio o sin historial, se requiere que tengas
-                  alguna experiencia previa usando crédito.
+                  Aunque Credilikeme acepta solicitudes de personas con mal{" "}
+                  <Link href="/finanzas-personales/que-es-el-score-crediticio-y-por-que-es-tan-importante">
+                    historial crediticio
+                  </Link>{" "}
+                  o sin historial, se requiere que tengas alguna experiencia
+                  previa usando crédito.
                 </span>
               </li>
             </ul>

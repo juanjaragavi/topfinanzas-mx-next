@@ -64,7 +64,14 @@ export default function TarjetaStoriVentajasDesventajasPage() {
                 <GreenCheckIcon />
                 <span className="text-gray-700">
                   <strong className="text-gray-900">
-                    Sin anualidad y sin buró:
+                    <Link
+                      href="/soluciones-financieras/tarjetas-de-credito-sin-anualidad"
+                      title="Sin anualidad"
+                      className="text-green-600 hover:underline"
+                    >
+                      Sin anualidad
+                    </Link>{" "}
+                    y sin buró:
                   </strong>{" "}
                   Solo necesitas tu INE.
                 </span>
@@ -140,11 +147,26 @@ export default function TarjetaStoriVentajasDesventajasPage() {
               crédito responsable desde el inicio de tu carrera universitaria.
               Mediante compras regulares y un manejo prudente de los pagos, este
               programa no solo facilita que puedas ampliar tu línea de crédito,
-              sino que también abre puertas a construir un historial crediticio
+              sino que también abre puertas a construir un{" "}
+              <Link
+                href="/soluciones-financieras/historial-crediticio"
+                title="Historial crediticio"
+                className="text-green-600 hover:underline"
+              >
+                historial crediticio
+              </Link>{" "}
               que en el futuro te abrirá nuevas oportunidades financieras como
-              un crédito personal. Incrementar tu línea de crédito bajo estos
-              principios refuerza tu responsabilidad financiera y prepara el
-              terreno para un futuro económico más sólido.
+              un{" "}
+              <Link
+                href="/soluciones-financieras/cual-es-el-mejor-prestamo-personal"
+                title="Crédito personal"
+                className="text-green-600 hover:underline"
+              >
+                crédito personal
+              </Link>
+              . Incrementar tu línea de crédito bajo estos principios refuerza
+              tu responsabilidad financiera y prepara el terreno para un futuro
+              económico más sólido.
             </p>
 
             <h2 className="text-xl font-bold text-gray-700 mt-10 mb-4">
@@ -183,7 +205,15 @@ export default function TarjetaStoriVentajasDesventajasPage() {
                   <strong className="text-gray-900">
                     CAT (Costo Anual Total) Promedio:
                   </strong>{" "}
-                  147.38% sin IVA.
+                  14
+                  <Link
+                    href="/finanzas-personales/cat-en-tarjetas-de-credito"
+                    title="CAT"
+                    className="text-gray-700 hover:text-green-600"
+                  >
+                    CAT
+                  </Link>
+                  8% sin IVA.
                 </span>
               </li>
               <li className="flex items-start">

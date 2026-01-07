@@ -113,11 +113,14 @@ export default function RequisitosTarjetaVolarisInvex0Page() {
                   <strong className="text-gray-900">
                     Buen historial crediticio:
                   </strong>{" "}
-                  Tu historial crediticio será uno de los factores determinantes
-                  para la aprobación de esta tarjeta. Es recomendable tener un
-                  puntaje crediticio saludable y no presentar atrasos en pagos
-                  de créditos previos. Invex verificará tu historial a través de
-                  buró de crédito.
+                  Tu{" "}
+                  <Link href="/soluciones-financieras/historial-crediticio">
+                    historial crediticio
+                  </Link>{" "}
+                  será uno de los factores determinantes para la aprobación de
+                  esta tarjeta. Es recomendable tener un puntaje crediticio
+                  saludable y no presentar atrasos en pagos de créditos previos.
+                  Invex verificará tu historial a través de buró de crédito.
                 </span>
               </li>
             </ul>
@@ -226,9 +229,10 @@ export default function RequisitosTarjetaVolarisInvex0Page() {
                   <strong className="text-gray-900">
                     Acumulación de puntos:
                   </strong>{" "}
-                  Con cada compra que realices con la tarjeta, acumulas puntos
-                  que puedes canjear por boletos de avión, upgrades en tus
-                  vuelos o servicios adicionales.
+                  Con cada compra que realices con la tarjeta, acumulas{" "}
+                  <Link href="/soluciones-financieras/puntos">puntos</Link> que
+                  puedes canjear por boletos de avión, upgrades en tus vuelos o
+                  servicios adicionales.
                 </span>
               </li>
               <li className="flex items-start">
@@ -259,7 +263,10 @@ export default function RequisitosTarjetaVolarisInvex0Page() {
                   <strong className="text-gray-900">
                     Pagos a meses sin intereses:
                   </strong>{" "}
-                  Esta tarjeta te permite realizar pagos en meses sin intereses
+                  Esta tarjeta te permite realizar pagos en{" "}
+                  <Link href="/soluciones-financieras/meses-sin-intereses">
+                    meses sin intereses
+                  </Link>{" "}
                   en compras selectas, tanto en Volaris como en otros
                   establecimientos afiliados.
                 </span>
@@ -268,7 +275,10 @@ export default function RequisitosTarjetaVolarisInvex0Page() {
                 <BlueArrowIcon />
                 <span className="text-gray-700">
                   <strong className="text-gray-900">
-                    Sin anualidad de por vida:
+                    <Link href="/soluciones-financieras/tarjetas-de-credito-sin-anualidad">
+                      Sin anualidad
+                    </Link>{" "}
+                    de por vida:
                   </strong>{" "}
                   solo deberás usar tu Tarjeta de Crédito una vez al mes.
                 </span>
@@ -276,7 +286,13 @@ export default function RequisitosTarjetaVolarisInvex0Page() {
               <li className="flex items-start">
                 <BlueArrowIcon />
                 <span className="text-gray-700">
-                  <strong className="text-gray-900">CAT:</strong> 23.8% sin IVA.
+                  <strong className="text-gray-900">
+                    <Link href="/finanzas-personales/cat-en-tarjetas-de-credito">
+                      CAT
+                    </Link>
+                    :
+                  </strong>{" "}
+                  23.8% sin IVA.
                 </span>
               </li>
               <li className="flex items-start">

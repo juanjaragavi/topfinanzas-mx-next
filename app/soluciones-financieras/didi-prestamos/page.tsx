@@ -132,8 +132,11 @@ export default function DiDiPrestamosPage() {
                 <strong className="text-gray-900">
                   Accesibilidad para todos:
                 </strong>{" "}
-                No se requiere historial crediticio perfecto, permitiendo acceso
-                a más personas.
+                No se requiere{" "}
+                <Link href="/finanzas-personales/que-es-el-score-crediticio-y-por-que-es-tan-importante">
+                  historial crediticio
+                </Link>{" "}
+                perfecto, permitiendo acceso a más personas.
               </span>
             </li>
           </ul>

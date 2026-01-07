@@ -58,9 +58,12 @@ export default function RequisitosMoneymanPrestamosPage() {
             {/* Intro Section */}
             <p className="text-lg text-gray-700 mb-6 font-normal">
               Moneyman ofrece préstamos personales en línea rápidos y accesibles
-              en México, ideales para personas sin historial crediticio o con
-              puntajes no perfectos. Regulados por PROFECO, garantizan seguridad
-              y legalidad en todas las operaciones.
+              en México, ideales para personas sin{" "}
+              <Link href="/finanzas-personales/que-es-el-score-crediticio-y-por-que-es-tan-importante">
+                historial crediticio
+              </Link>{" "}
+              o con puntajes no perfectos. Regulados por PROFECO, garantizan
+              seguridad y legalidad en todas las operaciones.
             </p>
 
             <p className="text-gray-700 mb-6 font-normal">
@@ -185,7 +188,11 @@ export default function RequisitosMoneymanPrestamosPage() {
             <p className="text-lg text-gray-700 mb-6 font-normal">
               Moneyman ofrece préstamos desde $1,000 MXN hasta $18,000 MXN con
               plazos entre 7 y 30 días. La tasa de interés varía entre 365% y
-              467.2% anual, con un CAT promedio de 606.8% sin IVA.
+              467.2% anual, con un{" "}
+              <Link href="/finanzas-personales/cat-en-tarjetas-de-credito">
+                CAT
+              </Link>{" "}
+              promedio de 606.8% sin IVA.
             </p>
 
             <h3 className="text-xl md:text-2xl font-bold text-gray-700 mt-8 mb-4">

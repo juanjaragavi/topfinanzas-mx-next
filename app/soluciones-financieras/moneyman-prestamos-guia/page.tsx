@@ -141,7 +141,11 @@ export default function MoneymanPrestamosGuiaPage() {
               tras la aprobación, lo cual es esencial para situaciones urgentes.
               Puedes elegir el plazo de pago que mejor se adapte a tus
               necesidades financieras, proporcionando una flexibilidad
-              considerable para manejar tus deudas de manera efectiva.
+              considerable para{" "}
+              <Link href="/finanzas-personales/la-forma-inteligente-de-salir-de-deudas-y-no-volver-a-caer">
+                manejar tus deudas
+              </Link>{" "}
+              de manera efectiva.
             </p>
 
             {/* Section: Características destacadas */}

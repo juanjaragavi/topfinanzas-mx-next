@@ -3,6 +3,7 @@ import { CompactFooter } from "@/components/layout/compact-footer";
 import { AIContentDisclaimer } from "@/components/ui/ai-content-disclaimer";
 import { ActionBanner } from "@/components/ui/action-banner";
 import Image from "next/image";
+import Link from "next/link";
 import { Metadata } from "next";
 
 export const metadata: Metadata = {
@@ -134,7 +135,11 @@ export default function RequisitosPrestamosVivusPage() {
                 <CustomArrowIcon />
                 <span className="text-gray-700">
                   <strong className="text-gray-900">
-                    Buen historial crediticio (deseable, pero no obligatorio):
+                    Buen{" "}
+                    <Link href="/finanzas-personales/que-es-el-score-crediticio-y-por-que-es-tan-importante">
+                      historial crediticio
+                    </Link>{" "}
+                    (deseable, pero no obligatorio):
                   </strong>{" "}
                   Aunque Vivus ofrece préstamos rápidos sin muchos trámites,
                   tener un buen historial crediticio aumenta tus posibilidades
@@ -277,10 +282,14 @@ export default function RequisitosPrestamosVivusPage() {
                   </strong>{" "}
                   Para aquellos que valoran la transparencia total en los costos
                   y la seguridad en las transacciones, Vivus es una excelente
-                  opción. El CAT promedio de 40,984.2% y las comisiones se
-                  muestran claramente desde el inicio, sin sorpresas ni cargos
-                  ocultos. Además, la plataforma está regulada por la CONDUSEF,
-                  lo que garantiza un respaldo confiable.
+                  opción. El{" "}
+                  <Link href="/finanzas-personales/cat-en-tarjetas-de-credito">
+                    CAT
+                  </Link>{" "}
+                  promedio de 40,984.2% y las comisiones se muestran claramente
+                  desde el inicio, sin sorpresas ni cargos ocultos. Además, la
+                  plataforma está regulada por la CONDUSEF, lo que garantiza un
+                  respaldo confiable.
                 </span>
               </li>
             </ul>

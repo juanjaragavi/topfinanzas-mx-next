@@ -213,7 +213,10 @@ export default function PrestamosLimePage() {
                     </li>
                     <li>
                       <strong className="font-semibold text-gray-900">
-                        CAT promedio:
+                        <Link href="/finanzas-personales/cat-en-tarjetas-de-credito">
+                          CAT
+                        </Link>{" "}
+                        promedio:
                       </strong>{" "}
                       40,699.7%.
                     </li>
@@ -323,7 +326,11 @@ export default function PrestamosLimePage() {
                       </strong>{" "}
                       La facilidad para acceder a un préstamo rápido puede
                       llevar a solicitar más dinero del que realmente se
-                      necesita, generando una deuda difícil de manejar.
+                      necesita, generando una{" "}
+                      <Link href="/finanzas-personales/la-forma-inteligente-de-salir-de-deudas-y-no-volver-a-caer">
+                        deuda
+                      </Link>{" "}
+                      difícil de manejar.
                     </span>
                   </li>
                   <li className="flex items-start">

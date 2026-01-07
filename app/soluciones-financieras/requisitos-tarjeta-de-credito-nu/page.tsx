@@ -168,7 +168,11 @@ export default function RequisitosTarjetaCreditoNuPage() {
                 <PurpleArrowIcon />
                 <span className="text-gray-700">
                   <strong className="text-gray-900">
-                    Consulta de Historial Crediticio:
+                    Consulta de{" "}
+                    <Link href="/soluciones-financieras/historial-crediticio">
+                      Historial Crediticio
+                    </Link>
+                    :
                   </strong>{" "}
                   Se requerirá tu autorización para realizar una verificación de
                   crédito, un paso estándar en la evaluación de las solicitudes.
@@ -203,7 +207,12 @@ export default function RequisitosTarjetaCreditoNuPage() {
               <li className="flex items-start">
                 <PurpleArrowIcon />
                 <span className="text-gray-700">
-                  <strong className="text-gray-900">CAT Promedio:</strong>{" "}
+                  <strong className="text-gray-900">
+                    <Link href="/finanzas-personales/cat-en-tarjetas-de-credito">
+                      CAT
+                    </Link>{" "}
+                    Promedio:
+                  </strong>{" "}
                   139.5% sin IVA.
                 </span>
               </li>

@@ -79,7 +79,11 @@ export default function TarjetaKlarPage() {
                 <BrownArrowIcon />
                 <span className="text-gray-700">
                   <strong className="text-gray-900">
-                    Acceso sin historial crediticio:
+                    Acceso sin{" "}
+                    <Link href="/finanzas-personales/que-es-el-score-crediticio-y-por-que-es-tan-importante">
+                      historial crediticio
+                    </Link>
+                    :
                   </strong>{" "}
                   Ideal para quienes buscan iniciar o mejorar su historial
                   crediticio.
@@ -159,7 +163,10 @@ export default function TarjetaKlarPage() {
                 <BrownArrowIcon />
                 <span className="text-gray-700">
                   <strong className="text-gray-900">
-                    Sin anualidad ni comisiones ocultas:
+                    <Link href="/finanzas-personales/3-tarjetas-de-credito-sin-anualidad-populares-en-mexico">
+                      Sin anualidad
+                    </Link>{" "}
+                    ni comisiones ocultas:
                   </strong>{" "}
                   Klar ofrece transparencia absoluta en sus costos, lo que
                   significa que no cobra comisiones por manejo, anualidad,

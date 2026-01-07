@@ -150,9 +150,12 @@ export default function RequisitosTarjetaPlatinumAmexPage() {
             </p>
 
             <p className="text-lg text-gray-700 mb-6 font-normal">
-              Otro factor fundamental es el historial crediticio. Para poder
-              obtener la Platinum, es necesario contar con un historial
-              crediticio excelente, lo cual implica haber manejado
+              Otro factor fundamental es el{" "}
+              <Link href="/soluciones-financieras/historial-crediticio">
+                historial crediticio
+              </Link>
+              . Para poder obtener la Platinum, es necesario contar con un
+              historial crediticio excelente, lo cual implica haber manejado
               responsablemente productos financieros como otras tarjetas de
               crédito o préstamos en el pasado. Un buen historial crediticio
               aumenta significativamente las posibilidades de ser aprobado.
@@ -245,10 +248,12 @@ export default function RequisitosTarjetaPlatinumAmexPage() {
                     Puntos Membership Rewards:
                   </strong>{" "}
                   Con cada compra realizada con la tarjeta Platinum, los
-                  usuarios acumulan puntos Membership Rewards, que pueden
-                  canjear por productos, viajes o experiencias exclusivas. Estos
-                  puntos no caducan, lo que significa que se pueden acumular a
-                  lo largo del tiempo para obtener recompensas más valiosas.
+                  usuarios acumulan{" "}
+                  <Link href="/soluciones-financieras/puntos">puntos</Link>{" "}
+                  Membership Rewards, que pueden canjear por productos, viajes o
+                  experiencias exclusivas. Estos puntos no caducan, lo que
+                  significa que se pueden acumular a lo largo del tiempo para
+                  obtener recompensas más valiosas.
                 </span>
               </li>
               <li className="flex items-start">

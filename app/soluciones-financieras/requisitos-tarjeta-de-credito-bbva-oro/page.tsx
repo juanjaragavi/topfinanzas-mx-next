@@ -332,7 +332,10 @@ export default function RequisitosTarjetaBBVAOroPage() {
                 <BlueArrowIcon />
                 <span className="text-gray-700">
                   <strong className="text-gray-900">
-                    Historial crediticio positivo:
+                    <Link href="/finanzas-personales/que-es-el-score-crediticio-y-por-que-es-tan-importante">
+                      Historial crediticio
+                    </Link>{" "}
+                    positivo:
                   </strong>{" "}
                   Para poder acceder a la tarjeta BBVA Oro, es importante contar
                   con un buen historial crediticio. BBVA revisará tu
@@ -401,7 +404,11 @@ export default function RequisitosTarjetaBBVAOroPage() {
                 <BlueArrowIcon />
                 <span className="text-gray-700">
                   <strong className="text-gray-900">
-                    Evaluación del historial crediticio:
+                    Evaluación del{" "}
+                    <Link href="/finanzas-personales/que-es-el-score-crediticio-y-por-que-es-tan-importante">
+                      historial crediticio
+                    </Link>
+                    :
                   </strong>{" "}
                   BBVA evaluará tu historial crediticio para verificar si
                   cumples con los requisitos de la tarjeta Oro. Este proceso

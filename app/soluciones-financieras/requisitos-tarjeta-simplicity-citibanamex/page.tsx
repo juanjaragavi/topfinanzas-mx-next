@@ -151,8 +151,17 @@ export default function RequisitosTarjetaSimplicityPage() {
               <li className="flex items-start">
                 <BlueArrowIcon />
                 <span className="text-gray-700">
-                  <strong className="text-gray-900">CAT promedio:</strong> 84.4%
-                  sin IVA.
+                  <strong className="text-gray-900">
+                    <Link
+                      href="/finanzas-personales/cat-en-tarjetas-de-credito"
+                      title="CAT"
+                      className="text-blue-600 hover:underline"
+                    >
+                      CAT
+                    </Link>{" "}
+                    promedio:
+                  </strong>{" "}
+                  84.4% sin IVA.
                 </span>
               </li>
               <li className="flex items-start">
@@ -252,9 +261,17 @@ export default function RequisitosTarjetaSimplicityPage() {
                   <strong className="text-gray-900">
                     Buen historial crediticio:
                   </strong>{" "}
-                  Banamex evaluará tu historial crediticio para asegurarse de
-                  que puedes manejar una línea de crédito. Tener un buen
-                  historial aumentará tus posibilidades de ser aprobado.
+                  Banamex evaluará tu{" "}
+                  <Link
+                    href="/soluciones-financieras/historial-crediticio"
+                    title="Historial crediticio"
+                    className="text-blue-600 hover:underline"
+                  >
+                    historial crediticio
+                  </Link>{" "}
+                  para asegurarse de que puedes manejar una línea de crédito.
+                  Tener un buen historial aumentará tus posibilidades de ser
+                  aprobado.
                 </span>
               </li>
               <li className="flex items-start">

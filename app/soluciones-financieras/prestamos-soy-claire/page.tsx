@@ -122,8 +122,11 @@ export default function PrestamosSoyClairePage() {
               personas a consolidar las deudas de sus tarjetas de crédito
               mediante una línea de crédito flexible y accesible. Si tienes
               saldo pendiente en tus tarjetas de crédito y estás buscando una
-              forma más eficiente de manejar tu deuda, Claire podría ser la
-              solución que necesitas.
+              forma más eficiente de manejar tu{" "}
+              <Link href="/finanzas-personales/la-forma-inteligente-de-salir-de-deudas-y-no-volver-a-caer">
+                deuda
+              </Link>
+              , Claire podría ser la solución que necesitas.
             </p>
 
             {/* Section: 6 claves */}
@@ -178,10 +181,13 @@ export default function PrestamosSoyClairePage() {
             </p>
             <p className="text-gray-700 mb-6 leading-relaxed">
               Además, puedes elegir plazos de 12, 18 o 24 meses para pagar el
-              préstamo, lo que te da la capacidad de ajustar los pagos a tu
-              presupuesto mensual. Esto es ideal si prefieres un esquema de
-              pagos manejable y quieres evitar las tasas de interés altas que
-              suelen tener las tarjetas de crédito.
+              préstamo, lo que te da la capacidad de ajustar los pagos a tu{" "}
+              <Link href="/finanzas-personales/guia-para-principiantes-como-crear-un-presupuesto-que-si-funciona">
+                presupuesto
+              </Link>{" "}
+              mensual. Esto es ideal si prefieres un esquema de pagos manejable
+              y quieres evitar las tasas de interés altas que suelen tener las
+              tarjetas de crédito.
             </p>
 
             {/* Point 4 */}
@@ -202,11 +208,15 @@ export default function PrestamosSoyClairePage() {
             </h3>
             <p className="text-gray-700 mb-6 leading-relaxed">
               Claire ofrece tasas de interés que van desde 24% hasta 36% anual
-              con un CAT promedio de hasta 52% cuando se incluye el IVA. Aunque
-              estas tasas pueden parecer competitivas a primera vista, es
-              importante tener en cuenta que los porcentajes no incluyen IVA en
-              la presentación inicial, lo que puede llevar a confusión si no
-              estás completamente informado.
+              con un{" "}
+              <Link href="/finanzas-personales/cat-en-tarjetas-de-credito">
+                CAT
+              </Link>{" "}
+              promedio de hasta 52% cuando se incluye el IVA. Aunque estas tasas
+              pueden parecer competitivas a primera vista, es importante tener
+              en cuenta que los porcentajes no incluyen IVA en la presentación
+              inicial, lo que puede llevar a confusión si no estás completamente
+              informado.
             </p>
 
             {/* Point 6 */}

@@ -300,17 +300,23 @@ export default function RequisitosTarjetaVexiCarnetPage() {
               <li className="flex items-start">
                 <PinkArrowIcon />
                 <span className="text-gray-700">
-                  <strong className="text-gray-900">Sin anualidad:</strong> No
-                  tendrás que pagar una cuota anual por tener la tarjeta, lo que
-                  la hace más económica a largo plazo.
+                  <strong className="text-gray-900">
+                    <Link href="/soluciones-financieras/tarjetas-de-credito-sin-anualidad">
+                      Sin anualidad
+                    </Link>
+                    :
+                  </strong>{" "}
+                  No tendrás que pagar una cuota anual por tener la tarjeta, lo
+                  que la hace más económica a largo plazo.
                 </span>
               </li>
               <li className="flex items-start">
                 <PinkArrowIcon />
                 <span className="text-gray-700">
                   <strong className="text-gray-900">VexiCashback:</strong>{" "}
-                  Dependiendo de tu nivel, puedes ganar hasta 5% de cashback en
-                  ciertas categorías como streaming y restaurantes.
+                  Dependiendo de tu nivel, puedes ganar hasta 5% de{" "}
+                  <Link href="/soluciones-financieras/cashback">cashback</Link>{" "}
+                  en ciertas categorías como streaming y restaurantes.
                 </span>
               </li>
               <li className="flex items-start">

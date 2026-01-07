@@ -136,9 +136,13 @@ export default function RequisitosPrestamosDooplaPage() {
                   <strong className="text-gray-900">
                     Buen Historial Crediticio:
                   </strong>{" "}
-                  Es fundamental tener un historial crediticio positivo. Doopla
-                  evalúa tu perfil financiero a través de Buró de Crédito para
-                  determinar la tasa de interés que se te asignará.
+                  Es fundamental tener un{" "}
+                  <Link href="/finanzas-personales/que-es-el-score-crediticio-y-por-que-es-tan-importante">
+                    historial crediticio
+                  </Link>{" "}
+                  positivo. Doopla evalúa tu perfil financiero a través de Buró
+                  de Crédito para determinar la tasa de interés que se te
+                  asignará.
                 </span>
               </li>
               <li className="flex items-start">
@@ -246,10 +250,13 @@ export default function RequisitosPrestamosDooplaPage() {
               Doopla ofrece préstamos que van desde $20,000 hasta $350,000 MXN,
               con plazos de pago que oscilan entre 12 y 36 meses. Esto hace que
               sea una opción atractiva para aquellos que necesitan financiar
-              proyectos personales, consolidar deudas, cubrir gastos médicos o
-              realizar cualquier tipo de inversión personal. La flexibilidad en
-              los plazos permite que los pagos se adapten a tu capacidad
-              financiera.
+              proyectos personales, consolidar{" "}
+              <Link href="/finanzas-personales/la-forma-inteligente-de-salir-de-deudas-y-no-volver-a-caer">
+                deudas
+              </Link>
+              , cubrir gastos médicos o realizar cualquier tipo de inversión
+              personal. La flexibilidad en los plazos permite que los pagos se
+              adapten a tu capacidad financiera.
             </p>
 
             <p className="text-gray-700 mb-6 font-normal">

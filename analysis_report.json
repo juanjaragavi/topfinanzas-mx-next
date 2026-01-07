@@ -1,0 +1,186 @@
+{
+  "app/soluciones-financieras/prestamos-lime/page.tsx": [
+    {
+      "keyword": "CAT",
+      "line": 216,
+      "context": "CAT promedio:"
+    },
+    {
+      "keyword": "deuda",
+      "line": 326,
+      "context": "necesita, generando una deuda difícil de manejar."
+    }
+  ],
+  "app/soluciones-financieras/prestamos-personales/page.tsx": [],
+  "app/soluciones-financieras/prestamos-personales-credilikeme/page.tsx": [
+    {
+      "keyword": "historial crediticio",
+      "line": 71,
+      "context": "Préstamos incluso con mal historial crediticio."
+    },
+    {
+      "keyword": "historial crediticio",
+      "line": 130,
+      "context": "un historial crediticio negativo o carecen de uno."
+    },
+    {
+      "keyword": "historial crediticio",
+      "line": 140,
+      "context": "a personas que, debido a un historial crediticio desfavorable,"
+    },
+    {
+      "keyword": "historial crediticio",
+      "line": 186,
+      "context": "empresa al prestar a personas con historial crediticio"
+    },
+    {
+      "keyword": "deuda",
+      "line": 224,
+      "context": "\"Credis\" pueden usarse para abonar a la deuda o para realizar"
+    },
+    {
+      "keyword": "historial crediticio",
+      "line": 249,
+      "context": "especialmente aquellas con un historial crediticio negativo o sin"
+    }
+  ],
+  "app/soluciones-financieras/prestamos-personales-rapidos-creditea/page.tsx": [
+    {
+      "keyword": "historial crediticio",
+      "line": 207,
+      "context": "Creditea revisa tu historial crediticio de manera rápida y, en"
+    }
+  ],
+  "app/soluciones-financieras/prestamos-prestadero/page.tsx": [
+    {
+      "keyword": "historial crediticio",
+      "line": 169,
+      "context": "historial crediticio, lo que garantiza que las condiciones del"
+    },
+    {
+      "keyword": "deuda",
+      "line": 224,
+      "context": "pagos o liquiden su deuda antes del plazo acordado sin ningún tipo"
+    },
+    {
+      "keyword": "deuda",
+      "line": 227,
+      "context": "tiempo de su deuda o el monto total de los intereses."
+    }
+  ],
+  "app/soluciones-financieras/prestamos-soy-claire/page.tsx": [
+    {
+      "keyword": "deuda",
+      "line": 125,
+      "context": "forma más eficiente de manejar tu deuda, Claire podría ser la"
+    },
+    {
+      "keyword": "presupuesto",
+      "line": 182,
+      "context": "presupuesto mensual. Esto es ideal si prefieres un esquema de"
+    },
+    {
+      "keyword": "CAT",
+      "line": 205,
+      "context": "con un CAT promedio de hasta 52% cuando se incluye el IVA. Aunque"
+    }
+  ],
+  "app/soluciones-financieras/prestamos-tala/page.tsx": [
+    {
+      "keyword": "historial crediticio",
+      "line": 148,
+      "context": "aval, historial crediticio ni comprobante de ingresos. Todo se"
+    }
+  ],
+  "app/soluciones-financieras/prestamos-vivus-mexico/page.tsx": [
+    {
+      "keyword": "CAT",
+      "line": 179,
+      "context": "monto total a devolver. No hay sorpresas ni cargos ocultos. El CAT"
+    }
+  ],
+  "app/soluciones-financieras/requisitos-de-la-tarjeta-vexi-american-express/page.tsx": [
+    {
+      "keyword": "historial crediticio",
+      "line": 72,
+      "context": "como aquellos que buscan mejorar su historial crediticio. A"
+    },
+    {
+      "keyword": "historial crediticio",
+      "line": 106,
+      "context": "su historial crediticio, a la vez que ofrece beneficios y"
+    },
+    {
+      "keyword": "historial crediticio",
+      "line": 108,
+      "context": "sencilla y sin necesidad de tener un historial crediticio"
+    },
+    {
+      "keyword": "historial crediticio",
+      "line": 186,
+      "context": "No es necesario contar con historial crediticio:"
+    },
+    {
+      "keyword": "historial crediticio",
+      "line": 189,
+      "context": "Vexi American Express no exige un historial crediticio previo,"
+    },
+    {
+      "keyword": "CAT",
+      "line": 221,
+      "context": "alt=\"CAT en tarjetas de crédito\""
+    },
+    {
+      "keyword": "sin anualidad",
+      "line": 299,
+      "context": "alt=\"Tarjetas sin anualidad\""
+    },
+    {
+      "keyword": "historial crediticio",
+      "line": 318,
+      "context": "personas con ingresos bajos o sin historial crediticio, sino que"
+    },
+    {
+      "keyword": "cashback",
+      "line": 351,
+      "context": "Cashback en compras:"
+    },
+    {
+      "keyword": "historial crediticio",
+      "line": 362,
+      "context": "Herramientas para mejorar tu historial crediticio:"
+    },
+    {
+      "keyword": "historial crediticio",
+      "line": 365,
+      "context": "construir un historial crediticio positivo. Si realizas tus"
+    },
+    {
+      "keyword": "sin anualidad",
+      "line": 375,
+      "context": "Sin anualidad el primer año:"
+    },
+    {
+      "keyword": "historial crediticio",
+      "line": 399,
+      "context": "sencillo y sin la necesidad de tener un historial crediticio"
+    },
+    {
+      "keyword": "historial crediticio",
+      "line": 407,
+      "context": "tu historial crediticio o mejorar tu situación financiera actual,"
+    }
+  ],
+  "app/soluciones-financieras/requisitos-gold-card-american-express-aeromexico/page.tsx": [
+    {
+      "keyword": "historial crediticio",
+      "line": 134,
+      "context": "Historial crediticio:"
+    },
+    {
+      "keyword": "historial crediticio",
+      "line": 136,
+      "context": "Contar con un buen historial crediticio. Esto significa que"
+    }
+  ]
+}

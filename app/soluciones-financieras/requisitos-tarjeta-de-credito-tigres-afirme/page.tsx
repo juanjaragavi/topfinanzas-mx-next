@@ -114,7 +114,10 @@ export default function RequisitosTarjetaTigresAfirmePage() {
                 <GreenArrowIcon />
                 <span className="text-gray-700">
                   <strong className="text-gray-900">
-                    Historial crediticio:
+                    <Link href="/soluciones-financieras/historial-crediticio">
+                      Historial crediticio
+                    </Link>
+                    :
                   </strong>{" "}
                   Mantener un buen historial crediticio, demostrando
                   responsabilidad en el manejo de finanzas previas.
@@ -228,9 +231,12 @@ export default function RequisitosTarjetaTigresAfirmePage() {
                   <strong className="text-gray-900">
                     Facilidades de pago:
                   </strong>{" "}
-                  Disfruta de meses sin intereses en establecimientos
-                  seleccionados y promociones que te ayudan a manejar mejor tus
-                  finanzas.
+                  Disfruta de{" "}
+                  <Link href="/soluciones-financieras/meses-sin-intereses">
+                    meses sin intereses
+                  </Link>{" "}
+                  en establecimientos seleccionados y promociones que te ayudan
+                  a manejar mejor tus finanzas.
                 </span>
               </li>
               <li className="flex items-start">

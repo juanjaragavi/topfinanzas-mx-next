@@ -187,7 +187,10 @@ export default function RequisitosPrestamosDidiPage() {
                     Historial crediticio:
                   </strong>{" "}
                   Aunque DiDi ofrece préstamos a usuarios con diferentes
-                  perfiles crediticios, contar con un historial crediticio
+                  perfiles crediticios, contar con un{" "}
+                  <Link href="/finanzas-personales/que-es-el-score-crediticio-y-por-que-es-tan-importante">
+                    historial crediticio
+                  </Link>{" "}
                   favorable puede mejorar las condiciones del préstamo, como una
                   tasa de interés más baja o mayores montos de crédito.
                 </span>

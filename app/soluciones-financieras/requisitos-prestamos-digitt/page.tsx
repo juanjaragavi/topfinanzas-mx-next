@@ -162,12 +162,16 @@ export default function RequisitosPrestamosDigittPage() {
               Buen historial crediticio
             </h2>
             <p className="text-lg text-gray-700 mb-6 font-normal">
-              Tener un historial crediticio positivo facilita la aprobación del
-              préstamo en Digitt. La plataforma revisa el historial del
-              solicitante para evaluar su comportamiento financiero previo y su
-              capacidad de pago. Un buen historial crediticio brinda mayores
-              probabilidades de obtener un préstamo y, en algunos casos, puede
-              mejorar las condiciones de la tasa de interés.
+              Tener un{" "}
+              <Link href="/finanzas-personales/que-es-el-score-crediticio-y-por-que-es-tan-importante">
+                historial crediticio
+              </Link>{" "}
+              positivo facilita la aprobación del préstamo en Digitt. La
+              plataforma revisa el historial del solicitante para evaluar su
+              comportamiento financiero previo y su capacidad de pago. Un buen
+              historial crediticio brinda mayores probabilidades de obtener un
+              préstamo y, en algunos casos, puede mejorar las condiciones de la
+              tasa de interés.
             </p>
             <p className="text-lg text-gray-700 mb-6 font-normal">
               Es importante mantener un historial limpio, ya que un puntaje bajo
@@ -369,7 +373,11 @@ export default function RequisitosPrestamosDigittPage() {
               buscan financiamiento rápido y flexible. Con un proceso digital,
               requisitos accesibles y tasas competitivas, Digitt ofrece una
               alternativa moderna para aquellos que necesitan cubrir gastos
-              imprevistos o consolidar deudas.
+              imprevistos o consolidar{" "}
+              <Link href="/finanzas-personales/la-forma-inteligente-de-salir-de-deudas-y-no-volver-a-caer">
+                deudas
+              </Link>
+              .
             </p>
             <p className="text-lg text-gray-700 mb-6 font-normal">
               Si cumples con los requisitos y buscas un préstamo conveniente,

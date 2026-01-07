@@ -136,8 +136,11 @@ export default function PrestamosDooplaPage() {
               más bajas que las que ofrecen los bancos tradicionales, que pueden
               superar el 60%. Las tasas en Doopla se asignan con base en la
               calificación de riesgo del solicitante, lo que significa que
-              aquellos con un mejor historial crediticio pueden acceder a tasas
-              más bajas.
+              aquellos con un mejor{" "}
+              <Link href="/finanzas-personales/que-es-el-score-crediticio-y-por-que-es-tan-importante">
+                historial crediticio
+              </Link>{" "}
+              pueden acceder a tasas más bajas.
             </p>
             <p className="text-gray-700 mb-4 leading-tight">
               El sistema de clasificación de riesgo utiliza un modelo de

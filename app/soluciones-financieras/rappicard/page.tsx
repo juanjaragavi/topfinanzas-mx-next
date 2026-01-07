@@ -67,7 +67,12 @@ export default function RappiCardPage() {
               <li className="flex items-start">
                 <BlackArrowIcon />
                 <span className="text-gray-700 text-lg">
-                  <strong className="text-gray-900">Sin anualidad:</strong>{" "}
+                  <strong className="text-gray-900">
+                    <Link href="/finanzas-personales/3-tarjetas-de-credito-sin-anualidad-populares-en-mexico">
+                      Sin anualidad
+                    </Link>
+                    :
+                  </strong>{" "}
                   Disfruta de una tarjeta completamente libre de cuotas anuales.
                 </span>
               </li>
@@ -77,7 +82,11 @@ export default function RappiCardPage() {
                   <strong className="text-gray-900">
                     Devolución en efectivo:
                   </strong>{" "}
-                  Gana cashback en cada compra que realices.
+                  Gana{" "}
+                  <Link href="/finanzas-personales/las-mejores-tarjetas-de-credito-con-cashback-en-mexico-guia-definitiva">
+                    cashback
+                  </Link>{" "}
+                  en cada compra que realices.
                 </span>
               </li>
               <li className="flex items-start">

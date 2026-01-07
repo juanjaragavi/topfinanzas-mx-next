@@ -132,7 +132,15 @@ export default function TarjetasSinAnualidadPage() {
                       RappiCard
                     </Link>{" "}
                     combina la ausencia de anualidad con un atractivo programa
-                    de cashback en todas tus compras.
+                    de{" "}
+                    <Link
+                      href="/soluciones-financieras/cashback"
+                      title="Cashback"
+                      className="text-blue-600 hover:underline"
+                    >
+                      cashback
+                    </Link>{" "}
+                    en todas tus compras.
                   </p>
                   <ul className="list-disc pl-6 mb-4 text-sm leading-6 font-light text-gray-800">
                     <li className="mb-2">
@@ -159,7 +167,15 @@ export default function TarjetasSinAnualidadPage() {
                   <ul className="list-disc pl-6 mb-4 text-sm leading-6 font-light text-gray-800">
                     <li className="mb-2">
                       <strong>Ventajas:</strong> Respaldo de un banco
-                      tradicional, acceso a promociones y meses sin intereses.
+                      tradicional, acceso a promociones y{" "}
+                      <Link
+                        href="/soluciones-financieras/meses-sin-intereses"
+                        title="Meses sin intereses"
+                        className="text-blue-600 hover:underline"
+                      >
+                        meses sin intereses
+                      </Link>
+                      .
                     </li>
                     <li className="mb-2">
                       <strong>Ideal para:</strong> Quienes buscan la seguridad
@@ -207,8 +223,15 @@ export default function TarjetasSinAnualidadPage() {
                   </li>
                   <li className="mb-2">
                     <strong>Accesibilidad:</strong> Suelen tener requisitos más
-                    flexibles, lo que las hace ideales para iniciar o reparar el
-                    historial crediticio.
+                    flexibles, lo que las hace ideales para iniciar o reparar el{" "}
+                    <Link
+                      href="/soluciones-financieras/historial-crediticio"
+                      title="Historial crediticio"
+                      className="text-blue-600 hover:underline"
+                    >
+                      historial crediticio
+                    </Link>
+                    .
                   </li>
                   <li className="mb-2">
                     <strong>Transparencia:</strong> Al tener menos comisiones,

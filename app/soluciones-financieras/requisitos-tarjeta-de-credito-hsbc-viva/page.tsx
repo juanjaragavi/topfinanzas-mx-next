@@ -134,7 +134,11 @@ export default function RequisitosTarjetaHSBCVivaPage() {
                 <RedArrowIcon />
                 <span className="text-gray-700">
                   <strong className="text-gray-900">
-                    Buen historial crediticio:
+                    Buen{" "}
+                    <Link href="/finanzas-personales/que-es-el-score-crediticio-y-por-que-es-tan-importante">
+                      historial crediticio
+                    </Link>
+                    :
                   </strong>{" "}
                   Tener un buen historial crediticio es uno de los aspectos más
                   importantes al momento de solicitar una tarjeta de crédito.
@@ -270,7 +274,10 @@ export default function RequisitosTarjetaHSBCVivaPage() {
                 <RedArrowIcon />
                 <span className="text-gray-700">
                   <strong className="text-gray-900">
-                    Cashback en compras:
+                    <Link href="/finanzas-personales/sacale-jugo-a-tu-tarjeta-de-credito-con-cashback">
+                      Cashback
+                    </Link>{" "}
+                    en compras:
                   </strong>{" "}
                   Uno de los principales beneficios de la HSBC Viva es su
                   programa de cashback, que te permite ganar un porcentaje de

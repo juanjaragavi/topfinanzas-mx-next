@@ -121,10 +121,18 @@ export default function RequisitosTarjetaSantanderAeromexicoPlatinumPage() {
                   <strong className="text-gray-900">
                     Buen historial crediticio:
                   </strong>{" "}
-                  Un buen historial crediticio es esencial para ser considerado
-                  para la aprobación. Santander verificará tu puntaje en buró de
-                  crédito para asegurarse de que eres un candidato confiable,
-                  sin deudas pendientes o incumplimientos en pagos anteriores.
+                  Un buen{" "}
+                  <Link
+                    href="/soluciones-financieras/historial-crediticio"
+                    title="Historial crediticio"
+                    className="text-blue-600 hover:underline"
+                  >
+                    historial crediticio
+                  </Link>{" "}
+                  es esencial para ser considerado para la aprobación. Santander
+                  verificará tu puntaje en buró de crédito para asegurarse de
+                  que eres un candidato confiable, sin deudas pendientes o
+                  incumplimientos en pagos anteriores.
                 </span>
               </li>
             </ul>

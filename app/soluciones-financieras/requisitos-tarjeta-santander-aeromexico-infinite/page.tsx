@@ -112,11 +112,18 @@ export default function RequisitosTarjetaSantanderAeromexicoInfinitePage() {
                   <strong className="text-gray-900">
                     Buen historial crediticio:
                   </strong>{" "}
-                  Es fundamental tener un buen historial crediticio para acceder
-                  a esta tarjeta. Santander revisará tu puntaje en el buró de
-                  crédito para asegurarse de que no tienes deudas pendientes o
-                  incumplimientos en tus pagos anteriores. Un historial
-                  crediticio limpio aumentará significativamente tus
+                  Es fundamental tener un buen{" "}
+                  <Link
+                    href="/soluciones-financieras/historial-crediticio"
+                    title="Historial crediticio"
+                    className="text-blue-600 hover:underline"
+                  >
+                    historial crediticio
+                  </Link>{" "}
+                  para acceder a esta tarjeta. Santander revisará tu puntaje en
+                  el buró de crédito para asegurarse de que no tienes deudas
+                  pendientes o incumplimientos en tus pagos anteriores. Un
+                  historial crediticio limpio aumentará significativamente tus
                   probabilidades de obtener la tarjeta.
                 </span>
               </li>

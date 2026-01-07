@@ -3,6 +3,7 @@ import { CompactFooter } from "@/components/layout/compact-footer";
 import { AIContentDisclaimer } from "@/components/ui/ai-content-disclaimer";
 import { ActionBanner } from "@/components/ui/action-banner";
 import Image from "next/image";
+import Link from "next/link";
 import { Metadata } from "next";
 
 export const metadata: Metadata = {
@@ -341,9 +342,12 @@ export default function RequisitosBaubapPage() {
             <p className="text-lg text-gray-700 mb-6 font-normal">
               Los préstamos de Baubap son una excelente opción para quienes
               buscan financiamiento sin complicaciones y con requisitos
-              accesibles. Desde la flexibilidad en el historial crediticio hasta
-              el proceso 100% digital, Baubap ofrece una alternativa confiable y
-              conveniente para acceder a recursos financieros.
+              accesibles. Desde la flexibilidad en el{" "}
+              <Link href="/finanzas-personales/que-es-el-score-crediticio-y-por-que-es-tan-importante">
+                historial crediticio
+              </Link>{" "}
+              hasta el proceso 100% digital, Baubap ofrece una alternativa
+              confiable y conveniente para acceder a recursos financieros.
             </p>
             <p className="text-lg text-gray-700 mb-6 font-normal">
               Si cumples con los requisitos y buscas una forma de financiamiento

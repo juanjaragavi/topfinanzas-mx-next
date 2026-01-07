@@ -185,9 +185,12 @@ export default function RequisitosPrestamosCrediteaPage() {
                   <strong className="text-gray-900">
                     Contar con un historial crediticio:
                   </strong>{" "}
-                  Aunque Creditea no requiere un historial crediticio impecable,
-                  sí se te evaluará en el Buró de Crédito para determinar tu
-                  capacidad de pago.
+                  Aunque Creditea no requiere un{" "}
+                  <Link href="/finanzas-personales/que-es-el-score-crediticio-y-por-que-es-tan-importante">
+                    historial crediticio
+                  </Link>{" "}
+                  impecable, sí se te evaluará en el Buró de Crédito para
+                  determinar tu capacidad de pago.
                 </span>
               </li>
               <li className="flex items-start">

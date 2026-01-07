@@ -196,10 +196,13 @@ export default function RequisitosTarjetaPlatinumBanregioPage() {
               Historial crediticio
             </h2>
             <p className="text-gray-700 mb-6 font-normal">
-              Contar con un buen historial crediticio es fundamental para
-              solicitar esta tarjeta. Banregio analizará tu comportamiento
-              financiero previo para determinar si cumples con los criterios de
-              confianza. Es importante que:
+              Contar con un buen{" "}
+              <Link href="/soluciones-financieras/historial-crediticio">
+                historial crediticio
+              </Link>{" "}
+              es fundamental para solicitar esta tarjeta. Banregio analizará tu
+              comportamiento financiero previo para determinar si cumples con
+              los criterios de confianza. Es importante que:
             </p>
 
             <ul className="space-y-3 mb-8">
@@ -297,8 +300,10 @@ export default function RequisitosTarjetaPlatinumBanregioPage() {
                   <strong className="text-gray-900">
                     Recompensas y programas exclusivos:
                   </strong>{" "}
-                  Obtén puntos por cada compra que realices y canjéalos por
-                  productos, viajes o servicios.
+                  Obtén{" "}
+                  <Link href="/soluciones-financieras/puntos">puntos</Link> por
+                  cada compra que realices y canjéalos por productos, viajes o
+                  servicios.
                 </span>
               </li>
               <li className="flex items-start">
@@ -323,7 +328,11 @@ export default function RequisitosTarjetaPlatinumBanregioPage() {
                 <BlueArrowIcon />
                 <span className="text-gray-700">
                   <strong className="text-gray-900">
-                    Promociones a meses sin intereses:
+                    Promociones a{" "}
+                    <Link href="/soluciones-financieras/meses-sin-intereses">
+                      meses sin intereses
+                    </Link>
+                    :
                   </strong>{" "}
                   Flexibilidad para realizar compras grandes sin afectar tu
                   flujo de efectivo.

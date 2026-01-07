@@ -68,7 +68,16 @@ export default function TarjetaHeyBancoPage() {
               <li className="flex items-start">
                 <DarkArrowIcon />
                 <span className="text-gray-700">
-                  <strong className="text-gray-900">Sin anualidad:</strong>{" "}
+                  <strong className="text-gray-900">
+                    <Link
+                      href="/soluciones-financieras/tarjetas-de-credito-sin-anualidad"
+                      title="Sin anualidad"
+                      className="text-blue-600 hover:underline"
+                    >
+                      Sin anualidad
+                    </Link>
+                    :
+                  </strong>{" "}
                   Mantén tu tarjeta activa sin preocuparte por cuotas anuales.
                 </span>
               </li>
@@ -85,7 +94,15 @@ export default function TarjetaHeyBancoPage() {
                 <DarkArrowIcon />
                 <span className="text-gray-700">
                   <strong className="text-gray-900">
-                    Recompensas y cashback:
+                    Recompensas y{" "}
+                    <Link
+                      href="/soluciones-financieras/cashback"
+                      title="Cashback"
+                      className="text-blue-600 hover:underline"
+                    >
+                      cashback
+                    </Link>
+                    :
                   </strong>{" "}
                   Obtén dinero de vuelta en tus compras diarias.
                 </span>
@@ -203,7 +220,15 @@ export default function TarjetaHeyBancoPage() {
             <p className="text-gray-700 mb-6 leading-tight">
               Además, Hey Banco permite configurar pagos automáticos a través de
               su aplicación, asegurando que nunca te olvides de pagar y así
-              mantener un buen historial crediticio.
+              mantener un buen{" "}
+              <Link
+                href="/soluciones-financieras/historial-crediticio"
+                title="Historial crediticio"
+                className="text-blue-600 hover:underline"
+              >
+                historial crediticio
+              </Link>
+              .
             </p>
 
             {/* Section: Control total desde la app */}

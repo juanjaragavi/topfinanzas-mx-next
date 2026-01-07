@@ -191,10 +191,13 @@ export default function KuboFinancieroPage() {
               permite a más personas tener acceso al financiamiento. A
               diferencia de las instituciones financieras tradicionales, Kubo
               Financiero toma en cuenta diferentes factores para evaluar la
-              solicitud, lo que facilita el acceso a quienes pueden tener un
-              historial crediticio moderado o limitado. Esto hace que Kubo
-              Financiero sea una opción ideal para aquellos que buscan una
-              alternativa de financiamiento flexible y justa.
+              solicitud, lo que facilita el acceso a quienes pueden tener un{" "}
+              <Link href="/finanzas-personales/que-es-el-score-crediticio-y-por-que-es-tan-importante">
+                historial crediticio
+              </Link>{" "}
+              moderado o limitado. Esto hace que Kubo Financiero sea una opción
+              ideal para aquellos que buscan una alternativa de financiamiento
+              flexible y justa.
             </p>
 
             {/* Section: Ventajas adicionales de Kubo Financiero */}

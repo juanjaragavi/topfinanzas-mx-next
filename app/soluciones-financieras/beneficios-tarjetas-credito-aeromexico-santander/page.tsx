@@ -272,7 +272,11 @@ export default function BeneficiosAeromexicoSantanderPage() {
               <li className="flex items-start">
                 <RedArrowIcon />
                 <span className="text-gray-700">
-                  Buen historial crediticio.
+                  Buen{" "}
+                  <Link href="/finanzas-personales/que-es-el-score-crediticio-y-por-que-es-tan-importante">
+                    historial crediticio
+                  </Link>
+                  .
                 </span>
               </li>
             </ul>

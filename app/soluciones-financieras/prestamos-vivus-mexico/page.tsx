@@ -176,7 +176,10 @@ export default function PrestamosVivusPage() {
             <p className="text-gray-700 mb-6 leading-relaxed">
               Desde el inicio, Vivus te muestra claramente cuánto deberás pagar
               por tu préstamo. Esto incluye los intereses, las comisiones y el
-              monto total a devolver. No hay sorpresas ni cargos ocultos. El CAT
+              monto total a devolver. No hay sorpresas ni cargos ocultos. El{" "}
+              <Link href="/finanzas-personales/cat-en-tarjetas-de-credito">
+                CAT
+              </Link>{" "}
               promedio para estos préstamos es de 40,984.2%, lo que puede
               parecer elevado, pero Vivus se asegura de que cada solicitante
               esté completamente informado de los costos desde el principio,

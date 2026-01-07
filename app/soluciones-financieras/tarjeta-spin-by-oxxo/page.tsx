@@ -95,8 +95,15 @@ export default function TarjetaSpinOxxoPage() {
                   <strong className="text-gray-900">
                     Programa Spin Premia:
                   </strong>{" "}
-                  Acumula puntos por tus compras para canjear en la red OXXO y
-                  gasolineras asociadas.
+                  <Link
+                    href="/soluciones-financieras/puntos"
+                    title="Puntos"
+                    className="text-orange-400 hover:underline"
+                  >
+                    Acumula puntos
+                  </Link>{" "}
+                  por tus compras para canjear en la red OXXO y gasolineras
+                  asociadas.
                 </span>
               </li>
               <li className="flex items-start">
@@ -176,8 +183,16 @@ export default function TarjetaSpinOxxoPage() {
                   <strong className="text-gray-900">
                     Recompensas Spin Premia:
                   </strong>{" "}
-                  Al usar la tarjeta, acumulas puntos canjeables por productos o
-                  combustible, incentivando el uso frecuente.
+                  Al usar la tarjeta,{" "}
+                  <Link
+                    href="/soluciones-financieras/puntos"
+                    title="Puntos"
+                    className="text-orange-400 hover:underline"
+                  >
+                    acumulas puntos
+                  </Link>{" "}
+                  canjeables por productos o combustible, incentivando el uso
+                  frecuente.
                 </span>
               </li>
             </ul>

@@ -142,7 +142,10 @@ export default function RequisitosTarjetaCrecyPage() {
                 <PurpleArrowIcon />
                 <span className="text-gray-700">
                   <strong className="text-gray-900">
-                    Historial crediticio:
+                    <Link href="/finanzas-personales/que-es-el-score-crediticio-y-por-que-es-tan-importante">
+                      Historial crediticio
+                    </Link>
+                    :
                   </strong>{" "}
                   Aunque no es necesario tener un historial crediticio amplio,
                   Crecy toma en cuenta tu comportamiento financiero anterior
@@ -317,7 +320,12 @@ export default function RequisitosTarjetaCrecyPage() {
               <li className="flex items-start">
                 <PurpleArrowIcon />
                 <span className="text-gray-700">
-                  <strong className="text-gray-900">Sin anualidad:</strong>{" "}
+                  <strong className="text-gray-900">
+                    <Link href="/soluciones-financieras/tarjetas-de-credito-sin-anualidad">
+                      Sin anualidad
+                    </Link>
+                    :
+                  </strong>{" "}
                   Crecy ofrece la posibilidad de disfrutar de una tarjeta de
                   crédito sin preocuparte por el pago de una anualidad, lo que
                   te permite ahorrar dinero en cargos adicionales.
@@ -377,13 +385,17 @@ export default function RequisitosTarjetaCrecyPage() {
             </h2>
             <p className="text-lg text-gray-700 mb-6 font-normal">
               Si no cumples con todos los requisitos, como el ingreso mínimo o
-              tener un historial crediticio sólido, es posible que tu solicitud
-              sea rechazada. Sin embargo, Crecy entiende que no todos los
-              usuarios tienen las mismas circunstancias financieras, por lo que
-              también ofrece productos alternativos que podrían adaptarse mejor
-              a tu perfil. En este caso, te recomendamos revisar las otras
-              opciones que la empresa tiene disponibles, ya que podrían ser una
-              solución más adecuada para ti.
+              tener un{" "}
+              <Link href="/finanzas-personales/que-es-el-score-crediticio-y-por-que-es-tan-importante">
+                historial crediticio
+              </Link>{" "}
+              sólido, es posible que tu solicitud sea rechazada. Sin embargo,
+              Crecy entiende que no todos los usuarios tienen las mismas
+              circunstancias financieras, por lo que también ofrece productos
+              alternativos que podrían adaptarse mejor a tu perfil. En este
+              caso, te recomendamos revisar las otras opciones que la empresa
+              tiene disponibles, ya que podrían ser una solución más adecuada
+              para ti.
             </p>
             <p className="text-lg text-gray-700 mb-6 font-normal">
               En cuanto al tiempo de entrega, una vez que tu solicitud ha sido

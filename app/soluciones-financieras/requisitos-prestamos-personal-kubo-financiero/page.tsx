@@ -3,6 +3,7 @@ import { CompactFooter } from "@/components/layout/compact-footer";
 import { AIContentDisclaimer } from "@/components/ui/ai-content-disclaimer";
 import { ActionBanner } from "@/components/ui/action-banner";
 import Image from "next/image";
+import Link from "next/link";
 import { Metadata } from "next";
 
 export const metadata: Metadata = {
@@ -147,12 +148,15 @@ export default function RequisitosKuboPage() {
               Buen historial crediticio
             </h2>
             <p className="text-lg text-gray-700 mb-6 font-normal">
-              Kubo Financiero requiere que los solicitantes cuenten con un
-              historial crediticio positivo. Esto significa que, al momento de
-              evaluar la solicitud, la plataforma revisará el puntaje de crédito
-              para verificar que el solicitante tenga un buen comportamiento
-              financiero. Un historial limpio ayuda a acceder a mejores
-              condiciones en los términos del préstamo.
+              Kubo Financiero requiere que los solicitantes cuenten con un{" "}
+              <Link href="/finanzas-personales/que-es-el-score-crediticio-y-por-que-es-tan-importante">
+                historial crediticio
+              </Link>{" "}
+              positivo. Esto significa que, al momento de evaluar la solicitud,
+              la plataforma revisará el puntaje de crédito para verificar que el
+              solicitante tenga un buen comportamiento financiero. Un historial
+              limpio ayuda a acceder a mejores condiciones en los términos del
+              préstamo.
             </p>
             <p className="text-lg text-gray-700 mb-6 font-normal">
               Un historial crediticio positivo es esencial, ya que los

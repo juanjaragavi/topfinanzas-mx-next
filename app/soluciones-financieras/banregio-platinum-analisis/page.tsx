@@ -83,7 +83,10 @@ export default function BanregioPlatinumAnalisisPage() {
               <li className="flex items-start">
                 <OrangeCheckIcon />
                 <span className="text-gray-700">
-                  <strong className="text-gray-900">Bajos costos:</strong> CAT
+                  <strong className="text-gray-900">Bajos costos:</strong>{" "}
+                  <Link href="/finanzas-personales/cat-en-tarjetas-de-credito">
+                    CAT
+                  </Link>{" "}
                   del 38.6% sin IVA y sin comisión anual.
                 </span>
               </li>

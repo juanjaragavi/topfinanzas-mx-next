@@ -111,9 +111,10 @@ export default function RequisitosTarjetaHsbc2NowPage() {
               Uno de los aspectos más atractivos de la tarjeta es que no cobra
               cuota anual durante el primer año, lo que te permite usarla sin
               preocuparte por costos adicionales. Además, el programa de
-              recompensas te permite acumular puntos por cada compra que
-              realices, mismos que puedes canjear por una amplia gama de
-              productos, servicios o experiencias.
+              recompensas te permite acumular{" "}
+              <Link href="/soluciones-financieras/puntos">puntos</Link> por cada
+              compra que realices, mismos que puedes canjear por una amplia gama
+              de productos, servicios o experiencias.
             </p>
 
             {/* Ad Unit: square04 (After ~3rd paragraph section) */}
@@ -180,12 +181,15 @@ export default function RequisitosTarjetaHsbc2NowPage() {
             <p className="text-gray-700 mb-4 font-normal">
               Otro de los grandes beneficios de la tarjeta HSBC 2Now es el
               acceso a promociones exclusivas en una amplia red de comercios,
-              que incluye descuentos y meses sin intereses. Esta ventaja es
-              particularmente útil si planeas realizar compras grandes y deseas
-              distribuir tus pagos sin generar intereses adicionales. La
-              posibilidad de acceder a promociones exclusivas en tiendas
-              afiliadas también te permite obtener ahorros considerables en
-              productos seleccionados.
+              que incluye descuentos y{" "}
+              <Link href="/soluciones-financieras/meses-sin-intereses">
+                meses sin intereses
+              </Link>
+              . Esta ventaja es particularmente útil si planeas realizar compras
+              grandes y deseas distribuir tus pagos sin generar intereses
+              adicionales. La posibilidad de acceder a promociones exclusivas en
+              tiendas afiliadas también te permite obtener ahorros considerables
+              en productos seleccionados.
             </p>
 
             {/* 4. Control total */}
@@ -262,10 +266,13 @@ export default function RequisitosTarjetaHsbc2NowPage() {
                   <strong className="text-gray-900">
                     Buen historial crediticio:
                   </strong>{" "}
-                  Para ser aprobado para la tarjeta, es necesario tener un buen
-                  historial crediticio. HSBC revisará tu comportamiento
-                  crediticio previo a través de burós de crédito para asegurarse
-                  de que puedes manejar el crédito de manera adecuada.
+                  Para ser aprobado para la tarjeta, es necesario tener un buen{" "}
+                  <Link href="/soluciones-financieras/historial-crediticio">
+                    historial crediticio
+                  </Link>
+                  . HSBC revisará tu comportamiento crediticio previo a través
+                  de burós de crédito para asegurarse de que puedes manejar el
+                  crédito de manera adecuada.
                 </span>
               </li>
               <li className="flex items-start">

@@ -69,7 +69,14 @@ export default function TarjetaKluPage() {
                 <SlateArrowIcon />
                 <span className="text-gray-700">
                   <strong className="text-gray-900">
-                    Sin comisión por anualidad:
+                    <Link
+                      href="/soluciones-financieras/tarjetas-de-credito-sin-anualidad"
+                      title="Sin anualidad"
+                      className="text-blue-600 hover:underline"
+                    >
+                      Sin comisión por anualidad
+                    </Link>
+                    :
                   </strong>{" "}
                   La tarjeta Klu no cobra anualidad, lo que la hace económica.
                 </span>

@@ -157,10 +157,13 @@ export default function RequisitosPrestamosKueskiPage() {
             </h3>
             <p className="text-gray-700 mb-4 font-normal">
               Si nunca has tenido un crédito o tarjeta de crédito, es probable
-              que no tengas un historial crediticio. Kueski permite que accedas
-              a un préstamo sin necesidad de tener un historial previo, lo que
-              es ideal para jóvenes que están comenzando a construir su perfil
-              financiero.
+              que no tengas un{" "}
+              <Link href="/finanzas-personales/que-es-el-score-crediticio-y-por-que-es-tan-importante">
+                historial crediticio
+              </Link>
+              . Kueski permite que accedas a un préstamo sin necesidad de tener
+              un historial previo, lo que es ideal para jóvenes que están
+              comenzando a construir su perfil financiero.
             </p>
             <p className="text-gray-700 mb-6 font-normal">
               Conoce más:{" "}

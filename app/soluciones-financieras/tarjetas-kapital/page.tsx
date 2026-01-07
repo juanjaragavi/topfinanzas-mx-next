@@ -70,7 +70,11 @@ export default function TarjetasKapitalPage() {
                 <LimeArrowIcon />
                 <span className="text-gray-700">
                   <strong className="text-gray-900">
-                    Acceso sin historial crediticio:
+                    Acceso sin{" "}
+                    <Link href="/finanzas-personales/que-es-el-score-crediticio-y-por-que-es-tan-importante">
+                      historial crediticio
+                    </Link>
+                    :
                   </strong>{" "}
                   Ideal para quienes comienzan su vida financiera.
                 </span>
@@ -79,7 +83,10 @@ export default function TarjetasKapitalPage() {
                 <LimeArrowIcon />
                 <span className="text-gray-700">
                   <strong className="text-gray-900">
-                    Cashback en compras diarias:
+                    <Link href="/finanzas-personales/las-mejores-tarjetas-de-credito-con-cashback-en-mexico-guia-definitiva">
+                      Cashback
+                    </Link>{" "}
+                    en compras diarias:
                   </strong>{" "}
                   Recupera un porcentaje de tus gastos en efectivo.
                 </span>
@@ -139,13 +146,20 @@ export default function TarjetasKapitalPage() {
             </h2>
             <p className="text-gray-700 mb-6 leading-tight">
               Uno de los principales beneficios de las tarjetas de crédito
-              Kapital es que no requieren un historial crediticio previo para
-              ser aprobadas. Esto las convierte en una opción ideal para quienes
-              están iniciando su vida financiera o buscan reconstruir su
-              crédito. A diferencia de otras tarjetas que requieren un historial
-              sólido, Kapital abre las puertas a una amplia gama de usuarios,
-              ofreciendo una herramienta accesible para empezar a gestionar sus
-              finanzas de manera responsable.
+              Kapital es que no requieren un{" "}
+              <Link
+                href="/soluciones-financieras/historial-crediticio"
+                title="Historial crediticio"
+                className="text-blue-600 hover:underline"
+              >
+                historial crediticio
+              </Link>{" "}
+              previo para ser aprobadas. Esto las convierte en una opción ideal
+              para quienes están iniciando su vida financiera o buscan
+              reconstruir su crédito. A diferencia de otras tarjetas que
+              requieren un historial sólido, Kapital abre las puertas a una
+              amplia gama de usuarios, ofreciendo una herramienta accesible para
+              empezar a gestionar sus finanzas de manera responsable.
             </p>
 
             {/* Section: Cashback en compras */}
@@ -154,12 +168,20 @@ export default function TarjetasKapitalPage() {
             </h2>
             <p className="text-gray-700 mb-4 leading-tight">
               Una característica atractiva de las tarjetas Kapital es su
-              programa de cashback, que te permite ganar dinero por cada compra
-              que realices. Dependiendo de la tarjeta que elijas, puedes obtener
-              hasta un 1.5% de devolución en tus compras, lo que se traduce en
-              ahorro directo en tu cuenta. Este beneficio es especialmente útil
-              para quienes realizan compras frecuentes y desean aprovechar al
-              máximo cada gasto
+              programa de{" "}
+              <Link
+                href="/soluciones-financieras/cashback"
+                title="Cashback"
+                className="text-blue-600 hover:underline"
+              >
+                cashback
+              </Link>
+              , que te permite ganar dinero por cada compra que realices.
+              Dependiendo de la tarjeta que elijas, puedes obtener hasta un 1.5%
+              de devolución en tus compras, lo que se traduce en ahorro directo
+              en tu cuenta. Este beneficio es especialmente útil para quienes
+              realizan compras frecuentes y desean aprovechar al máximo cada
+              gasto
             </p>
             <p className="text-gray-700 mb-6 leading-tight">
               El cashback se aplica en una amplia gama de categorías, como
@@ -182,11 +204,19 @@ export default function TarjetasKapitalPage() {
               asegurando que no te enfrentarás a cargos inesperados.
             </p>
             <p className="text-gray-700 mb-6 leading-tight">
-              Además, las tarjetas Kapital no cobran anualidad, lo que
-              representa un ahorro significativo, especialmente si buscas una
-              tarjeta que puedas usar sin preocuparte por costos recurrentes. La
-              política de no tener comisiones ocultas es un punto a favor que
-              atrae a muchos usuarios que prefieren claridad y simplicidad.
+              Además, las tarjetas Kapital{" "}
+              <Link
+                href="/soluciones-financieras/tarjetas-de-credito-sin-anualidad"
+                title="Tarjetas sin anualidad"
+                className="text-blue-600 hover:underline"
+              >
+                no cobran anualidad
+              </Link>
+              , lo que representa un ahorro significativo, especialmente si
+              buscas una tarjeta que puedas usar sin preocuparte por costos
+              recurrentes. La política de no tener comisiones ocultas es un
+              punto a favor que atrae a muchos usuarios que prefieren claridad y
+              simplicidad.
             </p>
 
             {/* Section: Proceso de solicitud 100% en línea */}

@@ -69,7 +69,16 @@ export default function TarjetaHSBCZeroPage() {
               <li className="flex items-start">
                 <RedArrowIcon />
                 <span className="text-gray-700">
-                  <strong className="text-gray-900">Sin anualidad:</strong>{" "}
+                  <strong className="text-gray-900">
+                    <Link
+                      href="/soluciones-financieras/tarjetas-de-credito-sin-anualidad"
+                      title="Sin anualidad"
+                      className="text-red-600 hover:underline"
+                    >
+                      Sin anualidad
+                    </Link>
+                    :
+                  </strong>{" "}
                   Elimina preocupaciones sobre costos fijos.
                 </span>
               </li>
@@ -77,7 +86,15 @@ export default function TarjetaHSBCZeroPage() {
                 <RedArrowIcon />
                 <span className="text-gray-700">
                   <strong className="text-gray-900">Programa Más HSBC:</strong>{" "}
-                  Acumula puntos por cada dólar gastado.
+                  Acumula{" "}
+                  <Link
+                    href="/soluciones-financieras/puntos"
+                    title="Puntos"
+                    className="text-red-600 hover:underline"
+                  >
+                    puntos
+                  </Link>{" "}
+                  por cada dólar gastado.
                 </span>
               </li>
               <li className="flex items-start">
@@ -202,8 +219,15 @@ export default function TarjetaHSBCZeroPage() {
                       Gran Venta HSBC y eventos especiales:
                     </strong>{" "}
                     Participa en la Gran Venta HSBC para adquirir boletos antes
-                    que nadie y disfruta de hasta 10 Meses Sin Intereses en
-                    comercios participantes.
+                    que nadie y disfruta de hasta 10{" "}
+                    <Link
+                      href="/soluciones-financieras/meses-sin-intereses"
+                      title="Meses sin intereses"
+                      className="text-red-600 hover:underline"
+                    >
+                      Meses Sin Intereses
+                    </Link>{" "}
+                    en comercios participantes.
                   </span>
                 </li>
                 <li className="flex items-start">

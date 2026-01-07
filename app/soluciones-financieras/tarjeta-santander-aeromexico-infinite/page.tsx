@@ -70,7 +70,15 @@ export default function TarjetaSantanderAeromexicoInfinitePage() {
                 <RedArrowIcon />
                 <span className="text-gray-700">
                   <strong className="text-gray-900">
-                    Acumulación acelerada de Puntos Premier:
+                    Acumulación acelerada de{" "}
+                    <Link
+                      href="/soluciones-financieras/puntos"
+                      title="Puntos"
+                      className="text-[#D92D21] hover:underline"
+                    >
+                      Puntos Premier
+                    </Link>
+                    :
                   </strong>{" "}
                   Gana más puntos con cada compra y canjéalos por vuelos y
                   mejoras de clase.
@@ -133,7 +141,14 @@ export default function TarjetaSantanderAeromexicoInfinitePage() {
 
             {/* Section: Acumulación acelerada de Puntos Premier */}
             <h2 className="text-2xl md:text-3xl font-bold text-gray-700 mt-10 mb-4 leading-tight">
-              Acumulación acelerada de Puntos Premier
+              Acumulación acelerada de{" "}
+              <Link
+                href="/soluciones-financieras/puntos"
+                title="Puntos"
+                className="text-gray-700 hover:text-[#D92D21]"
+              >
+                Puntos Premier
+              </Link>
             </h2>
             <p className="text-gray-700 mb-4 leading-tight">
               Uno de los beneficios más atractivos de la tarjeta Santander
@@ -260,9 +275,17 @@ export default function TarjetaSantanderAeromexicoInfinitePage() {
               temporadas.
             </p>
             <p className="text-gray-700 mb-6 leading-tight">
-              Además, puedes acceder a meses sin intereses al hacer compras
-              grandes o pagar servicios de viaje, lo que te permite planificar
-              mejor tus gastos y disfrutar de mayor flexibilidad financiera.
+              Además, puedes acceder a{" "}
+              <Link
+                href="/soluciones-financieras/meses-sin-intereses"
+                title="Meses sin intereses"
+                className="text-[#D92D21] hover:underline"
+              >
+                meses sin intereses
+              </Link>{" "}
+              al hacer compras grandes o pagar servicios de viaje, lo que te
+              permite planificar mejor tus gastos y disfrutar de mayor
+              flexibilidad financiera.
             </p>
 
             {/* Section: Servicios VIP y atención preferencial */}

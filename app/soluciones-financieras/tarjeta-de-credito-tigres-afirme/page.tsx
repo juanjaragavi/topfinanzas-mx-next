@@ -69,8 +69,15 @@ export default function TarjetaDeCreditoTigresAfirmePage() {
                   <strong className="text-gray-900">
                     Beneficios exclusivos:
                   </strong>{" "}
-                  Acumula Puntos Bonus, disfruta de meses sin intereses y accede
-                  a descuentos relacionados con el Club Tigres.
+                  Acumula Puntos Bonus, disfruta de{" "}
+                  <Link
+                    href="/soluciones-financieras/meses-sin-intereses"
+                    title="Meses sin intereses"
+                    className="text-green-600 hover:underline"
+                  >
+                    meses sin intereses
+                  </Link>{" "}
+                  y accede a descuentos relacionados con el Club Tigres.
                 </span>
               </li>
               <li className="flex items-start">
@@ -168,7 +175,14 @@ export default function TarjetaDeCreditoTigresAfirmePage() {
                 <GreenCheckIcon />
                 <span className="text-gray-700">
                   <strong className="text-gray-900">
-                    Puntos Bonus por compras:
+                    <Link
+                      href="/soluciones-financieras/puntos"
+                      title="Puntos"
+                      className="text-green-600 hover:underline"
+                    >
+                      Puntos Bonus por compras
+                    </Link>
+                    :
                   </strong>{" "}
                   Cada compra realizada con la tarjeta acumula Puntos Bonus, que
                   pueden canjearse por una amplia gama de productos y servicios,
@@ -180,7 +194,14 @@ export default function TarjetaDeCreditoTigresAfirmePage() {
                 <GreenCheckIcon />
                 <span className="text-gray-700">
                   <strong className="text-gray-900">
-                    Meses sin intereses:
+                    <Link
+                      href="/soluciones-financieras/meses-sin-intereses"
+                      title="Meses sin intereses"
+                      className="text-green-600 hover:underline"
+                    >
+                      Meses sin intereses
+                    </Link>
+                    :
                   </strong>{" "}
                   Ofrece la posibilidad de diferir compras a meses sin intereses
                   en establecimientos participantes, facilitando la adquisición
@@ -219,7 +240,14 @@ export default function TarjetaDeCreditoTigresAfirmePage() {
                 <GreenCheckIcon />
                 <span className="text-gray-700">
                   <strong className="text-gray-900">
-                    Historial crediticio:
+                    <Link
+                      href="/soluciones-financieras/historial-crediticio"
+                      title="Historial crediticio"
+                      className="text-green-600 hover:underline"
+                    >
+                      Historial crediticio
+                    </Link>
+                    :
                   </strong>{" "}
                   Contar con un buen historial crediticio, demostrando
                   responsabilidad en el manejo de finanzas previas.

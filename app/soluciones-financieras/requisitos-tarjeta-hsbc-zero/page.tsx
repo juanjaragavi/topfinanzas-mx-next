@@ -112,7 +112,10 @@ export default function RequisitosHSBCZeroPage() {
                 <RedArrowIcon />
                 <span className="text-gray-700 text-lg">
                   <strong className="text-gray-900">
-                    Historial crediticio:
+                    <Link href="/soluciones-financieras/historial-crediticio">
+                      Historial crediticio
+                    </Link>
+                    :
                   </strong>{" "}
                   Es necesario tener un buen historial crediticio en el Buró de
                   Crédito. Además, es recomendable contar con al menos 6 meses
@@ -239,8 +242,11 @@ export default function RequisitosHSBCZeroPage() {
               aplicar.{" "}
               <strong className="text-gray-900">
                 La Tarjeta HSBC Zero tiene una tasa de interés fija anual
-                promedio ponderada por saldo de 41.42%, con un CAT promedio de
-                94.3% sin IVA.
+                promedio ponderada por saldo de 41.42%, con un{" "}
+                <Link href="/finanzas-personales/cat-en-tarjetas-de-credito">
+                  CAT
+                </Link>{" "}
+                promedio de 94.3% sin IVA.
               </strong>{" "}
               Recuerda que, para mantener tu tarjeta sin comisiones, debes
               realizar al menos una transacción mensual de $1 M.N. o más.

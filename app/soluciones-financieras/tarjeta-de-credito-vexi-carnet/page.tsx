@@ -59,9 +59,12 @@ export default function TarjetaVexiCarnetPage() {
             {/* Introduction Summary */}
             <p className="text-lg text-gray-700 mb-6">
               La tarjeta de crédito Vexi Carnet es una opción ideal para quienes
-              buscan construir o mejorar su historial crediticio, con beneficios
-              atractivos que hacen más fácil administrar tus finanzas
-              personales.
+              buscan construir o mejorar su{" "}
+              <Link href="/finanzas-personales/que-es-el-score-crediticio-y-por-que-es-tan-importante">
+                historial crediticio
+              </Link>
+              , con beneficios atractivos que hacen más fácil administrar tus
+              finanzas personales.
             </p>
 
             {/* Quick Benefits Summary */}
@@ -70,7 +73,14 @@ export default function TarjetaVexiCarnetPage() {
                 <PinkArrowIcon />
                 <span className="text-gray-700">
                   <strong className="text-gray-900">
-                    Sin anualidad de por vida:
+                    <Link
+                      href="/soluciones-financieras/tarjetas-de-credito-sin-anualidad"
+                      title="Sin anualidad"
+                      className="text-[#D9247E] hover:underline"
+                    >
+                      Sin anualidad
+                    </Link>{" "}
+                    de por vida:
                   </strong>{" "}
                   La tarjeta Vexi Carnet no te cobra por mantenerla activa.
                 </span>
@@ -78,7 +88,13 @@ export default function TarjetaVexiCarnetPage() {
               <li className="flex items-start">
                 <PinkArrowIcon />
                 <span className="text-gray-700">
-                  <strong className="text-gray-900">Acceso a cashback:</strong>{" "}
+                  <strong className="text-gray-900">
+                    Acceso a{" "}
+                    <Link href="/finanzas-personales/las-mejores-tarjetas-de-credito-con-cashback-en-mexico-guia-definitiva">
+                      cashback
+                    </Link>
+                    :
+                  </strong>{" "}
                   Gana hasta un 5% de cashback en tus compras.
                 </span>
               </li>
@@ -147,7 +163,14 @@ export default function TarjetaVexiCarnetPage() {
 
             {/* Section: Cashback en compras */}
             <h2 className="text-2xl md:text-3xl font-bold text-gray-700 mt-10 mb-4 leading-tight">
-              Cashback en compras
+              <Link
+                href="/soluciones-financieras/cashback"
+                title="Cashback"
+                className="text-gray-700 hover:text-[#D9247E]"
+              >
+                Cashback
+              </Link>{" "}
+              en compras
             </h2>
             <p className="text-gray-700 mb-4 leading-tight">
               La Vexi Carnet ofrece la posibilidad de ganar hasta un 5% de
@@ -232,7 +255,14 @@ export default function TarjetaVexiCarnetPage() {
 
             {/* Section: Solicitud fácil y sin historial crediticio */}
             <h2 className="text-2xl md:text-3xl font-bold text-gray-700 mt-10 mb-4 leading-tight">
-              Solicitud fácil y sin historial crediticio
+              Solicitud fácil y sin{" "}
+              <Link
+                href="/soluciones-financieras/historial-crediticio"
+                title="Historial crediticio"
+                className="text-gray-700 hover:text-[#D9247E]"
+              >
+                historial crediticio
+              </Link>
             </h2>
             <p className="text-gray-700 mb-4 leading-tight">
               A diferencia de muchas otras tarjetas de crédito, la Vexi Carnet

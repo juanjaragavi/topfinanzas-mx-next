@@ -83,15 +83,33 @@ export default function TarjetaLikeUSantanderPage() {
               <li className="flex items-start">
                 <RedArrowIcon />
                 <span className="text-gray-700">
-                  <strong className="text-gray-900">Cashback:</strong> Acumula
-                  puntos y cámbialos por productos y experiencias.
+                  <strong className="text-gray-900">
+                    <Link
+                      href="/soluciones-financieras/cashback"
+                      title="Cashback"
+                      className="text-blue-600 hover:underline"
+                    >
+                      Cashback
+                    </Link>
+                    :
+                  </strong>{" "}
+                  Acumula puntos y cámbialos por productos y experiencias.
                 </span>
               </li>
               <li className="flex items-start">
                 <RedArrowIcon />
                 <span className="text-gray-700">
-                  <strong className="text-gray-900">Sin anualidad:</strong> solo
-                  debes gastar $200.00 M.N. mensuales con tu tarjeta
+                  <strong className="text-gray-900">
+                    <Link
+                      href="/soluciones-financieras/tarjetas-de-credito-sin-anualidad"
+                      title="Sin anualidad"
+                      className="text-blue-600 hover:underline"
+                    >
+                      Sin anualidad
+                    </Link>
+                    :
+                  </strong>{" "}
+                  solo debes gastar $200.00 M.N. mensuales con tu tarjeta
                 </span>
               </li>
             </ul>

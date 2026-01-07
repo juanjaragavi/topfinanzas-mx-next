@@ -145,8 +145,12 @@ export default function PrestamosTalaPage() {
             <p className="text-gray-700 mb-6 leading-relaxed">
               Olvídate del papeleo y los procesos engorrosos. Con Tala, puedes
               solicitar un préstamo en tan solo 5 minutos, sin necesidad de
-              aval, historial crediticio ni comprobante de ingresos. Todo se
-              realiza desde tu teléfono móvil, brindándote comodidad y rapidez.
+              aval,{" "}
+              <Link href="/finanzas-personales/que-es-el-score-crediticio-y-por-que-es-tan-importante">
+                historial crediticio
+              </Link>{" "}
+              ni comprobante de ingresos. Todo se realiza desde tu teléfono
+              móvil, brindándote comodidad y rapidez.
             </p>
 
             {/* Section: Flexibilidad */}

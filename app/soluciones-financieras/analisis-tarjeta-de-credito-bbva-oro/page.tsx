@@ -294,7 +294,10 @@ export default function AnalisisTarjetaBBVAOroPage() {
                 <BlueArrowIcon />
                 <span className="text-gray-700">
                   <strong className="text-gray-900">
-                    Buen historial crediticio:
+                    <Link href="/finanzas-personales/que-es-el-score-crediticio-y-por-que-es-tan-importante">
+                      Buen historial crediticio
+                    </Link>
+                    :
                   </strong>{" "}
                   Es importante tener un historial crediticio positivo. BBVA
                   verificará tu comportamiento previo con otras instituciones

@@ -89,7 +89,14 @@ export default function TarjetaPlatinumAmexPage() {
                 <BlueArrowIcon />
                 <span className="text-gray-700">
                   <strong className="text-gray-900">
-                    Puntos Membership Rewards:
+                    <Link
+                      href="/soluciones-financieras/puntos"
+                      title="Puntos"
+                      className="text-blue-600 hover:underline"
+                    >
+                      Puntos Membership Rewards
+                    </Link>
+                    :
                   </strong>{" "}
                   Acumula puntos con cada compra y canjéalos por productos,
                   viajes y experiencias sin fecha de caducidad.
@@ -172,7 +179,14 @@ export default function TarjetaPlatinumAmexPage() {
               </p>
 
               <h2 className="text-2xl font-bold text-gray-800 mb-4">
-                3. Puntos Membership Rewards
+                3.{" "}
+                <Link
+                  href="/soluciones-financieras/puntos"
+                  title="Puntos"
+                  className="text-blue-600 hover:underline"
+                >
+                  Puntos Membership Rewards
+                </Link>
               </h2>
               <p className="mb-6">
                 Cada compra que realizas con la Tarjeta Platinum American

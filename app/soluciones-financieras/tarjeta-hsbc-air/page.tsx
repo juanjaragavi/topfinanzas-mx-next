@@ -78,7 +78,14 @@ export default function TarjetaHSBCAirPage() {
                 <RedArrowIcon />
                 <span className="text-gray-700 text-lg">
                   <strong className="text-gray-900">
-                    Meses sin intereses:
+                    <Link
+                      href="/soluciones-financieras/meses-sin-intereses"
+                      title="Meses sin intereses"
+                      className="text-red-600 hover:underline"
+                    >
+                      Meses sin intereses
+                    </Link>
+                    :
                   </strong>{" "}
                   Automáticos en compras mayores a $3,000 MXN.
                 </span>
@@ -159,7 +166,15 @@ export default function TarjetaHSBCAirPage() {
             </p>
 
             <h3 className="text-xl font-bold text-gray-800 mb-4">
-              4. Meses sin intereses automáticos
+              4.{" "}
+              <Link
+                href="/soluciones-financieras/meses-sin-intereses"
+                title="Meses sin intereses"
+                className="text-red-600 hover:underline"
+              >
+                Meses sin intereses
+              </Link>{" "}
+              automáticos
             </h3>
             <p className="text-lg text-gray-700 mb-10">
               En compras superiores a $3,000 MXN, la tarjeta aplica
@@ -187,7 +202,23 @@ export default function TarjetaHSBCAirPage() {
                     Falta de programa de recompensas:
                   </strong>{" "}
                   A diferencia de otras tarjetas, HSBC Air no cuenta con un
-                  programa de recompensas, como cashback o puntos por uso.
+                  programa de recompensas, como{" "}
+                  <Link
+                    href="/soluciones-financieras/cashback"
+                    title="Cashback"
+                    className="text-red-600 hover:underline"
+                  >
+                    cashback
+                  </Link>{" "}
+                  o{" "}
+                  <Link
+                    href="/soluciones-financieras/puntos"
+                    title="Puntos"
+                    className="text-red-600 hover:underline"
+                  >
+                    puntos
+                  </Link>{" "}
+                  por uso.
                 </span>
               </li>
             </ul>

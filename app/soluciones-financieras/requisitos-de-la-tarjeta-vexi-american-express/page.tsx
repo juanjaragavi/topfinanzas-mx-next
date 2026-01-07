@@ -103,11 +103,15 @@ export default function RequisitosTarjetaVexiAmexPage() {
             <p className="text-lg text-gray-700 mb-6 font-normal">
               La tarjeta Vexi American Express es una solución financiera
               accesible que tiene como objetivo ayudar a los usuarios a mejorar
-              su historial crediticio, a la vez que ofrece beneficios y
-              recompensas de American Express. Con una solicitud en línea
-              sencilla y sin necesidad de tener un historial crediticio
-              perfecto, esta tarjeta es ideal para quienes están comenzando su
-              viaje financiero o quieren reconstruir su crédito.
+              su{" "}
+              <Link href="/finanzas-personales/que-es-el-score-crediticio-y-por-que-es-tan-importante">
+                historial crediticio
+              </Link>
+              , a la vez que ofrece beneficios y recompensas de American
+              Express. Con una solicitud en línea sencilla y sin necesidad de
+              tener un historial crediticio perfecto, esta tarjeta es ideal para
+              quienes están comenzando su viaje financiero o quieren reconstruir
+              su crédito.
             </p>
 
             <div

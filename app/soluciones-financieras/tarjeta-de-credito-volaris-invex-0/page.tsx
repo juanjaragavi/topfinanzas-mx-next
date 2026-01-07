@@ -94,7 +94,14 @@ export default function TarjetaVolarisInvex0Page() {
                 <BlueArrowIcon />
                 <span className="text-gray-700">
                   <strong className="text-gray-900">
-                    Sin anualidad de por vida:
+                    <Link
+                      href="/soluciones-financieras/tarjetas-de-credito-sin-anualidad"
+                      title="Sin anualidad"
+                      className="text-blue-600 hover:underline"
+                    >
+                      Sin anualidad de por vida
+                    </Link>
+                    :
                   </strong>{" "}
                   Solo usa tu Tarjeta una vez al mes.
                 </span>
@@ -131,7 +138,14 @@ export default function TarjetaVolarisInvex0Page() {
 
             {/* Section: Acumulación de puntos */}
             <h2 className="text-2xl md:text-3xl font-bold text-gray-700 mt-10 mb-4 leading-tight">
-              Acumulación de puntos para volar con Volaris
+              <Link
+                href="/soluciones-financieras/puntos"
+                title="Puntos"
+                className="text-blue-600 hover:underline"
+              >
+                Acumulación de puntos
+              </Link>{" "}
+              para volar con Volaris
             </h2>
             <p className="text-gray-700 mb-4 leading-tight">
               Uno de los beneficios más destacados de la Tarjeta de Crédito

@@ -77,7 +77,14 @@ export default function TarjetaSimplicityPage() {
                   <strong className="text-gray-900">
                     Promociones exclusivas:
                   </strong>{" "}
-                  Meses sin intereses y 2x1 en Cinépolis.
+                  <Link
+                    href="/soluciones-financieras/meses-sin-intereses"
+                    title="Meses sin intereses"
+                    className="text-blue-600 hover:underline"
+                  >
+                    Meses sin intereses
+                  </Link>{" "}
+                  y 2x1 en Cinépolis.
                 </span>
               </li>
               <li className="flex items-start">
@@ -223,7 +230,15 @@ export default function TarjetaSimplicityPage() {
                 <BlueArrowIcon />
                 <span className="text-gray-700">
                   <strong className="text-gray-900">
-                    Buen historial crediticio:
+                    Buen{" "}
+                    <Link
+                      href="/soluciones-financieras/historial-crediticio"
+                      title="Historial crediticio"
+                      className="text-blue-600 hover:underline"
+                    >
+                      historial crediticio
+                    </Link>
+                    :
                   </strong>{" "}
                   Citibanamex revisará tu historial crediticio para determinar
                   si cumples con los criterios necesarios. Un buen historial

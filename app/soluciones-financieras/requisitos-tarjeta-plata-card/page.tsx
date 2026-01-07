@@ -79,11 +79,12 @@ export default function RequisitosTarjetaPlataCardPage() {
               La Tarjeta de Crédito Plata se destaca por su flexibilidad y los
               beneficios que ofrece, convirtiéndola en una opción inteligente
               para optimizar tus finanzas. Con un alto límite de crédito, un
-              atractivo programa de cashback y herramientas avanzadas de
-              seguridad, es una tarjeta diseñada para quienes buscan maximizar
-              cada peso que gastan. Conoce los requisitos esenciales y los
-              costos asociados para aprovechar al máximo esta herramienta
-              financiera.
+              atractivo programa de{" "}
+              <Link href="/soluciones-financieras/cashback">cashback</Link> y
+              herramientas avanzadas de seguridad, es una tarjeta diseñada para
+              quienes buscan maximizar cada peso que gastan. Conoce los
+              requisitos esenciales y los costos asociados para aprovechar al
+              máximo esta herramienta financiera.
             </p>
 
             {/* Image: Top tarjetas */}
@@ -159,7 +160,10 @@ export default function RequisitosTarjetaPlataCardPage() {
                 <OrangeArrowIcon />
                 <span className="text-gray-700 text-lg">
                   <strong className="text-gray-900">
-                    Historial crediticio:
+                    <Link href="/soluciones-financieras/historial-crediticio">
+                      Historial crediticio
+                    </Link>
+                    :
                   </strong>{" "}
                   Contar con un historial crediticio activo es fundamental para
                   evaluar la solicitud.
@@ -256,7 +260,10 @@ export default function RequisitosTarjetaPlataCardPage() {
                 <OrangeArrowIcon />
                 <span className="text-gray-700 text-lg">
                   <strong className="text-gray-900">
-                    CAT (Costo Anual Total):
+                    <Link href="/finanzas-personales/cat-en-tarjetas-de-credito">
+                      CAT
+                    </Link>{" "}
+                    (Costo Anual Total):
                   </strong>{" "}
                   El CAT promedio de la Tarjeta de Crédito Plata es de 164.22%
                   sin IVA. Este porcentaje refleja el costo total del crédito,

@@ -3,6 +3,7 @@ import { CompactFooter } from "@/components/layout/compact-footer";
 import { AIContentDisclaimer } from "@/components/ui/ai-content-disclaimer";
 import { ActionBanner } from "@/components/ui/action-banner";
 import Image from "next/image";
+import Link from "next/link";
 import { Metadata } from "next";
 
 export const metadata: Metadata = {
@@ -225,11 +226,14 @@ export default function RequisitosLaTasaPage() {
                   <strong className="text-gray-900">
                     Personas con buen historial crediticio:
                   </strong>{" "}
-                  Si tienes un buen historial en Buró de Crédito, puedes acceder
-                  a tasas de interés más bajas, recompensando tu buen manejo
-                  financiero. Esto lo convierte en una excelente opción si
-                  buscas condiciones más favorables que las de los bancos
-                  tradicionales.
+                  Si tienes un buen{" "}
+                  <Link href="/finanzas-personales/que-es-el-score-crediticio-y-por-que-es-tan-importante">
+                    historial crediticio
+                  </Link>{" "}
+                  en Buró de Crédito, puedes acceder a tasas de interés más
+                  bajas, recompensando tu buen manejo financiero. Esto lo
+                  convierte en una excelente opción si buscas condiciones más
+                  favorables que las de los bancos tradicionales.
                 </span>
               </li>
               <li className="flex items-start">

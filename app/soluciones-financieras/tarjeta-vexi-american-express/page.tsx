@@ -98,7 +98,14 @@ export default function TarjetaVexiAmexPage() {
                 <SkyArrowIcon />
                 <span className="text-gray-700">
                   <strong className="text-gray-900">
-                    Sin anualidad el primer año:
+                    <Link
+                      href="/soluciones-financieras/tarjetas-de-credito-sin-anualidad"
+                      title="Sin anualidad"
+                      className="text-sky-500 hover:underline"
+                    >
+                      Sin anualidad
+                    </Link>{" "}
+                    el primer año:
                   </strong>{" "}
                   Disfruta de todos los beneficios sin costo adicional durante
                   el primer año.
@@ -138,7 +145,15 @@ export default function TarjetaVexiAmexPage() {
 
             {/* Section: Sin historial crediticio */}
             <h2 className="text-2xl md:text-3xl font-bold text-gray-700 mt-10 mb-4 leading-tight">
-              Sin historial crediticio: Ideal para nuevos usuarios
+              Sin{" "}
+              <Link
+                href="/soluciones-financieras/historial-crediticio"
+                title="Historial crediticio"
+                className="text-gray-700 hover:text-sky-500"
+              >
+                historial crediticio
+              </Link>
+              : Ideal para nuevos usuarios
             </h2>
             <p className="text-gray-700 mb-4 leading-relaxed">
               Uno de los principales atractivos de la tarjeta Vexi American
@@ -205,7 +220,14 @@ export default function TarjetaVexiAmexPage() {
 
             {/* Section: Cashback */}
             <h2 className="text-2xl md:text-3xl font-bold text-gray-700 mt-10 mb-4 leading-tight">
-              Cashback en tus compras
+              <Link
+                href="/soluciones-financieras/cashback"
+                title="Cashback"
+                className="text-gray-700 hover:text-sky-500"
+              >
+                Cashback
+              </Link>{" "}
+              en tus compras
             </h2>
             <p className="text-gray-700 mb-4 leading-relaxed">
               Una de las características más valoradas de la tarjeta Vexi
@@ -238,7 +260,14 @@ export default function TarjetaVexiAmexPage() {
 
             {/* Section: Meses sin intereses */}
             <h2 className="text-2xl md:text-3xl font-bold text-gray-700 mt-10 mb-4 leading-tight">
-              Acceso a meses sin intereses
+              Acceso a{" "}
+              <Link
+                href="/soluciones-financieras/meses-sin-intereses"
+                title="Meses sin intereses"
+                className="text-gray-700 hover:text-sky-500"
+              >
+                meses sin intereses
+              </Link>
             </h2>
             <p className="text-gray-700 mb-6 leading-relaxed">
               La tarjeta Vexi American Express también te permite realizar

@@ -64,7 +64,12 @@ export default function TarjetaDeCreditoNubankVCortaPage() {
               <li className="flex items-start">
                 <PurpleArrowIcon />
                 <span className="text-gray-700">
-                  <strong className="text-gray-900">Sin anualidad:</strong>{" "}
+                  <strong className="text-gray-900">
+                    <Link href="/finanzas-personales/3-tarjetas-de-credito-sin-anualidad-populares-en-mexico">
+                      Sin anualidad
+                    </Link>
+                    :
+                  </strong>{" "}
                   tarjeta completamente libre de cuotas anuales.
                 </span>
               </li>
@@ -85,7 +90,12 @@ export default function TarjetaDeCreditoNubankVCortaPage() {
               <li className="flex items-start">
                 <PurpleArrowIcon />
                 <span className="text-gray-700">
-                  <strong className="text-gray-900">CAT promedio:</strong>{" "}
+                  <strong className="text-gray-900">
+                    <Link href="/finanzas-personales/cat-en-tarjetas-de-credito">
+                      CAT
+                    </Link>{" "}
+                    promedio:
+                  </strong>{" "}
                   139,5% sin IVA.
                 </span>
               </li>

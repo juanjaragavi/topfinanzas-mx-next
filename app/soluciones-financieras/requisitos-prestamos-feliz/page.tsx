@@ -3,6 +3,7 @@ import { CompactFooter } from "@/components/layout/compact-footer";
 import { AIContentDisclaimer } from "@/components/ui/ai-content-disclaimer";
 import { ActionBanner } from "@/components/ui/action-banner";
 import Image from "next/image";
+import Link from "next/link";
 import { Metadata } from "next";
 
 export const metadata: Metadata = {
@@ -110,8 +111,11 @@ export default function RequisitosPrestamosFelizPage() {
                   <strong className="text-gray-900">
                     Historial crediticio:
                   </strong>{" "}
-                  Poseer un buen historial crediticio, lo que demuestra tu
-                  responsabilidad financiera previa.
+                  Poseer un buen{" "}
+                  <Link href="/finanzas-personales/que-es-el-score-crediticio-y-por-que-es-tan-importante">
+                    historial crediticio
+                  </Link>
+                  , lo que demuestra tu responsabilidad financiera previa.
                 </span>
               </li>
               <li className="flex items-start">
@@ -297,8 +301,12 @@ export default function RequisitosPrestamosFelizPage() {
               Además, aunque la solicitud y aprobación son muy rápidas, la
               responsabilidad de cumplir con los pagos puntuales recae
               completamente en el solicitante. Incumplir los plazos puede
-              afectar tu historial crediticio, lo cual tendría repercusiones en
-              futuras solicitudes de financiamiento.
+              afectar tu{" "}
+              <Link href="/finanzas-personales/que-es-el-score-crediticio-y-por-que-es-tan-importante">
+                historial crediticio
+              </Link>
+              , lo cual tendría repercusiones en futuras solicitudes de
+              financiamiento.
             </p>
 
             {/* Subsection: Atención al cliente y soporte */}

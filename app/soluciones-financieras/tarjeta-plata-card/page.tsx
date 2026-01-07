@@ -68,7 +68,16 @@ export default function TarjetaPlataCardPage() {
               <li className="flex items-start">
                 <OrangeArrowIcon />
                 <span className="text-gray-700">
-                  <strong className="text-gray-900">Cashback atractivo:</strong>{" "}
+                  <strong className="text-gray-900">
+                    <Link
+                      href="/soluciones-financieras/cashback"
+                      title="Cashback"
+                      className="text-orange-500 hover:underline"
+                    >
+                      Cashback atractivo
+                    </Link>
+                    :
+                  </strong>{" "}
                   Hasta 15% en categorías seleccionadas.
                 </span>
               </li>
@@ -84,7 +93,16 @@ export default function TarjetaPlataCardPage() {
               <li className="flex items-start">
                 <OrangeArrowIcon />
                 <span className="text-gray-700">
-                  <strong className="text-gray-900">Sin intereses:</strong>{" "}
+                  <strong className="text-gray-900">
+                    <Link
+                      href="/soluciones-financieras/meses-sin-intereses"
+                      title="Sin intereses"
+                      className="text-orange-500 hover:underline"
+                    >
+                      Sin intereses
+                    </Link>
+                    :
+                  </strong>{" "}
                   Durante los primeros 2 meses.
                 </span>
               </li>
@@ -92,7 +110,10 @@ export default function TarjetaPlataCardPage() {
                 <OrangeArrowIcon />
                 <span className="text-gray-700">
                   <strong className="text-gray-900">
-                    CAT y tasas de interés:
+                    <Link href="/finanzas-personales/cat-en-tarjetas-de-credito">
+                      CAT
+                    </Link>{" "}
+                    y tasas de interés:
                   </strong>{" "}
                   Conoce todos los detalles dando clic Requisitos.
                 </span>
@@ -125,10 +146,13 @@ export default function TarjetaPlataCardPage() {
               <p className="mb-6">
                 La Tarjeta de Crédito Plata es una opción diseñada para quienes
                 buscan maximizar el valor de cada compra. Uno de los aspectos
-                más destacados de esta tarjeta es su atractivo programa de
-                cashback, que permite a los usuarios recibir hasta un 15% de
-                reembolso en efectivo en las categorías que elijan cada mes.
-                Respaldada por Mastercard, la Tarjeta de Crédito Plata combina
+                más destacados de esta tarjeta es su atractivo programa de{" "}
+                <Link href="/finanzas-personales/las-mejores-tarjetas-de-credito-con-cashback-en-mexico-guia-definitiva">
+                  cashback
+                </Link>
+                , que permite a los usuarios recibir hasta un 15% de reembolso
+                en efectivo en las categorías que elijan cada mes. Respaldada
+                por Mastercard, la Tarjeta de Crédito Plata combina
                 flexibilidad, recompensas y seguridad, lo que la convierte en
                 una opción ideal para quienes desean sacar el máximo provecho de
                 su dinero.
@@ -143,7 +167,14 @@ export default function TarjetaPlataCardPage() {
                   <OrangeArrowIcon />
                   <span className="text-gray-700">
                     <strong className="text-gray-900">
-                      Cashback de hasta 15%:
+                      <Link
+                        href="/soluciones-financieras/cashback"
+                        title="Cashback"
+                        className="text-orange-500 hover:underline"
+                      >
+                        Cashback
+                      </Link>{" "}
+                      de hasta 15%:
                     </strong>{" "}
                     La Tarjeta de Crédito Plata destaca por su programa de
                     recompensas, que ofrece hasta un 15% de reembolso en
@@ -197,7 +228,15 @@ export default function TarjetaPlataCardPage() {
                   <OrangeArrowIcon />
                   <span className="text-gray-700">
                     <strong className="text-gray-900">
-                      Difiere tus compras a meses sin intereses:
+                      Difiere tus compras a{" "}
+                      <Link
+                        href="/soluciones-financieras/meses-sin-intereses"
+                        title="Meses sin intereses"
+                        className="text-orange-500 hover:underline"
+                      >
+                        meses sin intereses
+                      </Link>
+                      :
                     </strong>{" "}
                     Si realizas una compra grande, puedes optar por diferir el
                     pago a meses sin intereses directamente desde la app de

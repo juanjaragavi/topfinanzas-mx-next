@@ -133,10 +133,13 @@ export default function RequisitosGoldCardAmexAeromexicoPage() {
                   <strong className="text-gray-900">
                     Historial crediticio:
                   </strong>{" "}
-                  Contar con un buen historial crediticio. Esto significa que
-                  debes haber manejado correctamente créditos previos o
-                  actuales, como otras tarjetas de crédito, préstamos o
-                  financiamientos.
+                  Contar con un buen{" "}
+                  <Link href="/finanzas-personales/que-es-el-score-crediticio-y-por-que-es-tan-importante">
+                    historial crediticio
+                  </Link>
+                  . Esto significa que debes haber manejado correctamente
+                  créditos previos o actuales, como otras tarjetas de crédito,
+                  préstamos o financiamientos.
                 </span>
               </li>
               <li className="flex items-start">
