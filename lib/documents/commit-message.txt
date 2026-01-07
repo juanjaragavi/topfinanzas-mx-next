@@ -1,12 +1,5 @@
-chore: implement backlinking strategy for finanzas-personales batch 3
+fix: resolve linting error in cashback guide
 
-- Processed 10 files in app/finanzas-personales/
-- Added next/link imports where missing
-- Injected internal links for high-value keywords:
-  - tarjetas de crédito -> /soluciones-financieras/tarjetas-de-credito-sin-anualidad
-  - cashback -> /soluciones-financieras/cashback
-  - puntos -> /soluciones-financieras/puntos
-  - historial crediticio -> /soluciones-financieras/historial-crediticio
-  - CAT -> /finanzas-personales/cat-en-tarjetas-de-credito
-  - fondo de emergencia -> /finanzas-personales/que-es-un-fondo-de-emergencia...
-  - presupuesto -> /finanzas-personales/guia-para-principiantes...
+- Fixed malformed JSX in las-mejores-tarjetas-de-credito-con-cashback-en-mexico-guia-definitiva/page.tsx
+- Correctly reapplied the internal link for 'cashback' keyword
+- Verified project passes all lint checks with 'npm run lint'

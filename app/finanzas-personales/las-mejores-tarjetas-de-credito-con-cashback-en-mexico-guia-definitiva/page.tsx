@@ -69,17 +69,17 @@ export default function TarjetasCashbackPage() {
                 />
               </div>
 
-              <section classNa<Link
-                    href="/soluciones-financieras/cashback"
-                    className="text-blue-600 hover:underline"
-                  >
-                    cashback
-                  </Link>">
+              <section className="my-6">
                 <h2 className="text-left sm:text-left text-xl font-bold text-gray-800 mb-4">
                   ¿Qué es el Cashback y Cómo Funciona?
                 </h2>
                 <p className="text-left sm:text-left text-gray-800 mb-4 text-sm leading-6 font-light">
-                  El término «cashback» significa literalmente «dinero de
+                  El término «<Link
+                    href="/soluciones-financieras/cashback"
+                    className="text-blue-600 hover:underline"
+                  >
+                    cashback
+                  </Link>» significa literalmente «dinero de
                   vuelta». Es un programa de recompensas que ofrecen algunas
                   tarjetas de crédito, donde el banco te reembolsa un pequeño
                   porcentaje del total de tus compras. Por ejemplo, si tu
