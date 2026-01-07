@@ -105,10 +105,16 @@ export default function ScoreCrediticioPage() {
 
             <p className="mb-8">
               Esta calificación la calculan las Sociedades de Información
-              Crediticia (SICs), mejor conocidas como el Buró de Crédito y
+              Crediticia (SICs), mejor conocidas como el <Link href="/finanzas-personales/que-es-el-buro-de-credito-y-por-que-es-importante" className="text-blue-600 hover:underline">Buró de Crédito</Link> y
               Círculo de Crédito. Estas empresas recopilan la información de tu
-              historial crediticio, que es el registro de todos los créditos que
-              has tenido (tarjetas de crédito, planes de celular, préstamos,
+              <Link
+                href="/finanzas-personales/que-es-el-historial-crediticio-y-como-te-afecta"
+                className="text-blue-600 hover:underline"
+              >
+                historial crediticio
+              </Link>
+              , que es el registro de todos los créditos que
+              has tenido (<Link href="/tarjetas" className="text-blue-600 hover:underline">tarjetas de crédito</Link>, plans de celular, préstamos,
               etc.). Cuando pides un préstamo, los bancos, las tiendas
               departamentales y otras instituciones revisan tu score para
               decidir si te aprueban el crédito y con qué condiciones.

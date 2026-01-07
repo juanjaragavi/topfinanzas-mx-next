@@ -76,7 +76,7 @@ export default function TarjetasEstudiantesPage() {
                   solicitante. Su objetivo principal es facilitar a los
                   estudiantes el acceso a un crédito revolvente, permitiéndoles
                   manejar sus finanzas de manera más efectiva mientras
-                  construyen un historial crediticio positivo.
+                  construyen un <Link href="/finanzas-personales/que-es-el-historial-crediticio-y-como-te-afecta" className="text-blue-600 hover:underline">historial crediticio</Link> positivo.
                 </p>
                 <div className="bg-blue-50 p-4 rounded-lg border-l-4 border-blue-500 mb-6">
                   <p className="text-sm text-gray-700 italic">
@@ -158,7 +158,7 @@ export default function TarjetasEstudiantesPage() {
                       historial crediticio.
                     </li>
                     <li className="mb-2">
-                      <strong>Desventajas:</strong> Un CAT relativamente alto
+                      <strong>Desventajas:</strong> Un <Link href="/finanzas-personales/que-es-el-cat-y-como-funciona" className="text-blue-600 hover:underline">CAT</Link> relativamente alto
                       puede resultar costoso si se acumulan pagos atrasados.
                     </li>
                   </ul>

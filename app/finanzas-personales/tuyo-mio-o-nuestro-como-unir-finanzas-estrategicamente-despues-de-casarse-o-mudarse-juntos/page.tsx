@@ -178,12 +178,12 @@ export default function UnirFinanzasPage() {
                   Si eres nuevo en el mundo laboral, hacer un presupuesto es un
                   antes y un después en tus finanzas personales, y es aún más
                   crítico cuando manejas el dinero en pareja. Su primer
-                  presupuesto no tiene que ser complicado. Empiecen por
+                  <Link href="/finanzas-personales/guia-para-principiantes-como-crear-un-presupuesto-que-si-funciona" className="text-blue-600 hover:underline">presupuesto</Link> no tiene que ser complicado. Empiecen por
                   registrar sus ingresos combinados y sus gastos compartidos
                   durante un mes. Esto les dará una idea clara de a dónde se va
                   su dinero. A partir de ahí, pueden usar una regla sencilla
-                  como la 50/30/20: 50% para necesidades, 30% para deseos y 20%
-                  para ahorros y pago de deudas. También hay muchísimas apps que
+                  como la <Link href="/finanzas-personales/ahorro-inteligente-la-regla-50-30-20-explicada" className="text-blue-600 hover:underline">50/30/20</Link>: 50% para necesidades, 30% para deseos y 20%
+                  para ahorros y pago de <Link href="/finanzas-personales/la-forma-inteligente-de-salir-de-deudas-y-no-volver-a-caer" className="text-blue-600 hover:underline">deudas</Link>. También hay muchísimas apps que
                   les pueden facilitar este proceso.
                 </p>
                 <p className="text-left sm:text-left text-gray-800 mb-4 text-sm leading-6 font-light">

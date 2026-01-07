@@ -181,7 +181,7 @@ export default function AumentoSueldoPage() {
                         </h3>
                         <p className="text-gray-700">
                           Si tienes deudas con intereses altos, como el saldo de
-                          tarjetas de crédito o préstamos personales, tu aumento
+                          <Link href="/tarjetas" className="text-blue-600 hover:underline">tarjetas de crédito</Link> o <Link href="/recomendador-de-prestamos-personales-p1" className="text-blue-600 hover:underline">préstamos personales</Link>, tu aumento
                           es un arma poderosa. Cada peso extra que destines al
                           capital te ahorra dinero en intereses y te ayuda a
                           salir de deudas más rápido. Considera asignar una
@@ -208,7 +208,7 @@ export default function AumentoSueldoPage() {
                           <li className="flex items-start gap-3">
                             <PiggyBank className="w-5 h-5 text-green-600 flex-shrink-0 mt-1" />
                             <span className="text-gray-700">
-                              <strong>Fondo de Emergencia:</strong> Si no tienes
+                              <strong><Link href="/finanzas-personales/que-es-un-fondo-de-emergencia-y-por-que-es-clave-para-tu-tranquilidad" className="text-blue-600 hover:underline">Fondo de Emergencia:</Link></strong> Si no tienes
                               un fondo que cubra de 3 a 6 meses de tus gastos
                               esenciales, empieza aquí. Tu aumento te ayudará a
                               alcanzar esta meta mucho más rápido, dándote una
