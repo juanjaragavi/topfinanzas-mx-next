@@ -2,6 +2,7 @@ import { Header } from "@/components/layout/header";
 import { CompactFooter } from "@/components/layout/compact-footer";
 import { AIContentDisclaimer } from "@/components/ui/ai-content-disclaimer";
 import Image from "next/image";
+import Link from "next/link";
 import { Metadata } from "next";
 
 export const metadata: Metadata = {
@@ -76,7 +77,7 @@ export default function CashbackVsPuntosBlackFridayPage() {
                   ¿Cómo funciona? Muy fácil. Usas tu tarjeta de crédito para
                   pagar y, al final del mes o del periodo de corte, el banco te
                   reembolsa un porcentaje de tus gastos, generalmente entre el
-                  1% y el 5%. Este dinero puede depositarse directamente en tu
+                  1% y el 5%. Este <Link href="/soluciones-financieras/cashback" title="Cashback" className="text-blue-600 hover:underline">dinero (cashback)</Link> puede depositarse directamente en tu
                   cuenta, aplicarse como crédito a tu estado de cuenta o incluso
                   dártelo en efectivo.
                 </p>
@@ -102,7 +103,7 @@ export default function CashbackVsPuntosBlackFridayPage() {
                   Entonces, ¿qué son los Puntos?
                 </h2>
                 <p className="text-left sm:text-left text-gray-800 mb-4 text-sm leading-6 font-light">
-                  Los programas de puntos son como un juego de lealtad. Por cada
+                  Los programas de <Link href="/soluciones-financieras/puntos" title="Puntos" className="text-blue-600 hover:underline">puntos</Link> son como un juego de lealtad. Por cada
                   peso que gastas, acumulas una cierta cantidad de puntos que
                   funcionan como una «moneda» dentro del ecosistema del banco o
                   de una marca asociada (como una aerolínea o una cadena de

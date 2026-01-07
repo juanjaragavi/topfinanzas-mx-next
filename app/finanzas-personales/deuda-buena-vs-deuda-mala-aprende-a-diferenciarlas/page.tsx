@@ -2,6 +2,7 @@ import { Header } from "@/components/layout/header";
 import { CompactFooter } from "@/components/layout/compact-footer";
 import { AIContentDisclaimer } from "@/components/ui/ai-content-disclaimer";
 import Image from "next/image";
+import Link from "next/link";
 import { Metadata } from "next";
 
 export const metadata: Metadata = {
@@ -111,7 +112,7 @@ export default function DeudaBuenaVsDeudaMalaPage() {
                 </p>
                 <ul className="list-disc pl-5 mb-4 text-gray-800 text-sm leading-6 font-light">
                   <li className="mb-2">
-                    <strong>Deuda de tarjetas de crédito:</strong> Este es el
+                    <strong>Deuda de <Link href="/soluciones-financieras/tarjetas-de-credito-sin-anualidad" title="Tarjetas de crédito" className="text-blue-600 hover:underline">tarjetas de crédito</Link>:</strong> Este es el
                     ejemplo más común. Usar la tarjeta para pagar ropa, cenas,
                     viajes o gadgets que no puedes liquidar a fin de mes es una
                     trampa. Los intereses (que suelen ser altísimos) se acumulan

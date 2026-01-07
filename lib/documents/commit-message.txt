@@ -1,5 +1,10 @@
-feat: Enhancement of internal linking structure in financial solutions pages
+chore: implement backlinking strategy for finanzas-personales batch 2
 
-- Implemented comprehensive internal linking for SEO keywords (historial crediticio, cashback, meses sin intereses, etc.) across all product pages in `/app/soluciones-financieras/`.
-- Validated and fixed circular links to ensure robust navigation.
-- Optimized keyword placement and link targets for better user experience and SEO performance.
+- Processed 10 files in app/finanzas-personales/
+- Added next/link imports where missing
+- Injected internal links for high-value keywords:
+  - historial crediticio -> /soluciones-financieras/historial-crediticio
+  - cashback -> /soluciones-financieras/cashback
+  - puntos -> /soluciones-financieras/puntos
+  - tarjetas de crédito -> /soluciones-financieras/tarjetas-de-credito-sin-anualidad
+  - CAT -> /finanzas-personales/cat-en-tarjetas-de-credito

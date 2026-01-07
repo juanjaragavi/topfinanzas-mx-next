@@ -2,6 +2,7 @@ import { Header } from "@/components/layout/header";
 import { CompactFooter } from "@/components/layout/compact-footer";
 import { AIContentDisclaimer } from "@/components/ui/ai-content-disclaimer";
 import Image from "next/image";
+import Link from "next/link";
 import { Metadata } from "next";
 
 export const metadata: Metadata = {
@@ -151,7 +152,7 @@ export default function CatTarjetasPage() {
                   es un cálculo basado en un perfil de cliente promedio y
                   condiciones estándar. Sin embargo, el "CAT Personalizado" es
                   el que realmente se aplicará a tu contrato, basado en tu
-                  historial crediticio, línea de crédito otorgada y otros
+                  <Link href="/soluciones-financieras/historial-crediticio" title="Historial crediticio" className="text-blue-600 hover:underline">historial crediticio</Link>, línea de crédito otorgada y otros
                   factores individuales. Siempre verifica el CAT que se aplicará
                   específicamente a tu caso.
                 </p>

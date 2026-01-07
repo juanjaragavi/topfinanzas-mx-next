@@ -2,6 +2,7 @@ import { Header } from "@/components/layout/header";
 import { CompactFooter } from "@/components/layout/compact-footer";
 import { AIContentDisclaimer } from "@/components/ui/ai-content-disclaimer";
 import Image from "next/image";
+import Link from "next/link";
 import { Metadata } from "next";
 
 export const metadata: Metadata = {
@@ -42,14 +43,12 @@ export default function TarjetasSinAnualidadPage() {
                 un gran desmotivante. ¡La buena noticia es que no tienes que
                 hacerlo! El mercado mexicano ofrece excelentes tarjetas de
                 crédito sin anualidad, diseñadas para darte flexibilidad
-                financiera sin costos fijos. Si quieres construir tu historial
-                crediticio, hacer compras de forma segura y aprovechar
+                financiera sin costos fijos. Si quieres construir tu <Link href="/soluciones-financieras/historial-crediticio" title="Historial crediticio" className="text-blue-600 hover:underline">historial crediticio</Link>, hacer compras de forma segura y aprovechar
                 promociones sin pagar de más, has llegado al lugar correcto.
               </p>
               <p className="text-left sm:text-left text-lg text-gray-800 mb-4 leading-6">
                 En este listado, exploraremos 3 ejemplos populares de tarjetas
-                sin anualidad en México, destacando sus características
-                generales para que puedas identificar qué tipo de producto se
+                sin anualidad en México, destacando sus característica<Link href="/soluciones-financieras/tarjetas-de-credito-sin-anualidad" title="Tarjetas sin anualidad" className="text-blue-600 hover:underline">tarjetas sin anualidad</Link>a que puedas identificar qué tipo de producto se
                 alinea mejor con tus finanzas personales.
               </p>
 
@@ -189,7 +188,7 @@ export default function TarjetasSinAnualidadPage() {
                   ¿Buscas construir historial o ya tienes uno y solo quieres un
                   plástico sin costo? Considera tu nivel de gastos mensuales,
                   compara el Costo Anual Total (CAT) y revisa qué beneficios
-                  adicionales te ofrecen. Un paso fundamental es tener orden en
+                  adicionales<Link href="/finanzas-personales/cat-en-tarjetas-de-credito" title="CAT" className="text-blue-600 hover:underline">Costo Anual Total (CAT)</Link>ndamental es tener orden en
                   tus finanzas; saber cómo crear un presupuesto personal te dará
                   la claridad necesaria para tomar esta decisión.
                 </p>
