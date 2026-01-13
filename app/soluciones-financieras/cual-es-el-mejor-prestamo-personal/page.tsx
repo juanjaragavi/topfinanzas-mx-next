@@ -4,6 +4,7 @@ import { AIContentDisclaimer } from "@/components/ui/ai-content-disclaimer";
 import Image from "next/image";
 import { Metadata } from "next";
 import Link from "next/link";
+import { RelatedPosts } from "@/components/blog/related-posts";
 
 export const metadata: Metadata = {
   title:
@@ -220,6 +221,12 @@ export default function MejorPrestamoPersonalPage() {
           </div>
         </div>
       </article>
+
+      <RelatedPosts
+        currentSlug="cual-es-el-mejor-prestamo-personal"
+        category="soluciones-financieras"
+        subCategory="loans"
+      />
 
       <CompactFooter />
     </main>

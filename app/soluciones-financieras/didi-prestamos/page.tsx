@@ -5,6 +5,7 @@ import Image from "next/image";
 import Link from "next/link";
 import React from "react";
 import type { Metadata } from "next";
+import { RelatedPosts } from "@/components/blog/related-posts";
 
 export const metadata: Metadata = {
   title:
@@ -302,6 +303,13 @@ export default function DiDiPrestamosPage() {
         {/* Disclaimer */}
         <AIContentDisclaimer />
       </main>
+
+      <RelatedPosts
+        currentSlug="didi-prestamos"
+        category="soluciones-financieras"
+        subCategory="loans"
+      />
+
       <CompactFooter />
     </div>
   );

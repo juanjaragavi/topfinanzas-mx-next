@@ -4,6 +4,7 @@ import { AIContentDisclaimer } from "@/components/ui/ai-content-disclaimer";
 import Image from "next/image";
 import Link from "next/link";
 import { Metadata } from "next";
+import { RelatedPosts } from "@/components/blog/related-posts";
 
 export const metadata: Metadata = {
   title: "Préstamos personales Vivus: Rápidos y seguros | Top Finanzas MX",
@@ -270,6 +271,12 @@ export default function PrestamosVivusPage() {
           </div>
         </div>
       </article>
+
+      <RelatedPosts
+        currentSlug="prestamos-vivus-mexico"
+        category="soluciones-financieras"
+        subCategory="loans"
+      />
 
       <CompactFooter />
     </main>

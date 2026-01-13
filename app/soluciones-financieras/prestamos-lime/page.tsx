@@ -4,6 +4,7 @@ import { Header } from "@/components/layout/header";
 import { CompactFooter } from "@/components/layout/compact-footer";
 import { AIContentDisclaimer } from "@/components/ui/ai-content-disclaimer";
 import { Metadata } from "next";
+import { RelatedPosts } from "@/components/blog/related-posts";
 
 export const metadata: Metadata = {
   title:
@@ -367,6 +368,13 @@ export default function PrestamosLimePage() {
       </article>
 
       <AIContentDisclaimer />
+
+      <RelatedPosts
+        currentSlug="prestamos-lime"
+        category="soluciones-financieras"
+        subCategory="loans"
+      />
+
       <CompactFooter />
     </main>
   );

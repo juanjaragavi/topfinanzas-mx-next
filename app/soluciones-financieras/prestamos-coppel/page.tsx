@@ -4,6 +4,7 @@ import { AIContentDisclaimer } from "@/components/ui/ai-content-disclaimer";
 import Image from "next/image";
 import Link from "next/link";
 import { Metadata } from "next";
+import { RelatedPosts } from "@/components/blog/related-posts";
 
 export const metadata: Metadata = {
   title:
@@ -314,6 +315,12 @@ export default function PrestamosCoppelPage() {
           </div>
         </div>
       </article>
+
+      <RelatedPosts
+        currentSlug="prestamos-coppel"
+        category="soluciones-financieras"
+        subCategory="loans"
+      />
 
       <CompactFooter />
     </main>
