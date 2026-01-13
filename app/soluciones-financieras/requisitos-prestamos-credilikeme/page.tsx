@@ -1,6 +1,8 @@
 import { Header } from "@/components/layout/header";
 import { CompactFooter } from "@/components/layout/compact-footer";
 import { ActionBanner } from "@/components/ui/action-banner";
+import { RelatedPosts } from "@/components/blog/related-posts";
+import { AIContentDisclaimer } from "@/components/ui/ai-content-disclaimer";
 import Image from "next/image";
 import Link from "next/link";
 import { Metadata } from "next";
@@ -372,10 +374,22 @@ export default function RequisitosPrestamosCredilikemePage() {
                 Ver en sitio oficial
               </Link>
             </div>
+
+            <div className="mt-8 mb-8">
+              <Link
+                href="/soluciones-financieras/prestamos-personales-credilikeme"
+                className="text-indigo-500 hover:underline"
+              >
+                Volver al análisis de Préstamos Personales Credilikeme
+              </Link>
+            </div>
+
+            <AIContentDisclaimer />
           </div>
         </div>
       </article>
 
+      <RelatedPosts currentSlug="requisitos-prestamos-credilikeme" />
       <CompactFooter />
     </main>
   );

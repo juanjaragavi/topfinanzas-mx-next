@@ -1,8 +1,10 @@
 import { Header } from "@/components/layout/header";
 import { CompactFooter } from "@/components/layout/compact-footer";
+import { RelatedPosts } from "@/components/blog/related-posts";
 import { AIContentDisclaimer } from "@/components/ui/ai-content-disclaimer";
 import { ActionBanner } from "@/components/ui/action-banner";
 import Image from "next/image";
+import Link from "next/link";
 import { Metadata } from "next";
 
 export const metadata: Metadata = {
@@ -315,11 +317,21 @@ export default function RequisitosLimePage() {
               alt="Ver en sitio oficial"
             />
 
+            <div className="mt-8 mb-8">
+              <Link
+                href="/soluciones-financieras/prestamos-lime"
+                className="text-lime-600 hover:underline"
+              >
+                Volver al análisis de Préstamos Lime
+              </Link>
+            </div>
+
             <AIContentDisclaimer />
           </div>
         </div>
       </article>
 
+      <RelatedPosts currentSlug="requisitos-prestamos-lime" />
       <CompactFooter />
     </main>
   );

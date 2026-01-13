@@ -1,5 +1,6 @@
 import { Header } from "@/components/layout/header";
 import { CompactFooter } from "@/components/layout/compact-footer";
+import { RelatedPosts } from "@/components/blog/related-posts";
 import { AIContentDisclaimer } from "@/components/ui/ai-content-disclaimer";
 import Image from "next/image";
 import Link from "next/link";
@@ -278,10 +279,20 @@ export default function RequisitosPrestamosYoteprestoPage() {
                 className="w-full h-auto rounded-lg"
               />
             </div>
+
+            <div className="mt-8 mb-8">
+              <Link
+                href="/soluciones-financieras/prestamos-yotepresto"
+                className="text-indigo-600 hover:underline"
+              >
+                Volver al análisis de Préstamos Yotepresto
+              </Link>
+            </div>
           </div>
         </div>
       </article>
 
+      <RelatedPosts currentSlug="requisitos-prestamos-con-yotepresto" />
       <AIContentDisclaimer />
       <CompactFooter />
     </main>
