@@ -179,10 +179,17 @@ export default function AppsFinanzasPersonalesPage() {
                 </p>
                 <p className="text-left sm:text-left text-gray-800 mb-4 text-sm leading-6 font-light">
                   <strong>Ideal para ti si:</strong> Quieres mantener un buen
-                  <Link href="/soluciones-financieras/historial-crediticio" title="Historial crediticio" className="text-blue-600 hover:underline">historial crediticio</Link> desde el inicio. Pagar a tiempo es
-                  crucial para tu salud financiera a largo plazo. Además, te
-                  ayudan a detectar suscripciones que ya no usas para que puedas
-                  cancelarlas y liberar ese dinero.
+                  <Link
+                    href="/soluciones-financieras/historial-crediticio"
+                    title="Historial crediticio"
+                    className="text-blue-600 hover:underline"
+                  >
+                    historial crediticio
+                  </Link>{" "}
+                  desde el inicio. Pagar a tiempo es crucial para tu salud
+                  financiera a largo plazo. Además, te ayudan a detectar
+                  suscripciones que ya no usas para que puedas cancelarlas y
+                  liberar ese dinero.
                 </p>
               </section>
 

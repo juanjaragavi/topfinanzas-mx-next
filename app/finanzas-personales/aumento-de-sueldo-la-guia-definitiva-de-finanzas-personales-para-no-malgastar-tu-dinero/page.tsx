@@ -107,11 +107,18 @@ export default function AumentoDeSueldoPage() {
                 <ul className="list-disc pl-6 mb-4 text-sm leading-6 font-light text-gray-800">
                   <li className="mb-2">
                     <strong>Paga tus Deudas Más Caras:</strong> Si tienes deudas
-                    en <Link href="/soluciones-financieras/tarjetas-de-credito-sin-anualidad" title="Tarjetas de crédito" className="text-blue-600 hover:underline">tarjetas de crédito</Link> o préstamos personales con tasas de
-                    interés altas, este es el momento de atacarlas. Destinar una
-                    parte de tu aumento a liquidar estos saldos te ahorrará
-                    cientos o miles de pesos en intereses y liberará tu flujo de
-                    efectivo futuro.
+                    en{" "}
+                    <Link
+                      href="/soluciones-financieras/tarjetas-de-credito-sin-anualidad"
+                      title="Tarjetas de crédito"
+                      className="text-blue-600 hover:underline"
+                    >
+                      tarjetas de crédito
+                    </Link>{" "}
+                    o préstamos personales con tasas de interés altas, este es
+                    el momento de atacarlas. Destinar una parte de tu aumento a
+                    liquidar estos saldos te ahorrará cientos o miles de pesos
+                    en intereses y liberará tu flujo de efectivo futuro.
                   </li>
                   <li className="mb-2">
                     <strong>Crea o Fortalece tu Fondo de Emergencia:</strong> La

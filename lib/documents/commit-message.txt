@@ -1,5 +1,6 @@
-fix: resolve linting error in cashback guide
+style(finanzas-personales): format JSX Link components for readability
 
-- Fixed malformed JSX in las-mejores-tarjetas-de-credito-con-cashback-en-mexico-guia-definitiva/page.tsx
-- Correctly reapplied the internal link for 'cashback' keyword
-- Verified project passes all lint checks with 'npm run lint'
+Refactored 24 blog article pages in app/finanzas-personales/ to break 
+long inline <Link> components across multiple lines. This improves code 
+readability, ensures ESLint/Prettier compliance, and maintains consistent 
+formatting standards across the codebase.

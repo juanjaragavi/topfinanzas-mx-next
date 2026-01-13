@@ -112,12 +112,22 @@ export default function DeudaBuenaVsDeudaMalaPage() {
                 </p>
                 <ul className="list-disc pl-5 mb-4 text-gray-800 text-sm leading-6 font-light">
                   <li className="mb-2">
-                    <strong>Deuda de <Link href="/soluciones-financieras/tarjetas-de-credito-sin-anualidad" title="Tarjetas de crédito" className="text-blue-600 hover:underline">tarjetas de crédito</Link>:</strong> Este es el
-                    ejemplo más común. Usar la tarjeta para pagar ropa, cenas,
-                    viajes o gadgets que no puedes liquidar a fin de mes es una
-                    trampa. Los intereses (que suelen ser altísimos) se acumulan
-                    y convierten una compra pequeña en una deuda enorme. Es el
-                    famoso «tarjetazo».
+                    <strong>
+                      Deuda de{" "}
+                      <Link
+                        href="/soluciones-financieras/tarjetas-de-credito-sin-anualidad"
+                        title="Tarjetas de crédito"
+                        className="text-blue-600 hover:underline"
+                      >
+                        tarjetas de crédito
+                      </Link>
+                      :
+                    </strong>{" "}
+                    Este es el ejemplo más común. Usar la tarjeta para pagar
+                    ropa, cenas, viajes o gadgets que no puedes liquidar a fin
+                    de mes es una trampa. Los intereses (que suelen ser
+                    altísimos) se acumulan y convierten una compra pequeña en
+                    una deuda enorme. Es el famoso «tarjetazo».
                   </li>
                   <li className="mb-2">
                     <strong>

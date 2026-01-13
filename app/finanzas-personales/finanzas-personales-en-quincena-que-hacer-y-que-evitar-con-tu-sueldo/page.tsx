@@ -103,13 +103,28 @@ export default function FinanzasPersonalesEnQuincenaPage() {
                   </li>
                   <li>
                     <strong>Haz Frente a tus Deudas:</strong> Realiza los pagos
-                    puntuales de cualquier deuda pendiente, como <Link href="/soluciones-financieras/tarjetas-de-credito-sin-anualidad" title="Tarjetas de crédito" className="text-blue-600 hover:underline">tarjetas de
-                    crédito</Link>, préstamos estudiantiles o personales. Prioriza las
-                    deudas con intereses altos para ahorrar dinero a largo
-                    plazo. Cumplir con un plan de pago de deudas es crucial para
-                    mejorar tu <Link href="/soluciones-financieras/historial-crediticio" title="Historial crediticio" className="text-blue-600 hover:underline">historial crediticio</Link> ante el Buró de Crédito y tu
-                    bienestar financiero general. Si estás buscando opciones
-                    para consolidar deudas, podrías informarte sobre los{" "}
+                    puntuales de cualquier deuda pendiente, como{" "}
+                    <Link
+                      href="/soluciones-financieras/tarjetas-de-credito-sin-anualidad"
+                      title="Tarjetas de crédito"
+                      className="text-blue-600 hover:underline"
+                    >
+                      tarjetas de crédito
+                    </Link>
+                    , préstamos estudiantiles o personales. Prioriza las deudas
+                    con intereses altos para ahorrar dinero a largo plazo.
+                    Cumplir con un plan de pago de deudas es crucial para
+                    mejorar tu{" "}
+                    <Link
+                      href="/soluciones-financieras/historial-crediticio"
+                      title="Historial crediticio"
+                      className="text-blue-600 hover:underline"
+                    >
+                      historial crediticio
+                    </Link>{" "}
+                    ante el Buró de Crédito y tu bienestar financiero general.
+                    Si estás buscando opciones para consolidar deudas, podrías
+                    informarte sobre los{" "}
                     <Link
                       href="/prestamos"
                       className="text-blue-600 hover:underline"

@@ -143,13 +143,14 @@ export default function InteresCompuestoPage() {
                     href="/finanzas-personales/que-es-un-fondo-de-emergencia-y-por-que-es-clave-para-tu-tranquilidad"
                     className="text-blue-600 hover:underline"
                   >
-                    {" "}fondo de emergencia
-                  </Link> es un colchón de dinero guardado
-                  exclusivamente para estos imprevistos. Lo ideal es tener entre
-                  3 y 6 meses de tus gastos fijos. No tienes que juntarlo todo
-                  de golpe; empieza separando una pequeña cantidad cada
-                  quincena. Este fondo te dará una paz mental increíble y
-                  evitará que te endeudes ante una urgencia.
+                    {" "}
+                    fondo de emergencia
+                  </Link>{" "}
+                  es un colchón de dinero guardado exclusivamente para estos
+                  imprevistos. Lo ideal es tener entre 3 y 6 meses de tus gastos
+                  fijos. No tienes que juntarlo todo de golpe; empieza separando
+                  una pequeña cantidad cada quincena. Este fondo te dará una paz
+                  mental increíble y evitará que te endeudes ante una urgencia.
                 </p>
 
                 <h3 className="text-lg font-bold text-gray-800 mb-2 mt-4">
@@ -158,17 +159,19 @@ export default function InteresCompuestoPage() {
                 <p className="text-left sm:text-left text-gray-800 mb-4 text-sm leading-6 font-light">
                   No todas las deudas son iguales. Una hipoteca para comprar tu
                   casa en el futuro puede ser una deuda «buena». Pero las deudas
-                  de <Link
+                  de{" "}
+                  <Link
                     href="/soluciones-financieras/tarjetas-de-credito-sin-anualidad"
                     className="text-blue-600 hover:underline"
                   >
                     tarjetas de crédito
-                  </Link> con intereses altísimos son «malas»
-                  porque frenan tu crecimiento financiero. Si ya tienes deudas
-                  de este tipo, tu prioridad debe ser liquidarlas. El dinero que
-                  pagas en intereses es dinero que podrías estar invirtiendo
-                  para que crezca. Explora estrategias para liquidar tus deudas
-                  y libera tu potencial financiero.
+                  </Link>{" "}
+                  con intereses altísimos son «malas» porque frenan tu
+                  crecimiento financiero. Si ya tienes deudas de este tipo, tu
+                  prioridad debe ser liquidarlas. El dinero que pagas en
+                  intereses es dinero que podrías estar invirtiendo para que
+                  crezca. Explora estrategias para liquidar tus deudas y libera
+                  tu potencial financiero.
                 </p>
               </section>
 

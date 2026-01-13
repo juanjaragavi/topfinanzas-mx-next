@@ -138,8 +138,16 @@ export default function FinanzasPersonales10ReglasOroPage() {
                   innecesariamente, especialmente con créditos al consumo con
                   altas tasas de interés. Si ya tienes deudas, crea un plan para
                   pagarlas, priorizando aquellas con los intereses más altos
-                  (como las <Link href="/soluciones-financieras/tarjetas-de-credito-sin-anualidad" title="Tarjetas de crédito" className="text-blue-600 hover:underline">tarjetas de crédito</Link>). Considera la consolidación de
-                  deudas si tienes varios créditos. Entender el{" "}
+                  (como las{" "}
+                  <Link
+                    href="/soluciones-financieras/tarjetas-de-credito-sin-anualidad"
+                    title="Tarjetas de crédito"
+                    className="text-blue-600 hover:underline"
+                  >
+                    tarjetas de crédito
+                  </Link>
+                  ). Considera la consolidación de deudas si tienes varios
+                  créditos. Entender el{" "}
                   <Link
                     href="/finanzas-personales/que-es-el-score-crediticio-y-por-que-es-tan-importante"
                     className="text-blue-600 hover:underline"
@@ -189,15 +197,21 @@ export default function FinanzasPersonales10ReglasOroPage() {
                   7. Revisa Regularmente tu Buró de Crédito
                 </h2>
                 <p className="text-left sm:text-left text-gray-800 mb-4 text-sm leading-6 font-light">
-                  <Link href="/soluciones-financieras/historial-crediticio" title="Historial crediticio" className="text-blue-600 hover:underline">Tu historial crediticio</Link> es tu carta de presentación ante las
-                  instituciones financieras. Un buen historial te abre las
-                  puertas a mejores condiciones en créditos hipotecarios,
-                  automotrices y personales. En México, puedes consultar tu
-                  Reporte de Crédito Especial de forma gratuita una vez al año a
-                  través de las Sociedades de Información Crediticia (Buró de
-                  Crédito y Círculo de Crédito). Revisa que toda la información
-                  sea correcta y, si encuentras errores, solicita una
-                  aclaración.
+                  <Link
+                    href="/soluciones-financieras/historial-crediticio"
+                    title="Historial crediticio"
+                    className="text-blue-600 hover:underline"
+                  >
+                    Tu historial crediticio
+                  </Link>{" "}
+                  es tu carta de presentación ante las instituciones
+                  financieras. Un buen historial te abre las puertas a mejores
+                  condiciones en créditos hipotecarios, automotrices y
+                  personales. En México, puedes consultar tu Reporte de Crédito
+                  Especial de forma gratuita una vez al año a través de las
+                  Sociedades de Información Crediticia (Buró de Crédito y
+                  Círculo de Crédito). Revisa que toda la información sea
+                  correcta y, si encuentras errores, solicita una aclaración.
                 </p>
               </section>
 

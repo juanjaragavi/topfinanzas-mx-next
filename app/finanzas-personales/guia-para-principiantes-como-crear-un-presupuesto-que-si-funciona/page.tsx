@@ -170,13 +170,14 @@ export default function PresupuestoPrincipiantesPage() {
                   </h3>
                   <p className="text-sm text-blue-800">
                     Al planificar tus gastos, es mucho más difícil caer en la
-                    tentación de usar la <Link
+                    tentación de usar la{" "}
+                    <Link
                       href="/soluciones-financieras/tarjetas-de-credito-sin-anualidad"
                       className="text-blue-600 hover:underline"
                     >
                       tarjeta de crédito
-                    </Link> para compras que no
-                    puedes permitirte.
+                    </Link>{" "}
+                    para compras que no puedes permitirte.
                   </p>
                 </div>
                 <div className="bg-blue-50 p-6 rounded-xl">

@@ -79,7 +79,14 @@ export default function FondoEmergenciaPage() {
               urgencia o te enfrentas a un gasto médico que no tenías en el
               radar. ¿La primera reacción? El temido «tarjetazo». Si esta
               situación te suena familiar, necesitas conocer al superhéroe de
-              tus <Link href="/finanzas-personales" className="text-blue-600 hover:underline">finanzas personales</Link>: el fondo de emergencia.
+              tus{" "}
+              <Link
+                href="/finanzas-personales"
+                className="text-blue-600 hover:underline"
+              >
+                finanzas personales
+              </Link>
+              : el fondo de emergencia.
             </p>
 
             <p className="mb-8">
@@ -297,7 +304,14 @@ export default function FondoEmergenciaPage() {
                     ¿Recibiste un bono, un aumento o un dinero extra? Antes de
                     pensar en cómo gastarlo, destina una parte a tu fondo de
                     emergencia. Esto te ayudará a alcanzar tu meta mucho más
-                    rápido y aprovechar el <Link href="/finanzas-personales/la-magia-del-interes-compuesto-como-hacer-que-tu-dinero-crezca-solo" className="text-blue-600 hover:underline">interés compuesto</Link>.
+                    rápido y aprovechar el{" "}
+                    <Link
+                      href="/finanzas-personales/la-magia-del-interes-compuesto-como-hacer-que-tu-dinero-crezca-solo"
+                      className="text-blue-600 hover:underline"
+                    >
+                      interés compuesto
+                    </Link>
+                    .
                   </p>
                 </div>
               </div>

@@ -80,10 +80,12 @@ export default function LasMejoresTarjetasBlackFridayPage() {
                       href="/soluciones-financieras/cashback"
                       className="text-blue-600 hover:underline"
                     >
-                      {" "}cashback
-                    </Link>. Algunas tarjetas te devuelven desde el 1% hasta el
-                    5% de tus compras en categorías específicas o en general.
-                    ¡Es dinero gratis solo por comprar! Mira{" "}
+                      {" "}
+                      cashback
+                    </Link>
+                    . Algunas tarjetas te devuelven desde el 1% hasta el 5% de
+                    tus compras en categorías específicas o en general. ¡Es
+                    dinero gratis solo por comprar! Mira{" "}
                     <Link
                       href="/finanzas-personales/las-mejores-tarjetas-de-credito-con-cashback-en-mexico-guia-definitiva/"
                       className="text-blue-600 hover:underline"
@@ -107,16 +109,17 @@ export default function LasMejoresTarjetasBlackFridayPage() {
                   </li>
                   <li className="mb-2">
                     <strong>Programa de Puntos o Recompensas:</strong> Cada
-                    compra que haces acumula <Link
+                    compra que haces acumula{" "}
+                    <Link
                       href="/soluciones-financieras/puntos"
                       className="text-blue-600 hover:underline"
                     >
                       puntos
-                    </Link> que después puedes canjear
-                    por productos, boletos de avión, certificados de regalo y
-                    más. Durante el Black Friday, tus gastos pueden ayudarte a
-                    juntar una buena cantidad de puntos para tus próximas
-                    vacaciones o regalos de Navidad.
+                    </Link>{" "}
+                    que después puedes canjear por productos, boletos de avión,
+                    certificados de regalo y más. Durante el Black Friday, tus
+                    gastos pueden ayudarte a juntar una buena cantidad de puntos
+                    para tus próximas vacaciones o regalos de Navidad.
                   </li>
                   <li className="mb-2">
                     <strong>Seguros y Garantías Extendidas:</strong> Un

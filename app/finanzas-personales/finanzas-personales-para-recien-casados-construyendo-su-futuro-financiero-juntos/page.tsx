@@ -213,7 +213,22 @@ export default function FinanzasPersonalesRecienCasadosPage() {
                 </p>
                 <ul className="list-disc list-inside text-gray-800 mb-4 text-sm leading-6 font-light space-y-2">
                   <li>
-                    Eliminar deudas de <Link href="/soluciones-financieras/tarjetas-de-credito-sin-anualidad" title="Tarjetas de crédito" className="text-blue-600 hover:underline">tarjetas de crédito</Link> con alto <Link href="/finanzas-personales/cat-en-tarjetas-de-credito" title="CAT" className="text-blue-600 hover:underline">CAT (Costo Anual Total)</Link>
+                    Eliminar deudas de{" "}
+                    <Link
+                      href="/soluciones-financieras/tarjetas-de-credito-sin-anualidad"
+                      title="Tarjetas de crédito"
+                      className="text-blue-600 hover:underline"
+                    >
+                      tarjetas de crédito
+                    </Link>{" "}
+                    con alto{" "}
+                    <Link
+                      href="/finanzas-personales/cat-en-tarjetas-de-credito"
+                      title="CAT"
+                      className="text-blue-600 hover:underline"
+                    >
+                      CAT (Costo Anual Total)
+                    </Link>
                   </li>
                   <li>Ahorrar para el enganche de una vivienda</li>
                   <li>Construir fondos educativos para los hijos</li>

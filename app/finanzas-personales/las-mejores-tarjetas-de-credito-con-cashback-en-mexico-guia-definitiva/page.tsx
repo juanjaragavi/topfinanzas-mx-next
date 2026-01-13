@@ -35,16 +35,18 @@ export default function TarjetasCashbackPage() {
             <div className="my-8 text-left sm:text-left">
               <p className="text-left sm:text-left text-lg text-gray-800 mb-4 leading-6">
                 ¿Te imaginas que te devolvieran un porcentaje de todo el dinero
-                que gastas con tu <Link
+                que gastas con tu{" "}
+                <Link
                   href="/soluciones-financieras/tarjetas-de-credito-sin-anualidad"
                   className="text-blue-600 hover:underline"
                 >
                   tarjeta de crédito
-                </Link>? Pues de eso se trata el
-                cashback. En un mundo donde buscamos maximizar cada peso, las
-                tarjetas con cashback se han convertido en una herramienta de
-                finanzas personales increíblemente popular en México. No son
-                puntos, no son millas, es dinero real que regresa a tu bolsillo.
+                </Link>
+                ? Pues de eso se trata el cashback. En un mundo donde buscamos
+                maximizar cada peso, las tarjetas con cashback se han convertido
+                en una herramienta de finanzas personales increíblemente popular
+                en México. No son puntos, no son millas, es dinero real que
+                regresa a tu bolsillo.
               </p>
               <p className="text-left sm:text-left text-lg text-gray-800 mb-4 leading-6">
                 Pero con tantas opciones en el mercado, elegir la correcta puede
@@ -74,17 +76,19 @@ export default function TarjetasCashbackPage() {
                   ¿Qué es el Cashback y Cómo Funciona?
                 </h2>
                 <p className="text-left sm:text-left text-gray-800 mb-4 text-sm leading-6 font-light">
-                  El término «<Link
+                  El término «
+                  <Link
                     href="/soluciones-financieras/cashback"
                     className="text-blue-600 hover:underline"
                   >
                     cashback
-                  </Link>» significa literalmente «dinero de
-                  vuelta». Es un programa de recompensas que ofrecen algunas
-                  tarjetas de crédito, donde el banco te reembolsa un pequeño
-                  porcentaje del total de tus compras. Por ejemplo, si tu
-                  tarjeta ofrece un 2% de cashback y gastas $1,000 pesos en el
-                  supermercado, recibirás $20 pesos de vuelta.
+                  </Link>
+                  » significa literalmente «dinero de vuelta». Es un programa de
+                  recompensas que ofrecen algunas tarjetas de crédito, donde el
+                  banco te reembolsa un pequeño porcentaje del total de tus
+                  compras. Por ejemplo, si tu tarjeta ofrece un 2% de cashback y
+                  gastas $1,000 pesos en el supermercado, recibirás $20 pesos de
+                  vuelta.
                 </p>
                 <p className="text-left sm:text-left text-gray-800 mb-4 text-sm leading-6 font-light">
                   Este dinero acumulado generalmente se deposita en tu misma

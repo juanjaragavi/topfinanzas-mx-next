@@ -152,9 +152,16 @@ export default function CatTarjetasPage() {
                   es un cálculo basado en un perfil de cliente promedio y
                   condiciones estándar. Sin embargo, el "CAT Personalizado" es
                   el que realmente se aplicará a tu contrato, basado en tu
-                  <Link href="/soluciones-financieras/historial-crediticio" title="Historial crediticio" className="text-blue-600 hover:underline">historial crediticio</Link>, línea de crédito otorgada y otros
-                  factores individuales. Siempre verifica el CAT que se aplicará
-                  específicamente a tu caso.
+                  <Link
+                    href="/soluciones-financieras/historial-crediticio"
+                    title="Historial crediticio"
+                    className="text-blue-600 hover:underline"
+                  >
+                    historial crediticio
+                  </Link>
+                  , línea de crédito otorgada y otros factores individuales.
+                  Siempre verifica el CAT que se aplicará específicamente a tu
+                  caso.
                 </p>
               </section>
 
