@@ -292,7 +292,11 @@ export default function RequisitosPrestamosYoteprestoPage() {
         </div>
       </article>
 
-      <RelatedPosts currentSlug="requisitos-prestamos-con-yotepresto" />
+      <RelatedPosts
+        currentSlug="requisitos-prestamos-con-yotepresto"
+        category="soluciones-financieras"
+        subCategory="loans"
+      />
       <AIContentDisclaimer />
       <CompactFooter />
     </main>

@@ -51,6 +51,15 @@ export default function RequisitosTarjetaAzulBBVAPage() {
               Requisitos para la Tarjeta de Crédito Azul BBVA
             </h1>
 
+            <div className="mt-8 mb-8">
+              <Link
+                href="/soluciones-financieras/tarjeta-de-credito-azul-bbva"
+                className="text-blue-600 hover:underline"
+              >
+                Volver al análisis de Tarjeta Azul BBVA
+              </Link>
+            </div>
+
             <div
               id="square03"
               data-topads
@@ -59,15 +68,11 @@ export default function RequisitosTarjetaAzulBBVAPage() {
             ></div>
 
             {/* Intro Section */}
-            La Tarjeta de Crédito Azul de BBVA es una opción ideal para los
-            que están empezando a construir su crédito o aquellos que buscan
-            maximizar las recompensas por sus gastos cotidianos.{" "}
-            <Link
-              href="/soluciones-financieras/tarjeta-de-credito-azul-bbva"
-              className="text-blue-600 hover:underline"
-            >
-              Lee nuestra reseña completa aquí.
-            </Link>
+            <p className="text-lg text-gray-700 mb-6 font-normal">
+              La Tarjeta de Crédito Azul de BBVA es una opción ideal para los
+              que están empezando a construir su crédito o aquellos que buscan
+              maximizar las recompensas por sus gastos cotidianos.
+            </p>
 
             {/* Image 1 */}
             <div className="my-8">
@@ -362,16 +367,16 @@ export default function RequisitosTarjetaAzulBBVAPage() {
               </Link>
             </div>
 
+            <RelatedPosts
+              currentSlug="requisitos-tarjeta-de-credito-azul-bbva"
+              category="soluciones-financieras"
+              subCategory="creditCards"
+            />
+
             <AIContentDisclaimer />
           </div>
         </div>
       </article>
-
-      <RelatedPosts
-        currentSlug="requisitos-tarjeta-de-credito-azul-bbva"
-        category="soluciones-financieras"
-        subCategory="creditCards"
-      />
 
       <CompactFooter />
     </main>

@@ -1,5 +1,6 @@
 import { Header } from "@/components/layout/header";
 import { CompactFooter } from "@/components/layout/compact-footer";
+import { RelatedPosts } from "@/components/blog/related-posts";
 import { AIContentDisclaimer } from "@/components/ui/ai-content-disclaimer";
 import { ActionBanner } from "@/components/ui/action-banner";
 import Image from "next/image";
@@ -371,11 +372,25 @@ export default function RequisitosHSBCZeroPage() {
               </Link>
             </div>
 
+            <div className="mt-8 mb-8">
+              <Link
+                href="/soluciones-financieras/tarjeta-hsbc-zero"
+                className="text-red-600 hover:underline"
+              >
+                Volver al análisis de Tarjeta HSBC Zero
+              </Link>
+            </div>
+
             <AIContentDisclaimer />
           </div>
         </div>
       </article>
 
+      <RelatedPosts
+        currentSlug="requisitos-tarjeta-hsbc-zero"
+        category="soluciones-financieras"
+        subCategory="creditCards"
+      />
       <CompactFooter />
     </main>
   );

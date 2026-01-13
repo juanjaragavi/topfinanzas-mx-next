@@ -394,7 +394,11 @@ export default function RequisitosPrestamosDidiPage() {
         </div>
       </article>
 
-      <RelatedPosts currentSlug="requisitos-prestamos-didi" />
+      <RelatedPosts
+        currentSlug="requisitos-prestamos-didi"
+        category="soluciones-financieras"
+        subCategory="loans"
+      />
       <CompactFooter />
     </main>
   );

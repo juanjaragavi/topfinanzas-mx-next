@@ -2,6 +2,7 @@ import { Header } from "@/components/layout/header";
 import { CompactFooter } from "@/components/layout/compact-footer";
 import { AIContentDisclaimer } from "@/components/ui/ai-content-disclaimer";
 import { ActionBanner } from "@/components/ui/action-banner";
+import { RelatedPosts } from "@/components/blog/related-posts";
 import Image from "next/image";
 import Link from "next/link";
 import { Metadata } from "next";
@@ -50,6 +51,15 @@ export default function RequisitosGoldCardAmexAeromexicoPage() {
             <h1 className="text-4xl md:text-4xl font-bold text-gray-700 mb-6 leading-8">
               Conoce los requisitos Gold Card American Express® Aeroméxico
             </h1>
+
+            <div className="mt-8 mb-8">
+              <Link
+                href="/soluciones-financieras/gold-card-american-express-aeromexico"
+                className="text-blue-600 hover:underline"
+              >
+                Volver al análisis de Gold Card Amex Aeroméxico
+              </Link>
+            </div>
 
             <div
               id="square03"
@@ -472,6 +482,12 @@ export default function RequisitosGoldCardAmexAeromexicoPage() {
                 Solicitar ahora
               </Link>
             </div>
+
+            <RelatedPosts
+              currentSlug="requisitos-gold-card-american-express-aeromexico"
+              category="soluciones-financieras"
+              subCategory="creditCards"
+            />
           </div>
         </div>
       </article>

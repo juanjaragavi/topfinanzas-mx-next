@@ -301,7 +301,11 @@ export default function RequisitosPrestamoSoyClairePage() {
         </div>
       </article>
 
-      <RelatedPosts currentSlug="requisitos-prestamos-soy-claire" />
+      <RelatedPosts
+        currentSlug="requisitos-prestamos-soy-claire"
+        category="soluciones-financieras"
+        subCategory="loans"
+      />
       <CompactFooter />
     </main>
   );

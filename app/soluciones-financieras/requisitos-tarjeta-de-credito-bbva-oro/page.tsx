@@ -52,6 +52,15 @@ export default function RequisitosTarjetaBBVAOroPage() {
               Requisitos para solicitar la tarjeta de crédito BBVA Oro
             </h1>
 
+            <div className="mt-8 mb-8">
+              <Link
+                href="/soluciones-financieras/analisis-tarjeta-de-credito-bbva-oro"
+                className="text-blue-600 hover:underline"
+              >
+                Volver al análisis de Tarjeta BBVA Oro
+              </Link>
+            </div>
+
             <div
               id="square03"
               data-topads
@@ -65,14 +74,7 @@ export default function RequisitosTarjetaBBVAOroPage() {
               populares y versátiles que ofrece el banco BBVA en México. Está
               diseñada para usuarios que buscan obtener mayores beneficios, como
               recompensas, seguros de protección, y acceso a promociones
-              exclusivas. Para más detalles, consulta el{" "}
-              <Link
-                href="/soluciones-financieras/analisis-tarjeta-de-credito-bbva-oro"
-                className="text-blue-600 hover:underline"
-              >
-                análisis completo de la tarjeta BBVA Oro
-              </Link>
-              .
+              exclusivas.
             </p>
 
             <p className="text-lg text-gray-700 mb-6 font-normal">
@@ -481,16 +483,16 @@ export default function RequisitosTarjetaBBVAOroPage() {
               </Link>
             </div>
 
+            <RelatedPosts
+              currentSlug="requisitos-tarjeta-de-credito-bbva-oro"
+              category="soluciones-financieras"
+              subCategory="creditCards"
+            />
+
             <AIContentDisclaimer />
           </div>
         </div>
       </article>
-
-      <RelatedPosts
-        currentSlug="requisitos-tarjeta-de-credito-bbva-oro"
-        category="soluciones-financieras"
-        subCategory="creditCards"
-      />
 
       <CompactFooter />
     </main>

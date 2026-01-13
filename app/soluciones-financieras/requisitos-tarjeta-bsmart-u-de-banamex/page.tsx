@@ -2,6 +2,7 @@ import { Header } from "@/components/layout/header";
 import { CompactFooter } from "@/components/layout/compact-footer";
 import { AIContentDisclaimer } from "@/components/ui/ai-content-disclaimer";
 import { ActionBanner } from "@/components/ui/action-banner";
+import { RelatedPosts } from "@/components/blog/related-posts";
 import Image from "next/image";
 import Link from "next/link";
 import { Metadata } from "next";
@@ -49,6 +50,15 @@ export default function RequisitosTarjetaBsmartUBanamexPage() {
             <h1 className="text-4xl md:text-4xl font-bold text-gray-700 mb-6 leading-8">
               Requisitos para solicitar la tarjeta Bsmart U de Banamex
             </h1>
+
+            <div className="mt-8 mb-8">
+              <Link
+                href="/soluciones-financieras/tarjeta-bsmart-u-de-banamex"
+                className="text-sky-600 hover:underline"
+              >
+                Volver al análisis de Tarjeta Bsmart U
+              </Link>
+            </div>
 
             <div
               id="square03"
@@ -374,6 +384,12 @@ export default function RequisitosTarjetaBsmartUBanamexPage() {
               tu historial crediticio y aprovechar ventajas exclusivas, la
               tarjeta Bsmart U de Banamex es una gran opción.
             </p>
+
+            <RelatedPosts
+              currentSlug="requisitos-tarjeta-bsmart-u-de-banamex"
+              category="soluciones-financieras"
+              subCategory="creditCards"
+            />
 
             <AIContentDisclaimer />
           </div>

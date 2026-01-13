@@ -2,6 +2,7 @@ import { Header } from "@/components/layout/header";
 import { CompactFooter } from "@/components/layout/compact-footer";
 import { AIContentDisclaimer } from "@/components/ui/ai-content-disclaimer";
 import { ActionBanner } from "@/components/ui/action-banner";
+import { RelatedPosts } from "@/components/blog/related-posts";
 import Image from "next/image";
 import Link from "next/link";
 import { Metadata } from "next";
@@ -50,6 +51,15 @@ export default function RequisitosTarjetaLikeUSantanderPage() {
             <h1 className="text-4xl md:text-4xl font-bold text-gray-700 mb-6 leading-8">
               Requisitos de la tarjeta de crédito Santander LikeU
             </h1>
+
+            <div className="mt-8 mb-8">
+              <Link
+                href="/soluciones-financieras/tarjeta-de-credito-likeu-de-santander"
+                className="text-red-600 hover:underline"
+              >
+                Volver al análisis de Tarjeta LikeU Santander
+              </Link>
+            </div>
 
             <div
               id="square03"
@@ -343,6 +353,12 @@ export default function RequisitosTarjetaLikeUSantanderPage() {
                 Solicitar ahora
               </Link>
             </div>
+
+            <RelatedPosts
+              currentSlug="requisitos-tarjeta-de-credito-santander-likeu"
+              category="soluciones-financieras"
+              subCategory="creditCards"
+            />
           </div>
         </div>
       </article>

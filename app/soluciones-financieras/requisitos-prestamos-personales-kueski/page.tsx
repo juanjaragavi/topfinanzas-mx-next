@@ -341,7 +341,11 @@ export default function RequisitosPrestamosKueskiPage() {
         </div>
       </article>
 
-      <RelatedPosts currentSlug="requisitos-prestamos-personales-kueski" />
+      <RelatedPosts
+        currentSlug="requisitos-prestamos-personales-kueski"
+        category="soluciones-financieras"
+        subCategory="loans"
+      />
       <CompactFooter />
     </main>
   );

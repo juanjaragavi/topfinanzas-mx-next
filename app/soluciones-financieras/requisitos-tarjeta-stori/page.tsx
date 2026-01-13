@@ -392,6 +392,12 @@ export default function RequisitosTarjetaStoriPage() {
         </div>
       </article>
 
+      <RelatedPosts
+        currentSlug="requisitos-tarjeta-stori"
+        category="soluciones-financieras"
+        subCategory="creditCards"
+      />
+
       <CompactFooter />
     </main>
   );

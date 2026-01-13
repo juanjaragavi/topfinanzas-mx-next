@@ -377,7 +377,11 @@ export default function RequisitosBaubapPage() {
         </div>
       </article>
 
-      <RelatedPosts currentSlug="requisitos-prestamos-baubap" />
+      <RelatedPosts
+        currentSlug="requisitos-prestamos-baubap"
+        category="soluciones-financieras"
+        subCategory="loans"
+      />
       <CompactFooter />
     </main>
   );

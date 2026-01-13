@@ -2,6 +2,8 @@ import { Header } from "@/components/layout/header";
 import { CompactFooter } from "@/components/layout/compact-footer";
 import { AIContentDisclaimer } from "@/components/ui/ai-content-disclaimer";
 import { ActionBanner } from "@/components/ui/action-banner";
+import { RelatedPosts } from "@/components/blog/related-posts";
+import { ArrowLeft } from "lucide-react";
 import Image from "next/image";
 import Link from "next/link";
 import { Metadata } from "next";
@@ -50,6 +52,16 @@ export default function RequisitosTarjetaTigresAfirmePage() {
             <h1 className="text-4xl md:text-4xl font-bold text-gray-700 mb-6 leading-8">
               Requisitos para la Tarjeta de Crédito Tigres Afirme
             </h1>
+
+            <div className="mt-8 mb-8">
+              <Link
+                href="/soluciones-financieras/tarjeta-de-credito-tigres-afirme"
+                className="inline-flex items-center text-green-600 hover:text-green-800 transition-colors font-semibold" // Using Green for Tigres/Afirme
+              >
+                <ArrowLeft className="mr-2 h-4 w-4" />
+                Volver al análisis de la Tarjeta Tigres Afirme
+              </Link>
+            </div>
 
             <div
               id="square03"
@@ -410,6 +422,12 @@ export default function RequisitosTarjetaTigresAfirmePage() {
                 Solicitar ahora
               </Link>
             </div>
+
+            <RelatedPosts
+              currentSlug="requisitos-tarjeta-de-credito-tigres-afirme"
+              category="soluciones-financieras"
+              subCategory="creditCards"
+            />
 
             <AIContentDisclaimer />
           </div>

@@ -331,7 +331,11 @@ export default function RequisitosLimePage() {
         </div>
       </article>
 
-      <RelatedPosts currentSlug="requisitos-prestamos-lime" />
+      <RelatedPosts
+        currentSlug="requisitos-prestamos-lime"
+        category="soluciones-financieras"
+        subCategory="loans"
+      />
       <CompactFooter />
     </main>
   );

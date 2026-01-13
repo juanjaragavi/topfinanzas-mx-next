@@ -361,7 +361,11 @@ export default function RequisitosKuboPage() {
         </div>
       </article>
 
-      <RelatedPosts currentSlug="requisitos-prestamos-personal-kubo-financiero" />
+      <RelatedPosts
+        currentSlug="requisitos-prestamos-personal-kubo-financiero"
+        category="soluciones-financieras"
+        subCategory="loans"
+      />
       <CompactFooter />
     </main>
   );

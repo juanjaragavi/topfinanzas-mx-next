@@ -425,7 +425,7 @@ export default function RequisitosPrestamosPrestaderoPage() {
                 Ver en sitio oficial
               </Link>
             </div>
-            
+
             <div className="mt-8 mb-8">
               <Link
                 href="/soluciones-financieras/prestamos-prestadero"
@@ -434,13 +434,17 @@ export default function RequisitosPrestamosPrestaderoPage() {
                 Volver al análisis de Préstamos Prestadero
               </Link>
             </div>
-            
+
             <AIContentDisclaimer />
           </div>
         </div>
       </article>
 
-      <RelatedPosts currentSlug="requisitos-prestamos-prestadero" />
+      <RelatedPosts
+        currentSlug="requisitos-prestamos-prestadero"
+        category="soluciones-financieras"
+        subCategory="loans"
+      />
       <CompactFooter />
     </main>
   );

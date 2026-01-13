@@ -2,6 +2,7 @@ import { Header } from "@/components/layout/header";
 import { CompactFooter } from "@/components/layout/compact-footer";
 import { AIContentDisclaimer } from "@/components/ui/ai-content-disclaimer";
 import { ActionBanner } from "@/components/ui/action-banner";
+import { RelatedPosts } from "@/components/blog/related-posts";
 import Image from "next/image";
 import Link from "next/link";
 import { Metadata } from "next";
@@ -49,6 +50,15 @@ export default function RequisitosTarjetaMercadoPagoPage() {
             <h1 className="text-4xl md:text-4xl font-bold text-gray-700 mb-6 leading-8">
               Requisitos para solicitar la tarjeta Mercado Pago
             </h1>
+
+            <div className="mt-8 mb-8">
+              <Link
+                href="/soluciones-financieras/tarjeta-de-credito-mercado-pago"
+                className="text-sky-600 hover:underline"
+              >
+                Volver al análisis de Tarjeta Mercado Pago
+              </Link>
+            </div>
 
             {/* Ad Unit: square03 */}
             <div
@@ -458,6 +468,11 @@ export default function RequisitosTarjetaMercadoPagoPage() {
               </button>
             </Link>
 
+            <RelatedPosts
+              currentSlug="requisitos-tarjeta-de-credito-mercado-pago"
+              category="soluciones-financieras"
+              subCategory="creditCards"
+            />
             <AIContentDisclaimer />
           </div>
         </div>

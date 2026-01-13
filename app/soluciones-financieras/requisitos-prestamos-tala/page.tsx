@@ -346,7 +346,11 @@ export default function RequisitosTalaPage() {
         </div>
       </article>
 
-      <RelatedPosts currentSlug="requisitos-prestamos-tala" />
+      <RelatedPosts
+        currentSlug="requisitos-prestamos-tala"
+        category="soluciones-financieras"
+        subCategory="loans"
+      />
       <CompactFooter />
     </main>
   );

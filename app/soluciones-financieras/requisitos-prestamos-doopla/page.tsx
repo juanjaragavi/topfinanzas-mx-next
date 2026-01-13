@@ -334,7 +334,11 @@ export default function RequisitosPrestamosDooplaPage() {
         </div>
       </article>
 
-      <RelatedPosts currentSlug="requisitos-prestamos-doopla" />
+      <RelatedPosts
+        currentSlug="requisitos-prestamos-doopla"
+        category="soluciones-financieras"
+        subCategory="loans"
+      />
       <CompactFooter />
     </main>
   );

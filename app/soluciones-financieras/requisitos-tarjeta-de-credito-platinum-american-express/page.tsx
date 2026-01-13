@@ -2,6 +2,7 @@ import { Header } from "@/components/layout/header";
 import { CompactFooter } from "@/components/layout/compact-footer";
 import { AIContentDisclaimer } from "@/components/ui/ai-content-disclaimer";
 import { ActionBanner } from "@/components/ui/action-banner";
+import { RelatedPosts } from "@/components/blog/related-posts";
 import Image from "next/image";
 import Link from "next/link";
 import { Metadata } from "next";
@@ -51,6 +52,15 @@ export default function RequisitosTarjetaPlatinumAmexPage() {
               Requisitos para solicitar la tarjeta de Crédito Platinum American
               Express
             </h1>
+
+            <div className="mt-8 mb-8">
+              <Link
+                href="/soluciones-financieras/tarjeta-de-credito-platinum-american-express"
+                className="text-blue-600 hover:underline"
+              >
+                Volver al análisis de Tarjeta Platinum Amex
+              </Link>
+            </div>
 
             <div
               id="square03"
@@ -387,6 +397,12 @@ export default function RequisitosTarjetaPlatinumAmexPage() {
                 Ver en sitio oficial
               </Link>
             </div>
+
+            <RelatedPosts
+              currentSlug="requisitos-tarjeta-de-credito-platinum-american-express"
+              category="soluciones-financieras"
+              subCategory="creditCards"
+            />
 
             <AIContentDisclaimer />
           </div>

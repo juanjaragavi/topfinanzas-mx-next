@@ -1,5 +1,6 @@
 import { Header } from "@/components/layout/header";
 import { CompactFooter } from "@/components/layout/compact-footer";
+import { RelatedPosts } from "@/components/blog/related-posts";
 import { AIContentDisclaimer } from "@/components/ui/ai-content-disclaimer";
 import { ActionBanner } from "@/components/ui/action-banner";
 import Image from "next/image";
@@ -362,11 +363,25 @@ export default function RequisitosTarjetaSantanderAeromexicoPlatinumPage() {
               </button>
             </Link>
 
+            <div className="mt-8 mb-8">
+              <Link
+                href="/soluciones-financieras/tarjeta-santander-aeromexico-platinum"
+                className="text-red-600 hover:underline"
+              >
+                Volver al análisis de Tarjeta Santander Aeroméxico Platinum
+              </Link>
+            </div>
+
             <AIContentDisclaimer />
           </div>
         </div>
       </article>
 
+      <RelatedPosts
+        currentSlug="requisitos-tarjeta-santander-aeromexico-platinum"
+        category="soluciones-financieras"
+        subCategory="creditCards"
+      />
       <CompactFooter />
     </main>
   );

@@ -335,7 +335,11 @@ export default function RequisitosPrestamosVivusPage() {
         </div>
       </article>
 
-      <RelatedPosts currentSlug="requisitos-prestamos-vivus-mexico" />
+      <RelatedPosts
+        currentSlug="requisitos-prestamos-vivus-mexico"
+        category="soluciones-financieras"
+        subCategory="loans"
+      />
       <CompactFooter />
     </main>
   );

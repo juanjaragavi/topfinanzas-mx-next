@@ -319,7 +319,11 @@ export default function RequisitosLaTasaPage() {
         </div>
       </article>
 
-      <RelatedPosts currentSlug="requisitos-prestamos-la-tasa" />
+      <RelatedPosts
+        currentSlug="requisitos-prestamos-la-tasa"
+        category="soluciones-financieras"
+        subCategory="loans"
+      />
       <CompactFooter />
     </main>
   );

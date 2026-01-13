@@ -394,7 +394,11 @@ export default function RequisitosPrestamosAfluentaPage() {
         </div>
       </article>
 
-      <RelatedPosts currentSlug="requisitos-prestamos-afluenta" />
+      <RelatedPosts
+        currentSlug="requisitos-prestamos-afluenta"
+        category="soluciones-financieras"
+        subCategory="loans"
+      />
       <CompactFooter />
     </main>
   );

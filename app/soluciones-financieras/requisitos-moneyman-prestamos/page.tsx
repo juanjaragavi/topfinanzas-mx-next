@@ -331,7 +331,11 @@ export default function RequisitosMoneymanPrestamosPage() {
         </div>
       </article>
 
-      <RelatedPosts currentSlug="requisitos-moneyman-prestamos" />
+      <RelatedPosts
+        currentSlug="requisitos-moneyman-prestamos"
+        category="soluciones-financieras"
+        subCategory="loans"
+      />
       <CompactFooter />
     </main>
   );

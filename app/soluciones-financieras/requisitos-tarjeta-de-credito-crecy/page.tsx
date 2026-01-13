@@ -2,6 +2,7 @@ import { Header } from "@/components/layout/header";
 import { CompactFooter } from "@/components/layout/compact-footer";
 import { AIContentDisclaimer } from "@/components/ui/ai-content-disclaimer";
 import { ActionBanner } from "@/components/ui/action-banner";
+import { RelatedPosts } from "@/components/blog/related-posts";
 import Image from "next/image";
 import Link from "next/link";
 import { Metadata } from "next";
@@ -50,6 +51,15 @@ export default function RequisitosTarjetaCrecyPage() {
             <h1 className="text-4xl md:text-4xl font-bold text-gray-700 mb-6 leading-8">
               Requisitos para solicitar la tarjeta de crédito Crecy
             </h1>
+
+            <div className="mt-8 mb-8">
+              <Link
+                href="/soluciones-financieras/tarjeta-de-credito-crecy"
+                className="text-purple-900 hover:underline"
+              >
+                Volver al análisis de Tarjeta de Crédito Crecy
+              </Link>
+            </div>
 
             <div
               id="square03"
@@ -470,6 +480,11 @@ export default function RequisitosTarjetaCrecyPage() {
               </Link>
             </div>
 
+            <RelatedPosts
+              currentSlug="requisitos-tarjeta-de-credito-crecy"
+              category="soluciones-financieras"
+              subCategory="creditCards"
+            />
             <AIContentDisclaimer />
           </div>
         </div>

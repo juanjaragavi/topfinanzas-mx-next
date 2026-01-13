@@ -470,6 +470,6 @@ export default function RequisitosTarjetaPlataCardPage() {
       />
 
       <CompactFooter />
-    </main >
+    </main>
   );
 }

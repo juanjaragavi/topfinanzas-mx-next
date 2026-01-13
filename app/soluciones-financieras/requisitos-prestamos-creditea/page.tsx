@@ -388,7 +388,11 @@ export default function RequisitosPrestamosCrediteaPage() {
         </div>
       </article>
 
-      <RelatedPosts currentSlug="requisitos-prestamos-creditea" />
+      <RelatedPosts
+        currentSlug="requisitos-prestamos-creditea"
+        category="soluciones-financieras"
+        subCategory="loans"
+      />
       <CompactFooter />
     </main>
   );

@@ -400,7 +400,11 @@ export default function RequisitosPrestamosDigittPage() {
         </div>
       </article>
 
-      <RelatedPosts currentSlug="requisitos-prestamos-digitt" />
+      <RelatedPosts
+        currentSlug="requisitos-prestamos-digitt"
+        category="soluciones-financieras"
+        subCategory="loans"
+      />
       <CompactFooter />
     </main>
   );

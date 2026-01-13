@@ -51,6 +51,15 @@ export default function RequisitosTarjetaHSBCVivaPage() {
               Requisitos de la tarjeta de crédito HSBC Viva
             </h1>
 
+            <div className="mt-8 mb-8">
+              <Link
+                href="/soluciones-financieras/tarjeta-de-credito-hsbc-viva"
+                className="text-red-600 hover:underline"
+              >
+                Volver al análisis de Tarjeta HSBC Viva
+              </Link>
+            </div>
+
             <div
               id="square03"
               data-topads
@@ -412,16 +421,16 @@ export default function RequisitosTarjetaHSBCVivaPage() {
               </Link>
             </div>
 
+            <RelatedPosts
+              currentSlug="requisitos-tarjeta-de-credito-hsbc-viva"
+              category="soluciones-financieras"
+              subCategory="creditCards"
+            />
+
             <AIContentDisclaimer />
           </div>
         </div>
       </article>
-
-      <RelatedPosts
-        currentSlug="requisitos-tarjeta-de-credito-hsbc-viva"
-        category="soluciones-financieras"
-        subCategory="creditCards"
-      />
 
       <CompactFooter />
     </main>

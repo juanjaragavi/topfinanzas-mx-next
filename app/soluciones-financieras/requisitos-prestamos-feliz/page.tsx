@@ -358,7 +358,11 @@ export default function RequisitosPrestamosFelizPage() {
         </div>
       </article>
 
-      <RelatedPosts currentSlug="requisitos-prestamos-feliz" />
+      <RelatedPosts
+        currentSlug="requisitos-prestamos-feliz"
+        category="soluciones-financieras"
+        subCategory="loans"
+      />
       <CompactFooter />
     </main>
   );

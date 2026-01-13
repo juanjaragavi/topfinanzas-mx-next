@@ -1,5 +1,8 @@
-feat: add RelatedPosts to remaining loan product pages
+refactor(soluciones): standardize Requirements pages and RelatedPosts props
 
-- Added RelatedPosts component to all remaining "Soluciones Financieras - Loans" product pages (credilikeme, creditea, prestadero, soy-claire, tala, vivus, didi, moneyman, ine, mejor-prestamo).
-- Ensured 100% coverage for loan product analysis pages.
-- Verified build consistency.
+- Updated all `RelatedPosts` invocations in `soluciones-financieras` to include mandatory `category` and `subCategory` props.
+- Refactored Remaining Credit Card Requirements pages (HSBC Viva, Klar, Klu, Mercado Pago, Nu, Platinum Amex, Tigres Afirme, Vexi Carnet) with standard layout:
+  - Added 'Back to Analysis' link with correct brand color.
+  - Injected `RelatedPosts` component.
+  - Cleaned up imports.
+- Fixed unused variable lint warning in `requisitos-tarjeta-stori`.

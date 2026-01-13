@@ -1,5 +1,6 @@
 import { Header } from "@/components/layout/header";
 import { CompactFooter } from "@/components/layout/compact-footer";
+import { RelatedPosts } from "@/components/blog/related-posts";
 import { AIContentDisclaimer } from "@/components/ui/ai-content-disclaimer";
 import { ActionBanner } from "@/components/ui/action-banner";
 import Image from "next/image";
@@ -465,11 +466,26 @@ export default function RequisitosTarjetaPlatinumBanregioPage() {
                 Solicitar ahora
               </Link>
             </div>
+
+            <div className="mt-8 mb-8">
+              <Link
+                href="/soluciones-financieras/banregio-platinum-analisis"
+                className="text-blue-600 hover:underline"
+              >
+                Volver al análisis de Tarjeta Platinum Banregio
+              </Link>
+            </div>
+
+            <AIContentDisclaimer />
           </div>
         </div>
       </article>
 
-      <AIContentDisclaimer />
+      <RelatedPosts
+        currentSlug="requisitos-tarjeta-platinum-de-banregio"
+        category="soluciones-financieras"
+        subCategory="creditCards"
+      />
       <CompactFooter />
     </main>
   );

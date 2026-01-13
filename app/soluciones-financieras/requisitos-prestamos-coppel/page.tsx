@@ -302,7 +302,11 @@ export default function RequisitosPrestamosCoppelPage() {
         </div>
       </article>
 
-      <RelatedPosts currentSlug="requisitos-prestamos-coppel" />
+      <RelatedPosts
+        currentSlug="requisitos-prestamos-coppel"
+        category="soluciones-financieras"
+        subCategory="loans"
+      />
       <CompactFooter />
     </main>
   );

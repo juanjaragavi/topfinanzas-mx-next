@@ -1,5 +1,6 @@
 import { Header } from "@/components/layout/header";
 import { CompactFooter } from "@/components/layout/compact-footer";
+import { RelatedPosts } from "@/components/blog/related-posts";
 import { AIContentDisclaimer } from "@/components/ui/ai-content-disclaimer";
 import { ActionBanner } from "@/components/ui/action-banner";
 import Image from "next/image";
@@ -438,6 +439,11 @@ export default function RequisitosTarjetaHsbc2NowPage() {
         </div>
       </article>
 
+      <RelatedPosts
+        currentSlug="requisitos-tarjeta-hsbc-2now"
+        category="soluciones-financieras"
+        subCategory="creditCards"
+      />
       <CompactFooter />
     </main>
   );

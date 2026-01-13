@@ -389,7 +389,11 @@ export default function RequisitosPrestamosCredilikemePage() {
         </div>
       </article>
 
-      <RelatedPosts currentSlug="requisitos-prestamos-credilikeme" />
+      <RelatedPosts
+        currentSlug="requisitos-prestamos-credilikeme"
+        category="soluciones-financieras"
+        subCategory="loans"
+      />
       <CompactFooter />
     </main>
   );
