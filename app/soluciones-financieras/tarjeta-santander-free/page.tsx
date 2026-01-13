@@ -4,6 +4,7 @@ import { AIContentDisclaimer } from "@/components/ui/ai-content-disclaimer";
 import Image from "next/image";
 import Link from "next/link";
 import { Metadata } from "next";
+import { RelatedPosts } from "@/components/blog/related-posts";
 
 export const metadata: Metadata = {
   title: "Beneficios destacados de la tarjeta Santander Free | Top Finanzas MX",
@@ -221,7 +222,7 @@ export default function TarjetaSantanderFreePage() {
               busca una tarjeta flexible, esta puede ser la opción adecuada para
               ti. Además, si estás buscando construir o mejorar tu{" "}
               <Link
-                href="/soluciones-financieras/historial-crediticio"
+                href="/finanzas-personales/que-es-el-score-crediticio-y-por-que-es-tan-importante"
                 title="Historial crediticio"
                 className="text-red-600 hover:underline"
               >
@@ -288,6 +289,12 @@ export default function TarjetaSantanderFreePage() {
           </div>
         </div>
       </article>
+
+      <RelatedPosts
+        currentSlug="tarjeta-santander-free"
+        category="soluciones-financieras"
+        subCategory="creditCards"
+      />
 
       <CompactFooter />
     </main>

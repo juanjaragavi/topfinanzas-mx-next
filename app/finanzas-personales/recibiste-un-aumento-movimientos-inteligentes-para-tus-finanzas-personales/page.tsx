@@ -10,6 +10,7 @@ import {
   PiggyBank,
   AlertTriangle,
 } from "lucide-react";
+import { RelatedPosts } from "@/components/blog/related-posts";
 
 export const metadata = {
   title:
@@ -367,6 +368,10 @@ export default function AumentoSueldoPage() {
           </div>
         </div>
       </section>
+      <RelatedPosts
+        currentSlug="recibiste-un-aumento-movimientos-inteligentes-para-tus-finanzas-personales"
+        category="finanzas-personales"
+      />
       <CompactFooter />
     </main>
   );

@@ -1,6 +1,7 @@
 import { Header } from "@/components/layout/header";
 import { CompactFooter } from "@/components/layout/compact-footer";
 import { AIContentDisclaimer } from "@/components/ui/ai-content-disclaimer";
+import { RelatedPosts } from "@/components/blog/related-posts";
 import Image from "next/image";
 import { Metadata } from "next";
 import Link from "next/link";
@@ -276,6 +277,10 @@ export default function AhorroInteligentePage() {
                 </p>
               </section>
             </div>
+            <RelatedPosts
+              currentSlug="ahorro-inteligente-estrategias-de-finanzas-personales-para-impulsar-tu-dinero"
+              category="finanzas-personales"
+            />
           </div>
         </div>
       </article>

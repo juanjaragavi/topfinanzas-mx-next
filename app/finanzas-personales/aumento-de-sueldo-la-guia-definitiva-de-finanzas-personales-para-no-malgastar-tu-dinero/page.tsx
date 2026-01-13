@@ -1,6 +1,7 @@
 import { Header } from "@/components/layout/header";
 import { CompactFooter } from "@/components/layout/compact-footer";
 import { AIContentDisclaimer } from "@/components/ui/ai-content-disclaimer";
+import { RelatedPosts } from "@/components/blog/related-posts";
 import Image from "next/image";
 import Link from "next/link";
 import { Metadata } from "next";
@@ -110,10 +111,10 @@ export default function AumentoDeSueldoPage() {
                     en{" "}
                     <Link
                       href="/soluciones-financieras/tarjetas-de-credito-sin-anualidad"
-                      title="Tarjetas de crédito"
+                      title="Tarjetas de crédito sin anualidad"
                       className="text-blue-600 hover:underline"
                     >
-                      tarjetas de crédito
+                      tarjetas de crédito sin anualidad
                     </Link>{" "}
                     o préstamos personales con tasas de interés altas, este es
                     el momento de atacarlas. Destinar una parte de tu aumento a
@@ -224,6 +225,10 @@ export default function AumentoDeSueldoPage() {
                 </p>
               </section>
             </div>
+            <RelatedPosts
+              currentSlug="aumento-de-sueldo-la-guia-definitiva-de-finanzas-personales-para-no-malgastar-tu-dinero"
+              category="finanzas-personales"
+            />
           </div>
         </div>
       </article>

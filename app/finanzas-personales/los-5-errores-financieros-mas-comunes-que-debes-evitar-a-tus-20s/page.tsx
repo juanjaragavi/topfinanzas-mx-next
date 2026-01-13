@@ -10,6 +10,7 @@ import {
   CreditCard,
   BookOpen,
 } from "lucide-react";
+import { RelatedPosts } from "@/components/blog/related-posts";
 
 export const metadata = {
   title:
@@ -246,12 +247,12 @@ export default function ErroresFinancieros20sPage() {
                     href="/soluciones-financieras/tarjetas-de-credito-sin-anualidad"
                     className="text-blue-600 hover:underline"
                   >
-                    tarjeta de crédito
+                    tarjeta de crédito sin anualidad
                   </Link>{" "}
                   como una herramienta, no como una extensión de tu sueldo.
                   Úsala para construir un buen
                   <Link
-                    href="/soluciones-financieras/historial-crediticio"
+                    href="/finanzas-personales/que-es-el-score-crediticio-y-por-que-es-tan-importante"
                     className="text-blue-600 hover:underline"
                   >
                     {" "}
@@ -421,6 +422,10 @@ export default function ErroresFinancieros20sPage() {
           </div>
         </div>
       </section>
+      <RelatedPosts
+        currentSlug="los-5-errores-financieros-mas-comunes-que-debes-evitar-a-tus-20s"
+        category="finanzas-personales"
+      />
       <CompactFooter />
     </main>
   );

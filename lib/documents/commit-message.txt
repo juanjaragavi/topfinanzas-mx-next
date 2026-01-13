@@ -1,6 +1,6 @@
-style(finanzas-personales): format JSX Link components for readability
+Feat: Optimize Credit Card Requirements pages with RelatedPosts and internal linking
 
-Refactored 24 blog article pages in app/finanzas-personales/ to break 
-long inline <Link> components across multiple lines. This improves code 
-readability, ensures ESLint/Prettier compliance, and maintains consistent 
-formatting standards across the codebase.
+- Added `RelatedPosts` component to 10 requirements pages (Batch 7 & 8).
+- Fixed HTML layout issues in `requisitos-tarjeta-plata-card` and other Batch 7 pages.
+- Optimized internal anchor text for better SEO structure.
+- Updated `task.md` with progress.

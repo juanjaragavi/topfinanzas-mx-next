@@ -4,6 +4,7 @@ import { AIContentDisclaimer } from "@/components/ui/ai-content-disclaimer";
 import Image from "next/image";
 import Link from "next/link";
 import { Metadata } from "next";
+import { RelatedPosts } from "@/components/blog/related-posts";
 
 export const metadata: Metadata = {
   title:
@@ -386,6 +387,12 @@ export default function GoldCardAmexAeromexicoPage() {
           </div>
         </div>
       </article>
+
+      <RelatedPosts
+        currentSlug="gold-card-american-express-aeromexico"
+        category="soluciones-financieras"
+        subCategory="creditCards"
+      />
 
       <AIContentDisclaimer />
       <CompactFooter />

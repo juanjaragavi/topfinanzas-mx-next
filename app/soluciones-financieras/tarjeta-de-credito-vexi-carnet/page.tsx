@@ -4,6 +4,7 @@ import { AIContentDisclaimer } from "@/components/ui/ai-content-disclaimer";
 import Image from "next/image";
 import Link from "next/link";
 import { Metadata } from "next";
+import { RelatedPosts } from "@/components/blog/related-posts";
 
 export const metadata: Metadata = {
   title: "Beneficios de la tarjeta de crédito Vexi Carnet | Top Finanzas MX",
@@ -257,7 +258,7 @@ export default function TarjetaVexiCarnetPage() {
             <h2 className="text-2xl md:text-3xl font-bold text-gray-700 mt-10 mb-4 leading-tight">
               Solicitud fácil y sin{" "}
               <Link
-                href="/soluciones-financieras/historial-crediticio"
+                href="/finanzas-personales/que-es-el-score-crediticio-y-por-que-es-tan-importante"
                 title="Historial crediticio"
                 className="text-gray-700 hover:text-[#D9247E]"
               >
@@ -382,6 +383,12 @@ export default function TarjetaVexiCarnetPage() {
           </div>
         </div>
       </article>
+
+      <RelatedPosts
+        currentSlug="tarjeta-de-credito-vexi-carnet"
+        category="soluciones-financieras"
+        subCategory="creditCards"
+      />
 
       <CompactFooter />
     </main>

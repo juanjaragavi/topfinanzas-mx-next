@@ -4,6 +4,7 @@ import { AIContentDisclaimer } from "@/components/ui/ai-content-disclaimer";
 import Image from "next/image";
 import Link from "next/link";
 import { Metadata } from "next";
+import { RelatedPosts } from "@/components/blog/related-posts";
 
 export const metadata: Metadata = {
   title: "Beneficios de la tarjeta de crédito Crecy | Top Finanzas MX",
@@ -405,6 +406,12 @@ export default function TarjetaCrecyPage() {
           </div>
         </div>
       </article>
+
+      <RelatedPosts
+        currentSlug="tarjeta-de-credito-crecy"
+        category="soluciones-financieras"
+        subCategory="creditCards"
+      />
 
       <CompactFooter />
     </main>

@@ -1,6 +1,7 @@
 import { Header } from "@/components/layout/header";
 import { CompactFooter } from "@/components/layout/compact-footer";
 import { AIContentDisclaimer } from "@/components/ui/ai-content-disclaimer";
+import { RelatedPosts } from "@/components/blog/related-posts";
 import Image from "next/image";
 import Link from "next/link";
 import { Metadata } from "next";
@@ -106,17 +107,17 @@ export default function FinanzasPersonalesEnQuincenaPage() {
                     puntuales de cualquier deuda pendiente, como{" "}
                     <Link
                       href="/soluciones-financieras/tarjetas-de-credito-sin-anualidad"
-                      title="Tarjetas de crédito"
+                      title="Tarjetas de crédito sin anualidad"
                       className="text-blue-600 hover:underline"
                     >
-                      tarjetas de crédito
+                      tarjetas de crédito sin anualidad
                     </Link>
                     , préstamos estudiantiles o personales. Prioriza las deudas
                     con intereses altos para ahorrar dinero a largo plazo.
                     Cumplir con un plan de pago de deudas es crucial para
                     mejorar tu{" "}
                     <Link
-                      href="/soluciones-financieras/historial-crediticio"
+                      href="/finanzas-personales/que-es-el-historial-crediticio-y-como-te-afecta"
                       title="Historial crediticio"
                       className="text-blue-600 hover:underline"
                     >
@@ -268,6 +269,10 @@ export default function FinanzasPersonalesEnQuincenaPage() {
             </div>
 
             <AIContentDisclaimer />
+            <RelatedPosts
+              currentSlug="finanzas-personales-en-quincena-que-hacer-y-que-evitar-con-tu-sueldo"
+              category="finanzas-personales"
+            />
           </div>
         </div>
       </article>

@@ -4,6 +4,7 @@ import { AIContentDisclaimer } from "@/components/ui/ai-content-disclaimer";
 import Image from "next/image";
 import Link from "next/link";
 import { Metadata } from "next";
+import { RelatedPosts } from "@/components/blog/related-posts";
 
 export const metadata: Metadata = {
   title: "Beneficios de la RappiCard | Top Finanzas MX",
@@ -401,6 +402,12 @@ export default function RappiCardPage() {
           </div>
         </div>
       </article>
+
+      <RelatedPosts
+        currentSlug="rappicard"
+        category="soluciones-financieras"
+        subCategory="creditCards"
+      />
 
       <CompactFooter />
     </main>

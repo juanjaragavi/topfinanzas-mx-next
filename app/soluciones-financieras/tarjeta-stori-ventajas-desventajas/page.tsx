@@ -4,6 +4,7 @@ import { AIContentDisclaimer } from "@/components/ui/ai-content-disclaimer";
 import Image from "next/image";
 import Link from "next/link";
 import { Metadata } from "next";
+import { RelatedPosts } from "@/components/blog/related-posts";
 
 export const metadata: Metadata = {
   title: "Tarjeta de Crédito Stori: Ideal para estudiantes | Top Finanzas MX",
@@ -149,7 +150,7 @@ export default function TarjetaStoriVentajasDesventajasPage() {
               programa no solo facilita que puedas ampliar tu línea de crédito,
               sino que también abre puertas a construir un{" "}
               <Link
-                href="/soluciones-financieras/historial-crediticio"
+                href="/finanzas-personales/que-es-el-score-crediticio-y-por-que-es-tan-importante"
                 title="Historial crediticio"
                 className="text-green-600 hover:underline"
               >
@@ -259,6 +260,12 @@ export default function TarjetaStoriVentajasDesventajasPage() {
           </div>
         </div>
       </article>
+
+      <RelatedPosts
+        currentSlug="tarjeta-stori-ventajas-desventajas"
+        category="soluciones-financieras"
+        subCategory="creditCards"
+      />
 
       <CompactFooter />
     </main>

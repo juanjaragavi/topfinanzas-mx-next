@@ -4,6 +4,7 @@ import { AIContentDisclaimer } from "@/components/ui/ai-content-disclaimer";
 import Image from "next/image";
 import Link from "next/link";
 import { Metadata } from "next";
+import { RelatedPosts } from "@/components/blog/related-posts";
 
 export const metadata: Metadata = {
   title: "Beneficios de la Tarjeta de Crédito Joy Banamex | Top Finanzas MX",
@@ -232,7 +233,7 @@ export default function TarjetaSimplicityPage() {
                   <strong className="text-gray-900">
                     Buen{" "}
                     <Link
-                      href="/soluciones-financieras/historial-crediticio"
+                      href="/finanzas-personales/que-es-el-score-crediticio-y-por-que-es-tan-importante"
                       title="Historial crediticio"
                       className="text-blue-600 hover:underline"
                     >
@@ -353,6 +354,12 @@ export default function TarjetaSimplicityPage() {
           </div>
         </div>
       </article>
+
+      <RelatedPosts
+        currentSlug="tarjeta-simplicity-citibanamex"
+        category="soluciones-financieras"
+        subCategory="creditCards"
+      />
 
       <CompactFooter />
     </main>

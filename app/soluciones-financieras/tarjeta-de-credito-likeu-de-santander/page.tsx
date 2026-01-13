@@ -4,6 +4,7 @@ import { AIContentDisclaimer } from "@/components/ui/ai-content-disclaimer";
 import Image from "next/image";
 import Link from "next/link";
 import { Metadata } from "next";
+import { RelatedPosts } from "@/components/blog/related-posts";
 
 export const metadata: Metadata = {
   title: "LikeU de Santander: innovación en tus manos | Top Finanzas MX",
@@ -427,6 +428,12 @@ export default function TarjetaLikeUSantanderPage() {
           </div>
         </div>
       </article>
+
+      <RelatedPosts
+        currentSlug="tarjeta-de-credito-likeu-de-santander"
+        category="soluciones-financieras"
+        subCategory="creditCards"
+      />
 
       <AIContentDisclaimer />
       <CompactFooter />

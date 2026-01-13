@@ -8,9 +8,10 @@ import {
   AlertCircle,
   Wallet,
   TrendingUp,
-  ShieldCheck,
   Target,
 } from "lucide-react";
+import { ShieldCheck } from "lucide-react";
+import { RelatedPosts } from "@/components/blog/related-posts";
 
 export const metadata = {
   title:
@@ -485,6 +486,13 @@ export default function FinanzasPersonalesGuiaPage() {
                     ahora y empodérate para vivir la vida que deseas.
                   </p>
                 </div>
+              </div>
+
+              <div className="mt-8">
+                <RelatedPosts
+                  currentSlug="finanzas-personales-tu-guia-esencial-para-la-salud-financiera-en-mexico"
+                  category="finanzas-personales"
+                />
               </div>
             </div>
 

@@ -1,6 +1,7 @@
 import { Header } from "@/components/layout/header";
 import { CompactFooter } from "@/components/layout/compact-footer";
 import { AIContentDisclaimer } from "@/components/ui/ai-content-disclaimer";
+import { RelatedPosts } from "@/components/blog/related-posts";
 import Image from "next/image";
 import Link from "next/link";
 import { Metadata } from "next";
@@ -216,6 +217,12 @@ export default function GuiaTarjetaDeCreditoNuBankPage() {
                 Quiero conocer los requisitos
               </button>
             </Link>
+
+            <RelatedPosts
+              currentSlug="guia-tarjeta-de-credito-nu-bank"
+              category="soluciones-financieras"
+              subCategory="creditCards"
+            />
 
             <AIContentDisclaimer />
           </div>

@@ -1,6 +1,7 @@
 import { Header } from "@/components/layout/header";
 import { CompactFooter } from "@/components/layout/compact-footer";
 import { AIContentDisclaimer } from "@/components/ui/ai-content-disclaimer";
+import { RelatedPosts } from "@/components/blog/related-posts";
 import Image from "next/image";
 import Link from "next/link";
 import { Metadata } from "next";
@@ -141,15 +142,15 @@ export default function FinanzasPersonales10ReglasOroPage() {
                   (como las{" "}
                   <Link
                     href="/soluciones-financieras/tarjetas-de-credito-sin-anualidad"
-                    title="Tarjetas de crédito"
+                    title="Tarjetas de crédito sin anualidad"
                     className="text-blue-600 hover:underline"
                   >
-                    tarjetas de crédito
+                    tarjetas de crédito sin anualidad
                   </Link>
                   ). Considera la consolidación de deudas si tienes varios
                   créditos. Entender el{" "}
                   <Link
-                    href="/finanzas-personales/que-es-el-score-crediticio-y-por-que-es-tan-importante"
+                    href="/finanzas-personales/cat-en-tarjetas-de-credito"
                     className="text-blue-600 hover:underline"
                   >
                     CAT en tarjetas de crédito
@@ -198,7 +199,7 @@ export default function FinanzasPersonales10ReglasOroPage() {
                 </h2>
                 <p className="text-left sm:text-left text-gray-800 mb-4 text-sm leading-6 font-light">
                   <Link
-                    href="/soluciones-financieras/historial-crediticio"
+                    href="/finanzas-personales/que-es-el-historial-crediticio-y-como-te-afecta"
                     title="Historial crediticio"
                     className="text-blue-600 hover:underline"
                   >
@@ -276,6 +277,10 @@ export default function FinanzasPersonales10ReglasOroPage() {
                 </p>
               </section>
             </div>
+            <RelatedPosts
+              currentSlug="finanzas-personales-en-mexico-10-reglas-de-oro-para-una-vida-sin-estres-financiero"
+              category="finanzas-personales"
+            />
           </div>
         </div>
       </article>

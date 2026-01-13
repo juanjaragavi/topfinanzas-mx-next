@@ -4,6 +4,7 @@ import Link from "next/link";
 import { CompactFooter } from "@/components/layout/compact-footer";
 import { Card, CardContent } from "@/components/ui/card";
 import { CheckCircle2, AlertCircle } from "lucide-react";
+import { RelatedPosts } from "@/components/blog/related-posts";
 import { Metadata } from "next";
 
 export const metadata: Metadata = {
@@ -354,6 +355,10 @@ export default function FondoEmergenciaPage() {
           </div>
         </div>
       </div>
+      <RelatedPosts
+        currentSlug="que-es-un-fondo-de-emergencia-y-por-que-es-clave-para-tu-tranquilidad"
+        category="finanzas-personales"
+      />
       <CompactFooter />
     </div>
   );

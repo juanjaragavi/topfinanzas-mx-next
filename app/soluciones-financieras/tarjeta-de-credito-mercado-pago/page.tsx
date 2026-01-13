@@ -4,6 +4,7 @@ import { AIContentDisclaimer } from "@/components/ui/ai-content-disclaimer";
 import Image from "next/image";
 import Link from "next/link";
 import { Metadata } from "next";
+import { RelatedPosts } from "@/components/blog/related-posts";
 
 export const metadata: Metadata = {
   title:
@@ -283,7 +284,7 @@ export default function TarjetaMercadoPagoPage() {
                 <span className="text-gray-700">
                   <strong className="text-gray-900">
                     <Link
-                      href="/soluciones-financieras/historial-crediticio"
+                      href="/finanzas-personales/que-es-el-score-crediticio-y-por-que-es-tan-importante"
                       title="Historial crediticio"
                       className="text-blue-600 hover:underline"
                     >
@@ -393,6 +394,12 @@ export default function TarjetaMercadoPagoPage() {
           </div>
         </div>
       </article>
+
+      <RelatedPosts
+        currentSlug="tarjeta-de-credito-mercado-pago"
+        category="soluciones-financieras"
+        subCategory="creditCards"
+      />
 
       <CompactFooter />
     </main>

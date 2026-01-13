@@ -1,6 +1,7 @@
 import { Header } from "@/components/layout/header";
 import { CompactFooter } from "@/components/layout/compact-footer";
 import { AIContentDisclaimer } from "@/components/ui/ai-content-disclaimer";
+import { RelatedPosts } from "@/components/blog/related-posts";
 import Image from "next/image";
 import { Metadata } from "next";
 import Link from "next/link";
@@ -355,6 +356,11 @@ export default function TarjetasEstudiantesPage() {
                 </p>
               </section>
             </div>
+
+            <RelatedPosts
+              currentSlug="tarjetas-de-credito-para-estudiantes"
+              category="finanzas-personales"
+            />
 
             <AIContentDisclaimer />
           </div>

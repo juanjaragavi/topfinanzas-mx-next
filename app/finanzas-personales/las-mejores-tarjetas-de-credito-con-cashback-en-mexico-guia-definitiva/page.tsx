@@ -1,6 +1,7 @@
 import { Header } from "@/components/layout/header";
 import { CompactFooter } from "@/components/layout/compact-footer";
 import { AIContentDisclaimer } from "@/components/ui/ai-content-disclaimer";
+import { RelatedPosts } from "@/components/blog/related-posts";
 import Image from "next/image";
 import Link from "next/link";
 import { Metadata } from "next";
@@ -40,7 +41,7 @@ export default function TarjetasCashbackPage() {
                   href="/soluciones-financieras/tarjetas-de-credito-sin-anualidad"
                   className="text-blue-600 hover:underline"
                 >
-                  tarjeta de crédito
+                  tarjeta de crédito sin anualidad
                 </Link>
                 ? Pues de eso se trata el cashback. En un mundo donde buscamos
                 maximizar cada peso, las tarjetas con cashback se han convertido
@@ -159,7 +160,13 @@ export default function TarjetasCashbackPage() {
                 </p>
 
                 <h3 className="text-lg font-bold text-gray-800 mb-2 mt-4">
-                  1. HSBC 2Now
+                  1.{" "}
+                  <Link
+                    href="/soluciones-financieras/requisitos-tarjeta-hsbc-2now"
+                    className="text-blue-600 hover:underline"
+                  >
+                    HSBC 2Now
+                  </Link>
                 </h3>
                 <p className="text-left sm:text-left text-gray-800 mb-4 text-sm leading-6 font-light">
                   Esta es una de las favoritas por su simplicidad y generosidad.
@@ -182,7 +189,13 @@ export default function TarjetasCashbackPage() {
                 </ol>
 
                 <h3 className="text-lg font-bold text-gray-800 mb-2 mt-4">
-                  2. RappiCard
+                  2.{" "}
+                  <Link
+                    href="/soluciones-financieras/rappicard"
+                    className="text-blue-600 hover:underline"
+                  >
+                    RappiCard
+                  </Link>
                 </h3>
                 <p className="text-left sm:text-left text-gray-800 mb-4 text-sm leading-6 font-light">
                   La RappiCard, respaldada por Banorte, es una opción 100%
@@ -205,7 +218,13 @@ export default function TarjetasCashbackPage() {
                 </ol>
 
                 <h3 className="text-lg font-bold text-gray-800 mb-2 mt-4">
-                  3. Santander LikeU
+                  3.{" "}
+                  <Link
+                    href="/soluciones-financieras/tarjeta-de-credito-likeu-de-santander"
+                    className="text-blue-600 hover:underline"
+                  >
+                    Santander LikeU
+                  </Link>
                 </h3>
                 <p className="text-left sm:text-left text-gray-800 mb-4 text-sm leading-6 font-light">
                   Si tus gastos se concentran en áreas específicas, la tarjeta
@@ -274,6 +293,11 @@ export default function TarjetasCashbackPage() {
                 </p>
               </section>
             </div>
+
+            <RelatedPosts
+              currentSlug="las-mejores-tarjetas-de-credito-con-cashback-en-mexico-guia-definitiva"
+              category="finanzas-personales"
+            />
 
             <AIContentDisclaimer />
           </div>

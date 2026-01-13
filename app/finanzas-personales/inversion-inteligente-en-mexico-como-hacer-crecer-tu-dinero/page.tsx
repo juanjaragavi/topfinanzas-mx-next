@@ -1,6 +1,7 @@
 import { Header } from "@/components/layout/header";
 import { CompactFooter } from "@/components/layout/compact-footer";
 import { AIContentDisclaimer } from "@/components/ui/ai-content-disclaimer";
+import { RelatedPosts } from "@/components/blog/related-posts";
 import Image from "next/image";
 import { Metadata } from "next";
 import Link from "next/link";
@@ -134,23 +135,10 @@ export default function InversionInteligentePage() {
                     Son considerados de muy bajo riesgo y son ideales para
                     principiantes o para aquellos que buscan seguridad y
                     liquidez. Puedes invertir en ellos a través de plataformas
-                    como{" "}
-                    <Link
-                      href="/finanzas-personales/inversion-inteligente-en-mexico-como-hacer-crecer-tu-dinero"
-                      className="text-blue-600 hover:underline"
-                    >
-                      CETESDirecto
-                    </Link>
-                    , una plataforma gratuita y segura operada por Nacional
-                    Financiera (NAFIN). Para entender más sobre ellos, puedes
-                    leer nuestro artículo sobre{" "}
-                    <Link
-                      href="/finanzas-personales/inversion-inteligente-en-mexico-como-hacer-crecer-tu-dinero"
-                      className="text-blue-600 hover:underline"
-                    >
-                      qué son los CETES
-                    </Link>
-                    .
+                    como CETESDirecto, una plataforma gratuita y segura operada
+                    por Nacional Financiera (NAFIN). Para entender más sobre
+                    ellos, es importante investigar qué son los CETES y cómo
+                    funcionan.
                   </li>
                   <li className="mb-2">
                     <strong>Fondos de Inversión:</strong> Son vehículos que
@@ -170,14 +158,8 @@ export default function InversionInteligentePage() {
                     generar rendimientos a largo plazo. Es importante conocer en
                     qué Afore estás y qué rendimientos te ofrece, ya que una
                     buena gestión puede significar una gran diferencia en tu
-                    pensión. Para saber más, consulta nuestro artículo sobre{" "}
-                    <Link
-                      href="/finanzas-personales/inversion-inteligente-en-mexico-como-hacer-crecer-tu-dinero"
-                      className="text-blue-600 hover:underline"
-                    >
-                      cómo saber en qué Afore estás
-                    </Link>
-                    .
+                    pensión. Investiga cómo saber en qué Afore estás para tomar
+                    el control de tu retiro.
                   </li>
                   <li className="mb-2">
                     <strong>Bolsa Mexicana de Valores (BMV):</strong> A través
@@ -242,15 +224,9 @@ export default function InversionInteligentePage() {
                   </li>
                 </ul>
                 <p className="text-left sm:text-left text-gray-800 mb-4 text-sm leading-6 font-light">
-                  Conocer los{" "}
-                  <Link
-                    href="/finanzas-personales/inversion-inteligente-en-mexico-como-hacer-crecer-tu-dinero"
-                    className="text-blue-600 hover:underline"
-                  >
-                    tipos de inversiones
-                  </Link>{" "}
-                  disponibles y aplicar estos principios te permitirá construir
-                  una estrategia sólida para tus finanzas personales.
+                  Conocer los tipos de inversiones disponibles y aplicar estos
+                  principios te permitirá construir una estrategia sólida para
+                  tus finanzas personales.
                 </p>
               </section>
 
@@ -321,9 +297,12 @@ export default function InversionInteligentePage() {
             </div>
           </div>
         </div>
+        <AIContentDisclaimer />
+        <RelatedPosts
+          currentSlug="inversion-inteligente-en-mexico-como-hacer-crecer-tu-dinero"
+          category="finanzas-personales"
+        />
       </article>
-
-      <AIContentDisclaimer />
       <CompactFooter />
     </main>
   );

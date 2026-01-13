@@ -1,6 +1,7 @@
 import { Header } from "@/components/layout/header";
 import { CompactFooter } from "@/components/layout/compact-footer";
 import { AIContentDisclaimer } from "@/components/ui/ai-content-disclaimer";
+import { RelatedPosts } from "@/components/blog/related-posts";
 import Image from "next/image";
 import Link from "next/link";
 import { Metadata } from "next";
@@ -40,7 +41,7 @@ export default function LasMejoresTarjetasDeCreditoParaViajarPage() {
                   href="/soluciones-financieras/tarjetas-de-credito-sin-anualidad"
                   className="text-blue-600 hover:underline"
                 >
-                  tarjeta de crédito
+                  tarjeta de crédito sin anualidad
                 </Link>{" "}
                 especializada puede ser tu mejor aliada. Lejos de ser un simple
                 plástico, las mejores tarjetas de crédito para viajar están
@@ -52,8 +53,14 @@ export default function LasMejoresTarjetasDeCreditoParaViajarPage() {
                 No te preocupes. En esta guía, desglosaremos todo lo que
                 necesitas saber. Analizaremos los beneficios clave, los costos
                 ocultos que debes vigilar y cómo elegir la tarjeta que realmente
-                se alinee con tu estilo de vida y tus metas financieras.
-                ¡Empecemos!
+                se alinee con tu estilo de vida y tus{" "}
+                <Link
+                  href="/finanzas-personales/setting-financial-goals"
+                  className="text-blue-600 hover:underline"
+                >
+                  metas financieras
+                </Link>
+                . ¡Empecemos!
               </p>
 
               <div className="my-8 text-left sm:text-left">
@@ -346,6 +353,11 @@ export default function LasMejoresTarjetasDeCreditoParaViajarPage() {
                   dándote más opciones al momento de canjear.
                 </p>
               </section>
+
+              <RelatedPosts
+                currentSlug="las-mejores-tarjetas-de-credito-para-viajar-guia-para-principiantes"
+                category="finanzas-personales"
+              />
 
               <AIContentDisclaimer />
             </div>

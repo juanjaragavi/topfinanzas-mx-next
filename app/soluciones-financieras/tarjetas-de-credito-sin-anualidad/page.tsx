@@ -4,6 +4,7 @@ import { AIContentDisclaimer } from "@/components/ui/ai-content-disclaimer";
 import Image from "next/image";
 import { Metadata } from "next";
 import Link from "next/link";
+import { RelatedPosts } from "@/components/blog/related-posts";
 
 export const metadata: Metadata = {
   title:
@@ -225,7 +226,7 @@ export default function TarjetasSinAnualidadPage() {
                     <strong>Accesibilidad:</strong> Suelen tener requisitos más
                     flexibles, lo que las hace ideales para iniciar o reparar el{" "}
                     <Link
-                      href="/soluciones-financieras/historial-crediticio"
+                      href="/finanzas-personales/que-es-el-score-crediticio-y-por-que-es-tan-importante"
                       title="Historial crediticio"
                       className="text-blue-600 hover:underline"
                     >
@@ -256,6 +257,12 @@ export default function TarjetasSinAnualidadPage() {
                 </p>
               </section>
             </div>
+
+            <RelatedPosts
+              currentSlug="tarjetas-de-credito-sin-anualidad"
+              category="soluciones-financieras"
+              subCategory="creditCards"
+            />
 
             <AIContentDisclaimer />
           </div>

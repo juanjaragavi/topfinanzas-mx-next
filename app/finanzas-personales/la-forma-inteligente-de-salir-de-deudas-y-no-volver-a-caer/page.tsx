@@ -10,6 +10,7 @@ import {
   Wallet,
   TrendingUp,
 } from "lucide-react";
+import { RelatedPosts } from "@/components/blog/related-posts";
 
 export const metadata = {
   title:
@@ -301,7 +302,7 @@ export default function SalirDeDeudasPage() {
                               href="/soluciones-financieras/tarjetas-de-credito-sin-anualidad"
                               className="text-blue-600 hover:underline"
                             >
-                              tarjeta de crédito
+                              tarjeta de crédito sin anualidad
                             </Link>{" "}
                             y te haga retroceder.
                           </p>
@@ -392,6 +393,10 @@ export default function SalirDeDeudasPage() {
           </div>
         </div>
       </section>
+      <RelatedPosts
+        currentSlug="la-forma-inteligente-de-salir-de-deudas-y-no-volver-a-caer"
+        category="finanzas-personales"
+      />
       <CompactFooter />
     </main>
   );

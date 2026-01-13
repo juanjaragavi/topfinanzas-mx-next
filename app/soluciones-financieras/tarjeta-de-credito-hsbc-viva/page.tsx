@@ -4,6 +4,7 @@ import { AIContentDisclaimer } from "@/components/ui/ai-content-disclaimer";
 import ResponsiveImage from "@/components/ui/responsive-image";
 import Link from "next/link";
 import { Metadata } from "next";
+import { RelatedPosts } from "@/components/blog/related-posts";
 
 export const metadata: Metadata = {
   title: "Beneficios de la Tarjeta de Crédito HSBC Viva | Top Finanzas MX",
@@ -328,6 +329,12 @@ export default function TarjetaHSBCVivaPage() {
           </div>
         </div>
       </article>
+
+      <RelatedPosts
+        currentSlug="tarjeta-de-credito-hsbc-viva"
+        category="soluciones-financieras"
+        subCategory="creditCards"
+      />
 
       <AIContentDisclaimer />
       <CompactFooter />

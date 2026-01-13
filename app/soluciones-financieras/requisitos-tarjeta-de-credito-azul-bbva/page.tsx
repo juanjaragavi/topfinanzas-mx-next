@@ -4,6 +4,7 @@ import { AIContentDisclaimer } from "@/components/ui/ai-content-disclaimer";
 import { ActionBanner } from "@/components/ui/action-banner";
 import Link from "next/link";
 import { Metadata } from "next";
+import { RelatedPosts } from "@/components/blog/related-posts";
 import ResponsiveImage from "@/components/ui/responsive-image";
 
 export const metadata: Metadata = {
@@ -58,11 +59,15 @@ export default function RequisitosTarjetaAzulBBVAPage() {
             ></div>
 
             {/* Intro Section */}
-            <p className="text-lg text-gray-700 mb-6 font-normal">
-              La Tarjeta de Crédito Azul de BBVA es una opción ideal para los
-              que están empezando a construir su crédito o aquellos que buscan
-              maximizar las recompensas por sus gastos cotidianos.
-            </p>
+            La Tarjeta de Crédito Azul de BBVA es una opción ideal para los
+            que están empezando a construir su crédito o aquellos que buscan
+            maximizar las recompensas por sus gastos cotidianos.{" "}
+            <Link
+              href="/soluciones-financieras/tarjeta-de-credito-azul-bbva"
+              className="text-blue-600 hover:underline"
+            >
+              Lee nuestra reseña completa aquí.
+            </Link>
 
             {/* Image 1 */}
             <div className="my-8">
@@ -361,6 +366,12 @@ export default function RequisitosTarjetaAzulBBVAPage() {
           </div>
         </div>
       </article>
+
+      <RelatedPosts
+        currentSlug="requisitos-tarjeta-de-credito-azul-bbva"
+        category="soluciones-financieras"
+        subCategory="creditCards"
+      />
 
       <CompactFooter />
     </main>

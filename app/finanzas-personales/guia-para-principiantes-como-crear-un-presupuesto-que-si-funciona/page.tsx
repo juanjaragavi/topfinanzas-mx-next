@@ -10,6 +10,7 @@ import {
   Wallet,
   Target,
 } from "lucide-react";
+import { RelatedPosts } from "@/components/blog/related-posts";
 
 export const metadata = {
   title:
@@ -175,7 +176,7 @@ export default function PresupuestoPrincipiantesPage() {
                       href="/soluciones-financieras/tarjetas-de-credito-sin-anualidad"
                       className="text-blue-600 hover:underline"
                     >
-                      tarjeta de crédito
+                      tarjeta de crédito sin anualidad
                     </Link>{" "}
                     para compras que no puedes permitirte.
                   </p>
@@ -417,6 +418,12 @@ export default function PresupuestoPrincipiantesPage() {
                   Ver más guías financieras
                 </Link>
               </Button>
+              <div className="mt-12">
+                <RelatedPosts
+                  currentSlug="guia-para-principiantes-como-crear-un-presupuesto-que-si-funciona"
+                  category="finanzas-personales"
+                />
+              </div>
             </div>
           </div>
         </div>

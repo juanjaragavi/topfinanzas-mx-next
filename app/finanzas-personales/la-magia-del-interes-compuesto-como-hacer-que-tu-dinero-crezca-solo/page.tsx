@@ -3,6 +3,7 @@ import { CompactFooter } from "@/components/layout/compact-footer";
 import { AIContentDisclaimer } from "@/components/ui/ai-content-disclaimer";
 import Image from "next/image";
 import Link from "next/link";
+import { RelatedPosts } from "@/components/blog/related-posts";
 import { Metadata } from "next";
 
 export const metadata: Metadata = {
@@ -161,7 +162,7 @@ export default function InteresCompuestoPage() {
                   casa en el futuro puede ser una deuda «buena». Pero las deudas
                   de{" "}
                   <Link
-                    href="/soluciones-financieras/tarjetas-de-credito-sin-anualidad"
+                    href="/finanzas-personales/cat-en-tarjetas-de-credito"
                     className="text-blue-600 hover:underline"
                   >
                     tarjetas de crédito
@@ -289,6 +290,11 @@ export default function InteresCompuestoPage() {
           </div>
         </div>
       </article>
+
+      <RelatedPosts
+        currentSlug="la-magia-del-interes-compuesto-como-hacer-que-tu-dinero-crezca-solo"
+        category="finanzas-personales"
+      />
 
       <AIContentDisclaimer />
       <CompactFooter />

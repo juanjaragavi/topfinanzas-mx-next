@@ -1,6 +1,7 @@
 import { Header } from "@/components/layout/header";
 import { CompactFooter } from "@/components/layout/compact-footer";
 import { AIContentDisclaimer } from "@/components/ui/ai-content-disclaimer";
+import { RelatedPosts } from "@/components/blog/related-posts";
 import ResponsiveImage from "@/components/ui/responsive-image";
 import Link from "next/link";
 import { Button } from "@/components/ui/button";
@@ -343,6 +344,12 @@ export default function TarjetaPlataCardPage() {
                 </Button>
               </Link>
             </div>
+
+            <RelatedPosts
+              currentSlug="tarjeta-plata-card"
+              category="soluciones-financieras"
+              subCategory="creditCards"
+            />
 
             <AIContentDisclaimer />
           </div>

@@ -4,6 +4,7 @@ import { AIContentDisclaimer } from "@/components/ui/ai-content-disclaimer";
 import Image from "next/image";
 import { Metadata } from "next";
 import Link from "next/link";
+import { RelatedPosts } from "@/components/blog/related-posts";
 
 export const metadata: Metadata = {
   title:
@@ -189,7 +190,7 @@ export default function UnirFinanzasPage() {
                   Esto les dará una idea clara de a dónde se va su dinero. A
                   partir de ahí, pueden usar una regla sencilla como la{" "}
                   <Link
-                    href="/finanzas-personales/ahorro-inteligente-la-regla-50-30-20-explicada"
+                    href="/finanzas-personales/guia-para-principiantes-como-crear-un-presupuesto-que-si-funciona"
                     className="text-blue-600 hover:underline"
                   >
                     50/30/20
@@ -220,6 +221,11 @@ export default function UnirFinanzasPage() {
           </div>
         </div>
       </article>
+
+      <RelatedPosts
+        currentSlug="tuyo-mio-o-nuestro-como-unir-finanzas-estrategicamente-despues-de-casarse-o-mudarse-juntos"
+        category="finanzas-personales"
+      />
 
       <AIContentDisclaimer />
       <CompactFooter />

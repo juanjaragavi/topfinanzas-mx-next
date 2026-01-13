@@ -2,6 +2,7 @@ import React from "react";
 import Image from "next/image";
 import Link from "next/link";
 import { CompactFooter } from "@/components/layout/compact-footer";
+import { RelatedPosts } from "@/components/blog/related-posts";
 import { Card, CardContent } from "@/components/ui/card";
 import {
   CheckCircle2,
@@ -352,14 +353,10 @@ export default function ScoreCrediticioPage() {
               personales. ¡Tú puedes!
             </p>
 
-            <div className="bg-blue-50 border-l-4 border-blue-600 p-6 my-8 rounded-r-lg">
-              <p className="text-sm text-gray-600 italic">
-                Aviso: Este artículo es únicamente para fines informativos y no
-                constituye asesoría financiera o legal. Consulta a un
-                profesional calificado antes de tomar cualquier decisión
-                financiera.
-              </p>
-            </div>
+            <RelatedPosts
+              currentSlug="que-es-el-score-crediticio-y-por-que-es-tan-importante"
+              category="finanzas-personales"
+            />
           </div>
         </div>
       </div>

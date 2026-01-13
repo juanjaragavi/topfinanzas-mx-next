@@ -1,6 +1,7 @@
 import { Header } from "@/components/layout/header";
 import { CompactFooter } from "@/components/layout/compact-footer";
 import { AIContentDisclaimer } from "@/components/ui/ai-content-disclaimer";
+import { RelatedPosts } from "@/components/blog/related-posts";
 import Image from "next/image";
 import Link from "next/link";
 import { Metadata } from "next";
@@ -116,10 +117,10 @@ export default function DeudaBuenaVsDeudaMalaPage() {
                       Deuda de{" "}
                       <Link
                         href="/soluciones-financieras/tarjetas-de-credito-sin-anualidad"
-                        title="Tarjetas de crédito"
+                        title="Tarjetas de crédito sin anualidad"
                         className="text-blue-600 hover:underline"
                       >
-                        tarjetas de crédito
+                        tarjetas de crédito sin anualidad
                       </Link>
                       :
                     </strong>{" "}
@@ -216,6 +217,10 @@ export default function DeudaBuenaVsDeudaMalaPage() {
 
               <AIContentDisclaimer />
             </div>
+            <RelatedPosts
+              currentSlug="deuda-buena-vs-deuda-mala-aprende-a-diferenciarlas"
+              category="finanzas-personales"
+            />
           </div>
         </div>
       </article>

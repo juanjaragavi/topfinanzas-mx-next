@@ -1,6 +1,7 @@
 import { Header } from "@/components/layout/header";
 import { CompactFooter } from "@/components/layout/compact-footer";
 import { AIContentDisclaimer } from "@/components/ui/ai-content-disclaimer";
+import { RelatedPosts } from "@/components/blog/related-posts";
 import Link from "next/link";
 import Image from "next/image";
 import { Metadata } from "next";
@@ -262,6 +263,13 @@ export default function KueskiPrestamosPage() {
                 Quiero conocer los requisitos
               </Link>
             </div>
+
+            {/* Related Posts */}
+            <RelatedPosts
+              currentSlug="kueski-prestamos"
+              category="soluciones-financieras"
+              subCategory="loans"
+            />
 
             {/* Disclaimer */}
             <div className="mt-12 border-t pt-8">

@@ -5,6 +5,7 @@ import { ActionBanner } from "@/components/ui/action-banner";
 import Image from "next/image";
 import Link from "next/link";
 import { Metadata } from "next";
+import { RelatedPosts } from "@/components/blog/related-posts";
 
 export const metadata: Metadata = {
   title: "Requisitos Tarjeta de Crédito Joy Banamex | Top Finanzas MX",
@@ -65,7 +66,14 @@ export default function RequisitosTarjetaSimplicityPage() {
               La tarjeta Joy Banamex está diseñada para brindar comodidad y
               seguridad. No tiene números impresos, permite generar un CVV
               dinámico y ofrece promociones exclusivas como 2×1 en Cinépolis. Su
-              aceptación global facilita su uso en compras físicas y digitales.
+              aceptación global facilita su uso en compras físicas y digitales.{" "}
+              <Link
+                href="/soluciones-financieras/tarjeta-simplicity-citibanamex"
+                className="text-blue-600 hover:underline"
+              >
+                Lee más sobre la tarjeta Simplicity aquí
+              </Link>
+              .
             </p>
 
             {/* Image 1 */}
@@ -425,6 +433,12 @@ export default function RequisitosTarjetaSimplicityPage() {
           </div>
         </div>
       </article>
+
+      <RelatedPosts
+        currentSlug="requisitos-tarjeta-simplicity-citibanamex"
+        category="soluciones-financieras"
+        subCategory="creditCards"
+      />
 
       <CompactFooter />
     </main>

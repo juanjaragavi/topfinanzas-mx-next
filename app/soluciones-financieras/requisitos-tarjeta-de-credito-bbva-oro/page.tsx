@@ -5,6 +5,7 @@ import { ActionBanner } from "@/components/ui/action-banner";
 import Image from "next/image";
 import Link from "next/link";
 import { Metadata } from "next";
+import { RelatedPosts } from "@/components/blog/related-posts";
 
 export const metadata: Metadata = {
   title:
@@ -64,7 +65,14 @@ export default function RequisitosTarjetaBBVAOroPage() {
               populares y versátiles que ofrece el banco BBVA en México. Está
               diseñada para usuarios que buscan obtener mayores beneficios, como
               recompensas, seguros de protección, y acceso a promociones
-              exclusivas.
+              exclusivas. Para más detalles, consulta el{" "}
+              <Link
+                href="/soluciones-financieras/analisis-tarjeta-de-credito-bbva-oro"
+                className="text-blue-600 hover:underline"
+              >
+                análisis completo de la tarjeta BBVA Oro
+              </Link>
+              .
             </p>
 
             <p className="text-lg text-gray-700 mb-6 font-normal">
@@ -477,6 +485,12 @@ export default function RequisitosTarjetaBBVAOroPage() {
           </div>
         </div>
       </article>
+
+      <RelatedPosts
+        currentSlug="requisitos-tarjeta-de-credito-bbva-oro"
+        category="soluciones-financieras"
+        subCategory="creditCards"
+      />
 
       <CompactFooter />
     </main>

@@ -63,7 +63,15 @@ export default function RequisitosTarjetaKlarPage() {
               Klar es una opción innovadora en el mercado de las tarjetas de
               crédito en México. Se destaca por su enfoque en la inclusión
               financiera, brindando a más personas la posibilidad de acceder a
-              una tarjeta de crédito sin la burocracia habitual.
+              una tarjeta de crédito sin la burocracia habitual. Si deseas
+              conocer más, lee nuestra{" "}
+              <Link
+                href="/soluciones-financieras/tarjeta-de-credito-klar"
+                className="text-blue-600 hover:underline"
+              >
+                reseña completa de la Tarjeta Klar
+              </Link>
+              .
             </p>
             <p className="text-gray-700 mb-6 font-normal">
               A continuación, te explicamos cuáles son los requisitos y las

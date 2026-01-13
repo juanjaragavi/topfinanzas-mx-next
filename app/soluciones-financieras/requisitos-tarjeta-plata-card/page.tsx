@@ -5,6 +5,7 @@ import { ActionBanner } from "@/components/ui/action-banner";
 import Image from "next/image";
 import Link from "next/link";
 import { Metadata } from "next";
+import { RelatedPosts } from "@/components/blog/related-posts";
 
 export const metadata: Metadata = {
   title: "Requisitos de la tarjeta Plata card | Top Finanzas MX",
@@ -60,7 +61,15 @@ export default function RequisitosTarjetaPlataCardPage() {
             {/* Intro Paragraph */}
             <p className="text-lg text-gray-700 mb-6">
               La Tarjeta de Crédito Plata te ofrece flexibilidad y beneficios en
-              cada compra.
+              cada compra. Si deseas conocer más detalles sobre sus beneficios,
+              lee nuestra{" "}
+              <Link
+                href="/soluciones-financieras/tarjeta-plata-card"
+                className="text-blue-600 hover:underline"
+              >
+                reseña completa de la Tarjeta Plata
+              </Link>
+              .
             </p>
 
             {/* Main Image */}
@@ -454,7 +463,13 @@ export default function RequisitosTarjetaPlataCardPage() {
         </div>
       </article>
 
+      <RelatedPosts
+        currentSlug="requisitos-tarjeta-plata-card"
+        category="soluciones-financieras"
+        subCategory="creditCards"
+      />
+
       <CompactFooter />
-    </main>
+    </main >
   );
 }

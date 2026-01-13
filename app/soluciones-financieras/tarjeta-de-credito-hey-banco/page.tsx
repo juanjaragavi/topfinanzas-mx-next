@@ -4,6 +4,7 @@ import { AIContentDisclaimer } from "@/components/ui/ai-content-disclaimer";
 import Image from "next/image";
 import Link from "next/link";
 import { Metadata } from "next";
+import { RelatedPosts } from "@/components/blog/related-posts";
 
 export const metadata: Metadata = {
   title: "Beneficios de la tarjeta de crédito Hey Banco | Top Finanzas MX",
@@ -222,7 +223,7 @@ export default function TarjetaHeyBancoPage() {
               su aplicación, asegurando que nunca te olvides de pagar y así
               mantener un buen{" "}
               <Link
-                href="/soluciones-financieras/historial-crediticio"
+                href="/finanzas-personales/que-es-el-score-crediticio-y-por-que-es-tan-importante"
                 title="Historial crediticio"
                 className="text-blue-600 hover:underline"
               >
@@ -315,6 +316,12 @@ export default function TarjetaHeyBancoPage() {
           </div>
         </div>
       </article>
+
+      <RelatedPosts
+        currentSlug="tarjeta-de-credito-hey-banco"
+        category="soluciones-financieras"
+        subCategory="creditCards"
+      />
 
       <CompactFooter />
     </main>

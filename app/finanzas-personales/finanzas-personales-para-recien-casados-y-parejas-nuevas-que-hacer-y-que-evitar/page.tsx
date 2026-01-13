@@ -1,6 +1,7 @@
 import { Header } from "@/components/layout/header";
 import { CompactFooter } from "@/components/layout/compact-footer";
 import { AIContentDisclaimer } from "@/components/ui/ai-content-disclaimer";
+import { RelatedPosts } from "@/components/blog/related-posts";
 import Image from "next/image";
 import Link from "next/link";
 import { Metadata } from "next";
@@ -221,6 +222,11 @@ export default function FinanzasParejasNuevasPage() {
                 </p>
               </section>
             </div>
+            <AIContentDisclaimer />
+            <RelatedPosts
+              currentSlug="finanzas-personales-para-recien-casados-y-parejas-nuevas-que-hacer-y-que-evitar"
+              category="finanzas-personales"
+            />
           </div>
         </div>
       </article>

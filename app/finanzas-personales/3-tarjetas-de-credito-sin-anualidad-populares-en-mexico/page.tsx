@@ -1,6 +1,7 @@
 import { Header } from "@/components/layout/header";
 import { CompactFooter } from "@/components/layout/compact-footer";
 import { AIContentDisclaimer } from "@/components/ui/ai-content-disclaimer";
+import { RelatedPosts } from "@/components/blog/related-posts";
 import Image from "next/image";
 import Link from "next/link";
 import { Metadata } from "next";
@@ -113,7 +114,13 @@ export default function TarjetasSinAnualidadPage() {
                 </p>
 
                 <h3 className="text-lg font-bold text-gray-800 mb-2 mt-4">
-                  1. Tarjeta de Crédito Nu
+                  1.{" "}
+                  <Link
+                    href="/soluciones-financieras/guia-tarjeta-de-credito-nu-bank"
+                    className="text-blue-600 hover:underline"
+                  >
+                    Tarjeta de Crédito Nu
+                  </Link>
                 </h3>
                 <p className="text-left sm:text-left text-gray-800 mb-4 text-sm leading-6 font-light">
                   Proveniente del mundo fintech, Nu se ha popularizado por su
@@ -140,7 +147,13 @@ export default function TarjetasSinAnualidadPage() {
                 </ul>
 
                 <h3 className="text-lg font-bold text-gray-800 mb-2 mt-4">
-                  2. Tarjeta de Crédito Stori
+                  2.{" "}
+                  <Link
+                    href="/soluciones-financieras/tarjeta-stori-ventajas-desventajas"
+                    className="text-blue-600 hover:underline"
+                  >
+                    Tarjeta de Crédito Stori
+                  </Link>
                 </h3>
                 <p className="text-left sm:text-left text-gray-800 mb-4 text-sm leading-6 font-light">
                   Stori se ha posicionado como una tarjeta de crédito de fácil
@@ -167,7 +180,13 @@ export default function TarjetasSinAnualidadPage() {
                 </ul>
 
                 <h3 className="text-lg font-bold text-gray-800 mb-2 mt-4">
-                  3. Tarjeta de Crédito HSBC Zero
+                  3.{" "}
+                  <Link
+                    href="/soluciones-financieras/tarjeta-hsbc-zero"
+                    className="text-blue-600 hover:underline"
+                  >
+                    Tarjeta de Crédito HSBC Zero
+                  </Link>
                 </h3>
                 <p className="text-left sm:text-left text-gray-800 mb-4 text-sm leading-6 font-light">
                   Para quienes prefieren el respaldo de un banco tradicional
@@ -240,6 +259,11 @@ export default function TarjetasSinAnualidadPage() {
                 </p>
               </section>
             </div>
+
+            <RelatedPosts
+              currentSlug="3-tarjetas-de-credito-sin-anualidad-populares-en-mexico"
+              category="finanzas-personales"
+            />
 
             <AIContentDisclaimer />
           </div>

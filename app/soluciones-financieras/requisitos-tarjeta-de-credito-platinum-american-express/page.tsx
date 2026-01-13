@@ -63,7 +63,15 @@ export default function RequisitosTarjetaPlatinumAmexPage() {
             <p className="text-lg text-gray-700 mb-6 font-normal">
               La tarjeta de crédito Platinum American Express es una opción
               premium diseñada para quienes buscan exclusividad, privilegios y
-              un servicio personalizado.
+              un servicio personalizado. Conoce todo sobre sus beneficios en
+              nuestra{" "}
+              <Link
+                href="/soluciones-financieras/tarjeta-de-credito-platinum-american-express"
+                className="text-blue-600 hover:underline"
+              >
+                reseña de la tarjeta Platinum American Express
+              </Link>
+              .
             </p>
 
             {/* Image 1 */}

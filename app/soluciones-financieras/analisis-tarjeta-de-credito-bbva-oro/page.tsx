@@ -4,6 +4,7 @@ import { AIContentDisclaimer } from "@/components/ui/ai-content-disclaimer";
 import Image from "next/image";
 import Link from "next/link";
 import { Metadata } from "next";
+import { RelatedPosts } from "@/components/blog/related-posts";
 
 export const metadata: Metadata = {
   title: "Beneficios de la tarjeta de crédito BBVA Oro | Top Finanzas MX",
@@ -403,6 +404,12 @@ export default function AnalisisTarjetaBBVAOroPage() {
           </div>
         </div>
       </article>
+
+      <RelatedPosts
+        currentSlug="analisis-tarjeta-de-credito-bbva-oro"
+        category="soluciones-financieras"
+        subCategory="creditCards"
+      />
 
       <CompactFooter />
     </main>
