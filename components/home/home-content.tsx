@@ -62,16 +62,68 @@ const allPosts: PostData[] = ALL_POSTS.map((post) => ({
   categoryPath: post.categoryPath,
 }));
 
-// Reuse posts to populate sections for demo purposes since we have limited hardcoded data
-const savingsPosts = [...allPosts, ...allPosts]
-  .slice(0, 4)
-  .map((p) => ({ ...p, category: "Ahorro inteligente" }));
-const debtPosts = [...allPosts, ...allPosts]
-  .slice(2, 6)
-  .map((p) => ({ ...p, category: "Deuda cero" }));
-const cardPosts = [...allPosts, ...allPosts]
-  .slice(4, 8)
-  .map((p) => ({ ...p, category: "Elige tu tarjeta" }));
+// Filter posts by category for targeted sections
+const finanzasPersonalesPosts = allPosts.filter(
+  (p) => p.category === "Finanzas Personales"
+);
+const solucionesFinancierasPosts = allPosts.filter(
+  (p) => p.category === "Soluciones Financieras"
+);
+
+// Helper function to interleave posts from both categories
+// Prioritizes Finanzas Personales for visibility while mixing content
+const getInterleavedPosts = (count: number): PostData[] => {
+  const result: PostData[] = [];
+  const fpSorted = [...finanzasPersonalesPosts].sort((a, b) => {
+    const dateA = a.frontmatter.date
+      ? new Date(a.frontmatter.date).getTime()
+      : 0;
+    const dateB = b.frontmatter.date
+      ? new Date(b.frontmatter.date).getTime()
+      : 0;
+    return dateB - dateA;
+  });
+  const sfSorted = [...solucionesFinancierasPosts].sort((a, b) => {
+    const dateA = a.frontmatter.date
+      ? new Date(a.frontmatter.date).getTime()
+      : 0;
+    const dateB = b.frontmatter.date
+      ? new Date(b.frontmatter.date).getTime()
+      : 0;
+    return dateB - dateA;
+  });
+
+  let fpIndex = 0;
+  let sfIndex = 0;
+
+  // Interleave: prioritize Finanzas Personales first, then alternate
+  for (let i = 0; i < count; i++) {
+    if (i % 2 === 0 && fpIndex < fpSorted.length) {
+      // Even positions: Finanzas Personales
+      result.push(fpSorted[fpIndex++]);
+    } else if (sfIndex < sfSorted.length) {
+      // Odd positions: Soluciones Financieras
+      result.push(sfSorted[sfIndex++]);
+    } else if (fpIndex < fpSorted.length) {
+      // Fallback to Finanzas Personales if Soluciones exhausted
+      result.push(fpSorted[fpIndex++]);
+    } else if (sfIndex < sfSorted.length) {
+      // Fallback to Soluciones if Finanzas exhausted
+      result.push(sfSorted[sfIndex++]);
+    }
+  }
+
+  return result;
+};
+
+// Create category sections with actual filtered data
+const savingsPosts = finanzasPersonalesPosts.slice(0, 4);
+const loanPosts = solucionesFinancierasPosts
+  .filter((p) => p.categoryPath === "/soluciones-financieras")
+  .slice(0, 4);
+const cardPosts = solucionesFinancierasPosts
+  .filter((p) => p.categoryPath === "/soluciones-financieras")
+  .slice(4, 8);
 
 // --- End of Dynamic Data ---
 
@@ -93,25 +145,16 @@ export function HomeContent() {
       {/* Blog Section */}
       <section className="py-12 md:py-16 lg:py-20 bg-white">
         <div className="container mx-auto px-4">
-          {/* Latest Articles (Top 3) - Centered/Main */}
+          {/* Latest Articles (Top 3) - Interleaved from both categories */}
           {/* Latest Articles - Custom Layout: Hero (Poster) + 2 Standard Cards */}
           <div className="mb-16">
-            {/* We know we have at least 3 posts sorted by date from previous steps */}
+            {/* Get interleaved posts prioritizing Finanzas Personales */}
             {(() => {
-              const sortedPosts = allPosts
-                .sort((a, b) => {
-                  const dateA = a.frontmatter.date
-                    ? new Date(a.frontmatter.date).getTime()
-                    : 0;
-                  const dateB = b.frontmatter.date
-                    ? new Date(b.frontmatter.date).getTime()
-                    : 0;
-                  return dateB - dateA;
-                })
-                .slice(0, 3);
+              // Use interleaved posts for featured section to ensure category diversity
+              const featuredPosts = getInterleavedPosts(3);
 
-              const heroPost = sortedPosts[0];
-              const subPosts = sortedPosts.slice(1, 3);
+              const heroPost = featuredPosts[0];
+              const subPosts = featuredPosts.slice(1, 3);
 
               const mapPost = (post: {
                 frontmatter: PostFrontmatter;
@@ -171,31 +214,8 @@ export function HomeContent() {
           {/* Category Sections - Sharp Corners & Hero+List Layout */}
 
           <CategorySection
-            title="Ahorro inteligente"
+            title="Finanzas Personales"
             posts={savingsPosts.map((p) => ({
-              title: cleanTitle(p.frontmatter.title),
-              description: p.frontmatter.description,
-              image:
-                p.frontmatter.featuredImage ||
-                "https://media.topfinanzas.com/images/placeholder.webp",
-              slug: p.slug,
-              category: p.category,
-              categorySlug: p.categoryPath,
-              date: p.frontmatter.date
-                ? new Date(p.frontmatter.date).toLocaleDateString("es-MX", {
-                    year: "numeric",
-                    month: "long",
-                    day: "numeric",
-                  })
-                : undefined,
-              type: "financial",
-            }))}
-            viewAllLink="/ahorro"
-          />
-
-          <CategorySection
-            title="Deuda cero"
-            posts={debtPosts.map((p) => ({
               title: cleanTitle(p.frontmatter.title),
               description: p.frontmatter.description,
               image:
@@ -213,11 +233,34 @@ export function HomeContent() {
                 : undefined,
               type: "personal",
             }))}
-            viewAllLink="/deuda"
+            viewAllLink="/finanzas-personales"
           />
 
           <CategorySection
-            title="Elige tu tarjeta"
+            title="Préstamos Personales"
+            posts={loanPosts.map((p) => ({
+              title: cleanTitle(p.frontmatter.title),
+              description: p.frontmatter.description,
+              image:
+                p.frontmatter.featuredImage ||
+                "https://media.topfinanzas.com/images/placeholder.webp",
+              slug: p.slug,
+              category: p.category,
+              categorySlug: p.categoryPath,
+              date: p.frontmatter.date
+                ? new Date(p.frontmatter.date).toLocaleDateString("es-MX", {
+                    year: "numeric",
+                    month: "long",
+                    day: "numeric",
+                  })
+                : undefined,
+              type: "financial",
+            }))}
+            viewAllLink="/prestamos"
+          />
+
+          <CategorySection
+            title="Tarjetas de Crédito"
             posts={cardPosts.map((p) => ({
               title: cleanTitle(p.frontmatter.title),
               description: p.frontmatter.description,

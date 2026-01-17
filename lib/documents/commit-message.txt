@@ -1,7 +1,10 @@
-fix(mobile-nav): refactor mobile menu positioning for scroll persistence
+feat(homepage): refactor post aggregation for multi-category display
 
-- Change mobile menu from push-drawer to fixed overlay pattern
-- Update header.tsx: use fixed positioning with translate transforms
-- Increase z-index to 60 to ensure menu overlays all content
-- Update site-wrapper.tsx: remove content transform, add click-to-close overlay
-- Menu now remains accessible at viewport top regardless of scroll depth
+- Add category filtering for Finanzas Personales and Soluciones Financieras
+- Implement getInterleavedPosts() helper for balanced content mixing
+- Prioritize Finanzas Personales posts in featured section (even positions)
+- Update category sections with proper names and filtered data:
+  - "Finanzas Personales" → /finanzas-personales
+  - "Préstamos Personales" → /prestamos  
+  - "Tarjetas de Crédito" → /tarjetas
+- Remove hardcoded demo data in favor of dynamic category-based filtering
