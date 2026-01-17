@@ -8,6 +8,14 @@ import Link from "next/link";
 import { Metadata } from "next";
 
 export const metadata: Metadata = {
+  alternates: {
+    canonical:
+      "https://topfinanzas.com/mx/soluciones-financieras/requisitos-prestamos-personales-kueski",
+    languages: {
+      "es-MX":
+        "https://topfinanzas.com/mx/soluciones-financieras/requisitos-prestamos-personales-kueski",
+    },
+  },
   title: "Requisitos para solicitar un préstamo en Kueski | Top Finanzas MX",
   description:
     "Solicitar un préstamo en Kueski es sencillo. Conoce los requisitos básicos, para quién es ideal y cómo empezar tu solicitud en minutos.",

@@ -1,8 +1,9 @@
-refactor(soluciones): standardize Requirements pages and RelatedPosts props
+feat: implement hreflang and canonical tags for i18n SEO
 
-- Updated all `RelatedPosts` invocations in `soluciones-financieras` to include mandatory `category` and `subCategory` props.
-- Refactored Remaining Credit Card Requirements pages (HSBC Viva, Klar, Klu, Mercado Pago, Nu, Platinum Amex, Tigres Afirme, Vexi Carnet) with standard layout:
-  - Added 'Back to Analysis' link with correct brand color.
-  - Injected `RelatedPosts` component.
-  - Cleaned up imports.
-- Fixed unused variable lint warning in `requisitos-tarjeta-stori`.
+- Implement `hreflang="es-MX"` and `canonical` tags in `app/layout.tsx` and across the site.
+- Refactor `app/page.tsx` to Server Component, moving UI logic to `components/home/home-content.tsx`.
+- Create `app/blog/layout.tsx`, `app/finanzas-personales/layout.tsx`, and `app/soluciones-financieras/layout.tsx` for proper metadata inheritance.
+- Update 70+ static pages in `finanzas-personales` and `soluciones-financieras` with page-specific `alternates` metadata.
+- Refactor `Button` component to use `class-variance-authority` and export `buttonVariants`.
+- Fix TypeScript errors in `Carousel`, `GAM`, `UTMTracker`, and `ConvertKit` client.
+- Standardize logger arguments to fix lint warnings.

@@ -8,6 +8,14 @@ import Link from "next/link";
 import { Metadata } from "next";
 
 export const metadata: Metadata = {
+  alternates: {
+    canonical:
+      "https://topfinanzas.com/mx/soluciones-financieras/requisitos-tarjeta-de-credito-mercado-pago",
+    languages: {
+      "es-MX":
+        "https://topfinanzas.com/mx/soluciones-financieras/requisitos-tarjeta-de-credito-mercado-pago",
+    },
+  },
   title: "Requisitos para solicitar la tarjeta Mercado Pago | Top Finanzas MX",
   description:
     "Descubre los requisitos y beneficios de la tarjeta de crédito Mercado Pago. Sin anualidad, ideal para compras en línea y con gestión total desde la app.",

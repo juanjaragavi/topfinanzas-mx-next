@@ -7,6 +7,14 @@ import Link from "next/link";
 import { RelatedPosts } from "@/components/blog/related-posts";
 
 export const metadata: Metadata = {
+  alternates: {
+    canonical:
+      "https://topfinanzas.com/mx/soluciones-financieras/cual-es-el-mejor-prestamo-personal",
+    languages: {
+      "es-MX":
+        "https://topfinanzas.com/mx/soluciones-financieras/cual-es-el-mejor-prestamo-personal",
+    },
+  },
   title:
     "¿Cuál es el mejor préstamo personal? Explorando opciones en el mundo Fintech | Top Finanzas MX",
   description:

@@ -7,6 +7,14 @@ import { Metadata } from "next";
 import { RelatedPosts } from "@/components/blog/related-posts";
 
 export const metadata: Metadata = {
+  alternates: {
+    canonical:
+      "https://topfinanzas.com/mx/soluciones-financieras/tarjeta-de-credito-likeu-de-santander",
+    languages: {
+      "es-MX":
+        "https://topfinanzas.com/mx/soluciones-financieras/tarjeta-de-credito-likeu-de-santander",
+    },
+  },
   title: "LikeU de Santander: innovación en tus manos | Top Finanzas MX",
   description:
     "Descubre la tarjeta de crédito LikeU de Santander: personalizable, sin anualidad, con cashback y seguridad avanzada. ¡Solicítala hoy!",

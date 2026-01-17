@@ -8,6 +8,14 @@ import type { Metadata } from "next";
 import { RelatedPosts } from "@/components/blog/related-posts";
 
 export const metadata: Metadata = {
+  alternates: {
+    canonical:
+      "https://topfinanzas.com/mx/soluciones-financieras/didi-prestamos",
+    languages: {
+      "es-MX":
+        "https://topfinanzas.com/mx/soluciones-financieras/didi-prestamos",
+    },
+  },
   title:
     "Beneficios de solicitar un préstamo con DiDi Préstamos | Top Finanzas",
   description:

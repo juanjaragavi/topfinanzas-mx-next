@@ -7,6 +7,14 @@ import { Metadata } from "next";
 import { RelatedPosts } from "@/components/blog/related-posts";
 
 export const metadata: Metadata = {
+  alternates: {
+    canonical:
+      "https://topfinanzas.com/mx/soluciones-financieras/tarjeta-de-credito-aeromexico-santander",
+    languages: {
+      "es-MX":
+        "https://topfinanzas.com/mx/soluciones-financieras/tarjeta-de-credito-aeromexico-santander",
+    },
+  },
   title: "Beneficios de la tarjeta Aeroméxico Santander | Top Finanzas MX",
   description:
     "Las tarjetas de crédito Aeroméxico Santander son una excelente opción para los viajeros frecuentes. Conoce sus beneficios, requisitos y características.",

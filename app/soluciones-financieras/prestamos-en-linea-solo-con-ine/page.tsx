@@ -7,6 +7,14 @@ import { Metadata } from "next";
 import { RelatedPosts } from "@/components/blog/related-posts";
 
 export const metadata: Metadata = {
+  alternates: {
+    canonical:
+      "https://topfinanzas.com/mx/soluciones-financieras/prestamos-en-linea-solo-con-ine",
+    languages: {
+      "es-MX":
+        "https://topfinanzas.com/mx/soluciones-financieras/prestamos-en-linea-solo-con-ine",
+    },
+  },
   title:
     "¿Buscas préstamos en línea solo con INE? ¡Descubre todo lo que debes saber!",
   description:

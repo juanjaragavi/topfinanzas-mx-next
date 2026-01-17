@@ -7,6 +7,14 @@ import Link from "next/link";
 import { RelatedPosts } from "@/components/blog/related-posts";
 
 export const metadata: Metadata = {
+  alternates: {
+    canonical:
+      "https://topfinanzas.com/mx/finanzas-personales/tuyo-mio-o-nuestro-como-unir-finanzas-estrategicamente-despues-de-casarse-o-mudarse-juntos",
+    languages: {
+      "es-MX":
+        "https://topfinanzas.com/mx/finanzas-personales/tuyo-mio-o-nuestro-como-unir-finanzas-estrategicamente-despues-de-casarse-o-mudarse-juntos",
+    },
+  },
   title:
     "¿Tuyo, Mío o Nuestro? Cómo Unir Finanzas Estratégicamente Después de Casarse (o Mudarse Juntos) | Top Finanzas MX",
   description:

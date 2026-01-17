@@ -8,6 +8,14 @@ import { Metadata } from "next";
 import { RelatedPosts } from "@/components/blog/related-posts";
 
 export const metadata: Metadata = {
+  alternates: {
+    canonical:
+      "https://topfinanzas.com/mx/soluciones-financieras/requisitos-tarjeta-de-credito-hsbc-viva",
+    languages: {
+      "es-MX":
+        "https://topfinanzas.com/mx/soluciones-financieras/requisitos-tarjeta-de-credito-hsbc-viva",
+    },
+  },
   title: "Requisitos de la tarjeta de crédito HSBC Viva | Top Finanzas MX",
   description:
     "Conoce los requisitos de la tarjeta de crédito HSBC Viva, sus beneficios en viajes y cómo solicitarla fácilmente.",

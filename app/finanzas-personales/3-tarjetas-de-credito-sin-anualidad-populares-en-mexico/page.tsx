@@ -7,6 +7,14 @@ import Link from "next/link";
 import { Metadata } from "next";
 
 export const metadata: Metadata = {
+  alternates: {
+    canonical:
+      "https://topfinanzas.com/mx/finanzas-personales/3-tarjetas-de-credito-sin-anualidad-populares-en-mexico",
+    languages: {
+      "es-MX":
+        "https://topfinanzas.com/mx/finanzas-personales/3-tarjetas-de-credito-sin-anualidad-populares-en-mexico",
+    },
+  },
   title:
     "3 Tarjetas de Crédito sin Anualidad, Populares en México | Top Finanzas MX",
   description:

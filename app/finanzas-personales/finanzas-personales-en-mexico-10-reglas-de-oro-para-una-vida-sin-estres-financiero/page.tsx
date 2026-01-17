@@ -7,6 +7,14 @@ import Link from "next/link";
 import { Metadata } from "next";
 
 export const metadata: Metadata = {
+  alternates: {
+    canonical:
+      "https://topfinanzas.com/mx/finanzas-personales/finanzas-personales-en-mexico-10-reglas-de-oro-para-una-vida-sin-estres-financiero",
+    languages: {
+      "es-MX":
+        "https://topfinanzas.com/mx/finanzas-personales/finanzas-personales-en-mexico-10-reglas-de-oro-para-una-vida-sin-estres-financiero",
+    },
+  },
   title:
     "Finanzas Personales en México: 10 Reglas de Oro Para Una Vida Sin Estrés Financiero | Top Finanzas MX",
   description:

@@ -8,6 +8,14 @@ import Link from "next/link";
 import { Metadata } from "next";
 
 export const metadata: Metadata = {
+  alternates: {
+    canonical:
+      "https://topfinanzas.com/mx/soluciones-financieras/requisitos-prestamos-doopla",
+    languages: {
+      "es-MX":
+        "https://topfinanzas.com/mx/soluciones-financieras/requisitos-prestamos-doopla",
+    },
+  },
   title: "Requisitos préstamo en Doopla | Top Finanzas MX",
   description:
     "Doopla ofrece préstamos P2P con tasas desde el 12% anual. Conoce los requisitos y beneficios de solicitar tu crédito en línea.",

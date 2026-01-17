@@ -8,6 +8,14 @@ import Link from "next/link";
 import { Metadata } from "next";
 
 export const metadata: Metadata = {
+  alternates: {
+    canonical:
+      "https://topfinanzas.com/mx/soluciones-financieras/requisitos-tarjeta-de-credito-nu",
+    languages: {
+      "es-MX":
+        "https://topfinanzas.com/mx/soluciones-financieras/requisitos-tarjeta-de-credito-nu",
+    },
+  },
   title: "Requisitos tarjeta de crédito Nu | Top Finanzas MX",
   description:
     "Descubre los pasos y requisitos esenciales para obtener tu Tarjeta de Crédito NuBank en México, con información sobre costos, CAT y proceso de solicitud.",

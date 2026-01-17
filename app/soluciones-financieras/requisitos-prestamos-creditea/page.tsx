@@ -7,6 +7,14 @@ import Link from "next/link";
 import { Metadata } from "next";
 
 export const metadata: Metadata = {
+  alternates: {
+    canonical:
+      "https://topfinanzas.com/mx/soluciones-financieras/requisitos-prestamos-creditea",
+    languages: {
+      "es-MX":
+        "https://topfinanzas.com/mx/soluciones-financieras/requisitos-prestamos-creditea",
+    },
+  },
   title:
     "Requisitos para solicitar un préstamo en Creditea México | Top Finanzas MX",
   description:

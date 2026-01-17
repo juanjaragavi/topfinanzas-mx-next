@@ -7,6 +7,14 @@ import { Metadata } from "next";
 import Link from "next/link";
 
 export const metadata: Metadata = {
+  alternates: {
+    canonical:
+      "https://topfinanzas.com/mx/finanzas-personales/ahorro-inteligente-estrategias-de-finanzas-personales-para-impulsar-tu-dinero",
+    languages: {
+      "es-MX":
+        "https://topfinanzas.com/mx/finanzas-personales/ahorro-inteligente-estrategias-de-finanzas-personales-para-impulsar-tu-dinero",
+    },
+  },
   title:
     "Ahorro Inteligente: Estrategias de Finanzas Personales para Impulsar tu Dinero | Top Finanzas MX",
   description:

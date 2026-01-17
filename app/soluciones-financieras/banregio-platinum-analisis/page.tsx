@@ -7,6 +7,14 @@ import { Metadata } from "next";
 import { RelatedPosts } from "@/components/blog/related-posts";
 
 export const metadata: Metadata = {
+  alternates: {
+    canonical:
+      "https://topfinanzas.com/mx/soluciones-financieras/banregio-platinum-analisis",
+    languages: {
+      "es-MX":
+        "https://topfinanzas.com/mx/soluciones-financieras/banregio-platinum-analisis",
+    },
+  },
   title:
     "Beneficios de la Tarjeta de Crédito Banregio Platinum | Top Finanzas MX",
   description:

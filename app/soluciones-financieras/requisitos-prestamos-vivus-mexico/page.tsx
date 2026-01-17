@@ -8,6 +8,14 @@ import Link from "next/link";
 import { Metadata } from "next";
 
 export const metadata: Metadata = {
+  alternates: {
+    canonical:
+      "https://topfinanzas.com/mx/soluciones-financieras/requisitos-prestamos-vivus-mexico",
+    languages: {
+      "es-MX":
+        "https://topfinanzas.com/mx/soluciones-financieras/requisitos-prestamos-vivus-mexico",
+    },
+  },
   title: "Requisitos préstamos Vivus México | Top Finanzas MX",
   description:
     "Obtén hasta $3,000 MXN en minutos. Con un proceso 100% en línea y sin papeleo, es ideal para cubrir emergencias o gastos pequeños.",

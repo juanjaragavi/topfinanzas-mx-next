@@ -8,6 +8,14 @@ import { Metadata } from "next";
 import { RelatedPosts } from "@/components/blog/related-posts";
 
 export const metadata: Metadata = {
+  alternates: {
+    canonical:
+      "https://topfinanzas.com/mx/soluciones-financieras/tarjeta-de-credito-platinum-american-express",
+    languages: {
+      "es-MX":
+        "https://topfinanzas.com/mx/soluciones-financieras/tarjeta-de-credito-platinum-american-express",
+    },
+  },
   title:
     "Beneficios de la tarjeta de Crédito Platinum American Express | Top Finanzas MX",
   description:

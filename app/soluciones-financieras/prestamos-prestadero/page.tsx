@@ -7,6 +7,14 @@ import { Metadata } from "next";
 import { RelatedPosts } from "@/components/blog/related-posts";
 
 export const metadata: Metadata = {
+  alternates: {
+    canonical:
+      "https://topfinanzas.com/mx/soluciones-financieras/prestamos-prestadero",
+    languages: {
+      "es-MX":
+        "https://topfinanzas.com/mx/soluciones-financieras/prestamos-prestadero",
+    },
+  },
   title: "Beneficios de solicitar un préstamo con Prestadero | Top Finanzas MX",
   description:
     "Conoce los beneficios de Prestadero: tasas desde 8.9%, proceso 100% online y sin penalizaciones por pago anticipado. Préstamos de $10k a $300k.",

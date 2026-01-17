@@ -8,6 +8,14 @@ import Link from "next/link";
 import { Metadata } from "next";
 
 export const metadata: Metadata = {
+  alternates: {
+    canonical:
+      "https://topfinanzas.com/mx/soluciones-financieras/requisitos-tarjeta-santander-aeromexico-infinite",
+    languages: {
+      "es-MX":
+        "https://topfinanzas.com/mx/soluciones-financieras/requisitos-tarjeta-santander-aeromexico-infinite",
+    },
+  },
   title:
     "Requisitos de la tarjeta de crédito Santander Aeroméxico Infinite | Top Finanzas MX",
   description:

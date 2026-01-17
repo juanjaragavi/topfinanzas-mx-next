@@ -8,6 +8,14 @@ import Link from "next/link";
 import { Metadata } from "next";
 
 export const metadata: Metadata = {
+  alternates: {
+    canonical:
+      "https://topfinanzas.com/mx/soluciones-financieras/requisitos-prestamos-soy-claire",
+    languages: {
+      "es-MX":
+        "https://topfinanzas.com/mx/soluciones-financieras/requisitos-prestamos-soy-claire",
+    },
+  },
   title: "Requisitos préstamo Soy Claire | Top Finanzas MX",
   description:
     "Simplifica tus pagos en un solo crédito, con plazos flexibles y sin penalizaciones por pagos anticipados. Conoce los requisitos del préstamo Soy Claire.",

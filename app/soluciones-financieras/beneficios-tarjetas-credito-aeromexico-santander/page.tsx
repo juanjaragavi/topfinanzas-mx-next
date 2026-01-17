@@ -7,6 +7,14 @@ import Link from "next/link";
 import { Metadata } from "next";
 
 export const metadata: Metadata = {
+  alternates: {
+    canonical:
+      "https://topfinanzas.com/mx/soluciones-financieras/beneficios-tarjetas-credito-aeromexico-santander",
+    languages: {
+      "es-MX":
+        "https://topfinanzas.com/mx/soluciones-financieras/beneficios-tarjetas-credito-aeromexico-santander",
+    },
+  },
   title:
     "Beneficios de las tarjetas de crédito Aeroméxico Santander | Top Finanzas MX",
   description:

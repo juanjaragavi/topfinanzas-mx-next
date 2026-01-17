@@ -7,6 +7,14 @@ import Link from "next/link";
 import { Metadata } from "next";
 
 export const metadata: Metadata = {
+  alternates: {
+    canonical:
+      "https://topfinanzas.com/mx/finanzas-personales/deuda-buena-vs-deuda-mala-aprende-a-diferenciarlas",
+    languages: {
+      "es-MX":
+        "https://topfinanzas.com/mx/finanzas-personales/deuda-buena-vs-deuda-mala-aprende-a-diferenciarlas",
+    },
+  },
   title:
     "Deuda Buena vs. Deuda Mala: Aprende a Diferenciarlas | Top Finanzas MX",
   description:

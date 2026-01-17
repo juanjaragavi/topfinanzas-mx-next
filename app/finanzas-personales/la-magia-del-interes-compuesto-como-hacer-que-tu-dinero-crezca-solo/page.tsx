@@ -7,6 +7,14 @@ import { RelatedPosts } from "@/components/blog/related-posts";
 import { Metadata } from "next";
 
 export const metadata: Metadata = {
+  alternates: {
+    canonical:
+      "https://topfinanzas.com/mx/finanzas-personales/la-magia-del-interes-compuesto-como-hacer-que-tu-dinero-crezca-solo",
+    languages: {
+      "es-MX":
+        "https://topfinanzas.com/mx/finanzas-personales/la-magia-del-interes-compuesto-como-hacer-que-tu-dinero-crezca-solo",
+    },
+  },
   title:
     "La magia del interés compuesto: Cómo hacer que tu dinero crezca solo | Top Finanzas MX",
   description:

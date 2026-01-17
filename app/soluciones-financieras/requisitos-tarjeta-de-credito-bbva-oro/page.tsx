@@ -8,6 +8,14 @@ import { Metadata } from "next";
 import { RelatedPosts } from "@/components/blog/related-posts";
 
 export const metadata: Metadata = {
+  alternates: {
+    canonical:
+      "https://topfinanzas.com/mx/soluciones-financieras/requisitos-tarjeta-de-credito-bbva-oro",
+    languages: {
+      "es-MX":
+        "https://topfinanzas.com/mx/soluciones-financieras/requisitos-tarjeta-de-credito-bbva-oro",
+    },
+  },
   title:
     "Requisitos para solicitar la tarjeta de crédito BBVA Oro | Top Finanzas MX",
   description:

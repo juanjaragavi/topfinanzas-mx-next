@@ -7,6 +7,14 @@ import { Metadata } from "next";
 import { RelatedPosts } from "@/components/blog/related-posts";
 
 export const metadata: Metadata = {
+  alternates: {
+    canonical:
+      "https://topfinanzas.com/mx/soluciones-financieras/tarjeta-de-credito-mercado-pago",
+    languages: {
+      "es-MX":
+        "https://topfinanzas.com/mx/soluciones-financieras/tarjeta-de-credito-mercado-pago",
+    },
+  },
   title:
     "Beneficios principales de la tarjeta de crédito Mercado Pago | Top Finanzas MX",
   description:

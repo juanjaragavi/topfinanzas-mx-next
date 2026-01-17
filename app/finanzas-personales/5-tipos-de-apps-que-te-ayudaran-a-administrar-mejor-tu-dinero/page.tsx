@@ -7,6 +7,14 @@ import Link from "next/link";
 import { Metadata } from "next";
 
 export const metadata: Metadata = {
+  alternates: {
+    canonical:
+      "https://topfinanzas.com/mx/finanzas-personales/5-tipos-de-apps-que-te-ayudaran-a-administrar-mejor-tu-dinero",
+    languages: {
+      "es-MX":
+        "https://topfinanzas.com/mx/finanzas-personales/5-tipos-de-apps-que-te-ayudaran-a-administrar-mejor-tu-dinero",
+    },
+  },
   title:
     "5 tipos de apps que te ayudarán a administrar mejor tu dinero | Top Finanzas MX",
   description:

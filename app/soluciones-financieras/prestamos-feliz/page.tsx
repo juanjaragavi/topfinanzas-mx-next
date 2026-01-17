@@ -7,6 +7,14 @@ import { Metadata } from "next";
 import { RelatedPosts } from "@/components/blog/related-posts";
 
 export const metadata: Metadata = {
+  alternates: {
+    canonical:
+      "https://topfinanzas.com/mx/soluciones-financieras/prestamos-feliz",
+    languages: {
+      "es-MX":
+        "https://topfinanzas.com/mx/soluciones-financieras/prestamos-feliz",
+    },
+  },
   title:
     "Beneficios y características clave de Préstamos Feliz | Top Finanzas MX",
   description:

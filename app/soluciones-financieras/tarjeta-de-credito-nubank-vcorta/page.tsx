@@ -7,6 +7,14 @@ import { Metadata } from "next";
 import { RelatedPosts } from "@/components/blog/related-posts";
 
 export const metadata: Metadata = {
+  alternates: {
+    canonical:
+      "https://topfinanzas.com/mx/soluciones-financieras/tarjeta-de-credito-nubank-vcorta",
+    languages: {
+      "es-MX":
+        "https://topfinanzas.com/mx/soluciones-financieras/tarjeta-de-credito-nubank-vcorta",
+    },
+  },
   title: "Tarjeta de Crédito Nubank | Top Finanzas MX",
   description:
     "La Tarjeta de Crédito NuBank, conocida por su accesibilidad y transparencia, se adapta a cualquier estilo de vida.",

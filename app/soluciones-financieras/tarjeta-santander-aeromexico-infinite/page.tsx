@@ -7,6 +7,14 @@ import { Metadata } from "next";
 import { RelatedPosts } from "@/components/blog/related-posts";
 
 export const metadata: Metadata = {
+  alternates: {
+    canonical:
+      "https://topfinanzas.com/mx/soluciones-financieras/tarjeta-santander-aeromexico-infinite",
+    languages: {
+      "es-MX":
+        "https://topfinanzas.com/mx/soluciones-financieras/tarjeta-santander-aeromexico-infinite",
+    },
+  },
   title:
     "Beneficios de la tarjeta de crédito Santander Aeroméxico Infinite | Top Finanzas MX",
   description:

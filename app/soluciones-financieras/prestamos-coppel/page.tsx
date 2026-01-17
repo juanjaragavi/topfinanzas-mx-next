@@ -7,6 +7,14 @@ import { Metadata } from "next";
 import { RelatedPosts } from "@/components/blog/related-posts";
 
 export const metadata: Metadata = {
+  alternates: {
+    canonical:
+      "https://topfinanzas.com/mx/soluciones-financieras/prestamos-coppel",
+    languages: {
+      "es-MX":
+        "https://topfinanzas.com/mx/soluciones-financieras/prestamos-coppel",
+    },
+  },
   title:
     "Préstamo Coppel: Solución flexible para lo que necesitas | Top Finanzas MX",
   description:

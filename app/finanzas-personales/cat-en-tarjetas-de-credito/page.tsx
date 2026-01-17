@@ -7,6 +7,14 @@ import Link from "next/link";
 import { Metadata } from "next";
 
 export const metadata: Metadata = {
+  alternates: {
+    canonical:
+      "https://topfinanzas.com/mx/finanzas-personales/cat-en-tarjetas-de-credito",
+    languages: {
+      "es-MX":
+        "https://topfinanzas.com/mx/finanzas-personales/cat-en-tarjetas-de-credito",
+    },
+  },
   title:
     "¿Qué es el CAT en Tarjetas de Crédito y por qué es importante? | Top Finanzas MX",
   description:

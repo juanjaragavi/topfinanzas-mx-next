@@ -7,6 +7,14 @@ import Link from "next/link";
 import { Metadata } from "next";
 
 export const metadata: Metadata = {
+  alternates: {
+    canonical:
+      "https://topfinanzas.com/mx/finanzas-personales/las-mejores-tarjetas-de-credito-para-viajar-guia-para-principiantes",
+    languages: {
+      "es-MX":
+        "https://topfinanzas.com/mx/finanzas-personales/las-mejores-tarjetas-de-credito-para-viajar-guia-para-principiantes",
+    },
+  },
   title:
     "Las Mejores Tarjetas de Crédito para Viajar: Guía para Principiantes | Top Finanzas MX",
   description:

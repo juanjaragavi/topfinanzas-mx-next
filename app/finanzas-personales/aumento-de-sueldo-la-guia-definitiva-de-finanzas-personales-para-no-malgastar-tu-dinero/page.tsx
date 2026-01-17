@@ -7,6 +7,14 @@ import Link from "next/link";
 import { Metadata } from "next";
 
 export const metadata: Metadata = {
+  alternates: {
+    canonical:
+      "https://topfinanzas.com/mx/finanzas-personales/aumento-de-sueldo-la-guia-definitiva-de-finanzas-personales-para-no-malgastar-tu-dinero",
+    languages: {
+      "es-MX":
+        "https://topfinanzas.com/mx/finanzas-personales/aumento-de-sueldo-la-guia-definitiva-de-finanzas-personales-para-no-malgastar-tu-dinero",
+    },
+  },
   title:
     "Aumento de Sueldo: La Guía Definitiva de Finanzas Personales para No Malgastar tu Dinero | Top Finanzas MX",
   description:

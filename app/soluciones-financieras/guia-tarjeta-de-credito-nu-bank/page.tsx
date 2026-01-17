@@ -7,6 +7,14 @@ import Link from "next/link";
 import { Metadata } from "next";
 
 export const metadata: Metadata = {
+  alternates: {
+    canonical:
+      "https://topfinanzas.com/mx/soluciones-financieras/guia-tarjeta-de-credito-nu-bank",
+    languages: {
+      "es-MX":
+        "https://topfinanzas.com/mx/soluciones-financieras/guia-tarjeta-de-credito-nu-bank",
+    },
+  },
   title: "NuBank: La tarjeta de crédito ideal para ti | Top Finanzas MX",
   description:
     "La Tarjeta de Crédito NuBank, conocida por su accesibilidad y transparencia, se adapta a cualquier estilo de vida.",

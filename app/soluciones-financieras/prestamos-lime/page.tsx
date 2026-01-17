@@ -7,6 +7,14 @@ import { Metadata } from "next";
 import { RelatedPosts } from "@/components/blog/related-posts";
 
 export const metadata: Metadata = {
+  alternates: {
+    canonical:
+      "https://topfinanzas.com/mx/soluciones-financieras/prestamos-lime",
+    languages: {
+      "es-MX":
+        "https://topfinanzas.com/mx/soluciones-financieras/prestamos-lime",
+    },
+  },
   title:
     "Préstamos Lime: Microcréditos para tus emergencias financieras | Top Finanzas MX",
   description:

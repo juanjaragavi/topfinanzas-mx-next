@@ -14,6 +14,14 @@ import {
 import { Metadata } from "next";
 
 export const metadata: Metadata = {
+  alternates: {
+    canonical:
+      "https://topfinanzas.com/mx/finanzas-personales/que-es-el-score-crediticio-y-por-que-es-tan-importante",
+    languages: {
+      "es-MX":
+        "https://topfinanzas.com/mx/finanzas-personales/que-es-el-score-crediticio-y-por-que-es-tan-importante",
+    },
+  },
   title:
     "¿Qué es el score crediticio y por qué es tan importante? | TopFinanzas",
   description:

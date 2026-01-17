@@ -7,6 +7,14 @@ import Link from "next/link";
 import { Metadata } from "next";
 
 export const metadata: Metadata = {
+  alternates: {
+    canonical:
+      "https://topfinanzas.com/mx/finanzas-personales/finanzas-personales-en-quincena-que-hacer-y-que-evitar-con-tu-sueldo",
+    languages: {
+      "es-MX":
+        "https://topfinanzas.com/mx/finanzas-personales/finanzas-personales-en-quincena-que-hacer-y-que-evitar-con-tu-sueldo",
+    },
+  },
   title:
     "Finanzas Personales en Quincena: Qué Hacer y Qué Evitar con tu Sueldo | Top Finanzas MX",
   description:

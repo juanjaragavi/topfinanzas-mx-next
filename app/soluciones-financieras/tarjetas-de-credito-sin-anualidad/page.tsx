@@ -7,6 +7,14 @@ import Link from "next/link";
 import { RelatedPosts } from "@/components/blog/related-posts";
 
 export const metadata: Metadata = {
+  alternates: {
+    canonical:
+      "https://topfinanzas.com/mx/soluciones-financieras/tarjetas-de-credito-sin-anualidad",
+    languages: {
+      "es-MX":
+        "https://topfinanzas.com/mx/soluciones-financieras/tarjetas-de-credito-sin-anualidad",
+    },
+  },
   title:
     "Top de las mejores tarjetas de crédito sin anualidad en México | Top Finanzas MX",
   description:

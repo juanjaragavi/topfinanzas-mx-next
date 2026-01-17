@@ -7,6 +7,14 @@ import { Metadata } from "next";
 import { RelatedPosts } from "@/components/blog/related-posts";
 
 export const metadata: Metadata = {
+  alternates: {
+    canonical:
+      "https://topfinanzas.com/mx/soluciones-financieras/prestamos-soy-claire",
+    languages: {
+      "es-MX":
+        "https://topfinanzas.com/mx/soluciones-financieras/prestamos-soy-claire",
+    },
+  },
   title:
     "Préstamos Soy Claire: Consolida tus deudas de tarjetas de crédito | Top Finanzas MX",
   description:

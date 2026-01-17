@@ -7,6 +7,14 @@ import Link from "next/link";
 import { Metadata } from "next";
 
 export const metadata: Metadata = {
+  alternates: {
+    canonical:
+      "https://topfinanzas.com/mx/finanzas-personales/cashback-vs-puntos-que-programa-de-recompensas-te-conviene-mas-para-el-black-friday",
+    languages: {
+      "es-MX":
+        "https://topfinanzas.com/mx/finanzas-personales/cashback-vs-puntos-que-programa-de-recompensas-te-conviene-mas-para-el-black-friday",
+    },
+  },
   title:
     "Cashback vs. Puntos: ¿Qué programa de recompensas te conviene más para el Black Friday? | Top Finanzas MX",
   description:

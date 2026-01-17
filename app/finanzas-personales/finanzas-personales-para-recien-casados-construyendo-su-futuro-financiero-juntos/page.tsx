@@ -7,6 +7,14 @@ import Link from "next/link";
 import { Metadata } from "next";
 
 export const metadata: Metadata = {
+  alternates: {
+    canonical:
+      "https://topfinanzas.com/mx/finanzas-personales/finanzas-personales-para-recien-casados-construyendo-su-futuro-financiero-juntos",
+    languages: {
+      "es-MX":
+        "https://topfinanzas.com/mx/finanzas-personales/finanzas-personales-para-recien-casados-construyendo-su-futuro-financiero-juntos",
+    },
+  },
   title:
     "Finanzas Personales para Recién Casados: Construyendo Su Futuro Financiero Juntos | Top Finanzas MX",
   description:

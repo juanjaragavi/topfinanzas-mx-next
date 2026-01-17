@@ -7,6 +7,14 @@ import Link from "next/link";
 import { Metadata } from "next";
 
 export const metadata: Metadata = {
+  alternates: {
+    canonical:
+      "https://topfinanzas.com/mx/soluciones-financieras/requisitos-tarjeta-de-credito-volaris-invex-0",
+    languages: {
+      "es-MX":
+        "https://topfinanzas.com/mx/soluciones-financieras/requisitos-tarjeta-de-credito-volaris-invex-0",
+    },
+  },
   title: "Requisitos de la tarjeta de crédito Volaris INVEX | Top Finanzas MX",
   description:
     "Conoce los requisitos para solicitar la Tarjeta de Crédito Volaris INVEX y descubre si es la opción ideal para tus viajes.",

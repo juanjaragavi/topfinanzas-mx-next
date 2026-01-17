@@ -8,6 +8,14 @@ import { RelatedPosts } from "@/components/blog/related-posts";
 import { Metadata } from "next";
 
 export const metadata: Metadata = {
+  alternates: {
+    canonical:
+      "https://topfinanzas.com/mx/finanzas-personales/que-es-un-fondo-de-emergencia-y-por-que-es-clave-para-tu-tranquilidad",
+    languages: {
+      "es-MX":
+        "https://topfinanzas.com/mx/finanzas-personales/que-es-un-fondo-de-emergencia-y-por-que-es-clave-para-tu-tranquilidad",
+    },
+  },
   title:
     "¿Qué es un Fondo de Emergencia y Por Qué es Clave para tu Tranquilidad? | TopFinanzas",
   description:

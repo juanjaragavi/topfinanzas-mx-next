@@ -7,6 +7,14 @@ import { Metadata } from "next";
 import { RelatedPosts } from "@/components/blog/related-posts";
 
 export const metadata: Metadata = {
+  alternates: {
+    canonical:
+      "https://topfinanzas.com/mx/soluciones-financieras/tarjeta-spin-by-oxxo",
+    languages: {
+      "es-MX":
+        "https://topfinanzas.com/mx/soluciones-financieras/tarjeta-spin-by-oxxo",
+    },
+  },
   title:
     "Tarjeta Spin by OXXO: ¿Es una buena opción para ti? | Top Finanzas MX",
   description:

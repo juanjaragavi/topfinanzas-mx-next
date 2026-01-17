@@ -7,6 +7,14 @@ import Link from "next/link";
 import { Metadata } from "next";
 
 export const metadata: Metadata = {
+  alternates: {
+    canonical:
+      "https://topfinanzas.com/mx/finanzas-personales/finanzas-personales-para-recien-casados-y-parejas-nuevas-que-hacer-y-que-evitar",
+    languages: {
+      "es-MX":
+        "https://topfinanzas.com/mx/finanzas-personales/finanzas-personales-para-recien-casados-y-parejas-nuevas-que-hacer-y-que-evitar",
+    },
+  },
   title:
     "Finanzas Personales para Recién Casados y Parejas Nuevas: Qué Hacer y Qué Evitar | Top Finanzas MX",
   description:

@@ -7,6 +7,14 @@ import { Metadata } from "next";
 import { RelatedPosts } from "@/components/blog/related-posts";
 
 export const metadata: Metadata = {
+  alternates: {
+    canonical:
+      "https://topfinanzas.com/mx/soluciones-financieras/tarjeta-de-credito-klar",
+    languages: {
+      "es-MX":
+        "https://topfinanzas.com/mx/soluciones-financieras/tarjeta-de-credito-klar",
+    },
+  },
   title: "Beneficios de la tarjeta Klar | Top Finanzas MX",
   description:
     "La tarjeta de crédito Klar es una opción innovadora sin comisiones, ideal para quienes buscan construir historial crediticio. Conoce sus beneficios.",

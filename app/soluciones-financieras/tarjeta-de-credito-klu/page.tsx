@@ -7,6 +7,14 @@ import { Metadata } from "next";
 import { RelatedPosts } from "@/components/blog/related-posts";
 
 export const metadata: Metadata = {
+  alternates: {
+    canonical:
+      "https://topfinanzas.com/mx/soluciones-financieras/tarjeta-de-credito-klu",
+    languages: {
+      "es-MX":
+        "https://topfinanzas.com/mx/soluciones-financieras/tarjeta-de-credito-klu",
+    },
+  },
   title: "Beneficios de la tarjeta de crédito Klu | Top Finanzas MX",
   description:
     "La tarjeta de crédito Klu es una opción atractiva sin anualidad, fácil aprobación y control total desde tu móvil. Conoce sus beneficios.",

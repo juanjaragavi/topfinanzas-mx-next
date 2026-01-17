@@ -8,6 +8,14 @@ import Link from "next/link";
 import { Metadata } from "next";
 
 export const metadata: Metadata = {
+  alternates: {
+    canonical:
+      "https://topfinanzas.com/mx/soluciones-financieras/requisitos-gold-card-american-express-aeromexico",
+    languages: {
+      "es-MX":
+        "https://topfinanzas.com/mx/soluciones-financieras/requisitos-gold-card-american-express-aeromexico",
+    },
+  },
   title:
     "Requisitos para solicitar la Gold Card American Express® Aeroméxico | Top Finanzas MX",
   description:

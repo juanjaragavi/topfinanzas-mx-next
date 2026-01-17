@@ -7,6 +7,14 @@ import { Metadata } from "next";
 import { RelatedPosts } from "@/components/blog/related-posts";
 
 export const metadata: Metadata = {
+  alternates: {
+    canonical:
+      "https://topfinanzas.com/mx/soluciones-financieras/tarjeta-vexi-american-express",
+    languages: {
+      "es-MX":
+        "https://topfinanzas.com/mx/soluciones-financieras/tarjeta-vexi-american-express",
+    },
+  },
   title: "Beneficios de la Tarjeta Vexi American Express | Top Finanzas MX",
   description:
     "La Vexi American Express es ideal para iniciar tu historial con beneficios exclusivos, meses sin intereses y cashback. Conoce más.",

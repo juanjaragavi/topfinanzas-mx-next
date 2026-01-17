@@ -7,6 +7,14 @@ import { Metadata } from "next";
 import { RelatedPosts } from "@/components/blog/related-posts";
 
 export const metadata: Metadata = {
+  alternates: {
+    canonical:
+      "https://topfinanzas.com/mx/soluciones-financieras/gold-card-american-express-aeromexico",
+    languages: {
+      "es-MX":
+        "https://topfinanzas.com/mx/soluciones-financieras/gold-card-american-express-aeromexico",
+    },
+  },
   title:
     "Beneficios de la Gold Card American Express® Aeroméxico | Top Finanzas MX",
   description:

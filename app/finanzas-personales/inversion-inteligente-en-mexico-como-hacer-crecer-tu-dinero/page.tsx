@@ -7,6 +7,14 @@ import { Metadata } from "next";
 import Link from "next/link";
 
 export const metadata: Metadata = {
+  alternates: {
+    canonical:
+      "https://topfinanzas.com/mx/finanzas-personales/inversion-inteligente-en-mexico-como-hacer-crecer-tu-dinero",
+    languages: {
+      "es-MX":
+        "https://topfinanzas.com/mx/finanzas-personales/inversion-inteligente-en-mexico-como-hacer-crecer-tu-dinero",
+    },
+  },
   title:
     "Inversión Inteligente en México: Cómo Hacer Crecer tu Dinero | Top Finanzas MX",
   description:

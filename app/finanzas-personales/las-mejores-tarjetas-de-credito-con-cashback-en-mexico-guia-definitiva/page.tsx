@@ -7,6 +7,14 @@ import Link from "next/link";
 import { Metadata } from "next";
 
 export const metadata: Metadata = {
+  alternates: {
+    canonical:
+      "https://topfinanzas.com/mx/finanzas-personales/las-mejores-tarjetas-de-credito-con-cashback-en-mexico-guia-definitiva",
+    languages: {
+      "es-MX":
+        "https://topfinanzas.com/mx/finanzas-personales/las-mejores-tarjetas-de-credito-con-cashback-en-mexico-guia-definitiva",
+    },
+  },
   title:
     "Las Mejores Tarjetas de Crédito con Cashback en México: Guía Definitiva | Top Finanzas MX",
   description:

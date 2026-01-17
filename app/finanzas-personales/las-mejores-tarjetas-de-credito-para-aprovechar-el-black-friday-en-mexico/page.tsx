@@ -6,6 +6,14 @@ import Link from "next/link";
 import { Metadata } from "next";
 
 export const metadata: Metadata = {
+  alternates: {
+    canonical:
+      "https://topfinanzas.com/mx/finanzas-personales/las-mejores-tarjetas-de-credito-para-aprovechar-el-black-friday-en-mexico",
+    languages: {
+      "es-MX":
+        "https://topfinanzas.com/mx/finanzas-personales/las-mejores-tarjetas-de-credito-para-aprovechar-el-black-friday-en-mexico",
+    },
+  },
   title:
     "Las Mejores Tarjetas de Crédito para Aprovechar el Black Friday en México | Top Finanzas MX",
   description:

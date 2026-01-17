@@ -7,6 +7,14 @@ import { Metadata } from "next";
 import { RelatedPosts } from "@/components/blog/related-posts";
 
 export const metadata: Metadata = {
+  alternates: {
+    canonical:
+      "https://topfinanzas.com/mx/soluciones-financieras/prestamos-doopla",
+    languages: {
+      "es-MX":
+        "https://topfinanzas.com/mx/soluciones-financieras/prestamos-doopla",
+    },
+  },
   title: "Beneficios de los Préstamos Doopla | Top Finanzas MX",
   description:
     "Doopla ofrece préstamos personales P2P con tasas desde 12% anual, montos hasta $350,000 MXN y trámite 100% en línea. Conoce sus beneficios.",

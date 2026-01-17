@@ -7,6 +7,14 @@ import { Metadata } from "next";
 import { RelatedPosts } from "@/components/blog/related-posts";
 
 export const metadata: Metadata = {
+  alternates: {
+    canonical:
+      "https://topfinanzas.com/mx/soluciones-financieras/prestamos-vivus-mexico",
+    languages: {
+      "es-MX":
+        "https://topfinanzas.com/mx/soluciones-financieras/prestamos-vivus-mexico",
+    },
+  },
   title: "Préstamos personales Vivus: Rápidos y seguros | Top Finanzas MX",
   description:
     "Solicita préstamos rápidos con Vivus: hasta $3,000 MXN al instante, 100% online y sin papeleo. Dinero en tu cuenta en menos de 1 hora.",

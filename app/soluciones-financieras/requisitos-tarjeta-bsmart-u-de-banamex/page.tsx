@@ -8,6 +8,14 @@ import Link from "next/link";
 import { Metadata } from "next";
 
 export const metadata: Metadata = {
+  alternates: {
+    canonical:
+      "https://topfinanzas.com/mx/soluciones-financieras/requisitos-tarjeta-bsmart-u-de-banamex",
+    languages: {
+      "es-MX":
+        "https://topfinanzas.com/mx/soluciones-financieras/requisitos-tarjeta-bsmart-u-de-banamex",
+    },
+  },
   title: "Requisitos Tarjeta Bsmart U Banamex | Top Finanzas MX",
   description:
     "Conoce los requisitos de la Tarjeta Bsmart U de Banamex para estudiantes universitarios. Inicia tu historial crediticio con beneficios exclusivos.",

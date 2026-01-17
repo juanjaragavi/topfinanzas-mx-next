@@ -7,6 +7,14 @@ import { Metadata } from "next";
 import { RelatedPosts } from "@/components/blog/related-posts";
 
 export const metadata: Metadata = {
+  alternates: {
+    canonical:
+      "https://topfinanzas.com/mx/soluciones-financieras/tarjeta-santander-free",
+    languages: {
+      "es-MX":
+        "https://topfinanzas.com/mx/soluciones-financieras/tarjeta-santander-free",
+    },
+  },
   title: "Beneficios destacados de la tarjeta Santander Free | Top Finanzas MX",
   description:
     "La Tarjeta Santander Free es una excelente opción sin anualidad si cumples el gasto mínimo. Conoce sus beneficios, seguros y promociones.",

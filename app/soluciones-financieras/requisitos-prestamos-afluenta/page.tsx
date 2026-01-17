@@ -8,6 +8,14 @@ import Link from "next/link";
 import { Metadata } from "next";
 
 export const metadata: Metadata = {
+  alternates: {
+    canonical:
+      "https://topfinanzas.com/mx/soluciones-financieras/requisitos-prestamos-afluenta",
+    languages: {
+      "es-MX":
+        "https://topfinanzas.com/mx/soluciones-financieras/requisitos-prestamos-afluenta",
+    },
+  },
   title: "Requisitos de los préstamos de Afluenta | Top Finanzas MX",
   description:
     "Afluenta permite acceder a financiamiento P2P sin bancos tradicionales. Conoce los requisitos, documentación y proceso de solicitud.",

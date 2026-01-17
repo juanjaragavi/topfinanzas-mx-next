@@ -7,6 +7,14 @@ import { Metadata } from "next";
 import { RelatedPosts } from "@/components/blog/related-posts";
 
 export const metadata: Metadata = {
+  alternates: {
+    canonical:
+      "https://topfinanzas.com/mx/soluciones-financieras/prestamos-de-kubo-financiero",
+    languages: {
+      "es-MX":
+        "https://topfinanzas.com/mx/soluciones-financieras/prestamos-de-kubo-financiero",
+    },
+  },
   title: "Beneficios de los préstamos con Kubo Financiero | Top Finanzas MX",
   description:
     "Kubo Financiero facilita préstamos en línea con tasas competitivas, flexibilidad de pago y seguridad total. Conoce sus beneficios aquí.",

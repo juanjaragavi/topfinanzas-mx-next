@@ -8,6 +8,14 @@ import Link from "next/link";
 import { Metadata } from "next";
 
 export const metadata: Metadata = {
+  alternates: {
+    canonical:
+      "https://topfinanzas.com/mx/soluciones-financieras/requisitos-prestamos-personal-kubo-financiero",
+    languages: {
+      "es-MX":
+        "https://topfinanzas.com/mx/soluciones-financieras/requisitos-prestamos-personal-kubo-financiero",
+    },
+  },
   title:
     "Requisitos para solicitar un préstamo en Kubo Financiero | Top Finanzas MX",
   description:

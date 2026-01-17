@@ -8,6 +8,14 @@ import Link from "next/link";
 import { Metadata } from "next";
 
 export const metadata: Metadata = {
+  alternates: {
+    canonical:
+      "https://topfinanzas.com/mx/soluciones-financieras/requisitos-prestamos-la-tasa",
+    languages: {
+      "es-MX":
+        "https://topfinanzas.com/mx/soluciones-financieras/requisitos-prestamos-la-tasa",
+    },
+  },
   title: "Requisitos para solicitar un préstamo con La Tasa | Top Finanzas MX",
   description:
     "Conoce los requisitos para solicitar un préstamo con La Tasa. Proceso sencillo, 100% digital, sin avales y con depósito en menos de 48 horas.",

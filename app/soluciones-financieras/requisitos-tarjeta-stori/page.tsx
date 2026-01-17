@@ -8,6 +8,14 @@ import { Metadata } from "next";
 import { RelatedPosts } from "@/components/blog/related-posts";
 
 export const metadata: Metadata = {
+  alternates: {
+    canonical:
+      "https://topfinanzas.com/mx/soluciones-financieras/requisitos-tarjeta-stori",
+    languages: {
+      "es-MX":
+        "https://topfinanzas.com/mx/soluciones-financieras/requisitos-tarjeta-stori",
+    },
+  },
   title: "Requisitos para solicitar la Tarjeta Stori | Top Finanzas MX",
   description:
     "Conoce los requisitos, proceso de solicitud y ventajas de la Tarjeta Stori. Ideal para estudiantes y personas sin historial crediticio.",

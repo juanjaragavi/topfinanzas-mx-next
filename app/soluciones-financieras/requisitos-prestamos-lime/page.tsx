@@ -8,6 +8,14 @@ import Link from "next/link";
 import { Metadata } from "next";
 
 export const metadata: Metadata = {
+  alternates: {
+    canonical:
+      "https://topfinanzas.com/mx/soluciones-financieras/requisitos-prestamos-lime",
+    languages: {
+      "es-MX":
+        "https://topfinanzas.com/mx/soluciones-financieras/requisitos-prestamos-lime",
+    },
+  },
   title: "Requisitos de los préstamos con Lime | Top Finanzas MX",
   description:
     "Conoce los requisitos para solicitar un préstamo con Lime. Proceso 100% digital, sin avales y con respuesta inmediata para emergencias.",

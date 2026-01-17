@@ -7,6 +7,14 @@ import Link from "next/link";
 import { Metadata } from "next";
 
 export const metadata: Metadata = {
+  alternates: {
+    canonical:
+      "https://topfinanzas.com/mx/soluciones-financieras/requisitos-tarjetas-kapital",
+    languages: {
+      "es-MX":
+        "https://topfinanzas.com/mx/soluciones-financieras/requisitos-tarjetas-kapital",
+    },
+  },
   title: "Requisitos de las tarjetas de crédito Kapital | Top Finanzas MX",
   description:
     "Conoce los requisitos para solicitar las tarjetas de crédito Kapital. Proceso 100% en línea, sin historial crediticio y con beneficios exclusivos.",

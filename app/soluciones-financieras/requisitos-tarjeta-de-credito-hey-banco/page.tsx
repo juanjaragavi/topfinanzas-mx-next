@@ -7,6 +7,14 @@ import { Metadata } from "next";
 import { RelatedPosts } from "@/components/blog/related-posts";
 
 export const metadata: Metadata = {
+  alternates: {
+    canonical:
+      "https://topfinanzas.com/mx/soluciones-financieras/requisitos-tarjeta-de-credito-hey-banco",
+    languages: {
+      "es-MX":
+        "https://topfinanzas.com/mx/soluciones-financieras/requisitos-tarjeta-de-credito-hey-banco",
+    },
+  },
   title: "Requisitos de la tarjeta de crédito Hey Banco | Top Finanzas MX",
   description:
     "Conoce los requisitos para solicitar la tarjeta de crédito Hey Banco. Proceso 100% digital, sin anualidad y con beneficios exclusivos.",

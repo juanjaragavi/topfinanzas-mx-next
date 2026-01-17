@@ -7,6 +7,12 @@ import { Metadata } from "next";
 import { RelatedPosts } from "@/components/blog/related-posts";
 
 export const metadata: Metadata = {
+  alternates: {
+    canonical: "https://topfinanzas.com/mx/soluciones-financieras/rappicard",
+    languages: {
+      "es-MX": "https://topfinanzas.com/mx/soluciones-financieras/rappicard",
+    },
+  },
   title: "Beneficios de la RappiCard | Top Finanzas MX",
   description:
     "Descubre los beneficios de la RappiCard: sin anualidad, cashback en todas tus compras y gestión 100% digital. ¡Solicítala hoy mismo!",

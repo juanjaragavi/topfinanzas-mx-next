@@ -9,6 +9,14 @@ import Link from "next/link";
 import { Metadata } from "next";
 
 export const metadata: Metadata = {
+  alternates: {
+    canonical:
+      "https://topfinanzas.com/mx/soluciones-financieras/requisitos-tarjeta-de-credito-vexi-carnet",
+    languages: {
+      "es-MX":
+        "https://topfinanzas.com/mx/soluciones-financieras/requisitos-tarjeta-de-credito-vexi-carnet",
+    },
+  },
   title: "Requisitos de la tarjeta de crédito Vexi Carnet | Top Finanzas MX",
   description:
     "Conoce los requisitos para solicitar la tarjeta de crédito Vexi Carnet, una opción ideal para iniciar tu historial crediticio sin comprobar ingresos.",

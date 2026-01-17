@@ -7,6 +7,14 @@ import { Metadata } from "next";
 import { RelatedPosts } from "@/components/blog/related-posts";
 
 export const metadata: Metadata = {
+  alternates: {
+    canonical:
+      "https://topfinanzas.com/mx/soluciones-financieras/tarjeta-de-credito-hey-banco",
+    languages: {
+      "es-MX":
+        "https://topfinanzas.com/mx/soluciones-financieras/tarjeta-de-credito-hey-banco",
+    },
+  },
   title: "Beneficios de la tarjeta de crédito Hey Banco | Top Finanzas MX",
   description:
     "Descubre los beneficios de la tarjeta de crédito Hey Banco: sin anualidad, proceso 100% digital, recompensas cashback y control total desde la app.",

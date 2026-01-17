@@ -8,6 +8,14 @@ import Link from "next/link";
 import { Metadata } from "next";
 
 export const metadata: Metadata = {
+  alternates: {
+    canonical:
+      "https://topfinanzas.com/mx/soluciones-financieras/requisitos-prestamos-digitt",
+    languages: {
+      "es-MX":
+        "https://topfinanzas.com/mx/soluciones-financieras/requisitos-prestamos-digitt",
+    },
+  },
   title: "Requisitos para solicitar un préstamo con Digitt | Top Finanzas MX",
   description:
     "Digitt ofrece préstamos personales rápidos y flexibles. Conoce los requisitos y el proceso de solicitud.",

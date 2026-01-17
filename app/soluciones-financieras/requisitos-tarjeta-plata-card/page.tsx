@@ -8,6 +8,14 @@ import { Metadata } from "next";
 import { RelatedPosts } from "@/components/blog/related-posts";
 
 export const metadata: Metadata = {
+  alternates: {
+    canonical:
+      "https://topfinanzas.com/mx/soluciones-financieras/requisitos-tarjeta-plata-card",
+    languages: {
+      "es-MX":
+        "https://topfinanzas.com/mx/soluciones-financieras/requisitos-tarjeta-plata-card",
+    },
+  },
   title: "Requisitos de la tarjeta Plata card | Top Finanzas MX",
   description:
     "Conoce los requisitos, proceso de solicitud y beneficios de la Tarjeta de Crédito Plata. Descubre si es la opción ideal para ti.",

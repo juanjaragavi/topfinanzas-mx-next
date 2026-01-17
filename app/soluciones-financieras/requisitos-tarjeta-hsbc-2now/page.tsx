@@ -8,6 +8,14 @@ import Link from "next/link";
 import { Metadata } from "next";
 
 export const metadata: Metadata = {
+  alternates: {
+    canonical:
+      "https://topfinanzas.com/mx/soluciones-financieras/requisitos-tarjeta-hsbc-2now",
+    languages: {
+      "es-MX":
+        "https://topfinanzas.com/mx/soluciones-financieras/requisitos-tarjeta-hsbc-2now",
+    },
+  },
   title:
     "Requisitos para solicitar la tarjeta de crédito HSBC 2Now | Top Finanzas MX",
   description:

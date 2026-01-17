@@ -7,6 +7,14 @@ import type { Metadata } from "next";
 import { RelatedPosts } from "@/components/blog/related-posts";
 
 export const metadata: Metadata = {
+  alternates: {
+    canonical:
+      "https://topfinanzas.com/mx/soluciones-financieras/tarjeta-de-credito-azul-bbva",
+    languages: {
+      "es-MX":
+        "https://topfinanzas.com/mx/soluciones-financieras/tarjeta-de-credito-azul-bbva",
+    },
+  },
   title:
     "Tarjeta de crédito Azul de BBVA: Tu aliado en cada transacción | Top Finanzas MX",
   description:

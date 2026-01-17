@@ -7,6 +7,14 @@ import { Metadata } from "next";
 import { RelatedPosts } from "@/components/blog/related-posts";
 
 export const metadata: Metadata = {
+  alternates: {
+    canonical:
+      "https://topfinanzas.com/mx/soluciones-financieras/prestamos-personales-rapidos-creditea",
+    languages: {
+      "es-MX":
+        "https://topfinanzas.com/mx/soluciones-financieras/prestamos-personales-rapidos-creditea",
+    },
+  },
   title: "Beneficios de los préstamos personales rápidos de Creditea México",
   description:
     "Descubre los beneficios de los préstamos rápidos de Creditea: montos hasta $70,000 MXN, plazos flexibles y aprobación en menos de 24 horas. Todo 100% en línea.",

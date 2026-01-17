@@ -8,6 +8,14 @@ import Link from "next/link";
 import { Metadata } from "next";
 
 export const metadata: Metadata = {
+  alternates: {
+    canonical:
+      "https://topfinanzas.com/mx/soluciones-financieras/requisitos-prestamos-tala",
+    languages: {
+      "es-MX":
+        "https://topfinanzas.com/mx/soluciones-financieras/requisitos-prestamos-tala",
+    },
+  },
   title: "Requisitos para solicitar un préstamo con Tala | Top Finanzas MX",
   description:
     "Conoce los requisitos para solicitar un préstamo en Tala. Sin historial crediticio, 100% digital y con depósito rápido en tu cuenta.",

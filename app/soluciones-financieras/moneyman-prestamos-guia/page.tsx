@@ -7,6 +7,14 @@ import { Metadata } from "next";
 import { RelatedPosts } from "@/components/blog/related-posts";
 
 export const metadata: Metadata = {
+  alternates: {
+    canonical:
+      "https://topfinanzas.com/mx/soluciones-financieras/moneyman-prestamos-guia",
+    languages: {
+      "es-MX":
+        "https://topfinanzas.com/mx/soluciones-financieras/moneyman-prestamos-guia",
+    },
+  },
   title: "Moneyman: tu préstamo ideal | Top Finanzas MX",
   description:
     "La solución rápida y sin complicaciones que necesitas para acceder a fondos de manera inmediata con Moneyman.",

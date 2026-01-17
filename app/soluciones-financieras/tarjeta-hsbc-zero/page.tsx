@@ -8,6 +8,14 @@ import { Metadata } from "next";
 import { RelatedPosts } from "@/components/blog/related-posts";
 
 export const metadata: Metadata = {
+  alternates: {
+    canonical:
+      "https://topfinanzas.com/mx/soluciones-financieras/tarjeta-hsbc-zero",
+    languages: {
+      "es-MX":
+        "https://topfinanzas.com/mx/soluciones-financieras/tarjeta-hsbc-zero",
+    },
+  },
   title:
     "HSBC Zero: Ahorra en comisiones y maximiza tus recompensas | Top Finanzas MX",
   description:

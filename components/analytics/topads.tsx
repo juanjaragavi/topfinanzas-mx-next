@@ -37,6 +37,7 @@ export default function TopAds() {
             lazyLoad: "soft",
             pageSetting: {
               exclude: [
+                "/",
                 "/terminos-y-condiciones-de-uso",
                 "/politica-privacidad",
                 "/politica-de-cookies",
