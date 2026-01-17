@@ -16,7 +16,7 @@ const nextConfig = {
   output: "standalone",
   // Asset prefix and base path for Vercel deployment
   assetPrefix: undefined,
-  basePath: "",
+  basePath: "/mx",
   // Add rewrites for static files - using simpler approach
   async rewrites() {
     return [
