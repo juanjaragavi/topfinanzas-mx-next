@@ -29,8 +29,7 @@ export const ALL_POSTS: PostItem[] = [
     slug: "requisitos-prestamos-con-yotepresto",
     description:
       "Descubre los requisitos para solicitar un préstamo con Yotepresto en México. Guía detallada sobre historial crediticio, comprobantes de ingresos, y cuenta bancaria.",
-    image:
-      "https://topfinanzas.com/mx/wp-content/uploads/2024/03/Requisitos-para-solicitar-un-prestamo-con-Yotepresto.webp",
+    image: "https://media.topfinanzas.com/images/yotepretsto-1-1.webp",
     category: "Soluciones Financieras",
     categoryPath: "/soluciones-financieras",
     date: "06 Jan 2026",

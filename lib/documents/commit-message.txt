@@ -1,3 +1,7 @@
-style: format ecosystem.config.js
+fix(mobile-nav): refactor mobile menu positioning for scroll persistence
 
-- Update ecosystem.config.js to use double quotes for consistency with project style.
+- Change mobile menu from push-drawer to fixed overlay pattern
+- Update header.tsx: use fixed positioning with translate transforms
+- Increase z-index to 60 to ensure menu overlays all content
+- Update site-wrapper.tsx: remove content transform, add click-to-close overlay
+- Menu now remains accessible at viewport top regardless of scroll depth

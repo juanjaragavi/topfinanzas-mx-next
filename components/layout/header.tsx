@@ -323,18 +323,11 @@ export function Header() {
         </div>
       </header>
 
-      {/* New Mobile Menu "Push" Drawer
-          Since SiteWrapper transforms the parent container, this fixed element 
-          positioned at left-[-300px] will slide into view (0px) when parent moves right.
-          MOVED OUTSIDE HEADER to avoid 'transform' breaking 'fixed' positioning.
-      */}
+      {/* Mobile Menu Drawer - Fixed to viewport for scroll persistence */}
       <div
-        className="md:hidden fixed top-0 bottom-0 w-[300px] bg-white z-40 h-full overflow-y-auto border-r border-gray-200"
-        style={{
-          left: "-300px",
-          // When context open is true, SiteWrapper moves +300px.
-          // So this element moves from visual -300 to 0.
-        }}
+        className={`md:hidden fixed top-0 left-0 bottom-0 w-[300px] bg-white z-[60] h-full overflow-y-auto border-r border-gray-200 shadow-xl transition-transform duration-300 ease-in-out ${
+          isMobileMenuOpen ? "translate-x-0" : "-translate-x-full"
+        }`}
       >
         <div className="flex flex-col h-full">
           {/* Menu Header: Close Button & Logo */}
