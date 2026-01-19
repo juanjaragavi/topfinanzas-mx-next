@@ -2,6 +2,7 @@ import { Header } from "@/components/layout/header";
 import { CompactFooter } from "@/components/layout/compact-footer";
 import { RelatedPosts } from "@/components/blog/related-posts";
 import { AIContentDisclaimer } from "@/components/ui/ai-content-disclaimer";
+import { ActionBanner } from "@/components/ui/action-banner";
 import Image from "next/image";
 import Link from "next/link";
 import { Metadata } from "next";
@@ -277,16 +278,27 @@ export default function RequisitosPrestamosYoteprestoPage() {
               eficiente.
             </p>
 
-            {/* Image 5 (CTA 4) */}
-            <div className="w-full my-8">
-              <Image
-                src="https://media.topfinanzas.com/images/call-to-ACTION-4.jpg"
-                alt="Aplica ahora"
-                width={800}
-                height={400}
-                className="w-full h-auto rounded-lg"
-              />
-            </div>
+            {/* Standard ActionBanners */}
+            <ActionBanner
+              href="/finanzas-personales/tarjetas-de-credito-para-estudiantes"
+              src="https://media.topfinanzas.com/images/call-to-ACTION-1.jpg"
+              alt="¿Eres estudiante?"
+            />
+            <ActionBanner
+              href="/soluciones-financieras/tarjetas-de-credito-sin-anualidad"
+              src="https://media.topfinanzas.com/images/call-to-ACTION-2.jpg"
+              alt="Top tarjetas de crédito sin anualidad"
+            />
+            <ActionBanner
+              href="/finanzas-personales/cat-en-tarjetas-de-credito"
+              src="https://media.topfinanzas.com/images/call-to-ACTION-3.jpg"
+              alt="Entiende el CAT en Tarjetas de Crédito"
+            />
+            <ActionBanner
+              href="/soluciones-financieras/cual-es-el-mejor-prestamo-personal"
+              src="https://media.topfinanzas.com/images/call-to-ACTION-4.jpg"
+              alt="¿Buscando el mejor préstamo personal?"
+            />
 
             {/* External CTA Button */}
             <div className="flex justify-center my-8">

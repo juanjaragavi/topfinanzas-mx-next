@@ -103,10 +103,11 @@ export default function RequisitosTarjetaCreditoNuPage() {
               necesitas preparar:
             </p>
 
+            {/* Standard ActionBanner 1 */}
             <ActionBanner
               href="/finanzas-personales/tarjetas-de-credito-para-estudiantes"
-              src="https://media.topfinanzas.com/images/call-to-ACTION-4.jpg"
-              alt="Tarjetas de crédito para estudiantes"
+              src="https://media.topfinanzas.com/images/call-to-ACTION-1.jpg"
+              alt="¿Eres estudiante?"
             />
 
             <p className="text-gray-700 mb-6 font-normal">
@@ -252,10 +253,11 @@ export default function RequisitosTarjetaCreditoNuPage() {
               </Link>
             </p>
 
+            {/* Standard ActionBanner 2 */}
             <ActionBanner
-              href="/finanzas-personales/cat-en-tarjetas-de-credito"
+              href="/soluciones-financieras/tarjetas-de-credito-sin-anualidad"
               src="https://media.topfinanzas.com/images/call-to-ACTION-2.jpg"
-              alt="Entiende el CAT en Tarjetas de Crédito"
+              alt="Top tarjetas de crédito sin anualidad"
             />
 
             <h2 className="text-2xl md:text-3xl font-bold text-gray-700 mt-10 mb-4 leading-tight">
@@ -318,10 +320,11 @@ export default function RequisitosTarjetaCreditoNuPage() {
               </Link>
             </p>
 
+            {/* Standard ActionBanner 3 */}
             <ActionBanner
-              href="/soluciones-financieras/tarjetas-de-credito-sin-anualidad"
-              src="https://media.topfinanzas.com/images/call-to-ACTION-1.jpg"
-              alt="Top tarjetas de crédito sin anualidad"
+              href="/finanzas-personales/cat-en-tarjetas-de-credito"
+              src="https://media.topfinanzas.com/images/call-to-ACTION-3.jpg"
+              alt="Entiende el CAT en Tarjetas de Crédito"
             />
 
             <h3 className="text-xl md:text-2xl font-bold text-gray-700 mt-8 mb-3 leading-tight">
@@ -355,10 +358,11 @@ export default function RequisitosTarjetaCreditoNuPage() {
               financieramente.
             </p>
 
+            {/* Standard ActionBanner 4 */}
             <ActionBanner
               href="/soluciones-financieras/cual-es-el-mejor-prestamo-personal"
-              src="https://media.topfinanzas.com/images/call-to-ACTION-3.jpg"
-              alt="Opciones de préstamo personal"
+              src="https://media.topfinanzas.com/images/call-to-ACTION-4.jpg"
+              alt="¿Buscando el mejor préstamo personal?"
             />
 
             <h2 className="text-2xl md:text-3xl font-bold text-gray-700 mt-10 mb-4 leading-tight">

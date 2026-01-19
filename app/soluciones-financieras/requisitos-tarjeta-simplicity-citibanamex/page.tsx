@@ -152,11 +152,11 @@ export default function RequisitosTarjetaSimplicityPage() {
               className="my-8"
             ></div>
 
-            {/* Image 2 */}
+            {/* Standard ActionBanner 1 */}
             <ActionBanner
-              href="/soluciones-financieras/tarjetas-de-credito-sin-anualidad"
+              href="/finanzas-personales/tarjetas-de-credito-para-estudiantes"
               src="https://media.topfinanzas.com/images/call-to-ACTION-1.jpg"
-              alt="Solicitar Tarjeta Joy Banamex"
+              alt="¿Eres estudiante?"
             />
 
             {/* Tasa de interés */}
@@ -221,11 +221,11 @@ export default function RequisitosTarjetaSimplicityPage() {
               aceptación global facilita su uso en compras físicas y digitales.
             </p>
 
-            {/* Joy Card Image */}
+            {/* Standard ActionBanner 2 */}
             <ActionBanner
-              href="/finanzas-personales/cat-en-tarjetas-de-credito"
+              href="/soluciones-financieras/tarjetas-de-credito-sin-anualidad"
               src="https://media.topfinanzas.com/images/call-to-ACTION-2.jpg"
-              alt="Tarjeta de crédito Joy de Banamex"
+              alt="Top tarjetas de crédito sin anualidad"
             />
 
             <p className="text-gray-700 mb-6 font-normal">
@@ -238,11 +238,11 @@ export default function RequisitosTarjetaSimplicityPage() {
               </Link>
             </p>
 
-            {/* Image 3 */}
+            {/* Standard ActionBanner 3 */}
             <ActionBanner
-              href="/soluciones-financieras/cual-es-el-mejor-prestamo-personal"
+              href="/finanzas-personales/cat-en-tarjetas-de-credito"
               src="https://media.topfinanzas.com/images/call-to-ACTION-3.jpg"
-              alt="Beneficios Tarjeta Joy"
+              alt="Entiende el CAT en Tarjetas de Crédito"
             />
 
             {/* Que debo hacer para tenerla */}
@@ -302,13 +302,6 @@ export default function RequisitosTarjetaSimplicityPage() {
                 </span>
               </li>
             </ul>
-
-            {/* Image 4 */}
-            <ActionBanner
-              href="/finanzas-personales/cat-en-tarjetas-de-credito"
-              src="https://media.topfinanzas.com/images/call-to-ACTION-2.jpg"
-              alt="Requisitos Tarjeta Joy"
-            />
 
             <p className="text-gray-700 mb-6 font-normal">
               Conoce más:{" "}
@@ -377,12 +370,11 @@ export default function RequisitosTarjetaSimplicityPage() {
               </li>
             </ul>
 
-            {/* Por que elegir */}
-            {/* Image 5 */}
+            {/* Standard ActionBanner 4 */}
             <ActionBanner
-              href="/finanzas-personales/tarjetas-de-credito-para-estudiantes"
+              href="/soluciones-financieras/cual-es-el-mejor-prestamo-personal"
               src="https://media.topfinanzas.com/images/call-to-ACTION-4.jpg"
-              alt="Pasos para solicitar Tarjeta Joy"
+              alt="¿Buscando el mejor préstamo personal?"
             />
 
             <h2 className="text-2xl md:text-3xl font-bold text-gray-700 mt-10 mb-4 leading-tight">

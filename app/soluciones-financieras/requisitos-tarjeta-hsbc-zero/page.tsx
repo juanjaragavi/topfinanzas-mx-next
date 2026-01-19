@@ -143,11 +143,11 @@ export default function RequisitosHSBCZeroPage() {
               </li>
             </ul>
 
-            {/* Image: Top tarjetas */}
+            {/* Standard ActionBanner 1 */}
             <ActionBanner
-              href="/soluciones-financieras/tarjetas-de-credito-sin-anualidad"
+              href="/finanzas-personales/tarjetas-de-credito-para-estudiantes"
               src="https://media.topfinanzas.com/images/call-to-ACTION-1.jpg"
-              alt="Top tarjetas de crédito sin anualidad"
+              alt="¿Eres estudiante?"
             />
 
             {/* Section 2: Documentación necesaria */}
@@ -192,11 +192,11 @@ export default function RequisitosHSBCZeroPage() {
               </li>
             </ul>
 
-            {/* Image: Eres estudiante */}
+            {/* Standard ActionBanner 2 */}
             <ActionBanner
-              href="/finanzas-personales/tarjetas-de-credito-para-estudiantes"
-              src="https://media.topfinanzas.com/images/call-to-ACTION-4.jpg"
-              alt="¿Eres estudiante?"
+              href="/soluciones-financieras/tarjetas-de-credito-sin-anualidad"
+              src="https://media.topfinanzas.com/images/call-to-ACTION-2.jpg"
+              alt="Top tarjetas de crédito sin anualidad"
             />
             <div className="mb-10">
               <p className="text-gray-700">
@@ -261,10 +261,10 @@ export default function RequisitosHSBCZeroPage() {
               realizar al menos una transacción mensual de $1 M.N. o más.
             </p>
 
-            {/* Image: Entiende el CAT */}
+            {/* Standard ActionBanner 3 */}
             <ActionBanner
               href="/finanzas-personales/cat-en-tarjetas-de-credito"
-              src="https://media.topfinanzas.com/images/call-to-ACTION-2.jpg"
+              src="https://media.topfinanzas.com/images/call-to-ACTION-3.jpg"
               alt="Entiende el CAT en Tarjetas de Crédito"
             />
 
@@ -345,10 +345,10 @@ export default function RequisitosHSBCZeroPage() {
               </p>
             </div>
 
-            {/* Image: Buscando el mejor préstamo */}
+            {/* Standard ActionBanner 4 */}
             <ActionBanner
               href="/soluciones-financieras/cual-es-el-mejor-prestamo-personal"
-              src="https://media.topfinanzas.com/images/call-to-ACTION-3.jpg"
+              src="https://media.topfinanzas.com/images/call-to-ACTION-4.jpg"
               alt="¿Buscando el mejor préstamo personal?"
             />
 

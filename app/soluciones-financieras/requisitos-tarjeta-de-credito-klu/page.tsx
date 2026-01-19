@@ -180,12 +180,11 @@ export default function RequisitosTarjetaKluPage() {
               evaluar tu capacidad de pago.
             </p>
 
-            {/* Image 2: call-to-ACTION-1.jpg */}
+            {/* Standard ActionBanner 1 */}
             <ActionBanner
-              href="/soluciones-financieras/tarjetas-de-credito-sin-anualidad"
+              href="/finanzas-personales/tarjetas-de-credito-para-estudiantes"
               src="https://media.topfinanzas.com/images/call-to-ACTION-1.jpg"
-              alt="Solicitar Tarjeta de crédito"
-              className="my-8"
+              alt="¿Eres estudiante?"
             />
 
             {/* Proceso de solicitud */}
@@ -251,12 +250,11 @@ export default function RequisitosTarjetaKluPage() {
               </Link>
             </p>
 
-            {/* Image 3: call-to-ACTION-3.jpg */}
+            {/* Standard ActionBanner 2 */}
             <ActionBanner
-              href="/finanzas-personales/tarjetas-de-credito-para-estudiantes"
-              src="https://media.topfinanzas.com/images/call-to-ACTION-3.jpg"
-              alt="Estudiantes Tarjetas de Crédito"
-              className="my-8"
+              href="/soluciones-financieras/tarjetas-de-credito-sin-anualidad"
+              src="https://media.topfinanzas.com/images/call-to-ACTION-2.jpg"
+              alt="Top tarjetas de crédito sin anualidad"
             />
 
             {/* Beneficios */}
@@ -317,12 +315,11 @@ export default function RequisitosTarjetaKluPage() {
               </li>
             </ul>
 
-            {/* Image 4: call-to-ACTION-2.jpg */}
+            {/* Standard ActionBanner 3 */}
             <ActionBanner
-              href="/soluciones-financieras/tarjetas-de-credito-sin-anualidad"
-              src="https://media.topfinanzas.com/images/call-to-ACTION-2.jpg"
-              alt="Tarjetas sin anualidad"
-              className="my-8"
+              href="/finanzas-personales/cat-en-tarjetas-de-credito"
+              src="https://media.topfinanzas.com/images/call-to-ACTION-3.jpg"
+              alt="Entiende el CAT en Tarjetas de Crédito"
             />
 
             {/* Consejos */}
@@ -383,12 +380,11 @@ export default function RequisitosTarjetaKluPage() {
               </li>
             </ul>
 
-            {/* Image 5: call-to-ACTION-4.jpg */}
+            {/* Standard ActionBanner 4 */}
             <ActionBanner
               href="/soluciones-financieras/cual-es-el-mejor-prestamo-personal"
               src="https://media.topfinanzas.com/images/call-to-ACTION-4.jpg"
-              alt="Mejor préstamo personal"
-              className="my-8"
+              alt="¿Buscando el mejor préstamo personal?"
             />
 
             {/* Final Section */}

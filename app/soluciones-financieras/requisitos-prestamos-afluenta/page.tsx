@@ -160,11 +160,11 @@ export default function RequisitosPrestamosAfluentaPage() {
               </Link>
             </p>
 
-            {/* Image 2 (Action 1) */}
+            {/* Standard ActionBanner 1 */}
             <ActionBanner
-              href="/soluciones-financieras/tarjetas-de-credito-sin-anualidad"
+              href="/finanzas-personales/tarjetas-de-credito-para-estudiantes"
               src="https://media.topfinanzas.com/images/call-to-ACTION-1.jpg"
-              alt="Tarjetas de crédito sin anualidad"
+              alt="¿Eres estudiante?"
             />
 
             {/* Buen historial crediticio */}
@@ -190,11 +190,11 @@ export default function RequisitosPrestamosAfluentaPage() {
               préstamo o afectar los términos ofrecidos.
             </p>
 
-            {/* Image 3 (Action 3 - per ordering requirements) */}
+            {/* Standard ActionBanner 2 */}
             <ActionBanner
-              href="/finanzas-personales/tarjetas-de-credito-de-neobancos"
-              src="https://media.topfinanzas.com/images/call-to-ACTION-3.jpg"
-              alt="Top tarjetas de neobancos"
+              href="/soluciones-financieras/tarjetas-de-credito-sin-anualidad"
+              src="https://media.topfinanzas.com/images/call-to-ACTION-2.jpg"
+              alt="Top tarjetas de crédito sin anualidad"
             />
 
             {/* Documentación requerida */}
@@ -259,11 +259,11 @@ export default function RequisitosPrestamosAfluentaPage() {
               </Link>
             </p>
 
-            {/* Image 4 (Action 2 - per ordering requirements) */}
+            {/* Standard ActionBanner 3 */}
             <ActionBanner
               href="/finanzas-personales/cat-en-tarjetas-de-credito"
-              src="https://media.topfinanzas.com/images/call-to-ACTION-2.jpg"
-              alt="CAT en tarjetas de crédito"
+              src="https://media.topfinanzas.com/images/call-to-ACTION-3.jpg"
+              alt="Entiende el CAT en Tarjetas de Crédito"
             />
 
             {/* Proceso de solicitud */}
@@ -364,11 +364,11 @@ export default function RequisitosPrestamosAfluentaPage() {
               </li>
             </ul>
 
-            {/* Image 5 (Action 4) */}
+            {/* Standard ActionBanner 4 */}
             <ActionBanner
-              href="/finanzas-personales/como-saber-si-estas-en-buro-de-credito"
+              href="/soluciones-financieras/cual-es-el-mejor-prestamo-personal"
               src="https://media.topfinanzas.com/images/call-to-ACTION-4.jpg"
-              alt="¿Cómo saber si estás en buró de crédito?"
+              alt="¿Buscando el mejor préstamo personal?"
             />
 
             {/* Conclusion */}

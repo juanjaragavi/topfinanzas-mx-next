@@ -1,21 +1,17 @@
-fix(requirements-pages): add target="_blank" and external CTAs to all requisitos pages
+feat(soluciones-financieras): standardize ActionBanner configs across 49 requisitos pages
 
-- Added target="_blank" and rel="noopener noreferrer" attributes to 14 credit card
-  and loan requirements pages with existing external CTAs
-- Added new external CTA buttons to 10 requirements pages that were missing them
-- All 49 requisitos pages now have proper external links to financial product issuers
-- Fixed formatting in home-content.tsx (trailing commas)
+- Enforce exactly 4 ActionBanner instances per Requirements page
+- Standardize all banner configurations with uniform hrefs, images, and alt texts:
+  * Banner 1: /finanzas-personales/tarjetas-de-credito-para-estudiantes + call-to-ACTION-1.jpg
+  * Banner 2: /soluciones-financieras/tarjetas-de-credito-sin-anualidad + call-to-ACTION-2.jpg
+  * Banner 3: /finanzas-personales/cat-en-tarjetas-de-credito + call-to-ACTION-3.jpg
+  * Banner 4: /soluciones-financieras/cual-es-el-mejor-prestamo-personal + call-to-ACTION-4.jpg
+- Add ActionBanner import and components to pages with 0 banners (yotepresto, hey-banco)
+- Add missing banners to pages with 3 banners (vexi-carnet, crecy, hsbc-viva, tigres-afirme)
+- Remove duplicate banners from pages with 5 banners (simplicity-citibanamex)
+- Update alt texts to standardized Spanish messaging
+- Replace inline Image/Link CTAs with proper ActionBanner components
 
-External links now properly route to:
-- Vexi (solicitud.vexi.mx)
-- American Express (americanexpress.com/mx)
-- BBVA (bbva.mx)
-- Santander (santander.com.mx)
-- HSBC (hsbc.com.mx)
-- Banamex (banamex.com)
-- Afirme (afirme.com)
-- Banregio (banregio.com)
-- Moneyman, Afluenta, Yotepresto, Coppel, Digitt, Doopla, Claire, Baubap,
-  La Tasa, Lime24, Kubo Financiero, Tala, Vivus, Préstamo Feliz
+Total: 196 ActionBanners (49 pages × 4 banners) - Build verified successful
 
 This ensures proper conversion funnel completion for all financial product pages.

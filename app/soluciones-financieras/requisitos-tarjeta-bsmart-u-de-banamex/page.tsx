@@ -126,7 +126,7 @@ export default function RequisitosTarjetaBsmartUBanamexPage() {
             <ActionBanner
               href="/finanzas-personales/tarjetas-de-credito-para-estudiantes"
               src="https://media.topfinanzas.com/images/call-to-ACTION-1.jpg"
-              alt="Tarjetas para estudiantes"
+              alt="¿Eres estudiante?"
             />
 
             {/* Section 2: Requisitos */}
@@ -232,7 +232,7 @@ export default function RequisitosTarjetaBsmartUBanamexPage() {
             <ActionBanner
               href="/finanzas-personales/cat-en-tarjetas-de-credito"
               src="https://media.topfinanzas.com/images/call-to-ACTION-3.jpg"
-              alt="CAT en tarjetas de crédito"
+              alt="Entiende el CAT en Tarjetas de Crédito"
             />
 
             {/* Section 3: Proceso */}
@@ -297,7 +297,7 @@ export default function RequisitosTarjetaBsmartUBanamexPage() {
             <ActionBanner
               href="/soluciones-financieras/tarjetas-de-credito-sin-anualidad"
               src="https://media.topfinanzas.com/images/call-to-ACTION-2.jpg"
-              alt="Tarjetas sin anualidad"
+              alt="Top tarjetas de crédito sin anualidad"
             />
 
             <p className="text-gray-700 mb-6 font-normal">
@@ -374,7 +374,7 @@ export default function RequisitosTarjetaBsmartUBanamexPage() {
             <ActionBanner
               href="/soluciones-financieras/cual-es-el-mejor-prestamo-personal"
               src="https://media.topfinanzas.com/images/call-to-ACTION-4.jpg"
-              alt="Mejor préstamo personal"
+              alt="¿Buscando el mejor préstamo personal?"
             />
 
             {/* Section 5: Es para ti */}

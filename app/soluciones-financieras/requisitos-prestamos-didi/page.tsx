@@ -127,7 +127,7 @@ export default function RequisitosPrestamosDidiPage() {
             <ActionBanner
               href="/finanzas-personales/tarjetas-de-credito-para-estudiantes"
               src="https://media.topfinanzas.com/images/call-to-ACTION-1.jpg"
-              alt="Solicitar Préstamo DiDi"
+              alt="¿Eres estudiante?"
             />
 
             {/* Requisitos */}
@@ -217,7 +217,7 @@ export default function RequisitosPrestamosDidiPage() {
             <ActionBanner
               href="/finanzas-personales/cat-en-tarjetas-de-credito"
               src="https://media.topfinanzas.com/images/call-to-ACTION-3.jpg"
-              alt="Requisitos Préstamos DiDi"
+              alt="Entiende el CAT en Tarjetas de Crédito"
             />
 
             {/* Proceso */}
@@ -298,7 +298,7 @@ export default function RequisitosPrestamosDidiPage() {
             <ActionBanner
               href="/soluciones-financieras/tarjetas-de-credito-sin-anualidad"
               src="https://media.topfinanzas.com/images/call-to-ACTION-2.jpg"
-              alt="Proceso Préstamo DiDi"
+              alt="Top tarjetas de crédito sin anualidad"
             />
 
             {/* Ventajas */}
@@ -364,7 +364,7 @@ export default function RequisitosPrestamosDidiPage() {
             <ActionBanner
               href="/soluciones-financieras/cual-es-el-mejor-prestamo-personal"
               src="https://media.topfinanzas.com/images/call-to-ACTION-4.jpg"
-              alt="Ventajas Préstamo DiDi"
+              alt="¿Buscando el mejor préstamo personal?"
             />
 
             {/* A tener en cuenta */}

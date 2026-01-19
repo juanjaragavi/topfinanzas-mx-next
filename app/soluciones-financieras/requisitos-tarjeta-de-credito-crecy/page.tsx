@@ -444,17 +444,12 @@ export default function RequisitosTarjetaCrecyPage() {
               </Link>
             </div>
 
-            {/* CTA Banner 4 */}
-            <div className="relative w-full h-32 md:h-48 my-8 rounded-sm overflow-hidden shadow-lg">
-              <Link href="/soluciones-financieras/cual-es-el-mejor-prestamo-personal">
-                <Image
-                  src="https://media.topfinanzas.com/images/call-to-ACTION-4.jpg"
-                  alt="Buscando el mejor préstamo personal"
-                  fill
-                  className="object-cover"
-                />
-              </Link>
-            </div>
+            {/* Standard ActionBanner 4 */}
+            <ActionBanner
+              href="/soluciones-financieras/cual-es-el-mejor-prestamo-personal"
+              src="https://media.topfinanzas.com/images/call-to-ACTION-4.jpg"
+              alt="¿Buscando el mejor préstamo personal?"
+            />
             <div className="flex justify-center mb-8">
               <Link
                 href="/prestamos"

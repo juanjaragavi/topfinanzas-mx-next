@@ -121,7 +121,7 @@ export default function RequisitosPrestamosPrestaderoPage() {
             <ActionBanner
               href="/finanzas-personales/tarjetas-de-credito-para-estudiantes"
               src="https://media.topfinanzas.com/images/call-to-ACTION-1.jpg"
-              alt="Solicitar Prestamo"
+              alt="¿Eres estudiante?"
             />
 
             {/* Requisitos Generales */}
@@ -225,7 +225,7 @@ export default function RequisitosPrestamosPrestaderoPage() {
             <ActionBanner
               href="/finanzas-personales/cat-en-tarjetas-de-credito"
               src="https://media.topfinanzas.com/images/call-to-ACTION-3.jpg"
-              alt="Requisitos Prestadero"
+              alt="Entiende el CAT en Tarjetas de Crédito"
             />
 
             <p className="text-gray-700 mb-6 font-normal">
@@ -325,7 +325,7 @@ export default function RequisitosPrestamosPrestaderoPage() {
             <ActionBanner
               href="/soluciones-financieras/tarjetas-de-credito-sin-anualidad"
               src="https://media.topfinanzas.com/images/call-to-ACTION-2.jpg"
-              alt="Proceso Solicitud"
+              alt="Top tarjetas de crédito sin anualidad"
             />
 
             {/* Aspectos a tener en cuenta */}
@@ -406,7 +406,7 @@ export default function RequisitosPrestamosPrestaderoPage() {
             <ActionBanner
               href="/soluciones-financieras/cual-es-el-mejor-prestamo-personal"
               src="https://media.topfinanzas.com/images/call-to-ACTION-4.jpg"
-              alt="Beneficios Prestadero"
+              alt="¿Buscando el mejor préstamo personal?"
             />
 
             {/* Ideal para ti? */}

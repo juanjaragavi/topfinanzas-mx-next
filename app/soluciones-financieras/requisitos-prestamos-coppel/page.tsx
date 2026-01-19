@@ -141,11 +141,11 @@ export default function RequisitosPrestamosCoppelPage() {
               className="my-8"
             ></div>
 
-            {/* Image 2 (Action 1) */}
+            {/* Standard ActionBanner 1 */}
             <ActionBanner
-              href="/soluciones-financieras/tarjetas-de-credito-sin-anualidad"
+              href="/finanzas-personales/tarjetas-de-credito-para-estudiantes"
               src="https://media.topfinanzas.com/images/call-to-ACTION-1.jpg"
-              alt="Tarjetas de crédito sin anualidad"
+              alt="¿Eres estudiante?"
             />
 
             {/* ¿Para qué situaciones es ideal el préstamo personal Coppel? */}
@@ -181,11 +181,11 @@ export default function RequisitosPrestamosCoppelPage() {
               </Link>
             </p>
 
-            {/* Imagine 3 (Action 3 - per ordering) */}
+            {/* Standard ActionBanner 2 */}
             <ActionBanner
-              href="/finanzas-personales/tarjetas-de-credito-de-neobancos"
-              src="https://media.topfinanzas.com/images/call-to-ACTION-3.jpg"
-              alt="Top tarjetas de neobancos"
+              href="/soluciones-financieras/tarjetas-de-credito-sin-anualidad"
+              src="https://media.topfinanzas.com/images/call-to-ACTION-2.jpg"
+              alt="Top tarjetas de crédito sin anualidad"
             />
 
             {/* Subsection 2 */}
@@ -209,11 +209,11 @@ export default function RequisitosPrestamosCoppelPage() {
               </Link>
             </p>
 
-            {/* Image 4 (Action 2 - per ordering) */}
+            {/* Standard ActionBanner 3 */}
             <ActionBanner
               href="/finanzas-personales/cat-en-tarjetas-de-credito"
-              src="https://media.topfinanzas.com/images/call-to-ACTION-2.jpg"
-              alt="CAT en tarjetas de crédito"
+              src="https://media.topfinanzas.com/images/call-to-ACTION-3.jpg"
+              alt="Entiende el CAT en Tarjetas de Crédito"
             />
 
             {/* Subsection 3 */}
@@ -277,11 +277,11 @@ export default function RequisitosPrestamosCoppelPage() {
               necesitas en tu hogar.
             </p>
 
-            {/* Image 5 (Action 4) */}
+            {/* Standard ActionBanner 4 */}
             <ActionBanner
-              href="/finanzas-personales/como-saber-si-estas-en-buro-de-credito"
+              href="/soluciones-financieras/cual-es-el-mejor-prestamo-personal"
               src="https://media.topfinanzas.com/images/call-to-ACTION-4.jpg"
-              alt="¿Cómo saber si estás en buró de crédito?"
+              alt="¿Buscando el mejor préstamo personal?"
             />
 
             {/* Conclusion */}

@@ -165,11 +165,11 @@ export default function RequisitosPrestamosVivusPage() {
               className="my-8"
             ></div>
 
-            {/* Image 2: Action Banner 1 */}
+            {/* Standard ActionBanner 1 */}
             <ActionBanner
-              href="https://www.vivus.com.mx/"
+              href="/finanzas-personales/tarjetas-de-credito-para-estudiantes"
               src="https://media.topfinanzas.com/images/call-to-ACTION-1.jpg"
-              alt="Solicitar Préstamo Vivus"
+              alt="¿Eres estudiante?"
             />
 
             {/* Proceso de Solicitud */}
@@ -217,11 +217,11 @@ export default function RequisitosPrestamosVivusPage() {
               </li>
             </ul>
 
-            {/* Image 3: Action Banner 3 */}
+            {/* Standard ActionBanner 2 */}
             <ActionBanner
-              href="https://www.vivus.com.mx/"
-              src="https://media.topfinanzas.com/images/call-to-ACTION-3.jpg"
-              alt="Solicitar Préstamo Vivus"
+              href="/soluciones-financieras/tarjetas-de-credito-sin-anualidad"
+              src="https://media.topfinanzas.com/images/call-to-ACTION-2.jpg"
+              alt="Top tarjetas de crédito sin anualidad"
             />
 
             {/* Para quién es ideal */}
@@ -303,11 +303,11 @@ export default function RequisitosPrestamosVivusPage() {
               </li>
             </ul>
 
-            {/* Image 4: Action Banner 2 */}
+            {/* Standard ActionBanner 3 */}
             <ActionBanner
-              href="https://www.vivus.com.mx/"
-              src="https://media.topfinanzas.com/images/call-to-ACTION-2.jpg"
-              alt="Solicitar Préstamo Vivus"
+              href="/finanzas-personales/cat-en-tarjetas-de-credito"
+              src="https://media.topfinanzas.com/images/call-to-ACTION-3.jpg"
+              alt="Entiende el CAT en Tarjetas de Crédito"
             />
 
             {/* Conclusion */}
@@ -322,11 +322,11 @@ export default function RequisitosPrestamosVivusPage() {
               y transparencia.
             </p>
 
-            {/* Image 5: Action Banner 4 */}
+            {/* Standard ActionBanner 4 */}
             <ActionBanner
-              href="https://www.vivus.com.mx/"
+              href="/soluciones-financieras/cual-es-el-mejor-prestamo-personal"
               src="https://media.topfinanzas.com/images/call-to-ACTION-4.jpg"
-              alt="Solicitar Préstamo Vivus"
+              alt="¿Buscando el mejor préstamo personal?"
             />
 
             {/* External CTA Button */}

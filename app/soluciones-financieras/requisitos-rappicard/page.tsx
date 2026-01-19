@@ -176,10 +176,10 @@ export default function RequisitosRappiCardPage() {
               </li>
             </ul>
 
-            {/* Image: Eres estudiante */}
+            {/* Standard ActionBanner 1 */}
             <ActionBanner
               href="/finanzas-personales/tarjetas-de-credito-para-estudiantes"
-              src="https://media.topfinanzas.com/images/call-to-ACTION-4.jpg"
+              src="https://media.topfinanzas.com/images/call-to-ACTION-1.jpg"
               alt="¿Eres estudiante?"
             />
             <div className="mb-10">
@@ -234,11 +234,11 @@ export default function RequisitosRappiCardPage() {
               </li>
             </ul>
 
-            {/* Image: Entiende el CAT */}
+            {/* Standard ActionBanner 2 */}
             <ActionBanner
-              href="/finanzas-personales/cat-en-tarjetas-de-credito"
+              href="/soluciones-financieras/tarjetas-de-credito-sin-anualidad"
               src="https://media.topfinanzas.com/images/call-to-ACTION-2.jpg"
-              alt="Entiende el CAT en Tarjetas de Crédito"
+              alt="Top tarjetas de crédito sin anualidad"
             />
             <div className="mb-10">
               <p className="text-gray-700">
@@ -331,11 +331,11 @@ export default function RequisitosRappiCardPage() {
               </li>
             </ul>
 
-            {/* Image: Top tarjetas */}
+            {/* Standard ActionBanner 3 */}
             <ActionBanner
-              href="/soluciones-financieras/tarjetas-de-credito-sin-anualidad"
-              src="https://media.topfinanzas.com/images/call-to-ACTION-1.jpg"
-              alt="Top tarjetas de crédito sin anualidad"
+              href="/finanzas-personales/cat-en-tarjetas-de-credito"
+              src="https://media.topfinanzas.com/images/call-to-ACTION-3.jpg"
+              alt="Entiende el CAT en Tarjetas de Crédito"
             />
             <div className="mb-10">
               <p className="text-gray-700">
@@ -393,10 +393,10 @@ export default function RequisitosRappiCardPage() {
               </li>
             </ul>
 
-            {/* Image: Buscando el mejor préstamo */}
+            {/* Standard ActionBanner 4 */}
             <ActionBanner
               href="/soluciones-financieras/cual-es-el-mejor-prestamo-personal"
-              src="https://media.topfinanzas.com/images/call-to-ACTION-3.jpg"
+              src="https://media.topfinanzas.com/images/call-to-ACTION-4.jpg"
               alt="¿Buscando el mejor préstamo personal?"
             />
 

@@ -121,10 +121,11 @@ export default function RequisitosAeromexicoSantanderPage() {
               los siguientes:
             </p>
 
+            {/* Standard ActionBanner 1 */}
             <ActionBanner
-              href="/soluciones-financieras/tarjetas-de-credito-sin-anualidad"
+              href="/finanzas-personales/tarjetas-de-credito-para-estudiantes"
               src="https://media.topfinanzas.com/images/call-to-ACTION-1.jpg"
-              alt="Requisitos"
+              alt="¿Eres estudiante?"
             />
 
             <ul className="space-y-3 mb-8">
@@ -178,10 +179,11 @@ export default function RequisitosAeromexicoSantanderPage() {
               diseñados para distintos perfiles de ingresos.
             </p>
 
+            {/* Standard ActionBanner 2 */}
             <ActionBanner
-              href="/soluciones-financieras/cual-es-el-mejor-prestamo-personal"
-              src="https://media.topfinanzas.com/images/call-to-ACTION-3.jpg"
-              alt="Características"
+              href="/soluciones-financieras/tarjetas-de-credito-sin-anualidad"
+              src="https://media.topfinanzas.com/images/call-to-ACTION-2.jpg"
+              alt="Top tarjetas de crédito sin anualidad"
             />
 
             <p className="text-lg text-gray-700 mb-6 font-normal">
@@ -226,10 +228,11 @@ export default function RequisitosAeromexicoSantanderPage() {
               Estos son algunos de los más destacados:
             </p>
 
+            {/* Standard ActionBanner 3 */}
             <ActionBanner
               href="/finanzas-personales/cat-en-tarjetas-de-credito"
-              src="https://media.topfinanzas.com/images/call-to-ACTION-2.jpg"
-              alt="Beneficios"
+              src="https://media.topfinanzas.com/images/call-to-ACTION-3.jpg"
+              alt="Entiende el CAT en Tarjetas de Crédito"
             />
 
             <ul className="space-y-3 mb-8">
@@ -307,10 +310,11 @@ export default function RequisitosAeromexicoSantanderPage() {
               explicamos los pasos:
             </p>
 
+            {/* Standard ActionBanner 4 */}
             <ActionBanner
-              href="/finanzas-personales/tarjetas-de-credito-para-estudiantes"
+              href="/soluciones-financieras/cual-es-el-mejor-prestamo-personal"
               src="https://media.topfinanzas.com/images/call-to-ACTION-4.jpg"
-              alt="Cómo solicitar"
+              alt="¿Buscando el mejor préstamo personal?"
             />
 
             <ul className="space-y-3 mb-8">

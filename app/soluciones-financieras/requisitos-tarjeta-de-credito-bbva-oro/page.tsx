@@ -107,10 +107,11 @@ export default function RequisitosTarjetaBBVAOroPage() {
               Puntos clave
             </h2>
 
+            {/* Standard ActionBanner 1 */}
             <ActionBanner
-              href="/soluciones-financieras/tarjetas-de-credito-sin-anualidad"
+              href="/finanzas-personales/tarjetas-de-credito-para-estudiantes"
               src="https://media.topfinanzas.com/images/call-to-ACTION-1.jpg"
-              alt="Puntos clave"
+              alt="¿Eres estudiante?"
             />
 
             <ul className="space-y-3 mb-8">
@@ -231,10 +232,11 @@ export default function RequisitosTarjetaBBVAOroPage() {
               seguro de protección, el cual incluye:
             </p>
 
+            {/* Standard ActionBanner 2 */}
             <ActionBanner
-              href="/soluciones-financieras/cual-es-el-mejor-prestamo-personal"
-              src="https://media.topfinanzas.com/images/call-to-ACTION-3.jpg"
-              alt="Seguro de protección"
+              href="/soluciones-financieras/tarjetas-de-credito-sin-anualidad"
+              src="https://media.topfinanzas.com/images/call-to-ACTION-2.jpg"
+              alt="Top tarjetas de crédito sin anualidad"
             />
 
             <ul className="space-y-3 mb-8">
@@ -288,10 +290,11 @@ export default function RequisitosTarjetaBBVAOroPage() {
               entretenimiento, moda y viajes.
             </p>
 
+            {/* Standard ActionBanner 3 */}
             <ActionBanner
               href="/finanzas-personales/cat-en-tarjetas-de-credito"
-              src="https://media.topfinanzas.com/images/call-to-ACTION-2.jpg"
-              alt="Promociones exclusivas"
+              src="https://media.topfinanzas.com/images/call-to-ACTION-3.jpg"
+              alt="Entiende el CAT en Tarjetas de Crédito"
             />
 
             <p className="text-lg text-gray-700 mb-6 font-normal">
@@ -446,10 +449,11 @@ export default function RequisitosTarjetaBBVAOroPage() {
               </li>
             </ul>
 
+            {/* Standard ActionBanner 4 */}
             <ActionBanner
-              href="/finanzas-personales/tarjetas-de-credito-para-estudiantes"
+              href="/soluciones-financieras/cual-es-el-mejor-prestamo-personal"
               src="https://media.topfinanzas.com/images/call-to-ACTION-4.jpg"
-              alt="Proceso de solicitud"
+              alt="¿Buscando el mejor préstamo personal?"
             />
 
             {/* ¿Por qué elegir la tarjeta BBVA Oro? */}

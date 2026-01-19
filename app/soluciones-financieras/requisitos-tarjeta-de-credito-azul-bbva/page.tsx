@@ -124,11 +124,11 @@ export default function RequisitosTarjetaAzulBBVAPage() {
               className="my-8"
             ></div>
 
-            {/* CTA Image 1 */}
+            {/* Standard ActionBanner 1 */}
             <ActionBanner
-              href="/soluciones-financieras/tarjetas-de-credito-sin-anualidad"
+              href="/finanzas-personales/tarjetas-de-credito-para-estudiantes"
               src="https://media.topfinanzas.com/images/call-to-ACTION-1.jpg"
-              alt="Solicitar Tarjeta"
+              alt="¿Eres estudiante?"
             />
 
             {/* Section 2 */}
@@ -181,11 +181,11 @@ export default function RequisitosTarjetaAzulBBVAPage() {
               </li>
             </ul>
 
-            {/* CTA Image 2 */}
+            {/* Standard ActionBanner 2 */}
             <ActionBanner
-              href="/soluciones-financieras/cual-es-el-mejor-prestamo-personal"
-              src="https://media.topfinanzas.com/images/call-to-ACTION-3.jpg"
-              alt="Solicitar Tarjeta"
+              href="/soluciones-financieras/tarjetas-de-credito-sin-anualidad"
+              src="https://media.topfinanzas.com/images/call-to-ACTION-2.jpg"
+              alt="Top tarjetas de crédito sin anualidad"
             />
 
             {/* Section 3 */}
@@ -231,11 +231,11 @@ export default function RequisitosTarjetaAzulBBVAPage() {
               </li>
             </ul>
 
-            {/* CTA Image 3 */}
+            {/* Standard ActionBanner 3 */}
             <ActionBanner
               href="/finanzas-personales/cat-en-tarjetas-de-credito"
-              src="https://media.topfinanzas.com/images/call-to-ACTION-2.jpg"
-              alt="Solicitar Tarjeta"
+              src="https://media.topfinanzas.com/images/call-to-ACTION-3.jpg"
+              alt="Entiende el CAT en Tarjetas de Crédito"
             />
 
             {/* Section 4 */}
@@ -272,11 +272,11 @@ export default function RequisitosTarjetaAzulBBVAPage() {
               </li>
             </ul>
 
-            {/* CTA Image 4 */}
+            {/* Standard ActionBanner 4 */}
             <ActionBanner
-              href="/finanzas-personales/tarjetas-de-credito-para-estudiantes"
+              href="/soluciones-financieras/cual-es-el-mejor-prestamo-personal"
               src="https://media.topfinanzas.com/images/call-to-ACTION-4.jpg"
-              alt="Solicitar Tarjeta"
+              alt="¿Buscando el mejor préstamo personal?"
             />
 
             {/* Section 5 */}

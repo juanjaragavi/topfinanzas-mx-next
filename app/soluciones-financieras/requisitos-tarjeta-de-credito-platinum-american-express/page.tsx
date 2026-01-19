@@ -364,7 +364,7 @@ export default function RequisitosTarjetaPlatinumAmexPage() {
             <ActionBanner
               href="/soluciones-financieras/cual-es-el-mejor-prestamo-personal"
               src="https://media.topfinanzas.com/images/call-to-ACTION-4.jpg"
-              alt="Buscando el mejor préstamo personal"
+              alt="¿Buscando el mejor préstamo personal?"
             />
             <div className="flex justify-center mb-8">
               <Link

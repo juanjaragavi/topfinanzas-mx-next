@@ -290,7 +290,14 @@ export default function RequisitosTarjetaTigresAfirmePage() {
               </Link>
             </div>
 
-            {/* CTA Banner 2 */}
+            {/* Standard ActionBanner 2 */}
+            <ActionBanner
+              href="/soluciones-financieras/tarjetas-de-credito-sin-anualidad"
+              src="https://media.topfinanzas.com/images/call-to-ACTION-2.jpg"
+              alt="Top tarjetas de crédito sin anualidad"
+            />
+
+            {/* Standard ActionBanner 3 */}
             <ActionBanner
               href="/finanzas-personales/cat-en-tarjetas-de-credito"
               src="https://media.topfinanzas.com/images/call-to-ACTION-3.jpg"
@@ -351,7 +358,7 @@ export default function RequisitosTarjetaTigresAfirmePage() {
             <ActionBanner
               href="/soluciones-financieras/cual-es-el-mejor-prestamo-personal"
               src="https://media.topfinanzas.com/images/call-to-ACTION-4.jpg"
-              alt="Buscando el mejor préstamo personal"
+              alt="¿Buscando el mejor préstamo personal?"
             />
             <div className="flex justify-center mb-8">
               <Link

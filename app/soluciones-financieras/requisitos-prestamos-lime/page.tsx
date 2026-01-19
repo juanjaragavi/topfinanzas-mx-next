@@ -156,11 +156,11 @@ export default function RequisitosLimePage() {
               className="my-8"
             ></div>
 
-            {/* CTA 1 */}
+            {/* Standard ActionBanner 1 */}
             <ActionBanner
-              href="https://www.lime24.mx/"
+              href="/finanzas-personales/tarjetas-de-credito-para-estudiantes"
               src="https://media.topfinanzas.com/images/call-to-ACTION-1.jpg"
-              alt="Solicitar Préstamo Lime"
+              alt="¿Eres estudiante?"
             />
 
             {/* Section: ¿Cómo solicitar tu préstamo? */}
@@ -229,11 +229,11 @@ export default function RequisitosLimePage() {
               </li>
             </ul>
 
-            {/* CTA 2 */}
+            {/* Standard ActionBanner 2 */}
             <ActionBanner
-              href="https://www.lime24.mx/"
-              src="https://media.topfinanzas.com/images/call-to-ACTION-3.jpg"
-              alt="Aplica ahora"
+              href="/soluciones-financieras/tarjetas-de-credito-sin-anualidad"
+              src="https://media.topfinanzas.com/images/call-to-ACTION-2.jpg"
+              alt="Top tarjetas de crédito sin anualidad"
             />
 
             {/* Section: ¿Para quién es ideal un préstamo con lime? */}
@@ -296,11 +296,11 @@ export default function RequisitosLimePage() {
               </li>
             </ul>
 
-            {/* CTA 3 */}
+            {/* Standard ActionBanner 3 */}
             <ActionBanner
-              href="https://www.lime24.mx/"
-              src="https://media.topfinanzas.com/images/call-to-ACTION-2.jpg"
-              alt="Solicita tu crédito"
+              href="/finanzas-personales/cat-en-tarjetas-de-credito"
+              src="https://media.topfinanzas.com/images/call-to-ACTION-3.jpg"
+              alt="Entiende el CAT en Tarjetas de Crédito"
             />
 
             {/* Section: Aspectos clave a tener en cuenta */}
@@ -318,11 +318,11 @@ export default function RequisitosLimePage() {
               conveniencia del proceso digital.
             </p>
 
-            {/* CTA 4 */}
+            {/* Standard ActionBanner 4 */}
             <ActionBanner
-              href="https://www.lime24.mx/"
+              href="/soluciones-financieras/cual-es-el-mejor-prestamo-personal"
               src="https://media.topfinanzas.com/images/call-to-ACTION-4.jpg"
-              alt="Ver en sitio oficial"
+              alt="¿Buscando el mejor préstamo personal?"
             />
 
             {/* External CTA Button */}

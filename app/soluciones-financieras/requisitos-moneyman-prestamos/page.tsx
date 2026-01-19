@@ -139,11 +139,11 @@ export default function RequisitosMoneymanPrestamosPage() {
               del SAT y la RENAPO.
             </p>
 
-            {/* Image 2 (Action 1) */}
+            {/* Standard ActionBanner 1 */}
             <ActionBanner
-              href="/soluciones-financieras/tarjetas-de-credito-sin-anualidad"
+              href="/finanzas-personales/tarjetas-de-credito-para-estudiantes"
               src="https://media.topfinanzas.com/images/call-to-ACTION-1.jpg"
-              alt="Tarjetas de crédito sin anualidad"
+              alt="¿Eres estudiante?"
             />
 
             {/* Proceso de solicitud de préstamo */}
@@ -183,11 +183,11 @@ export default function RequisitosMoneymanPrestamosPage() {
               </li>
             </ul>
 
-            {/* Image 3 (Action 3 - per ordering) */}
+            {/* Standard ActionBanner 2 */}
             <ActionBanner
-              href="/finanzas-personales/tarjetas-de-credito-de-neobancos"
-              src="https://media.topfinanzas.com/images/call-to-ACTION-3.jpg"
-              alt="Top tarjetas de neobancos"
+              href="/soluciones-financieras/tarjetas-de-credito-sin-anualidad"
+              src="https://media.topfinanzas.com/images/call-to-ACTION-2.jpg"
+              alt="Top tarjetas de crédito sin anualidad"
             />
 
             {/* Aspectos clave a considerar */}
@@ -225,11 +225,11 @@ export default function RequisitosMoneymanPrestamosPage() {
               </Link>
             </p>
 
-            {/* Image 4 (Action 2 - per ordering) */}
+            {/* Standard ActionBanner 3 */}
             <ActionBanner
               href="/finanzas-personales/cat-en-tarjetas-de-credito"
-              src="https://media.topfinanzas.com/images/call-to-ACTION-2.jpg"
-              alt="CAT en tarjetas de crédito"
+              src="https://media.topfinanzas.com/images/call-to-ACTION-3.jpg"
+              alt="Entiende el CAT en Tarjetas de Crédito"
             />
 
             {/* Usos adecuados para los préstamos de Moneyman */}
@@ -304,11 +304,11 @@ export default function RequisitosMoneymanPrestamosPage() {
               beneficios inmediatos justifiquen el costo.
             </p>
 
-            {/* Image 5 (Action 4) */}
+            {/* Standard ActionBanner 4 */}
             <ActionBanner
-              href="/finanzas-personales/como-saber-si-estas-en-buro-de-credito"
+              href="/soluciones-financieras/cual-es-el-mejor-prestamo-personal"
               src="https://media.topfinanzas.com/images/call-to-ACTION-4.jpg"
-              alt="¿Cómo saber si estás en buró de crédito?"
+              alt="¿Buscando el mejor préstamo personal?"
             />
 
             {/* Conclusion */}

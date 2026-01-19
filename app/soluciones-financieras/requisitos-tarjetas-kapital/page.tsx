@@ -159,11 +159,11 @@ export default function RequisitosTarjetasKapitalPage() {
               </Link>
             </p>
 
-            {/* Image CTA 1 */}
+            {/* Standard ActionBanner 1 */}
             <ActionBanner
-              href="/soluciones-financieras/tarjetas-de-credito-sin-anualidad"
+              href="/finanzas-personales/tarjetas-de-credito-para-estudiantes"
               src="https://media.topfinanzas.com/images/call-to-ACTION-1.jpg"
-              alt="Solicitar Tarjeta Kapital"
+              alt="¿Eres estudiante?"
             />
 
             {/* Section: Documentación requerida */}
@@ -215,11 +215,11 @@ export default function RequisitosTarjetasKapitalPage() {
               </li>
             </ul>
 
-            {/* Image CTA 2 */}
+            {/* Standard ActionBanner 2 */}
             <ActionBanner
-              href="/soluciones-financieras/cual-es-el-mejor-prestamo-personal"
-              src="https://media.topfinanzas.com/images/call-to-ACTION-3.jpg"
-              alt="Documentación Kapital"
+              href="/soluciones-financieras/tarjetas-de-credito-sin-anualidad"
+              src="https://media.topfinanzas.com/images/call-to-ACTION-2.jpg"
+              alt="Top tarjetas de crédito sin anualidad"
             />
 
             {/* Section: Proceso de solicitud */}
@@ -294,11 +294,11 @@ export default function RequisitosTarjetasKapitalPage() {
               </Link>
             </p>
 
-            {/* Image CTA 3 */}
+            {/* Standard ActionBanner 3 */}
             <ActionBanner
               href="/finanzas-personales/cat-en-tarjetas-de-credito"
-              src="https://media.topfinanzas.com/images/call-to-ACTION-2.jpg"
-              alt="Proceso Kapital"
+              src="https://media.topfinanzas.com/images/call-to-ACTION-3.jpg"
+              alt="Entiende el CAT en Tarjetas de Crédito"
             />
 
             {/* Section: ¿Qué aspectos adicionales tiene la tarjeta de crédito Kapital? */}
@@ -349,11 +349,11 @@ export default function RequisitosTarjetasKapitalPage() {
               </li>
             </ul>
 
-            {/* Image CTA 4 */}
+            {/* Standard ActionBanner 4 */}
             <ActionBanner
-              href="/finanzas-personales/tarjetas-de-credito-para-estudiantes"
+              href="/soluciones-financieras/cual-es-el-mejor-prestamo-personal"
               src="https://media.topfinanzas.com/images/call-to-ACTION-4.jpg"
-              alt="Beneficios Adicionales Kapital"
+              alt="¿Buscando el mejor préstamo personal?"
             />
 
             {/* Section: ¿Es la tarjeta de crédito Kapital para ti? */}

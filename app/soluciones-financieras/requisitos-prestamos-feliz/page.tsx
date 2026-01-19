@@ -171,11 +171,11 @@ export default function RequisitosPrestamosFelizPage() {
               className="my-8"
             ></div>
 
-            {/* CTA 1 */}
+            {/* Standard ActionBanner 1 */}
             <ActionBanner
-              href="https://www.prestamofeliz.com.mx/"
+              href="/finanzas-personales/tarjetas-de-credito-para-estudiantes"
               src="https://media.topfinanzas.com/images/call-to-ACTION-1.jpg"
-              alt="Solicitar Préstamo Feliz"
+              alt="¿Eres estudiante?"
             />
 
             {/* Section: Documentación necesaria */}
@@ -223,11 +223,11 @@ export default function RequisitosPrestamosFelizPage() {
               solicitud sea evaluada de manera correcta y rápida.
             </p>
 
-            {/* CTA 2 (ACTION-3) */}
+            {/* Standard ActionBanner 2 */}
             <ActionBanner
-              href="https://www.prestamofeliz.com.mx/"
-              src="https://media.topfinanzas.com/images/call-to-ACTION-3.jpg"
-              alt="Aplica ahora"
+              href="/soluciones-financieras/tarjetas-de-credito-sin-anualidad"
+              src="https://media.topfinanzas.com/images/call-to-ACTION-2.jpg"
+              alt="Top tarjetas de crédito sin anualidad"
             />
 
             {/* Section: Proceso de solicitud */}
@@ -286,11 +286,11 @@ export default function RequisitosPrestamosFelizPage() {
               trámites presenciales o largos periodos de espera.
             </p>
 
-            {/* CTA 3 (ACTION-2) */}
+            {/* Standard ActionBanner 3 */}
             <ActionBanner
-              href="https://www.prestamofeliz.com.mx/"
-              src="https://media.topfinanzas.com/images/call-to-ACTION-2.jpg"
-              alt="Solicita tu crédito"
+              href="/finanzas-personales/cat-en-tarjetas-de-credito"
+              src="https://media.topfinanzas.com/images/call-to-ACTION-3.jpg"
+              alt="Entiende el CAT en Tarjetas de Crédito"
             />
 
             {/* Section: Consideraciones adicionales */}
@@ -345,11 +345,11 @@ export default function RequisitosPrestamosFelizPage() {
               solicitud para obtener una aprobación rápida.
             </p>
 
-            {/* CTA 4 (ACTION-4) */}
+            {/* Standard ActionBanner 4 */}
             <ActionBanner
-              href="https://www.prestamofeliz.com.mx/"
+              href="/soluciones-financieras/cual-es-el-mejor-prestamo-personal"
               src="https://media.topfinanzas.com/images/call-to-ACTION-4.jpg"
-              alt="Ver en sitio oficial"
+              alt="¿Buscando el mejor préstamo personal?"
             />
 
             {/* External CTA Button */}

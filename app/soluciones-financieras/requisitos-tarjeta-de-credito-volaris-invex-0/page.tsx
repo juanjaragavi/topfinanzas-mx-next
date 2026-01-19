@@ -150,11 +150,11 @@ export default function RequisitosTarjetaVolarisInvex0Page() {
               className="my-8"
             ></div>
 
-            {/* Image 2 */}
+            {/* Standard ActionBanner 1 */}
             <ActionBanner
-              href="/soluciones-financieras/tarjetas-de-credito-sin-anualidad"
+              href="/finanzas-personales/tarjetas-de-credito-para-estudiantes"
               src="https://media.topfinanzas.com/images/call-to-ACTION-1.jpg"
-              alt="Solicitar Tarjeta Volaris INVEX"
+              alt="¿Eres estudiante?"
             />
 
             {/* Documentación Requerida */}
@@ -213,11 +213,11 @@ export default function RequisitosTarjetaVolarisInvex0Page() {
               </Link>
             </p>
 
-            {/* Image 3 */}
+            {/* Standard ActionBanner 2 */}
             <ActionBanner
-              href="/soluciones-financieras/cual-es-el-mejor-prestamo-personal"
-              src="https://media.topfinanzas.com/images/call-to-ACTION-3.jpg"
-              alt="Documentación Tarjeta Volaris INVEX"
+              href="/soluciones-financieras/tarjetas-de-credito-sin-anualidad"
+              src="https://media.topfinanzas.com/images/call-to-ACTION-2.jpg"
+              alt="Top tarjetas de crédito sin anualidad"
             />
 
             {/* Atractivo de la tarjeta */}
@@ -325,11 +325,11 @@ export default function RequisitosTarjetaVolarisInvex0Page() {
               </Link>
             </p>
 
-            {/* Image 4 */}
+            {/* Standard ActionBanner 3 */}
             <ActionBanner
               href="/finanzas-personales/cat-en-tarjetas-de-credito"
-              src="https://media.topfinanzas.com/images/call-to-ACTION-2.jpg"
-              alt="Beneficios Volaris INVEX"
+              src="https://media.topfinanzas.com/images/call-to-ACTION-3.jpg"
+              alt="Entiende el CAT en Tarjetas de Crédito"
             />
 
             {/* Proceso de solicitud */}
@@ -381,11 +381,11 @@ export default function RequisitosTarjetaVolarisInvex0Page() {
               15 días hábiles adicionales.
             </p>
 
-            {/* Image 5 */}
+            {/* Standard ActionBanner 4 */}
             <ActionBanner
-              href="/finanzas-personales/tarjetas-de-credito-para-estudiantes"
+              href="/soluciones-financieras/cual-es-el-mejor-prestamo-personal"
               src="https://media.topfinanzas.com/images/call-to-ACTION-4.jpg"
-              alt="Proceso de solicitud"
+              alt="¿Buscando el mejor préstamo personal?"
             />
 
             {/* Conclusion */}

@@ -1,6 +1,7 @@
 import { Header } from "@/components/layout/header";
 import { CompactFooter } from "@/components/layout/compact-footer";
 import { AIContentDisclaimer } from "@/components/ui/ai-content-disclaimer";
+import { ActionBanner } from "@/components/ui/action-banner";
 import Image from "next/image";
 import Link from "next/link";
 import { Metadata } from "next";
@@ -148,17 +149,12 @@ export default function RequisitosTarjetaHeyBancoPage() {
               </Link>
             </p>
 
-            {/* Image CTA 1 */}
-            <div className="relative w-full h-64 md:h-[400px] my-8 rounded-sm overflow-hidden shadow-lg">
-              <Link href="/soluciones-financieras/tarjetas-de-credito-sin-anualidad">
-                <Image
-                  src="https://media.topfinanzas.com/images/call-to-ACTION-1.jpg"
-                  alt="Solicitar Tarjeta Hey Banco"
-                  fill
-                  className="object-contain"
-                />
-              </Link>
-            </div>
+            {/* Standard ActionBanner 1 */}
+            <ActionBanner
+              href="/finanzas-personales/tarjetas-de-credito-para-estudiantes"
+              src="https://media.topfinanzas.com/images/call-to-ACTION-1.jpg"
+              alt="¿Eres estudiante?"
+            />
 
             {/* Section: Documentación requerida */}
             <h2 className="text-2xl md:text-3xl font-bold text-gray-700 mt-10 mb-4 leading-tight">
@@ -209,17 +205,12 @@ export default function RequisitosTarjetaHeyBancoPage() {
               </li>
             </ul>
 
-            {/* Image CTA 2 */}
-            <div className="relative w-full h-64 md:h-[400px] my-8 rounded-sm overflow-hidden shadow-lg">
-              <Link href="/soluciones-financieras/cual-es-el-mejor-prestamo-personal">
-                <Image
-                  src="https://media.topfinanzas.com/images/call-to-ACTION-3.jpg"
-                  alt="Documentación Hey Banco"
-                  fill
-                  className="object-contain"
-                />
-              </Link>
-            </div>
+            {/* Standard ActionBanner 2 */}
+            <ActionBanner
+              href="/soluciones-financieras/tarjetas-de-credito-sin-anualidad"
+              src="https://media.topfinanzas.com/images/call-to-ACTION-2.jpg"
+              alt="Top tarjetas de crédito sin anualidad"
+            />
 
             {/* Section: Proceso de solicitud */}
             <h2 className="text-2xl md:text-3xl font-bold text-gray-700 mt-10 mb-4 leading-tight">
@@ -307,17 +298,12 @@ export default function RequisitosTarjetaHeyBancoPage() {
               </Link>
             </p>
 
-            {/* Image CTA 3 */}
-            <div className="relative w-full h-64 md:h-[400px] my-8 rounded-sm overflow-hidden shadow-lg">
-              <Link href="/finanzas-personales/cat-en-tarjetas-de-credito">
-                <Image
-                  src="https://media.topfinanzas.com/images/call-to-ACTION-2.jpg"
-                  alt="Proceso Hey Banco"
-                  fill
-                  className="object-contain"
-                />
-              </Link>
-            </div>
+            {/* Standard ActionBanner 3 */}
+            <ActionBanner
+              href="/finanzas-personales/cat-en-tarjetas-de-credito"
+              src="https://media.topfinanzas.com/images/call-to-ACTION-3.jpg"
+              alt="Entiende el CAT en Tarjetas de Crédito"
+            />
 
             {/* Section: ¿Qué trae adicional la tarjeta de crédito Hey Banco? */}
             <h2 className="text-2xl md:text-3xl font-bold text-gray-700 mt-10 mb-4 leading-tight">
@@ -395,17 +381,12 @@ export default function RequisitosTarjetaHeyBancoPage() {
               </Link>
             </p>
 
-            {/* Image CTA 4 */}
-            <div className="relative w-full h-64 md:h-[400px] my-8 rounded-sm overflow-hidden shadow-lg">
-              <Link href="/finanzas-personales/tarjetas-de-credito-para-estudiantes">
-                <Image
-                  src="https://media.topfinanzas.com/images/call-to-ACTION-4.jpg"
-                  alt="Beneficios Adicionales Hey Banco"
-                  fill
-                  className="object-contain"
-                />
-              </Link>
-            </div>
+            {/* Standard ActionBanner 4 */}
+            <ActionBanner
+              href="/soluciones-financieras/cual-es-el-mejor-prestamo-personal"
+              src="https://media.topfinanzas.com/images/call-to-ACTION-4.jpg"
+              alt="¿Buscando el mejor préstamo personal?"
+            />
 
             {/* Section: ¿Es la tarjeta de crédito Hey Banco para ti? */}
             <h2 className="text-2xl md:text-3xl font-bold text-gray-700 mt-10 mb-4 leading-tight">

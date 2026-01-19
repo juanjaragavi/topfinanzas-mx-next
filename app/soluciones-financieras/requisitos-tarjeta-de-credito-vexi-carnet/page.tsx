@@ -229,11 +229,11 @@ export default function RequisitosTarjetaVexiCarnetPage() {
               </li>
             </ul>
 
-            {/* Image 2 */}
+            {/* Standard ActionBanner 1 */}
             <ActionBanner
-              href="/finanzas-personales/cat-en-tarjetas-de-credito"
-              src="https://media.topfinanzas.com/images/call-to-ACTION-2.jpg"
-              alt="Entiende el CAT en Tarjetas de Crédito"
+              href="/finanzas-personales/tarjetas-de-credito-para-estudiantes"
+              src="https://media.topfinanzas.com/images/call-to-ACTION-1.jpg"
+              alt="¿Eres estudiante?"
             />
 
             <p className="text-gray-700 mb-6 font-normal">
@@ -290,10 +290,10 @@ export default function RequisitosTarjetaVexiCarnetPage() {
               </li>
             </ul>
 
-            {/* Image 3 */}
+            {/* Standard ActionBanner 2 */}
             <ActionBanner
               href="/soluciones-financieras/tarjetas-de-credito-sin-anualidad"
-              src="https://media.topfinanzas.com/images/call-to-ACTION-1.jpg"
+              src="https://media.topfinanzas.com/images/call-to-ACTION-2.jpg"
               alt="Top tarjetas de crédito sin anualidad"
             />
 
@@ -403,17 +403,19 @@ export default function RequisitosTarjetaVexiCarnetPage() {
               </li>
             </ul>
 
-            {/* Image 4 */}
-            <div className="relative w-full h-64 md:h-[400px] my-8 rounded-sm overflow-hidden shadow-lg">
-              <Link href="/soluciones-financieras/cual-es-el-mejor-prestamo-personal">
-                <Image
-                  src="https://media.topfinanzas.com/images/call-to-ACTION-3.jpg"
-                  alt="Buscando el mejor préstamo personal"
-                  fill
-                  className="object-contain"
-                />
-              </Link>
-            </div>
+            {/* Standard ActionBanner 3 */}
+            <ActionBanner
+              href="/finanzas-personales/cat-en-tarjetas-de-credito"
+              src="https://media.topfinanzas.com/images/call-to-ACTION-3.jpg"
+              alt="Entiende el CAT en Tarjetas de Crédito"
+            />
+
+            {/* Standard ActionBanner 4 */}
+            <ActionBanner
+              href="/soluciones-financieras/cual-es-el-mejor-prestamo-personal"
+              src="https://media.topfinanzas.com/images/call-to-ACTION-4.jpg"
+              alt="¿Buscando el mejor préstamo personal?"
+            />
 
             {/* Final Section */}
             <h2 className="text-2xl md:text-3xl font-bold text-gray-700 mt-10 mb-4 leading-tight">

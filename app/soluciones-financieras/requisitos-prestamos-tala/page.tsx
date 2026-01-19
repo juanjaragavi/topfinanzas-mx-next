@@ -177,11 +177,11 @@ export default function RequisitosTalaPage() {
               </li>
             </ul>
 
-            {/* CTA 1 */}
+            {/* Standard ActionBanner 1 */}
             <ActionBanner
-              href="https://talamobile.mx/"
+              href="/finanzas-personales/tarjetas-de-credito-para-estudiantes"
               src="https://media.topfinanzas.com/images/call-to-ACTION-1.jpg"
-              alt="Solicitar Préstamo Tala"
+              alt="¿Eres estudiante?"
             />
 
             {/* Section: ¿Cómo descargar y utilizar la app de Tala? */}
@@ -238,11 +238,11 @@ export default function RequisitosTalaPage() {
               </li>
             </ul>
 
-            {/* CTA 2 */}
+            {/* Standard ActionBanner 2 */}
             <ActionBanner
-              href="https://talamobile.mx/"
-              src="https://media.topfinanzas.com/images/call-to-ACTION-3.jpg"
-              alt="Aplica ahora"
+              href="/soluciones-financieras/tarjetas-de-credito-sin-anualidad"
+              src="https://media.topfinanzas.com/images/call-to-ACTION-2.jpg"
+              alt="Top tarjetas de crédito sin anualidad"
             />
 
             {/* Section: ¿Para quién es ideal Tala? */}
@@ -306,11 +306,11 @@ export default function RequisitosTalaPage() {
               </li>
             </ul>
 
-            {/* CTA 3 */}
+            {/* Standard ActionBanner 3 */}
             <ActionBanner
-              href="https://talamobile.mx/"
-              src="https://media.topfinanzas.com/images/call-to-ACTION-2.jpg"
-              alt="Solicita tu crédito"
+              href="/finanzas-personales/cat-en-tarjetas-de-credito"
+              src="https://media.topfinanzas.com/images/call-to-ACTION-3.jpg"
+              alt="Entiende el CAT en Tarjetas de Crédito"
             />
 
             {/* Section: ¿Es Tala para Ti? */}
@@ -333,11 +333,11 @@ export default function RequisitosTalaPage() {
               confianza.
             </p>
 
-            {/* CTA 4 */}
+            {/* Standard ActionBanner 4 */}
             <ActionBanner
-              href="https://talamobile.mx/"
+              href="/soluciones-financieras/cual-es-el-mejor-prestamo-personal"
               src="https://media.topfinanzas.com/images/call-to-ACTION-4.jpg"
-              alt="Ver en sitio oficial"
+              alt="¿Buscando el mejor préstamo personal?"
             />
 
             {/* External CTA Button */}

@@ -176,11 +176,11 @@ export default function RequisitosTarjetaLikeUSantanderPage() {
               </Link>
             </p>
 
-            {/* Image 2 */}
+            {/* Standard ActionBanner 1 */}
             <ActionBanner
-              href="/soluciones-financieras/tarjetas-de-credito-sin-anualidad"
+              href="/finanzas-personales/tarjetas-de-credito-para-estudiantes"
               src="https://media.topfinanzas.com/images/call-to-ACTION-1.jpg"
-              alt="Solicitar Tarjeta LikeU"
+              alt="¿Eres estudiante?"
             />
 
             {/* Proceso de solicitud */}
@@ -248,11 +248,11 @@ export default function RequisitosTarjetaLikeUSantanderPage() {
               </Link>
             </p>
 
-            {/* Image 3 */}
+            {/* Standard ActionBanner 2 */}
             <ActionBanner
-              href="/soluciones-financieras/cual-es-el-mejor-prestamo-personal"
-              src="https://media.topfinanzas.com/images/call-to-ACTION-3.jpg"
-              alt="Costos y tasas Tarjeta LikeU"
+              href="/soluciones-financieras/tarjetas-de-credito-sin-anualidad"
+              src="https://media.topfinanzas.com/images/call-to-ACTION-2.jpg"
+              alt="Top tarjetas de crédito sin anualidad"
             />
 
             {/* ¿Para quién es la Tarjeta LikeU? */}
@@ -283,11 +283,11 @@ export default function RequisitosTarjetaLikeUSantanderPage() {
               </Link>
             </p>
 
-            {/* Image 4 */}
+            {/* Standard ActionBanner 3 */}
             <ActionBanner
               href="/finanzas-personales/cat-en-tarjetas-de-credito"
-              src="https://media.topfinanzas.com/images/call-to-ACTION-2.jpg"
-              alt="Para quién es la Tarjeta LikeU"
+              src="https://media.topfinanzas.com/images/call-to-ACTION-3.jpg"
+              alt="Entiende el CAT en Tarjetas de Crédito"
             />
 
             <h3 className="text-xl font-bold text-gray-700 mt-8 mb-4 leading-tight">
@@ -331,11 +331,11 @@ export default function RequisitosTarjetaLikeUSantanderPage() {
               </Link>
             </p>
 
-            {/* Image 5 */}
+            {/* Standard ActionBanner 4 */}
             <ActionBanner
-              href="/finanzas-personales/tarjetas-de-credito-para-estudiantes"
+              href="/soluciones-financieras/cual-es-el-mejor-prestamo-personal"
               src="https://media.topfinanzas.com/images/call-to-ACTION-4.jpg"
-              alt="Usuarios frecuentes de tarjetas"
+              alt="¿Buscando el mejor préstamo personal?"
             />
 
             {/* Más que una simple tarjeta de crédito */}

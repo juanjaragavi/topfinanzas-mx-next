@@ -219,7 +219,14 @@ export default function RequisitosTarjetaHSBCVivaPage() {
               </li>
             </ul>
 
-            {/* CTA Banner 1 */}
+            {/* Standard ActionBanner 1 */}
+            <ActionBanner
+              href="/finanzas-personales/tarjetas-de-credito-para-estudiantes"
+              src="https://media.topfinanzas.com/images/call-to-ACTION-1.jpg"
+              alt="¿Eres estudiante?"
+            />
+
+            {/* Standard ActionBanner 3 */}
             <ActionBanner
               href="/finanzas-personales/cat-en-tarjetas-de-credito"
               src="https://media.topfinanzas.com/images/call-to-ACTION-3.jpg"
@@ -390,7 +397,7 @@ export default function RequisitosTarjetaHSBCVivaPage() {
             <ActionBanner
               href="/soluciones-financieras/cual-es-el-mejor-prestamo-personal"
               src="https://media.topfinanzas.com/images/call-to-ACTION-4.jpg"
-              alt="Buscando el mejor préstamo personal"
+              alt="¿Buscando el mejor préstamo personal?"
             />
             <div className="flex justify-center mb-8">
               <Link

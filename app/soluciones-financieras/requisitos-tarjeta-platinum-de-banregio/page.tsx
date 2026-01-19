@@ -193,11 +193,11 @@ export default function RequisitosTarjetaPlatinumBanregioPage() {
               </Link>
             </p>
 
-            {/* Image 2 */}
+            {/* Standard ActionBanner 1 */}
             <ActionBanner
-              href="/soluciones-financieras/tarjetas-de-credito-sin-anualidad"
+              href="/finanzas-personales/tarjetas-de-credito-para-estudiantes"
               src="https://media.topfinanzas.com/images/call-to-ACTION-1.jpg"
-              alt="Solicitar Tarjeta Platinum Banregio"
+              alt="¿Eres estudiante?"
             />
 
             {/* Historial crediticio */}
@@ -245,11 +245,11 @@ export default function RequisitosTarjetaPlatinumBanregioPage() {
               </Link>
             </p>
 
-            {/* Image 3 */}
+            {/* Standard ActionBanner 2 */}
             <ActionBanner
-              href="/soluciones-financieras/cual-es-el-mejor-prestamo-personal"
-              src="https://media.topfinanzas.com/images/call-to-ACTION-3.jpg"
-              alt="Beneficios Tarjeta Platinum Banregio"
+              href="/soluciones-financieras/tarjetas-de-credito-sin-anualidad"
+              src="https://media.topfinanzas.com/images/call-to-ACTION-2.jpg"
+              alt="Top tarjetas de crédito sin anualidad"
             />
 
             {/* Edad mínima y residencia */}
@@ -349,11 +349,11 @@ export default function RequisitosTarjetaPlatinumBanregioPage() {
               </li>
             </ul>
 
-            {/* Image 4 */}
+            {/* Standard ActionBanner 3 */}
             <ActionBanner
               href="/finanzas-personales/cat-en-tarjetas-de-credito"
-              src="https://media.topfinanzas.com/images/call-to-ACTION-2.jpg"
-              alt="Ventajas Tarjeta Platinum Banregio"
+              src="https://media.topfinanzas.com/images/call-to-ACTION-3.jpg"
+              alt="Entiende el CAT en Tarjetas de Crédito"
             />
 
             {/* Proceso de solicitud */}
@@ -446,11 +446,11 @@ export default function RequisitosTarjetaPlatinumBanregioPage() {
               </li>
             </ul>
 
-            {/* Image 5 */}
+            {/* Standard ActionBanner 4 */}
             <ActionBanner
-              href="/finanzas-personales/tarjetas-de-credito-para-estudiantes"
+              href="/soluciones-financieras/cual-es-el-mejor-prestamo-personal"
               src="https://media.topfinanzas.com/images/call-to-ACTION-4.jpg"
-              alt="Consejos Tarjeta Platinum Banregio"
+              alt="¿Buscando el mejor préstamo personal?"
             />
 
             {/* ¿Es la opción ideal para ti? */}

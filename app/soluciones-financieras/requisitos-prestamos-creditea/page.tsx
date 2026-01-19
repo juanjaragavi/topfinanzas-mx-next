@@ -110,7 +110,7 @@ export default function RequisitosPrestamosCrediteaPage() {
             <ActionBanner
               href="/finanzas-personales/tarjetas-de-credito-para-estudiantes"
               src="https://media.topfinanzas.com/images/call-to-ACTION-1.jpg"
-              alt="Solicitar Préstamo Creditea"
+              alt="¿Eres estudiante?"
             />
 
             {/* Como funcionan */}
@@ -226,7 +226,7 @@ export default function RequisitosPrestamosCrediteaPage() {
             <ActionBanner
               href="/finanzas-personales/cat-en-tarjetas-de-credito"
               src="https://media.topfinanzas.com/images/call-to-ACTION-3.jpg"
-              alt="Requisitos Creditea"
+              alt="Entiende el CAT en Tarjetas de Crédito"
             />
 
             <p className="text-gray-700 mb-6 font-normal">
@@ -299,7 +299,7 @@ export default function RequisitosPrestamosCrediteaPage() {
             <ActionBanner
               href="/soluciones-financieras/tarjetas-de-credito-sin-anualidad"
               src="https://media.topfinanzas.com/images/call-to-ACTION-2.jpg"
-              alt="Pasos Préstamo Creditea"
+              alt="Top tarjetas de crédito sin anualidad"
             />
 
             {/* Ventajas */}
@@ -342,7 +342,7 @@ export default function RequisitosPrestamosCrediteaPage() {
             <ActionBanner
               href="/soluciones-financieras/cual-es-el-mejor-prestamo-personal"
               src="https://media.topfinanzas.com/images/call-to-ACTION-4.jpg"
-              alt="Ventajas Creditea"
+              alt="¿Buscando el mejor préstamo personal?"
             />
 
             <p className="text-gray-700 mb-6 font-normal">

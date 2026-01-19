@@ -108,11 +108,11 @@ export default function RequisitosBaubapPage() {
               className="my-8"
             ></div>
 
-            {/* CTA 1 */}
+            {/* Standard ActionBanner 1 */}
             <ActionBanner
-              href="https://www.baubap.com/"
+              href="/finanzas-personales/tarjetas-de-credito-para-estudiantes"
               src="https://media.topfinanzas.com/images/call-to-ACTION-1.jpg"
-              alt="Solicitar Préstamo Baubap"
+              alt="¿Eres estudiante?"
             />
 
             {/* Section: Comprobación de ingresos */}
@@ -208,11 +208,11 @@ export default function RequisitosBaubapPage() {
               solicitante reside en el país.
             </p>
 
-            {/* CTA 2 */}
+            {/* Standard ActionBanner 2 */}
             <ActionBanner
-              href="https://www.baubap.com/"
-              src="https://media.topfinanzas.com/images/call-to-ACTION-3.jpg"
-              alt="Aplica ahora"
+              href="/soluciones-financieras/tarjetas-de-credito-sin-anualidad"
+              src="https://media.topfinanzas.com/images/call-to-ACTION-2.jpg"
+              alt="Top tarjetas de crédito sin anualidad"
             />
 
             {/* Section: Comprobantes de ingresos (Again in content, might be detailed list, but already covered. Source has another header for it. Let's include it to be faithful to source or merge. Source text: "Para confirmar la solvencia del solicitante, Baubap requiere comprobantes de ingresos...") */}
@@ -295,11 +295,11 @@ export default function RequisitosBaubapPage() {
               </li>
             </ul>
 
-            {/* CTA 3 */}
+            {/* Standard ActionBanner 3 */}
             <ActionBanner
-              href="https://www.baubap.com/"
-              src="https://media.topfinanzas.com/images/call-to-ACTION-2.jpg"
-              alt="Solicita tu crédito"
+              href="/finanzas-personales/cat-en-tarjetas-de-credito"
+              src="https://media.topfinanzas.com/images/call-to-ACTION-3.jpg"
+              alt="Entiende el CAT en Tarjetas de Crédito"
             />
 
             {/* Section: Ventajas adicionales de Baubap */}
@@ -364,11 +364,11 @@ export default function RequisitosBaubapPage() {
               ideal para alcanzar tus metas financieras.
             </p>
 
-            {/* CTA 4 */}
+            {/* Standard ActionBanner 4 */}
             <ActionBanner
-              href="https://www.baubap.com/"
+              href="/soluciones-financieras/cual-es-el-mejor-prestamo-personal"
               src="https://media.topfinanzas.com/images/call-to-ACTION-4.jpg"
-              alt="Ver en sitio oficial"
+              alt="¿Buscando el mejor préstamo personal?"
             />
 
             {/* External CTA Button */}

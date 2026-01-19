@@ -144,11 +144,11 @@ export default function RequisitosPrestamosKueskiPage() {
               className="my-8"
             ></div>
 
-            {/* Image 2 - Call to Action 1 */}
+            {/* Standard ActionBanner 1 */}
             <ActionBanner
-              href="https://www.kueski.com/prestamos-sin-buro"
+              href="/finanzas-personales/tarjetas-de-credito-para-estudiantes"
               src="https://media.topfinanzas.com/images/call-to-ACTION-1.jpg"
-              alt="Solicitar Préstamo Kueski"
+              alt="¿Eres estudiante?"
             />
 
             {/* Para quién es ideal Kueski */}
@@ -204,11 +204,11 @@ export default function RequisitosPrestamosKueskiPage() {
               </Link>
             </p>
 
-            {/* Image 3 - Call to Action 3 */}
+            {/* Standard ActionBanner 2 */}
             <ActionBanner
-              href="https://www.kueski.com/prestamos-sin-buro"
-              src="https://media.topfinanzas.com/images/call-to-ACTION-3.jpg"
-              alt="Kueski para todos"
+              href="/soluciones-financieras/tarjetas-de-credito-sin-anualidad"
+              src="https://media.topfinanzas.com/images/call-to-ACTION-2.jpg"
+              alt="Top tarjetas de crédito sin anualidad"
             />
 
             <h3 className="text-xl font-bold text-gray-700 mt-6 mb-2">
@@ -257,11 +257,11 @@ export default function RequisitosPrestamosKueskiPage() {
               </li>
             </ul>
 
-            {/* Image 4 - Call to Action 2 */}
+            {/* Standard ActionBanner 3 */}
             <ActionBanner
-              href="https://www.kueski.com/prestamos-sin-buro"
-              src="https://media.topfinanzas.com/images/call-to-ACTION-2.jpg"
-              alt="Financiamiento rápido Kueski"
+              href="/finanzas-personales/cat-en-tarjetas-de-credito"
+              src="https://media.topfinanzas.com/images/call-to-ACTION-3.jpg"
+              alt="Entiende el CAT en Tarjetas de Crédito"
             />
 
             {/* Evalúa tus necesidades */}
@@ -305,11 +305,11 @@ export default function RequisitosPrestamosKueskiPage() {
               </li>
             </ul>
 
-            {/* Image 5 - Call to Action 4 */}
+            {/* Standard ActionBanner 4 */}
             <ActionBanner
-              href="https://www.kueski.com/prestamos-sin-buro"
+              href="/soluciones-financieras/cual-es-el-mejor-prestamo-personal"
               src="https://media.topfinanzas.com/images/call-to-ACTION-4.jpg"
-              alt="Consejos Préstamos Kueski"
+              alt="¿Buscando el mejor préstamo personal?"
             />
 
             {/* Listo para comenzar */}

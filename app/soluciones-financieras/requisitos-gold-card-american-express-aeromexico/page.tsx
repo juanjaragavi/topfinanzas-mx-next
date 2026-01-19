@@ -199,11 +199,11 @@ export default function RequisitosGoldCardAmexAeromexicoPage() {
               </Link>
             </p>
 
-            {/* Image 2 */}
+            {/* Standard ActionBanner 1 */}
             <ActionBanner
-              href="/soluciones-financieras/tarjetas-de-credito-sin-anualidad"
+              href="/finanzas-personales/tarjetas-de-credito-para-estudiantes"
               src="https://media.topfinanzas.com/images/call-to-ACTION-1.jpg"
-              alt="Solicitar Gold Card American Express Aeroméxico"
+              alt="¿Eres estudiante?"
             />
 
             {/* ¿Qué tiene de especial? */}
@@ -292,11 +292,11 @@ export default function RequisitosGoldCardAmexAeromexicoPage() {
               </Link>
             </p>
 
-            {/* Image 3 */}
+            {/* Standard ActionBanner 2 */}
             <ActionBanner
-              href="/soluciones-financieras/cual-es-el-mejor-prestamo-personal"
-              src="https://media.topfinanzas.com/images/call-to-ACTION-3.jpg"
-              alt="Beneficios Gold Card American Express Aeroméxico"
+              href="/soluciones-financieras/tarjetas-de-credito-sin-anualidad"
+              src="https://media.topfinanzas.com/images/call-to-ACTION-2.jpg"
+              alt="Top tarjetas de crédito sin anualidad"
             />
 
             {/* Ventajas Adicionales */}
@@ -347,11 +347,11 @@ export default function RequisitosGoldCardAmexAeromexicoPage() {
               </Link>
             </p>
 
-            {/* Image 4 */}
+            {/* Standard ActionBanner 3 */}
             <ActionBanner
               href="/finanzas-personales/cat-en-tarjetas-de-credito"
-              src="https://media.topfinanzas.com/images/call-to-ACTION-2.jpg"
-              alt="Ventajas Gold Card American Express Aeroméxico"
+              src="https://media.topfinanzas.com/images/call-to-ACTION-3.jpg"
+              alt="Entiende el CAT en Tarjetas de Crédito"
             />
 
             {/* ¿Cómo Solicitar? */}
@@ -456,11 +456,11 @@ export default function RequisitosGoldCardAmexAeromexicoPage() {
               </li>
             </ul>
 
-            {/* Image 5 */}
+            {/* Standard ActionBanner 4 */}
             <ActionBanner
-              href="/finanzas-personales/tarjetas-de-credito-para-estudiantes"
+              href="/soluciones-financieras/cual-es-el-mejor-prestamo-personal"
               src="https://media.topfinanzas.com/images/call-to-ACTION-4.jpg"
-              alt="Preguntas Frecuentes Gold Card American Express Aeroméxico"
+              alt="¿Buscando el mejor préstamo personal?"
             />
 
             {/* ¿Es para ti? */}

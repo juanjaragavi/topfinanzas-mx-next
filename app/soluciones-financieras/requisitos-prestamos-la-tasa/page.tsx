@@ -150,11 +150,11 @@ export default function RequisitosLaTasaPage() {
               className="my-8"
             ></div>
 
-            {/* CTA 1 */}
+            {/* Standard ActionBanner 1 */}
             <ActionBanner
-              href="https://latasa.mx/"
+              href="/finanzas-personales/tarjetas-de-credito-para-estudiantes"
               src="https://media.topfinanzas.com/images/call-to-ACTION-1.jpg"
-              alt="Solicitar Préstamo La Tasa"
+              alt="¿Eres estudiante?"
             />
 
             {/* Section: Proceso de solicitud */}
@@ -212,11 +212,11 @@ export default function RequisitosLaTasaPage() {
               </li>
             </ul>
 
-            {/* CTA 2 */}
+            {/* Standard ActionBanner 2 */}
             <ActionBanner
-              href="https://latasa.mx/"
-              src="https://media.topfinanzas.com/images/call-to-ACTION-3.jpg"
-              alt="Aplica ahora"
+              href="/soluciones-financieras/tarjetas-de-credito-sin-anualidad"
+              src="https://media.topfinanzas.com/images/call-to-ACTION-2.jpg"
+              alt="Top tarjetas de crédito sin anualidad"
             />
 
             {/* Section: ¿Para quién es ideal? */}
@@ -259,11 +259,11 @@ export default function RequisitosLaTasaPage() {
               </li>
             </ul>
 
-            {/* CTA 3 */}
+            {/* Standard ActionBanner 3 */}
             <ActionBanner
-              href="https://latasa.mx/"
-              src="https://media.topfinanzas.com/images/call-to-ACTION-2.jpg"
-              alt="Solicita tu crédito"
+              href="/finanzas-personales/cat-en-tarjetas-de-credito"
+              src="https://media.topfinanzas.com/images/call-to-ACTION-3.jpg"
+              alt="Entiende el CAT en Tarjetas de Crédito"
             />
 
             <ul className="space-y-3 mb-8">
@@ -306,11 +306,11 @@ export default function RequisitosLaTasaPage() {
               opción perfecta para tus necesidades de crédito.
             </p>
 
-            {/* Final CTA 4 */}
+            {/* Standard ActionBanner 4 */}
             <ActionBanner
-              href="https://latasa.mx/"
+              href="/soluciones-financieras/cual-es-el-mejor-prestamo-personal"
               src="https://media.topfinanzas.com/images/call-to-ACTION-4.jpg"
-              alt="Ver en sitio oficial"
+              alt="¿Buscando el mejor préstamo personal?"
             />
 
             {/* External CTA Button */}
