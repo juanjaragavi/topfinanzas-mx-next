@@ -425,6 +425,8 @@ export default function RequisitosTarjetaTigresAfirmePage() {
             <div className="flex justify-center my-8">
               <Link
                 href="https://www.afirme.com/Personas/TDC/Tarjeta-Tigres.html"
+                target="_blank"
+                rel="noopener noreferrer"
                 className="inline-block bg-green-600 text-white font-bold py-3 px-8 rounded-full hover:bg-green-700 transition-colors text-lg"
               >
                 Solicitar ahora

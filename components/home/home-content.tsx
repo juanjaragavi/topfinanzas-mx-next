@@ -64,10 +64,10 @@ const allPosts: PostData[] = ALL_POSTS.map((post) => ({
 
 // Filter posts by category for targeted sections
 const finanzasPersonalesPosts = allPosts.filter(
-  (p) => p.category === "Finanzas Personales"
+  (p) => p.category === "Finanzas Personales",
 );
 const solucionesFinancierasPosts = allPosts.filter(
-  (p) => p.category === "Soluciones Financieras"
+  (p) => p.category === "Soluciones Financieras",
 );
 
 // Helper function to interleave posts from both categories

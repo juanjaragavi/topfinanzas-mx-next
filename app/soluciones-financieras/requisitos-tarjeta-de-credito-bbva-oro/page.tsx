@@ -485,6 +485,8 @@ export default function RequisitosTarjetaBBVAOroPage() {
             <div className="flex justify-center my-8">
               <Link
                 href="https://www.bbva.mx/personas/productos/tarjetas-de-credito/tarjeta-de-credito-oro.html"
+                target="_blank"
+                rel="noopener noreferrer"
                 className="inline-block bg-[#004481] text-white font-bold py-3 px-8 rounded-full hover:bg-[#003366] transition-colors text-lg"
               >
                 Ver en sitio oficial

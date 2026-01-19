@@ -378,6 +378,8 @@ export default function RequisitosAeromexicoSantanderPage() {
             <div className="flex justify-center my-8">
               <Link
                 href="https://www.santander.com.mx/personas/tarjetas-de-credito/aeromexico.html"
+                target="_blank"
+                rel="noopener noreferrer"
                 className="inline-block bg-[#ec0000] text-white font-bold py-3 px-8 rounded-full hover:bg-[#c00000] transition-colors text-lg"
               >
                 Ver en sitio oficial

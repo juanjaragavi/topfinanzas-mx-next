@@ -469,6 +469,8 @@ export default function RequisitosTarjetaPlatinumBanregioPage() {
             <div className="flex justify-center my-8">
               <Link
                 href="https://www.banregio.com/personas/tarjetas/platinum.php"
+                target="_blank"
+                rel="noopener noreferrer"
                 className="inline-block bg-orange-500 text-white font-bold py-3 px-8 rounded-full hover:bg-orange-600 transition-colors text-lg"
               >
                 Solicitar ahora

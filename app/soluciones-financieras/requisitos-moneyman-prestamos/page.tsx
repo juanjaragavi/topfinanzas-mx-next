@@ -325,6 +325,18 @@ export default function RequisitosMoneymanPrestamosPage() {
               necesidades.
             </p>
 
+            {/* External CTA Button */}
+            <div className="flex justify-center my-8">
+              <Link
+                href="https://www.moneyman.com.mx/"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="inline-block bg-lime-600 text-white font-bold py-3 px-8 rounded-full hover:bg-lime-700 transition-colors text-lg"
+              >
+                Solicitar ahora
+              </Link>
+            </div>
+
             <div className="mt-8 mb-8">
               <Link
                 href="/soluciones-financieras/moneyman-prestamos-guia"

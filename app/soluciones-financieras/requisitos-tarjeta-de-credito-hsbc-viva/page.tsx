@@ -423,6 +423,8 @@ export default function RequisitosTarjetaHSBCVivaPage() {
             <div className="flex justify-center my-8">
               <Link
                 href="https://www.hsbc.com.mx/tarjetas-de-credito/productos/viva/"
+                target="_blank"
+                rel="noopener noreferrer"
                 className="bg-red-600 hover:bg-red-700 text-white font-bold py-4 px-8 rounded-full transition-colors text-xl"
               >
                 Solicitar ahora

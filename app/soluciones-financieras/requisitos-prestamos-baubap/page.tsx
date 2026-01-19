@@ -371,6 +371,18 @@ export default function RequisitosBaubapPage() {
               alt="Ver en sitio oficial"
             />
 
+            {/* External CTA Button */}
+            <div className="flex justify-center my-8">
+              <Link
+                href="https://www.baubap.com/"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="inline-block bg-violet-500 text-white font-bold py-3 px-8 rounded-full hover:bg-violet-600 transition-colors text-lg"
+              >
+                Solicitar ahora
+              </Link>
+            </div>
+
             <div className="mt-8 mb-8">
               <Link
                 href="/soluciones-financieras/prestamos-baubap"

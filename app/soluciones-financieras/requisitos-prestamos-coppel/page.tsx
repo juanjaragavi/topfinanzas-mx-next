@@ -296,6 +296,18 @@ export default function RequisitosPrestamosCoppelPage() {
               complicaciones.
             </p>
 
+            {/* External CTA Button */}
+            <div className="flex justify-center my-8">
+              <Link
+                href="https://www.coppel.com/prestamos-personales"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="inline-block bg-sky-700 text-white font-bold py-3 px-8 rounded-full hover:bg-sky-800 transition-colors text-lg"
+              >
+                Solicitar ahora
+              </Link>
+            </div>
+
             <div className="mt-8 mb-8">
               <Link
                 href="/soluciones-financieras/prestamos-coppel"

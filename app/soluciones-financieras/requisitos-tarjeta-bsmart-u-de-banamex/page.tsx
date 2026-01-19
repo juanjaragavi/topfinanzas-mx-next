@@ -393,6 +393,18 @@ export default function RequisitosTarjetaBsmartUBanamexPage() {
               tarjeta Bsmart U de Banamex es una gran opción.
             </p>
 
+            {/* External CTA Button */}
+            <div className="flex justify-center my-8">
+              <Link
+                href="https://www.banamex.com/es/personas/tarjetas-credito/tarjeta-bsmart-u.html"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="inline-block bg-sky-600 text-white font-bold py-3 px-8 rounded-full hover:bg-sky-700 transition-colors text-lg"
+              >
+                Solicitar ahora
+              </Link>
+            </div>
+
             <RelatedPosts
               currentSlug="requisitos-tarjeta-bsmart-u-de-banamex"
               category="soluciones-financieras"

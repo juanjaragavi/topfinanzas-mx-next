@@ -432,6 +432,18 @@ export default function RequisitosTarjetaVexiAmexPage() {
               comienza tu camino hacia una mejor salud financiera.
             </p>
 
+            {/* External CTA Button */}
+            <div className="flex justify-center my-8">
+              <Link
+                href="https://solicitud.vexi.mx/"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="inline-block bg-sky-500 text-white font-bold py-3 px-8 rounded-full hover:bg-sky-600 transition-colors text-lg"
+              >
+                Solicitar ahora
+              </Link>
+            </div>
+
             <RelatedPosts
               currentSlug="requisitos-de-la-tarjeta-vexi-american-express"
               category="soluciones-financieras"

@@ -485,6 +485,8 @@ export default function RequisitosGoldCardAmexAeromexicoPage() {
             <div className="flex justify-center my-8">
               <Link
                 href="https://www.americanexpress.com/mx/tarjetas-de-servicio/aeromexico-gold-card"
+                target="_blank"
+                rel="noopener noreferrer"
                 className="inline-block bg-[#00142c] text-white font-bold py-3 px-8 rounded-full hover:bg-blue-900 transition-colors text-lg"
               >
                 Solicitar ahora

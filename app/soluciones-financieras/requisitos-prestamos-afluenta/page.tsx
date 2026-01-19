@@ -388,6 +388,18 @@ export default function RequisitosPrestamosAfluentaPage() {
               opción ideal para ti.
             </p>
 
+            {/* External CTA Button */}
+            <div className="flex justify-center my-8">
+              <Link
+                href="https://www.afluenta.mx/"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="inline-block bg-blue-950 text-white font-bold py-3 px-8 rounded-full hover:bg-blue-900 transition-colors text-lg"
+              >
+                Solicitar ahora
+              </Link>
+            </div>
+
             <div className="mt-8 mb-8">
               <Link
                 href="/soluciones-financieras/prestamos-afluenta"
