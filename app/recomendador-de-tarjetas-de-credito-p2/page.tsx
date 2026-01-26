@@ -40,17 +40,28 @@ function CreditCardRecommenderContent() {
               {/* Option Buttons */}
               <div className="flex flex-col gap-3 max-w-md mx-auto lg:mx-0 lg:max-w-full">
                 {[
-                  "Tarjeta con cupo de $5,000 MXN",
-                  "Tarjeta con cupo de $10,000 MXN",
-                  "Tarjeta con cupo de $15,000 MXN",
-                  "Otras opciones disponibles",
-                ].map((text, i) => (
-                  <Button
-                    key={i}
-                    className="bg-[#1EA091] hover:bg-[#168579] text-white font-bold text-lg py-3 rounded-sm shadow-sm w-full"
-                  >
-                    {text}
-                  </Button>
+                  {
+                    text: "Tarjeta con cupo de $5,000 MXN",
+                    href: "/soluciones-financieras/tarjeta-de-credito-nubank-vcorta",
+                  },
+                  {
+                    text: "Tarjeta con cupo de $10,000 MXN",
+                    href: "/soluciones-financieras/tarjeta-hsbc-zero",
+                  },
+                  {
+                    text: "Tarjeta con cupo de $15,000 MXN",
+                    href: "/soluciones-financieras/tarjeta-de-credito-azul-bbva",
+                  },
+                  {
+                    text: "Otras opciones disponibles",
+                    href: "/soluciones-financieras/mejores-tarjetas-de-credito",
+                  },
+                ].map((item, i) => (
+                  <Link key={i} href={item.href} className="w-full">
+                    <Button className="bg-[#1EA091] hover:bg-[#168579] text-white font-bold text-lg py-3 rounded-sm shadow-sm w-full">
+                      {item.text}
+                    </Button>
+                  </Link>
                 ))}
               </div>
 
