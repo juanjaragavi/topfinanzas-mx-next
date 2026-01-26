@@ -37,22 +37,22 @@ export default function TopAds() {
             lazyLoad: "soft",
             pageSetting: {
               exclude: [
-                "/",
-                "/terminos-y-condiciones-de-uso",
-                "/politica-privacidad",
-                "/politica-de-cookies",
-                "/nosotros",
-                "/contactanos",
-                "/campana-quiz",
+                "/mx/",
+                "/mx/terminos-y-condiciones-de-uso",
+                "/mx/politica-privacidad",
+                "/mx/politica-de-cookies",
+                "/mx/nosotros",
+                "/mx/contactanos",
+                "/mx/campana-quiz",
               ],
             },
             formats: {
               interstitial: {
                 status: "active",
                 exclude: [
-                  "/",
-                  "/recomendador-de-tarjetas-de-credito-p3",
-                  "/campana-quiz",
+                  "/mx/",
+                  "/mx/recomendador-de-tarjetas-de-credito-p3",
+                  "/mx/campana-quiz",
                 ],
               },
               offerwall: {
@@ -61,10 +61,10 @@ export default function TopAds() {
                 websiteName: "TopFinanzas MX",
                 cooldown: "12",
                 exclude: [
-                  "/",
-                  "/recomendador-de-tarjetas-de-credito-p2",
-                  "/recomendador-de-tarjetas-de-credito-p3",
-                  "/campana-quiz",
+                  "/mx/",
+                  "/mx/recomendador-de-tarjetas-de-credito-p2",
+                  "/mx/recomendador-de-tarjetas-de-credito-p3",
+                  "/mx/campana-quiz",
                 ],
               },
             },

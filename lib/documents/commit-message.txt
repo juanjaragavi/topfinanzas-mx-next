@@ -1,8 +1,4 @@
-fix: Resolve static asset 404 errors with basePath configuration
+fix: Update TopAds excluded paths with /mx basePath
 
-- Update favicon and apple-touch-icon references to use CDN URLs
-- Fix manifest path to include /mx basePath explicitly
-- Update webmanifest files from UK to México branding
-- Add vercel.json for root-level static file redirects in production
-- Update middleware hreflang from en-gb to es-mx for MX market
-- Simplify next.config.mjs by removing redundant rewrites
+- Prefix all exclude paths in TopAds configuration with /mx
+- Ensure proper ad exclusion on specific pages with the new basePath
