@@ -83,7 +83,7 @@ export async function POST(req: Request) {
     const sheets = google.sheets({ version: "v4", auth });
 
     const spreadsheetId = process.env.GOOGLE_SHEET_ID;
-    const sheetName = "uk-topfinanzas-com";
+    const sheetName = "mx-topfinanzas-com";
 
     // Ensure the sheet exists, create it if it doesn't
     const spreadsheet = await sheets.spreadsheets.get({ spreadsheetId });
