@@ -1,17 +1,6 @@
-feat(soluciones-financieras): standardize ActionBanner configs across 49 requisitos pages
+feat(ads): Add homepage and quiz campaign exclusions to TopAds interstitial and offerwall formats
 
-- Enforce exactly 4 ActionBanner instances per Requirements page
-- Standardize all banner configurations with uniform hrefs, images, and alt texts:
-  * Banner 1: /finanzas-personales/tarjetas-de-credito-para-estudiantes + call-to-ACTION-1.jpg
-  * Banner 2: /soluciones-financieras/tarjetas-de-credito-sin-anualidad + call-to-ACTION-2.jpg
-  * Banner 3: /finanzas-personales/cat-en-tarjetas-de-credito + call-to-ACTION-3.jpg
-  * Banner 4: /soluciones-financieras/cual-es-el-mejor-prestamo-personal + call-to-ACTION-4.jpg
-- Add ActionBanner import and components to pages with 0 banners (yotepresto, hey-banco)
-- Add missing banners to pages with 3 banners (vexi-carnet, crecy, hsbc-viva, tigres-afirme)
-- Remove duplicate banners from pages with 5 banners (simplicity-citibanamex)
-- Update alt texts to standardized Spanish messaging
-- Replace inline Image/Link CTAs with proper ActionBanner components
-
-Total: 196 ActionBanners (49 pages × 4 banners) - Build verified successful
-
-This ensures proper conversion funnel completion for all financial product pages.
+- Exclude homepage (/) from interstitial ads to improve UX
+- Exclude homepage (/) from offerwall ads
+- Exclude /campana-quiz from both interstitial and offerwall formats
+- Ensures critical landing and conversion pages are ad-free

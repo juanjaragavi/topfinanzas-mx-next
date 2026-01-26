@@ -49,7 +49,11 @@ export default function TopAds() {
             formats: {
               interstitial: {
                 status: "active",
-                exclude: ["/recomendador-de-tarjetas-de-credito-p3"],
+                exclude: [
+                  "/",
+                  "/recomendador-de-tarjetas-de-credito-p3",
+                  "/campana-quiz",
+                ],
               },
               offerwall: {
                 status: "active",
@@ -57,8 +61,10 @@ export default function TopAds() {
                 websiteName: "TopFinanzas MX",
                 cooldown: "12",
                 exclude: [
+                  "/",
                   "/recomendador-de-tarjetas-de-credito-p2",
                   "/recomendador-de-tarjetas-de-credito-p3",
+                  "/campana-quiz",
                 ],
               },
             },
