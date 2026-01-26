@@ -132,12 +132,13 @@ export const metadata: Metadata = {
     images: [`https://media.topfinanzas.com/images/placeholder-image.webp`], // Using the provided image URL
   },
 
-  // Use simplified favicon configuration
+  // Use CDN URLs for icons to avoid basePath issues
   icons: {
-    icon: "/favicon.png",
-    apple: "/apple-touch-icon.png",
+    icon: "https://media.topfinanzas.com/images/favicon.png",
+    apple: "https://media.topfinanzas.com/images/favicon.png",
   },
-  manifest: "/site.webmanifest", // Use relative path for local manifest
+  // Explicitly include basePath since Next.js metadata doesn't auto-prepend it
+  manifest: "/mx/api/webmanifest",
 
   // Optional: Define metadataBase for resolving relative image URLs
   metadataBase: new URL(baseUrl),
@@ -216,27 +217,23 @@ export default function RootLayout({
 
         <ResourceHints />
 
-        {/* Explicit favicon and manifest links with proper MIME types */}
-        <link rel="icon" href="/favicon.png" type="image/png" />
-        <link rel="icon" href="/favicon.ico" type="image/x-icon" />
+        {/* Use CDN URLs for icons to avoid basePath issues */}
         <link
-          rel="apple-touch-icon"
-          href="/apple-touch-icon.png"
+          rel="icon"
+          href="https://media.topfinanzas.com/images/favicon.png"
           type="image/png"
         />
         <link
-          rel="manifest"
-          href="/site.webmanifest"
-          type="application/manifest+json"
-          crossOrigin="anonymous"
+          rel="icon"
+          href="https://media.topfinanzas.com/images/favicon.png"
+          type="image/x-icon"
         />
-
-        {/* Fallback api routes for browsers that might have issues with static files */}
         <link
-          rel="alternate"
-          href="/api/webmanifest"
-          type="application/manifest+json"
+          rel="apple-touch-icon"
+          href="https://media.topfinanzas.com/images/favicon.png"
+          type="image/png"
         />
+        {/* Manifest is served via metadata.manifest using API route */}
       </head>
       <body className={`${poppins.variable} font-sans text-left sm:text-left`}>
         <GoogleTagManagerNoScript />

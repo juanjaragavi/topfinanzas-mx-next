@@ -5,8 +5,8 @@ import {
 } from "@/lib/navigation/recommender-lock";
 
 const QUIZ_PATHS = ["/quiz", "/quiz-2"];
-const SITE_BASE_URL = "https://uk.topfinanzas.com";
-const SUPPORTED_HREFLANGS = ["en-gb", "en"];
+const SITE_BASE_URL = "https://topfinanzas.com/mx";
+const SUPPORTED_HREFLANGS = ["es-mx", "es"];
 
 function isRestrictedQuizPath(pathname: string): boolean {
   return QUIZ_PATHS.some(
@@ -30,7 +30,6 @@ function buildHreflangHeader(pathname: string): string {
 }
 
 export function middleware(request: NextRequest) {
-  // Check if the request is for a static file
   const { pathname } = request.nextUrl;
 
   // Allow static files to pass through without any processing
@@ -69,7 +68,9 @@ export function middleware(request: NextRequest) {
 }
 
 export const config = {
-  // Apply middleware to all routes, but exclude static resources
+  // Apply middleware to routes within basePath, excluding static resources
+  // Note: Root-level static file requests (/favicon.png, etc.) are handled
+  // by vercel.json redirects in production
   matcher: [
     "/((?!api|_next/static|_next/image|favicon.ico|favicon.png|apple-touch-icon.png|site.webmanifest).*)",
   ],

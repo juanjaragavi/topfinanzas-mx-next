@@ -1,8 +1,8 @@
-fix(api): resolve Google Sheets integration issues and add test script
+fix: Resolve static asset 404 errors with basePath configuration
 
-- Fix GOOGLE_SHEET_ID mismatch between .env and .env.local files
-- Expand sheets API schema from 6 to 19 columns (A-S) to include all UTM and tracking fields
-- Add enhanced logging and debug info for append operations
-- Add verification of successful row writes
-- Create comprehensive Python test script (scripts/test_sheets_api.py) for API validation
-- Fix URL path to include /mx base path prefix
+- Update favicon and apple-touch-icon references to use CDN URLs
+- Fix manifest path to include /mx basePath explicitly
+- Update webmanifest files from UK to México branding
+- Add vercel.json for root-level static file redirects in production
+- Update middleware hreflang from en-gb to es-mx for MX market
+- Simplify next.config.mjs by removing redundant rewrites

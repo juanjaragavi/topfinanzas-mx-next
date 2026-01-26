@@ -1,21 +1,22 @@
 {
-  "name": "TopFinanzas UK",
-  "short_name": "TopFinanzas",
-  "description": "Your guide to finance in the UK.",
-  "start_url": "/",
+  "name": "TopFinanzas México",
+  "short_name": "TopFinanzas MX",
+  "description": "Tu guía financiera en México. Consejos sobre tarjetas de crédito, préstamos y finanzas personales.",
+  "start_url": "/mx",
+  "scope": "/mx",
   "display": "standalone",
   "background_color": "#ffffff",
   "theme_color": "#2E74B5",
   "icons": [
     {
-      "src": "/images/optimized/favicon-640.webp",
+      "src": "https://media.topfinanzas.com/images/favicon.png",
       "sizes": "192x192",
-      "type": "image/webp"
+      "type": "image/png"
     },
     {
-      "src": "/images/favicon.webp",
+      "src": "https://media.topfinanzas.com/images/apple-touch-icon.png",
       "sizes": "512x512",
-      "type": "image/webp"
+      "type": "image/png"
     }
   ]
 }

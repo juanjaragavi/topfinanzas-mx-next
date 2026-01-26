@@ -17,15 +17,8 @@ const nextConfig = {
   // Asset prefix and base path for Vercel deployment
   assetPrefix: undefined,
   basePath: "/mx",
-  // Add rewrites for static files - using simpler approach
-  async rewrites() {
-    return [
-      {
-        source: "/favicon.png",
-        destination: "https://media.topfinanzas.com/images/favicon.png",
-      },
-    ];
-  },
+  // Note: Root-level static file requests (favicon, apple-touch-icon, etc.)
+  // are handled by middleware.ts which redirects to CDN
   // Add cache headers for static assets
   async headers() {
     return [
