@@ -144,7 +144,7 @@ export function Footer() {
 
         {/* Bottom Copyright */}
         <div className="text-left border-t border-white/20 pt-6">
-          <p className="footer-meta text-xs md:text-sm font-light">
+          <p className="footer-meta text-xs text-white md:text-sm font-light">
             <span className="font-normal">
               {footerContent.companyInfo.productLabel}
             </span>

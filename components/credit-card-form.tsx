@@ -496,7 +496,7 @@ export default function CreditCardForm() {
 
       {/* Footer */}
       <footer className="py-4 px-4 bg-[#2E74B5] text-white text-center flex-none">
-        <p className="text-xs">{commonStrings.copyright}</p>
+        <p className="text-xs text-white">{commonStrings.copyright}</p>
       </footer>
     </div>
   );

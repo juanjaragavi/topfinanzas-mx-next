@@ -25,7 +25,7 @@ export const BRAND_STATIC_FIELDS_LOWER = {
 } as const;
 
 export const commonStrings = {
-  copyright: "© Top Networks Inc. 2024",
+  copyright: "© Top Networks Inc. 2025",
   important: {
     prefix: "Importante:",
     emailVerification:

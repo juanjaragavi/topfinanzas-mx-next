@@ -22,7 +22,8 @@ export default function NotFound() {
         </h1>
 
         <p className="text-gray-600 text-lg mb-8 max-w-md mx-auto leading-relaxed">
-          Lo sentimos, la página que estás buscando no existe, ha sido movida o ya no está disponible.
+          Lo sentimos, la página que estás buscando no existe, ha sido movida o
+          ya no está disponible.
         </p>
 
         <div className="space-y-4">
