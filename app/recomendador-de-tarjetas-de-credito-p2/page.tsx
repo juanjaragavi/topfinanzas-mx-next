@@ -185,7 +185,7 @@ function CreditCardRecommenderContent() {
                 </p>
 
                 <Link
-                  href="/soluciones-financieras/barclaycard-avios-plus"
+                  href="/soluciones-financieras/tarjeta-de-credito-nubank-vcorta"
                   className="block w-full max-w-md mx-auto"
                 >
                   <Button className="w-full bg-[#DB2A2A] hover:bg-[#B71C1C] text-white font-bold text-xl py-6 rounded-sm shadow-md uppercase tracking-wide">
