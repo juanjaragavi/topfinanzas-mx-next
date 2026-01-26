@@ -101,26 +101,15 @@ export async function POST(req: Request) {
     }
 
     const headers = [
-      "Timestamp",
-      "Preference",
-      "Income",
+      "Nombre",
+      "Apellido",
       "Email",
-      "First Name",
-      "Pais",
-      "Marca",
-      "Source",
-      "Medium",
-      "Campaign",
-      "Term",
-      "Content",
-      "UTM Source",
-      "UTM Medium",
-      "UTM Campaign",
-      "UTM Term",
-      "UTM Content",
+      "Telefono",
+      "Fecha Registro",
+      "Hora Registro",
     ];
 
-    const sheetRange = `${sheetName}!A:Q`;
+    const sheetRange = `${sheetName}!A:F`;
     const existingValuesResponse = await sheets.spreadsheets.values.get({
       spreadsheetId,
       range: sheetRange,
@@ -148,42 +137,30 @@ export async function POST(req: Request) {
       typeof headerCell === "string" &&
       headerCell.trim().toLowerCase() === "email";
 
-    const preferenceValue = pickString(body.preferenceText, body.preference);
-    const incomeValue = pickString(body.incomeText, body.income);
-    const paisValue = pickString(
-      body.Pais,
-      body.pais,
-      BRAND_STATIC_FIELDS.Pais,
-    );
-    const marcaValue = pickString(
-      body.Marca,
-      body.marca,
-      BRAND_STATIC_FIELDS.Marca,
-    );
-    const sourceValue = pickString(body.source, body.utm_source);
-    const mediumValue = pickString(body.medium, body.utm_medium);
-    const campaignValue = pickString(body.campaign, body.utm_campaign);
-    const termValue = pickString(body.term, body.utm_term);
-    const contentValue = pickString(body.content, body.utm_content);
+    const now = new Date();
+    // Format Date: DD/MM/YYYY
+    const fechaRegistro = now.toLocaleDateString("es-MX", {
+      day: "2-digit",
+      month: "2-digit",
+      year: "numeric",
+      timeZone: "America/Mexico_City",
+    });
+    // Format Time: HH:mm:ss
+    const horaRegistro = now.toLocaleTimeString("es-MX", {
+      hour: "2-digit",
+      minute: "2-digit",
+      second: "2-digit",
+      hour12: false,
+      timeZone: "America/Mexico_City",
+    });
 
     const rowValues = [
-      new Date().toISOString(),
-      preferenceValue,
-      incomeValue,
-      body.email ?? "",
       body.firstName ?? "",
-      paisValue,
-      marcaValue,
-      sourceValue,
-      mediumValue,
-      campaignValue,
-      termValue,
-      contentValue,
-      body.utm_source ?? sourceValue,
-      body.utm_medium ?? mediumValue,
-      body.utm_campaign ?? campaignValue,
-      body.utm_term ?? termValue,
-      body.utm_content ?? contentValue,
+      body.lastName ?? "",
+      body.email ?? "",
+      body.phone ?? "",
+      fechaRegistro,
+      horaRegistro,
     ];
 
     const dataStartIndex = sheetHasHeader ? 1 : 0;
