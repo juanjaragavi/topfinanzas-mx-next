@@ -105,11 +105,24 @@ export async function POST(req: Request) {
       "Apellido",
       "Email",
       "Telefono",
-      "Fecha Registro",
-      "Hora Registro",
+      "Timestamp",
+      "Preference",
+      "Income",
+      "Pais",
+      "Marca",
+      "Source",
+      "Medium",
+      "Campaign",
+      "Term",
+      "Content",
+      "UTM Source",
+      "UTM Medium",
+      "UTM Campaign",
+      "UTM Term",
+      "UTM Content",
     ];
 
-    const sheetRange = `${sheetName}!A:F`;
+    const sheetRange = `${sheetName}!A:S`;
     const existingValuesResponse = await sheets.spreadsheets.values.get({
       spreadsheetId,
       range: sheetRange,
@@ -159,8 +172,21 @@ export async function POST(req: Request) {
       body.lastName ?? "",
       body.email ?? "",
       body.phone ?? "",
-      fechaRegistro,
-      horaRegistro,
+      `${fechaRegistro} ${horaRegistro}`,
+      body.preferenceText ?? body.preference ?? "",
+      body.incomeText ?? body.income ?? "",
+      body.Pais ?? body.pais ?? "",
+      body.Marca ?? body.marca ?? "",
+      body.source ?? "",
+      body.medium ?? "",
+      body.campaign ?? "",
+      body.term ?? "",
+      body.content ?? "",
+      body.utm_source ?? "",
+      body.utm_medium ?? "",
+      body.utm_campaign ?? "",
+      body.utm_term ?? "",
+      body.utm_content ?? "",
     ];
 
     const dataStartIndex = sheetHasHeader ? 1 : 0;
@@ -187,7 +213,16 @@ export async function POST(req: Request) {
       );
     }
 
-    await sheets.spreadsheets.values.append({
+    // Log the row values before appending
+    apiLogger.debug("Appending row to sheet", {
+      spreadsheetId,
+      sheetName,
+      rowValuesLength: rowValues.length,
+      email: emailInput,
+      firstName: body.firstName,
+    });
+
+    const appendResult = await sheets.spreadsheets.values.append({
       spreadsheetId,
       range: sheetName,
       valueInputOption: "USER_ENTERED",
@@ -197,10 +232,31 @@ export async function POST(req: Request) {
       },
     });
 
+    // Log the result of the append operation
+    apiLogger.debug("Append operation completed", {
+      updatedRange: appendResult.data.updates?.updatedRange,
+      updatedRows: appendResult.data.updates?.updatedRows,
+      updatedCells: appendResult.data.updates?.updatedCells,
+    });
+
+    // Verify the append was successful
+    if (
+      !appendResult.data.updates?.updatedRows ||
+      appendResult.data.updates.updatedRows === 0
+    ) {
+      apiLogger.warn("Append returned 0 updated rows", {
+        appendResult: JSON.stringify(appendResult.data),
+      });
+    }
+
     return NextResponse.json(
       {
         message: "Registration created",
         action: "created",
+        debug: {
+          updatedRange: appendResult.data.updates?.updatedRange,
+          updatedRows: appendResult.data.updates?.updatedRows,
+        },
       },
       { status: 201 },
     );

@@ -1,6 +1,8 @@
-feat(ads): Add homepage and quiz campaign exclusions to TopAds interstitial and offerwall formats
+fix(api): resolve Google Sheets integration issues and add test script
 
-- Exclude homepage (/) from interstitial ads to improve UX
-- Exclude homepage (/) from offerwall ads
-- Exclude /campana-quiz from both interstitial and offerwall formats
-- Ensures critical landing and conversion pages are ad-free
+- Fix GOOGLE_SHEET_ID mismatch between .env and .env.local files
+- Expand sheets API schema from 6 to 19 columns (A-S) to include all UTM and tracking fields
+- Add enhanced logging and debug info for append operations
+- Add verification of successful row writes
+- Create comprehensive Python test script (scripts/test_sheets_api.py) for API validation
+- Fix URL path to include /mx base path prefix
