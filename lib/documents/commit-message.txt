@@ -1,1 +1,1 @@
-chore(ads): Update publisher ID in ads.txt files
+fix: exclude root path '/' from TopAds configuration to prevent ad display on homepage

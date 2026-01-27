@@ -37,6 +37,7 @@ export default function TopAds() {
             lazyLoad: "soft",
             pageSetting: {
               exclude: [
+                "/",
                 "/mx/",
                 "/mx/terminos-y-condiciones-de-uso",
                 "/mx/politica-privacidad",
@@ -50,6 +51,7 @@ export default function TopAds() {
               interstitial: {
                 status: "active",
                 exclude: [
+                  "/",
                   "/mx/",
                   "/mx/recomendador-de-tarjetas-de-credito-p3",
                   "/mx/campana-quiz",
@@ -61,6 +63,7 @@ export default function TopAds() {
                 websiteName: "TopFinanzas MX",
                 cooldown: "12",
                 exclude: [
+                  "/",
                   "/mx/",
                   "/mx/recomendador-de-tarjetas-de-credito-p2",
                   "/mx/recomendador-de-tarjetas-de-credito-p3",
