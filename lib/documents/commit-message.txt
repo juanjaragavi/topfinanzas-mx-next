@@ -1,4 +1,1 @@
-fix: Update TopAds excluded paths with /mx basePath
-
-- Prefix all exclude paths in TopAds configuration with /mx
-- Ensure proper ad exclusion on specific pages with the new basePath
+chore(ads): Update publisher ID in ads.txt files
