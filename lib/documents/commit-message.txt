@@ -1,1 +1,9 @@
-fix: exclude root path '/' from TopAds configuration to prevent ad display on homepage
+refactor: optimize requirements pages and implement quiz-short variant
+
+- Remove 'Volver al análisis' navigation links from 42+ requirements pages to optimize ad placement
+- Decouple CTA routing on recommender pages (p1, p3) for unique product destinations  
+- Implement simplified quiz variant at /campana-quiz-short with 2-field form (name, email only)
+- Create dedicated API route /api/sheets/short targeting 'short-version' Google Sheets tab
+- Fix 50+ syntax errors from orphaned Link/div tags in requirements pages
+- Resolve all ESLint warnings by removing unused imports (ArrowLeft, BRAND_STATIC_FIELDS, pickString)
+- Ensure production build compiles successfully with zero errors

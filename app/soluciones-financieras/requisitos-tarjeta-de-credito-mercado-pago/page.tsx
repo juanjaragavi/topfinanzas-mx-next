@@ -59,15 +59,6 @@ export default function RequisitosTarjetaMercadoPagoPage() {
               Requisitos para solicitar la tarjeta Mercado Pago
             </h1>
 
-            <div className="mt-8 mb-8">
-              <Link
-                href="/soluciones-financieras/tarjeta-de-credito-mercado-pago"
-                className="text-sky-600 hover:underline"
-              >
-                Volver al análisis de Tarjeta Mercado Pago
-              </Link>
-            </div>
-
             {/* Ad Unit: square03 */}
             <div
               id="square03"

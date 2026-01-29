@@ -352,15 +352,6 @@ export default function RequisitosTalaPage() {
               </Link>
             </div>
 
-            <div className="mt-8 mb-8">
-              <Link
-                href="/soluciones-financieras/prestamos-tala"
-                className="text-cyan-500 hover:underline"
-              >
-                Volver al análisis de Préstamos Tala
-              </Link>
-            </div>
-
             <AIContentDisclaimer />
           </div>
         </div>

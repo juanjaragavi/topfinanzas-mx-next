@@ -441,15 +441,6 @@ export default function RequisitosTarjetaHSBCAirPage() {
               </Link>
             </div>
 
-            <div className="mt-8 mb-8">
-              <Link
-                href="/soluciones-financieras/tarjeta-hsbc-air"
-                className="text-red-600 hover:underline"
-              >
-                Volver al análisis de Tarjeta HSBC Air
-              </Link>
-            </div>
-
             <AIContentDisclaimer />
           </div>
         </div>

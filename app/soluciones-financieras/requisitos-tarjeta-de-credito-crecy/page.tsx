@@ -60,15 +60,6 @@ export default function RequisitosTarjetaCrecyPage() {
               Requisitos para solicitar la tarjeta de crédito Crecy
             </h1>
 
-            <div className="mt-8 mb-8">
-              <Link
-                href="/soluciones-financieras/tarjeta-de-credito-crecy"
-                className="text-purple-900 hover:underline"
-              >
-                Volver al análisis de Tarjeta de Crédito Crecy
-              </Link>
-            </div>
-
             <div
               id="square03"
               data-topads

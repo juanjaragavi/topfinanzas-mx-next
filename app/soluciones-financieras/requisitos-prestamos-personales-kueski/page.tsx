@@ -335,15 +335,6 @@ export default function RequisitosPrestamosKueskiPage() {
               </button>
             </Link>
 
-            <div className="mt-8 mb-8">
-              <Link
-                href="/soluciones-financieras/kueski-prestamos"
-                className="text-blue-600 hover:underline"
-              >
-                Volver al análisis de Préstamos Kueski
-              </Link>
-            </div>
-
             <AIContentDisclaimer />
           </div>
         </div>

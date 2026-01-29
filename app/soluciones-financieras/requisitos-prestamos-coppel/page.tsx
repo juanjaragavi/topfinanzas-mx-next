@@ -308,15 +308,6 @@ export default function RequisitosPrestamosCoppelPage() {
               </Link>
             </div>
 
-            <div className="mt-8 mb-8">
-              <Link
-                href="/soluciones-financieras/prestamos-coppel"
-                className="text-sky-700 hover:underline"
-              >
-                Volver al análisis de Préstamos Coppel
-              </Link>
-            </div>
-
             <AIContentDisclaimer />
           </div>
         </div>

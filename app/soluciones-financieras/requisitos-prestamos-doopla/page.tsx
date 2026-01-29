@@ -340,15 +340,6 @@ export default function RequisitosPrestamosDooplaPage() {
               </Link>
             </div>
 
-            <div className="mt-8 mb-8">
-              <Link
-                href="/soluciones-financieras/prestamos-doopla"
-                className="text-violet-600 hover:underline"
-              >
-                Volver al análisis de Préstamos Doopla
-              </Link>
-            </div>
-
             <AIContentDisclaimer />
           </div>
         </div>

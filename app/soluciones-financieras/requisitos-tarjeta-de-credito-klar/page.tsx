@@ -59,15 +59,6 @@ export default function RequisitosTarjetaKlarPage() {
               Requisitos de la tarjeta de Crédito Klar
             </h1>
 
-            <div className="mt-8 mb-8">
-              <Link
-                href="/soluciones-financieras/tarjeta-de-credito-klar"
-                className="text-amber-900 hover:underline"
-              >
-                Volver al análisis de Tarjeta Klar
-              </Link>
-            </div>
-
             {/* Ad Unit: square03 */}
             <div
               id="square03"

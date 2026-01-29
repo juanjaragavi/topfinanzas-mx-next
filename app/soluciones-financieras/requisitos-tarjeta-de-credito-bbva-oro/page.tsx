@@ -60,15 +60,6 @@ export default function RequisitosTarjetaBBVAOroPage() {
               Requisitos para solicitar la tarjeta de crédito BBVA Oro
             </h1>
 
-            <div className="mt-8 mb-8">
-              <Link
-                href="/soluciones-financieras/analisis-tarjeta-de-credito-bbva-oro"
-                className="text-blue-600 hover:underline"
-              >
-                Volver al análisis de Tarjeta BBVA Oro
-              </Link>
-            </div>
-
             <div
               id="square03"
               data-topads

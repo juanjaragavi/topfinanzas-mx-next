@@ -406,15 +406,6 @@ export default function RequisitosPrestamosDigittPage() {
               </Link>
             </div>
 
-            <div className="mt-8 mb-8">
-              <Link
-                href="/soluciones-financieras/prestamos-digit"
-                className="text-cyan-950 hover:underline"
-              >
-                Volver al análisis de Préstamos Digitt
-              </Link>
-            </div>
-
             <AIContentDisclaimer />
           </div>
         </div>

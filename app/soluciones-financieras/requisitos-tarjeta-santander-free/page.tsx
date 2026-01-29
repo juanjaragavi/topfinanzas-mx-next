@@ -453,15 +453,6 @@ export default function RequisitosTarjetaSantanderFreePage() {
               </button>
             </Link>
 
-            <div className="mt-8 mb-8">
-              <Link
-                href="/soluciones-financieras/tarjeta-santander-free"
-                className="text-red-600 hover:underline"
-              >
-                Volver al análisis de Tarjeta Santander Free
-              </Link>
-            </div>
-
             <AIContentDisclaimer />
           </div>
         </div>

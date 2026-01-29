@@ -59,15 +59,6 @@ export default function RequisitosRappiCardPage() {
               Requisitos para solicitar la RappiCard
             </h1>
 
-            <div className="mt-8 mb-8">
-              <Link
-                href="/soluciones-financieras/rappicard"
-                className="text-gray-900 hover:underline"
-              >
-                Volver al análisis de RappiCard
-              </Link>
-            </div>
-
             <div
               id="square03"
               data-topads

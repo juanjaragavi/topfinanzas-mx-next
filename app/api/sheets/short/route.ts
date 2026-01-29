@@ -7,7 +7,7 @@ export async function POST(req: Request) {
   const body = await req.json();
 
   // Enhanced logging for production debugging
-  apiLogger.debug("Sheets API request received", {
+  apiLogger.debug("Sheets API (short-version) request received", {
     hasEmail: !!body.email,
     hasFirstName: !!body.firstName,
     hasPreferenceText: !!body.preferenceText,
@@ -15,22 +15,7 @@ export async function POST(req: Request) {
     hasUTMSource: !!body.utm_source,
     hasUTMMedium: !!body.utm_medium,
     hasUTMCampaign: !!body.utm_campaign,
-    hasUTMTerm: !!body.utm_term,
-    hasUTMContent: !!body.utm_content,
-    hasSource: !!body.source,
-    hasMedium: !!body.medium,
-    hasCampaign: !!body.campaign,
-    hasTerm: !!body.term,
-    hasContent: !!body.content,
-    hasPais: !!(body.Pais || body.pais),
-    hasMarca: !!(body.Marca || body.marca),
     bodyKeys: Object.keys(body),
-    bodySize: JSON.stringify(body).length,
-    utmValues: {
-      source: body.utm_source,
-      medium: body.utm_medium,
-      campaign: body.utm_campaign,
-    },
   });
 
   try {
@@ -47,15 +32,6 @@ export async function POST(req: Request) {
       );
     }
 
-    // Environment check logging
-    apiLogger.debug("Environment check", {
-      hasServiceEmail: !!process.env.GOOGLE_SERVICE_ACCOUNT_EMAIL,
-      hasPrivateKey: !!process.env.GOOGLE_PRIVATE_KEY,
-      hasSheetId: !!process.env.GOOGLE_SHEET_ID,
-      privateKeyLength: process.env.GOOGLE_PRIVATE_KEY?.length,
-      privateKeyStartsWith: process.env.GOOGLE_PRIVATE_KEY?.substring(0, 30),
-    });
-
     const auth = new google.auth.GoogleAuth({
       credentials: {
         client_email: process.env.GOOGLE_SERVICE_ACCOUNT_EMAIL,
@@ -69,7 +45,7 @@ export async function POST(req: Request) {
     const sheets = google.sheets({ version: "v4", auth });
 
     const spreadsheetId = process.env.GOOGLE_SHEET_ID;
-    const sheetName = "mx-topfinanzas-com";
+    const sheetName = "short-version";
 
     // Ensure the sheet exists, create it if it doesn't
     const spreadsheet = await sheets.spreadsheets.get({ spreadsheetId });
@@ -84,13 +60,13 @@ export async function POST(req: Request) {
           requests: [{ addSheet: { properties: { title: sheetName } } }],
         },
       });
+      apiLogger.info(`Created new sheet: ${sheetName}`);
     }
 
+    // Simplified headers for short version - only Name and Email plus metadata
     const headers = [
       "Nombre",
-      "Apellido",
       "Email",
-      "Telefono",
       "Timestamp",
       "Preference",
       "Income",
@@ -108,7 +84,7 @@ export async function POST(req: Request) {
       "UTM Content",
     ];
 
-    const sheetRange = `${sheetName}!A:S`;
+    const sheetRange = `${sheetName}!A:Q`;
     const existingValuesResponse = await sheets.spreadsheets.values.get({
       spreadsheetId,
       range: sheetRange,
@@ -153,11 +129,10 @@ export async function POST(req: Request) {
       timeZone: "America/Mexico_City",
     });
 
+    // Simplified row values - only Name, Email, and metadata
     const rowValues = [
       body.firstName ?? "",
-      body.lastName ?? "",
       body.email ?? "",
-      body.phone ?? "",
       `${fechaRegistro} ${horaRegistro}`,
       body.preferenceText ?? body.preference ?? "",
       body.incomeText ?? body.income ?? "",
@@ -200,7 +175,7 @@ export async function POST(req: Request) {
     }
 
     // Log the row values before appending
-    apiLogger.debug("Appending row to sheet", {
+    apiLogger.debug("Appending row to short-version sheet", {
       spreadsheetId,
       sheetName,
       rowValuesLength: rowValues.length,
@@ -237,7 +212,7 @@ export async function POST(req: Request) {
 
     return NextResponse.json(
       {
-        message: "Registration created",
+        message: "Registration created in short-version",
         action: "created",
         debug: {
           updatedRange: appendResult.data.updates?.updatedRange,
@@ -248,7 +223,7 @@ export async function POST(req: Request) {
     );
   } catch (error) {
     // Enhanced error logging
-    apiLogger.error("Sheets API error occurred", error, {
+    apiLogger.error("Sheets API (short-version) error occurred", error, {
       hasUTMParams: !!(body.utm_source || body.utm_medium || body.utm_campaign),
       requestBodySize: JSON.stringify(body).length,
       requestFields: Object.keys(body),

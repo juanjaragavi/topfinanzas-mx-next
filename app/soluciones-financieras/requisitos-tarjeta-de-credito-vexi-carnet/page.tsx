@@ -3,7 +3,6 @@ import { CompactFooter } from "@/components/layout/compact-footer";
 import { AIContentDisclaimer } from "@/components/ui/ai-content-disclaimer";
 import { ActionBanner } from "@/components/ui/action-banner";
 import { RelatedPosts } from "@/components/blog/related-posts";
-import { ArrowLeft } from "lucide-react";
 import Image from "next/image";
 import Link from "next/link";
 import { Metadata } from "next";
@@ -59,16 +58,6 @@ export default function RequisitosTarjetaVexiCarnetPage() {
             <h1 className="text-4xl md:text-4xl font-bold text-gray-700 mb-6 leading-8">
               Requisitos de la tarjeta de crédito Vexi Carnet
             </h1>
-
-            <div className="mt-8 mb-8">
-              <Link
-                href="/soluciones-financieras/tarjeta-de-credito-vexi-carnet"
-                className="inline-flex items-center text-[#D9247E] hover:text-[#be185d] transition-colors font-semibold"
-              >
-                <ArrowLeft className="mr-2 h-4 w-4" />
-                Volver al análisis de la Tarjeta Vexi Carnet
-              </Link>
-            </div>
 
             <div
               id="square03"

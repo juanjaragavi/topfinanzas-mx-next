@@ -367,15 +367,6 @@ export default function RequisitosKuboPage() {
               </Link>
             </div>
 
-            <div className="mt-8 mb-8">
-              <Link
-                href="/soluciones-financieras/prestamos-de-kubo-financiero"
-                className="text-green-600 hover:underline"
-              >
-                Volver al análisis de Préstamos Kubo Financiero
-              </Link>
-            </div>
-
             <AIContentDisclaimer />
           </div>
         </div>

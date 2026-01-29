@@ -325,15 +325,6 @@ export default function RequisitosLaTasaPage() {
               </Link>
             </div>
 
-            <div className="mt-8 mb-8">
-              <Link
-                href="/soluciones-financieras/prestamos-la-tasa"
-                className="text-orange-400 hover:underline"
-              >
-                Volver al análisis de Préstamos La Tasa
-              </Link>
-            </div>
-
             <AIContentDisclaimer />
           </div>
         </div>

@@ -389,15 +389,6 @@ export default function RequisitosPrestamosDidiPage() {
                 Ver en sitio oficial
               </Link>
             </div>
-
-            <div className="mt-8 mb-8">
-              <Link
-                href="/soluciones-financieras/didi-prestamos"
-                className="text-orange-600 hover:underline"
-              >
-                Volver al análisis de Préstamos DiDi
-              </Link>
-            </div>
           </div>
         </div>
       </article>

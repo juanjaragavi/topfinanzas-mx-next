@@ -390,15 +390,6 @@ export default function RequisitosAeromexicoSantanderPage() {
               </Link>
             </div>
 
-            <div className="mt-8 mb-8">
-              <Link
-                href="/soluciones-financieras/tarjeta-de-credito-aeromexico-santander"
-                className="text-red-600 hover:underline"
-              >
-                Volver al análisis de Tarjetas Aeroméxico Santander
-              </Link>
-            </div>
-
             <AIContentDisclaimer />
           </div>
         </div>

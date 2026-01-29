@@ -341,15 +341,6 @@ export default function RequisitosPrestamosVivusPage() {
               </Link>
             </div>
 
-            <div className="mt-8 mb-8">
-              <Link
-                href="/soluciones-financieras/prestamos-vivus-mexico"
-                className="text-indigo-600 hover:underline"
-              >
-                Volver al análisis de Préstamos Vivus México
-              </Link>
-            </div>
-
             <AIContentDisclaimer />
           </div>
         </div>

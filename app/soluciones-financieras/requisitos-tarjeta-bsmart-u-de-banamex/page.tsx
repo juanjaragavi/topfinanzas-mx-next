@@ -59,15 +59,6 @@ export default function RequisitosTarjetaBsmartUBanamexPage() {
               Requisitos para solicitar la tarjeta Bsmart U de Banamex
             </h1>
 
-            <div className="mt-8 mb-8">
-              <Link
-                href="/soluciones-financieras/tarjeta-bsmart-u-de-banamex"
-                className="text-sky-600 hover:underline"
-              >
-                Volver al análisis de Tarjeta Bsmart U
-              </Link>
-            </div>
-
             <div
               id="square03"
               data-topads

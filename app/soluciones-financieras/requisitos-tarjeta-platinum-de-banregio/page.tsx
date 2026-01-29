@@ -477,15 +477,6 @@ export default function RequisitosTarjetaPlatinumBanregioPage() {
               </Link>
             </div>
 
-            <div className="mt-8 mb-8">
-              <Link
-                href="/soluciones-financieras/banregio-platinum-analisis"
-                className="text-blue-600 hover:underline"
-              >
-                Volver al análisis de Tarjeta Platinum Banregio
-              </Link>
-            </div>
-
             <AIContentDisclaimer />
           </div>
         </div>

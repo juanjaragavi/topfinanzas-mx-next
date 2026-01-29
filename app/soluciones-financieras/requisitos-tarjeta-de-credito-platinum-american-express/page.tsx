@@ -61,15 +61,6 @@ export default function RequisitosTarjetaPlatinumAmexPage() {
               Express
             </h1>
 
-            <div className="mt-8 mb-8">
-              <Link
-                href="/soluciones-financieras/tarjeta-de-credito-platinum-american-express"
-                className="text-blue-600 hover:underline"
-              >
-                Volver al análisis de Tarjeta Platinum Amex
-              </Link>
-            </div>
-
             <div
               id="square03"
               data-topads

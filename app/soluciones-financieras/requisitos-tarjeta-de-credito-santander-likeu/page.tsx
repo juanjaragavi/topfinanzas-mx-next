@@ -60,15 +60,6 @@ export default function RequisitosTarjetaLikeUSantanderPage() {
               Requisitos de la tarjeta de crédito Santander LikeU
             </h1>
 
-            <div className="mt-8 mb-8">
-              <Link
-                href="/soluciones-financieras/tarjeta-de-credito-likeu-de-santander"
-                className="text-red-600 hover:underline"
-              >
-                Volver al análisis de Tarjeta LikeU Santander
-              </Link>
-            </div>
-
             <div
               id="square03"
               data-topads

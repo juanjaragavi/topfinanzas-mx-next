@@ -400,15 +400,6 @@ export default function RequisitosPrestamosAfluentaPage() {
               </Link>
             </div>
 
-            <div className="mt-8 mb-8">
-              <Link
-                href="/soluciones-financieras/prestamos-afluenta"
-                className="text-blue-950 hover:underline"
-              >
-                Volver al análisis de Préstamos Afluenta
-              </Link>
-            </div>
-
             <AIContentDisclaimer />
           </div>
         </div>

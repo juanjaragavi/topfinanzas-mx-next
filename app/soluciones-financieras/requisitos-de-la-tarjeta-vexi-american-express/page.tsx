@@ -59,15 +59,6 @@ export default function RequisitosTarjetaVexiAmexPage() {
               Requisitos para solicitar la tarjeta Vexi American Express
             </h1>
 
-            <div className="mt-8 mb-8">
-              <Link
-                href="/soluciones-financieras/tarjeta-vexi-american-express"
-                className="text-sky-500 hover:underline"
-              >
-                Volver al análisis de Tarjeta Vexi Amex
-              </Link>
-            </div>
-
             <div
               id="square03"
               data-topads

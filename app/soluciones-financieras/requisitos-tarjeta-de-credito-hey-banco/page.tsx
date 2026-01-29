@@ -59,15 +59,6 @@ export default function RequisitosTarjetaHeyBancoPage() {
               Requisitos de la tarjeta de crédito Hey Banco
             </h1>
 
-            <div className="mt-8 mb-8">
-              <Link
-                href="/soluciones-financieras/tarjeta-de-credito-hey-banco"
-                className="text-gray-900 hover:underline"
-              >
-                Volver al análisis de Tarjeta Hey Banco
-              </Link>
-            </div>
-
             <div
               id="square03"
               data-topads

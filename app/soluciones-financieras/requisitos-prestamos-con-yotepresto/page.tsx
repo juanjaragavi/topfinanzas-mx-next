@@ -311,15 +311,6 @@ export default function RequisitosPrestamosYoteprestoPage() {
                 Solicitar ahora
               </Link>
             </div>
-
-            <div className="mt-8 mb-8">
-              <Link
-                href="/soluciones-financieras/prestamos-yotepresto"
-                className="text-indigo-600 hover:underline"
-              >
-                Volver al análisis de Préstamos Yotepresto
-              </Link>
-            </div>
           </div>
         </div>
       </article>

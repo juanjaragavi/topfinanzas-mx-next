@@ -364,15 +364,6 @@ export default function RequisitosPrestamosFelizPage() {
               </Link>
             </div>
 
-            <div className="mt-8 mb-8">
-              <Link
-                href="/soluciones-financieras/prestamos-feliz"
-                className="text-blue-700 hover:underline"
-              >
-                Volver al análisis de Préstamos Feliz
-              </Link>
-            </div>
-
             <AIContentDisclaimer />
           </div>
         </div>

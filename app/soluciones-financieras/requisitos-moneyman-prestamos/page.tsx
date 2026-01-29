@@ -337,15 +337,6 @@ export default function RequisitosMoneymanPrestamosPage() {
               </Link>
             </div>
 
-            <div className="mt-8 mb-8">
-              <Link
-                href="/soluciones-financieras/moneyman-prestamos-guia"
-                className="text-lime-600 hover:underline"
-              >
-                Volver al análisis de Préstamos Moneyman
-              </Link>
-            </div>
-
             <AIContentDisclaimer />
           </div>
         </div>

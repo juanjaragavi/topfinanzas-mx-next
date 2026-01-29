@@ -60,15 +60,6 @@ export default function RequisitosGoldCardAmexAeromexicoPage() {
               Conoce los requisitos Gold Card American Express® Aeroméxico
             </h1>
 
-            <div className="mt-8 mb-8">
-              <Link
-                href="/soluciones-financieras/gold-card-american-express-aeromexico"
-                className="text-blue-600 hover:underline"
-              >
-                Volver al análisis de Gold Card Amex Aeroméxico
-              </Link>
-            </div>
-
             <div
               id="square03"
               data-topads

@@ -71,7 +71,7 @@ function CreditCardRecommenderPageContent() {
             </div>
 
             <div className="mt-8 mb-4">
-              <Link href="/soluciones-financieras/tarjeta-de-credito-azul-bbva">
+              <Link href="/soluciones-financieras/tarjeta-de-credito-hsbc-viva">
                 <Button className="bg-[#80E67D] hover:bg-[#70D66D] text-white font-bold text-base py-3 w-full rounded-full inline-flex items-center justify-center">
                   <div className="flex items-center space-x-2">
                     <span>Aceptar recomendación</span>
@@ -100,7 +100,7 @@ function CreditCardRecommenderPageContent() {
             </p>
 
             <div className="mt-8 mb-4">
-              <Link href="/soluciones-financieras/tarjeta-de-credito-azul-bbva">
+              <Link href="/soluciones-financieras/tarjeta-de-credito-klar">
                 <Button className="bg-[#80E67D] hover:bg-[#70D66D] text-white font-bold text-base py-3 w-full rounded-full inline-flex items-center justify-center">
                   <div className="flex items-center space-x-2">
                     <span>Nuestra mejor recomendación</span>
@@ -117,7 +117,7 @@ function CreditCardRecommenderPageContent() {
             <p className="text-center text-sm mb-12">
               <Link
                 className="text-[#2E74B5] font-medium"
-                href="/soluciones-financieras/requisitos-tarjeta-de-credito-azul-bbva"
+                href="/soluciones-financieras/requisitos-tarjeta-de-credito-hsbc-viva"
               >
                 Aprende cómo solicitarla
               </Link>

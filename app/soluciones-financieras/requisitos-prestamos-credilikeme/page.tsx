@@ -383,15 +383,6 @@ export default function RequisitosPrestamosCredilikemePage() {
               </Link>
             </div>
 
-            <div className="mt-8 mb-8">
-              <Link
-                href="/soluciones-financieras/prestamos-personales-credilikeme"
-                className="text-indigo-500 hover:underline"
-              >
-                Volver al análisis de Préstamos Personales Credilikeme
-              </Link>
-            </div>
-
             <AIContentDisclaimer />
           </div>
         </div>

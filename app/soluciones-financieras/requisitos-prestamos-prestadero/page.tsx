@@ -434,15 +434,6 @@ export default function RequisitosPrestamosPrestaderoPage() {
               </Link>
             </div>
 
-            <div className="mt-8 mb-8">
-              <Link
-                href="/soluciones-financieras/prestamos-prestadero"
-                className="text-lime-600 hover:underline"
-              >
-                Volver al análisis de Préstamos Prestadero
-              </Link>
-            </div>
-
             <AIContentDisclaimer />
           </div>
         </div>

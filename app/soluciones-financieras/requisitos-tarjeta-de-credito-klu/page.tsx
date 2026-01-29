@@ -60,15 +60,6 @@ export default function RequisitosTarjetaKluPage() {
               Requisitos para solicitar la tarjeta de crédito Klu
             </h1>
 
-            <div className="mt-8 mb-8">
-              <Link
-                href="/soluciones-financieras/tarjeta-de-credito-klu"
-                className="text-slate-500 hover:underline"
-              >
-                Volver al análisis de Tarjeta de Crédito Klu
-              </Link>
-            </div>
-
             {/* Ad Unit: square03 */}
             <div
               id="square03"
