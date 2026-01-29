@@ -45,6 +45,7 @@ export default function TopAds() {
                 "/mx/nosotros",
                 "/mx/contactanos",
                 "/mx/campana-quiz",
+                "/mx/campana-quiz-short",
               ],
             },
             formats: {
@@ -55,7 +56,7 @@ export default function TopAds() {
                   "/mx/",
                   "/mx/recomendador-de-tarjetas-de-credito-p3",
                   "/mx/campana-quiz",
-                ],
+                  "/mx/campana-quiz-short",
               },
               offerwall: {
                 status: "active",
@@ -68,6 +69,7 @@ export default function TopAds() {
                   "/mx/recomendador-de-tarjetas-de-credito-p2",
                   "/mx/recomendador-de-tarjetas-de-credito-p3",
                   "/mx/campana-quiz",
+                  "/mx/campana-quiz-short",
                 ],
               },
             },
