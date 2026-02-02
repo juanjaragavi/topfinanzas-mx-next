@@ -12,5 +12,5 @@ export const metadata: Metadata = {
 
 export default function AdministrarEnrutadorPage() {
   // Redirect to home page since this is an admin/internal route
-  redirect("/");
+  redirect("/mx");
 }

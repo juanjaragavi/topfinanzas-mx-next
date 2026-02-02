@@ -2,8 +2,9 @@ import { logger } from "@/lib/logger";
 export const RECOMMENDER_LOCK_COOKIE = "tf_recommender_lock";
 export const RECOMMENDER_LOCK_STORAGE_KEY = "tf_recommender_lock";
 export const RECOMMENDER_LOCK_MAX_AGE_SECONDS = 60 * 60 * 24 * 30; // 30 days
+// Updated pattern to account for /mx/ locale prefix
 const RECOMMENDER_PATH_PATTERN =
-  /^\/(?:credit-card-recommender|recomendador-de-tarjetas-de-credito)(?:-[a-z0-9-]+)?(?:\/.+)?$/i;
+  /^\/(?:mx\/)?(?:credit-card-recommender|recomendador-de-tarjetas-de-credito)(?:-[a-z0-9-]+)?(?:\/.+)?$/i;
 
 export interface RecommenderLockPayload {
   pathname: string;
@@ -193,7 +194,12 @@ export function readRecommenderLockFromClient(): RecommenderLockPayload | null {
 }
 
 export function buildRedirectPath(payload: RecommenderLockPayload): string {
-  return `${payload.pathname}${payload.search ?? ""}`;
+  // Ensure the path always includes the /mx/ locale prefix
+  let pathname = payload.pathname;
+  if (!pathname.startsWith("/mx/") && !pathname.startsWith("/mx")) {
+    pathname = `/mx${pathname}`;
+  }
+  return `${pathname}${payload.search ?? ""}`;
 }
 
 export function parseLockFromRequestCookie(

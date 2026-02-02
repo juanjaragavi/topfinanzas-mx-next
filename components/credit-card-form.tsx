@@ -332,7 +332,7 @@ export default function CreditCardForm() {
           ...BRAND_STATIC_FIELDS_LOWER,
         };
 
-        const sheetsResponse = await fetch("/api/sheets", {
+        const sheetsResponse = await fetch("/mx/api/sheets", {
           method: "POST",
           headers: {
             "Content-Type": "application/json",
@@ -365,7 +365,7 @@ export default function CreditCardForm() {
 
         if (!isRegisteredUser || formData.email) {
           try {
-            const subscribeResponse = await fetch("/api/subscribe", {
+            const subscribeResponse = await fetch("/mx/api/subscribe", {
               method: "POST",
               headers: {
                 "Content-Type": "application/json",

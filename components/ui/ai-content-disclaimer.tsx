@@ -23,7 +23,7 @@ export function AIContentDisclaimer() {
     const fetchAuthors = async () => {
       try {
         // Dynamically import the authors data to avoid bundling it with client components
-        const response = await fetch("/api/authors");
+        const response = await fetch("/mx/api/authors");
         const data = await response.json();
 
         if (data.authors && data.authors.length > 0) {

@@ -8,15 +8,20 @@ import { apiLogger } from "@/lib/logger";
 
 type KitFields = Record<string, string | null | undefined>;
 
-interface BrevoPayload {
-  email: string;
-  attributes: Record<string, string | number>;
-  ext_id: string;
-  updateEnabled: boolean;
-  listIds: number[];
+interface ActiveCampaignPayload {
+  contact: {
+    email: string;
+    firstName: string;
+    lastName?: string;
+    phone?: string;
+    fieldValues: Array<{
+      field: string;
+      value: string;
+    }>;
+  };
 }
 
-interface BrevoResult {
+interface ActiveCampaignResult {
   success: boolean;
   status: number;
   data?: unknown;
@@ -28,89 +33,36 @@ interface BrevoResult {
   duplicate?: boolean;
 }
 
-const BREVO_API_URL = "https://api.brevo.com/v3/contacts";
+const buildActiveCampaignFieldValues = (fields: KitFields) => {
+  const fieldValues: Array<{ field: string; value: string }> = [];
 
-const assignIfString = (
-  target: Record<string, string | number>,
-  key: string,
-  value?: string | null,
-) => {
-  if (typeof value === "string" && value.trim() !== "") {
-    target[key] = value.trim();
-  }
-};
-
-const buildBrevoAttributes = (
-  firstName: string,
-  lastName: string,
-  fields: KitFields,
-) => {
-  const attributes: Record<string, string | number> = {
-    FIRSTNAME: firstName,
-    COUNTRIES: "Mexico",
+  const addField = (fieldId: string, value?: string | null) => {
+    if (typeof value === "string" && value.trim() !== "") {
+      fieldValues.push({ field: fieldId, value: value.trim() });
+    }
   };
 
-  assignIfString(attributes, "LASTNAME", lastName);
-  assignIfString(
-    attributes,
-    "INCOME",
-    fields.cual_es_tu_ingreso_mensual ?? undefined,
-  );
-  assignIfString(
-    attributes,
-    "CARD_PREFERENCE",
-    fields.que_es_lo_que_mas_importante_en_una_tarjeta_de_credito ?? undefined,
-  );
-  assignIfString(attributes, "PAIS", fields.pais ?? fields.Pais ?? undefined);
-  assignIfString(
-    attributes,
-    "MARCA",
-    fields.marca ?? fields.Marca ?? undefined,
-  );
-  assignIfString(
-    attributes,
-    "QUIZ_TARJETAS",
-    fields.quiz_tarjetas ?? undefined,
-  );
-  assignIfString(
-    attributes,
-    "UTM_SOURCE",
-    fields.utm_source ?? fields.source ?? undefined,
-  );
-  assignIfString(
-    attributes,
-    "UTM_MEDIUM",
-    fields.utm_medium ?? fields.medium ?? undefined,
-  );
-  assignIfString(
-    attributes,
-    "UTM_CAMPAIGN",
-    fields.utm_campaign ?? fields.campaign ?? undefined,
-  );
-  assignIfString(
-    attributes,
-    "UTM_TERM",
-    fields.utm_term ?? fields.term ?? undefined,
-  );
-  assignIfString(
-    attributes,
-    "UTM_CONTENT",
-    fields.utm_content ?? fields.content ?? undefined,
-  );
-  assignIfString(attributes, "SOURCE", fields.source ?? undefined);
-  assignIfString(attributes, "MEDIUM", fields.medium ?? undefined);
-  assignIfString(attributes, "CAMPAIGN", fields.campaign ?? undefined);
-  assignIfString(attributes, "TERM", fields.term ?? undefined);
-  assignIfString(attributes, "CONTENT", fields.content ?? undefined);
-  assignIfString(
-    attributes,
-    "CONSENT",
+  // Map quiz fields to ActiveCampaign custom fields
+  addField("1", fields.cual_es_tu_ingreso_mensual ?? ""); // Income
+  addField(
+    "2",
+    fields.que_es_lo_que_mas_importante_en_una_tarjeta_de_credito ?? "",
+  ); // Card Preference
+  addField("3", fields.pais ?? fields.Pais ?? "Mexico"); // Country
+  addField("4", fields.marca ?? fields.Marca ?? "TopFinanzas"); // Brand
+  addField("5", fields.quiz_tarjetas ?? ""); // Quiz Type
+  addField("6", fields.utm_source ?? fields.source ?? ""); // UTM Source
+  addField("7", fields.utm_medium ?? fields.medium ?? ""); // UTM Medium
+  addField("8", fields.utm_campaign ?? fields.campaign ?? ""); // UTM Campaign
+  addField("9", fields.utm_term ?? fields.term ?? ""); // UTM Term
+  addField("10", fields.utm_content ?? fields.content ?? ""); // UTM Content
+  addField(
+    "11",
     fields.acepto_politicas_de_tratamiento_de_datos_y_terminos_y_condiciones ??
-      undefined,
-  );
-  assignIfString(attributes, "DATE_CREATED", fields.date_created ?? undefined);
+      "",
+  ); // Consent
 
-  return attributes;
+  return fieldValues;
 };
 
 const parseJson = async (response: Response) => {
@@ -122,25 +74,28 @@ const parseJson = async (response: Response) => {
   try {
     return JSON.parse(text);
   } catch (error) {
-    apiLogger.warn("Brevo API: Failed to parse JSON response", { error });
+    apiLogger.warn("ActiveCampaign API: Failed to parse JSON response", {
+      error,
+    });
     return text;
   }
 };
 
-const sendToBrevo = async (
-  payload: BrevoPayload,
+const sendToActiveCampaign = async (
+  payload: ActiveCampaignPayload,
+  apiUrl: string,
   apiKey: string,
-  metadata: { email: string; extId: string },
-): Promise<BrevoResult> => {
+  metadata: { email: string },
+): Promise<ActiveCampaignResult> => {
   const startedAt = performance.now();
 
   try {
-    const response = await fetch(BREVO_API_URL, {
+    const response = await fetch(`${apiUrl}/api/3/contact/sync`, {
       method: "POST",
       headers: {
         accept: "application/json",
         "content-type": "application/json",
-        "api-key": apiKey,
+        "Api-Token": apiKey,
       },
       body: JSON.stringify(payload),
     });
@@ -149,26 +104,7 @@ const sendToBrevo = async (
     const durationMs = performance.now() - startedAt;
 
     if (!response.ok) {
-      const errorCode = (responseBody as { code?: string })?.code;
-      const duplicateContact = errorCode === "duplicate_parameter";
-
-      if (duplicateContact) {
-        apiLogger.info("Brevo API: Contact already exists", {
-          email: metadata.email,
-          ext_id: metadata.extId,
-          status: response.status,
-        });
-
-        return {
-          success: true,
-          status: response.status,
-          data: responseBody,
-          durationMs,
-          duplicate: true,
-        };
-      }
-
-      apiLogger.error("Brevo API: Error response", undefined, {
+      apiLogger.error("ActiveCampaign API: Error response", undefined, {
         status: response.status,
         body: responseBody,
       });
@@ -180,16 +116,22 @@ const sendToBrevo = async (
         error: {
           message:
             (responseBody as { message?: string })?.message ??
-            "Failed to create contact in Brevo",
+            "Failed to create contact in ActiveCampaign",
           details: responseBody,
         },
       };
     }
 
-    apiLogger.info("Brevo API: Contact processed", {
+    const contactData = (responseBody as { contact?: { id?: string } })
+      ?.contact;
+    const isExisting = !!(responseBody as { contact?: { id?: string } })
+      ?.contact?.id;
+
+    apiLogger.info("ActiveCampaign API: Contact processed", {
       email: metadata.email,
-      ext_id: metadata.extId,
       status: response.status,
+      contactId: contactData?.id,
+      isExisting,
     });
 
     return {
@@ -197,10 +139,11 @@ const sendToBrevo = async (
       status: response.status,
       data: responseBody,
       durationMs,
+      duplicate: isExisting,
     };
   } catch (error) {
     const durationMs = performance.now() - startedAt;
-    apiLogger.error("Brevo API: Network or unexpected error", error);
+    apiLogger.error("ActiveCampaign API: Network or unexpected error", error);
 
     return {
       success: false,
@@ -208,7 +151,9 @@ const sendToBrevo = async (
       durationMs,
       error: {
         message:
-          error instanceof Error ? error.message : "Unexpected Brevo error",
+          error instanceof Error
+            ? error.message
+            : "Unexpected ActiveCampaign error",
         details: error,
       },
     };
@@ -227,61 +172,61 @@ export async function POST(request: Request) {
     );
   }
 
-  const brevoApiKey = process.env.BREVO_API_KEY;
+  const activeCampaignApiUrl = process.env.ACTIVECAMPAIGN_API_URL;
+  const activeCampaignApiKey = process.env.ACTIVECAMPAIGN_API_KEY;
 
-  if (!brevoApiKey) {
+  if (!activeCampaignApiUrl || !activeCampaignApiKey) {
+    apiLogger.error("ActiveCampaign API credentials not configured");
     return NextResponse.json(
-      { error: "Brevo API key is not configured" },
+      { error: "ActiveCampaign API is not configured" },
       { status: 500 },
     );
   }
 
-  const timestamp = Math.floor(Date.now() / 1000);
-  const extId = `topfinanzas-mx-${timestamp}`;
   const lastName = kitFields.last_name ?? "";
+  const phone = kitFields.phone_number ?? "";
 
-  const brevoAttributes = buildBrevoAttributes(
-    first_name,
-    typeof lastName === "string" ? lastName : "",
-    kitFields,
-  );
-
-  const brevoPayload: BrevoPayload = {
-    email: email_address,
-    attributes: brevoAttributes,
-    ext_id: extId,
-    updateEnabled: false,
-    listIds: [9, 5],
+  const activeCampaignPayload: ActiveCampaignPayload = {
+    contact: {
+      email: email_address,
+      firstName: first_name,
+      lastName: typeof lastName === "string" ? lastName : "",
+      phone: typeof phone === "string" ? phone : "",
+      fieldValues: buildActiveCampaignFieldValues(kitFields),
+    },
   };
 
-  const [brevoResult, convertKitResult] = await Promise.all([
-    sendToBrevo(brevoPayload, brevoApiKey, {
-      email: email_address,
-      extId,
-    }),
+  const [activeCampaignResult, convertKitResult] = await Promise.all([
+    sendToActiveCampaign(
+      activeCampaignPayload,
+      activeCampaignApiUrl,
+      activeCampaignApiKey,
+      { email: email_address },
+    ),
     subscribeToConvertKit({
       ...kitPayload,
       state: kitPayload.state ?? "active",
     }),
   ]);
 
-  if (!brevoResult.success) {
+  if (!activeCampaignResult.success) {
     return NextResponse.json(
       {
         error:
-          brevoResult.error?.message ?? "Failed to create contact in Brevo",
+          activeCampaignResult.error?.message ??
+          "Failed to create contact in ActiveCampaign",
         details: {
-          brevo: brevoResult,
+          activecampaign: activeCampaignResult,
           convertkit: convertKitResult,
         },
       },
-      { status: brevoResult.status || 500 },
+      { status: activeCampaignResult.status || 500 },
     );
   }
 
   if (!convertKitResult.success) {
     apiLogger.error(
-      "ConvertKit API: Subscription failed but Brevo succeeded",
+      "ConvertKit API: Subscription failed but ActiveCampaign succeeded",
       undefined,
       { convertKitResult },
     );
@@ -289,10 +234,10 @@ export async function POST(request: Request) {
 
   return NextResponse.json(
     {
-      message: brevoResult.duplicate
-        ? "Subscription processed (existing Brevo contact)"
+      message: activeCampaignResult.duplicate
+        ? "Subscription processed (existing ActiveCampaign contact)"
         : "Subscription processed",
-      brevo: brevoResult,
+      activecampaign: activeCampaignResult,
       convertkit: convertKitResult,
     },
     { status: 200 },

@@ -266,7 +266,7 @@ export default function Contactanos() {
 
     try {
       // Assuming same API endpoint, just customized frontend
-      const response = await fetch("/api/contact", {
+      const response = await fetch("/mx/api/contact", {
         method: "POST",
         headers: {
           "Content-Type": "application/json",

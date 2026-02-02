@@ -290,7 +290,7 @@ export default function CreditCardFormShort() {
         };
 
         // Use the short-version API endpoint
-        const sheetsResponse = await fetch("/api/sheets/short", {
+        const sheetsResponse = await fetch("/mx/api/sheets/short", {
           method: "POST",
           headers: {
             "Content-Type": "application/json",
@@ -326,7 +326,7 @@ export default function CreditCardFormShort() {
 
         if (!isRegisteredUser || formData.email) {
           try {
-            const subscribeResponse = await fetch("/api/subscribe", {
+            const subscribeResponse = await fetch("/mx/api/subscribe", {
               method: "POST",
               headers: {
                 "Content-Type": "application/json",
