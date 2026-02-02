@@ -1,34 +1,10 @@
-feat: add activecampaign integration test suite
+fix: remove trailing whitespace in TopAds config
 
 ## Changes
-- Created `/app/api/test-activecampaign/route.ts`: API endpoint for direct connection testing
-- Created `/public/test-activecampaign.html`: Interactive visual test page with real-time results
-- Created `/docs/ACTIVECAMPAIGN_TEST_RESULTS.md`: Comprehensive test documentation
+- Cleaned up formatting in `/components/analytics/topads.tsx`
+- Removed trailing spaces in interstitial exclude array
 
-## Test Results
-- ✅ ActiveCampaign API connection verified (Status: 201)
-- ✅ Contact creation successful (IDs: 21694, 21695)
-- ✅ All 8 custom fields mapping correctly (100%)
-- ✅ Subscribe endpoint integration working
-- ✅ Response time: 4-10 seconds (normal for ActiveCampaign)
-
-## Features
-- Visual test interface at /mx/test-activecampaign.html
-- Command-line testing capability
-- Real-time API response monitoring
-- Performance metrics display
-- Error handling verification
-
-## Testing Tools
-- Connection test: GET /mx/api/test-activecampaign
-- Subscribe test: POST /mx/api/subscribe
-- Browser UI: http://localhost:3030/mx/test-activecampaign.html
-
-## Credentials Verified
-- API URL: https://topfinanzasmx.api-us1.com
-- API Key: Configured and working
-- Integration: Production-ready
-- Backward compatible with existing code
-- Type-safe TypeScript implementation
-- Comprehensive documentation for future developers
-- Ready for production deployment
+## Technical Details
+- Fixed code style issue in TopAds configuration
+- No functional changes
+- Maintains existing TopAds behavior
