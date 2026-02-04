@@ -9,7 +9,9 @@ import { logger } from "@/lib/logger";
 import GoogleTagManager, {
   GoogleTagManagerNoScript,
 } from "@/components/analytics/gtm";
-import GoogleAds from "@/components/analytics/google-ads";
+import GoogleAds, {
+  GoogleAdsNoScript,
+} from "@/components/analytics/google-ads";
 import GoogleAdManager from "@/components/analytics/gam";
 import UtmPersister from "@/components/analytics/utm-persister";
 import UtmLinkInjector from "@/components/analytics/utm-link-injector";
@@ -237,6 +239,7 @@ export default function RootLayout({
       </head>
       <body className={`${poppins.variable} font-sans text-left sm:text-left`}>
         <GoogleTagManagerNoScript />
+        <GoogleAdsNoScript />
         <MobileMenuProvider>
           {/*<PreloaderProvider
             defaultConfig={{

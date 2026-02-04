@@ -4,14 +4,15 @@ import Script from "next/script";
 import { analyticsLogger } from "@/lib/logger";
 
 const GOOGLE_ADS_ID = "AW-17359006951";
+const GOOGLE_ADS_MX_ID = "AW-11452499147"; // MX-specific Google Ads container
 
 export default function GoogleAds() {
   return (
     <>
-      {/* Google Ads gtag library */}
+      {/* Google Ads gtag library - loads for primary container */}
       <Script
         id="google-ads-gtag"
-        src={`https://www.googletagmanager.com/gtag/js?id=${GOOGLE_ADS_ID}`}
+        src={`https://www.googletagmanager.com/gtag/js?id=${GOOGLE_ADS_MX_ID}`}
         strategy="afterInteractive"
       />
 
@@ -25,13 +26,16 @@ export default function GoogleAds() {
             function gtag(){dataLayer.push(arguments);}
             gtag('js', new Date());
             
-            // Configure Google Ads with enhanced conversions
+            // Configure MX Google Ads container
+            gtag('config', '${GOOGLE_ADS_MX_ID}');
+            
+            // Configure original Google Ads with enhanced conversions
             gtag('config', '${GOOGLE_ADS_ID}', {
               send_page_view: false,
               allow_enhanced_conversions: true
             });
             
-            // Configure conversion tracking
+            // Configure conversion tracking for original container
             gtag('config', '${GOOGLE_ADS_ID}', {
               allow_enhanced_conversions: true,
               enhanced_conversions: true
@@ -91,7 +95,7 @@ export default function GoogleAds() {
             // Make gtag available globally for conversion tracking
             window.gtag = gtag;
             
-            console.debug('[Analytics] Google Ads: Configuration loaded for ${GOOGLE_ADS_ID}');
+            console.debug('[Analytics] Google Ads: Configuration loaded for ${GOOGLE_ADS_ID} and ${GOOGLE_ADS_MX_ID}');
           `,
         }}
       />
@@ -142,4 +146,22 @@ export function trackGoogleAdsEvent(
       parameters,
     );
   }
+}
+
+/**
+ * Google Ads noscript fallback for MX container
+ * Should be placed immediately after opening <body> tag
+ */
+export function GoogleAdsNoScript() {
+  return (
+    <noscript>
+      <iframe
+        src={`https://www.googletagmanager.com/ns.html?id=${GOOGLE_ADS_MX_ID}`}
+        height="0"
+        width="0"
+        style={{ display: "none", visibility: "hidden" }}
+        title="Google Ads MX"
+      />
+    </noscript>
+  );
 }

@@ -16,13 +16,16 @@ const DEFAULT_LOCALE = "mx";
  * @param path - The path without locale (e.g., "/tarjetas" or "tarjetas")
  * @param locale - The locale to use (defaults to "mx")
  * @returns Localized path (e.g., "/mx/tarjetas")
- * 
+ *
  * @example
  * getLocalizedPath("/tarjetas") // returns "/mx/tarjetas"
  * getLocalizedPath("tarjetas") // returns "/mx/tarjetas"
  * getLocalizedPath("/mx/tarjetas") // returns "/mx/tarjetas" (idempotent)
  */
-export function getLocalizedPath(path: string, locale: string = DEFAULT_LOCALE): string {
+export function getLocalizedPath(
+  path: string,
+  locale: string = DEFAULT_LOCALE,
+): string {
   // Handle empty or root paths
   if (!path || path === "/") {
     return `/${locale}`;
@@ -32,7 +35,10 @@ export function getLocalizedPath(path: string, locale: string = DEFAULT_LOCALE):
   const normalizedPath = path.startsWith("/") ? path : `/${path}`;
 
   // If path already starts with the locale, return as-is
-  if (normalizedPath.startsWith(`/${locale}/`) || normalizedPath === `/${locale}`) {
+  if (
+    normalizedPath.startsWith(`/${locale}/`) ||
+    normalizedPath === `/${locale}`
+  ) {
     return normalizedPath;
   }
 
@@ -79,7 +85,7 @@ export function buildUrlWithUtmParams(baseUrl: string): string {
  * For internal links, automatically adds /mx prefix if missing
  * For external links, uses window.location.href
  * @param url - The URL to redirect to (can be with or without locale prefix)
- * 
+ *
  * @example
  * redirectWithUtmParams("/tarjetas") // redirects to /mx/tarjetas?utm_...
  * redirectWithUtmParams("/mx/tarjetas") // redirects to /mx/tarjetas?utm_...
@@ -88,10 +94,10 @@ export function buildUrlWithUtmParams(baseUrl: string): string {
 export function redirectWithUtmParams(url: string): void {
   // Check if URL is external
   const isExternal = url.startsWith("http://") || url.startsWith("https://");
-  
+
   // For internal URLs, ensure locale prefix is added
   const localizedUrl = isExternal ? url : getLocalizedPath(url);
-  
+
   const fullUrl = buildUrlWithUtmParams(localizedUrl);
 
   if (typeof window !== "undefined") {

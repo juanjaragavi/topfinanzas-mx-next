@@ -1,10 +1,17 @@
-fix: remove trailing whitespace in TopAds config
+feat(analytics): Implement Google Ads container AW-11452499147 for MX market
 
 ## Changes
-- Cleaned up formatting in `/components/analytics/topads.tsx`
-- Removed trailing spaces in interstitial exclude array
+- Add new Google Ads container ID AW-11452499147 as primary MX tracking container
+- Update google-ads.tsx to support dual container configuration
+- Add GoogleAdsNoScript component for noscript fallback
+- Integrate noscript iframe in layout.tsx body section immediately after opening body tag
 
 ## Technical Details
-- Fixed code style issue in TopAds configuration
-- No functional changes
-- Maintains existing TopAds behavior
+- Configure gtag.js to load with MX container ID (AW-11452499147)
+- Maintain existing AW-17359006951 container with enhanced conversions
+- Update debug logging to reflect both container IDs
+- Preserve UTM parameter tracking and conversion event helpers
+- Optimize script loading with afterInteractive strategy for Core Web Vitals
+
+## Impact
+This implementation enables Google Ads tracking for the Mexican market while maintaining compatibility with existing analytics infrastructure. Ready for deployment and subsequent tracking pixel configuration.
