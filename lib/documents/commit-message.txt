@@ -1,17 +1,15 @@
-feat(analytics): Implement Google Ads container AW-11452499147 for MX market
+feat(analytics): Update GTM container ID to GTM-K753GNBZ for MX market
 
 ## Changes
-- Add new Google Ads container ID AW-11452499147 as primary MX tracking container
-- Update google-ads.tsx to support dual container configuration
-- Add GoogleAdsNoScript component for noscript fallback
-- Integrate noscript iframe in layout.tsx body section immediately after opening body tag
+- Update GTM container ID from GTM-MR76NXR3 to GTM-K753GNBZ
+- Apply change to both GoogleTagManager.tsx and analytics/gtm.tsx components
+- Ensure consistent GTM tracking across all analytics components
 
 ## Technical Details
-- Configure gtag.js to load with MX container ID (AW-11452499147)
-- Maintain existing AW-17359006951 container with enhanced conversions
-- Update debug logging to reflect both container IDs
-- Preserve UTM parameter tracking and conversion event helpers
-- Optimize script loading with afterInteractive strategy for Core Web Vitals
+- Updated GTM_ID constant in both GTM component files
+- Maintains existing GTM implementation and features
+- Preserves UTM parameter tracking integration
+- No changes to dataLayer or event tracking logic
 
 ## Impact
-This implementation enables Google Ads tracking for the Mexican market while maintaining compatibility with existing analytics infrastructure. Ready for deployment and subsequent tracking pixel configuration.
+Activates Mexico-specific GTM container for proper market segmentation and tracking. All existing GTM functionality remains intact.
