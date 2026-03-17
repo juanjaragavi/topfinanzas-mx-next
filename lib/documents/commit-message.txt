@@ -1,15 +1,6 @@
-feat(analytics): Update GTM container ID to GTM-K753GNBZ for MX market
+fix: update robots.txt with Mediapartners-Google rules and new sitemap URL
 
-## Changes
-- Update GTM container ID from GTM-MR76NXR3 to GTM-K753GNBZ
-- Apply change to both GoogleTagManager.tsx and analytics/gtm.tsx components
-- Ensure consistent GTM tracking across all analytics components
-
-## Technical Details
-- Updated GTM_ID constant in both GTM component files
-- Maintains existing GTM implementation and features
-- Preserves UTM parameter tracking integration
-- No changes to dataLayer or event tracking logic
-
-## Impact
-Activates Mexico-specific GTM container for proper market segmentation and tracking. All existing GTM functionality remains intact.
+- Remove AI crawler disallow directives (Google-Extended, GPTBot, CCBot, Anthropic-AI)
+- Remove API routes disallow rule for general crawlers
+- Add Mediapartners-Google user-agent with API access
+- Update sitemap URL to budgetbeepro.com
