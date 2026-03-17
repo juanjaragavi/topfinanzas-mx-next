@@ -1,6 +1,5 @@
-fix: update robots.txt with Mediapartners-Google rules and new sitemap URL
+fix: restore correct sitemap URL in robots.txt
 
-- Remove AI crawler disallow directives (Google-Extended, GPTBot, CCBot, Anthropic-AI)
-- Remove API routes disallow rule for general crawlers
-- Add Mediapartners-Google user-agent with API access
-- Update sitemap URL to budgetbeepro.com
+- Update sitemap URL from budgetbeepro.com back to topfinanzas.com/mx
+- Add sitemap location comment
+- Add trailing newline

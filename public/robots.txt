@@ -7,4 +7,5 @@ Allow: /api/
 User-agent: Mediapartners-Google*
 Allow: /api/
 
-Sitemap: https://budgetbeepro.com/sitemap.xml
+# Sitemap location
+Sitemap: https://topfinanzas.com/mx/sitemap.xml
