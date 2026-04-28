@@ -290,7 +290,7 @@ export default function RequisitosPrestamosCoppelPage() {
             {/* External CTA Button */}
             <div className="flex justify-center my-8">
               <Link
-                href="https://www.coppel.com/prestamos-personales"
+                href="https://www.coppel.com/solicitar-prestamo-personal"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="inline-block bg-sky-700 text-white font-bold py-3 px-8 rounded-full hover:bg-sky-800 transition-colors text-lg"

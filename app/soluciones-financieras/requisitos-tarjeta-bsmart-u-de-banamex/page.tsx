@@ -378,7 +378,7 @@ export default function RequisitosTarjetaBsmartUBanamexPage() {
             {/* External CTA Button */}
             <div className="flex justify-center my-8">
               <Link
-                href="https://www.banamex.com/es/personas/tarjetas-credito/tarjeta-bsmart-u.html"
+                href="https://www.banamex.com/es/personas/tarjetas-credito/tarjeta-bsmartu.html"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="inline-block bg-sky-600 text-white font-bold py-3 px-8 rounded-full hover:bg-sky-700 transition-colors text-lg"
