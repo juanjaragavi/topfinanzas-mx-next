@@ -5,23 +5,11 @@ import { RelatedPosts } from "@/components/blog/related-posts";
 import Image from "next/image";
 import Link from "next/link";
 import { Metadata } from "next";
+import { createRouteMetadata } from "@/lib/seo";
 
-export const metadata: Metadata = {
-  alternates: {
-    canonical:
-      "https://topfinanzas.com/mx/finanzas-personales/5-tipos-de-apps-que-te-ayudaran-a-administrar-mejor-tu-dinero",
-    languages: {
-      "es-MX":
-        "https://topfinanzas.com/mx/finanzas-personales/5-tipos-de-apps-que-te-ayudaran-a-administrar-mejor-tu-dinero",
-    },
-  },
-  title:
-    "5 tipos de apps que te ayudarán a administrar mejor tu dinero | Top Finanzas MX",
-  description:
-    "La tecnología es tu mejor aliada para iniciar tu vida financiera con el pie derecho. En este artículo, te mostraremos 5 tipos de apps que te ayudarán a tomar el control de tu dinero.",
-  keywords:
-    "apps de finanzas, administrar dinero, presupuesto, ahorro, inversión, finanzas personales, primer empleo",
-};
+export const metadata: Metadata = createRouteMetadata(
+  "/finanzas-personales/5-tipos-de-apps-que-te-ayudaran-a-administrar-mejor-tu-dinero",
+);
 
 export default function AppsFinanzasPersonalesPage() {
   return (

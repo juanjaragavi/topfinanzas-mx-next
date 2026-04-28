@@ -6,20 +6,11 @@ import { ActionBanner } from "@/components/ui/action-banner";
 import Image from "next/image";
 import Link from "next/link";
 import { Metadata } from "next";
+import { createRouteMetadata } from "@/lib/seo";
 
-export const metadata: Metadata = {
-  alternates: {
-    canonical:
-      "https://topfinanzas.com/mx/soluciones-financieras/requisitos-moneyman-prestamos",
-    languages: {
-      "es-MX":
-        "https://topfinanzas.com/mx/soluciones-financieras/requisitos-moneyman-prestamos",
-    },
-  },
-  title: "Requisitos para solicitar un préstamo en Moneyman | Top Finanzas MX",
-  description:
-    "Moneyman ofrece préstamos rápidos y accesibles en línea. Conoce los requisitos y el proceso de solicitud.",
-};
+export const metadata: Metadata = createRouteMetadata(
+  "/soluciones-financieras/requisitos-moneyman-prestamos",
+);
 
 // Moneyman Check Icon (Lime-500)
 function MoneymanCheckIcon() {

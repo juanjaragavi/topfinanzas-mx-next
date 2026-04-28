@@ -5,20 +5,11 @@ import ResponsiveImage from "@/components/ui/responsive-image";
 import Link from "next/link";
 import { Metadata } from "next";
 import { RelatedPosts } from "@/components/blog/related-posts";
+import { createRouteMetadata } from "@/lib/seo";
 
-export const metadata: Metadata = {
-  alternates: {
-    canonical:
-      "https://topfinanzas.com/mx/soluciones-financieras/tarjeta-de-credito-hsbc-viva",
-    languages: {
-      "es-MX":
-        "https://topfinanzas.com/mx/soluciones-financieras/tarjeta-de-credito-hsbc-viva",
-    },
-  },
-  title: "Beneficios de la Tarjeta de Crédito HSBC Viva | Top Finanzas MX",
-  description:
-    "Conoce la Tarjeta de Crédito HSBC Viva: sin anualidad, cashback en compras, meses sin intereses y acceso a promociones exclusivas.",
-};
+export const metadata: Metadata = createRouteMetadata(
+  "/soluciones-financieras/tarjeta-de-credito-hsbc-viva",
+);
 
 function RedArrowIcon() {
   return (

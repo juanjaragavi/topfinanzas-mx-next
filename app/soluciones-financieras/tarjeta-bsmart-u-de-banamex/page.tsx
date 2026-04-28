@@ -5,20 +5,11 @@ import Image from "next/image";
 import Link from "next/link";
 import { Metadata } from "next";
 import { RelatedPosts } from "@/components/blog/related-posts";
+import { createRouteMetadata } from "@/lib/seo";
 
-export const metadata: Metadata = {
-  alternates: {
-    canonical:
-      "https://topfinanzas.com/mx/soluciones-financieras/tarjeta-bsmart-u-de-banamex",
-    languages: {
-      "es-MX":
-        "https://topfinanzas.com/mx/soluciones-financieras/tarjeta-bsmart-u-de-banamex",
-    },
-  },
-  title: "Beneficios de la tarjeta Bsmart U de Banamex | Top Finanzas MX",
-  description:
-    "La tarjeta Bsmart U de Banamex es ideal para universitarios: sin historial previo, sin anualidad el primer año y beneficios exclusivos.",
-};
+export const metadata: Metadata = createRouteMetadata(
+  "/soluciones-financieras/tarjeta-bsmart-u-de-banamex",
+);
 
 // Navy/Sky Arrow Icon Component (Color #014785 approx Sky-800)
 function NavyArrowIcon() {

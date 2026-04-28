@@ -6,20 +6,11 @@ import { RelatedPosts } from "@/components/blog/related-posts";
 import Image from "next/image";
 import Link from "next/link";
 import { Metadata } from "next";
+import { createRouteMetadata } from "@/lib/seo";
 
-export const metadata: Metadata = {
-  alternates: {
-    canonical:
-      "https://topfinanzas.com/mx/soluciones-financieras/requisitos-tarjeta-de-credito-nu",
-    languages: {
-      "es-MX":
-        "https://topfinanzas.com/mx/soluciones-financieras/requisitos-tarjeta-de-credito-nu",
-    },
-  },
-  title: "Requisitos tarjeta de crédito Nu | Top Finanzas MX",
-  description:
-    "Descubre los pasos y requisitos esenciales para obtener tu Tarjeta de Crédito NuBank en México, con información sobre costos, CAT y proceso de solicitud.",
-};
+export const metadata: Metadata = createRouteMetadata(
+  "/soluciones-financieras/requisitos-tarjeta-de-credito-nu",
+);
 
 function PurpleArrowIcon() {
   return (

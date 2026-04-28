@@ -6,20 +6,11 @@ import { RelatedPosts } from "@/components/blog/related-posts";
 import Image from "next/image";
 import Link from "next/link";
 import { Metadata } from "next";
+import { createRouteMetadata } from "@/lib/seo";
 
-export const metadata: Metadata = {
-  alternates: {
-    canonical:
-      "https://topfinanzas.com/mx/soluciones-financieras/requisitos-de-la-tarjeta-vexi-american-express",
-    languages: {
-      "es-MX":
-        "https://topfinanzas.com/mx/soluciones-financieras/requisitos-de-la-tarjeta-vexi-american-express",
-    },
-  },
-  title: "Requisitos Tarjeta Vexi American Express | Top Finanzas MX",
-  description:
-    "Conoce los requisitos para solicitar la Tarjeta Vexi American Express. Ideal para iniciar o reconstruir tu historial crediticio con beneficios exclusivos.",
-};
+export const metadata: Metadata = createRouteMetadata(
+  "/soluciones-financieras/requisitos-de-la-tarjeta-vexi-american-express",
+);
 
 // Sky Arrow Icon Component matched to #0eb2e3 equivalent (sky-500)
 function SkyArrowIcon() {

@@ -140,6 +140,17 @@ const nextConfig = {
         ],
       },
       {
+        // Prevent campaign funnels, recommendation steps, admin, and diagnostic pages from consuming crawl budget
+        source:
+          "/:seoNoindex(campana-quiz|campana-quiz-short|quiz-2|enrutador|administrar-enrutador|env-debug|test-implementation-afs|utm-test|recomendador-de-tarjetas-de-credito-p1|recomendador-de-tarjetas-de-credito-p2|recomendador-de-tarjetas-de-credito-p3|recomendador-de-prestamos-personales-p1|invit-recomendador-tarjetas-mx|descarga-guia-financiera)",
+        headers: [
+          {
+            key: "X-Robots-Tag",
+            value: "noindex, nofollow",
+          },
+        ],
+      },
+      {
         // For all HTML pages
         source: "/:path*",
         headers: [

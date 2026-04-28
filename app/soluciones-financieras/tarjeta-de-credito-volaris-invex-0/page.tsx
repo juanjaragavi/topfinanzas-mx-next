@@ -5,21 +5,11 @@ import Image from "next/image";
 import Link from "next/link";
 import { Metadata } from "next";
 import { RelatedPosts } from "@/components/blog/related-posts";
+import { createRouteMetadata } from "@/lib/seo";
 
-export const metadata: Metadata = {
-  alternates: {
-    canonical:
-      "https://topfinanzas.com/mx/soluciones-financieras/tarjeta-de-credito-volaris-invex-0",
-    languages: {
-      "es-MX":
-        "https://topfinanzas.com/mx/soluciones-financieras/tarjeta-de-credito-volaris-invex-0",
-    },
-  },
-  title:
-    "Beneficios de la tarjeta de crédito Volaris INVEX 0 | Top Finanzas MX",
-  description:
-    "Ideal para viajeros frecuentes, especialmente usuarios de Volaris, con beneficios que facilitan y mejoran cada viaje.",
-};
+export const metadata: Metadata = createRouteMetadata(
+  "/soluciones-financieras/tarjeta-de-credito-volaris-invex-0",
+);
 
 // Blue Arrow Icon Component
 function BlueArrowIcon() {

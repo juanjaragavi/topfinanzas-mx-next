@@ -5,23 +5,11 @@ import { RelatedPosts } from "@/components/blog/related-posts";
 import Image from "next/image";
 import Link from "next/link";
 import { Metadata } from "next";
+import { createRouteMetadata } from "@/lib/seo";
 
-export const metadata: Metadata = {
-  alternates: {
-    canonical:
-      "https://topfinanzas.com/mx/finanzas-personales/cat-en-tarjetas-de-credito",
-    languages: {
-      "es-MX":
-        "https://topfinanzas.com/mx/finanzas-personales/cat-en-tarjetas-de-credito",
-    },
-  },
-  title:
-    "¿Qué es el CAT en Tarjetas de Crédito y por qué es importante? | Top Finanzas MX",
-  description:
-    "Entiende qué es el Costo Anual Total (CAT) en tarjetas de crédito, cómo se calcula y por qué es crucial para tus finanzas personales.",
-  keywords:
-    "CAT tarjetas de crédito, costo anual total, finanzas personales, intereses tarjetas, educación financiera",
-};
+export const metadata: Metadata = createRouteMetadata(
+  "/finanzas-personales/cat-en-tarjetas-de-credito",
+);
 
 export default function CatTarjetasPage() {
   return (

@@ -5,21 +5,11 @@ import Image from "next/image";
 import Link from "next/link";
 import { Metadata } from "next";
 import { RelatedPosts } from "@/components/blog/related-posts";
+import { createRouteMetadata } from "@/lib/seo";
 
-export const metadata: Metadata = {
-  alternates: {
-    canonical:
-      "https://topfinanzas.com/mx/soluciones-financieras/prestamos-en-linea-solo-con-ine",
-    languages: {
-      "es-MX":
-        "https://topfinanzas.com/mx/soluciones-financieras/prestamos-en-linea-solo-con-ine",
-    },
-  },
-  title:
-    "¿Buscas préstamos en línea solo con INE? ¡Descubre todo lo que debes saber!",
-  description:
-    "Los préstamos en línea solo con INE son la opción más rápida y sencilla para obtener financiamiento en México. Descubre cómo solicitarlos aquí.",
-};
+export const metadata: Metadata = createRouteMetadata(
+  "/soluciones-financieras/prestamos-en-linea-solo-con-ine",
+);
 
 // Custom Check Icon Component using Orange #fa8f31
 function CheckIcon() {

@@ -5,23 +5,11 @@ import { RelatedPosts } from "@/components/blog/related-posts";
 import Image from "next/image";
 import Link from "next/link";
 import { Metadata } from "next";
+import { createRouteMetadata } from "@/lib/seo";
 
-export const metadata: Metadata = {
-  alternates: {
-    canonical:
-      "https://topfinanzas.com/mx/finanzas-personales/finanzas-personales-para-recien-casados-y-parejas-nuevas-que-hacer-y-que-evitar",
-    languages: {
-      "es-MX":
-        "https://topfinanzas.com/mx/finanzas-personales/finanzas-personales-para-recien-casados-y-parejas-nuevas-que-hacer-y-que-evitar",
-    },
-  },
-  title:
-    "Finanzas Personales para Recién Casados y Parejas Nuevas: Qué Hacer y Qué Evitar | Top Finanzas MX",
-  description:
-    "Casarse o empezar una vida juntos como pareja es una etapa emocionante. Están construyendo un futuro compartido, y ese futuro definitivamente incluye las finanzas. Esta guía les mostrará los «qué hacer» y «qué evitar» esenciales en finanzas personales para recién casados y parejas nuevas.",
-  keywords:
-    "finanzas personales parejas, finanzas recién casados, presupuesto familiar, ahorro en pareja, metas financieras compartidas, finanzas personales méxico",
-};
+export const metadata: Metadata = createRouteMetadata(
+  "/finanzas-personales/finanzas-personales-para-recien-casados-y-parejas-nuevas-que-hacer-y-que-evitar",
+);
 
 export default function FinanzasParejasNuevasPage() {
   return (

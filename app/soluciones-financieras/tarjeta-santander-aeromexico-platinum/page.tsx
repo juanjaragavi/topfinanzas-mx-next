@@ -5,21 +5,11 @@ import Image from "next/image";
 import Link from "next/link";
 import { Metadata } from "next";
 import { RelatedPosts } from "@/components/blog/related-posts";
+import { createRouteMetadata } from "@/lib/seo";
 
-export const metadata: Metadata = {
-  alternates: {
-    canonical:
-      "https://topfinanzas.com/mx/soluciones-financieras/tarjeta-santander-aeromexico-platinum",
-    languages: {
-      "es-MX":
-        "https://topfinanzas.com/mx/soluciones-financieras/tarjeta-santander-aeromexico-platinum",
-    },
-  },
-  title:
-    "Beneficios de la tarjeta de crédito Santander Aeroméxico Platinum | Top Finanzas MX",
-  description:
-    "Descubre los beneficios de la tarjeta Santander Aeroméxico Platinum: vuelos con acompañante, Puntos Premier, acceso a Salones Premier y primer año sin anualidad.",
-};
+export const metadata: Metadata = createRouteMetadata(
+  "/soluciones-financieras/tarjeta-santander-aeromexico-platinum",
+);
 
 // Red Arrow Icon Component
 function RedArrowIcon() {

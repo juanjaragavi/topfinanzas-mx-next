@@ -5,20 +5,11 @@ import Image from "next/image";
 import Link from "next/link";
 import { Metadata } from "next";
 import { RelatedPosts } from "@/components/blog/related-posts";
+import { createRouteMetadata } from "@/lib/seo";
 
-export const metadata: Metadata = {
-  alternates: {
-    canonical:
-      "https://topfinanzas.com/mx/soluciones-financieras/analisis-tarjeta-de-credito-bbva-oro",
-    languages: {
-      "es-MX":
-        "https://topfinanzas.com/mx/soluciones-financieras/analisis-tarjeta-de-credito-bbva-oro",
-    },
-  },
-  title: "Beneficios de la tarjeta de crédito BBVA Oro | Top Finanzas MX",
-  description:
-    "La tarjeta de crédito BBVA Oro es una opción de alto nivel que ofrece múltiples beneficios a los usuarios que buscan maximizar sus compras y disfrutar de ventajas exclusivas.",
-};
+export const metadata: Metadata = createRouteMetadata(
+  "/soluciones-financieras/analisis-tarjeta-de-credito-bbva-oro",
+);
 
 // Blue Arrow Icon Component
 function BlueArrowIcon() {

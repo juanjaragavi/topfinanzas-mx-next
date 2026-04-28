@@ -5,23 +5,11 @@ import Image from "next/image";
 import { Metadata } from "next";
 import Link from "next/link";
 import { RelatedPosts } from "@/components/blog/related-posts";
+import { createRouteMetadata } from "@/lib/seo";
 
-export const metadata: Metadata = {
-  alternates: {
-    canonical:
-      "https://topfinanzas.com/mx/finanzas-personales/tuyo-mio-o-nuestro-como-unir-finanzas-estrategicamente-despues-de-casarse-o-mudarse-juntos",
-    languages: {
-      "es-MX":
-        "https://topfinanzas.com/mx/finanzas-personales/tuyo-mio-o-nuestro-como-unir-finanzas-estrategicamente-despues-de-casarse-o-mudarse-juntos",
-    },
-  },
-  title:
-    "¿Tuyo, Mío o Nuestro? Cómo Unir Finanzas Estratégicamente Después de Casarse (o Mudarse Juntos) | Top Finanzas MX",
-  description:
-    "Irse a vivir con tu pareja o casarse es un paso gigante y emocionante. Están uniendo sus vidas, sus muebles y hasta sus playlists. Pero, ¿qué pasa con el dinero? Para muchos, sobre todo si apenas están empezando su carrera con su primer trabajo, hablar de finanzas puede parecer un campo minado.",
-  keywords:
-    "finanzas en pareja, unir finanzas, presupuesto en pareja, cuentas conjuntas, finanzas personales, matrimonio y dinero",
-};
+export const metadata: Metadata = createRouteMetadata(
+  "/finanzas-personales/tuyo-mio-o-nuestro-como-unir-finanzas-estrategicamente-despues-de-casarse-o-mudarse-juntos",
+);
 
 export default function UnirFinanzasPage() {
   return (

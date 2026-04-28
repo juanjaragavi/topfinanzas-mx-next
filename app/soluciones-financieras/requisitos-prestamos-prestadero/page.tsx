@@ -6,21 +6,11 @@ import { AIContentDisclaimer } from "@/components/ui/ai-content-disclaimer";
 import Image from "next/image";
 import Link from "next/link";
 import { Metadata } from "next";
+import { createRouteMetadata } from "@/lib/seo";
 
-export const metadata: Metadata = {
-  alternates: {
-    canonical:
-      "https://topfinanzas.com/mx/soluciones-financieras/requisitos-prestamos-prestadero",
-    languages: {
-      "es-MX":
-        "https://topfinanzas.com/mx/soluciones-financieras/requisitos-prestamos-prestadero",
-    },
-  },
-  title:
-    "Requisitos para solicitar un préstamo con Prestadero | Top Finanzas MX",
-  description:
-    "Conoce los requisitos para solicitar un préstamo en Prestadero, una plataforma P2P con tasas competitivas y proceso 100% online.",
-};
+export const metadata: Metadata = createRouteMetadata(
+  "/soluciones-financieras/requisitos-prestamos-prestadero",
+);
 
 // Custom Lime Arrow Icon Component (Matches #a2bd42 approx to lime-600/500)
 function LimeArrowIcon() {

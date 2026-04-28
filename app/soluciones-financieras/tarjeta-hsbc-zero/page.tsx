@@ -6,21 +6,11 @@ import Link from "next/link";
 import { Button } from "@/components/ui/button";
 import { Metadata } from "next";
 import { RelatedPosts } from "@/components/blog/related-posts";
+import { createRouteMetadata } from "@/lib/seo";
 
-export const metadata: Metadata = {
-  alternates: {
-    canonical:
-      "https://topfinanzas.com/mx/soluciones-financieras/tarjeta-hsbc-zero",
-    languages: {
-      "es-MX":
-        "https://topfinanzas.com/mx/soluciones-financieras/tarjeta-hsbc-zero",
-    },
-  },
-  title:
-    "HSBC Zero: Ahorra en comisiones y maximiza tus recompensas | Top Finanzas MX",
-  description:
-    "La Tarjeta HSBC Zero ofrece libertad financiera con cero comisiones anuales, programa de recompensas y promociones exclusivas. Conoce sus beneficios.",
-};
+export const metadata: Metadata = createRouteMetadata(
+  "/soluciones-financieras/tarjeta-hsbc-zero",
+);
 
 // Red Arrow Icon Component
 function RedArrowIcon() {

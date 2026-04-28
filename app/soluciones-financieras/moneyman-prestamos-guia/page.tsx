@@ -5,20 +5,11 @@ import Image from "next/image";
 import Link from "next/link";
 import { Metadata } from "next";
 import { RelatedPosts } from "@/components/blog/related-posts";
+import { createRouteMetadata } from "@/lib/seo";
 
-export const metadata: Metadata = {
-  alternates: {
-    canonical:
-      "https://topfinanzas.com/mx/soluciones-financieras/moneyman-prestamos-guia",
-    languages: {
-      "es-MX":
-        "https://topfinanzas.com/mx/soluciones-financieras/moneyman-prestamos-guia",
-    },
-  },
-  title: "Moneyman: tu préstamo ideal | Top Finanzas MX",
-  description:
-    "La solución rápida y sin complicaciones que necesitas para acceder a fondos de manera inmediata con Moneyman.",
-};
+export const metadata: Metadata = createRouteMetadata(
+  "/soluciones-financieras/moneyman-prestamos-guia",
+);
 
 // Lime Arrow Icon Component
 function LimeArrowIcon() {

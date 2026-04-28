@@ -5,21 +5,11 @@ import { ActionBanner } from "@/components/ui/action-banner";
 import Image from "next/image";
 import Link from "next/link";
 import { Metadata } from "next";
+import { createRouteMetadata } from "@/lib/seo";
 
-export const metadata: Metadata = {
-  alternates: {
-    canonical:
-      "https://topfinanzas.com/mx/soluciones-financieras/beneficios-tarjetas-credito-aeromexico-santander",
-    languages: {
-      "es-MX":
-        "https://topfinanzas.com/mx/soluciones-financieras/beneficios-tarjetas-credito-aeromexico-santander",
-    },
-  },
-  title:
-    "Beneficios de las tarjetas de crédito Aeroméxico Santander | Top Finanzas MX",
-  description:
-    "Descubre los beneficios exclusivos de las tarjetas Aeroméxico Santander: Puntos Rewards, acceso a Salones Premier y meses sin intereses.",
-};
+export const metadata: Metadata = createRouteMetadata(
+  "/soluciones-financieras/beneficios-tarjetas-credito-aeromexico-santander",
+);
 
 // Red Arrow Icon Component for Santander
 function RedArrowIcon() {

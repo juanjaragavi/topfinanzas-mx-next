@@ -5,20 +5,11 @@ import { RelatedPosts } from "@/components/blog/related-posts";
 import Link from "next/link";
 import Image from "next/image";
 import { Metadata } from "next";
+import { createRouteMetadata } from "@/lib/seo";
 
-export const metadata: Metadata = {
-  alternates: {
-    canonical:
-      "https://topfinanzas.com/mx/soluciones-financieras/kueski-prestamos",
-    languages: {
-      "es-MX":
-        "https://topfinanzas.com/mx/soluciones-financieras/kueski-prestamos",
-    },
-  },
-  title: "Kueski préstamos: crédito fácil y seguro sin buró | Top Finanzas MX",
-  description:
-    "Kueski ofrece préstamos en línea rápidos y seguros sin necesidad de historial crediticio. Solicita desde $400 hasta $24,500 MXN con respuesta en minutos.",
-};
+export const metadata: Metadata = createRouteMetadata(
+  "/soluciones-financieras/kueski-prestamos",
+);
 
 // Blue Arrow Icon Component
 function BlueArrowIcon() {

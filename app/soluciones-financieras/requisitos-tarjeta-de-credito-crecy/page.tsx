@@ -6,21 +6,11 @@ import { RelatedPosts } from "@/components/blog/related-posts";
 import Image from "next/image";
 import Link from "next/link";
 import { Metadata } from "next";
+import { createRouteMetadata } from "@/lib/seo";
 
-export const metadata: Metadata = {
-  alternates: {
-    canonical:
-      "https://topfinanzas.com/mx/soluciones-financieras/requisitos-tarjeta-de-credito-crecy",
-    languages: {
-      "es-MX":
-        "https://topfinanzas.com/mx/soluciones-financieras/requisitos-tarjeta-de-credito-crecy",
-    },
-  },
-  title:
-    "Requisitos para solicitar la tarjeta de crédito Crecy | Top Finanzas MX",
-  description:
-    "Conoce los requisitos, ventajas y cómo solicitar la tarjeta de crédito Crecy, una opción flexible y sin anualidad.",
-};
+export const metadata: Metadata = createRouteMetadata(
+  "/soluciones-financieras/requisitos-tarjeta-de-credito-crecy",
+);
 
 // Purple Arrow Icon Component
 function PurpleArrowIcon() {

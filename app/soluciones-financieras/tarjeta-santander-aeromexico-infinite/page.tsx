@@ -5,21 +5,11 @@ import Image from "next/image";
 import Link from "next/link";
 import { Metadata } from "next";
 import { RelatedPosts } from "@/components/blog/related-posts";
+import { createRouteMetadata } from "@/lib/seo";
 
-export const metadata: Metadata = {
-  alternates: {
-    canonical:
-      "https://topfinanzas.com/mx/soluciones-financieras/tarjeta-santander-aeromexico-infinite",
-    languages: {
-      "es-MX":
-        "https://topfinanzas.com/mx/soluciones-financieras/tarjeta-santander-aeromexico-infinite",
-    },
-  },
-  title:
-    "Beneficios de la tarjeta de crédito Santander Aeroméxico Infinite | Top Finanzas MX",
-  description:
-    "La tarjeta de crédito Santander Aeroméxico Infinite ofrece una gama de beneficios exclusivos, ideal para viajeros frecuentes que buscan aprovechar al máximo cada vuelo y cada compra.",
-};
+export const metadata: Metadata = createRouteMetadata(
+  "/soluciones-financieras/tarjeta-santander-aeromexico-infinite",
+);
 
 // Red Arrow Icon Component
 function RedArrowIcon() {

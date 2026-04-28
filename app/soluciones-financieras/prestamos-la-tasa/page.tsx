@@ -5,21 +5,11 @@ import Image from "next/image";
 import Link from "next/link";
 import { Metadata } from "next";
 import { RelatedPosts } from "@/components/blog/related-posts";
+import { createRouteMetadata } from "@/lib/seo";
 
-export const metadata: Metadata = {
-  alternates: {
-    canonical:
-      "https://topfinanzas.com/mx/soluciones-financieras/prestamos-la-tasa",
-    languages: {
-      "es-MX":
-        "https://topfinanzas.com/mx/soluciones-financieras/prestamos-la-tasa",
-    },
-  },
-  title:
-    "Préstamos La Tasa: Una alternativa innovadora para reducir intereses | Top Finanzas MX",
-  description:
-    "Descubre los préstamos personales de La Tasa: tasas desde 16.9%, montos hasta $350,000, sin aval y proceso 100% en línea.",
-};
+export const metadata: Metadata = createRouteMetadata(
+  "/soluciones-financieras/prestamos-la-tasa",
+);
 
 // Orange Arrow Icon Component (Replaces BlueArrowIcon with #ffa227 equivalent - amber-500)
 function OrangeArrowIcon() {

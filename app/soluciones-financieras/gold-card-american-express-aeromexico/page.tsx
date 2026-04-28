@@ -5,21 +5,11 @@ import Image from "next/image";
 import Link from "next/link";
 import { Metadata } from "next";
 import { RelatedPosts } from "@/components/blog/related-posts";
+import { createRouteMetadata } from "@/lib/seo";
 
-export const metadata: Metadata = {
-  alternates: {
-    canonical:
-      "https://topfinanzas.com/mx/soluciones-financieras/gold-card-american-express-aeromexico",
-    languages: {
-      "es-MX":
-        "https://topfinanzas.com/mx/soluciones-financieras/gold-card-american-express-aeromexico",
-    },
-  },
-  title:
-    "Beneficios de la Gold Card American Express® Aeroméxico | Top Finanzas MX",
-  description:
-    "Descubre los beneficios de la Gold Card American Express Aeroméxico: acumula Puntos Premier, acceso a Salas Premier y seguros de viaje exclusivos.",
-};
+export const metadata: Metadata = createRouteMetadata(
+  "/soluciones-financieras/gold-card-american-express-aeromexico",
+);
 
 // Blue Arrow Icon Component
 function BlueArrowIcon() {

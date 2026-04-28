@@ -6,20 +6,11 @@ import { ActionBanner } from "@/components/ui/action-banner";
 import Image from "next/image";
 import Link from "next/link";
 import { Metadata } from "next";
+import { createRouteMetadata } from "@/lib/seo";
 
-export const metadata: Metadata = {
-  alternates: {
-    canonical:
-      "https://topfinanzas.com/mx/soluciones-financieras/requisitos-prestamos-tala",
-    languages: {
-      "es-MX":
-        "https://topfinanzas.com/mx/soluciones-financieras/requisitos-prestamos-tala",
-    },
-  },
-  title: "Requisitos para solicitar un préstamo con Tala | Top Finanzas MX",
-  description:
-    "Conoce los requisitos para solicitar un préstamo en Tala. Sin historial crediticio, 100% digital y con depósito rápido en tu cuenta.",
-};
+export const metadata: Metadata = createRouteMetadata(
+  "/soluciones-financieras/requisitos-prestamos-tala",
+);
 
 // Custom Icon for Bullet Points (Color matched: #21bec6 -> Tailwind cyan-500)
 function CyanCheckIcon() {

@@ -29,10 +29,16 @@ import ResourceHints from "@/components/resource-hints";
 import NavigationProvider from "@/components/providers/navigation-provider";
 import { MobileMenuProvider } from "@/components/providers/mobile-menu-context";
 import SiteWrapper from "@/components/layout/site-wrapper";
+import { JsonLd } from "@/components/seo/json-ld";
 {
   /*import PreloaderProvider from "@/components/providers/preloader-provider";*/
 }
 import ClientOnly from "@/components/ClientOnly";
+import {
+  generateOrganizationSchema,
+  generateWebSiteSchema,
+  SEO_SITE,
+} from "@/lib/seo";
 
 // Use local font to avoid external requests during build
 // This improves build time and eliminates network dependency
@@ -69,7 +75,7 @@ const poppins = localFont({
 });
 
 // Define base URL for metadata
-const baseUrl = "https://topfinanzas.com/mx";
+const baseUrl = SEO_SITE.baseUrl;
 
 // Temporarily disable AdZep script to isolate TopAds testing
 const ENABLE_ADZEP = false;
@@ -90,48 +96,47 @@ try {
 export const viewport: Viewport = {
   width: "device-width",
   initialScale: 1,
-  maximumScale: 1,
   themeColor: "#ffffff",
 };
 
 export const metadata: Metadata = {
-  // Updated Title and Description for MX focus
-  title: "Top Finanzas México | Decide sabiamente, vive plenamente",
-  description:
-    "Guía financiera líder en México. Consejos expertos sobre tarjetas de crédito, préstamos y finanzas personales.",
+  metadataBase: new URL(baseUrl),
+  title: {
+    template: SEO_SITE.titleTemplate,
+    default: SEO_SITE.defaultTitle,
+  },
+  description: SEO_SITE.description,
   keywords:
     "tarjetas de crédito méxico, préstamos personales, comparar tarjetas, educación financiera, Top Finanzas México", // Updated keywords
   // Removed generator tag
 
   // Added Open Graph Metadata
   openGraph: {
-    title: "Top Finanzas México | Decide sabiamente, vive plenamente",
-    description:
-      "Guía financiera líder en México. Consejos expertos sobre tarjetas de crédito, préstamos y finanzas personales.",
+    title: SEO_SITE.defaultTitle,
+    description: SEO_SITE.description,
     url: baseUrl,
-    siteName: "Top Finanzas MX",
+    siteName: SEO_SITE.name,
     images: [
       {
-        url: `https://media.topfinanzas.com/images/placeholder-image.webp`, // Using the provided image URL
-        width: 900, // Assuming standard OG image width
-        height: 600, // Assuming standard OG image height
+        url: SEO_SITE.defaultImage,
+        width: 1200,
+        height: 630,
         alt: "Top Finanzas MX - Guía Financiera", // Updated Alt Text
       },
     ],
-    locale: "es_MX",
+    locale: SEO_SITE.locale,
     type: "website",
   },
 
   // Added Twitter Card Metadata
   twitter: {
     card: "summary_large_image",
-    title: "Top Finanzas México | Decide sabiamente, vive plenamente",
-    description:
-      "Guía financiera líder en México. Consejos expertos sobre tarjetas de crédito, préstamos y finanzas personales.",
+    title: SEO_SITE.defaultTitle,
+    description: SEO_SITE.description,
     // siteId: "[Optional Twitter ID]",
     // creator: "[Optional Twitter Handle]",
     // creatorId: "[Optional Twitter ID]",
-    images: [`https://media.topfinanzas.com/images/placeholder-image.webp`], // Using the provided image URL
+    images: [SEO_SITE.defaultImage],
   },
 
   // Use CDN URLs for icons to avoid basePath issues
@@ -141,9 +146,28 @@ export const metadata: Metadata = {
   },
   // Explicitly include basePath since Next.js metadata doesn't auto-prepend it
   manifest: "/mx/api/webmanifest",
-
-  // Optional: Define metadataBase for resolving relative image URLs
-  metadataBase: new URL(baseUrl),
+  alternates: {
+    canonical: baseUrl,
+    languages: {
+      "es-MX": baseUrl,
+      "en-US": "https://us.topfinanzas.com",
+      "en-GB": "https://uk.topfinanzas.com",
+    },
+  },
+  authors: [{ name: SEO_SITE.name, url: baseUrl }],
+  creator: SEO_SITE.name,
+  publisher: SEO_SITE.name,
+  robots: {
+    index: true,
+    follow: true,
+    googleBot: {
+      index: true,
+      follow: true,
+      "max-image-preview": "large",
+      "max-snippet": -1,
+      "max-video-preview": -1,
+    },
+  },
 };
 
 export default function RootLayout({
@@ -166,7 +190,10 @@ export default function RootLayout({
           content="public, max-age=31536000, immutable"
         />
 
-        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        {/* Preconnect to Analytics Domains for Performance */}
+        <link rel="preconnect" href="https://www.googletagmanager.com" />
+        <link rel="preconnect" href="https://securepubads.g.doubleclick.net" />
+        <link rel="dns-prefetch" href="https://www.google-analytics.com" />
 
         {/* Preconnect to media domain to establish early connection */}
         <link
@@ -175,38 +202,8 @@ export default function RootLayout({
           crossOrigin="anonymous"
         />
 
-        <script
-          type="application/ld+json"
-          dangerouslySetInnerHTML={{
-            __html: JSON.stringify(
-              {
-                "@context": "https://schema.org",
-                "@type": "Organization",
-                name: "Top Finanzas MX",
-                url: baseUrl,
-                logo: "https://media.topfinanzas.com/images/logo-spanish.webp", // Assuming spanish logo exists or using fallback
-                address: {
-                  "@type": "PostalAddress",
-                  streetAddress: "PANAMA, PANAMA CITY",
-                  addressLocality: "AV. AQUILINO DE LA GUARDIA",
-                  postalCode: "OCEAN BUSINESS PLAZA BUILDING, FLOOR 12",
-                  addressCountry: "PA",
-                },
-                contactPoint: {
-                  "@type": "ContactPoint",
-                  telephone: "+52-55-1234-5678", // MX Example Placeholder
-                  contactType: "customer support",
-                  email: "info@topfinanzas.com",
-                },
-                sameAs: [
-                  "https://www.linkedin.com/company/top-networks-inc",
-                  "https://www.instagram.com/topfinanzas/",
-                ],
-              },
-              null,
-              2,
-            ),
-          }}
+        <JsonLd
+          data={[generateOrganizationSchema(), generateWebSiteSchema()]}
         />
 
         <ClientOnly>

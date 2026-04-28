@@ -6,21 +6,11 @@ import Image from "next/image";
 import Link from "next/link";
 import { Metadata } from "next";
 import { RelatedPosts } from "@/components/blog/related-posts";
+import { createRouteMetadata } from "@/lib/seo";
 
-export const metadata: Metadata = {
-  alternates: {
-    canonical:
-      "https://topfinanzas.com/mx/soluciones-financieras/requisitos-tarjeta-de-credito-bbva-oro",
-    languages: {
-      "es-MX":
-        "https://topfinanzas.com/mx/soluciones-financieras/requisitos-tarjeta-de-credito-bbva-oro",
-    },
-  },
-  title:
-    "Requisitos para solicitar la tarjeta de crédito BBVA Oro | Top Finanzas MX",
-  description:
-    "La tarjeta de crédito BBVA Oro es una de las opciones más populares y versátiles que ofrece el banco BBVA en México. Conoce sus requisitos y beneficios.",
-};
+export const metadata: Metadata = createRouteMetadata(
+  "/soluciones-financieras/requisitos-tarjeta-de-credito-bbva-oro",
+);
 
 // Blue Arrow Icon Component
 function BlueArrowIcon() {

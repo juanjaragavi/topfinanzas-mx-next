@@ -5,23 +5,11 @@ import { RelatedPosts } from "@/components/blog/related-posts";
 import Image from "next/image";
 import Link from "next/link";
 import { Metadata } from "next";
+import { createRouteMetadata } from "@/lib/seo";
 
-export const metadata: Metadata = {
-  alternates: {
-    canonical:
-      "https://topfinanzas.com/mx/finanzas-personales/3-tarjetas-de-credito-sin-anualidad-populares-en-mexico",
-    languages: {
-      "es-MX":
-        "https://topfinanzas.com/mx/finanzas-personales/3-tarjetas-de-credito-sin-anualidad-populares-en-mexico",
-    },
-  },
-  title:
-    "3 Tarjetas de Crédito sin Anualidad, Populares en México | Top Finanzas MX",
-  description:
-    "La idea de pagar una cuota anual solo por tener la Tarjeta de crédito puede ser un gran desmotivante. ¡La buena noticia es que no tienes que hacerlo! en esta guía te decimos cómo.",
-  keywords:
-    "tarjetas de crédito sin anualidad, tarjetas de crédito méxico, nu, stori, hsbc zero, finanzas personales, ahorro",
-};
+export const metadata: Metadata = createRouteMetadata(
+  "/finanzas-personales/3-tarjetas-de-credito-sin-anualidad-populares-en-mexico",
+);
 
 export default function TarjetasSinAnualidadPage() {
   return (

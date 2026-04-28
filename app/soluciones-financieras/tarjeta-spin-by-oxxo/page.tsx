@@ -5,21 +5,11 @@ import Image from "next/image";
 import Link from "next/link";
 import { Metadata } from "next";
 import { RelatedPosts } from "@/components/blog/related-posts";
+import { createRouteMetadata } from "@/lib/seo";
 
-export const metadata: Metadata = {
-  alternates: {
-    canonical:
-      "https://topfinanzas.com/mx/soluciones-financieras/tarjeta-spin-by-oxxo",
-    languages: {
-      "es-MX":
-        "https://topfinanzas.com/mx/soluciones-financieras/tarjeta-spin-by-oxxo",
-    },
-  },
-  title:
-    "Tarjeta Spin by OXXO: ¿Es una buena opción para ti? | Top Finanzas MX",
-  description:
-    "Spin by OXXO es una solución financiera integral que ofrece una tarjeta Visa y app para enviar dinero, sin necesidad de cuenta bancaria tradicional.",
-};
+export const metadata: Metadata = createRouteMetadata(
+  "/soluciones-financieras/tarjeta-spin-by-oxxo",
+);
 
 // Orange Arrow Icon Component (Color #fa8f31 approx Orange-400)
 function OrangeArrowIcon() {

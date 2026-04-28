@@ -6,20 +6,11 @@ import Image from "next/image";
 import Link from "next/link";
 import { Metadata } from "next";
 import { RelatedPosts } from "@/components/blog/related-posts";
+import { createRouteMetadata } from "@/lib/seo";
 
-export const metadata: Metadata = {
-  alternates: {
-    canonical:
-      "https://topfinanzas.com/mx/soluciones-financieras/requisitos-tarjeta-simplicity-citibanamex",
-    languages: {
-      "es-MX":
-        "https://topfinanzas.com/mx/soluciones-financieras/requisitos-tarjeta-simplicity-citibanamex",
-    },
-  },
-  title: "Requisitos Tarjeta de Crédito Joy Banamex | Top Finanzas MX",
-  description:
-    "Conoce los Requisitos Tarjeta Joy Banamex y conoce si se ajusta a tu estilo de vida y a tus finanzas personales",
-};
+export const metadata: Metadata = createRouteMetadata(
+  "/soluciones-financieras/requisitos-tarjeta-simplicity-citibanamex",
+);
 
 // Blue Arrow Icon Component
 function BlueArrowIcon() {

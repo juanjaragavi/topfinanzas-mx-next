@@ -6,21 +6,11 @@ import { ActionBanner } from "@/components/ui/action-banner";
 import Image from "next/image";
 import Link from "next/link";
 import { Metadata } from "next";
+import { createRouteMetadata } from "@/lib/seo";
 
-export const metadata: Metadata = {
-  alternates: {
-    canonical:
-      "https://topfinanzas.com/mx/soluciones-financieras/requisitos-tarjetas-credito-aeromexico-santander",
-    languages: {
-      "es-MX":
-        "https://topfinanzas.com/mx/soluciones-financieras/requisitos-tarjetas-credito-aeromexico-santander",
-    },
-  },
-  title:
-    "Requisitos para solicitar las tarjetas de crédito Aeroméxico Santander | Top Finanzas MX",
-  description:
-    "Las tarjetas de crédito Aeroméxico Santander ofrecen beneficios únicos para viajeros frecuentes. Conoce los requisitos y cómo solicitarlas.",
-};
+export const metadata: Metadata = createRouteMetadata(
+  "/soluciones-financieras/requisitos-tarjetas-credito-aeromexico-santander",
+);
 
 // Red Arrow Icon Component for Santander
 function RedArrowIcon() {

@@ -5,20 +5,11 @@ import Image from "next/image";
 import Link from "next/link";
 import { Metadata } from "next";
 import { RelatedPosts } from "@/components/blog/related-posts";
+import { createRouteMetadata } from "@/lib/seo";
 
-export const metadata: Metadata = {
-  alternates: {
-    canonical:
-      "https://topfinanzas.com/mx/soluciones-financieras/prestamos-de-kubo-financiero",
-    languages: {
-      "es-MX":
-        "https://topfinanzas.com/mx/soluciones-financieras/prestamos-de-kubo-financiero",
-    },
-  },
-  title: "Beneficios de los préstamos con Kubo Financiero | Top Finanzas MX",
-  description:
-    "Kubo Financiero facilita préstamos en línea con tasas competitivas, flexibilidad de pago y seguridad total. Conoce sus beneficios aquí.",
-};
+export const metadata: Metadata = createRouteMetadata(
+  "/soluciones-financieras/prestamos-de-kubo-financiero",
+);
 
 // Custom Check Icon Component to replace BlueArrowIcon
 function CheckIcon() {

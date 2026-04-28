@@ -5,20 +5,11 @@ import Image from "next/image";
 import Link from "next/link";
 import { Metadata } from "next";
 import { RelatedPosts } from "@/components/blog/related-posts";
+import { createRouteMetadata } from "@/lib/seo";
 
-export const metadata: Metadata = {
-  alternates: {
-    canonical:
-      "https://topfinanzas.com/mx/soluciones-financieras/tarjeta-de-credito-hey-banco",
-    languages: {
-      "es-MX":
-        "https://topfinanzas.com/mx/soluciones-financieras/tarjeta-de-credito-hey-banco",
-    },
-  },
-  title: "Beneficios de la tarjeta de crédito Hey Banco | Top Finanzas MX",
-  description:
-    "Descubre los beneficios de la tarjeta de crédito Hey Banco: sin anualidad, proceso 100% digital, recompensas cashback y control total desde la app.",
-};
+export const metadata: Metadata = createRouteMetadata(
+  "/soluciones-financieras/tarjeta-de-credito-hey-banco",
+);
 
 // Dark Arrow Icon Component
 function DarkArrowIcon() {

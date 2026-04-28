@@ -5,20 +5,11 @@ import Image from "next/image";
 import Link from "next/link";
 import { Metadata } from "next";
 import { RelatedPosts } from "@/components/blog/related-posts";
+import { createRouteMetadata } from "@/lib/seo";
 
-export const metadata: Metadata = {
-  alternates: {
-    canonical:
-      "https://topfinanzas.com/mx/soluciones-financieras/prestamos-digit",
-    languages: {
-      "es-MX":
-        "https://topfinanzas.com/mx/soluciones-financieras/prestamos-digit",
-    },
-  },
-  title: "Beneficios de los préstamos con Digitt | Top Finanzas MX",
-  description:
-    "Digitt es una plataforma digital que ofrece préstamos personales rápidos, seguros y con tasas competitivas. Conoce todos sus beneficios aquí.",
-};
+export const metadata: Metadata = createRouteMetadata(
+  "/soluciones-financieras/prestamos-digit",
+);
 
 // Custom Check Icon Component using Cyan-950
 function CheckIcon() {

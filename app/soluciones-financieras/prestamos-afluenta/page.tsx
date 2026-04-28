@@ -5,20 +5,11 @@ import Image from "next/image";
 import Link from "next/link";
 import { Metadata } from "next";
 import { RelatedPosts } from "@/components/blog/related-posts";
+import { createRouteMetadata } from "@/lib/seo";
 
-export const metadata: Metadata = {
-  alternates: {
-    canonical:
-      "https://topfinanzas.com/mx/soluciones-financieras/prestamos-afluenta",
-    languages: {
-      "es-MX":
-        "https://topfinanzas.com/mx/soluciones-financieras/prestamos-afluenta",
-    },
-  },
-  title: "Beneficios de los préstamos de Afluenta | Top Finanzas MX",
-  description:
-    "Descubre los beneficios de los préstamos P2P de Afluenta: tasas competitivas, 100% digital y sin bancos.",
-};
+export const metadata: Metadata = createRouteMetadata(
+  "/soluciones-financieras/prestamos-afluenta",
+);
 
 // Slate Arrow Icon Component
 function SlateArrowIcon() {

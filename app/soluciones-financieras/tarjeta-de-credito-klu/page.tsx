@@ -5,20 +5,11 @@ import Image from "next/image";
 import Link from "next/link";
 import { Metadata } from "next";
 import { RelatedPosts } from "@/components/blog/related-posts";
+import { createRouteMetadata } from "@/lib/seo";
 
-export const metadata: Metadata = {
-  alternates: {
-    canonical:
-      "https://topfinanzas.com/mx/soluciones-financieras/tarjeta-de-credito-klu",
-    languages: {
-      "es-MX":
-        "https://topfinanzas.com/mx/soluciones-financieras/tarjeta-de-credito-klu",
-    },
-  },
-  title: "Beneficios de la tarjeta de crédito Klu | Top Finanzas MX",
-  description:
-    "La tarjeta de crédito Klu es una opción atractiva sin anualidad, fácil aprobación y control total desde tu móvil. Conoce sus beneficios.",
-};
+export const metadata: Metadata = createRouteMetadata(
+  "/soluciones-financieras/tarjeta-de-credito-klu",
+);
 
 // Slate Arrow Icon Component (Color #5d6f82 approx Slate-500)
 function SlateArrowIcon() {

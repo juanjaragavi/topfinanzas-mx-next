@@ -5,20 +5,11 @@ import { ActionBanner } from "@/components/ui/action-banner";
 import Image from "next/image";
 import Link from "next/link";
 import { Metadata } from "next";
+import { createRouteMetadata } from "@/lib/seo";
 
-export const metadata: Metadata = {
-  alternates: {
-    canonical:
-      "https://topfinanzas.com/mx/soluciones-financieras/requisitos-prestamos-didi",
-    languages: {
-      "es-MX":
-        "https://topfinanzas.com/mx/soluciones-financieras/requisitos-prestamos-didi",
-    },
-  },
-  title: "Requisitos para solicitar un préstamo con DiDi | Top Finanzas MX",
-  description:
-    "Conoce los requisitos para solicitar un préstamo con DiDi, una opción financiera rápida y segura para conductores y usuarios de la plataforma.",
-};
+export const metadata: Metadata = createRouteMetadata(
+  "/soluciones-financieras/requisitos-prestamos-didi",
+);
 
 // Custom Orange Arrow Icon Component (Matches #fc4c00 -> orange-600)
 function OrangeArrowIcon() {

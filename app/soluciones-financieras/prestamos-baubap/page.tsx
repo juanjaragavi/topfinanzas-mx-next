@@ -5,20 +5,11 @@ import Image from "next/image";
 import Link from "next/link";
 import { Metadata } from "next";
 import { RelatedPosts } from "@/components/blog/related-posts";
+import { createRouteMetadata } from "@/lib/seo";
 
-export const metadata: Metadata = {
-  title: "Beneficios de los préstamos con Baubap | Top Finanzas MX",
-  description:
-    "Descubre los beneficios de los préstamos Baubap: 100% digital, rápido y sin historial crediticio riguroso.",
-  alternates: {
-    canonical:
-      "https://topfinanzas.com/mx/soluciones-financieras/prestamos-baubap",
-    languages: {
-      "es-MX":
-        "https://topfinanzas.com/mx/soluciones-financieras/prestamos-baubap",
-    },
-  },
-};
+export const metadata: Metadata = createRouteMetadata(
+  "/soluciones-financieras/prestamos-baubap",
+);
 
 // Purple Arrow Icon Component
 function PurpleArrowIcon() {

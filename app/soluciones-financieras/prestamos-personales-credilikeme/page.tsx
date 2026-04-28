@@ -5,20 +5,11 @@ import Image from "next/image";
 import Link from "next/link";
 import { Metadata } from "next";
 import { RelatedPosts } from "@/components/blog/related-posts";
+import { createRouteMetadata } from "@/lib/seo";
 
-export const metadata: Metadata = {
-  alternates: {
-    canonical:
-      "https://topfinanzas.com/mx/soluciones-financieras/prestamos-personales-credilikeme",
-    languages: {
-      "es-MX":
-        "https://topfinanzas.com/mx/soluciones-financieras/prestamos-personales-credilikeme",
-    },
-  },
-  title: "Credilikeme: Préstamos rápidos y flexibles | Top Finanzas MX",
-  description:
-    "¿Necesitas un préstamo rápido y flexible? Credilikeme te ofrece créditos accesibles incluso sin historial. Conoce sus beneficios, montos y programa de recompensas.",
-};
+export const metadata: Metadata = createRouteMetadata(
+  "/soluciones-financieras/prestamos-personales-credilikeme",
+);
 
 // Indigo Arrow Icon Component (Matches #605dec / indigo-500)
 function IndigoArrowIcon() {

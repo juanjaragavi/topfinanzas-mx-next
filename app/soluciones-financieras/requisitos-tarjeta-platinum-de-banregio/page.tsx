@@ -6,21 +6,11 @@ import { ActionBanner } from "@/components/ui/action-banner";
 import Image from "next/image";
 import Link from "next/link";
 import { Metadata } from "next";
+import { createRouteMetadata } from "@/lib/seo";
 
-export const metadata: Metadata = {
-  alternates: {
-    canonical:
-      "https://topfinanzas.com/mx/soluciones-financieras/requisitos-tarjeta-platinum-de-banregio",
-    languages: {
-      "es-MX":
-        "https://topfinanzas.com/mx/soluciones-financieras/requisitos-tarjeta-platinum-de-banregio",
-    },
-  },
-  title:
-    "Requisitos para solicitar la Tarjeta Platinum de Banregio | Top Finanzas MX",
-  description:
-    "Conoce los requisitos para solicitar la Tarjeta Platinum de Banregio, documentación necesaria, ingresos mínimos y consejos para garantizar tu aprobación.",
-};
+export const metadata: Metadata = createRouteMetadata(
+  "/soluciones-financieras/requisitos-tarjeta-platinum-de-banregio",
+);
 
 // Blue Arrow Icon Component
 function BlueArrowIcon() {

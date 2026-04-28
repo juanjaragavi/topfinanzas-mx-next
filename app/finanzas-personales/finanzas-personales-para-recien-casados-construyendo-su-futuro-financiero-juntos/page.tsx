@@ -5,23 +5,11 @@ import { RelatedPosts } from "@/components/blog/related-posts";
 import Image from "next/image";
 import Link from "next/link";
 import { Metadata } from "next";
+import { createRouteMetadata } from "@/lib/seo";
 
-export const metadata: Metadata = {
-  alternates: {
-    canonical:
-      "https://topfinanzas.com/mx/finanzas-personales/finanzas-personales-para-recien-casados-construyendo-su-futuro-financiero-juntos",
-    languages: {
-      "es-MX":
-        "https://topfinanzas.com/mx/finanzas-personales/finanzas-personales-para-recien-casados-construyendo-su-futuro-financiero-juntos",
-    },
-  },
-  title:
-    "Finanzas Personales para Recién Casados: Construyendo Su Futuro Financiero Juntos | Top Finanzas MX",
-  description:
-    "Iniciar una vida juntos trae innumerables alegrías y desafíos, pero pocos temas son tan cruciales—o potencialmente estresantes—como manejar las finanzas personales como pareja recién casada o familia nueva.",
-  keywords:
-    "finanzas personales recién casados, finanzas en pareja, presupuesto familiar, ahorro en pareja, metas financieras, economía familiar",
-};
+export const metadata: Metadata = createRouteMetadata(
+  "/finanzas-personales/finanzas-personales-para-recien-casados-construyendo-su-futuro-financiero-juntos",
+);
 
 export default function FinanzasPersonalesRecienCasadosPage() {
   return (

@@ -5,23 +5,11 @@ import { RelatedPosts } from "@/components/blog/related-posts";
 import Image from "next/image";
 import Link from "next/link";
 import { Metadata } from "next";
+import { createRouteMetadata } from "@/lib/seo";
 
-export const metadata: Metadata = {
-  alternates: {
-    canonical:
-      "https://topfinanzas.com/mx/finanzas-personales/finanzas-personales-en-quincena-que-hacer-y-que-evitar-con-tu-sueldo",
-    languages: {
-      "es-MX":
-        "https://topfinanzas.com/mx/finanzas-personales/finanzas-personales-en-quincena-que-hacer-y-que-evitar-con-tu-sueldo",
-    },
-  },
-  title:
-    "Finanzas Personales en Quincena: Qué Hacer y Qué Evitar con tu Sueldo | Top Finanzas MX",
-  description:
-    "Recibir tu pago es una gran sensación, pero lo que haces después con ese dinero puede impactar significativamente tus finanzas personales. Tomar decisiones inteligentes cuando tu ingreso llega a tu cuenta es crucial para construir un futuro financiero sólido.",
-  keywords:
-    "finanzas personales, quincena, sueldo, ahorro, presupuesto, deudas, inversiones, gastos, dinero",
-};
+export const metadata: Metadata = createRouteMetadata(
+  "/finanzas-personales/finanzas-personales-en-quincena-que-hacer-y-que-evitar-con-tu-sueldo",
+);
 
 export default function FinanzasPersonalesEnQuincenaPage() {
   return (

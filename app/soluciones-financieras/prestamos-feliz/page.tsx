@@ -5,21 +5,11 @@ import Image from "next/image";
 import Link from "next/link";
 import { Metadata } from "next";
 import { RelatedPosts } from "@/components/blog/related-posts";
+import { createRouteMetadata } from "@/lib/seo";
 
-export const metadata: Metadata = {
-  alternates: {
-    canonical:
-      "https://topfinanzas.com/mx/soluciones-financieras/prestamos-feliz",
-    languages: {
-      "es-MX":
-        "https://topfinanzas.com/mx/soluciones-financieras/prestamos-feliz",
-    },
-  },
-  title:
-    "Beneficios y características clave de Préstamos Feliz | Top Finanzas MX",
-  description:
-    "Préstamos Feliz ofrece créditos de hasta $500,000 MXN con aprobación en 15 minutos. Conoce sus tasas, ventajas y si es la opción ideal para ti.",
-};
+export const metadata: Metadata = createRouteMetadata(
+  "/soluciones-financieras/prestamos-feliz",
+);
 
 // Custom Check Icon Component using Blue-700 (closest to #1640e5)
 function CheckIcon() {

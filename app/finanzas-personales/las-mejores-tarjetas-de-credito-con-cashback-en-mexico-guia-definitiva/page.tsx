@@ -5,23 +5,11 @@ import { RelatedPosts } from "@/components/blog/related-posts";
 import Image from "next/image";
 import Link from "next/link";
 import { Metadata } from "next";
+import { createRouteMetadata } from "@/lib/seo";
 
-export const metadata: Metadata = {
-  alternates: {
-    canonical:
-      "https://topfinanzas.com/mx/finanzas-personales/las-mejores-tarjetas-de-credito-con-cashback-en-mexico-guia-definitiva",
-    languages: {
-      "es-MX":
-        "https://topfinanzas.com/mx/finanzas-personales/las-mejores-tarjetas-de-credito-con-cashback-en-mexico-guia-definitiva",
-    },
-  },
-  title:
-    "Las Mejores Tarjetas de Crédito con Cashback en México: Guía Definitiva | Top Finanzas MX",
-  description:
-    "Las tarjetas con cashback se han convertido en una herramienta de finanzas personales increíblemente popular. No son puntos, no son millas, es dinero real que regresa a tu bolsillo.",
-  keywords:
-    "cashback, tarjetas de crédito, finanzas personales, ahorro, hsbc 2now, rappicard, santander likeu",
-};
+export const metadata: Metadata = createRouteMetadata(
+  "/finanzas-personales/las-mejores-tarjetas-de-credito-con-cashback-en-mexico-guia-definitiva",
+);
 
 export default function TarjetasCashbackPage() {
   return (

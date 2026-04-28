@@ -6,21 +6,11 @@ import { ActionBanner } from "@/components/ui/action-banner";
 import Image from "next/image";
 import Link from "next/link";
 import { Metadata } from "next";
+import { createRouteMetadata } from "@/lib/seo";
 
-export const metadata: Metadata = {
-  alternates: {
-    canonical:
-      "https://topfinanzas.com/mx/soluciones-financieras/requisitos-tarjeta-santander-aeromexico-infinite",
-    languages: {
-      "es-MX":
-        "https://topfinanzas.com/mx/soluciones-financieras/requisitos-tarjeta-santander-aeromexico-infinite",
-    },
-  },
-  title:
-    "Requisitos de la tarjeta de crédito Santander Aeroméxico Infinite | Top Finanzas MX",
-  description:
-    "Conoce los requisitos para solicitar la tarjeta Santander Aeroméxico Infinite, sus beneficios exclusivos y el proceso de solicitud.",
-};
+export const metadata: Metadata = createRouteMetadata(
+  "/soluciones-financieras/requisitos-tarjeta-santander-aeromexico-infinite",
+);
 
 // Red Arrow Icon Component
 function RedArrowIcon() {

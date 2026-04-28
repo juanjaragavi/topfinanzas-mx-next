@@ -1,5 +1,11 @@
-fix: restore correct sitemap URL in robots.txt
+feat: SEO overhaul with centralized config, structured data, and content page updates
 
-- Update sitemap URL from budgetbeepro.com back to topfinanzas.com/mx
-- Add sitemap location comment
-- Add trailing newline
+- Introduce centralized SEO constants via SEO_SITE and lib/seo module
+- Add JSON-LD structured data (Organization + WebSite schemas) to root layout
+- Upgrade root metadata: canonical URL, hreflang alternates, robots directives,
+  Open Graph and Twitter Card now use SEO_SITE constants
+- Remove maximumScale viewport restriction for better accessibility
+- Update next.config.mjs with revised configuration
+- Refresh app/sitemap.ts with latest route entries
+- Bulk-update 130+ finanzas-personales and soluciones-financieras content pages
+  (CompactFooter standardization, image handling, layout compliance fixes)

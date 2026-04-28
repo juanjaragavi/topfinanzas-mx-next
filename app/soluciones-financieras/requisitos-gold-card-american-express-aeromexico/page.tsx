@@ -6,21 +6,11 @@ import { RelatedPosts } from "@/components/blog/related-posts";
 import Image from "next/image";
 import Link from "next/link";
 import { Metadata } from "next";
+import { createRouteMetadata } from "@/lib/seo";
 
-export const metadata: Metadata = {
-  alternates: {
-    canonical:
-      "https://topfinanzas.com/mx/soluciones-financieras/requisitos-gold-card-american-express-aeromexico",
-    languages: {
-      "es-MX":
-        "https://topfinanzas.com/mx/soluciones-financieras/requisitos-gold-card-american-express-aeromexico",
-    },
-  },
-  title:
-    "Requisitos para solicitar la Gold Card American Express® Aeroméxico | Top Finanzas MX",
-  description:
-    "Conoce los requisitos para solicitar la Gold Card American Express Aeroméxico, documentación necesaria, ingresos mínimos y ventajas adicionales.",
-};
+export const metadata: Metadata = createRouteMetadata(
+  "/soluciones-financieras/requisitos-gold-card-american-express-aeromexico",
+);
 
 // Blue Arrow Icon Component
 function BlueArrowIcon() {

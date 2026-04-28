@@ -6,21 +6,11 @@ import { RelatedPosts } from "@/components/blog/related-posts";
 import Image from "next/image";
 import Link from "next/link";
 import { Metadata } from "next";
+import { createRouteMetadata } from "@/lib/seo";
 
-export const metadata: Metadata = {
-  alternates: {
-    canonical:
-      "https://topfinanzas.com/mx/soluciones-financieras/requisitos-tarjeta-de-credito-santander-likeu",
-    languages: {
-      "es-MX":
-        "https://topfinanzas.com/mx/soluciones-financieras/requisitos-tarjeta-de-credito-santander-likeu",
-    },
-  },
-  title:
-    "Requisitos de la tarjeta de crédito Santander LikeU | Top Finanzas MX",
-  description:
-    "Conoce los requisitos, costos y beneficios de la tarjeta de crédito Santander LikeU. Una opción socialmente responsable y personalizable.",
-};
+export const metadata: Metadata = createRouteMetadata(
+  "/soluciones-financieras/requisitos-tarjeta-de-credito-santander-likeu",
+);
 
 // Red Arrow Icon Component
 function RedArrowIcon() {

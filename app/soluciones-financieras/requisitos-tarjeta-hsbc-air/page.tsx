@@ -6,20 +6,11 @@ import { ActionBanner } from "@/components/ui/action-banner";
 import Image from "next/image";
 import Link from "next/link";
 import { Metadata } from "next";
+import { createRouteMetadata } from "@/lib/seo";
 
-export const metadata: Metadata = {
-  alternates: {
-    canonical:
-      "https://topfinanzas.com/mx/soluciones-financieras/requisitos-tarjeta-hsbc-air",
-    languages: {
-      "es-MX":
-        "https://topfinanzas.com/mx/soluciones-financieras/requisitos-tarjeta-hsbc-air",
-    },
-  },
-  title: "Conoce los requisitos Tarjeta HSBC Air | Top Finanzas MX",
-  description:
-    "Conoce los requisitos, documentación necesaria y proceso de solicitud para obtener la Tarjeta HSBC Air. Descubre sus costos y comisiones.",
-};
+export const metadata: Metadata = createRouteMetadata(
+  "/soluciones-financieras/requisitos-tarjeta-hsbc-air",
+);
 
 // Red Arrow Icon Component
 function RedArrowIcon() {

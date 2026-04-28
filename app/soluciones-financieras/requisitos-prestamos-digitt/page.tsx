@@ -6,20 +6,11 @@ import { ActionBanner } from "@/components/ui/action-banner";
 import Image from "next/image";
 import Link from "next/link";
 import { Metadata } from "next";
+import { createRouteMetadata } from "@/lib/seo";
 
-export const metadata: Metadata = {
-  alternates: {
-    canonical:
-      "https://topfinanzas.com/mx/soluciones-financieras/requisitos-prestamos-digitt",
-    languages: {
-      "es-MX":
-        "https://topfinanzas.com/mx/soluciones-financieras/requisitos-prestamos-digitt",
-    },
-  },
-  title: "Requisitos para solicitar un préstamo con Digitt | Top Finanzas MX",
-  description:
-    "Digitt ofrece préstamos personales rápidos y flexibles. Conoce los requisitos y el proceso de solicitud.",
-};
+export const metadata: Metadata = createRouteMetadata(
+  "/soluciones-financieras/requisitos-prestamos-digitt",
+);
 
 // Digitt Check Icon (Midnight Blue / Cyan-950)
 function DigittCheckIcon() {

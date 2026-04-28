@@ -6,21 +6,11 @@ import { AIContentDisclaimer } from "@/components/ui/ai-content-disclaimer";
 import Image from "next/image";
 import Link from "next/link";
 import { Metadata } from "next";
+import { createRouteMetadata } from "@/lib/seo";
 
-export const metadata: Metadata = {
-  alternates: {
-    canonical:
-      "https://topfinanzas.com/mx/soluciones-financieras/requisitos-prestamos-credilikeme",
-    languages: {
-      "es-MX":
-        "https://topfinanzas.com/mx/soluciones-financieras/requisitos-prestamos-credilikeme",
-    },
-  },
-  title:
-    "Requisitos para solicitar un préstamo en Credilikeme | Top Finanzas MX",
-  description:
-    "Conoce los requisitos para solicitar un préstamo en Credilikeme, una opción accesible para quienes necesitan dinero rápido, incluso sin historial crediticio.",
-};
+export const metadata: Metadata = createRouteMetadata(
+  "/soluciones-financieras/requisitos-prestamos-credilikeme",
+);
 
 // Custom Indigo Arrow Icon Component (Matches #605dec -> indigo-500)
 function IndigoArrowIcon() {

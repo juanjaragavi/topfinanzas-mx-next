@@ -5,21 +5,11 @@ import Image from "next/image";
 import Link from "next/link";
 import { Metadata } from "next";
 import { RelatedPosts } from "@/components/blog/related-posts";
+import { createRouteMetadata } from "@/lib/seo";
 
-export const metadata: Metadata = {
-  alternates: {
-    canonical:
-      "https://topfinanzas.com/mx/soluciones-financieras/prestamos-coppel",
-    languages: {
-      "es-MX":
-        "https://topfinanzas.com/mx/soluciones-financieras/prestamos-coppel",
-    },
-  },
-  title:
-    "Préstamo Coppel: Solución flexible para lo que necesitas | Top Finanzas MX",
-  description:
-    "Descubre los Préstamos Personales Coppel: montos flexibles, plazos a tu medida y solicitud 100% digital.",
-};
+export const metadata: Metadata = createRouteMetadata(
+  "/soluciones-financieras/prestamos-coppel",
+);
 
 // Custom Icon Component with color #0266ae (approx Tailwind text-blue-700 / custom)
 // Using inline style for exact color match or closest native class "text-[#0266ae]"

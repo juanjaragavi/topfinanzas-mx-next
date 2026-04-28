@@ -3,6 +3,8 @@ import { CompactFooter } from "@/components/layout/compact-footer";
 import { AIContentDisclaimer } from "@/components/ui/ai-content-disclaimer";
 import Link from "next/link";
 import { Metadata } from "next";
+import { JsonLd } from "@/components/seo/json-ld";
+import { createRouteMetadata, createRouteStructuredData } from "@/lib/seo";
 
 export async function generateMetadata({
   params,
@@ -10,19 +12,8 @@ export async function generateMetadata({
   params: Promise<{ slug: string }>;
 }): Promise<Metadata> {
   const { slug } = await params;
-  const baseUrl = "https://topfinanzas.com/mx";
 
-  return {
-    title: `Finanzas Personales - ${slug} | Top Finanzas MX`,
-    description:
-      "Consejos y guías para mejorar tus finanzas personales en México.",
-    alternates: {
-      canonical: `${baseUrl}/finanzas-personales/${slug}`,
-      languages: {
-        "es-MX": `${baseUrl}/finanzas-personales/${slug}`,
-      },
-    },
-  };
+  return createRouteMetadata(`/finanzas-personales/${slug}`);
 }
 
 export default async function PersonalFinanceDynamicPage({
@@ -36,6 +27,9 @@ export default async function PersonalFinanceDynamicPage({
 
   return (
     <main className="bg-white min-h-screen flex flex-col">
+      <JsonLd
+        data={createRouteStructuredData(`/finanzas-personales/${slug}`)}
+      />
       <Header />
 
       <article

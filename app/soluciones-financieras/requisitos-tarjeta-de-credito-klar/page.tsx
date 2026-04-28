@@ -6,20 +6,11 @@ import { RelatedPosts } from "@/components/blog/related-posts";
 import Image from "next/image";
 import Link from "next/link";
 import { Metadata } from "next";
+import { createRouteMetadata } from "@/lib/seo";
 
-export const metadata: Metadata = {
-  alternates: {
-    canonical:
-      "https://topfinanzas.com/mx/soluciones-financieras/requisitos-tarjeta-de-credito-klar",
-    languages: {
-      "es-MX":
-        "https://topfinanzas.com/mx/soluciones-financieras/requisitos-tarjeta-de-credito-klar",
-    },
-  },
-  title: "Requisitos de la tarjeta de Crédito Klar | Top Finanzas MX",
-  description:
-    "Conoce los requisitos para solicitar la tarjeta de crédito Klar, una opción accesible sin comisiones ocultas y con trámite 100% digital.",
-};
+export const metadata: Metadata = createRouteMetadata(
+  "/soluciones-financieras/requisitos-tarjeta-de-credito-klar",
+);
 
 // Amber Arrow Icon Component (Approximating #64391f -> Tailwind Amber-900)
 function AmberArrowIcon() {

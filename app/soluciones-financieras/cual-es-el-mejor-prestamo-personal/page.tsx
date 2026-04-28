@@ -5,23 +5,11 @@ import Image from "next/image";
 import { Metadata } from "next";
 import Link from "next/link";
 import { RelatedPosts } from "@/components/blog/related-posts";
+import { createRouteMetadata } from "@/lib/seo";
 
-export const metadata: Metadata = {
-  alternates: {
-    canonical:
-      "https://topfinanzas.com/mx/soluciones-financieras/cual-es-el-mejor-prestamo-personal",
-    languages: {
-      "es-MX":
-        "https://topfinanzas.com/mx/soluciones-financieras/cual-es-el-mejor-prestamo-personal",
-    },
-  },
-  title:
-    "¿Cuál es el mejor préstamo personal? Explorando opciones en el mundo Fintech | Top Finanzas MX",
-  description:
-    "Analizamos las mejores opciones de préstamos personales en el mundo Fintech de México. Compara tasas, requisitos y beneficios.",
-  keywords:
-    "mejor préstamo personal, préstamos fintech, préstamos en línea, créditos personales méxico, yotepresto, kueski, digitt",
-};
+export const metadata: Metadata = createRouteMetadata(
+  "/soluciones-financieras/cual-es-el-mejor-prestamo-personal",
+);
 
 export default function MejorPrestamoPersonalPage() {
   return (

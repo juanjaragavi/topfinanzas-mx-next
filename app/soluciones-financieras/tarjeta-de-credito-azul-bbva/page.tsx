@@ -5,21 +5,11 @@ import Image from "next/image";
 import Link from "next/link";
 import type { Metadata } from "next";
 import { RelatedPosts } from "@/components/blog/related-posts";
+import { createRouteMetadata } from "@/lib/seo";
 
-export const metadata: Metadata = {
-  alternates: {
-    canonical:
-      "https://topfinanzas.com/mx/soluciones-financieras/tarjeta-de-credito-azul-bbva",
-    languages: {
-      "es-MX":
-        "https://topfinanzas.com/mx/soluciones-financieras/tarjeta-de-credito-azul-bbva",
-    },
-  },
-  title:
-    "Tarjeta de crédito Azul de BBVA: Tu aliado en cada transacción | Top Finanzas MX",
-  description:
-    "La Tarjeta de Crédito Azul de BBVA es perfecta tanto para nuevos usuarios del crédito como para compradores y viajeros frecuentes.",
-};
+export const metadata: Metadata = createRouteMetadata(
+  "/soluciones-financieras/tarjeta-de-credito-azul-bbva",
+);
 
 function BlueArrowIcon() {
   return (

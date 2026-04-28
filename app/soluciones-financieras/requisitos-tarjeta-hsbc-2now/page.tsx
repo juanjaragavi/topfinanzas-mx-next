@@ -6,21 +6,11 @@ import { ActionBanner } from "@/components/ui/action-banner";
 import Image from "next/image";
 import Link from "next/link";
 import { Metadata } from "next";
+import { createRouteMetadata } from "@/lib/seo";
 
-export const metadata: Metadata = {
-  alternates: {
-    canonical:
-      "https://topfinanzas.com/mx/soluciones-financieras/requisitos-tarjeta-hsbc-2now",
-    languages: {
-      "es-MX":
-        "https://topfinanzas.com/mx/soluciones-financieras/requisitos-tarjeta-hsbc-2now",
-    },
-  },
-  title:
-    "Requisitos para solicitar la tarjeta de crédito HSBC 2Now | Top Finanzas MX",
-  description:
-    "Conoce los requisitos, beneficios y proceso de solicitud de la tarjeta HSBC 2Now. Disfruta de beneficios exclusivos y sin anualidad el primer año.",
-};
+export const metadata: Metadata = createRouteMetadata(
+  "/soluciones-financieras/requisitos-tarjeta-hsbc-2now",
+);
 
 // Red Arrow Icon Component (Approximating #ff0903 -> Tailwind Red-600)
 function RedArrowIcon() {

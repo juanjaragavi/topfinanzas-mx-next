@@ -6,21 +6,11 @@ import { ActionBanner } from "@/components/ui/action-banner";
 import Image from "next/image";
 import Link from "next/link";
 import { Metadata } from "next";
+import { createRouteMetadata } from "@/lib/seo";
 
-export const metadata: Metadata = {
-  alternates: {
-    canonical:
-      "https://topfinanzas.com/mx/soluciones-financieras/requisitos-prestamos-con-yotepresto",
-    languages: {
-      "es-MX":
-        "https://topfinanzas.com/mx/soluciones-financieras/requisitos-prestamos-con-yotepresto",
-    },
-  },
-  title:
-    "Requisitos para solicitar un préstamo en Yotepresto | Top Finanzas MX",
-  description:
-    "Conoce los requisitos clave para solicitar un préstamo en Yotepresto, una plataforma con tasas competitivas y proceso 100% digital.",
-};
+export const metadata: Metadata = createRouteMetadata(
+  "/soluciones-financieras/requisitos-prestamos-con-yotepresto",
+);
 
 export default function RequisitosPrestamosYoteprestoPage() {
   return (

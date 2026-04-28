@@ -5,20 +5,11 @@ import Image from "next/image";
 import Link from "next/link";
 import { Metadata } from "next";
 import { RelatedPosts } from "@/components/blog/related-posts";
+import { createRouteMetadata } from "@/lib/seo";
 
-export const metadata: Metadata = {
-  alternates: {
-    canonical:
-      "https://topfinanzas.com/mx/soluciones-financieras/tarjeta-de-credito-klar",
-    languages: {
-      "es-MX":
-        "https://topfinanzas.com/mx/soluciones-financieras/tarjeta-de-credito-klar",
-    },
-  },
-  title: "Beneficios de la tarjeta Klar | Top Finanzas MX",
-  description:
-    "La tarjeta de crédito Klar es una opción innovadora sin comisiones, ideal para quienes buscan construir historial crediticio. Conoce sus beneficios.",
-};
+export const metadata: Metadata = createRouteMetadata(
+  "/soluciones-financieras/tarjeta-de-credito-klar",
+);
 
 // Amber Arrow Icon Component (Color similar to #64391f - approximates to amber-900/yellow-900)
 function BrownArrowIcon() {

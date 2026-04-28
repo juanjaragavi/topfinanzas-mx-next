@@ -6,20 +6,11 @@ import { ActionBanner } from "@/components/ui/action-banner";
 import Image from "next/image";
 import Link from "next/link";
 import { Metadata } from "next";
+import { createRouteMetadata } from "@/lib/seo";
 
-export const metadata: Metadata = {
-  alternates: {
-    canonical:
-      "https://topfinanzas.com/mx/soluciones-financieras/requisitos-prestamos-coppel",
-    languages: {
-      "es-MX":
-        "https://topfinanzas.com/mx/soluciones-financieras/requisitos-prestamos-coppel",
-    },
-  },
-  title: "Requisitos para solicitar un Préstamo Coppel | Top Finanzas MX",
-  description:
-    "Solicita tu Préstamo Personal Coppel fácil y rápido. Solo necesitas tu Crédito Coppel, Tarjeta BanCoppel y buen historial. Gestiona todo en línea.",
-};
+export const metadata: Metadata = createRouteMetadata(
+  "/soluciones-financieras/requisitos-prestamos-coppel",
+);
 
 // Coppel Check Icon (Sky-700 / #0266ae equiv)
 function CoppelCheckIcon() {

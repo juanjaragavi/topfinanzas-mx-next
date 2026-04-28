@@ -6,20 +6,11 @@ import { ActionBanner } from "@/components/ui/action-banner";
 import Image from "next/image";
 import Link from "next/link";
 import { Metadata } from "next";
+import { createRouteMetadata } from "@/lib/seo";
 
-export const metadata: Metadata = {
-  alternates: {
-    canonical:
-      "https://topfinanzas.com/mx/soluciones-financieras/requisitos-prestamos-soy-claire",
-    languages: {
-      "es-MX":
-        "https://topfinanzas.com/mx/soluciones-financieras/requisitos-prestamos-soy-claire",
-    },
-  },
-  title: "Requisitos préstamo Soy Claire | Top Finanzas MX",
-  description:
-    "Simplifica tus pagos en un solo crédito, con plazos flexibles y sin penalizaciones por pagos anticipados. Conoce los requisitos del préstamo Soy Claire.",
-};
+export const metadata: Metadata = createRouteMetadata(
+  "/soluciones-financieras/requisitos-prestamos-soy-claire",
+);
 
 // Sky Check Icon Component
 function SkyCheckIcon() {

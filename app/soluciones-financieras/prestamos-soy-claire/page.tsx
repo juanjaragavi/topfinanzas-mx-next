@@ -5,21 +5,11 @@ import Image from "next/image";
 import Link from "next/link";
 import { Metadata } from "next";
 import { RelatedPosts } from "@/components/blog/related-posts";
+import { createRouteMetadata } from "@/lib/seo";
 
-export const metadata: Metadata = {
-  alternates: {
-    canonical:
-      "https://topfinanzas.com/mx/soluciones-financieras/prestamos-soy-claire",
-    languages: {
-      "es-MX":
-        "https://topfinanzas.com/mx/soluciones-financieras/prestamos-soy-claire",
-    },
-  },
-  title:
-    "Préstamos Soy Claire: Consolida tus deudas de tarjetas de crédito | Top Finanzas MX",
-  description:
-    "Consolida tus deudas de tarjetas Visa y MasterCard con Soy Claire. Préstamos hasta $150,000 MXN, plazos flexibles y sin penalización por pago anticipado.",
-};
+export const metadata: Metadata = createRouteMetadata(
+  "/soluciones-financieras/prestamos-soy-claire",
+);
 
 // Sky Arrow Icon Component (Matches #0f89d3 -> sky-600)
 function SkyArrowIcon() {

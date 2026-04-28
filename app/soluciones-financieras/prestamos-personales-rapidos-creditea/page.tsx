@@ -5,20 +5,11 @@ import Image from "next/image";
 import Link from "next/link";
 import { Metadata } from "next";
 import { RelatedPosts } from "@/components/blog/related-posts";
+import { createRouteMetadata } from "@/lib/seo";
 
-export const metadata: Metadata = {
-  alternates: {
-    canonical:
-      "https://topfinanzas.com/mx/soluciones-financieras/prestamos-personales-rapidos-creditea",
-    languages: {
-      "es-MX":
-        "https://topfinanzas.com/mx/soluciones-financieras/prestamos-personales-rapidos-creditea",
-    },
-  },
-  title: "Beneficios de los préstamos personales rápidos de Creditea México",
-  description:
-    "Descubre los beneficios de los préstamos rápidos de Creditea: montos hasta $70,000 MXN, plazos flexibles y aprobación en menos de 24 horas. Todo 100% en línea.",
-};
+export const metadata: Metadata = createRouteMetadata(
+  "/soluciones-financieras/prestamos-personales-rapidos-creditea",
+);
 
 // Cyan Arrow Icon Component (Matches #11465B / cyan-900)
 function CyanArrowIcon() {

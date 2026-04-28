@@ -6,20 +6,11 @@ import { RelatedPosts } from "@/components/blog/related-posts";
 import Image from "next/image";
 import Link from "next/link";
 import { Metadata } from "next";
+import { createRouteMetadata } from "@/lib/seo";
 
-export const metadata: Metadata = {
-  alternates: {
-    canonical:
-      "https://topfinanzas.com/mx/soluciones-financieras/requisitos-tarjeta-de-credito-mercado-pago",
-    languages: {
-      "es-MX":
-        "https://topfinanzas.com/mx/soluciones-financieras/requisitos-tarjeta-de-credito-mercado-pago",
-    },
-  },
-  title: "Requisitos para solicitar la tarjeta Mercado Pago | Top Finanzas MX",
-  description:
-    "Descubre los requisitos y beneficios de la tarjeta de crédito Mercado Pago. Sin anualidad, ideal para compras en línea y con gestión total desde la app.",
-};
+export const metadata: Metadata = createRouteMetadata(
+  "/soluciones-financieras/requisitos-tarjeta-de-credito-mercado-pago",
+);
 
 // Sky Arrow Icon Component (Approximating #077fd7 -> Tailwind Sky-600)
 function SkyArrowIcon() {

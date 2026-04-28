@@ -6,20 +6,11 @@ import Image from "next/image";
 import Link from "next/link";
 import { Metadata } from "next";
 import { RelatedPosts } from "@/components/blog/related-posts";
+import { createRouteMetadata } from "@/lib/seo";
 
-export const metadata: Metadata = {
-  alternates: {
-    canonical:
-      "https://topfinanzas.com/mx/soluciones-financieras/requisitos-rappicard",
-    languages: {
-      "es-MX":
-        "https://topfinanzas.com/mx/soluciones-financieras/requisitos-rappicard",
-    },
-  },
-  title: "Requisitos para solicitar la RappiCard | Top Finanzas MX",
-  description:
-    "Conoce los requisitos para solicitar la RappiCard, una tarjeta sin anualidad y con cashback. Descubre cómo obtenerla y sus beneficios.",
-};
+export const metadata: Metadata = createRouteMetadata(
+  "/soluciones-financieras/requisitos-rappicard",
+);
 
 // Black Arrow Icon Component
 function BlackArrowIcon() {

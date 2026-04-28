@@ -5,23 +5,11 @@ import Image from "next/image";
 import Link from "next/link";
 import { RelatedPosts } from "@/components/blog/related-posts";
 import { Metadata } from "next";
+import { createRouteMetadata } from "@/lib/seo";
 
-export const metadata: Metadata = {
-  alternates: {
-    canonical:
-      "https://topfinanzas.com/mx/finanzas-personales/la-magia-del-interes-compuesto-como-hacer-que-tu-dinero-crezca-solo",
-    languages: {
-      "es-MX":
-        "https://topfinanzas.com/mx/finanzas-personales/la-magia-del-interes-compuesto-como-hacer-que-tu-dinero-crezca-solo",
-    },
-  },
-  title:
-    "La magia del interés compuesto: Cómo hacer que tu dinero crezca solo | Top Finanzas MX",
-  description:
-    "Esta guía está pensada para ti, que estás dando tus primeros pasos en el mundo laboral, para que entiendas los conceptos básicos de las finanzas personales y uses esta «magia» a tu favor desde el primer día.",
-  keywords:
-    "interés compuesto, finanzas personales, ahorro, inversión, primer empleo, dinero, crecimiento financiero",
-};
+export const metadata: Metadata = createRouteMetadata(
+  "/finanzas-personales/la-magia-del-interes-compuesto-como-hacer-que-tu-dinero-crezca-solo",
+);
 
 export default function InteresCompuestoPage() {
   return (

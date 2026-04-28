@@ -6,21 +6,11 @@ import { ActionBanner } from "@/components/ui/action-banner";
 import Image from "next/image";
 import Link from "next/link";
 import { Metadata } from "next";
+import { createRouteMetadata } from "@/lib/seo";
 
-export const metadata: Metadata = {
-  alternates: {
-    canonical:
-      "https://topfinanzas.com/mx/soluciones-financieras/requisitos-prestamos-personal-kubo-financiero",
-    languages: {
-      "es-MX":
-        "https://topfinanzas.com/mx/soluciones-financieras/requisitos-prestamos-personal-kubo-financiero",
-    },
-  },
-  title:
-    "Requisitos para solicitar un préstamo en Kubo Financiero | Top Finanzas MX",
-  description:
-    "Conoce los requisitos para solicitar un préstamo en Kubo Financiero. Proceso 100% en línea, tasas competitivas y flexibilidad en pagos.",
-};
+export const metadata: Metadata = createRouteMetadata(
+  "/soluciones-financieras/requisitos-prestamos-personal-kubo-financiero",
+);
 
 // Custom Icon for Bullet Points (Color matched: #2e9f30 -> Tailwind green-600)
 function GreenCheckIcon() {

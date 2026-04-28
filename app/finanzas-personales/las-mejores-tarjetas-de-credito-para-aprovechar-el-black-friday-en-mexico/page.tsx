@@ -4,23 +4,11 @@ import { AIContentDisclaimer } from "@/components/ui/ai-content-disclaimer";
 import Image from "next/image";
 import Link from "next/link";
 import { Metadata } from "next";
+import { createRouteMetadata } from "@/lib/seo";
 
-export const metadata: Metadata = {
-  alternates: {
-    canonical:
-      "https://topfinanzas.com/mx/finanzas-personales/las-mejores-tarjetas-de-credito-para-aprovechar-el-black-friday-en-mexico",
-    languages: {
-      "es-MX":
-        "https://topfinanzas.com/mx/finanzas-personales/las-mejores-tarjetas-de-credito-para-aprovechar-el-black-friday-en-mexico",
-    },
-  },
-  title:
-    "Las Mejores Tarjetas de Crédito para Aprovechar el Black Friday en México | Top Finanzas MX",
-  description:
-    "Es clave saber cómo usar la tarjeta de crédito en Black Friday para que se convierta en tu mejor aliada y no en un dolor de cabeza financiero.",
-  keywords:
-    "tarjetas de crédito black friday, black friday méxico, cashback, meses sin intereses, finanzas personales, tarjetas de crédito",
-};
+export const metadata: Metadata = createRouteMetadata(
+  "/finanzas-personales/las-mejores-tarjetas-de-credito-para-aprovechar-el-black-friday-en-mexico",
+);
 
 export default function LasMejoresTarjetasBlackFridayPage() {
   return (

@@ -5,21 +5,11 @@ import Image from "next/image";
 import Link from "next/link";
 import { Metadata } from "next";
 import { RelatedPosts } from "@/components/blog/related-posts";
+import { createRouteMetadata } from "@/lib/seo";
 
-export const metadata: Metadata = {
-  alternates: {
-    canonical:
-      "https://topfinanzas.com/mx/soluciones-financieras/prestamos-personales",
-    languages: {
-      "es-MX":
-        "https://topfinanzas.com/mx/soluciones-financieras/prestamos-personales",
-    },
-  },
-  title:
-    "Préstamos personales: ¿Cómo pueden ser tu mejor estrategia para manejar deudas?",
-  description:
-    "Descubre qué son los préstamos personales, sus ventajas y cómo utilizarlos para gestionar deudas y financiar proyectos. Guía completa en Top Finanzas MX.",
-};
+export const metadata: Metadata = createRouteMetadata(
+  "/soluciones-financieras/prestamos-personales",
+);
 
 export default function PrestamosPersonalesPage() {
   return (

@@ -5,23 +5,11 @@ import { RelatedPosts } from "@/components/blog/related-posts";
 import Image from "next/image";
 import { Metadata } from "next";
 import Link from "next/link";
+import { createRouteMetadata } from "@/lib/seo";
 
-export const metadata: Metadata = {
-  alternates: {
-    canonical:
-      "https://topfinanzas.com/mx/finanzas-personales/tarjetas-de-credito-para-estudiantes",
-    languages: {
-      "es-MX":
-        "https://topfinanzas.com/mx/finanzas-personales/tarjetas-de-credito-para-estudiantes",
-    },
-  },
-  title:
-    "Las mejores tarjetas de crédito para estudiantes en México | Top Finanzas MX",
-  description:
-    "Descubre las mejores tarjetas de crédito para estudiantes en México. Compara opciones sin historial crediticio, sin anualidad y con beneficios exclusivos.",
-  keywords:
-    "tarjetas de crédito estudiantes, tarjetas sin historial, tarjetas universitarios, finanzas estudiantes, crédito joven",
-};
+export const metadata: Metadata = createRouteMetadata(
+  "/finanzas-personales/tarjetas-de-credito-para-estudiantes",
+);
 
 export default function TarjetasEstudiantesPage() {
   return (

@@ -5,23 +5,11 @@ import { RelatedPosts } from "@/components/blog/related-posts";
 import Image from "next/image";
 import { Metadata } from "next";
 import Link from "next/link";
+import { createRouteMetadata } from "@/lib/seo";
 
-export const metadata: Metadata = {
-  alternates: {
-    canonical:
-      "https://topfinanzas.com/mx/finanzas-personales/ahorro-inteligente-estrategias-de-finanzas-personales-para-impulsar-tu-dinero",
-    languages: {
-      "es-MX":
-        "https://topfinanzas.com/mx/finanzas-personales/ahorro-inteligente-estrategias-de-finanzas-personales-para-impulsar-tu-dinero",
-    },
-  },
-  title:
-    "Ahorro Inteligente: Estrategias de Finanzas Personales para Impulsar tu Dinero | Top Finanzas MX",
-  description:
-    "En el panorama financiero actual, simplemente ganar dinero no es suficiente para asegurar tu futuro. Aprender a ahorrar de manera inteligente es una habilidad crucial que fortalece tus finanzas personales.",
-  keywords:
-    "ahorro inteligente, finanzas personales, estrategias de ahorro, presupuesto familiar, automatizar ahorro, seguridad financiera",
-};
+export const metadata: Metadata = createRouteMetadata(
+  "/finanzas-personales/ahorro-inteligente-estrategias-de-finanzas-personales-para-impulsar-tu-dinero",
+);
 
 export default function AhorroInteligentePage() {
   return (

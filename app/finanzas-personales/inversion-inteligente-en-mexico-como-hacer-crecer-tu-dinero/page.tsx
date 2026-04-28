@@ -5,23 +5,11 @@ import { RelatedPosts } from "@/components/blog/related-posts";
 import Image from "next/image";
 import { Metadata } from "next";
 import Link from "next/link";
+import { createRouteMetadata } from "@/lib/seo";
 
-export const metadata: Metadata = {
-  alternates: {
-    canonical:
-      "https://topfinanzas.com/mx/finanzas-personales/inversion-inteligente-en-mexico-como-hacer-crecer-tu-dinero",
-    languages: {
-      "es-MX":
-        "https://topfinanzas.com/mx/finanzas-personales/inversion-inteligente-en-mexico-como-hacer-crecer-tu-dinero",
-    },
-  },
-  title:
-    "Inversión Inteligente en México: Cómo Hacer Crecer tu Dinero | Top Finanzas MX",
-  description:
-    "En el mundo de las finanzas personales, hacer que tu dinero trabaje para ti es tan importante como ganarlo. Descubre cómo invertir de manera inteligente en México.",
-  keywords:
-    "inversión inteligente, finanzas personales méxico, cetes, afores, bolsa mexicana de valores, fondos de inversión, diversificación",
-};
+export const metadata: Metadata = createRouteMetadata(
+  "/finanzas-personales/inversion-inteligente-en-mexico-como-hacer-crecer-tu-dinero",
+);
 
 export default function InversionInteligentePage() {
   return (

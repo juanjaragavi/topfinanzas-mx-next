@@ -6,21 +6,11 @@ import { RelatedPosts } from "@/components/blog/related-posts";
 import Image from "next/image";
 import Link from "next/link";
 import { Metadata } from "next";
+import { createRouteMetadata } from "@/lib/seo";
 
-export const metadata: Metadata = {
-  alternates: {
-    canonical:
-      "https://topfinanzas.com/mx/soluciones-financieras/requisitos-tarjeta-de-credito-tigres-afirme",
-    languages: {
-      "es-MX":
-        "https://topfinanzas.com/mx/soluciones-financieras/requisitos-tarjeta-de-credito-tigres-afirme",
-    },
-  },
-  title:
-    "Requisitos para la Tarjeta de Crédito Tigres Afirme | Top Finanzas MX",
-  description:
-    "Conoce los requisitos, costos y beneficios exclusivos de la Tarjeta de Crédito Tigres Afirme para aficionados.",
-};
+export const metadata: Metadata = createRouteMetadata(
+  "/soluciones-financieras/requisitos-tarjeta-de-credito-tigres-afirme",
+);
 
 // Green Arrow Icon Component
 function GreenArrowIcon() {

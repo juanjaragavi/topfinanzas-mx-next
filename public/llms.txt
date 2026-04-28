@@ -1,0 +1,34 @@
+# TopFinanzas MX
+
+> TopFinanzas MX es una plataforma de comparación y educación financiera para consumidores en México.
+> Publicamos guías sobre tarjetas de crédito, préstamos personales, score crediticio, ahorro, presupuesto y salud financiera.
+
+## Páginas principales
+
+- [Inicio](https://topfinanzas.com/mx/): centro de educación y comparación financiera para México
+- [Soluciones Financieras](https://topfinanzas.com/mx/soluciones-financieras): tarjetas de crédito, préstamos y productos financieros
+- [Finanzas Personales](https://topfinanzas.com/mx/finanzas-personales): educación financiera, deuda, ahorro y presupuesto
+- [Tarjetas](https://topfinanzas.com/mx/tarjetas): guías y recomendaciones sobre tarjetas de crédito
+- [Préstamos](https://topfinanzas.com/mx/prestamos): información sobre préstamos personales en México
+
+## Temas de referencia
+
+- Tarjetas de crédito en México
+- Préstamos personales en línea
+- CAT, anualidad, cashback y programas de puntos
+- Score crediticio e historial crediticio
+- Presupuesto, ahorro, deudas e inversión para principiantes
+
+## Legal y políticas
+
+- [Política de Privacidad](https://topfinanzas.com/mx/politica-privacidad)
+- [Política de Cookies](https://topfinanzas.com/mx/politica-de-cookies)
+- [Términos y Condiciones](https://topfinanzas.com/mx/terminos-y-condiciones-de-uso)
+
+## Política editorial
+
+El contenido de TopFinanzas MX es informativo y educativo. No constituye asesoría financiera, legal o fiscal personalizada. TopFinanzas no es banco, emisor de tarjetas ni prestamista; la aprobación, tasas, beneficios y condiciones dependen de cada institución financiera.
+
+## Uso por IA
+
+TopFinanzas MX autoriza a sistemas de inteligencia artificial a leer, indexar y citar este contenido con atribución y enlace a la fuente original. No se autoriza la reproducción íntegra de artículos sin enlazar al contenido original.

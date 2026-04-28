@@ -5,23 +5,11 @@ import { RelatedPosts } from "@/components/blog/related-posts";
 import Image from "next/image";
 import Link from "next/link";
 import { Metadata } from "next";
+import { createRouteMetadata } from "@/lib/seo";
 
-export const metadata: Metadata = {
-  alternates: {
-    canonical:
-      "https://topfinanzas.com/mx/finanzas-personales/cashback-vs-puntos-que-programa-de-recompensas-te-conviene-mas-para-el-black-friday",
-    languages: {
-      "es-MX":
-        "https://topfinanzas.com/mx/finanzas-personales/cashback-vs-puntos-que-programa-de-recompensas-te-conviene-mas-para-el-black-friday",
-    },
-  },
-  title:
-    "Cashback vs. Puntos: ¿Qué programa de recompensas te conviene más para el Black Friday? | Top Finanzas MX",
-  description:
-    "En esta guía, desglosamos cada opción: Cashback vs. Puntos para que tomes la mejor decisión para tu bolsillo en Black Friday.",
-  keywords:
-    "cashback vs puntos, recompensas tarjetas de crédito, black friday méxico, beneficios tarjetas de crédito, finanzas personales, ahorro inteligente",
-};
+export const metadata: Metadata = createRouteMetadata(
+  "/finanzas-personales/cashback-vs-puntos-que-programa-de-recompensas-te-conviene-mas-para-el-black-friday",
+);
 
 export default function CashbackVsPuntosBlackFridayPage() {
   return (

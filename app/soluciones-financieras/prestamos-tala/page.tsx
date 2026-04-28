@@ -5,21 +5,11 @@ import Image from "next/image";
 import Link from "next/link";
 import { Metadata } from "next";
 import { RelatedPosts } from "@/components/blog/related-posts";
+import { createRouteMetadata } from "@/lib/seo";
 
-export const metadata: Metadata = {
-  alternates: {
-    canonical:
-      "https://topfinanzas.com/mx/soluciones-financieras/prestamos-tala",
-    languages: {
-      "es-MX":
-        "https://topfinanzas.com/mx/soluciones-financieras/prestamos-tala",
-    },
-  },
-  title:
-    "Préstamos Tala: Una solución financiera a tu alcance | Top Finanzas MX",
-  description:
-    "Descubre Tala, la app de préstamos rápidos en México. Desde $500 hasta $10,000 pesos, sin aval ni historial crediticio. ¡Solicita en 5 minutos!",
-};
+export const metadata: Metadata = createRouteMetadata(
+  "/soluciones-financieras/prestamos-tala",
+);
 
 // Teal Arrow Icon Component (Matches close to #21bec6 -> teal-400 or cyan-500)
 // Using teal-400 for a vibrant teal look.

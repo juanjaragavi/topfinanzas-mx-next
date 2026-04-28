@@ -5,20 +5,11 @@ import Image from "next/image";
 import Link from "next/link";
 import { Metadata } from "next";
 import { RelatedPosts } from "@/components/blog/related-posts";
+import { createRouteMetadata } from "@/lib/seo";
 
-export const metadata: Metadata = {
-  alternates: {
-    canonical:
-      "https://topfinanzas.com/mx/soluciones-financieras/tarjetas-kapital",
-    languages: {
-      "es-MX":
-        "https://topfinanzas.com/mx/soluciones-financieras/tarjetas-kapital",
-    },
-  },
-  title: "Beneficios de las tarjetas de crédito Kapital | Top Finanzas MX",
-  description:
-    "Descubre los beneficios de las tarjetas de crédito Kapital: sin historial crediticio, cashback en compras, transparencia y proceso 100% digital.",
-};
+export const metadata: Metadata = createRouteMetadata(
+  "/soluciones-financieras/tarjetas-kapital",
+);
 
 // Lime Arrow Icon Component
 function LimeArrowIcon() {

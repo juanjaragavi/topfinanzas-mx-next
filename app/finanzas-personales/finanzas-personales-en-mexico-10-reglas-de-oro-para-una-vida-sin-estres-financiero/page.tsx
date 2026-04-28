@@ -5,23 +5,11 @@ import { RelatedPosts } from "@/components/blog/related-posts";
 import Image from "next/image";
 import Link from "next/link";
 import { Metadata } from "next";
+import { createRouteMetadata } from "@/lib/seo";
 
-export const metadata: Metadata = {
-  alternates: {
-    canonical:
-      "https://topfinanzas.com/mx/finanzas-personales/finanzas-personales-en-mexico-10-reglas-de-oro-para-una-vida-sin-estres-financiero",
-    languages: {
-      "es-MX":
-        "https://topfinanzas.com/mx/finanzas-personales/finanzas-personales-en-mexico-10-reglas-de-oro-para-una-vida-sin-estres-financiero",
-    },
-  },
-  title:
-    "Finanzas Personales en México: 10 Reglas de Oro Para Una Vida Sin Estrés Financiero | Top Finanzas MX",
-  description:
-    "Llevar una vida financiera saludable es clave para nuestro bienestar general. En México, como en cualquier parte del mundo, entender y aplicar principios básicos de finanzas personales puede marcar la diferencia entre la tranquilidad y el estrés constante.",
-  keywords:
-    "finanzas personales méxico, reglas de oro finanzas, presupuesto familiar, ahorro, inversión, deudas, buró de crédito, seguros, educación financiera",
-};
+export const metadata: Metadata = createRouteMetadata(
+  "/finanzas-personales/finanzas-personales-en-mexico-10-reglas-de-oro-para-una-vida-sin-estres-financiero",
+);
 
 export default function FinanzasPersonales10ReglasOroPage() {
   return (

@@ -5,21 +5,11 @@ import Image from "next/image";
 import Link from "next/link";
 import { Metadata } from "next";
 import { RelatedPosts } from "@/components/blog/related-posts";
+import { createRouteMetadata } from "@/lib/seo";
 
-export const metadata: Metadata = {
-  alternates: {
-    canonical:
-      "https://topfinanzas.com/mx/soluciones-financieras/banregio-platinum-analisis",
-    languages: {
-      "es-MX":
-        "https://topfinanzas.com/mx/soluciones-financieras/banregio-platinum-analisis",
-    },
-  },
-  title:
-    "Beneficios de la Tarjeta de Crédito Banregio Platinum | Top Finanzas MX",
-  description:
-    "Conoce en esta guía un análisis de la tarjeta de crédito Banregio Platinum y aprende si es la ideal para tu estilo de vida.",
-};
+export const metadata: Metadata = createRouteMetadata(
+  "/soluciones-financieras/banregio-platinum-analisis",
+);
 
 // Orange Check Icon Component
 function OrangeCheckIcon() {

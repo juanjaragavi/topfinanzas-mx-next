@@ -6,21 +6,11 @@ import { ActionBanner } from "@/components/ui/action-banner";
 import Image from "next/image";
 import Link from "next/link";
 import { Metadata } from "next";
+import { createRouteMetadata } from "@/lib/seo";
 
-export const metadata: Metadata = {
-  alternates: {
-    canonical:
-      "https://topfinanzas.com/mx/soluciones-financieras/requisitos-prestamos-feliz",
-    languages: {
-      "es-MX":
-        "https://topfinanzas.com/mx/soluciones-financieras/requisitos-prestamos-feliz",
-    },
-  },
-  title:
-    "Requisitos y proceso de solicitud de Préstamos Feliz | Top Finanzas MX",
-  description:
-    "Descubre los requisitos y el proceso para solicitar un préstamo con Préstamos Feliz. Aprobación en 15 minutos, sin largos trámites.",
-};
+export const metadata: Metadata = createRouteMetadata(
+  "/soluciones-financieras/requisitos-prestamos-feliz",
+);
 
 // Custom Icon for Bullet Points (Color matched: #1640e5 -> Tailwind blue-700)
 function BlueCheckIcon() {

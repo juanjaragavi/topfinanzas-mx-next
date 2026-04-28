@@ -5,23 +5,11 @@ import Image from "next/image";
 import { Metadata } from "next";
 import Link from "next/link";
 import { RelatedPosts } from "@/components/blog/related-posts";
+import { createRouteMetadata } from "@/lib/seo";
 
-export const metadata: Metadata = {
-  alternates: {
-    canonical:
-      "https://topfinanzas.com/mx/soluciones-financieras/tarjetas-de-credito-sin-anualidad",
-    languages: {
-      "es-MX":
-        "https://topfinanzas.com/mx/soluciones-financieras/tarjetas-de-credito-sin-anualidad",
-    },
-  },
-  title:
-    "Top de las mejores tarjetas de crédito sin anualidad en México | Top Finanzas MX",
-  description:
-    "Conoce las mejores tarjetas de crédito sin anualidad en México. Ahorra dinero y disfruta de beneficios sin pagar cuotas anuales.",
-  keywords:
-    "tarjetas sin anualidad, tarjetas de crédito gratis, mejores tarjetas méxico, ahorro anualidad, tarjetas sin costo",
-};
+export const metadata: Metadata = createRouteMetadata(
+  "/soluciones-financieras/tarjetas-de-credito-sin-anualidad",
+);
 
 export default function TarjetasSinAnualidadPage() {
   return (

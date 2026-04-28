@@ -6,20 +6,11 @@ import Link from "next/link";
 import { Metadata } from "next";
 import { RelatedPosts } from "@/components/blog/related-posts";
 import ResponsiveImage from "@/components/ui/responsive-image";
+import { createRouteMetadata } from "@/lib/seo";
 
-export const metadata: Metadata = {
-  alternates: {
-    canonical:
-      "https://topfinanzas.com/mx/soluciones-financieras/requisitos-tarjeta-de-credito-azul-bbva",
-    languages: {
-      "es-MX":
-        "https://topfinanzas.com/mx/soluciones-financieras/requisitos-tarjeta-de-credito-azul-bbva",
-    },
-  },
-  title: "Requisitos Tarjeta de Crédito Azul BBVA | Top Finanzas MX",
-  description:
-    "Conoce los Requisitos Tarjeta de Crédito Azul BBVA y descubre si es la opción ideal para ti.",
-};
+export const metadata: Metadata = createRouteMetadata(
+  "/soluciones-financieras/requisitos-tarjeta-de-credito-azul-bbva",
+);
 
 // Blue Arrow Icon Component
 function BlueArrowIcon() {

@@ -5,23 +5,11 @@ import { RelatedPosts } from "@/components/blog/related-posts";
 import Image from "next/image";
 import Link from "next/link";
 import { Metadata } from "next";
+import { createRouteMetadata } from "@/lib/seo";
 
-export const metadata: Metadata = {
-  alternates: {
-    canonical:
-      "https://topfinanzas.com/mx/finanzas-personales/deuda-buena-vs-deuda-mala-aprende-a-diferenciarlas",
-    languages: {
-      "es-MX":
-        "https://topfinanzas.com/mx/finanzas-personales/deuda-buena-vs-deuda-mala-aprende-a-diferenciarlas",
-    },
-  },
-  title:
-    "Deuda Buena vs. Deuda Mala: Aprende a Diferenciarlas | Top Finanzas MX",
-  description:
-    "Entender la diferencia entre deuda «buena» y deuda «mala» es una de las lecciones más valiosas para tomar el control de tu dinero.",
-  keywords:
-    "deuda buena, deuda mala, finanzas personales, educación financiera, crédito hipotecario, crédito educativo, tarjetas de crédito",
-};
+export const metadata: Metadata = createRouteMetadata(
+  "/finanzas-personales/deuda-buena-vs-deuda-mala-aprende-a-diferenciarlas",
+);
 
 export default function DeudaBuenaVsDeudaMalaPage() {
   return (

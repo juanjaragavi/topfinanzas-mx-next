@@ -6,20 +6,11 @@ import { ActionBanner } from "@/components/ui/action-banner";
 import Image from "next/image";
 import Link from "next/link";
 import { Metadata } from "next";
+import { createRouteMetadata } from "@/lib/seo";
 
-export const metadata: Metadata = {
-  alternates: {
-    canonical:
-      "https://topfinanzas.com/mx/soluciones-financieras/requisitos-prestamos-afluenta",
-    languages: {
-      "es-MX":
-        "https://topfinanzas.com/mx/soluciones-financieras/requisitos-prestamos-afluenta",
-    },
-  },
-  title: "Requisitos de los préstamos de Afluenta | Top Finanzas MX",
-  description:
-    "Afluenta permite acceder a financiamiento P2P sin bancos tradicionales. Conoce los requisitos, documentación y proceso de solicitud.",
-};
+export const metadata: Metadata = createRouteMetadata(
+  "/soluciones-financieras/requisitos-prestamos-afluenta",
+);
 
 // Afluenta Check Icon (Blue-950)
 function AfluentaCheckIcon() {

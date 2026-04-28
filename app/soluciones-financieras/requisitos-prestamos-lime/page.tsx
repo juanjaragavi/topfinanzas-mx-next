@@ -6,20 +6,11 @@ import { ActionBanner } from "@/components/ui/action-banner";
 import Image from "next/image";
 import Link from "next/link";
 import { Metadata } from "next";
+import { createRouteMetadata } from "@/lib/seo";
 
-export const metadata: Metadata = {
-  alternates: {
-    canonical:
-      "https://topfinanzas.com/mx/soluciones-financieras/requisitos-prestamos-lime",
-    languages: {
-      "es-MX":
-        "https://topfinanzas.com/mx/soluciones-financieras/requisitos-prestamos-lime",
-    },
-  },
-  title: "Requisitos de los préstamos con Lime | Top Finanzas MX",
-  description:
-    "Conoce los requisitos para solicitar un préstamo con Lime. Proceso 100% digital, sin avales y con respuesta inmediata para emergencias.",
-};
+export const metadata: Metadata = createRouteMetadata(
+  "/soluciones-financieras/requisitos-prestamos-lime",
+);
 
 // Custom Icon for Bullet Points (Color matched: #7bb120 -> Tailwind lime-600)
 function LimeCheckIcon() {

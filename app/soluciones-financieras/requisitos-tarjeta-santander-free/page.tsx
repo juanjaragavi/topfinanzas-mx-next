@@ -6,21 +6,11 @@ import { ActionBanner } from "@/components/ui/action-banner";
 import Image from "next/image";
 import Link from "next/link";
 import { Metadata } from "next";
+import { createRouteMetadata } from "@/lib/seo";
 
-export const metadata: Metadata = {
-  alternates: {
-    canonical:
-      "https://topfinanzas.com/mx/soluciones-financieras/requisitos-tarjeta-santander-free",
-    languages: {
-      "es-MX":
-        "https://topfinanzas.com/mx/soluciones-financieras/requisitos-tarjeta-santander-free",
-    },
-  },
-  title:
-    "Requisitos para solicitar la tarjeta Santander Free | Top Finanzas MX",
-  description:
-    "Conoce los requisitos, beneficios y proceso de solicitud de la Tarjeta Santander Free. Una opción ideal sin anualidad bajo un consumo mínimo mensual.",
-};
+export const metadata: Metadata = createRouteMetadata(
+  "/soluciones-financieras/requisitos-tarjeta-santander-free",
+);
 
 // Red Arrow Icon Component (Color: #d92d21 approx Red-600)
 function RedArrowIcon() {

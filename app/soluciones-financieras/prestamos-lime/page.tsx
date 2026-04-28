@@ -5,23 +5,11 @@ import { CompactFooter } from "@/components/layout/compact-footer";
 import { AIContentDisclaimer } from "@/components/ui/ai-content-disclaimer";
 import { Metadata } from "next";
 import { RelatedPosts } from "@/components/blog/related-posts";
+import { createRouteMetadata } from "@/lib/seo";
 
-export const metadata: Metadata = {
-  alternates: {
-    canonical:
-      "https://topfinanzas.com/mx/soluciones-financieras/prestamos-lime",
-    languages: {
-      "es-MX":
-        "https://topfinanzas.com/mx/soluciones-financieras/prestamos-lime",
-    },
-  },
-  title:
-    "Préstamos Lime: Microcréditos para tus emergencias financieras | Top Finanzas MX",
-  description:
-    "Accede a microcréditos de manera rápida y completamente en línea con Préstamos Lime. Obtén aprobación en minutos y plazos flexibles.",
-  keywords:
-    "préstamos lime, microcréditos, préstamos en línea, préstamos rápidos, préstamos personales",
-};
+export const metadata: Metadata = createRouteMetadata(
+  "/soluciones-financieras/prestamos-lime",
+);
 
 export default function PrestamosLimePage() {
   return (

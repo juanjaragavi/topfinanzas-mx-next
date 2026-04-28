@@ -5,23 +5,11 @@ import { RelatedPosts } from "@/components/blog/related-posts";
 import Image from "next/image";
 import Link from "next/link";
 import { Metadata } from "next";
+import { createRouteMetadata } from "@/lib/seo";
 
-export const metadata: Metadata = {
-  alternates: {
-    canonical:
-      "https://topfinanzas.com/mx/finanzas-personales/las-mejores-tarjetas-de-credito-para-viajar-guia-para-principiantes",
-    languages: {
-      "es-MX":
-        "https://topfinanzas.com/mx/finanzas-personales/las-mejores-tarjetas-de-credito-para-viajar-guia-para-principiantes",
-    },
-  },
-  title:
-    "Las Mejores Tarjetas de Crédito para Viajar: Guía para Principiantes | Top Finanzas MX",
-  description:
-    "Si viajar es una de tus prioridades, una tarjeta de crédito especializada puede ser tu mejor aliada. En esta guía, analizaremos los beneficios clave, los costos ocultos que debes vigilar y cómo elegir la tarjeta que realmente se alinee con tu estilo de vida.",
-  keywords:
-    "tarjetas de crédito para viajar, mejores tarjetas de crédito viajes, puntos y millas, beneficios tarjetas de crédito, finanzas personales méxico, viajes y finanzas",
-};
+export const metadata: Metadata = createRouteMetadata(
+  "/finanzas-personales/las-mejores-tarjetas-de-credito-para-viajar-guia-para-principiantes",
+);
 
 export default function LasMejoresTarjetasDeCreditoParaViajarPage() {
   return (

@@ -5,20 +5,11 @@ import Image from "next/image";
 import Link from "next/link";
 import { Metadata } from "next";
 import { RelatedPosts } from "@/components/blog/related-posts";
+import { createRouteMetadata } from "@/lib/seo";
 
-export const metadata: Metadata = {
-  alternates: {
-    canonical:
-      "https://topfinanzas.com/mx/soluciones-financieras/tarjeta-de-credito-vexi-carnet",
-    languages: {
-      "es-MX":
-        "https://topfinanzas.com/mx/soluciones-financieras/tarjeta-de-credito-vexi-carnet",
-    },
-  },
-  title: "Beneficios de la tarjeta de crédito Vexi Carnet | Top Finanzas MX",
-  description:
-    "Conoce la tarjeta de crédito Vexi Carnet: sin anualidad, con programa de recompensas y ideal para iniciar tu historial crediticio.",
-};
+export const metadata: Metadata = createRouteMetadata(
+  "/soluciones-financieras/tarjeta-de-credito-vexi-carnet",
+);
 
 // Pink Arrow Icon Component
 function PinkArrowIcon() {

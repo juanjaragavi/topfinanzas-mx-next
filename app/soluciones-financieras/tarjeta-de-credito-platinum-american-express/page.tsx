@@ -6,21 +6,11 @@ import Link from "next/link";
 import { Button } from "@/components/ui/button";
 import { Metadata } from "next";
 import { RelatedPosts } from "@/components/blog/related-posts";
+import { createRouteMetadata } from "@/lib/seo";
 
-export const metadata: Metadata = {
-  alternates: {
-    canonical:
-      "https://topfinanzas.com/mx/soluciones-financieras/tarjeta-de-credito-platinum-american-express",
-    languages: {
-      "es-MX":
-        "https://topfinanzas.com/mx/soluciones-financieras/tarjeta-de-credito-platinum-american-express",
-    },
-  },
-  title:
-    "Beneficios de la tarjeta de Crédito Platinum American Express | Top Finanzas MX",
-  description:
-    "La Tarjeta Platinum American Express ofrece acceso a salones VIP, concierge 24/7, puntos Membership Rewards y seguros de viaje completos.",
-};
+export const metadata: Metadata = createRouteMetadata(
+  "/soluciones-financieras/tarjeta-de-credito-platinum-american-express",
+);
 
 // Blue Arrow Icon Component
 function BlueArrowIcon() {

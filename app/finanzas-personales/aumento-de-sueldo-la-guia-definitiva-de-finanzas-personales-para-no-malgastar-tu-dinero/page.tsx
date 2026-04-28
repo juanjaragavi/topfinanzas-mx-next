@@ -5,23 +5,11 @@ import { RelatedPosts } from "@/components/blog/related-posts";
 import Image from "next/image";
 import Link from "next/link";
 import { Metadata } from "next";
+import { createRouteMetadata } from "@/lib/seo";
 
-export const metadata: Metadata = {
-  alternates: {
-    canonical:
-      "https://topfinanzas.com/mx/finanzas-personales/aumento-de-sueldo-la-guia-definitiva-de-finanzas-personales-para-no-malgastar-tu-dinero",
-    languages: {
-      "es-MX":
-        "https://topfinanzas.com/mx/finanzas-personales/aumento-de-sueldo-la-guia-definitiva-de-finanzas-personales-para-no-malgastar-tu-dinero",
-    },
-  },
-  title:
-    "Aumento de Sueldo: La Guía Definitiva de Finanzas Personales para No Malgastar tu Dinero | Top Finanzas MX",
-  description:
-    "¡Felicidades! Has trabajado duro y finalmente llegó la noticia que esperabas: un aumento de sueldo. Esta guía te ayudará a tomar las mejores decisiones para que tu aumento se traduzca en verdadero bienestar financiero a largo plazo.",
-  keywords:
-    "aumento de sueldo, finanzas personales, ahorro, inversión, salir de deudas, fondo de emergencia, inflación del estilo de vida",
-};
+export const metadata: Metadata = createRouteMetadata(
+  "/finanzas-personales/aumento-de-sueldo-la-guia-definitiva-de-finanzas-personales-para-no-malgastar-tu-dinero",
+);
 
 export default function AumentoDeSueldoPage() {
   return (
