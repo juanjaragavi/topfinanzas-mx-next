@@ -51,12 +51,7 @@ export default function RequisitosTarjetaSantanderFreePage() {
             </h1>
 
             {/* Ad Unit: square03 */}
-            <div
-              id="square03"
-              data-topads
-              data-topads-size="square"
-              className="my-8"
-            ></div>
+            <div id="av_content_2" className="my-8"></div>
 
             {/* Intro Section */}
             <p className="text-lg text-gray-700 mb-6 font-normal">
@@ -172,12 +167,7 @@ export default function RequisitosTarjetaSantanderFreePage() {
             </p>
 
             {/* Ad Unit: square04 (Placed reasonably mid-content) */}
-            <div
-              id="square04"
-              data-topads
-              data-topads-size="square"
-              className="my-8"
-            ></div>
+            <div id="av_content_2" className="my-8"></div>
 
             {/* Requisitos */}
             <h2 className="text-2xl md:text-3xl font-bold text-gray-700 mt-10 mb-4 leading-tight">

@@ -50,12 +50,7 @@ export default function RequisitosHSBCZeroPage() {
               Conoce los requisitos Tarjeta HSBC Zero
             </h1>
 
-            <div
-              id="square03"
-              data-topads
-              data-topads-size="square"
-              className="my-8"
-            ></div>
+            <div id="av_content_2" className="my-8"></div>
 
             {/* Intro Paragraph */}
             <p className="text-lg text-gray-700 mb-6">
@@ -86,12 +81,7 @@ export default function RequisitosHSBCZeroPage() {
               siguientes criterios:
             </p>
 
-            <div
-              id="square04"
-              data-topads
-              data-topads-size="square"
-              className="my-8"
-            ></div>
+            <div id="av_content_2" className="my-8"></div>
 
             <ul className="space-y-4 mb-10">
               <li className="flex items-start">

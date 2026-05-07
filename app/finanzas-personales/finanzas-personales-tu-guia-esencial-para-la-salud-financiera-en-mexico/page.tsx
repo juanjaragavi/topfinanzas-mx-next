@@ -51,9 +51,7 @@ export default function FinanzasPersonalesGuiaPage() {
               {/* Ad Unit - Square 01 */}
               <div className="flex justify-center my-8">
                 <div
-                  id="square01"
-                  data-topads
-                  data-topads-size="square"
+                  id="av_top"
                   className="min-h-[250px] w-full max-w-[300px] bg-gray-200/10 rounded-lg flex items-center justify-center"
                 ></div>
               </div>

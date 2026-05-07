@@ -50,12 +50,7 @@ export default function RequisitosTarjetaHSBCAirPage() {
               Conoce los requisitos Tarjeta HSBC Air
             </h1>
 
-            <div
-              id="square03"
-              data-topads
-              data-topads-size="square"
-              className="my-8"
-            ></div>
+            <div id="av_content_2" className="my-8"></div>
 
             {/* Intro Paragraph */}
             <p className="text-lg text-gray-700 mb-6">
@@ -101,12 +96,7 @@ export default function RequisitosTarjetaHSBCAirPage() {
               manejar sus compromisos crediticios.
             </p>
 
-            <div
-              id="square04"
-              data-topads
-              data-topads-size="square"
-              className="my-8"
-            ></div>
+            <div id="av_content_2" className="my-8"></div>
 
             <h3 className="text-xl font-bold text-gray-800 mb-4">
               2. Documentación necesaria

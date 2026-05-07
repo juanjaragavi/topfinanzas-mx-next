@@ -45,9 +45,7 @@ export default function AumentoSueldoPage() {
               {/* Ad Unit - Square01 */}
               <div className="flex justify-center my-8">
                 <div
-                  id="square01"
-                  data-topads
-                  data-topads-size="square"
+                  id="av_top"
                   className="min-h-[250px] bg-gray-100/10 rounded-lg flex items-center justify-center"
                 ></div>
               </div>

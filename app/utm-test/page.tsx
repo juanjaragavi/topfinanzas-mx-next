@@ -6,7 +6,6 @@ import { useSearchParams } from "next/navigation";
 import { testUtmPersistence } from "@/components/analytics/utm-test";
 import { Button } from "@/components/ui/button";
 import { utmLogger } from "@/lib/logger";
-import { TopAdsSquare } from "@/components/ads/topads-placement";
 import { CompactFooter } from "@/components/layout/compact-footer";
 
 // Client Component that uses useSearchParams
@@ -65,7 +64,18 @@ function UtmTestContent() {
         </p>
 
         {/* TopAds Test Placement 1 */}
-        <TopAdsSquare id="square01" />
+        <div>
+          <p
+            style={{
+              fontSize: "10px",
+              textTransform: "uppercase",
+              textAlign: "center",
+            }}
+          >
+            Ads
+          </p>
+          <div id="av_top"></div>
+        </div>
 
         <div className="flex flex-col gap-4">
           <p className="font-semibold">Navigate to different pages:</p>
@@ -96,7 +106,18 @@ function UtmTestContent() {
         </div>
 
         {/* TopAds Test Placement 2 */}
-        <TopAdsSquare id="square02" />
+        <div>
+          <p
+            style={{
+              fontSize: "10px",
+              textTransform: "uppercase",
+              textAlign: "center",
+            }}
+          >
+            Ads
+          </p>
+          <div id="av_content_1"></div>
+        </div>
 
         <div className="mt-8 p-4 bg-blue-50 rounded-sm">
           <h2 className="text-xl font-semibold mb-2">TopAds Test</h2>

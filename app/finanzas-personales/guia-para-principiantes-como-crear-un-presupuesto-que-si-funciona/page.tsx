@@ -42,13 +42,9 @@ export default function PresupuestoPrincipiantesPage() {
               {/* Ad Unit - square01 */}
               <div className="flex justify-center my-8">
                 <div
-                  id="square01"
-                  data-topads
-                  data-topads-size="square"
+                  id="av_top"
                   className="min-h-[250px] min-w-[300px] bg-gray-200/10 rounded-lg flex items-center justify-center text-white/30 text-sm"
-                >
-                  {/* Ad Placeholder */}
-                </div>
+                ></div>
               </div>
 
               <p className="text-xl md:text-2xl text-blue-100 mb-8 leading-relaxed">

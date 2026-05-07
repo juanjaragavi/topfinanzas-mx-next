@@ -62,11 +62,9 @@ export default function DiDiPrestamosPage() {
           {/* Ad Unit - Square */}
           <div className="mb-8 flex justify-center">
             <div
-              id="square02"
+              id="av_content_1"
               className="min-h-[250px] min-w-[300px] bg-slate-100"
-              data-topads
-              data-topads-size="square"
-            />
+            ></div>
           </div>
 
           {/* Hero Image */}

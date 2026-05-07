@@ -37,7 +37,7 @@ function CreditCardRecommenderPageContent() {
               y elige la tarjeta ideal para ti!
             </p>
 
-            <div id="square01" data-topads data-topads-size="square"></div>
+            <div id="av_top"></div>
 
             <h2 className="text-lg leading-5 font-bold text-gray-800 mb-6 mt-8">
               ¿Por qué elegir nuestro recomendador de tarjetas de crédito?

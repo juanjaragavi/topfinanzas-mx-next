@@ -50,12 +50,7 @@ export default function RequisitosRappiCardPage() {
               Requisitos para solicitar la RappiCard
             </h1>
 
-            <div
-              id="square03"
-              data-topads
-              data-topads-size="square"
-              className="my-8"
-            ></div>
+            <div id="av_content_2" className="my-8"></div>
 
             {/* Intro Text */}
             <p className="text-lg text-gray-700 mb-6">
@@ -100,12 +95,7 @@ export default function RequisitosRappiCardPage() {
               siguientes requisitos:
             </p>
 
-            <div
-              id="square04"
-              data-topads
-              data-topads-size="square"
-              className="my-8"
-            ></div>
+            <div id="av_content_2" className="my-8"></div>
 
             <ul className="space-y-4 mb-10">
               <li className="flex items-start">

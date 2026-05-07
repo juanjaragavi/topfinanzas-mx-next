@@ -49,12 +49,7 @@ export default function BeneficiosAeromexicoSantanderPage() {
               Beneficios de las tarjetas de crédito Aeroméxico Santander
             </h1>
 
-            <div
-              id="square01"
-              data-topads
-              data-topads-size="square"
-              className="my-8"
-            ></div>
+            <div id="av_top" className="my-8"></div>
 
             {/* Intro Section */}
             <p className="text-lg text-gray-700 mb-6 font-normal">
@@ -91,12 +86,7 @@ export default function BeneficiosAeromexicoSantanderPage() {
               />
             </div>
 
-            <div
-              id="square02"
-              data-topads
-              data-topads-size="square"
-              className="my-8"
-            ></div>
+            <div id="av_content_1" className="my-8"></div>
 
             {/* Principales Beneficios */}
             <h2 className="text-2xl md:text-3xl font-bold text-gray-700 mt-10 mb-4 leading-tight">

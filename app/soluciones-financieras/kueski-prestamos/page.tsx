@@ -49,12 +49,7 @@ export default function KueskiPrestamosPage() {
               Kueski préstamos: crédito fácil y seguro sin buró
             </h1>
 
-            <div
-              id="square02"
-              data-topads
-              data-topads-size="square"
-              className="my-8"
-            ></div>
+            <div id="av_content_1" className="my-8"></div>
 
             {/* Featured Image */}
             <div className="mb-8 relative w-full h-[400px] rounded-lg overflow-hidden shadow-md">
@@ -182,12 +177,7 @@ export default function KueskiPrestamosPage() {
               la plataforma al prestar sin historial crediticio.
             </p>
 
-            <div
-              id="square03"
-              data-topads
-              data-topads-size="square"
-              className="my-8"
-            ></div>
+            <div id="av_content_2" className="my-8"></div>
 
             <h2 className="text-2xl font-bold text-gray-900 mt-10 mb-4">
               Acceso sin buró de crédito
@@ -215,12 +205,7 @@ export default function KueskiPrestamosPage() {
               cliente según el Buró de Entidades Financieras.
             </p>
 
-            <div
-              id="square04"
-              data-topads
-              data-topads-size="square"
-              className="my-8"
-            ></div>
+            <div id="av_content_2" className="my-8"></div>
 
             <h2 className="text-2xl font-bold text-gray-900 mt-10 mb-4">
               ¿Te conviene solicitar un préstamo con Kueski?

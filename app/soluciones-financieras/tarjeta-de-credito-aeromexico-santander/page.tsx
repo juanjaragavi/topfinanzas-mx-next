@@ -49,12 +49,7 @@ export default function TarjetaAeromexicoSantanderPage() {
               Beneficios de la tarjeta Aeroméxico Santander
             </h1>
 
-            <div
-              id="square02"
-              data-topads
-              data-topads-size="square"
-              className="my-8"
-            ></div>
+            <div id="av_content_1" className="my-8"></div>
 
             {/* Intro Section */}
             <p className="text-lg text-gray-700 mb-6 font-normal">

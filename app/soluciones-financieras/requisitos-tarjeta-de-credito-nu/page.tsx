@@ -58,12 +58,7 @@ export default function RequisitosTarjetaCreditoNuPage() {
               </Link>
             </div>
 
-            <div
-              id="square03"
-              data-topads
-              data-topads-size="square"
-              className="my-8"
-            ></div>
+            <div id="av_content_2" className="my-8"></div>
 
             <p className="text-lg text-gray-700 mb-6 font-normal">
               Descubre los pasos y requisitos esenciales para obtener tu Tarjeta
@@ -122,12 +117,7 @@ export default function RequisitosTarjetaCreditoNuPage() {
               criticado por sus cargos inesperados.
             </p>
 
-            <div
-              id="square04"
-              data-topads
-              data-topads-size="square"
-              className="my-8"
-            ></div>
+            <div id="av_content_2" className="my-8"></div>
 
             <ul className="space-y-3 mb-8">
               <li className="flex items-start">

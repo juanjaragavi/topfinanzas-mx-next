@@ -34,11 +34,7 @@ export default function FondoEmergenciaPage() {
 
                 {/* Ad Unit - Square 01 */}
                 <div className="my-6 flex justify-center">
-                  <div
-                    id="square01"
-                    data-topads
-                    data-topads-size="square"
-                  ></div>
+                  <div id="av_top"></div>
                 </div>
 
                 <div className="flex items-center text-gray-500 text-sm mb-8">

@@ -28,12 +28,7 @@ export default function PrestamosLimePage() {
             </h1>
 
             {/* Ad Unit 1 */}
-            <div
-              id="square02"
-              data-topads
-              data-topads-size="square"
-              className="my-8"
-            ></div>
+            <div id="av_content_1" className="my-8"></div>
 
             <div className="my-8 text-left sm:text-left">
               {/* Opening Paragraph */}
@@ -174,12 +169,7 @@ export default function PrestamosLimePage() {
                 </p>
 
                 {/* Ad Unit 2 */}
-                <div
-                  id="square02"
-                  data-topads
-                  data-topads-size="square"
-                  className="my-8"
-                ></div>
+                <div id="av_content_1" className="my-8"></div>
 
                 <hr className="my-8" />
 

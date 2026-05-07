@@ -51,12 +51,7 @@ export default function RequisitosTarjetaPlatinumAmexPage() {
               Express
             </h1>
 
-            <div
-              id="square03"
-              data-topads
-              data-topads-size="square"
-              className="my-8"
-            ></div>
+            <div id="av_content_2" className="my-8"></div>
 
             {/* Intro Section */}
             <p className="text-lg text-gray-700 mb-6 font-normal">
@@ -130,12 +125,7 @@ export default function RequisitosTarjetaPlatinumAmexPage() {
               enumeramos los requisitos más importantes.
             </p>
 
-            <div
-              id="square04"
-              data-topads
-              data-topads-size="square"
-              className="my-8"
-            ></div>
+            <div id="av_content_2" className="my-8"></div>
 
             <p className="text-lg text-gray-700 mb-6 font-normal">
               La Tarjeta de Crédito Platinum American Express requiere cumplir

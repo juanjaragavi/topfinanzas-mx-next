@@ -48,12 +48,7 @@ export default function RequisitosMoneymanPrestamosPage() {
               Requisitos para solicitar un préstamo en Moneyman
             </h1>
 
-            <div
-              id="square03"
-              data-topads
-              data-topads-size="square"
-              className="my-8"
-            ></div>
+            <div id="av_content_2" className="my-8"></div>
 
             {/* Intro Section */}
             <p className="text-lg text-gray-700 mb-6 font-normal">
@@ -76,12 +71,7 @@ export default function RequisitosMoneymanPrestamosPage() {
               </Link>
             </p>
 
-            <div
-              id="square04"
-              data-topads
-              data-topads-size="square"
-              className="my-8"
-            ></div>
+            <div id="av_content_2" className="my-8"></div>
 
             {/* Image 1 (Hero) */}
             <div className="w-full my-8">

@@ -36,7 +36,7 @@ export default function InvitRecomendadorTarjetasMXPage() {
               acumulas recompensas significativas.
             </p>
 
-            <div id="square01" data-topads data-topads-size="square"></div>
+            <div id="av_top"></div>
 
             <p className="px-2 text-left text-sm text-gray-900 mb-2">
               Por favor selecciona la opción de límite que mejor se ajuste a tus

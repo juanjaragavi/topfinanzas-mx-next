@@ -49,12 +49,7 @@ export default function TarjetaBSmartUPage() {
               Beneficios de la tarjeta Bsmart U de Banamex
             </h1>
 
-            <div
-              id="square02"
-              data-topads
-              data-topads-size="square"
-              className="my-8"
-            ></div>
+            <div id="av_content_1" className="my-8"></div>
 
             {/* Introduction Summary */}
             <p className="text-lg text-gray-700 mb-6">

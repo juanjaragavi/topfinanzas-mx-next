@@ -49,12 +49,7 @@ export default function TarjetaVexiCarnetPage() {
               Beneficios de la tarjeta de crédito Vexi Carnet
             </h1>
 
-            <div
-              id="square02"
-              data-topads
-              data-topads-size="square"
-              className="my-8"
-            ></div>
+            <div id="av_content_1" className="my-8"></div>
 
             {/* Introduction Summary */}
             <p className="text-lg text-gray-700 mb-6">

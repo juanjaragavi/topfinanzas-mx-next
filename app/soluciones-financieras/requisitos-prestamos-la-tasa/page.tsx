@@ -51,12 +51,7 @@ export default function RequisitosLaTasaPage() {
             </h1>
 
             {/* Ad Unit: square03 */}
-            <div
-              id="square03"
-              data-topads
-              data-topads-size="square"
-              className="my-8"
-            ></div>
+            <div id="av_content_2" className="my-8"></div>
 
             {/* Intro Content */}
             <p className="text-xl text-gray-700 font-bold mb-4">
@@ -134,12 +129,7 @@ export default function RequisitosLaTasaPage() {
             </ul>
 
             {/* Ad Unit: square04 (After Requisitos list, before Proceso) */}
-            <div
-              id="square04"
-              data-topads
-              data-topads-size="square"
-              className="my-8"
-            ></div>
+            <div id="av_content_2" className="my-8"></div>
 
             {/* Standard ActionBanner 1 */}
             <ActionBanner

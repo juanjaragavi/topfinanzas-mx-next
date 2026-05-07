@@ -47,12 +47,7 @@ export default function TarjetaDeCreditoTigresAfirmePage() {
               Beneficios de la Tarjeta de Crédito Tigres Afirme
             </h1>
 
-            <div
-              id="square02"
-              data-topads
-              data-topads-size="square"
-              className="my-8"
-            ></div>
+            <div id="av_content_1" className="my-8"></div>
 
             <p className="text-lg text-gray-700 mb-6">
               La Tarjeta de Crédito Tigres Afirme es más que un simple

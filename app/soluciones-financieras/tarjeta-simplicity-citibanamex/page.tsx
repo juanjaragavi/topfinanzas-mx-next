@@ -49,12 +49,7 @@ export default function TarjetaSimplicityPage() {
               Beneficios de la Tarjeta de Crédito Joy Banamex
             </h1>
 
-            <div
-              id="square02"
-              data-topads
-              data-topads-size="square"
-              className="my-8"
-            ></div>
+            <div id="av_content_1" className="my-8"></div>
 
             {/* Introduction Summary */}
             <p className="text-lg text-gray-700 mb-6">
@@ -188,12 +183,7 @@ export default function TarjetaSimplicityPage() {
               </li>
             </ul>
 
-            <div
-              id="square02"
-              data-topads
-              data-topads-size="square"
-              className="my-8"
-            ></div>
+            <div id="av_content_1" className="my-8"></div>
 
             {/* Section: ¿Qué debo hacer para solicitarla? */}
             <h2 className="text-2xl md:text-3xl font-bold text-gray-700 mt-10 mb-4">

@@ -29,12 +29,7 @@ export default function PrestamosPersonalesPage() {
               manejar deudas?
             </h1>
 
-            <div
-              id="square02"
-              data-topads
-              data-topads-size="square"
-              className="my-8"
-            ></div>
+            <div id="av_content_1" className="my-8"></div>
 
             {/* Intro */}
             <p className="text-lg text-gray-700 mb-6 leading-relaxed">

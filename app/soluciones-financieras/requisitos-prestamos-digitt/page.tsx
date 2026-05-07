@@ -48,12 +48,7 @@ export default function RequisitosPrestamosDigittPage() {
               Requisitos para solicitar un préstamo con Digitt
             </h1>
 
-            <div
-              id="square03"
-              data-topads
-              data-topads-size="square"
-              className="my-8"
-            ></div>
+            <div id="av_content_2" className="my-8"></div>
 
             {/* Intro Section */}
             <p className="text-lg text-gray-700 mb-6 font-normal">
@@ -99,12 +94,7 @@ export default function RequisitosPrestamosDigittPage() {
               de edad y documentación.
             </p>
 
-            <div
-              id="square04"
-              data-topads
-              data-topads-size="square"
-              className="my-8"
-            ></div>
+            <div id="av_content_2" className="my-8"></div>
 
             <p className="text-gray-700 mb-6 font-normal">
               Conoce más:{" "}

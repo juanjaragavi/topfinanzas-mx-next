@@ -47,12 +47,7 @@ export default function TarjetaStoriVentajasDesventajasPage() {
               Tarjeta de Crédito Stori: Ideal para estudiantes
             </h1>
 
-            <div
-              id="square02"
-              data-topads
-              data-topads-size="square"
-              className="my-8"
-            ></div>
+            <div id="av_content_1" className="my-8"></div>
 
             <p className="text-gray-700 mb-6 leading-tight">
               Controla tus gastos con facilidad y aprovecha los beneficios
