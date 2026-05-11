@@ -6,9 +6,6 @@ import fs from "fs";
 import path from "path";
 import "./globals.css";
 import { logger } from "@/lib/logger";
-import GoogleTagManager, {
-  GoogleTagManagerNoScript,
-} from "@/components/analytics/gtm";
 import GoogleAds, {
   GoogleAdsNoScript,
 } from "@/components/analytics/google-ads";
@@ -176,6 +173,24 @@ export default function RootLayout({
   return (
     <html lang="es-mx">
       <head>
+
+        <script
+          dangerouslySetInnerHTML={{
+            __html: `(function (w, d, s, l, i) {
+    w[l] = w[l] || [];
+    w[l].push({
+      "gtm.start": new Date().getTime(),
+      event: "gtm.js",
+    });
+    var f = d.getElementsByTagName(s)[0],
+      j = d.createElement(s),
+      dl = l != "dataLayer" ? "&l=" + l : "";
+    j.async = true;
+    j.src = "https://www.googletagmanager.com/gtm.js?id=" + i + dl;
+    f.parentNode.insertBefore(j, f);
+  })(window, document, "script", "dataLayer", "GTM-K753GNBZ");`,
+          }}
+        />
         <link
           rel="preload"
           as="script"
@@ -211,7 +226,6 @@ export default function RootLayout({
         />
 
         <ClientOnly>
-          <GoogleTagManager />
           <GoogleAds />
           <GoogleAdManager />
           {ENABLE_ADZEP && <AdZep />}
@@ -238,7 +252,11 @@ export default function RootLayout({
         {/* Manifest is served via metadata.manifest using API route */}
       </head>
       <body className={`${poppins.variable} font-sans text-left sm:text-left`}>
-        <GoogleTagManagerNoScript />
+        <noscript
+          dangerouslySetInnerHTML={{
+            __html: `<iframe src="https://www.googletagmanager.com/ns.html?id=GTM-K753GNBZ" height="0" width="0" style="display:none;visibility:hidden"></iframe>`,
+          }}
+        />
         <GoogleAdsNoScript />
         <MobileMenuProvider>
           {/*<PreloaderProvider
