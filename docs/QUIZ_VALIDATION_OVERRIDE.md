@@ -55,8 +55,8 @@ Check NEXT_PUBLIC_COOKIE_VALIDATION_ENABLED
 
 ⚠️ **CRITICAL**: `NEXT_PUBLIC_*` environment variables are **inlined at build time** in Next.js. Changing these values requires:
 
-1. **Development**: Restart dev server (`npm run dev`)
-2. **Production**: Full rebuild (`npm run build`)
+1. **Development**: Restart dev server (`pnpm dev`)
+2. **Production**: Full rebuild (`pnpm build`)
 
 Simply changing the `.env` file **will not** take effect until rebuild/restart.
 
@@ -81,7 +81,7 @@ NEXT_PUBLIC_COOKIE_SHORT_EXPIRATION=1
 lsof -ti:3030 | xargs kill -9
 
 # Start fresh server
-npm run dev
+pnpm dev
 ```
 
 **Step 3**: Verify in browser console
@@ -109,7 +109,7 @@ NEXT_PUBLIC_COOKIE_SHORT_EXPIRATION=30
 
 ```bash
 lsof -ti:3030 | xargs kill -9
-npm run dev
+pnpm dev
 ```
 
 **Step 3**: Clear existing cookies (optional)
@@ -134,7 +134,7 @@ localStorage.removeItem("tf_recommender_lock");
 echo 'NEXT_PUBLIC_COOKIE_VALIDATION_ENABLED=false' >> .env.local
 
 # 2. Restart server
-npm run dev
+pnpm dev
 
 # 3. Access quiz multiple times
 # Expected: Quiz renders every time, no redirect
@@ -147,7 +147,7 @@ npm run dev
 echo 'NEXT_PUBLIC_COOKIE_VALIDATION_ENABLED=true' >> .env.local
 
 # 2. Restart server
-npm run dev
+pnpm dev
 
 # 3. Complete quiz once
 # Expected: Cookie set, subsequent access redirects
@@ -161,7 +161,7 @@ grep NEXT_PUBLIC_COOKIE_VALIDATION_ENABLED .env.production
 # Should show: NEXT_PUBLIC_COOKIE_VALIDATION_ENABLED=true
 
 # 2. Build and start production mode
-npm run build
+pnpm build
 npm start
 
 # 3. Test validation
@@ -241,7 +241,7 @@ Before deploying:
 
 1. Check `.env.production` file content
 2. Verify no `.env.production.local` override
-3. Rebuild: `npm run build`
+3. Rebuild: `pnpm build`
 4. Check build logs for environment variable values
 
 ### Cookie Persisting After Override

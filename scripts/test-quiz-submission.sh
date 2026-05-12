@@ -205,7 +205,7 @@ else
   echo "   - GOOGLE_PRIVATE_KEY"
   echo "   - GOOGLE_SHEET_ID"
   echo ""
-  echo "3. Restart dev server: npm run dev"
+  echo "3. Restart dev server: pnpm dev"
 fi
 
 echo ""

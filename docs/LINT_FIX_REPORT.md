@@ -6,7 +6,7 @@
 
 ## Process
 
-1. Ran `npm run lint` in the project root.
+1. Ran `pnpm lint` in the project root.
 2. The command returned: `✔ No ESLint warnings or errors`.
 
 ## Conclusion

@@ -71,7 +71,7 @@ echo "   Starting new server with updated environment..."
 echo ""
 
 # Start dev server in background
-npm run dev > /dev/null 2>&1 &
+pnpm dev > /dev/null 2>&1 &
 NEW_PID=$!
 
 echo "   ✓ Server started (PID: $NEW_PID)"

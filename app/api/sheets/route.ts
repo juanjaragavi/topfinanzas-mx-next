@@ -1,4 +1,5 @@
-import { google } from "googleapis";
+export const dynamic = "force-dynamic";
+
 import { NextResponse } from "next/server";
 
 import { apiLogger } from "@/lib/logger";
@@ -55,6 +56,8 @@ export async function POST(req: Request) {
       privateKeyLength: process.env.GOOGLE_PRIVATE_KEY?.length,
       privateKeyStartsWith: process.env.GOOGLE_PRIVATE_KEY?.substring(0, 30),
     });
+
+    const { google } = await import("googleapis");
 
     const auth = new google.auth.GoogleAuth({
       credentials: {

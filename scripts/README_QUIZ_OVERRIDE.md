@@ -74,14 +74,14 @@ bash scripts/activate-quiz-override.sh
 
 ```bash
 echo 'NEXT_PUBLIC_COOKIE_VALIDATION_ENABLED=false' > .env.local
-npm run dev
+pnpm dev
 ```
 
 **Disable (Enable Validation):**
 
 ```bash
 echo 'NEXT_PUBLIC_COOKIE_VALIDATION_ENABLED=true' > .env.local
-npm run dev
+pnpm dev
 ```
 
 ---
@@ -160,7 +160,7 @@ lsof -ti:3030 | xargs kill -9
 rm -rf .next
 
 # Start fresh
-npm run dev
+pnpm dev
 ```
 
 ---
@@ -181,7 +181,7 @@ npm run dev
 2. **Test Production Build Locally**
 
    ```bash
-   npm run build
+   pnpm build
    npm start
    # Test that validation is enforced
    ```

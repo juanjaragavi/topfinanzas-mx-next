@@ -137,14 +137,14 @@ API calls were already updated in a previous fix to include `/mx/` prefix:
 ESLint validation:
 
 ```bash
-npx next lint
+pnpm exec next lint
 ✔ No ESLint warnings or errors
 ```
 
 Build verification:
 
 ```bash
-npm run build
+pnpm build
 ✓ Compiled successfully
 ✓ 168 pages generated
 ```
@@ -301,8 +301,8 @@ Original behavior will be restored, though 404 errors will return.
 
 Before deploying to production:
 
-✅ Run `npm run build` - verify no errors  
-✅ Run `npx next lint` - verify no warnings  
+✅ Run `pnpm build` - verify no errors  
+✅ Run `pnpm exec next lint` - verify no warnings  
 ✅ Test all quiz form variants  
 ✅ Test navigation menu links  
 ✅ Test back/forward browser navigation  

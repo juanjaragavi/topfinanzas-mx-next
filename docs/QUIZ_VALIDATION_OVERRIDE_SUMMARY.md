@@ -201,7 +201,7 @@ bash scripts/test-quiz-override.sh
 lsof -ti:3030 | xargs kill -9
 
 # Start fresh server
-npm run dev
+pnpm dev
 ```
 
 **Step 3: Verify in Browser**
@@ -247,7 +247,7 @@ echo 'NEXT_PUBLIC_COOKIE_VALIDATION_ENABLED=true' > .env.local
 **Step 2: Rebuild and Start**
 
 ```bash
-npm run build
+pnpm build
 npm start
 ```
 
@@ -348,7 +348,7 @@ npm start
 
 1. ✅ Verify `.env.local` file location (must be in project root)
 2. ✅ Check syntax: `NEXT_PUBLIC_COOKIE_VALIDATION_ENABLED=false` (no quotes)
-3. ✅ Restart dev server: `lsof -ti:3030 | xargs kill -9 && npm run dev`
+3. ✅ Restart dev server: `lsof -ti:3030 | xargs kill -9 && pnpm dev`
 4. ✅ Clear browser cache and cookies
 5. ✅ Check environment in debug page: `/mx/env-debug`
 
@@ -378,7 +378,7 @@ npm start
 1. ✅ Check `.env.production` file content
 2. ✅ Remove `.env.production.local` if exists
 3. ✅ Verify deployment platform environment variables
-4. ✅ Rebuild: `npm run build`
+4. ✅ Rebuild: `pnpm build`
 5. ✅ Review deployment logs for environment variables
 
 ---
@@ -426,7 +426,7 @@ echo 'NEXT_PUBLIC_COOKIE_VALIDATION_ENABLED=false' > .env.local
 echo 'NEXT_PUBLIC_COOKIE_SHORT_EXPIRATION=1' >> .env.local
 
 # 2. Restart dev server
-npm run dev
+pnpm dev
 
 # 3. Verify
 bash scripts/test-quiz-override.sh
@@ -439,7 +439,7 @@ bash scripts/test-quiz-override.sh
 echo 'NEXT_PUBLIC_COOKIE_VALIDATION_ENABLED=true' > .env.local
 
 # 2. Restart dev server
-npm run dev
+pnpm dev
 
 # 3. Test standard flow
 ```

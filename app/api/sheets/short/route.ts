@@ -1,4 +1,5 @@
-import { google } from "googleapis";
+export const dynamic = "force-dynamic";
+
 import { NextResponse } from "next/server";
 
 import { apiLogger } from "@/lib/logger";
@@ -31,6 +32,8 @@ export async function POST(req: Request) {
         { status: 400 },
       );
     }
+
+    const { google } = await import("googleapis");
 
     const auth = new google.auth.GoogleAuth({
       credentials: {

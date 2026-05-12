@@ -375,7 +375,7 @@ We couldn't confirm your registration. Please try again in a moment.
 
 - [ ] Verify `.env.production` has ACTIVECAMPAIGN credentials
 - [ ] Verify Google Sheets credentials in production environment
-- [ ] Test production build locally: `npm run build && npm start`
+- [ ] Test production build locally: `pnpm build && npm start`
 - [ ] Verify ActiveCampaign field IDs match production account
 - [ ] Update ActiveCampaign custom field mappings if needed
 
@@ -454,7 +454,7 @@ echo 'BREVO_API_KEY=your_brevo_key' >> .env.local
 git checkout main -- app/api/subscribe/route.ts
 
 # 3. Restart server
-npm run dev
+pnpm dev
 ```
 
 ### Option 2: Disable Remarketing (Keep Google Sheets)

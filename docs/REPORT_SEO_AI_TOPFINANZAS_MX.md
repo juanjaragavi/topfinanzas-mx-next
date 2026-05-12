@@ -72,7 +72,7 @@ All structured data and metadata additions are server-rendered.
 
 ### Build and Static Generation
 
-`npm run build` completed successfully.
+`pnpm build` completed successfully.
 
 - Compilation succeeded.
 - 170 static App Router pages generated.
@@ -80,7 +80,7 @@ All structured data and metadata additions are server-rendered.
 
 ### Lint
 
-`npm run lint` completed successfully.
+`pnpm lint` completed successfully.
 
 - No ESLint warnings or errors.
 
