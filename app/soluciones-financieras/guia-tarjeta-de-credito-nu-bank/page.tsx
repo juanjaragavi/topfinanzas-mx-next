@@ -129,8 +129,8 @@ export default function GuiaTarjetaDeCreditoNuBankPage() {
               experiencia del usuario y la transparencia convierte a NuBank en
               una opción superior para el consumidor moderno. Además de
               simplificar la gestión financiera, NuBank está respaldada por
-              Mastercard®, lo que garantiza una aceptación global y acceso a una
-              serie de beneficios exclusivos en una amplia gama de comercios
+              Mastercard®, lo que garantiza una aceptación global y acceso a
+              una serie de beneficios exclusivos en una amplia gama de comercios
               afiliados alrededor del mundo.
             </p>
 
@@ -138,8 +138,8 @@ export default function GuiaTarjetaDeCreditoNuBankPage() {
               Respaldada por Mastercard®:
             </h2>
             <p className="text-gray-700 mb-6 font-normal">
-              La alianza con Mastercard® no solo asegura la aceptación global de
-              NuBank sino que también enriquece la oferta con seguridad
+              La alianza con Mastercard® no solo asegura la aceptación global
+              de NuBank sino que también enriquece la oferta con seguridad
               adicional en transacciones y promociones exclusivas. Esta
               colaboración brinda a los titulares de la tarjeta tranquilidad al
               viajar y comprar, con protecciones integradas y ofertas especiales

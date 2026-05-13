@@ -49,7 +49,8 @@ export interface ButtonBaseProps extends VariantProps<typeof buttonVariants> {
 }
 
 export interface ButtonAsButtonProps
-  extends ButtonBaseProps, React.ButtonHTMLAttributes<HTMLButtonElement> {
+  extends ButtonBaseProps,
+    React.ButtonHTMLAttributes<HTMLButtonElement> {
   href?: undefined;
 }
 

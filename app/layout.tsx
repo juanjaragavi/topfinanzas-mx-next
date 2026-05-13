@@ -173,7 +173,6 @@ export default function RootLayout({
   return (
     <html lang="es-mx">
       <head>
-
         <script
           dangerouslySetInnerHTML={{
             __html: `(function (w, d, s, l, i) {
