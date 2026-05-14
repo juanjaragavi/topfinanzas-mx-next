@@ -1,1 +1,1 @@
-chore: end-to-end sync for production deployment
+chore(deploy): sync and deploy MX updates
